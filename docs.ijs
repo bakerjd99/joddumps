@@ -1,4 +1,4 @@
-NB. JOD dictionary dump: 26 Aug 2011 17:44:15
+NB. JOD dictionary dump: 31 Aug 2011 16:31:22
 NB. Generated with JOD version; 0.9.4; 3; 14 Jun 2011 09:38:23
 
 NB.
@@ -24,17 +24,31 @@ AplwinUnicodePoints=:0 1 2 9079 8900 168 8592 7 8 9 10 8834 12 13 8835 9055 16 1
 
 DudDiaryStart=:2009 7 14
 
-HomePIPDocs=:'c:/pd/docs/pip/'
+HomePIPDocs=:'c:/pd/docs'
 
 KindleMetamathTeX=:10 37 32 66 69 71 73 78 32 75 73 78 68 76 69 32 83 105 122 105 110 103 32 40 74 117 108 121 32 53 44 32 50 48 49 49 41 10 92 117 115 101 112 97 99 107 97 103 101 123 98 114 101 113 110 125 32 32 32 32 32 32 32 32 32 32 32 37 32 97 117 116 111 109 97 116 105 99 32 101 113 117 97 116 105 111 110 32 98 114 101 97 107 105 110 103 10 92 117 115 101 112 97 99 107 97 103 101 123 109 105 99 114 111 116 121 112 101 125 32 32 32 32 32 32 32 37 32 109 105 99 114 111 116 121 112 111 103 114 97 112 104 121 44 32 114 101 100 117 99 101 115 32 104 121 112 104 101 110 97 116 105 111 110 10 10 37 32 105 110 99 108 117 100 101 32 115 111 117 114 99 101 32 99 111 100 101 32 108 105 115 116 105 110 103 115 32 45 32 115 117 112 112 111 114 116 115 32 108 105 110 101 32 98 114 101 97 107 115 32 105 110 32 118 101 114 98 97 116 105 109 32 101 110 118 105 114 111 110 109 101 110 116 115 10 92 117 115 101 112 97 99 107 97 103 101 123 108 105 115 116 105 110 103 115 125 10 10 92 108 115 116 115 101 116 123 37 10 32 32 98 97 115 105 99 115 116 121 108 101 61 92 116 116 102 97 109 105 108 121 92 102 111 111 116 110 111 116 101 115 105 122 101 44 32 32 32 32 32 37 32 112 114 105 110 116 32 115 105 122 101 10 32 32 98 114 101 97 107 108 105 110 101 115 61 116 114 117 101 44 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 37 32 115 101 116 115 32 97 117 116 111 109 97 116 105 99 32 108 105 110 101 32 98 114 101 97 107 105 110 103 10 32 32 98 114 101 97 107 97 116 119 104 105 116 101 115 112 97 99 101 61 116 114 117 101 44 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 37 32 115 101 116 115 32 105 102 32 97 117 116 111 109 97 116 105 99 32 98 114 101 97 107 115 32 115 104 111 117 108 100 32 111 110 108 121 32 104 97 112 112 101 110 32 97 116 32 119 104 105 116 101 115 112 97 99 101 10 125 10 10 37 32 117 115 101 32 103 101 111 109 101 116 114 121 32 116 111 32 115 101 116 32 112 97 103 101 32 115 105 122 101 10 92 117 115 101 112 97 99 107 97 103 101 91 112 97 112 101 114 115 105 122 101 61 123 51 46 54 105 110 44 52 46 56 105 110 125 44 104 109 97 114 103 105 110 61 48 46 49 105 110 44 118 109 97 114 103 105 110 61 123 48 46 49 105 110 44 48 46 49 105 110 125 93 123 103 101 111 109 101 116 114 121 125 32 32 37 32 112 97 103 101 32 103 101 111 109 101 116 114 121 10 10 92 117 115 101 112 97 99 107 97 103 101 123 102 97 110 99 121 104 100 114 125 32 32 32 32 32 32 32 37 32 104 101 97 100 101 114 115 32 97 110 100 32 102 111 111 116 101 114 115 10 92 112 97 103 101 115 116 121 108 101 123 102 97 110 99 121 125 10 92 102 97 110 99 121 104 101 97 100 123 125 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 37 32 99 108 101 97 114 32 112 97 103 101 32 104 101 97 100 101 114 10 92 102 97 110 99 121 102 111 111 116 123 125 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 37 32 99 108 101 97 114 32 112 97 103 101 32 102 111 111 116 101 114 10 10 92 115 101 116 108 101 110 103 116 104 123 92 97 98 111 118 101 99 97 112 116 105 111 110 115 107 105 112 125 123 50 112 116 125 32 32 32 37 32 115 112 97 99 101 32 97 98 111 118 101 32 99 97 112 116 105 111 110 115 32 10 92 115 101 116 108 101 110 103 116 104 123 92 98 101 108 111 119 99 97 112 116 105 111 110 115 107 105 112 125 123 48 112 116 125 32 32 32 37 32 115 112 97 99 101 32 98 101 108 111 119 32 99 97 112 116 105 111 110 115 10 92 115 101 116 108 101 110 103 116 104 123 92 116 101 120 116 102 108 111 97 116 115 101 112 125 123 50 112 116 125 32 32 32 32 32 32 32 37 32 115 112 97 99 101 32 98 101 116 119 101 101 110 32 108 97 115 116 32 116 111 112 32 102 108 111 97 116 32 111 114 32 102 105 114 115 116 32 98 111 116 116 111 109 32 102 108 111 97 116 32 97 110 100 32 116 104 101 32 116 101 120 116 10 92 115 101 116 108 101 110 103 116 104 123 92 102 108 111 97 116 115 101 112 125 123 50 112 116 125 32 32 32 32 32 32 32 32 32 32 32 37 32 115 112 97 99 101 32 108 101 102 116 32 98 101 116 119 101 101 110 32 102 108 111 97 116 115 10 92 115 101 116 108 101 110 103 116 104 123 92 105 110 116 101 120 116 115 101 112 125 123 50 112 116 125 32 32 32 32 32 32 32 32 32 32 37 32 115 112 97 99 101 32 108 101 102 116 32 111 110 32 116 111 112 32 97 110 100 32 98 111 116 116 111 109 32 111 102 32 97 110 32 105 110 45 116 101 120 116 32 102 108 111 97 116 10 37 32 69 78 68 32 75 73 78 68 76 69 10 10{a.
 
-LinuxPIPDocs=:'/home/john/pd/docs/pip/'
+LinPipLib=:'/home/john/pd/docs/piplib/'
+
+LinuxPIPDocs=:'/home/john/pd/docs'
+
+LocalFileColor=:'BlueViolet'
+
+LocalPDFDir=:'/piplib/'
 
 LstlistingExtendChars=:94 94 56 48 94 94 56 49 94 94 56 50 94 94 56 51 94 94 56 52 94 94 56 53 94 94 56 54 94 94 56 55 94 94 56 56 94 94 56 57 94 94 56 97 94 94 56 98 94 94 56 99 94 94 56 100 94 94 56 101 94 94 56 102 37 10 94 94 57 48 94 94 57 49 94 94 57 50 94 94 57 51 94 94 57 52 94 94 57 53 94 94 57 54 94 94 57 55 94 94 57 56 94 94 57 57 94 94 57 97 94 94 57 98 94 94 57 99 94 94 57 100 94 94 57 101 94 94 57 102 37 10 94 94 97 48 94 94 97 49 94 94 97 50 94 94 97 51 94 94 97 52 94 94 97 53 94 94 97 54 94 94 97 55 94 94 97 56 94 94 97 57 94 94 97 97 94 94 97 98 94 94 97 99 94 94 97 100 94 94 97 101 94 94 97 102 37 10 94 94 98 48 94 94 98 49 94 94 98 50 94 94 98 51 94 94 98 52 94 94 98 53 94 94 98 54 94 94 98 55 94 94 98 56 94 94 98 57 94 94 98 97 94 94 98 98 94 94 98 99 94 94 98 100 94 94 98 101 94 94 98 102 37 10 94 94 99 48 94 94 99 49 94 94 99 50 94 94 99 51 94 94 99 52 94 94 99 53 94 94 99 54 94 94 99 55 94 94 99 56 94 94 99 57 94 94 99 97 94 94 99 98 94 94 99 99 94 94 99 100 94 94 99 101 94 94 99 102 37 10 94 94 100 48 94 94 100 49 94 94 100 50 94 94 100 51 94 94 100 52 94 94 100 53 94 94 100 54 94 94 100 55 94 94 100 56 94 94 100 57 94 94 100 97 94 94 100 98 94 94 100 99 94 94 100 100 94 94 100 101 94 94 100 102 37 10 94 94 101 48 94 94 101 49 94 94 101 50 94 94 101 51 94 94 101 52 94 94 101 53 94 94 101 54 94 94 101 55 94 94 101 56 94 94 101 57 94 94 101 97 94 94 101 98 94 94 101 99 94 94 101 100 94 94 101 101 94 94 101 102 37 10 94 94 102 48 94 94 102 49 94 94 102 50 94 94 102 51 94 94 102 52 94 94 102 53 94 94 102 54 94 94 102 55 94 94 102 56 94 94 102 57 94 94 102 97 94 94 102 98 94 94 102 99 94 94 102 100 94 94 102 101 94 94 102 102 37 10 94 94 94 94 50 48 97 99 94 94 94 94 48 49 53 51 94 94 94 94 48 49 53 50 37 10 94 94 48 48 37 10{a.
+
+MendeleyPDFDir=:'/Mendeley Desktop/Downloaded/'
 
 SourcePageTeXPts=:426.39256 607.06754999999998
 
 TargetPageTeXPts=:332.44135 245.71758
+
+UrlSize=:'\footnotesize'
+
+WebUrlColor=:'magenta'
+
+WinPipLib=:'c:/pd/docs/piplib/'
 
 WorkPIPDocs=:'c:/Documents and Settings/jdbaker/My Documents/Ubuntu One/pipdocs/'
 
@@ -70,6 +84,17 @@ ucp=. ucp #~ (_65536&<: *. 65535&>:) ucp
 
 NB. shape and convert to UTF8 char list
 8 u: ctl 4 u: x $ ucp
+)
+
+AppendLibraryNotes=:3 : 0
+
+NB.*AppendLibraryNotes v-- appends NOTE= items to bibliography items with notes.
+NB.
+NB. monad:  blcl =. AppendLibraryNotes blclBibtex
+
+b0=. (+./@:('note ='&E.))&> y
+b1=. (+./@:('note ='&E.))&> y
+y=. y #~ -. b0 +. b1
 )
 
 DudVersion=:3 : 0
@@ -266,6 +291,22 @@ msg assert -.'#' e. ; ,nwid
 (;,'#',&.>nwid) changestr y
 )
 
+RunBibUrlInprocess=:3 : 0
+
+NB.*RunBibUrlInprocess v-- run the (Delusion Undertakings  Diary)
+NB. bibliography url inprocess.
+NB.
+NB. monad:  RunBibUrlInprocess uuIgnore
+
+NB. profile noun !(*)=. IFWIN
+bblin=. (;IFWIN{'/home/john/';'c:/'),'pd/diaries/projects/libnotes.bbl'
+if. fexist bblin do.
+  if. #newbbl=. bblUrlExpand bblin do. newbbl write bblin end.
+end.
+
+emptyshow 'Bib Url Inprocess Complete'
+)
+
 RunDudPreprocess=:3 : 0
 
 NB.*RunDudPreprocess v--  run  the (Delusion Undertakings  Diary)
@@ -287,18 +328,74 @@ end.
 showpass 'Dud Preprocess Complete'
 )
 
+RunDudUrlInprocess=:3 : 0
+
+NB.*RunDudUrlInprocess v-- run the (Delusion Undertakings  Diary)
+NB. url inprocess.
+NB.
+NB. monad:  RunDudUrlInprocess uuIgnore
+
+bblin=.  'c:/pd/diaries/projects/prj.bbl'
+if. fexist bblin do.
+  newbbl=.  bblUrlExpand bblin
+  newbbl write bblin
+end.
+
+emptyshow 'Dud Url Inprocess Complete'
+)
+
 bblUrlExpand=:3 : 0
 
-NB.*bblUrlExpand v-- expands bibliography [[[key]]] placeholders in bbl files using bib data.
+NB.*bblUrlExpand  v-- expands bibliography [[[key]]] placeholders
+NB. in bbl files using bib data.
 NB.
 NB. monad:  clBbl =. bblUrlExpand clPathFile
 NB.
-NB.   bblUrlExpand 'c:/pd/diaries/projects/prj.bbl'  
+NB.   prjbbl=. bblUrlExpand 'c:/pd/diaries/projects/prj.bbl'
+NB.   bibbbl=. bblUrlExpand 'c:/pd/diaries/projects/libnotes.bbl'
 
-if. 0 e.$bbltab=. bibUrlTable y do. 'no [[[key]]] replacements made'
+if. 0 e.$bbltab=. bibUrlTable y do. emptyshow 'no [[[key]]] replacements made'
 else.
-  NB. 
-  'NIMP - test url expansions and then make them'
+
+  NB. test existence of alleged pdfs - maintain escapes
+  fmsk=. fexist '`\_`_`\&`&`\#`#'&changestr&.> 1 {"1 bbltab
+  NB. fmsk=. fexist 1 {"1 bbltab
+
+  NB. expand placeholders with matching files
+  if. #bblok=. fmsk # bbltab do.
+    if. #del=. {. '#@%;*^`~' -. ~. ; 1 2 {"1 bblok do.
+      bbl=. read y
+ 
+      NB. form and make relacements
+      hrefbeg=. '\hypersetup{urlcolor=',(alltrim LocalFileColor),'}\href{'
+      hrefend=. '}}\hypersetup{urlcolor=',(alltrim WebUrlColor),'}\normalsize'
+      rep=. (1 {"1 bblok) ,. (<'}{\texttt{') ,. (2 {"1 bblok) ,&.> <hrefend
+      rep=. alltrim ; ((<del) ,. 0 {"1 bblok) ,. <"1 ;"1 (<del,UrlSize,hrefbeg) ,. rep
+      bbl=. rep changestr bbl
+
+      NB. list any missing embedded files at end of bibliography bbl 
+      if. 0 e. fmsk do.
+        missing=. (-.fmsk) # 1 {"1 bbltab
+        pipdir=. '/'&beforelaststr , >0{missing
+        msg=. LF,LF,'\color{red}\bfseries',LF
+        msg=. msg , 'Files referenced in \texttt{bibtex} urls but not found in: \verb|',pipdir,'|',LF,LF
+        msg=. msg , '\scriptsize',LF
+        msg=. msg , '\begin{verbatim}',LF
+        msg=. msg , ;('/'&afterlaststr &.> missing) ,&.> LF
+        msg=. msg , '\end{verbatim}\normalsize',LF
+        bbl=. bbl , msg
+      end.
+
+      bbl
+
+    else.
+      emptyshow 'unable to find free delimiter character - no replacements'
+    end.
+  else.
+    emptyshow 'no referenced pdf files exist - no replacements'
+  end.
+ 
+
 end.
 )
 
@@ -309,7 +406,7 @@ NB.
 NB. monad:  cl =. bibLocalPDFs uuIgnore
 
 NB. j system noun !(*)=. IFWIN
-if. IFWIN do. HomePIPDocs else. LinuxPIPDocs end.
+jpathsep LocalPDFDir ,~ ;IFWIN { LinuxPIPDocs ; HomePIPDocs
 )
 
 bibMendeleyNotes=:3 : 0
@@ -331,34 +428,34 @@ NB.   libnotes write 'c:/pd/diaries/projects/libnotes.bib'
 NB. cut bib items
 if. 0=#bibs=. bibitems y do. y return. end.
 
-NB. extract referenced files
-files=. ((LF&beforestr) @: ('file = '&afterstr))&.> bibs
-files=. '#{:C$\backslash$:#c:#\_#_'&changestr &.> ':'&beforelaststr&.> files
+NB. extract referenced files !(*)=. IFWIN
+files=. fileurlescapes ((LF&beforestr) @: ('file = '&afterstr))&.> bibs
 
 pipdir=. bibLocalPDFs 0
-files=. (<pipdir) ,&.> '/pip/'&afterstr&.> files
+files=. (<pipdir) ,&.> MendeleyPDFDir&afterstr&.> files
 
 NB. extract referenced urls WARNING: assumes one url per line
 urls=. ((LF&beforestr) @: ('url = '&afterstr))&.> bibs
 
 NB. items with no notes
-mask=. -.(+./@:('NOTE='&E.))&> bibs
+mask=. (+./@:('NOTE='&E.))&> bibs
+mask=. -. mask +. (+./@:('note ='&E.))&> bibs
+
+NB. missing files - in bibtex urls but not found
+fmsk=. fexist files
+NB. fmia=. ~.files #~ -.fmsk
 
 NB. items with no notes and valid local files
-fmsk=. (fexist files) *. mask
+NB. in permanent /pd/docs/piplib directory
+fmsk=. fmsk *. mask
 if. -. +./fmsk do. y return. end.
 files=. fmsk # files
 
 nbibs=. ('}'&beforelaststr&.> fmsk # bibs) ,&.> ','
 
-NB. insert qualified NOTE file macros escaping
-NB. all the url blanks and other irritants
-files=.  '# #%20'&changestr&.> files
-fnames=. '/pip/'&afterstr&.> files
-fnames=. '#_#\_'&changestr&.> fnames
-fnames=. (<'\texttt{') ,&.> fnames ,&.> '}'
-files=. (<'NOTE="\jodnl',LF,'\footnotesize\href{') ,&.> files ,&.> (<'}{') ,&.> fnames ,&.> <'}\normalsize'
-NB. files=. (<'NOTE="\jodnl',LF,'\jodurl{') ,&.> files ,&.> '}' NB. ,LF,'}'
+NB. insert file url bibtex key placeholders
+bkeys=. (('{'&afterstr) @: (','&beforestr)) &.> (I. fmsk) { bibs
+files=. (<'NOTE="\jodnl',LF,'[[[') ,&.> bkeys ,&.> <']]]'
 nbibs=. nbibs ,&.> files
 bibs=.  nbibs (I. fmsk)} bibs
 
@@ -379,37 +476,40 @@ bibs=. ((pos{bibs) ,&.> <'"',LF,'}') pos} bibs
 
 bibUrlTable=:3 : 0
 
-NB.*bibUrlTable v-- parses bib/bbl text and return [[[key]]] expansion table.
+NB.*bibUrlTable  v--  parse bib/bbl text  and  return  [[[key]]]
+NB. expansion table.
 NB.
 NB. monad:  btcl =. bibUrlTable clPathFile
-NB. 
-NB.   bibUrlTable 'c:/pd/diaries/projects/prj.bib'  
+NB.
+NB.   bibUrlTable 'c:/pd/diaries/projects/prj.bib'
+NB.   bibUrlTable 'c:/pd/diaries/projects/libnotes.bib'
 
 NB. both *.bbl and *.bib must exist in same directory
 files=. (<'.'&beforelaststr y) ,&.> <;.1 '.bbl.bib'
-if. 0 e. fexist files do. 0 0$showpass'missing bib or bbl - nothing done' return. end.
+if. 0 e. fexist files do. emptyshow 'missing bib or bbl - nothing done' return. end.
 'bbl bib'=. read&.> files
 
 NB. file urls to expand are bibtex keys delimited like '[[[key]]]'
 kstart=. '[[[' [ kend=. ']]]'
 keydels=. kstart;kend
 keycnts=. keydels +/@:E.&> <bib
-if. 0=>./keycnts do. 0 0$showpass'no [[[keys]]]' return. end.
-if. ~:/keycnts   do. 0 0$showpass'[[[keys]]] unbalanced  - nothing done' return. end.
-keys=. keydels betweenstrs bib 
+if. 0=>./keycnts do. emptyshow 'no [[[keys]]]' return. end.
+if. ~:/keycnts   do. emptyshow '[[[keys]]] unbalanced  - nothing done' return. end.
+keys=. keydels betweenstrs bib
 
 NB. expand only keys that match bib keys
 bkeys=. bibkeys bib
-if. 0=#keys=. keys intersect bkeys do. 0 0$showpass'no bib matching keys' return. end.
+if. 0=#keys=. keys intersect bkeys do. emptyshow 'no bib matching keys' return. end.
 
-NB. look up any 'file = ' or first ' url = ' for matching keys
+NB. look up any  first 'file = ' for matching keys
 bitems=. (bkeys i. keys){bibitems bib
 
 NB. WARNING: assumes file(s) are pdf
 urlfiles=. '/'&afterlaststr&.> ((':pdf'&beforelaststr)@:('file = '&afterstr)) &.> bitems
+if. 0=#urlfiles do. emptyshow 'no file = urls in bib - nothing done' return. end.
 
 NB. use piplib files !(*)=. IFWIN
-urlpath=. IFWIN { '/home/john/pd/docs/piplib/' ; 'c:/pd/docs/piplib/' 
+urlpath=. IFWIN { LinPipLib ; WinPipLib
 
 NB. return table of keys, files and path+files
 ((<kstart) ,&.> keys ,&.> <kend) ,. (urlpath ,&.> urlfiles) ,. urlfiles
@@ -462,6 +562,20 @@ else. ''
 end.
 )
 
+fileurlescapes=:3 : 0
+
+NB.*fileurlescapes v-- revert escaped bibtex characters. 
+NB.
+NB. monad:  blcl =. fileurlescapes blclPathFiles
+
+NB. profile noun !(*)=. IFWIN
+if. IFWIN do. 
+  '`{:C$\backslash$:`c:`\_`_`\&`&`\#`#'&changestr &.> ':'&beforelaststr&.> y
+else.
+  'NIMP Linux paths' assert 0
+end.
+)
+
 gdimfile=:[: '['&afterstr@:('}'&beforestr)&.> ] <;.1~ '\includegraphics' E. ]
 
 graphdimfile=:[: (']'&beforestr ; '{'&afterstr)&> gdimfile
@@ -486,34 +600,45 @@ showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:''
-zz=:zz,'28 2$<;._1 ''|APL385Unicode|Adrian Smith APL385 Unicode font encodin'
+zz=:zz,'41 2$<;._1 ''|APL385Unicode|Adrian Smith APL385 Unicode font encodin'
 zz=:zz,'g|APL385UnicodeDec|APL385 unicode font codepoints as decimal|APL385'
 zz=:zz,'UnicodeTest|generates UTF8 encoded APL test text|AplwinUnicodePoint'
 zz=:zz,'s|256 APL+WIN QuadAV characters mapped to unicode codepoints|DudDia'
 zz=:zz,'ryStart|start of (Delusion Undertakings Diary)|DudVersion|current v'
-zz=:zz,'ersion of DUD (Delusional Undertakings Diary)|HomePIPDocs|ubuntu on'
-zz=:zz,'e synchronized directory on home windows machine|InsertDudVersion|i'
-zz=:zz,'nserts the DudVersion in prjcommon-tex|JustifyOneVerbatim|left just'
-zz=:zz,'ifies one verbatim text environment|JustifyVerbatim|left justifies '
-zz=:zz,'text in latex verbatim environments|KindleMetamath|generate a Kindl'
-zz=:zz,'e oriented version of metamath|KindleMetamathTeX|LaTeXe Kindle orie'
-zz=:zz,'nted preamble code|LstlistingExtendChars|upper 128 plus unicode eur'
-zz=:zz,'o and french ligatures|RescaleHilbertGraphics|replaces all fixed wi'
-zz=:zz,'dth \includegraphics dimensions with relative widths|RescaleWidthGr'
-zz=:zz,'aphics|replaces fixed width \includegraphics[width=W|RunDudPreproce'
-zz=:zz,'ss|run the (Delusion Undertakings Diary) preprocess|SourcePageTeXPt'
-zz=:zz,'s|dimensions of letter paper page in TeX points|TargetPageTeXPts|di'
-zz=:zz,'mensions of Kindle sized page in TeX points|WorkPIPDocs|ubuntu one '
-zz=:zz,'synchronized directory on work windows machine|bibLocalPDFs|returns'
-zz=:zz,' path to local PIP documents|bibMendeleyNotes|appends a ''''NOTES='''' '
-zz=:zz,'element to Mendeley bibtex|bibitems|cuts latex bib files into items'
-zz=:zz,'|bibkeys|extracts bibliography keys from bib file text|bibnotes|app'
-zz=:zz,'ends a ''''NOTES='''' element to bibtex|gdimfile|cuts \includegraphics '
-zz=:zz,'arguments out of latex|graphdimfile|dimensions and file names from '
-zz=:zz,'latex \includegraphics - see long document|graphdims|extract unique'
-zz=:zz,' list of graphics dimensions from latex|versionymw|year month week '
-zz=:zz,'tally from start date''                                             '
-zz=:1764{.zz
+zz=:zz,'ersion of DUD (Delusional Undertakings Diary)|HomePIPDocs|leading p'
+zz=:zz,'artial windows PIP PDF directory path|InsertDudVersion|inserts the '
+zz=:zz,'DudVersion in prjcommon-tex|JustifyOneVerbatim|left justifies one v'
+zz=:zz,'erbatim text environment|JustifyVerbatim|left justifies text in lat'
+zz=:zz,'ex verbatim environments|KindleMetamath|generate a Kindle oriented '
+zz=:zz,'version of metamath|KindleMetamathTeX|LaTeXe Kindle oriented preamb'
+zz=:zz,'le code|LinPipLib|linux pip library directory|LinuxPIPDocs|leading '
+zz=:zz,'partial linux PIP PDF directory path|LocalFileColor|hyperref color '
+zz=:zz,'used for local file urls|LocalPDFDir|PIP PDF directory subpath - co'
+zz=:zz,'mmon to windows and linux|LstlistingExtendChars|upper 128 plus unic'
+zz=:zz,'ode euro and french ligatures|MendeleyPDFDir|Mendeley local directo'
+zz=:zz,'ry subpath - common to windows and linux|RescaleHilbertGraphics|rep'
+zz=:zz,'laces all fixed width \includegraphics dimensions with relative wid'
+zz=:zz,'ths|RescaleWidthGraphics|replaces fixed width \includegraphics[widt'
+zz=:zz,'h=W|RunBibUrlInprocess|run the (Delusion Undertakings Diary) biblio'
+zz=:zz,'graphy url inprocess|RunDudPreprocess|run the (Delusion Undertaking'
+zz=:zz,'s Diary) preprocess|RunDudUrlInprocess|run the (Delusion Undertakin'
+zz=:zz,'gs Diary) url inprocess|SourcePageTeXPts|dimensions of letter paper'
+zz=:zz,' page in TeX points|TargetPageTeXPts|dimensions of Kindle sized pag'
+zz=:zz,'e in TeX points|UrlSize|latex font size of expanded urls|WebUrlColo'
+zz=:zz,'r|hyperref color used for web urls|WinPipLib|windows pip library di'
+zz=:zz,'rectory|WorkPIPDocs|ubuntu one synchronized directory on work windo'
+zz=:zz,'ws machine|bblUrlExpand|expands bibliography [[[key]]] placeholders'
+zz=:zz,' in bbl files using bib data|bibLocalPDFs|returns path to local PIP'
+zz=:zz,' documents|bibMendeleyNotes|appends a ''''NOTES='''' element to Mendele'
+zz=:zz,'y bibtex|bibUrlTable|parses bib/bbl text and return [[[key]]] expan'
+zz=:zz,'sion table|bibitems|cuts latex bib files into items|bibkeys|extract'
+zz=:zz,'s bibliography keys from bib file text|bibnotes|appends a ''''NOTES='''
+zz=:zz,''' element to bibtex|fileurlescapes|revert escaped bibtex characters'
+zz=:zz,'|gdimfile|cuts \includegraphics arguments out of latex|graphdimfile'
+zz=:zz,'|dimensions and file names from latex \includegraphics - see long d'
+zz=:zz,'ocument|graphdims|extract unique list of graphics dimensions from l'
+zz=:zz,'atex|versionymw|year month week tally from start date''             '
+zz=:2533{.zz
 showpass 0 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
@@ -555,13 +680,18 @@ showpass 0 9 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:''
-zz=:zz,',<<;._1 '' DudTeXPreprocess CR DudDiaryStart DudVersion HomePIPDocs '
-zz=:zz,'InsertDudVersion LF RunDudPreprocess afterstr assert beforelaststr '
-zz=:zz,'beforestr bibLocalPDFs bibMendeleyNotes bibitems boxopen changestr '
-zz=:zz,'charsub fboxname fexist monthsbetween read showpass timestamp today'
-zz=:zz,' todayno versionymw weekday weeknumber weeksbetween weeksinyear wri'
-zz=:zz,'te''                                                                '
-zz=:338{.zz
+zz=:zz,'(<<;._1 '' BiblioHelper CR LF LinPipLib LocalFileColor RunBibUrlInpr'
+zz=:zz,'ocess RunDudUrlInprocess UrlSize WebUrlColor WinPipLib afterlaststr'
+zz=:zz,' afterstr alltrim assert bblUrlExpand beforelaststr beforestr betwe'
+zz=:zz,'enstrs bibUrlTable bibitems bibkeys boxopen changestr emptyshow fbo'
+zz=:zz,'xname fexist fileurlescapes intersect read showpass write''),<<;._1 '
+zz=:zz,''' DudTeXPreprocess CR DudDiaryStart DudVersion HomePIPDocs InsertDu'
+zz=:zz,'dVersion LF LinuxPIPDocs LocalPDFDir MendeleyPDFDir RunDudPreproces'
+zz=:zz,'s afterstr assert beforelaststr beforestr bibLocalPDFs bibMendeleyN'
+zz=:zz,'otes bibitems boxopen changestr charsub fboxname fexist fileurlesca'
+zz=:zz,'pes jpathsep monthsbetween read showpass timestamp today todayno ts'
+zz=:zz,'lash versionymw weekday weeknumber weeksbetween weeksinyear write'' '
+zz=:736{.zz
 showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent 'base' NB.{*JOD*}
