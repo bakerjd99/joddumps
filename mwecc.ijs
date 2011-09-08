@@ -1,4 +1,4 @@
-NB. JOD dictionary dump: 19 Aug 2011 09:19:10
+NB. JOD dictionary dump:  7 Sep 2011 16:43:55
 NB. Generated with JOD version; 0.9.4; 3; 14 Jun 2011 09:38:23
 
 NB.
@@ -51,6 +51,8 @@ IFACEWORDSFuzzyAlerts=:<;._1 ' FuzzyAlertSummary FuzzyAlertSummary2 FuzzyAlertTP
 IFACEWORDSRecodeSchedZ=:,<'WriteRecodeSchedZFiles'
 
 InjuryColumn=:3
+
+InsertGap7502SQL=:10 45 45 32 65 100 100 32 110 101 119 32 84 80 65 67 111 110 102 105 103 117 114 97 116 105 111 110 32 114 111 119 115 32 102 111 114 32 71 65 80 55 53 48 50 32 32 10 10 73 78 83 69 82 84 32 73 78 84 79 32 91 108 114 112 67 111 109 109 111 110 93 46 91 100 98 111 93 46 91 84 80 65 67 111 110 102 105 103 117 114 97 116 105 111 110 93 10 40 91 84 80 65 95 73 100 93 44 32 91 76 79 66 93 44 32 91 67 111 100 101 84 121 112 101 93 44 32 91 67 111 100 101 86 97 108 117 101 93 44 32 91 83 116 97 116 117 115 93 44 32 91 77 111 100 105 102 105 101 100 66 121 93 44 32 91 77 111 100 105 102 105 101 100 68 97 116 101 93 41 10 83 69 76 69 67 84 32 116 112 97 95 105 100 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 65 83 32 91 84 80 65 95 73 100 93 44 32 10 32 32 32 32 32 32 32 45 45 32 116 112 97 95 110 97 109 101 32 97 115 32 91 76 79 66 93 44 32 32 10 32 32 32 32 32 32 32 39 69 120 99 101 115 115 39 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 65 83 32 91 76 79 66 93 44 32 10 32 32 32 32 32 32 32 39 71 114 111 115 115 84 111 78 101 116 65 100 100 82 101 105 109 98 117 114 115 101 109 101 110 116 115 39 32 65 83 32 91 67 111 100 101 84 121 112 101 93 44 32 10 32 32 32 32 32 32 32 39 89 39 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 65 83 32 91 67 111 100 101 86 97 108 117 101 93 44 32 10 32 32 32 32 32 32 32 39 65 39 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 65 83 32 91 83 116 97 116 117 115 93 44 32 10 32 32 32 32 32 32 32 39 106 100 98 97 107 101 114 39 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 65 83 32 91 77 111 100 105 102 105 101 100 66 121 93 44 32 10 32 32 32 32 32 32 32 71 101 116 100 97 116 101 40 41 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 65 83 32 91 77 111 100 105 102 105 101 100 68 97 116 101 93 32 10 70 82 79 77 32 32 32 91 108 114 112 67 111 109 109 111 110 93 46 91 100 98 111 93 46 91 67 111 110 116 97 99 116 77 97 110 97 103 101 109 101 110 116 93 32 10 87 72 69 82 69 32 32 91 84 80 65 95 73 100 93 32 78 79 84 32 73 78 32 40 39 84 77 88 88 88 88 39 44 32 39 84 77 84 69 83 84 39 41 32 10{a.
 
 LrpClaimSQL=:115 101 108 101 99 116 32 10 32 32 91 77 69 67 67 67 108 97 105 109 78 117 109 93 32 97 115 32 77 69 67 67 67 76 97 105 109 78 117 109 44 10 32 32 115 117 109 40 91 73 110 100 80 97 105 100 93 41 32 97 115 32 83 117 109 73 110 100 80 97 105 100 44 10 32 32 115 117 109 40 91 73 110 100 73 110 99 93 41 32 97 115 32 83 117 109 73 110 100 73 110 99 44 10 32 32 115 117 109 40 91 73 110 100 80 97 105 100 93 41 32 45 32 115 117 109 40 91 73 110 100 73 110 99 93 41 32 97 115 32 68 105 102 102 73 110 100 44 10 32 32 115 117 109 40 91 77 101 100 80 97 105 100 93 41 32 97 115 32 83 117 109 77 101 100 80 97 105 100 44 10 32 32 115 117 109 40 91 77 101 100 73 110 99 93 41 32 97 115 32 83 117 109 77 101 100 73 110 99 44 10 32 32 115 117 109 40 91 77 101 100 80 97 105 100 93 41 32 45 32 115 117 109 40 91 77 101 100 73 110 99 93 41 32 97 115 32 68 105 102 102 77 101 100 44 10 32 32 115 117 109 40 91 69 120 112 80 97 105 100 93 41 32 97 115 32 83 117 109 69 120 112 80 97 105 100 44 10 32 32 115 117 109 40 91 69 120 112 73 110 99 93 41 32 97 115 32 83 117 109 69 120 112 73 110 99 44 10 32 32 115 117 109 40 91 69 120 112 80 97 105 100 93 41 32 45 32 115 117 109 40 91 69 120 112 73 110 99 93 41 32 97 115 32 68 105 102 102 69 120 112 44 10 32 32 115 117 109 40 91 86 111 99 82 101 104 97 98 80 97 105 100 93 41 32 97 115 32 83 117 109 86 111 99 82 101 104 97 98 80 97 105 100 44 10 32 32 115 117 109 40 91 86 111 99 82 101 104 97 98 73 110 99 93 41 32 97 115 32 83 117 109 86 111 99 82 101 104 97 98 73 110 99 44 10 32 32 115 117 109 40 91 86 111 99 82 101 104 97 98 80 97 105 100 93 41 32 45 32 115 117 109 40 91 86 111 99 82 101 104 97 98 73 110 99 93 41 32 97 115 32 68 105 102 102 86 111 99 82 101 104 97 98 44 10 32 32 115 117 109 40 91 84 116 108 82 101 99 111 118 93 41 32 97 115 32 83 117 109 84 116 108 82 101 99 111 118 44 10 32 32 115 117 109 40 91 84 116 108 73 110 99 93 41 32 97 115 32 83 117 109 84 116 108 73 110 99 44 10 32 32 115 117 109 40 91 84 116 108 82 101 99 111 118 93 41 32 45 32 115 117 109 40 91 84 116 108 73 110 99 93 41 32 97 115 32 68 105 102 102 82 101 99 111 118 44 10 32 32 115 117 109 40 91 78 101 116 80 97 105 100 73 110 100 93 41 32 97 115 32 83 117 109 78 101 116 80 97 105 100 73 110 100 44 10 32 32 115 117 109 40 91 78 101 116 80 97 105 100 77 101 100 93 41 32 97 115 32 83 117 109 78 101 116 80 97 105 100 77 101 100 44 10 32 32 115 117 109 40 91 78 101 116 80 97 105 100 86 111 99 93 41 32 97 115 32 83 117 109 78 101 116 80 97 105 100 86 111 99 44 10 32 32 115 117 109 40 91 78 101 116 80 97 105 100 69 120 112 93 41 32 97 115 32 83 117 109 78 101 116 80 97 105 100 69 120 112 10 102 114 111 109 32 91 108 114 112 84 77 48 51 48 49 93 46 91 100 98 111 93 46 91 87 83 93 10 103 114 111 117 112 32 98 121 32 91 77 69 67 67 67 108 97 105 109 78 117 109 93 10{a.
 
@@ -524,7 +526,7 @@ showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:''
-zz=:zz,'43 2$<;._1 ''|APL385Unicode|Adrian Smith APL385 Unicode font encodin'
+zz=:zz,'44 2$<;._1 ''|APL385Unicode|Adrian Smith APL385 Unicode font encodin'
 zz=:zz,'g|APL385UnicodeTest|generates UTF8 encoded APL test text|AddTOILoss'
 zz=:zz,'FDFFields|adds two new test fields to FDF files|AlertAgeHistSQL|CTE'
 zz=:zz,' SQLServer query that computes fuzzy alert age histogram|AlertAgeHi'
@@ -544,22 +546,23 @@ zz=:zz,'l alert ages|FuzzyAlertSummary2|summarizes fuzzy bill alert ages|Fu'
 zz=:zz,'zzyAlertTPA|alert summary for one TPA|FuzzyAlertTPA2|alert summary '
 zz=:zz,'for one TPA|IFACEWORDSFuzzyAlerts|interface words (IFACEWORDSFuzzyA'
 zz=:zz,'lerts) group|IFACEWORDSRecodeSchedZ|interface words (IFACEWORDSReco'
-zz=:zz,'deSchedZ) group|InjuryColumn|TOI column index in schedz.txt|MaintRe'
-zz=:zz,'adAZHdr|j version of BCA MaintReadAZHdr|NewCodeDensity|ia modulus u'
-zz=:zz,'sed to insert new TOI codes|ROOTWORDSFuzzyAlerts|root words (ROOTWO'
-zz=:zz,'RDSFuzzyAlerts) group      |ROOTWORDSRecodeSchedZ|root words (ROOTW'
-zz=:zz,'ORDSRecodeSchedZ) group      |RecodeRtr|recodes rtr factor table rt'
-zz=:zz,'r|RecodeSchedZ|recodes the injury field in schedz|SchedZEncode|enco'
-zz=:zz,'de extant TOI injury codes|SchedZFile|path to BCAmaint SchedZ.txt f'
-zz=:zz,'ile|SchedZSQL|sql query extracted from C# WriteSchedZFile() in MECC'
-zz=:zz,'.BCAmaint|SelectStateCodeSQL|example of selecting NCCI states and c'
-zz=:zz,'odes|StatesSQL|selects State data from Oracle database|ValidNewTOIC'
-zz=:zz,'odes|list of valid new TOI codes|ValidOldTOICodes|list of valid old'
-zz=:zz,' TOI codes|WriteRecodeSchedZFiles|adjusts all recoded schedz files|'
-zz=:zz,'fch|ddfch sql data|fet|ddfet sql data|fetch|ddfch sql data|writecsv'
-zz=:zz,'|write btcl as CRLF delimited comma separated file|ymdfrsqld|YYYYMM'
-zz=:zz,'DD dates from SQLServer ddfch dates''                               '
-zz=:2314{.zz
+zz=:zz,'deSchedZ) group|InjuryColumn|TOI column index in schedz.txt|InsertG'
+zz=:zz,'ap7502SQL|GAP 7502 Gross to Net Calculation new TPAConfiguration ro'
+zz=:zz,'ws|MaintReadAZHdr|j version of BCA MaintReadAZHdr|NewCodeDensity|ia'
+zz=:zz,' modulus used to insert new TOI codes|ROOTWORDSFuzzyAlerts|root wor'
+zz=:zz,'ds (ROOTWORDSFuzzyAlerts) group      |ROOTWORDSRecodeSchedZ|root wo'
+zz=:zz,'rds (ROOTWORDSRecodeSchedZ) group      |RecodeRtr|recodes rtr facto'
+zz=:zz,'r table rtr|RecodeSchedZ|recodes the injury field in schedz|SchedZE'
+zz=:zz,'ncode|encode extant TOI injury codes|SchedZFile|path to BCAmaint Sc'
+zz=:zz,'hedZ.txt file|SchedZSQL|sql query extracted from C# WriteSchedZFile'
+zz=:zz,'() in MECC.BCAmaint|SelectStateCodeSQL|example of selecting NCCI st'
+zz=:zz,'ates and codes|StatesSQL|selects State data from Oracle database|Va'
+zz=:zz,'lidNewTOICodes|list of valid new TOI codes|ValidOldTOICodes|list of'
+zz=:zz,' valid old TOI codes|WriteRecodeSchedZFiles|adjusts all recoded sch'
+zz=:zz,'edz files|fch|ddfch sql data|fet|ddfet sql data|fetch|ddfch sql dat'
+zz=:zz,'a|writecsv|write btcl as CRLF delimited comma separated file|ymdfrs'
+zz=:zz,'qld|YYYYMMDD dates from SQLServer ddfch dates''                     '
+zz=:2391{.zz
 showpass 0 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 

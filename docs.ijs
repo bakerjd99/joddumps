@@ -1,4 +1,4 @@
-NB. JOD dictionary dump: 31 Aug 2011 16:31:22
+NB. JOD dictionary dump:  7 Sep 2011 11:20:31
 NB. Generated with JOD version; 0.9.4; 3; 14 Jun 2011 09:38:23
 
 NB.
@@ -337,7 +337,7 @@ NB. monad:  RunDudUrlInprocess uuIgnore
 
 bblin=.  'c:/pd/diaries/projects/prj.bbl'
 if. fexist bblin do.
-  newbbl=.  bblUrlExpand bblin
+  newbbl=.  0 bblUrlExpand bblin
   newbbl write bblin
 end.
 
@@ -354,11 +354,16 @@ NB.
 NB.   prjbbl=. bblUrlExpand 'c:/pd/diaries/projects/prj.bbl'
 NB.   bibbbl=. bblUrlExpand 'c:/pd/diaries/projects/libnotes.bbl'
 
+1 bblUrlExpand y
+:
 if. 0 e.$bbltab=. bibUrlTable y do. emptyshow 'no [[[key]]] replacements made'
 else.
 
+  pipdir=. '/'&beforelaststr ;1{0{bbltab
+
   NB. test existence of alleged pdfs - maintain escapes
-  fmsk=. fexist '`\_`_`\&`&`\#`#'&changestr&.> 1 {"1 bbltab
+  bblesc=. '`\_`_`\&`&`\#`#'&changestr&.> 1 {"1 bbltab
+  fmsk=.   fexist bblesc
   NB. fmsk=. fexist 1 {"1 bbltab
 
   NB. expand placeholders with matching files
@@ -373,10 +378,9 @@ else.
       rep=. alltrim ; ((<del) ,. 0 {"1 bblok) ,. <"1 ;"1 (<del,UrlSize,hrefbeg) ,. rep
       bbl=. rep changestr bbl
 
-      NB. list any missing embedded files at end of bibliography bbl 
+      NB. list any missing referenced files at end of bibliography bbl 
       if. 0 e. fmsk do.
         missing=. (-.fmsk) # 1 {"1 bbltab
-        pipdir=. '/'&beforelaststr , >0{missing
         msg=. LF,LF,'\color{red}\bfseries',LF
         msg=. msg , 'Files referenced in \texttt{bibtex} urls but not found in: \verb|',pipdir,'|',LF,LF
         msg=. msg , '\scriptsize',LF
@@ -384,6 +388,22 @@ else.
         msg=. msg , ;('/'&afterlaststr &.> missing) ,&.> LF
         msg=. msg , '\end{verbatim}\normalsize',LF
         bbl=. bbl , msg
+      end.
+
+      NB. list any files that are not referenced in bbl 
+      NB. the monad lists these files - the dyad can suppress
+      if. 1-:x do.
+        pipdir=.  pipdir,'/'
+        allpdfs=. (<pipdir) ,&.> 0 {"1 (1!:0) <pipdir,'*.pdf'
+        if. #norefs=.  allpdfs -. bblesc do.
+        msg=. LF,LF,'\color{red}\bfseries',LF
+          msg=. msg , 'Files in: \verb|',pipdir,'| that are not referenced in the bibliography.',LF,LF
+          msg=. msg , '\scriptsize',LF
+          msg=. msg , '\begin{verbatim}',LF
+          msg=. msg , ;('/'&afterlaststr &.> norefs) ,&.> LF
+          msg=. msg , '\end{verbatim}\normalsize',LF
+          bbl=. bbl , msg
+        end.
       end.
 
       bbl
