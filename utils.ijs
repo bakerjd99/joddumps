@@ -1,5 +1,5 @@
-NB. JOD dictionary dump: 29 Aug 2011 15:55:18
-NB. Generated with JOD version; 0.9.4; 3; 14 Jun 2011 09:38:23
+NB. JOD dictionary dump: 10 Sep 2011 10:45:23
+NB. Generated with JOD version; 0.9.3; 11; 11 Jun 2011 13:52:57
 
 NB.
 NB. Names & DidNums on current path
