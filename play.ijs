@@ -1,4 +1,4 @@
-NB. JOD dictionary dump: 21 Jul 2011 08:22:47
+NB. JOD dictionary dump: 14 Nov 2011 10:07:06
 NB. Generated with JOD version; 0.9.4; 3; 14 Jun 2011 09:38:23
 
 NB.
@@ -332,6 +332,41 @@ i10cd=:'0X9876543210X9876543210X9876543210X9876543210X9876543210X9876543210X9876
 
 i13cd=:'0987654321098765432109876543210987654321098765432109876543210987654321098765432109876543210987654321098765432109876543210987654321098765432109876543210987654321098765432109876543210987654321098765432109876543210987654' {~ 1 3 1 3 1 3 1 3 1 3 1 3 +/ .* '0123456789' i. ]
 
+repunits=:3 : 0
+
+NB.*repunits  v--  generate  repunits  and  prime  factorizations
+NB. thereof.
+NB.
+NB. A  "repunit"  is  a  number with  a  repeated digit. The date
+NB. 11:11:11, itself a repunit, inspired a blog posting about the
+NB. prime  factorizations  of  repunits.  Apparently  all  primes
+NB. except 2 and  5 will occur in the prime factorizations  of  1
+NB. (base 10) repunits.
+NB.
+NB. verbatim:
+NB.
+NB.   see: http://mathlesstraveled.com/2011/11/11/fun-with-repunit-divisors/
+NB.
+NB.        11 | 11
+NB.       111 | 3  37
+NB.      1111 | 11 101
+NB.     11111 | 41 271
+NB.    111111 | 3 7 11 13 37
+NB.
+NB. monad:  bt =. repunits iaN
+NB.
+NB.   repunits 20  NB. q: implementation limits to y<:20
+
+repunits=. 'x' ,~&.> (2 + i. y) #&.> '1'
+repunits ,. q:@". &.> repunits
+)
+
+repunits2=:[: (; q:)@p.&10x@#&1@+&2 i.
+
+repunits3=:[: (; q:)"0 [: }. [: 10x&#.\ 1 #~ ]
+
+repunits4=:[: (; q:)"0 [: }. [: +/\ 10x ^ i.
+
 scd=:'0987654321098765432109876543210987654321098765432109876543210987654321098765432109876543210987654321098765432109876543210987654321098765432109876543210987654321098765432109876543210987654321098765432109876543210987654321098765432109876543210987654321098765432109876543210987654321098765432109876543210987654321098765432109876543210987654321098765432109876543210987654321098765432109876543210987654321098765432109876543210987654321098765432109876543210987654321098765432109876543210987654321098765432109876543210987654321098765432109876543210987654321098765432109876543210987654321098765432109876543210987654321098765432109876543210987654321098765432109876543210987654321098765432109876543210987654321098765432109876543210987654321098765432109876543210987654321098765432109876543210987654321098765432109876543210987654321098765432109876543210' {~ 1 3 1 7 3 9 +/ .*~ '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ' i. ]
 
 sum=:'0 37180232 > + i i *i' cd (;~ #)
@@ -358,7 +393,7 @@ showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:''
-zz=:zz,'28 2$<;._1 ''|ASPECTRATIOS|standard photographic print and screen ra'
+zz=:zz,'32 2$<;._1 ''|ASPECTRATIOS|standard photographic print and screen ra'
 zz=:zz,'tios|DudDiaryStart|start date of DUD (Delusional Undertakings Diary'
 zz=:zz,')|DudVersion|current version of DUD (Delusional Undertakings Diary)'
 zz=:zz,'|FeleDiaryStart|start date of FELE work diary|FeleVersion|current v'
@@ -374,11 +409,14 @@ zz=:zz,'tions for bone bridge|bookshelfcombs|count bookshelf puzzle combina'
 zz=:zz,'tion locks|ccd|CUSIP checksum|d1|CUSIP checksum (d1)|d2|CUSIP check'
 zz=:zz,'sum (d2)|fi|satisfies ((fib n)<:y) *. y<fib n+1|fib|produces the n-'
 zz=:zz,'th Fibonacci number|fsum|computes Zeckendorf representations|i10cd|'
-zz=:zz,'ISBN-10 checksum|i13cd|ISBN-13 checksum|phi|golden ratio|scd|SEDOL '
-zz=:zz,'checksum|ucd|UPC checksum|unfold|display structure of tacit definti'
-zz=:zz,'ons: unfold <''''unfold'''' |versionymw|year month week tally from star'
-zz=:zz,'t date''                                                            '
-zz=:1280{.zz
+zz=:zz,'ISBN-10 checksum|i13cd|ISBN-13 checksum|phi|golden ratio|repunits|g'
+zz=:zz,'enerate repunits and prime factorizations thereof|repunits2|from Ra'
+zz=:zz,'ul Miller''''s repunits: (; q:)@p.&10x@#&1@+&2 i. 19|repunits3|from J'
+zz=:zz,'ose Mario Quintana repunits: (;q:)"0}.10x&#.\19#1|repunits4|from R.'
+zz=:zz,' E. Boss repunits: (;q:)"0}.+/\10^i.19x|scd|SEDOL checksum|ucd|UPC '
+zz=:zz,'checksum|unfold|display structure of tacit defintions: unfold <''''un'
+zz=:zz,'fold'''' |versionymw|year month week tally from start date''          '
+zz=:1531{.zz
 showpass 0 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 

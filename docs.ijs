@@ -1,5 +1,5 @@
-NB. JOD dictionary dump: 10 Sep 2011 10:43:26
-NB. Generated with JOD version; 0.9.3; 11; 11 Jun 2011 13:52:57
+NB. JOD dictionary dump:  2 Nov 2011 10:53:15
+NB. Generated with JOD version; 0.9.4; 3; 14 Jun 2011 09:38:23
 
 NB.
 NB. Names & DidNums on current path
@@ -22,9 +22,13 @@ APL385Unicode=:48 48 50 49 32 33 32 70 97 99 116 111 114 105 97 108 10 48 48 50 
 
 AplwinUnicodePoints=:0 1 2 9079 8900 168 8592 7 8 9 10 8834 12 13 8835 9055 16 17 18 9067 20 21 9068 9077 8593 8595 8594 27 8867 8866 9035 9042 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 166 125 126 127 199 252 233 226 228 224 8800 231 234 235 232 239 238 8968 196 8970 201 8710 215 244 246 9109 251 9054 9017 214 220 162 163 63 9066 9064 225 237 243 250 241 209 9053 9024 191 9015 337 248 253 161 171 187 9109 9109 9109 124 124 124 124 43 43 124 124 43 43 43 43 43 192 193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 45 209 210 211 212 213 214 43 216 217 218 219 220 221 124 255 9082 223 9075 9060 227 9073 8869 8868 9021 8854 9074 9023 8711 9033 8714 9067 8801 9049 8805 8804 9045 9038 247 34 8728 9675 8744 9076 8745 175 124 0
 
+CLifeExpectancy=:80.719999999999999
+
 DudDiaryStart=:2009 7 14
 
 HomePIPDocs=:'c:/pd/docs'
+
+IFACEWORDSWeeks=:<;._1 ' DudWeek MeWeek MweccWeek MyWeeksLeft'
 
 KindleMetamathTeX=:10 37 32 66 69 71 73 78 32 75 73 78 68 76 69 32 83 105 122 105 110 103 32 40 74 117 108 121 32 53 44 32 50 48 49 49 41 10 92 117 115 101 112 97 99 107 97 103 101 123 98 114 101 113 110 125 32 32 32 32 32 32 32 32 32 32 32 37 32 97 117 116 111 109 97 116 105 99 32 101 113 117 97 116 105 111 110 32 98 114 101 97 107 105 110 103 10 92 117 115 101 112 97 99 107 97 103 101 123 109 105 99 114 111 116 121 112 101 125 32 32 32 32 32 32 32 37 32 109 105 99 114 111 116 121 112 111 103 114 97 112 104 121 44 32 114 101 100 117 99 101 115 32 104 121 112 104 101 110 97 116 105 111 110 10 10 37 32 105 110 99 108 117 100 101 32 115 111 117 114 99 101 32 99 111 100 101 32 108 105 115 116 105 110 103 115 32 45 32 115 117 112 112 111 114 116 115 32 108 105 110 101 32 98 114 101 97 107 115 32 105 110 32 118 101 114 98 97 116 105 109 32 101 110 118 105 114 111 110 109 101 110 116 115 10 92 117 115 101 112 97 99 107 97 103 101 123 108 105 115 116 105 110 103 115 125 10 10 92 108 115 116 115 101 116 123 37 10 32 32 98 97 115 105 99 115 116 121 108 101 61 92 116 116 102 97 109 105 108 121 92 102 111 111 116 110 111 116 101 115 105 122 101 44 32 32 32 32 32 37 32 112 114 105 110 116 32 115 105 122 101 10 32 32 98 114 101 97 107 108 105 110 101 115 61 116 114 117 101 44 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 37 32 115 101 116 115 32 97 117 116 111 109 97 116 105 99 32 108 105 110 101 32 98 114 101 97 107 105 110 103 10 32 32 98 114 101 97 107 97 116 119 104 105 116 101 115 112 97 99 101 61 116 114 117 101 44 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 37 32 115 101 116 115 32 105 102 32 97 117 116 111 109 97 116 105 99 32 98 114 101 97 107 115 32 115 104 111 117 108 100 32 111 110 108 121 32 104 97 112 112 101 110 32 97 116 32 119 104 105 116 101 115 112 97 99 101 10 125 10 10 37 32 117 115 101 32 103 101 111 109 101 116 114 121 32 116 111 32 115 101 116 32 112 97 103 101 32 115 105 122 101 10 92 117 115 101 112 97 99 107 97 103 101 91 112 97 112 101 114 115 105 122 101 61 123 51 46 54 105 110 44 52 46 56 105 110 125 44 104 109 97 114 103 105 110 61 48 46 49 105 110 44 118 109 97 114 103 105 110 61 123 48 46 49 105 110 44 48 46 49 105 110 125 93 123 103 101 111 109 101 116 114 121 125 32 32 37 32 112 97 103 101 32 103 101 111 109 101 116 114 121 10 10 92 117 115 101 112 97 99 107 97 103 101 123 102 97 110 99 121 104 100 114 125 32 32 32 32 32 32 32 37 32 104 101 97 100 101 114 115 32 97 110 100 32 102 111 111 116 101 114 115 10 92 112 97 103 101 115 116 121 108 101 123 102 97 110 99 121 125 10 92 102 97 110 99 121 104 101 97 100 123 125 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 37 32 99 108 101 97 114 32 112 97 103 101 32 104 101 97 100 101 114 10 92 102 97 110 99 121 102 111 111 116 123 125 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 37 32 99 108 101 97 114 32 112 97 103 101 32 102 111 111 116 101 114 10 10 92 115 101 116 108 101 110 103 116 104 123 92 97 98 111 118 101 99 97 112 116 105 111 110 115 107 105 112 125 123 50 112 116 125 32 32 32 37 32 115 112 97 99 101 32 97 98 111 118 101 32 99 97 112 116 105 111 110 115 32 10 92 115 101 116 108 101 110 103 116 104 123 92 98 101 108 111 119 99 97 112 116 105 111 110 115 107 105 112 125 123 48 112 116 125 32 32 32 37 32 115 112 97 99 101 32 98 101 108 111 119 32 99 97 112 116 105 111 110 115 10 92 115 101 116 108 101 110 103 116 104 123 92 116 101 120 116 102 108 111 97 116 115 101 112 125 123 50 112 116 125 32 32 32 32 32 32 32 37 32 115 112 97 99 101 32 98 101 116 119 101 101 110 32 108 97 115 116 32 116 111 112 32 102 108 111 97 116 32 111 114 32 102 105 114 115 116 32 98 111 116 116 111 109 32 102 108 111 97 116 32 97 110 100 32 116 104 101 32 116 101 120 116 10 92 115 101 116 108 101 110 103 116 104 123 92 102 108 111 97 116 115 101 112 125 123 50 112 116 125 32 32 32 32 32 32 32 32 32 32 32 37 32 115 112 97 99 101 32 108 101 102 116 32 98 101 116 119 101 101 110 32 102 108 111 97 116 115 10 92 115 101 116 108 101 110 103 116 104 123 92 105 110 116 101 120 116 115 101 112 125 123 50 112 116 125 32 32 32 32 32 32 32 32 32 32 37 32 115 112 97 99 101 32 108 101 102 116 32 111 110 32 116 111 112 32 97 110 100 32 98 111 116 116 111 109 32 111 102 32 97 110 32 105 110 45 116 101 120 116 32 102 108 111 97 116 10 37 32 69 78 68 32 75 73 78 68 76 69 10 10{a.
 
@@ -40,9 +44,17 @@ LstlistingExtendChars=:94 94 56 48 94 94 56 49 94 94 56 50 94 94 56 51 94 94 56 
 
 MendeleyPDFDir=:'/Mendeley Desktop/Downloaded/'
 
+MweccDiaryStart=:2010 11 1
+
+MyBirthDate=:1953 7 2
+
+ROOTWORDSWeeks=:<;._1 ' DudWeek IFACEWORDSWeeks MeWeek MweccWeek MyWeeksLeft ROOTWORDSWeeks'
+
 SourcePageTeXPts=:426.39256 607.06754999999998
 
 TargetPageTeXPts=:332.44135 245.71758
+
+TropicalYear=:365.242190419
 
 UrlSize=:'\footnotesize'
 
@@ -106,6 +118,18 @@ NB. monad: il =. DudVersion uuIgnore
 ' .' charsub ":versionymw DudDiaryStart
 )
 
+DudWeek=:3 : 0
+
+NB.*DudWeek v-- generates week counter header for Dud diary.
+NB.
+NB. Weeks start on Monday and end on Sunday.
+NB.
+NB. monad:  cl =. DudWeek paZero | ilYYYYMMDD
+
+hdr=. DudDiaryStart;' --- '
+if. 0-:y do. hdr WeekHeader today '' else. hdr WeekHeader y end.
+)
+
 InsertDudVersion=:3 : 0
 
 NB.*InsertDudVersion v-- inserts the DudVersion in prjcommon-tex
@@ -118,6 +142,24 @@ dudtc=. '\prjversion}{'
 end=.  LF,LF afterstr '}' afterstr dudtc afterstr tex   
 beg=.  dudtc beforestr tex
 dudv=. DudVersion 0
+newtex=. beg,dudtc,dudv,('}% <<JpreProc>>: ',timestamp ''),end
+newtex write file
+showpass dudv
+)
+
+InsertMweccVersion=:3 : 0
+
+NB.*InsertMweccVersion    v--   inserts   the   MweccVersion   in
+NB. mwecccommon-tex
+NB.
+NB. monad:  clVersion =. InsertMweccVersion uuIgnore
+
+file=.  'c:/wd/mwecc/diary/mwecccommon.tex'
+tex=.   read file
+dudtc=. '\mweccversion}{'
+end=.  LF,LF afterstr '}' afterstr dudtc afterstr tex
+beg=.  dudtc beforestr tex
+dudv=. MweccVersion 0
 newtex=. beg,dudtc,dudv,('}% <<JpreProc>>: ',timestamp ''),end
 newtex write file
 showpass dudv
@@ -207,6 +249,58 @@ tex =. '#\begin{verbatim}#\begin{lstlisting}#\end{verbatim}#\end{lstlisting}' ch
 
 NB. left justify verbatim regions
 ('\begin{lstlisting}';'\end{lstlisting}') JustifyVerbatim tex
+)
+
+MeWeek=:3 : 0
+
+NB.*MeWeek v-- my week counter.
+NB.
+NB. monad:  cl =. MeWeek ia | ilYYYYMMDD
+
+hdr=. MyBirthDate;' --- '
+if.      0-:y  do. hdr WeekHeader today ''
+elseif. _1-:y  do. hdr WeekHeader MyDeathDate 0
+elseif.        do. hdr WeekHeader y end.
+)
+
+MweccVersion=:3 : 0
+
+NB.*MweccVersion v-- current version of (MWECC Work Diary).
+NB.
+NB. monad: il =. MweccVersion uuIgnore
+
+' .' charsub ":versionymw MweccDiaryStart
+)
+
+MweccWeek=:3 : 0
+
+NB.*MweccWeek v-- generates week counter header for Mwecc diary.
+NB.
+NB. monad:  MweccWeek pa | ilYYYYMMDD
+NB. 
+NB.   MweccWeek 0          NB. current week header
+NB.   MweccWeek 2011 7 14  NB. week header for date
+
+hdr=. MweccDiaryStart;' to ' 
+if. y-:0 do. hdr WeekHeader today '' else. hdr WeekHeader y end.
+)
+
+MyDeathDate=:3 : 0
+
+NB.*MyDeathDate v-- my death date based on Wolfram average conditional life expectancy.
+NB.
+NB. monad:  MyDeathDate uuIgnore
+
+todate (<.CLifeExpectancy * TropicalYear) + todayno MyBirthDate
+)
+
+MyWeeksLeft=:3 : 0
+
+NB.*MyWeeksLeft v-- my remaining weeks.
+NB.
+NB. monad:  iaWeeks =. MyWeeksLeft uuIgnore
+
+(MyBirthDate weekcount MyDeathDate 0) - MyBirthDate weekcount today ''
 )
 
 RescaleHilbertGraphics=:3 : 0
@@ -335,13 +429,57 @@ NB. url inprocess.
 NB.
 NB. monad:  RunDudUrlInprocess uuIgnore
 
-bblin=.  'c:/pd/diaries/projects/prj.bbl'
+NB. profile noun !(*)=. IFWIN
+bblin=. (;IFWIN{'/home/john/';'c:/'),'pd/diaries/projects/prj.bbl'
 if. fexist bblin do.
-  newbbl=.  0 bblUrlExpand bblin
-  newbbl write bblin
+  if. #newbbl=. 0 bblUrlExpand bblin do. newbbl write bblin end.
 end.
 
 emptyshow 'Dud Url Inprocess Complete'
+)
+
+RunDudprjUrlInprocess=:3 : 0
+
+NB.*RunDudprjUrlInprocess v-- run the (Delusion Undertakings  Diary)
+NB. bibliography inprocess.
+NB.
+NB. monad:  RunDudprjUrlInprocess uuIgnore
+
+NB. profile noun !(*)=. IFWIN
+pfx=. (;IFWIN{'/home/john/';'c:/'),'pd/diaries/projects/'
+prjbib=. pfx,'prj.bib'
+
+if. fexist prjbib do.
+  NB. copy project bibliography to match temp prjbib.bbl name
+  (read prjbib) write pfx,'prjbib.bib'
+else.
+   emptyshow 'Dub prj.bib is missing - no urls expanded' return. 
+end.
+
+bblin=.  pfx,'prjbib.bbl'
+if. fexist bblin do.
+  if. #newbbl=. 0 bblUrlExpand bblin do. newbbl write bblin end.
+end.
+ferase pfx,'prjbib.bib'
+emptyshow 'Dud Url Inprocess Complete'
+)
+
+WeekHeader=:4 : 0
+
+NB.*WeekHeader v-- generates week header for YYYY MM DD date.
+NB.
+NB. dyad:  cl =. (ilYYYYMMDDStart;clDash) WeekHeader ilYYYYMMDD
+NB.
+NB.   (DudDiaryStart;' --- ') WeekHeader today ''
+
+'start dash'=. x
+dfmt=. 9 10 3 4 5 0 1
+
+NB. date range
+dr=. dfmt {"1 timestamp (lastmonday ,: nextsunday) y
+
+NB. week header
+'Week ' , (":start weekcount y) , ' ' , tolower (#dash) }. , dash ,"1 dr
 )
 
 bblUrlExpand=:3 : 0
@@ -602,6 +740,10 @@ graphdimfile=:[: (']'&beforestr ; '{'&afterstr)&> gdimfile
 
 graphdims=:[: ~. [: '['&afterstr@:(']'&beforestr)&.> ] <;.1~ '\includegraphics' E. ]
 
+lastmonday=:[: todate todayno - 7 | 1 -~ weekday
+
+nextsunday=:[: todate todayno + 7 | 7 - weekday
+
 versionymw=:3 : 0
 
 NB.*versionymw v-- year month week tally from start date.
@@ -613,58 +755,76 @@ NB.   versionymw 2001 9 11
 td=. today ''
 'current date precedes start date' assert </ todayno y ,: td
 tm=. +/y monthsbetween td
-<.((0{td) - 0{y),tm,+/(weeknumber y) weeksbetween weeknumber td
+<.((0{td) - 0{y),tm,y weekcount td
 )
+
+weekcount=:[: +/ ([: weeknumber [) weeksbetween [: weeknumber ]
 
 showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:''
-zz=:zz,'41 2$<;._1 ''|APL385Unicode|Adrian Smith APL385 Unicode font encodin'
+zz=:zz,'59 2$<;._1 ''|APL385Unicode|Adrian Smith APL385 Unicode font encodin'
 zz=:zz,'g|APL385UnicodeDec|APL385 unicode font codepoints as decimal|APL385'
 zz=:zz,'UnicodeTest|generates UTF8 encoded APL test text|AplwinUnicodePoint'
-zz=:zz,'s|256 APL+WIN QuadAV characters mapped to unicode codepoints|DudDia'
-zz=:zz,'ryStart|start of (Delusion Undertakings Diary)|DudVersion|current v'
-zz=:zz,'ersion of DUD (Delusional Undertakings Diary)|HomePIPDocs|leading p'
-zz=:zz,'artial windows PIP PDF directory path|InsertDudVersion|inserts the '
-zz=:zz,'DudVersion in prjcommon-tex|JustifyOneVerbatim|left justifies one v'
-zz=:zz,'erbatim text environment|JustifyVerbatim|left justifies text in lat'
-zz=:zz,'ex verbatim environments|KindleMetamath|generate a Kindle oriented '
-zz=:zz,'version of metamath|KindleMetamathTeX|LaTeXe Kindle oriented preamb'
-zz=:zz,'le code|LinPipLib|linux pip library directory|LinuxPIPDocs|leading '
-zz=:zz,'partial linux PIP PDF directory path|LocalFileColor|hyperref color '
-zz=:zz,'used for local file urls|LocalPDFDir|PIP PDF directory subpath - co'
-zz=:zz,'mmon to windows and linux|LstlistingExtendChars|upper 128 plus unic'
-zz=:zz,'ode euro and french ligatures|MendeleyPDFDir|Mendeley local directo'
-zz=:zz,'ry subpath - common to windows and linux|RescaleHilbertGraphics|rep'
-zz=:zz,'laces all fixed width \includegraphics dimensions with relative wid'
-zz=:zz,'ths|RescaleWidthGraphics|replaces fixed width \includegraphics[widt'
-zz=:zz,'h=W|RunBibUrlInprocess|run the (Delusion Undertakings Diary) biblio'
-zz=:zz,'graphy url inprocess|RunDudPreprocess|run the (Delusion Undertaking'
-zz=:zz,'s Diary) preprocess|RunDudUrlInprocess|run the (Delusion Undertakin'
-zz=:zz,'gs Diary) url inprocess|SourcePageTeXPts|dimensions of letter paper'
-zz=:zz,' page in TeX points|TargetPageTeXPts|dimensions of Kindle sized pag'
-zz=:zz,'e in TeX points|UrlSize|latex font size of expanded urls|WebUrlColo'
-zz=:zz,'r|hyperref color used for web urls|WinPipLib|windows pip library di'
-zz=:zz,'rectory|WorkPIPDocs|ubuntu one synchronized directory on work windo'
-zz=:zz,'ws machine|bblUrlExpand|expands bibliography [[[key]]] placeholders'
-zz=:zz,' in bbl files using bib data|bibLocalPDFs|returns path to local PIP'
-zz=:zz,' documents|bibMendeleyNotes|appends a ''''NOTES='''' element to Mendele'
-zz=:zz,'y bibtex|bibUrlTable|parses bib/bbl text and return [[[key]]] expan'
-zz=:zz,'sion table|bibitems|cuts latex bib files into items|bibkeys|extract'
-zz=:zz,'s bibliography keys from bib file text|bibnotes|appends a ''''NOTES='''
-zz=:zz,''' element to bibtex|fileurlescapes|revert escaped bibtex characters'
-zz=:zz,'|gdimfile|cuts \includegraphics arguments out of latex|graphdimfile'
-zz=:zz,'|dimensions and file names from latex \includegraphics - see long d'
-zz=:zz,'ocument|graphdims|extract unique list of graphics dimensions from l'
-zz=:zz,'atex|versionymw|year month week tally from start date''             '
-zz=:2533{.zz
+zz=:zz,'s|256 APL+WIN QuadAV characters mapped to unicode codepoints|CLifeE'
+zz=:zz,'xpectancy|Wolfram alpha conditional life expectancy for us male bor'
+zz=:zz,'n in 1953|DudDiaryStart|start of (Delusion Undertakings Diary)|DudV'
+zz=:zz,'ersion|current version of DUD (Delusional Undertakings Diary)|DudWe'
+zz=:zz,'ek|generates week counter header for Dud diary|HomePIPDocs|leading '
+zz=:zz,'partial windows PIP PDF directory path|IFACEWORDSWeeks|interface wo'
+zz=:zz,'rds (IFACEWORDSWeeks) group|InsertDudVersion|inserts the DudVersion'
+zz=:zz,' in prjcommon-tex|InsertMweccVersion|inserts the MweccVersion in mw'
+zz=:zz,'ecccommon-tex|JustifyOneVerbatim|left justifies one verbatim text e'
+zz=:zz,'nvironment|JustifyVerbatim|left justifies text in latex verbatim en'
+zz=:zz,'vironments|KindleMetamath|generate a Kindle oriented version of met'
+zz=:zz,'amath|KindleMetamathTeX|LaTeXe Kindle oriented preamble code|LinPip'
+zz=:zz,'Lib|linux pip library directory|LinuxPIPDocs|leading partial linux '
+zz=:zz,'PIP PDF directory path|LocalFileColor|hyperref color used for local'
+zz=:zz,' file urls|LocalPDFDir|PIP PDF directory subpath - common to window'
+zz=:zz,'s and linux|LstlistingExtendChars|upper 128 plus unicode euro and f'
+zz=:zz,'rench ligatures|MeWeek|my week counter|MendeleyPDFDir|Mendeley loca'
+zz=:zz,'l directory subpath - common to windows and linux|MweccDiaryStart|s'
+zz=:zz,'tart date for Midwest Employeers Casualty Company work diary|MweccV'
+zz=:zz,'ersion|current version of (MWECC Work Diary)|MweccWeek|generates we'
+zz=:zz,'ek counter header for Mwecc diary|MyBirthDate|my birthday|MyDeathDa'
+zz=:zz,'te|my death date based on Wolfram average conditional life expectan'
+zz=:zz,'cy|MyWeeksLeft|my remaining weeks|ROOTWORDSWeeks|root words (ROOTWO'
+zz=:zz,'RDSWeeks) group      |RescaleHilbertGraphics|replaces all fixed wid'
+zz=:zz,'th \includegraphics dimensions with relative widths|RescaleWidthGra'
+zz=:zz,'phics|replaces fixed width \includegraphics[width=W|RunBibUrlInproc'
+zz=:zz,'ess|run the (Delusion Undertakings Diary) bibliography url inproces'
+zz=:zz,'s|RunDudPreprocess|run the (Delusion Undertakings Diary) preprocess'
+zz=:zz,'|RunDudUrlInprocess|run the (Delusion Undertakings Diary) url inpro'
+zz=:zz,'cess|RunDudprjUrlInprocess|run the (Delusion Undertakings Diary) bi'
+zz=:zz,'bliography inprocess|SourcePageTeXPts|dimensions of letter paper pa'
+zz=:zz,'ge in TeX points|TargetPageTeXPts|dimensions of Kindle sized page i'
+zz=:zz,'n TeX points|TropicalYear|length of tropical year in days|UrlSize|l'
+zz=:zz,'atex font size of expanded urls|WebUrlColor|hyperref color used for'
+zz=:zz,' web urls|WeekHeader|generates week header for YYYY MM DD date|WinP'
+zz=:zz,'ipLib|windows pip library directory|WorkPIPDocs|ubuntu one synchron'
+zz=:zz,'ized directory on work windows machine|bblUrlExpand|expands bibliog'
+zz=:zz,'raphy [[[key]]] placeholders in bbl files using bib data|bibLocalPD'
+zz=:zz,'Fs|returns path to local PIP documents|bibMendeleyNotes|appends a '''
+zz=:zz,'''NOTES='''' element to Mendeley bibtex|bibUrlTable|parses bib/bbl tex'
+zz=:zz,'t and return [[[key]]] expansion table|bibitems|cuts latex bib file'
+zz=:zz,'s into items|bibkeys|extracts bibliography keys from bib file text|'
+zz=:zz,'bibnotes|appends a ''''NOTES='''' element to bibtex|fileurlescapes|reve'
+zz=:zz,'rt escaped bibtex characters|gdimfile|cuts \includegraphics argumen'
+zz=:zz,'ts out of latex|graphdimfile|dimensions and file names from latex \'
+zz=:zz,'includegraphics - see long document|graphdims|extract unique list o'
+zz=:zz,'f graphics dimensions from latex|lastmonday|calendar date YYYY MM D'
+zz=:zz,'D of last monday - see long document|nextsunday|calendar date YYYY '
+zz=:zz,'MM DD of next sunday - see (lastmonday)|versionymw|year month week '
+zz=:zz,'tally from start date|weekcount|weeks between two YYYY MM DD dates:'
+zz=:zz,' 2001 9 11 weekcount 2011 11 24''                                   '
+zz=:3583{.zz
 showpass 0 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:''
-zz=:zz,',:<;.(_1) 124 103 114 97 112 104 100 105 109 102 105 108 101 124 42'
+zz=:zz,'2 2$<;.(_1) 44 103 114 97 112 104 100 105 109 102 105 108 101 44 42'
 zz=:zz,' 103 114 97 112 104 100 105 109 102 105 108 101 32 32 118 45 45 32 '
 zz=:zz,'32 100 105 109 101 110 115 105 111 110 115 32 32 97 110 100 32 32 1'
 zz=:zz,'02 105 108 101 32 32 110 97 109 101 115 32 32 102 114 111 109 32 32'
@@ -693,26 +853,158 @@ zz=:zz,' 114 103 32 72 105 108 98 101 114 116 32 98 111 111 107 32 115 111 '
 zz=:zz,'117 114 99 101 13 10 32 32 116 101 120 61 46 32 114 101 97 100 32 3'
 zz=:zz,'9 99 58 47 116 101 109 112 47 49 55 51 56 52 45 116 46 116 101 120 '
 zz=:zz,'39 13 10 32 32 103 114 97 112 104 100 105 109 102 105 108 101 32 11'
-zz=:zz,'6 101 120 13 10 13 10 13 10 13 10 13 10{a.                         '
-zz=:1985{.zz
+zz=:zz,'6 101 120 13 10 13 10 13 10 13 10 13 10 44 108 97 115 116 109 111 1'
+zz=:zz,'10 100 97 121 44 42 108 97 115 116 109 111 110 100 97 121 32 118 45'
+zz=:zz,' 45 32 99 97 108 101 110 100 97 114 32 100 97 116 101 32 111 102 32'
+zz=:zz,' 108 97 115 116 32 89 89 89 89 32 77 77 32 68 68 32 109 111 110 100'
+zz=:zz,' 97 121 46 13 10 13 10 78 111 116 101 58 32 110 111 116 32 118 97 1'
+zz=:zz,'08 105 100 32 102 111 114 32 99 97 108 101 110 100 97 114 32 100 97'
+zz=:zz,' 116 101 115 32 98 101 102 111 114 101 32 49 56 48 48 32 49 32 49 4'
+zz=:zz,'6 13 10 13 10 32 32 78 66 46 32 101 120 112 108 105 99 105 116 32 1'
+zz=:zz,'00 101 102 105 110 105 116 105 111 110 13 10 32 32 108 97 115 116 1'
+zz=:zz,'09 111 110 100 97 121 61 58 32 49 51 32 58 32 39 116 111 100 97 116'
+zz=:zz,' 101 32 40 116 111 100 97 121 110 111 32 121 41 32 45 32 55 124 40 '
+zz=:zz,'119 101 101 107 100 97 121 32 121 41 32 45 32 49 39 13 10 13 10 32 '
+zz=:zz,'32 78 66 46 32 100 97 116 101 115 32 114 111 108 108 32 105 110 116'
+zz=:zz,' 111 32 112 114 101 118 105 111 117 115 32 121 101 97 114 115 32 10'
+zz=:zz,'5 102 32 110 101 99 101 115 115 97 114 121 13 10 32 32 108 97 115 1'
+zz=:zz,'16 109 111 110 100 97 121 32 50 48 49 49 32 49 32 50 13 10 13 10 32'
+zz=:zz,' 32 78 66 46 32 109 97 112 32 97 108 108 32 100 97 116 101 115 32 1'
+zz=:zz,'05 110 32 121 101 97 114 32 116 111 32 108 97 115 116 32 109 111 11'
+zz=:zz,'0 100 97 121 115 13 10 32 32 108 97 115 116 109 111 110 100 97 121 '
+zz=:zz,'32 121 101 97 114 100 97 116 101 115 32 50 48 49 48 13 10 13 10 32 '
+zz=:zz,'32 78 66 46 32 105 102 32 100 97 121 32 105 115 32 109 111 110 100 '
+zz=:zz,'97 121 32 105 116 32 105 115 32 116 104 101 32 108 97 115 116 32 10'
+zz=:zz,'9 111 110 100 97 121 13 10 32 32 108 97 115 116 109 111 110 100 97 '
+zz=:zz,'121 32 108 97 115 116 109 111 110 100 97 121 32 50 48 49 49 32 49 4'
+zz=:zz,'8 32 50 52{a.                                                      '
+zz=:3564{.zz
 showpass 0 9 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:''
+zz=:zz,',:<;.(_1) 124 116 101 115 116 115 116 117 98 124 78 66 46 42 123 12'
+zz=:zz,'6 84 126 125 32 115 45 45 32 111 110 101 32 108 105 110 101 46 13 1'
+zz=:zz,'0 78 66 46 32 13 10 78 66 46 32 46 46 46 46 32 116 101 120 116 32 4'
+zz=:zz,'6 46 46 46 13 10 78 66 46 13 10 78 66 46 32 118 101 114 98 97 116 1'
+zz=:zz,'05 109 58 13 10 78 66 46 13 10 78 66 46 32 105 110 116 101 114 102 '
+zz=:zz,'97 99 101 32 119 111 114 100 40 115 41 58 32 13 10 78 66 46 32 45 4'
+zz=:zz,'5 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45'
+zz=:zz,' 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 '
+zz=:zz,'45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 4'
+zz=:zz,'5 45 45 45 45 45 45 45 45 45 32 32 32 32 32 32 32 32 32 32 32 32 32'
+zz=:zz,' 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 13 10 '
+zz=:zz,'78 66 46 32 119 111 114 100 49 32 32 45 45 32 98 108 97 104 32 98 1'
+zz=:zz,'08 97 104 13 10 78 66 46 32 119 111 114 100 50 32 32 45 45 32 121 9'
+zz=:zz,'7 100 97 32 121 97 100 97 32 32 32 32 32 32 32 32 32 32 32 32 32 32'
+zz=:zz,' 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 '
+zz=:zz,'32 32 32 13 10 78 66 46 32 32 32 32 32 32 32 32 32 32 32 32 32 32 3'
+zz=:zz,'2 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32'
+zz=:zz,' 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 13 10 '
+zz=:zz,'78 66 46 32 97 117 116 104 111 114 58 32 32 123 126 65 126 125 32 3'
+zz=:zz,'2 13 10 78 66 46 32 99 114 101 97 116 101 100 58 32 123 126 99 114 '
+zz=:zz,'101 97 116 101 100 126 125 13 10 78 66 46 32 45 45 45 45 45 45 45 4'
+zz=:zz,'5 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45'
+zz=:zz,' 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 '
+zz=:zz,'45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 4'
+zz=:zz,'5 45 45 45 32 13 10 78 66 46 32 123 126 101 114 114 111 114 116 105'
+zz=:zz,' 109 101 126 125 32 103 114 111 117 112 32 99 108 97 115 115 32 99 '
+zz=:zz,'114 101 97 116 101 100 13 10 13 10 114 101 113 117 105 114 101 32 3'
+zz=:zz,'9 116 97 115 107 39 13 10 13 10 99 111 99 108 97 115 115 32 39 123 '
+zz=:zz,'126 84 126 125 39 32 13 10{a.                                      '
+zz=:1905{.zz
+showpass 1 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
+".soclear NB.{*JOD*}
+
+cocurrent SO__JODobj NB.{*JOD*}
+zz=:''
+zz=:zz,',:''POST_Weeks'';21;78 66 46 80 79 83 84 95 87 101 101 107 115 32 112'
+zz=:zz,' 111 115 116 32 112 114 111 99 101 115 115 111 114 32 13 10 13 10 1'
+zz=:zz,'15 109 111 117 116 112 117 116 32 48 32 58 32 48 13 10 78 66 46 32 '
+zz=:zz,'105 110 116 101 114 102 97 99 101 32 119 111 114 100 40 115 41 58 1'
+zz=:zz,'3 10 78 66 46 32 32 68 117 100 87 101 101 107 32 32 32 32 32 32 78 '
+zz=:zz,'66 46 32 103 101 110 101 114 97 116 101 115 32 119 101 101 107 32 9'
+zz=:zz,'9 111 117 110 116 101 114 32 104 101 97 100 101 114 32 102 111 114 '
+zz=:zz,'32 68 117 100 32 100 105 97 114 121 13 10 78 66 46 32 32 77 101 87 '
+zz=:zz,'101 101 107 32 32 32 32 32 32 32 78 66 46 32 109 121 32 119 101 101'
+zz=:zz,' 107 32 99 111 117 110 116 101 114 13 10 78 66 46 32 32 77 119 101 '
+zz=:zz,'99 99 87 101 101 107 32 32 32 32 78 66 46 32 103 101 110 101 114 97'
+zz=:zz,' 116 101 115 32 119 101 101 107 32 99 111 117 110 116 101 114 32 10'
+zz=:zz,'4 101 97 100 101 114 32 102 111 114 32 77 119 101 99 99 32 100 105 '
+zz=:zz,'97 114 121 13 10 78 66 46 32 32 77 121 87 101 101 107 115 76 101 10'
+zz=:zz,'2 116 32 32 78 66 46 32 109 121 32 114 101 109 97 105 110 105 110 1'
+zz=:zz,'03 32 119 101 101 107 115 13 10 41 13 10 13 10 99 111 99 117 114 11'
+zz=:zz,'4 101 110 116 32 39 98 97 115 101 39 13 10 99 111 105 110 115 101 1'
+zz=:zz,'14 116 32 32 39 87 101 101 107 115 39{a.                           '
+zz=:1179{.zz
+showpass 4 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
+".soclear NB.{*JOD*}
+
+cocurrent SO__JODobj NB.{*JOD*}
+zz=:''
 zz=:zz,'(<<;._1 '' BiblioHelper CR LF LinPipLib LocalFileColor RunBibUrlInpr'
-zz=:zz,'ocess RunDudUrlInprocess UrlSize WebUrlColor WinPipLib afterlaststr'
-zz=:zz,' afterstr alltrim assert bblUrlExpand beforelaststr beforestr betwe'
-zz=:zz,'enstrs bibUrlTable bibitems bibkeys boxopen changestr emptyshow fbo'
-zz=:zz,'xname fexist fileurlescapes intersect read showpass write''),<<;._1 '
-zz=:zz,''' DudTeXPreprocess CR DudDiaryStart DudVersion HomePIPDocs InsertDu'
-zz=:zz,'dVersion LF LinuxPIPDocs LocalPDFDir MendeleyPDFDir RunDudPreproces'
-zz=:zz,'s afterstr assert beforelaststr beforestr bibLocalPDFs bibMendeleyN'
-zz=:zz,'otes bibitems boxopen changestr charsub fboxname fexist fileurlesca'
-zz=:zz,'pes jpathsep monthsbetween read showpass timestamp today todayno ts'
-zz=:zz,'lash versionymw weekday weeknumber weeksbetween weeksinyear write'' '
-zz=:736{.zz
+zz=:zz,'ocess RunDudUrlInprocess RunDudprjUrlInprocess UrlSize WebUrlColor '
+zz=:zz,'WinPipLib afterlaststr afterstr alltrim assert bblUrlExpand beforel'
+zz=:zz,'aststr beforestr betweenstrs bibUrlTable bibitems bibkeys boxopen c'
+zz=:zz,'hangestr emptyshow fboxname ferase fexist fileurlescapes intersect '
+zz=:zz,'read showpass write''),(<<;._1 '' DudTeXPreprocess CR DudDiaryStart D'
+zz=:zz,'udVersion DudWeek HomePIPDocs InsertDudVersion LF LinuxPIPDocs Loca'
+zz=:zz,'lPDFDir MendeleyPDFDir RunDudPreprocess WeekHeader afterstr assert '
+zz=:zz,'beforelaststr beforestr bibLocalPDFs bibMendeleyNotes bibitems boxo'
+zz=:zz,'pen changestr charsub fboxname fexist fileurlescapes jpathsep lastm'
+zz=:zz,'onday monthsbetween nextsunday read showpass timestamp todate today'
+zz=:zz,' todayno tolower tslash versionymw weekcount weekday weeknumber wee'
+zz=:zz,'ksbetween weeksinyear write''),(<<;._1 '' MweccTeXPreprocess InsertMw'
+zz=:zz,'eccVersion LF MweccDiaryStart MweccVersion MweccWeek WeekHeader aft'
+zz=:zz,'erstr assert beforestr charsub lastmonday monthsbetween nextsunday '
+zz=:zz,'read showpass timestamp todate today todayno tolower versionymw wee'
+zz=:zz,'kcount weekday weeknumber weeksbetween weeksinyear write''),<<;._1 '''
+zz=:zz,' Weeks CLifeExpectancy DudDiaryStart DudWeek IFACEWORDSWeeks MeWeek'
+zz=:zz,' MweccDiaryStart MweccWeek MyBirthDate MyDeathDate MyWeeksLeft ROOT'
+zz=:zz,'WORDSWeeks TropicalYear WeekHeader lastmonday nextsunday timestamp '
+zz=:zz,'todate today todayno tolower weekcount weekday weeknumber weeksbetw'
+zz=:zz,'een weeksinyear''                                                   '
+zz=:1423{.zz
 showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
+".soclear NB.{*JOD*}
+
+cocurrent SO__JODobj NB.{*JOD*}
+zz=:''
+zz=:zz,',:<;.(_1) 124 87 101 101 107 115 124 78 66 46 42 87 101 101 107 115'
+zz=:zz,' 32 115 45 45 32 99 111 109 112 117 116 101 115 32 119 101 101 107 '
+zz=:zz,'32 99 111 117 110 116 105 110 103 32 115 101 99 116 105 111 110 32 '
+zz=:zz,'104 101 97 100 101 114 115 32 32 102 111 114 32 118 97 114 105 111 '
+zz=:zz,'117 115 10 78 66 46 32 100 111 99 117 109 101 110 116 115 46 10 78 '
+zz=:zz,'66 46 10 78 66 46 32 118 101 114 98 97 116 105 109 58 10 78 66 46 1'
+zz=:zz,'0 78 66 46 32 105 110 116 101 114 102 97 99 101 32 119 111 114 100 '
+zz=:zz,'40 115 41 58 10 78 66 46 32 45 45 45 45 45 45 45 45 45 45 45 45 45 '
+zz=:zz,'45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 4'
+zz=:zz,'5 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45'
+zz=:zz,' 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 10 78 '
+zz=:zz,'66 46 32 32 68 117 100 87 101 101 107 32 32 32 32 32 45 32 103 101 '
+zz=:zz,'110 101 114 97 116 101 115 32 119 101 101 107 32 99 111 117 110 116'
+zz=:zz,' 101 114 32 104 101 97 100 101 114 32 102 111 114 32 68 117 100 32 '
+zz=:zz,'100 105 97 114 121 10 78 66 46 32 32 77 101 87 101 101 107 32 32 32'
+zz=:zz,' 32 32 32 45 32 109 121 32 119 101 101 107 32 99 111 117 110 116 10'
+zz=:zz,'1 114 10 78 66 46 32 32 77 119 101 99 99 87 101 101 107 32 32 32 45'
+zz=:zz,' 32 103 101 110 101 114 97 116 101 115 32 119 101 101 107 32 99 111'
+zz=:zz,' 117 110 116 101 114 32 104 101 97 100 101 114 32 102 111 114 32 77'
+zz=:zz,' 119 101 99 99 32 100 105 97 114 121 10 78 66 46 32 32 77 121 87 10'
+zz=:zz,'1 101 107 115 76 101 102 116 32 45 32 109 121 32 114 101 109 97 105'
+zz=:zz,' 110 105 110 103 32 119 101 101 107 115 10 78 66 46 10 78 66 46 32 '
+zz=:zz,'99 114 101 97 116 101 100 58 32 50 48 49 49 111 99 116 51 49 10 78 '
+zz=:zz,'66 46 32 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 4'
+zz=:zz,'5 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45'
+zz=:zz,' 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 '
+zz=:zz,'45 45 45 45 45 45 45 45 45 45 45 45 45 45 10 78 66 46 32 49 49 111 '
+zz=:zz,'99 116 51 49 32 87 101 101 107 115 32 103 114 111 117 112 32 99 111'
+zz=:zz,' 110 118 101 114 116 101 100 32 116 111 32 99 108 97 115 115 10 78 '
+zz=:zz,'66 46 32 49 49 110 111 118 48 50 32 77 101 87 101 101 107 44 32 77 '
+zz=:zz,'121 87 101 101 107 115 76 101 102 116 32 97 100 100 101 100 10 10 9'
+zz=:zz,'9 111 99 108 97 115 115 32 39 87 101 101 107 115 39 10{a.          '
+zz=:2134{.zz
+showpass 2 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent 'base' NB.{*JOD*}
 showpass 'NB. end-of-JOD-dump-file regenerate cross references with:  0 globs&> }. revo '''' ' NB.{*JOD*}

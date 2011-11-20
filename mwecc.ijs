@@ -1,5 +1,5 @@
-NB. JOD dictionary dump: 10 Sep 2011 10:44:10
-NB. Generated with JOD version; 0.9.3; 11; 11 Jun 2011 13:52:57
+NB. JOD dictionary dump: 16 Nov 2011 11:03:04
+NB. Generated with JOD version; 0.9.4; 3; 14 Jun 2011 09:38:23
 
 NB.
 NB. Names & DidNums on current path
@@ -387,6 +387,49 @@ NB. return character list
 ; y ,. <CRLF
 )
 
+RefsFrNpp=:3 : 0
+
+NB.*RefsFrNpp v--  classify file type  references  from notepad++
+NB. fif scans.
+NB.
+NB. Extracts and classifies hit counts from notepad++.exe find in
+NB. file (fif) scans. To build the input for this verb do:
+NB.
+NB. verbatim:
+NB.
+NB.   scan a directory with notepad++.exe fif
+NB.   copy (cut & paste) the hit panel to a new file
+NB.   save the result as a text file
+NB.   read the saved text file
+NB.   pass the read text to this verb
+NB.
+NB. monad:  bt =. RefsFrNpp clText
+NB.
+NB.   txt=. read 'c:/temp/icd9.txt'
+NB.   RefsFrNpp txt
+NB.
+NB. dyad:  bt =. clPfx RefsFrNpp clText
+NB.
+NB.   'D:\' RefsFrNpp txt 
+
+'C:\' RefsFrNpp y
+:
+
+NB. cut as lines and extract file hit summaries
+txt=. alltrim&.> <;._2 y -. CR
+txt=. txt #~ +/&> (<x) E.&.> txt
+
+NB. remove text before file extension and parse counts
+txt=. (<'()') -.&.>~ '.'&afterlaststr&.> txt
+txt=. <;._2&> 'hits'&beforestr &.> txt
+
+NB. sorted count sum by file type
+cnts=.  ; 0&".&.> 1 {"1 txt
+types=. 0 {"1 txt
+cnts=.  types +//. cnts
+(\: cnts) { (~. types) ,. <"0 cnts
+)
+
 SchedZEncode=:4 : 0
 
 NB.*SchedZEncode v-- encode extant TOI injury codes.
@@ -505,6 +548,19 @@ NB. fetch data !(*)=. ddsel ddfch
 d
 )
 
+insqlfrtd=:4 : 0
+
+NB.*insqlfrtd v-- table insert sql from btcl.
+NB. 
+NB. Generates a Transact-SQL table insert statement from a table
+NB. of boxed data. The first row contains field names. Currently
+NB. all columns are considered text data.
+NB.
+NB. dyda:  clSql =. clTable insqlfrtd btcl
+
+sql=. 'INSERT INTO ',(alltrim x),' (',(}.; ',' ,&.> sqrquote alltrim&.> 0{y),')',LF,'VALUES'
+)
+
 lrpColumns=:4 : 0
 
 NB.*lrpColumns v-- returns table columns for SQLServer lrp tables.
@@ -541,6 +597,8 @@ sql=. reb ;LF ,&.> ((''''&beforelaststr) @: (''''&afterstr))&.> <;._2 y
 ('/'' + @dbName + ''/',x) changestr ('/''''/''') changestr sql
 )
 
+sqrquote=:'['&,@:(,&']')&.>
+
 writecsv=:] write~ [: toHOST [: ctl [: }."1 [: ;"1 [: ','&,&.> [
 
 ymdfrsqld=:[: _1&". '-' -."1~ 10 {."1 ]
@@ -549,7 +607,7 @@ showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:''
-zz=:zz,'46 2$<;._1 ''|APL385Unicode|Adrian Smith APL385 Unicode font encodin'
+zz=:zz,'47 2$<;._1 ''|APL385Unicode|Adrian Smith APL385 Unicode font encodin'
 zz=:zz,'g|APL385UnicodeTest|generates UTF8 encoded APL test text|AddTOILoss'
 zz=:zz,'FDFFields|adds two new test fields to FDF files|AlertAgeHistSQL|CTE'
 zz=:zz,' SQLServer query that computes fuzzy alert age histogram|AlertAgeHi'
@@ -584,10 +642,10 @@ zz=:zz,'lidNewTOICodes|list of valid new TOI codes|ValidOldTOICodes|list of'
 zz=:zz,' valid old TOI codes|WriteRecodeSchedZFiles|adjusts all recoded sch'
 zz=:zz,'edz files|fch|ddfch sql data|fet|ddfet sql data|fetch|ddfch sql dat'
 zz=:zz,'a|lrpSpSQL|an example of an lrpCommon quote stored procedure SQL|sp'
-zz=:zz,'unquote|unquotes lrp sql stored procedure text|writecsv|write btcl '
-zz=:zz,'as CRLF delimited comma separated file|ymdfrsqld|YYYYMMDD dates fro'
-zz=:zz,'m SQLServer ddfch dates''                                           '
-zz=:2503{.zz
+zz=:zz,'unquote|unquotes lrp sql stored procedure text|sqrquote|enclose in '
+zz=:zz,'square [] brackets|writecsv|write btcl as CRLF delimited comma sepa'
+zz=:zz,'rated file|ymdfrsqld|YYYYMMDD dates from SQLServer ddfch dates''    '
+zz=:2542{.zz
 showpass 0 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
