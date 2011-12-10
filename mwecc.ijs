@@ -1,5 +1,5 @@
-NB. JOD dictionary dump: 16 Nov 2011 11:03:04
-NB. Generated with JOD version; 0.9.4; 3; 14 Jun 2011 09:38:23
+NB. JOD dictionary dump: 29 Nov 2011 10:46:36
+NB. Generated with JOD version; 0.9.5; 11; 28 Nov 2011 12:07:37
 
 NB.
 NB. Names & DidNums on current path
@@ -45,6 +45,8 @@ DayAgeIntervals=:30 60 90 120 150 180
 ExclassesSQL=:'select ST_CD, CLS_CD from CLASS_CODES where EXCLUDE_IND = ''Y'' order by ST_CD, CLS_CD'
 
 FilledCSharpStubSQL=:83 69 76 69 67 84 32 84 79 80 32 49 48 48 32 13 10 32 32 32 32 32 32 32 83 80 65 67 69 40 49 41 32 97 115 32 91 65 99 116 105 111 110 93 13 10 32 32 32 32 32 32 44 91 77 69 67 67 67 108 97 105 109 78 117 109 93 32 97 115 32 91 77 69 67 67 32 67 108 97 105 109 32 78 117 109 98 101 114 93 13 10 32 32 32 32 32 32 44 91 84 80 65 67 117 114 114 67 108 97 105 109 78 117 109 93 32 97 115 32 91 84 80 65 32 67 108 97 105 109 32 78 117 109 98 101 114 93 13 10 32 32 32 32 32 32 44 91 73 110 100 73 110 99 93 32 97 115 32 91 67 108 97 105 109 32 80 97 105 100 32 73 110 100 101 109 110 105 116 121 93 13 10 32 32 32 32 32 32 44 91 73 110 100 80 97 105 100 93 32 97 115 32 91 80 97 121 109 101 110 116 115 32 80 97 105 100 32 73 110 100 101 109 110 105 116 121 93 13 10 32 32 32 32 32 32 44 40 91 73 110 100 73 110 99 93 32 45 32 91 73 110 100 80 97 105 100 93 41 32 97 115 32 91 68 105 102 102 101 114 101 110 99 101 32 73 110 100 101 109 110 105 116 121 93 13 10 32 32 32 32 32 32 44 91 77 101 100 73 110 99 93 32 97 115 32 91 67 108 97 105 109 32 77 101 100 105 99 97 108 93 13 10 32 32 32 32 32 32 44 91 77 101 100 80 97 105 100 93 32 97 115 32 91 80 97 121 109 101 110 116 115 32 77 101 100 105 99 97 108 93 13 10 32 32 32 32 32 32 44 40 91 77 101 100 73 110 99 93 32 45 32 91 77 101 100 80 97 105 100 93 41 32 97 115 32 91 68 105 102 102 101 114 101 110 99 101 32 77 101 100 105 99 97 108 93 13 10 32 32 32 32 32 32 44 91 86 111 99 82 101 104 97 98 73 110 99 93 32 97 115 32 91 67 108 97 105 109 32 86 111 99 32 82 101 104 97 98 93 13 10 32 32 32 32 32 32 44 91 86 111 99 82 101 104 97 98 80 97 105 100 93 32 97 115 32 91 80 97 121 109 101 110 116 115 32 86 111 99 32 82 101 104 97 98 93 13 10 32 32 32 32 32 32 44 40 91 86 111 99 82 101 104 97 98 73 110 99 93 32 45 32 91 86 111 99 82 101 104 97 98 80 97 105 100 93 41 32 97 115 32 91 68 105 102 102 101 114 101 110 99 101 32 86 111 99 32 82 101 104 97 98 93 13 10 32 32 32 32 32 32 44 91 69 120 112 73 110 99 93 32 97 115 32 91 67 108 97 105 109 32 80 97 105 100 32 69 120 112 101 110 115 101 93 13 10 32 32 32 32 32 32 44 91 69 120 112 80 97 105 100 93 32 97 115 32 91 80 97 121 109 101 110 116 115 32 80 97 105 100 32 69 120 112 101 110 115 101 93 13 10 32 32 32 32 32 32 44 40 91 69 120 112 73 110 99 93 32 45 32 91 69 120 112 80 97 105 100 93 41 32 97 115 32 91 68 105 102 102 101 114 101 110 99 101 32 69 120 112 101 110 115 101 93 13 10 32 32 32 32 32 32 44 91 84 116 108 82 101 99 111 118 93 32 97 115 32 91 67 108 97 105 109 32 82 101 99 111 118 101 114 105 101 115 93 13 10 32 32 32 32 32 32 44 91 84 116 108 80 84 68 93 32 97 115 32 91 80 97 121 109 101 110 116 115 32 82 101 99 111 118 101 114 105 101 115 93 32 13 10 32 32 32 32 32 32 44 40 91 84 116 108 82 101 99 111 118 93 32 45 32 91 84 116 108 80 84 68 93 41 32 97 115 32 91 68 105 102 102 101 114 101 110 99 101 32 82 101 99 111 118 101 114 121 93 13 10 32 32 32 32 32 32 44 40 40 91 73 110 100 73 110 99 93 43 91 77 101 100 73 110 99 93 43 91 86 111 99 82 101 104 97 98 73 110 99 93 43 91 69 120 112 73 110 99 93 43 91 84 116 108 82 101 99 111 118 93 41 32 45 32 40 91 73 110 100 80 97 105 100 93 43 91 77 101 100 80 97 105 100 93 43 91 86 111 99 82 101 104 97 98 80 97 105 100 93 43 91 69 120 112 80 97 105 100 93 43 91 84 116 108 80 84 68 93 41 41 32 97 115 32 91 84 111 116 97 108 32 68 105 102 102 101 114 101 110 99 101 93 13 10 32 32 32 32 32 32 44 91 80 111 108 78 117 109 93 32 97 115 32 91 80 111 108 105 99 121 32 78 117 109 98 101 114 93 13 10 32 32 32 32 32 32 44 91 65 99 99 68 116 101 93 32 97 115 32 91 65 99 99 105 100 101 110 116 32 68 97 116 101 93 13 10 32 32 32 32 32 32 44 83 80 65 67 69 40 54 48 41 32 97 115 32 91 78 111 116 101 115 93 13 10 32 32 32 32 32 32 44 52 50 32 97 115 32 91 79 114 100 101 114 73 100 120 93 13 10 32 70 82 79 77 32 91 108 114 112 84 77 48 51 48 49 93 46 91 100 98 111 93 46 91 87 83 93 32 32 79 82 68 69 82 32 66 89 32 91 80 111 108 105 99 121 32 78 117 109 98 101 114 93 44 91 84 80 65 32 67 108 97 105 109 32 78 117 109 98 101 114 93 32{a.
+
+ICD9diagSql=:83 69 76 69 67 84 32 10 32 32 32 32 32 32 32 108 116 114 105 109 40 114 116 114 105 109 40 91 73 67 68 57 68 105 97 103 110 111 115 105 115 67 111 100 101 49 93 41 41 32 97 115 32 73 67 68 57 49 10 32 32 32 32 32 32 44 108 116 114 105 109 40 114 116 114 105 109 40 91 73 67 68 57 68 105 97 103 110 111 115 105 115 67 111 100 101 50 93 41 41 32 97 115 32 73 67 68 57 50 10 32 32 32 32 32 32 44 108 116 114 105 109 40 114 116 114 105 109 40 91 73 67 68 57 68 105 97 103 110 111 115 105 115 67 111 100 101 51 93 41 41 32 97 115 32 73 67 68 57 51 10 32 32 32 32 32 32 44 108 116 114 105 109 40 114 116 114 105 109 40 91 73 67 68 57 68 105 97 103 110 111 115 105 115 67 111 100 101 52 93 41 41 32 97 115 32 73 67 68 57 52 10 32 32 32 32 32 32 44 108 116 114 105 109 40 114 116 114 105 109 40 91 76 105 110 101 84 111 116 97 108 66 105 108 108 101 100 67 104 97 114 103 101 115 93 41 41 32 97 115 32 66 105 108 108 101 100 10 32 32 32 32 32 32 44 108 116 114 105 109 40 114 116 114 105 109 40 91 76 105 110 101 84 111 116 97 108 80 97 105 100 67 104 97 114 103 101 115 93 41 41 32 97 115 32 32 80 97 105 100 10 32 32 70 82 79 77 32 91 82 111 115 101 116 116 97 95 79 68 83 93 46 91 100 98 111 93 46 91 108 122 95 66 105 108 108 68 101 116 97 105 108 67 108 101 97 110 93 10{a.
 
 IFACEWORDSFuzzyAlerts=:<;._1 ' FuzzyAlertSummary FuzzyAlertSummary2 FuzzyAlertTPA FuzzyAlertTPA2'
 
@@ -270,6 +272,63 @@ NB.   'U24' FuzzyAlertTPA2 ch
 
 d=. y fet~ ('/{[TPA_Id]}/',x) changestr AlertAgeHistTpaSQL
 (('<[ ',x,' ]>');<"0}.30 * i.{:$d) , d
+)
+
+ICD10cmTable=:3 : 0
+
+NB.*ICD10cmTable v-- ICD-10 cm code table from XML source.
+NB.
+NB. verbatim: source file icd10cm_xml_2011.zip from:
+NB.
+NB. ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Publications/ICD10CM/2011/
+NB.
+NB. monad:  btcl =. ICD10cmTable clPathFile
+NB.
+NB.   xml=.   'c:/wd/mwecc/data/icd10cm_tabular_2011.xml'
+NB.   icd10=. ICD10cmTable xml
+
+xml=. read y
+
+NB. cut on diagnosis
+xml=. ('<diag>' E. xml) <;.1 xml
+
+NB. parse out codes and descriptions as table
+;('name'&geteletext ,. 'desc'&geteletext)&.> (,&'</desc>')@:('</desc>'&beforestr)&.> xml
+)
+
+ICD9cmTable=:3 : 0
+
+NB.*ICD9cmTable  v--  standard format of ICD-9cm codes  from  tab
+NB. delimited.
+NB.
+NB. Formats the spreadsheet versions of ICD-9cm codes to standard
+NB. "."'ed   form.  Prior   to  running  this  verb   export  the
+NB. spreadsheet data as TAB delimited text.
+NB.
+NB. verbatim: source data - zipped excel files at:
+NB.
+NB. https://www.cms.gov/ICD9ProviderDiagnosticCodes/06_codes.asp#TopOfPage
+NB.
+NB. monad:  btcl =. ICD9cmTable clPathFile
+NB.
+NB.   icd9file=. 'c:/wd/mwecc/data/CMS29_DESC_LONG_SHORT_DX 101111.txt'
+NB.   icd9=. ICD9cmTable icd9file
+
+NB. read codes, long descriptions, short descriptions
+dat=. 3 {."1 (readtd2 y) -.&.> '"'
+
+NB. all numeric codes begin with three digit category code
+NB. the V codes have a Vnn layout also a 3 character prefix
+dc=.  > }. 0 {"1 dat
+bm=.  'E' ~: 0 {"1 dc
+dcn=. bm # dc
+dcn=. <"1 (3 {."1 dcn) ,. '.' ,. 3 }."1 dcn
+dat=. (dcn -.&.> ' ') (<(>:I.bm);0)} dat
+
+NB. E codes have Ennn layout
+dcn=. (bm=.-.bm) # dc
+dcn=. <"1 (4 {."1 dcn) ,. '.' ,. 4 }."1 dcn
+(dcn -.&.> ' ') (<(>:I.bm);0)} dat
 )
 
 LrpReconSummary=:3 : 0
@@ -607,7 +666,7 @@ showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:''
-zz=:zz,'47 2$<;._1 ''|APL385Unicode|Adrian Smith APL385 Unicode font encodin'
+zz=:zz,'54 2$<;._1 ''|APL385Unicode|Adrian Smith APL385 Unicode font encodin'
 zz=:zz,'g|APL385UnicodeTest|generates UTF8 encoded APL test text|AddTOILoss'
 zz=:zz,'FDFFields|adds two new test fields to FDF files|AlertAgeHistSQL|CTE'
 zz=:zz,' SQLServer query that computes fuzzy alert age histogram|AlertAgeHi'
@@ -625,27 +684,33 @@ zz=:zz,'y age intervals - each interval i < v <: i+1|ExclassesSQL|excluded '
 zz=:zz,'classes by state from Oracle|FuzzyAlertSummary|summarizes fuzzy bil'
 zz=:zz,'l alert ages|FuzzyAlertSummary2|summarizes fuzzy bill alert ages|Fu'
 zz=:zz,'zzyAlertTPA|alert summary for one TPA|FuzzyAlertTPA2|alert summary '
-zz=:zz,'for one TPA|IFACEWORDSFuzzyAlerts|interface words (IFACEWORDSFuzzyA'
-zz=:zz,'lerts) group|IFACEWORDSRecodeSchedZ|interface words (IFACEWORDSReco'
-zz=:zz,'deSchedZ) group|InjuryColumn|TOI column index in schedz.txt|InsertG'
-zz=:zz,'ap7502SQL|GAP 7502 Gross to Net Calculation new TPAConfiguration ro'
-zz=:zz,'ws|MaintReadAZHdr|j version of BCA MaintReadAZHdr|NewCodeDensity|ia'
-zz=:zz,' modulus used to insert new TOI codes|ROOTWORDSFuzzyAlerts|root wor'
-zz=:zz,'ds (ROOTWORDSFuzzyAlerts) group      |ROOTWORDSRecodeSchedZ|root wo'
-zz=:zz,'rds (ROOTWORDSRecodeSchedZ) group      |RecodeRtr|recodes rtr facto'
-zz=:zz,'r table rtr|RecodeSchedZ|recodes the injury field in schedz|SchedZE'
-zz=:zz,'ncode|encode extant TOI injury codes|SchedZFile|path to BCAmaint Sc'
-zz=:zz,'hedZ.txt file|SchedZSQL|sql query extracted from C# WriteSchedZFile'
-zz=:zz,'() in MECC.BCAmaint|SelectStateCodeSQL|example of selecting NCCI st'
-zz=:zz,'ates and codes|StatesSQL|selects State data from Oracle database|Va'
-zz=:zz,'lidNewTOICodes|list of valid new TOI codes|ValidOldTOICodes|list of'
-zz=:zz,' valid old TOI codes|WriteRecodeSchedZFiles|adjusts all recoded sch'
-zz=:zz,'edz files|fch|ddfch sql data|fet|ddfet sql data|fetch|ddfch sql dat'
-zz=:zz,'a|lrpSpSQL|an example of an lrpCommon quote stored procedure SQL|sp'
-zz=:zz,'unquote|unquotes lrp sql stored procedure text|sqrquote|enclose in '
-zz=:zz,'square [] brackets|writecsv|write btcl as CRLF delimited comma sepa'
-zz=:zz,'rated file|ymdfrsqld|YYYYMMDD dates from SQLServer ddfch dates''    '
-zz=:2542{.zz
+zz=:zz,'for one TPA|ICD10cmTable|ICD-10 cm code table from XML source|ICD9c'
+zz=:zz,'mTable|standard format of ICD-9cm codes from tab delimited|ICD9diag'
+zz=:zz,'Sql|sql select for ICD9 diagnosis data|IFACEWORDSFuzzyAlerts|interf'
+zz=:zz,'ace words (IFACEWORDSFuzzyAlerts) group|IFACEWORDSRecodeSchedZ|inte'
+zz=:zz,'rface words (IFACEWORDSRecodeSchedZ) group|InjuryColumn|TOI column '
+zz=:zz,'index in schedz.txt|InsertGap7502SQL|GAP 7502 Gross to Net Calculat'
+zz=:zz,'ion new TPAConfiguration rows|LrpReconSummary|returns LRP claim rec'
+zz=:zz,'onciliation summary|MaintReadAZHdr|j version of BCA MaintReadAZHdr|'
+zz=:zz,'NewCodeDensity|ia modulus used to insert new TOI codes|ROOTWORDSFuz'
+zz=:zz,'zyAlerts|root words (ROOTWORDSFuzzyAlerts) group      |ROOTWORDSRec'
+zz=:zz,'odeSchedZ|root words (ROOTWORDSRecodeSchedZ) group      |RecodeRtr|'
+zz=:zz,'recodes rtr factor table rtr|RecodeSchedZ|recodes the injury field '
+zz=:zz,'in schedz|RefsFrNpp|classify file type references from notepad++ fi'
+zz=:zz,'f scans|SchedZEncode|encode extant TOI injury codes|SchedZFile|path'
+zz=:zz,' to BCAmaint SchedZ.txt file|SchedZSQL|sql query extracted from C# '
+zz=:zz,'WriteSchedZFile() in MECC.BCAmaint|SelectStateCodeSQL|example of se'
+zz=:zz,'lecting NCCI states and codes|StatesSQL|selects State data from Ora'
+zz=:zz,'cle database|ValidNewTOICodes|list of valid new TOI codes|ValidOldT'
+zz=:zz,'OICodes|list of valid old TOI codes|WriteRecodeSchedZFiles|adjusts '
+zz=:zz,'all recoded schedz files|fch|ddfch sql data|fet|ddfet sql data|fetc'
+zz=:zz,'h|ddfch sql data|insqlfrtd|table insert sql from btcl|lrpColumns|re'
+zz=:zz,'turns table columns for SQLServer lrp tables|lrpSpSQL|an example of'
+zz=:zz,' an lrpCommon quote stored procedure SQL|spunquote|unquotes lrp sql'
+zz=:zz,' stored procedure text|sqrquote|enclose in square [] brackets|write'
+zz=:zz,'csv|write btcl as CRLF delimited comma separated file|ymdfrsqld|YYY'
+zz=:zz,'YMMDD dates from SQLServer ddfch dates''                            '
+zz=:2920{.zz
 showpass 0 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
@@ -815,12 +880,13 @@ zz=:zz,'tAgeHistTpaSQL AlertAgeHistogram AlertAgeSQL AlertTpaSQL DayAgeInte'
 zz=:zz,'rvals FuzzyAlertSummary FuzzyAlertSummary2 FuzzyAlertTPA FuzzyAlert'
 zz=:zz,'TPA2 IFACEWORDSFuzzyAlerts ROOTWORDSFuzzyAlerts assert changestr da'
 zz=:zz,'yage fch fet histogram histogram2 rebtbcol today todayno ymdfrsqld'''
-zz=:zz,'),<<;._1 '' RecodeSchedZ AddTOILossFDFFields CR CRLF IFACEWORDSRecod'
-zz=:zz,'eSchedZ InjuryColumn NewCodeDensity ROOTWORDSRecodeSchedZ RecodeRtr'
-zz=:zz,' RecodeSchedZ SchedZEncode ValidNewTOICodes ValidOldTOICodes WriteR'
-zz=:zz,'ecodeSchedZFiles assert ctl erase read readcsv toCRLF toHOST toJ wr'
-zz=:zz,'ite writecsv''                                                      '
-zz=:951{.zz
+zz=:zz,'),(<<;._1 '' ICD ICD10cmTable ICD9cmTable ICD9diagSql alltrim before'
+zz=:zz,'str betweenstrs geteletext read readtd2 tags''),<<;._1 '' RecodeSched'
+zz=:zz,'Z AddTOILossFDFFields CR CRLF IFACEWORDSRecodeSchedZ InjuryColumn N'
+zz=:zz,'ewCodeDensity ROOTWORDSRecodeSchedZ RecodeRtr RecodeSchedZ SchedZEn'
+zz=:zz,'code ValidNewTOICodes ValidOldTOICodes WriteRecodeSchedZFiles asser'
+zz=:zz,'t ctl erase read readcsv toCRLF toHOST toJ write writecsv''         '
+zz=:1063{.zz
 showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 

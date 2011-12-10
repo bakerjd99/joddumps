@@ -1,5 +1,5 @@
-NB. JOD dictionary dump: 23 Oct 2011 10:39:34
-NB. Generated with JOD version; 0.9.3; 11; 11 Jun 2011 13:52:57
+NB. JOD dictionary dump: 29 Nov 2011 13:54:03
+NB. Generated with JOD version; 0.9.5; 11; 28 Nov 2011 12:07:37
 
 NB.
 NB. Names & DidNums on current path
@@ -177,7 +177,7 @@ OKRCC=:,'0'
 
 PICTUREWAITDEFAULT=:5
 
-PSMSRVPATH=:'c:\mp\cs\JPictureScriptManager\JPictureScriptManager\'
+PSMSRVPATH=:'c:\mpo\cs\JPictureScriptManager\JPictureScriptManager\'
 
 RETRYRCC=:'-11'
 
@@ -270,7 +270,7 @@ flickrXthumbsVMD=:'0.8.0';97;'01 Feb 2009 17:38:31'
 
 kmlROOTWORDS=:<;._1 ' geotaggedkml write kmlROOTWORDS'
 
-thumbsSrvVMD=:'0.8.0';146;'23 Oct 2011 10:37:01'
+thumbsSrvVMD=:'0.8.0';149;'25 Oct 2011 09:53:54'
 
 showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
@@ -6121,7 +6121,7 @@ sm=. shell cmd,' ',enquote y
 (exifinfo y),<sm
 )
 
-setlatlng=:4 : 0
+setlatlng=:3 : 0
 
 NB.*setlatlng v-- set exif latitude and longitude.
 NB.
@@ -6129,10 +6129,20 @@ NB. This verb takes latitude  and longitude  (x)  in  GoogleEarth
 NB. format  (Northern   latitudes  +),  (Western  Longitudes  -),
 NB. decimal degrees and sets exif gps values in image file (y).
 NB.
+NB. monad: setlatlng clPathFile
+NB. 
+NB.  NB. monad removes GPS infomation from image
+NB.  setlatlng 'c:/wallpaper/puppy.jpg'
+NB.
 NB. dyad:  flLatLng setlatlng clPathFile
 NB.
 NB.   45.0899 _110.78135 setlatlng 'c:/wallpaper/kitten.jpg'
 
+'invalid " in file name' assert -.'"' e. y
+'original backup file' assert -.+./'_original' E. justext y
+sm=. shell EXIFCMDTAB,' -gps:all= ',enquote y
+(exifinfo y),<sm
+:
 'invalid " in file name' assert -.'"' e. y
 'original backup file' assert -.+./'_original' E. justext y
 

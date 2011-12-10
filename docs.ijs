@@ -1,5 +1,5 @@
-NB. JOD dictionary dump:  2 Nov 2011 10:53:15
-NB. Generated with JOD version; 0.9.4; 3; 14 Jun 2011 09:38:23
+NB. JOD dictionary dump:  9 Dec 2011 10:22:23
+NB. Generated with JOD version; 0.9.6; 1; 6 Dec 2011 12:57:55
 
 NB.
 NB. Names & DidNums on current path
@@ -31,6 +31,8 @@ HomePIPDocs=:'c:/pd/docs'
 IFACEWORDSWeeks=:<;._1 ' DudWeek MeWeek MweccWeek MyWeeksLeft'
 
 KindleMetamathTeX=:10 37 32 66 69 71 73 78 32 75 73 78 68 76 69 32 83 105 122 105 110 103 32 40 74 117 108 121 32 53 44 32 50 48 49 49 41 10 92 117 115 101 112 97 99 107 97 103 101 123 98 114 101 113 110 125 32 32 32 32 32 32 32 32 32 32 32 37 32 97 117 116 111 109 97 116 105 99 32 101 113 117 97 116 105 111 110 32 98 114 101 97 107 105 110 103 10 92 117 115 101 112 97 99 107 97 103 101 123 109 105 99 114 111 116 121 112 101 125 32 32 32 32 32 32 32 37 32 109 105 99 114 111 116 121 112 111 103 114 97 112 104 121 44 32 114 101 100 117 99 101 115 32 104 121 112 104 101 110 97 116 105 111 110 10 10 37 32 105 110 99 108 117 100 101 32 115 111 117 114 99 101 32 99 111 100 101 32 108 105 115 116 105 110 103 115 32 45 32 115 117 112 112 111 114 116 115 32 108 105 110 101 32 98 114 101 97 107 115 32 105 110 32 118 101 114 98 97 116 105 109 32 101 110 118 105 114 111 110 109 101 110 116 115 10 92 117 115 101 112 97 99 107 97 103 101 123 108 105 115 116 105 110 103 115 125 10 10 92 108 115 116 115 101 116 123 37 10 32 32 98 97 115 105 99 115 116 121 108 101 61 92 116 116 102 97 109 105 108 121 92 102 111 111 116 110 111 116 101 115 105 122 101 44 32 32 32 32 32 37 32 112 114 105 110 116 32 115 105 122 101 10 32 32 98 114 101 97 107 108 105 110 101 115 61 116 114 117 101 44 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 37 32 115 101 116 115 32 97 117 116 111 109 97 116 105 99 32 108 105 110 101 32 98 114 101 97 107 105 110 103 10 32 32 98 114 101 97 107 97 116 119 104 105 116 101 115 112 97 99 101 61 116 114 117 101 44 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 37 32 115 101 116 115 32 105 102 32 97 117 116 111 109 97 116 105 99 32 98 114 101 97 107 115 32 115 104 111 117 108 100 32 111 110 108 121 32 104 97 112 112 101 110 32 97 116 32 119 104 105 116 101 115 112 97 99 101 10 125 10 10 37 32 117 115 101 32 103 101 111 109 101 116 114 121 32 116 111 32 115 101 116 32 112 97 103 101 32 115 105 122 101 10 92 117 115 101 112 97 99 107 97 103 101 91 112 97 112 101 114 115 105 122 101 61 123 51 46 54 105 110 44 52 46 56 105 110 125 44 104 109 97 114 103 105 110 61 48 46 49 105 110 44 118 109 97 114 103 105 110 61 123 48 46 49 105 110 44 48 46 49 105 110 125 93 123 103 101 111 109 101 116 114 121 125 32 32 37 32 112 97 103 101 32 103 101 111 109 101 116 114 121 10 10 92 117 115 101 112 97 99 107 97 103 101 123 102 97 110 99 121 104 100 114 125 32 32 32 32 32 32 32 37 32 104 101 97 100 101 114 115 32 97 110 100 32 102 111 111 116 101 114 115 10 92 112 97 103 101 115 116 121 108 101 123 102 97 110 99 121 125 10 92 102 97 110 99 121 104 101 97 100 123 125 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 37 32 99 108 101 97 114 32 112 97 103 101 32 104 101 97 100 101 114 10 92 102 97 110 99 121 102 111 111 116 123 125 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 37 32 99 108 101 97 114 32 112 97 103 101 32 102 111 111 116 101 114 10 10 92 115 101 116 108 101 110 103 116 104 123 92 97 98 111 118 101 99 97 112 116 105 111 110 115 107 105 112 125 123 50 112 116 125 32 32 32 37 32 115 112 97 99 101 32 97 98 111 118 101 32 99 97 112 116 105 111 110 115 32 10 92 115 101 116 108 101 110 103 116 104 123 92 98 101 108 111 119 99 97 112 116 105 111 110 115 107 105 112 125 123 48 112 116 125 32 32 32 37 32 115 112 97 99 101 32 98 101 108 111 119 32 99 97 112 116 105 111 110 115 10 92 115 101 116 108 101 110 103 116 104 123 92 116 101 120 116 102 108 111 97 116 115 101 112 125 123 50 112 116 125 32 32 32 32 32 32 32 37 32 115 112 97 99 101 32 98 101 116 119 101 101 110 32 108 97 115 116 32 116 111 112 32 102 108 111 97 116 32 111 114 32 102 105 114 115 116 32 98 111 116 116 111 109 32 102 108 111 97 116 32 97 110 100 32 116 104 101 32 116 101 120 116 10 92 115 101 116 108 101 110 103 116 104 123 92 102 108 111 97 116 115 101 112 125 123 50 112 116 125 32 32 32 32 32 32 32 32 32 32 32 37 32 115 112 97 99 101 32 108 101 102 116 32 98 101 116 119 101 101 110 32 102 108 111 97 116 115 10 92 115 101 116 108 101 110 103 116 104 123 92 105 110 116 101 120 116 115 101 112 125 123 50 112 116 125 32 32 32 32 32 32 32 32 32 32 37 32 115 112 97 99 101 32 108 101 102 116 32 111 110 32 116 111 112 32 97 110 100 32 98 111 116 116 111 109 32 111 102 32 97 110 32 105 110 45 116 101 120 116 32 102 108 111 97 116 10 37 32 69 78 68 32 75 73 78 68 76 69 10 10{a.
+
+LATEXPXDEXTS=:(<<;._1 ' jod ./jodgraphics'),<<;._1 ' tex eps'
 
 LinPipLib=:'/home/john/pd/docs/piplib/'
 
@@ -742,6 +744,49 @@ graphdims=:[: ~. [: '['&afterstr@:(']'&beforestr)&.> ] <;.1~ '\includegraphics' 
 
 lastmonday=:[: todate todayno - 7 | 1 -~ weekday
 
+latexfiles=:3 : 0
+
+NB.*latexfiles v--  extracts a unique  list  of files from  LaTeX
+NB. \listfiles log entries.
+NB.
+NB. Note: \listfiles does not  include the  root *.tex  file that
+NB. gets the whole  ball rolling. Also,  preprocessed source like
+NB. *.bib files that produce inclusions with different extensions
+NB. *.bbl's will not be listed.
+NB.
+NB. monad:  blcl =. latexfiles clFilePath
+NB.
+NB.   tf=. latexfiles 'c:/jod/j701/joddev/document/jod.log'
+NB.   'jod.tex';'jodbib.bib';tf  NB. complete source list
+NB.
+NB. dyad:  blcl =. ((<blPfxDir),<blExts) latexfiles clFilePath
+NB.
+NB.   pdx=. (<'mwecc';'./inclusions'),<;:'tex png'
+NB.   pdx latexfiles 'c:/wd/mwecc/diary/mwecc.log'
+
+LATEXPXDEXTS latexfiles y
+:
+'log file does not exist - rerun LaTeX with \listfiles' assert fexist y
+
+NB. main prefix, inclusion subdirectory and file extensions
+'pxd exts'=. x
+
+NB. \listfiles log delimiters
+logbeg=.'*File List*' [ logend=.'***********'
+
+NB. extract unique file list
+files=. allwhitetrim logend&beforestr logbeg&afterstr read y
+files=. ~. (' '&beforestr)@:allwhitetrim&.> <;._1 LF,files -. CR
+
+NB. reduce on subdirectory prefix and extensions
+files=. /:~ files #~ +./ exts (+./@:E.&>)/ files
+pxf=. files #~ {.@:((;{.pxd)&E.)&> files
+sdf=. './'&afterstr&.> files #~ {.@:((;{:pxd)&E.)&> files
+
+NB. format paths for copying !(*)=. IFWIN
+~. pxf,allwhitetrim&.> <"1 (IFWIN|.'\/') charsub >sdf
+)
+
 nextsunday=:[: todate todayno + 7 | 7 - weekday
 
 versionymw=:3 : 0
@@ -764,61 +809,64 @@ showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:''
-zz=:zz,'59 2$<;._1 ''|APL385Unicode|Adrian Smith APL385 Unicode font encodin'
+zz=:zz,'62 2$<;._1 ''|APL385Unicode|Adrian Smith APL385 Unicode font encodin'
 zz=:zz,'g|APL385UnicodeDec|APL385 unicode font codepoints as decimal|APL385'
 zz=:zz,'UnicodeTest|generates UTF8 encoded APL test text|AplwinUnicodePoint'
-zz=:zz,'s|256 APL+WIN QuadAV characters mapped to unicode codepoints|CLifeE'
-zz=:zz,'xpectancy|Wolfram alpha conditional life expectancy for us male bor'
-zz=:zz,'n in 1953|DudDiaryStart|start of (Delusion Undertakings Diary)|DudV'
-zz=:zz,'ersion|current version of DUD (Delusional Undertakings Diary)|DudWe'
-zz=:zz,'ek|generates week counter header for Dud diary|HomePIPDocs|leading '
-zz=:zz,'partial windows PIP PDF directory path|IFACEWORDSWeeks|interface wo'
-zz=:zz,'rds (IFACEWORDSWeeks) group|InsertDudVersion|inserts the DudVersion'
-zz=:zz,' in prjcommon-tex|InsertMweccVersion|inserts the MweccVersion in mw'
-zz=:zz,'ecccommon-tex|JustifyOneVerbatim|left justifies one verbatim text e'
-zz=:zz,'nvironment|JustifyVerbatim|left justifies text in latex verbatim en'
-zz=:zz,'vironments|KindleMetamath|generate a Kindle oriented version of met'
-zz=:zz,'amath|KindleMetamathTeX|LaTeXe Kindle oriented preamble code|LinPip'
-zz=:zz,'Lib|linux pip library directory|LinuxPIPDocs|leading partial linux '
-zz=:zz,'PIP PDF directory path|LocalFileColor|hyperref color used for local'
-zz=:zz,' file urls|LocalPDFDir|PIP PDF directory subpath - common to window'
-zz=:zz,'s and linux|LstlistingExtendChars|upper 128 plus unicode euro and f'
-zz=:zz,'rench ligatures|MeWeek|my week counter|MendeleyPDFDir|Mendeley loca'
-zz=:zz,'l directory subpath - common to windows and linux|MweccDiaryStart|s'
-zz=:zz,'tart date for Midwest Employeers Casualty Company work diary|MweccV'
-zz=:zz,'ersion|current version of (MWECC Work Diary)|MweccWeek|generates we'
-zz=:zz,'ek counter header for Mwecc diary|MyBirthDate|my birthday|MyDeathDa'
-zz=:zz,'te|my death date based on Wolfram average conditional life expectan'
-zz=:zz,'cy|MyWeeksLeft|my remaining weeks|ROOTWORDSWeeks|root words (ROOTWO'
-zz=:zz,'RDSWeeks) group      |RescaleHilbertGraphics|replaces all fixed wid'
-zz=:zz,'th \includegraphics dimensions with relative widths|RescaleWidthGra'
-zz=:zz,'phics|replaces fixed width \includegraphics[width=W|RunBibUrlInproc'
-zz=:zz,'ess|run the (Delusion Undertakings Diary) bibliography url inproces'
-zz=:zz,'s|RunDudPreprocess|run the (Delusion Undertakings Diary) preprocess'
-zz=:zz,'|RunDudUrlInprocess|run the (Delusion Undertakings Diary) url inpro'
-zz=:zz,'cess|RunDudprjUrlInprocess|run the (Delusion Undertakings Diary) bi'
-zz=:zz,'bliography inprocess|SourcePageTeXPts|dimensions of letter paper pa'
-zz=:zz,'ge in TeX points|TargetPageTeXPts|dimensions of Kindle sized page i'
-zz=:zz,'n TeX points|TropicalYear|length of tropical year in days|UrlSize|l'
-zz=:zz,'atex font size of expanded urls|WebUrlColor|hyperref color used for'
-zz=:zz,' web urls|WeekHeader|generates week header for YYYY MM DD date|WinP'
-zz=:zz,'ipLib|windows pip library directory|WorkPIPDocs|ubuntu one synchron'
-zz=:zz,'ized directory on work windows machine|bblUrlExpand|expands bibliog'
-zz=:zz,'raphy [[[key]]] placeholders in bbl files using bib data|bibLocalPD'
-zz=:zz,'Fs|returns path to local PIP documents|bibMendeleyNotes|appends a '''
-zz=:zz,'''NOTES='''' element to Mendeley bibtex|bibUrlTable|parses bib/bbl tex'
-zz=:zz,'t and return [[[key]]] expansion table|bibitems|cuts latex bib file'
-zz=:zz,'s into items|bibkeys|extracts bibliography keys from bib file text|'
-zz=:zz,'bibnotes|appends a ''''NOTES='''' element to bibtex|fileurlescapes|reve'
-zz=:zz,'rt escaped bibtex characters|gdimfile|cuts \includegraphics argumen'
-zz=:zz,'ts out of latex|graphdimfile|dimensions and file names from latex \'
-zz=:zz,'includegraphics - see long document|graphdims|extract unique list o'
-zz=:zz,'f graphics dimensions from latex|lastmonday|calendar date YYYY MM D'
-zz=:zz,'D of last monday - see long document|nextsunday|calendar date YYYY '
-zz=:zz,'MM DD of next sunday - see (lastmonday)|versionymw|year month week '
-zz=:zz,'tally from start date|weekcount|weeks between two YYYY MM DD dates:'
-zz=:zz,' 2001 9 11 weekcount 2011 11 24''                                   '
-zz=:3583{.zz
+zz=:zz,'s|256 APL+WIN QuadAV characters mapped to unicode codepoints|Append'
+zz=:zz,'LibraryNotes|appends NOTE= items to bibliography items with notes|C'
+zz=:zz,'LifeExpectancy|Wolfram alpha conditional life expectancy for us mal'
+zz=:zz,'e born in 1953|DudDiaryStart|start of (Delusion Undertakings Diary)'
+zz=:zz,'|DudVersion|current version of DUD (Delusional Undertakings Diary)|'
+zz=:zz,'DudWeek|generates week counter header for Dud diary|HomePIPDocs|lea'
+zz=:zz,'ding partial windows PIP PDF directory path|IFACEWORDSWeeks|interfa'
+zz=:zz,'ce words (IFACEWORDSWeeks) group|InsertDudVersion|inserts the DudVe'
+zz=:zz,'rsion in prjcommon-tex|InsertMweccVersion|inserts the MweccVersion '
+zz=:zz,'in mwecccommon-tex|JustifyOneVerbatim|left justifies one verbatim t'
+zz=:zz,'ext environment|JustifyVerbatim|left justifies text in latex verbat'
+zz=:zz,'im environments|KindleMetamath|generate a Kindle oriented version o'
+zz=:zz,'f metamath|KindleMetamathTeX|LaTeXe Kindle oriented preamble code|L'
+zz=:zz,'ATEXPXDEXTS|default LaTeX prefix, subdirectory prefix and file exte'
+zz=:zz,'nsion lists|LinPipLib|linux pip library directory|LinuxPIPDocs|lead'
+zz=:zz,'ing partial linux PIP PDF directory path|LocalFileColor|hyperref co'
+zz=:zz,'lor used for local file urls|LocalPDFDir|PIP PDF directory subpath '
+zz=:zz,'- common to windows and linux|LstlistingExtendChars|upper 128 plus '
+zz=:zz,'unicode euro and french ligatures|MeWeek|my week counter|MendeleyPD'
+zz=:zz,'FDir|Mendeley local directory subpath - common to windows and linux'
+zz=:zz,'|MweccDiaryStart|start date for Midwest Employeers Casualty Company'
+zz=:zz,' work diary|MweccVersion|current version of (MWECC Work Diary)|Mwec'
+zz=:zz,'cWeek|generates week counter header for Mwecc diary|MyBirthDate|my '
+zz=:zz,'birthday|MyDeathDate|my death date based on Wolfram average conditi'
+zz=:zz,'onal life expectancy|MyWeeksLeft|my remaining weeks|ROOTWORDSWeeks|'
+zz=:zz,'root words (ROOTWORDSWeeks) group      |RescaleHilbertGraphics|repl'
+zz=:zz,'aces all fixed width \includegraphics dimensions with relative widt'
+zz=:zz,'hs|RescaleWidthGraphics|replaces fixed width \includegraphics[width'
+zz=:zz,'=W|RunBibUrlInprocess|run the (Delusion Undertakings Diary) bibliog'
+zz=:zz,'raphy url inprocess|RunDudPreprocess|run the (Delusion Undertakings'
+zz=:zz,' Diary) preprocess|RunDudUrlInprocess|run the (Delusion Undertaking'
+zz=:zz,'s Diary) url inprocess|RunDudprjUrlInprocess|run the (Delusion Unde'
+zz=:zz,'rtakings Diary) bibliography inprocess|SourcePageTeXPts|dimensions '
+zz=:zz,'of letter paper page in TeX points|TargetPageTeXPts|dimensions of K'
+zz=:zz,'indle sized page in TeX points|TropicalYear|length of tropical year'
+zz=:zz,' in days|UrlSize|latex font size of expanded urls|WebUrlColor|hyper'
+zz=:zz,'ref color used for web urls|WeekHeader|generates week header for YY'
+zz=:zz,'YY MM DD date|WinPipLib|windows pip library directory|WorkPIPDocs|u'
+zz=:zz,'buntu one synchronized directory on work windows machine|bblUrlExpa'
+zz=:zz,'nd|expands bibliography [[[key]]] placeholders in bbl files using b'
+zz=:zz,'ib data|bibLocalPDFs|returns path to local PIP documents|bibMendele'
+zz=:zz,'yNotes|appends a ''''NOTES='''' element to Mendeley bibtex|bibUrlTable|'
+zz=:zz,'parses bib/bbl text and return [[[key]]] expansion table|bibitems|c'
+zz=:zz,'uts latex bib files into items|bibkeys|extracts bibliography keys f'
+zz=:zz,'rom bib file text|bibnotes|appends a ''''NOTES='''' element to bibtex|f'
+zz=:zz,'ileurlescapes|revert escaped bibtex characters|gdimfile|cuts \inclu'
+zz=:zz,'degraphics arguments out of latex|graphdimfile|dimensions and file '
+zz=:zz,'names from latex \includegraphics - see long document|graphdims|ext'
+zz=:zz,'ract unique list of graphics dimensions from latex|lastmonday|calen'
+zz=:zz,'dar date YYYY MM DD of last monday - see long document|latexfiles|e'
+zz=:zz,'xtracts a unique list of files from LaTeX \listfiles log entries|ne'
+zz=:zz,'xtsunday|calendar date YYYY MM DD of next sunday - see (lastmonday)'
+zz=:zz,'|versionymw|year month week tally from start date|weekcount|weeks b'
+zz=:zz,'etween two YYYY MM DD dates: 2001 9 11 weekcount 2011 11 24''       '
+zz=:3812{.zz
 showpass 0 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
