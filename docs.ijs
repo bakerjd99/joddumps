@@ -1,5 +1,5 @@
-NB. JOD dictionary dump:  9 Dec 2011 10:22:23
-NB. Generated with JOD version; 0.9.6; 1; 6 Dec 2011 12:57:55
+NB. JOD dictionary dump:  4 Jan 2012 14:37:19
+NB. Generated with JOD version; 0.9.7; 8; 22 Dec 2011 15:05:32
 
 NB.
 NB. Names & DidNums on current path
@@ -127,9 +127,39 @@ NB.
 NB. Weeks start on Monday and end on Sunday.
 NB.
 NB. monad:  cl =. DudWeek paZero | ilYYYYMMDD
+NB.
+NB.  DudWeek 0  NB. header latex format
+NB.
+NB. dyad:   cl =. uuIgnore DudWeek paZero | ilYYYYMMDD
+NB.
+NB.   DudWeek~ 0 NB. return table latex format
 
 hdr=. DudDiaryStart;' --- '
 if. 0-:y do. hdr WeekHeader today '' else. hdr WeekHeader y end.
+:
+hdr=. DudDiaryStart;' --- '
+if. 0-:y do. hdr WeekHeader2 today '' else. hdr WeekHeader2 y end.
+)
+
+InsertDudActDietStats=:3 : 0
+
+NB.*InsertDudActDietStats  v--   updates  table   statistics   in
+NB. prjFATass-tex
+NB.
+NB. monad:  clVersion =. InsertDudActDietStats uuIgnore
+
+file=. 'c:/pd/diaries/projects/prjFATass.tex'
+tex=.  read file
+
+NB. count table header statistics
+dat=. meanActDietCnts parseActDietCnts tex
+frg=. fmtActDietCnts dat
+
+tex=. ('%<actdietavg0>';'%</actdietavg0>';frg) insertbetween tex
+tex=. ('%<actdietavg1>';'%</actdietavg1>';frg) insertbetween tex
+
+tex write file
+showpass 'statistics updated: ',(":dat),LF,file
 )
 
 InsertDudVersion=:3 : 0
@@ -144,7 +174,9 @@ dudtc=. '\prjversion}{'
 end=.  LF,LF afterstr '}' afterstr dudtc afterstr tex   
 beg=.  dudtc beforestr tex
 dudv=. DudVersion 0
-newtex=. beg,dudtc,dudv,('}% <<JpreProc>>: ',timestamp ''),end
+NB. removing timestamp results in to many annoying file content changes
+newtex=. beg,dudtc,dudv,('}% <<JpreProc>>: '),end
+NB. newtex=. beg,dudtc,dudv,('}% <<JpreProc>>: ',timestamp ''),end
 newtex write file
 showpass dudv
 )
@@ -413,6 +445,9 @@ NB. monad:  RunDudPreprocess uuIgnore
 NB. update document version
 InsertDudVersion 0
 
+NB. update stats
+InsertDudActDietStats 0
+
 NB. process mendeley bib
 bibin=.  'c:/pd/diaries/projects/library.bib'
 bibout=. 'c:/pd/diaries/projects/libnotes.bib'
@@ -482,6 +517,26 @@ dr=. dfmt {"1 timestamp (lastmonday ,: nextsunday) y
 
 NB. week header
 'Week ' , (":start weekcount y) , ' ' , tolower (#dash) }. , dash ,"1 dr
+)
+
+WeekHeader2=:4 : 0
+
+NB.*WeekHeader2 v-- generates week header for YYYY MM DD date.
+NB.
+NB. Like (WeekHeader) but returns date range in different format.
+NB.
+NB. dyad:  cl =. (ilYYYYMMDDStart;clDash) WeekHeader2 ilYYYYMMDD
+NB.
+NB.   (DudDiaryStart;' --- ') WeekHeader2 today ''
+
+'start dash'=. x
+dfmt=. 9 10 3 4 5 0 1
+
+NB. date range
+dr=. dfmt {"1 timestamp (lastmonday ,: nextsunday) y
+
+NB. week header
+('\texttt{\textbf{',":start weekcount y) , '}} ' ,tolower (#dash)}. ,dash ,"1 '\texttt{' ,"1 dr ,. '}'
 )
 
 bblUrlExpand=:3 : 0
@@ -736,11 +791,39 @@ else.
 end.
 )
 
+fmtActDietCnts=:3 : 0
+
+NB.*fmtActDietCnts v--  formats  activity  diet counts  as  latex
+NB. table fragment.
+NB.
+NB. monad:  cl =. fmtActDietCnts flMeans
+
+'n kg gym bx5 walk ofood read'=. y
+
+t=.   '\multicolumn{1}{|c|}{\emph{averages} $n=',(":n),'$} &',LF
+t=. t,'\multicolumn{1}{l|}{',(":kg),   '}  &',LF
+t=. t,'\multicolumn{1}{l|}{',(":gym),  '}  &',LF
+t=. t,'\multicolumn{1}{l|}{',(":bx5),  '}  &',LF
+t=. t,'\multicolumn{1}{l|}{',(":walk), '}  &',LF
+t=. t,'\multicolumn{1}{l|}{',(":ofood),'}  &',LF
+    t,'\multicolumn{1}{l|}{',(":read), '}',LF
+)
+
 gdimfile=:[: '['&afterstr@:('}'&beforestr)&.> ] <;.1~ '\includegraphics' E. ]
 
 graphdimfile=:[: (']'&beforestr ; '{'&afterstr)&> gdimfile
 
 graphdims=:[: ~. [: '['&afterstr@:(']'&beforestr)&.> ] <;.1~ '\includegraphics' E. ]
+
+insertbetween=:4 : 0
+
+NB.*insertbetween v-- insert cl between tags.
+NB.
+NB. dyad:  cl =. (clBegin;clEnd;clIn) insertbetween cl
+
+'beg fin txt'=. x
+(beg&beforestr y),beg,LF,txt,fin,fin&afterstr y
+)
 
 lastmonday=:[: todate todayno - 7 | 1 -~ weekday
 
@@ -787,7 +870,44 @@ NB. format paths for copying !(*)=. IFWIN
 ~. pxf,allwhitetrim&.> <"1 (IFWIN|.'\/') charsub >sdf
 )
 
+meanActDietCnts=:3 : 0
+
+NB.*meanActDietCnts  v--  computes column means  of  activity and
+NB. diet counts.
+NB.
+NB. monad:  fl =. meanActDietCnts btcl
+NB.
+NB.   cdat=. parseActDietCnts read 'c:/pd/diaries/projects/prjFATass.tex'
+NB.   meanActDietCnts cdat
+
+'invalid column count activity diet table' assert  7 = 1{$y
+
+dat=.  _99&".&> }."1 y
+'invalid counts activity diet table' assert -. _99 e. dat
+
+NB. row count and column means
+(# , mean) dat
+)
+
 nextsunday=:[: todate todayno + 7 | 7 - weekday
+
+parseActDietCnts=:3 : 0
+
+NB.*parseActDietCnts v-- extracts activity diet  counts  from tex
+NB. source file.
+NB.
+NB. monad:  btcl =. parseActDietCnts clTex
+NB.
+NB.   parseActDietCnts read 'c:/pd/diaries/projects/prjFATass.tex'
+
+NB. extract delimited data lines from tex table
+d=. allwhitetrim '%</actdietdata>'&beforestr '%<actdietdata>'&afterstr y
+d=. <;._2 tlf d -. CR
+d=. (-#'//') }.&.> allwhitetrim&.> d
+
+NB. parse lines as btcl
+<;._1&> '&' ,&.> d
+)
 
 versionymw=:3 : 0
 
@@ -809,7 +929,7 @@ showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:''
-zz=:zz,'62 2$<;._1 ''|APL385Unicode|Adrian Smith APL385 Unicode font encodin'
+zz=:zz,'68 2$<;._1 ''|APL385Unicode|Adrian Smith APL385 Unicode font encodin'
 zz=:zz,'g|APL385UnicodeDec|APL385 unicode font codepoints as decimal|APL385'
 zz=:zz,'UnicodeTest|generates UTF8 encoded APL test text|AplwinUnicodePoint'
 zz=:zz,'s|256 APL+WIN QuadAV characters mapped to unicode codepoints|Append'
@@ -819,54 +939,60 @@ zz=:zz,'e born in 1953|DudDiaryStart|start of (Delusion Undertakings Diary)'
 zz=:zz,'|DudVersion|current version of DUD (Delusional Undertakings Diary)|'
 zz=:zz,'DudWeek|generates week counter header for Dud diary|HomePIPDocs|lea'
 zz=:zz,'ding partial windows PIP PDF directory path|IFACEWORDSWeeks|interfa'
-zz=:zz,'ce words (IFACEWORDSWeeks) group|InsertDudVersion|inserts the DudVe'
-zz=:zz,'rsion in prjcommon-tex|InsertMweccVersion|inserts the MweccVersion '
-zz=:zz,'in mwecccommon-tex|JustifyOneVerbatim|left justifies one verbatim t'
-zz=:zz,'ext environment|JustifyVerbatim|left justifies text in latex verbat'
-zz=:zz,'im environments|KindleMetamath|generate a Kindle oriented version o'
-zz=:zz,'f metamath|KindleMetamathTeX|LaTeXe Kindle oriented preamble code|L'
-zz=:zz,'ATEXPXDEXTS|default LaTeX prefix, subdirectory prefix and file exte'
-zz=:zz,'nsion lists|LinPipLib|linux pip library directory|LinuxPIPDocs|lead'
-zz=:zz,'ing partial linux PIP PDF directory path|LocalFileColor|hyperref co'
-zz=:zz,'lor used for local file urls|LocalPDFDir|PIP PDF directory subpath '
-zz=:zz,'- common to windows and linux|LstlistingExtendChars|upper 128 plus '
-zz=:zz,'unicode euro and french ligatures|MeWeek|my week counter|MendeleyPD'
-zz=:zz,'FDir|Mendeley local directory subpath - common to windows and linux'
-zz=:zz,'|MweccDiaryStart|start date for Midwest Employeers Casualty Company'
-zz=:zz,' work diary|MweccVersion|current version of (MWECC Work Diary)|Mwec'
-zz=:zz,'cWeek|generates week counter header for Mwecc diary|MyBirthDate|my '
-zz=:zz,'birthday|MyDeathDate|my death date based on Wolfram average conditi'
-zz=:zz,'onal life expectancy|MyWeeksLeft|my remaining weeks|ROOTWORDSWeeks|'
-zz=:zz,'root words (ROOTWORDSWeeks) group      |RescaleHilbertGraphics|repl'
-zz=:zz,'aces all fixed width \includegraphics dimensions with relative widt'
-zz=:zz,'hs|RescaleWidthGraphics|replaces fixed width \includegraphics[width'
-zz=:zz,'=W|RunBibUrlInprocess|run the (Delusion Undertakings Diary) bibliog'
-zz=:zz,'raphy url inprocess|RunDudPreprocess|run the (Delusion Undertakings'
-zz=:zz,' Diary) preprocess|RunDudUrlInprocess|run the (Delusion Undertaking'
-zz=:zz,'s Diary) url inprocess|RunDudprjUrlInprocess|run the (Delusion Unde'
-zz=:zz,'rtakings Diary) bibliography inprocess|SourcePageTeXPts|dimensions '
-zz=:zz,'of letter paper page in TeX points|TargetPageTeXPts|dimensions of K'
-zz=:zz,'indle sized page in TeX points|TropicalYear|length of tropical year'
-zz=:zz,' in days|UrlSize|latex font size of expanded urls|WebUrlColor|hyper'
-zz=:zz,'ref color used for web urls|WeekHeader|generates week header for YY'
-zz=:zz,'YY MM DD date|WinPipLib|windows pip library directory|WorkPIPDocs|u'
-zz=:zz,'buntu one synchronized directory on work windows machine|bblUrlExpa'
-zz=:zz,'nd|expands bibliography [[[key]]] placeholders in bbl files using b'
-zz=:zz,'ib data|bibLocalPDFs|returns path to local PIP documents|bibMendele'
-zz=:zz,'yNotes|appends a ''''NOTES='''' element to Mendeley bibtex|bibUrlTable|'
-zz=:zz,'parses bib/bbl text and return [[[key]]] expansion table|bibitems|c'
-zz=:zz,'uts latex bib files into items|bibkeys|extracts bibliography keys f'
-zz=:zz,'rom bib file text|bibnotes|appends a ''''NOTES='''' element to bibtex|f'
-zz=:zz,'ileurlescapes|revert escaped bibtex characters|gdimfile|cuts \inclu'
-zz=:zz,'degraphics arguments out of latex|graphdimfile|dimensions and file '
-zz=:zz,'names from latex \includegraphics - see long document|graphdims|ext'
-zz=:zz,'ract unique list of graphics dimensions from latex|lastmonday|calen'
-zz=:zz,'dar date YYYY MM DD of last monday - see long document|latexfiles|e'
-zz=:zz,'xtracts a unique list of files from LaTeX \listfiles log entries|ne'
-zz=:zz,'xtsunday|calendar date YYYY MM DD of next sunday - see (lastmonday)'
-zz=:zz,'|versionymw|year month week tally from start date|weekcount|weeks b'
-zz=:zz,'etween two YYYY MM DD dates: 2001 9 11 weekcount 2011 11 24''       '
-zz=:3812{.zz
+zz=:zz,'ce words (IFACEWORDSWeeks) group|InsertDudActDietStats|updates tabl'
+zz=:zz,'e statistics in prjFATass-tex|InsertDudVersion|inserts the DudVersi'
+zz=:zz,'on in prjcommon-tex|InsertMweccVersion|inserts the MweccVersion in '
+zz=:zz,'mwecccommon-tex|JustifyOneVerbatim|left justifies one verbatim text'
+zz=:zz,' environment|JustifyVerbatim|left justifies text in latex verbatim '
+zz=:zz,'environments|KindleMetamath|generate a Kindle oriented version of m'
+zz=:zz,'etamath|KindleMetamathTeX|LaTeXe Kindle oriented preamble code|LATE'
+zz=:zz,'XPXDEXTS|default LaTeX prefix, subdirectory prefix and file extensi'
+zz=:zz,'on lists|LinPipLib|linux pip library directory|LinuxPIPDocs|leading'
+zz=:zz,' partial linux PIP PDF directory path|LocalFileColor|hyperref color'
+zz=:zz,' used for local file urls|LocalPDFDir|PIP PDF directory subpath - c'
+zz=:zz,'ommon to windows and linux|LstlistingExtendChars|upper 128 plus uni'
+zz=:zz,'code euro and french ligatures|MeWeek|my week counter|MendeleyPDFDi'
+zz=:zz,'r|Mendeley local directory subpath - common to windows and linux|Mw'
+zz=:zz,'eccDiaryStart|start date for Midwest Employeers Casualty Company wo'
+zz=:zz,'rk diary|MweccVersion|current version of (MWECC Work Diary)|MweccWe'
+zz=:zz,'ek|generates week counter header for Mwecc diary|MyBirthDate|my bir'
+zz=:zz,'thday|MyDeathDate|my death date based on Wolfram average conditiona'
+zz=:zz,'l life expectancy|MyWeeksLeft|my remaining weeks|ROOTWORDSWeeks|roo'
+zz=:zz,'t words (ROOTWORDSWeeks) group      |RescaleHilbertGraphics|replace'
+zz=:zz,'s all fixed width \includegraphics dimensions with relative widths|'
+zz=:zz,'RescaleWidthGraphics|replaces fixed width \includegraphics[width=W|'
+zz=:zz,'RunBibUrlInprocess|run the (Delusion Undertakings Diary) bibliograp'
+zz=:zz,'hy url inprocess|RunDudPreprocess|run the (Delusion Undertakings Di'
+zz=:zz,'ary) preprocess|RunDudUrlInprocess|run the (Delusion Undertakings D'
+zz=:zz,'iary) url inprocess|RunDudprjUrlInprocess|run the (Delusion Underta'
+zz=:zz,'kings Diary) bibliography inprocess|SourcePageTeXPts|dimensions of '
+zz=:zz,'letter paper page in TeX points|TargetPageTeXPts|dimensions of Kind'
+zz=:zz,'le sized page in TeX points|TropicalYear|length of tropical year in'
+zz=:zz,' days|UrlSize|latex font size of expanded urls|WebUrlColor|hyperref'
+zz=:zz,' color used for web urls|WeekHeader|generates week header for YYYY '
+zz=:zz,'MM DD date|WeekHeader2|generates week header for YYYY MM DD date|Wi'
+zz=:zz,'nPipLib|windows pip library directory|WorkPIPDocs|ubuntu one synchr'
+zz=:zz,'onized directory on work windows machine|bblUrlExpand|expands bibli'
+zz=:zz,'ography [[[key]]] placeholders in bbl files using bib data|bibLocal'
+zz=:zz,'PDFs|returns path to local PIP documents|bibMendeleyNotes|appends a'
+zz=:zz,' ''''NOTES='''' element to Mendeley bibtex|bibUrlTable|parses bib/bbl t'
+zz=:zz,'ext and return [[[key]]] expansion table|bibitems|cuts latex bib fi'
+zz=:zz,'les into items|bibkeys|extracts bibliography keys from bib file tex'
+zz=:zz,'t|bibnotes|appends a ''''NOTES='''' element to bibtex|fileurlescapes|re'
+zz=:zz,'vert escaped bibtex characters|fmtActDietCnts|formats activity diet'
+zz=:zz,' counts as latex table fragment|gdimfile|cuts \includegraphics argu'
+zz=:zz,'ments out of latex|graphdimfile|dimensions and file names from late'
+zz=:zz,'x \includegraphics - see long document|graphdims|extract unique lis'
+zz=:zz,'t of graphics dimensions from latex|insertbetween|insert cl between'
+zz=:zz,' tags|lastmonday|calendar date YYYY MM DD of last monday - see long'
+zz=:zz,' document|latexfiles|extracts a unique list of files from LaTeX \li'
+zz=:zz,'stfiles log entries|meanActDietCnts|computes column means of activi'
+zz=:zz,'ty and diet counts|nextsunday|calendar date YYYY MM DD of next sund'
+zz=:zz,'ay - see (lastmonday)|parseActDietCnts|extracts activity diet count'
+zz=:zz,'s from tex source file|versionymw|year month week tally from start '
+zz=:zz,'date|weekcount|weeks between two YYYY MM DD dates: 2001 9 11 weekco'
+zz=:zz,'unt 2011 11 24''                                                    '
+zz=:4169{.zz
 showpass 0 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
@@ -997,23 +1123,25 @@ zz=:zz,'WinPipLib afterlaststr afterstr alltrim assert bblUrlExpand beforel'
 zz=:zz,'aststr beforestr betweenstrs bibUrlTable bibitems bibkeys boxopen c'
 zz=:zz,'hangestr emptyshow fboxname ferase fexist fileurlescapes intersect '
 zz=:zz,'read showpass write''),(<<;._1 '' DudTeXPreprocess CR DudDiaryStart D'
-zz=:zz,'udVersion DudWeek HomePIPDocs InsertDudVersion LF LinuxPIPDocs Loca'
-zz=:zz,'lPDFDir MendeleyPDFDir RunDudPreprocess WeekHeader afterstr assert '
-zz=:zz,'beforelaststr beforestr bibLocalPDFs bibMendeleyNotes bibitems boxo'
-zz=:zz,'pen changestr charsub fboxname fexist fileurlescapes jpathsep lastm'
-zz=:zz,'onday monthsbetween nextsunday read showpass timestamp todate today'
-zz=:zz,' todayno tolower tslash versionymw weekcount weekday weeknumber wee'
-zz=:zz,'ksbetween weeksinyear write''),(<<;._1 '' MweccTeXPreprocess InsertMw'
-zz=:zz,'eccVersion LF MweccDiaryStart MweccVersion MweccWeek WeekHeader aft'
-zz=:zz,'erstr assert beforestr charsub lastmonday monthsbetween nextsunday '
-zz=:zz,'read showpass timestamp todate today todayno tolower versionymw wee'
-zz=:zz,'kcount weekday weeknumber weeksbetween weeksinyear write''),<<;._1 '''
-zz=:zz,' Weeks CLifeExpectancy DudDiaryStart DudWeek IFACEWORDSWeeks MeWeek'
-zz=:zz,' MweccDiaryStart MweccWeek MyBirthDate MyDeathDate MyWeeksLeft ROOT'
-zz=:zz,'WORDSWeeks TropicalYear WeekHeader lastmonday nextsunday timestamp '
-zz=:zz,'todate today todayno tolower weekcount weekday weeknumber weeksbetw'
-zz=:zz,'een weeksinyear''                                                   '
-zz=:1423{.zz
+zz=:zz,'udVersion DudWeek HomePIPDocs InsertDudActDietStats InsertDudVersio'
+zz=:zz,'n LF LinuxPIPDocs LocalPDFDir MendeleyPDFDir RunDudPreprocess WeekH'
+zz=:zz,'eader WeekHeader2 afterstr allwhitetrim assert beforelaststr before'
+zz=:zz,'str bibLocalPDFs bibMendeleyNotes bibitems boxopen changestr charsu'
+zz=:zz,'b fboxname fexist fileurlescapes fmtActDietCnts insertbetween jpath'
+zz=:zz,'sep lastmonday mean meanActDietCnts monthsbetween nextsunday parseA'
+zz=:zz,'ctDietCnts read showpass timestamp tlf todate today todayno tolower'
+zz=:zz,' tslash versionymw weekcount weekday weeknumber weeksbetween weeksi'
+zz=:zz,'nyear write''),(<<;._1 '' MweccTeXPreprocess InsertMweccVersion LF Mw'
+zz=:zz,'eccDiaryStart MweccVersion MweccWeek WeekHeader afterstr assert bef'
+zz=:zz,'orestr charsub lastmonday monthsbetween nextsunday read showpass ti'
+zz=:zz,'mestamp todate today todayno tolower versionymw weekcount weekday w'
+zz=:zz,'eeknumber weeksbetween weeksinyear write''),<<;._1 '' Weeks CLifeExpe'
+zz=:zz,'ctancy DudDiaryStart DudWeek IFACEWORDSWeeks MeWeek MweccDiaryStart'
+zz=:zz,' MweccWeek MyBirthDate MyDeathDate MyWeeksLeft ROOTWORDSWeeks Tropi'
+zz=:zz,'calYear WeekHeader WeekHeader2 lastmonday nextsunday timestamp toda'
+zz=:zz,'te today todayno tolower weekcount weekday weeknumber weeksbetween '
+zz=:zz,'weeksinyear''                                                       '
+zz=:1553{.zz
 showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
