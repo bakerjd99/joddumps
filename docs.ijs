@@ -1,5 +1,5 @@
-NB. JOD dictionary dump:  4 Jan 2012 14:37:19
-NB. Generated with JOD version; 0.9.7; 8; 22 Dec 2011 15:05:32
+NB. JOD dictionary dump: 17 Jan 2012 17:12:11
+NB. Generated with JOD version; 0.9.70; 12; 16 Jan 2012 16:59:49
 
 NB.
 NB. Names & DidNums on current path
@@ -146,20 +146,20 @@ InsertDudActDietStats=:3 : 0
 NB.*InsertDudActDietStats  v--   updates  table   statistics   in
 NB. prjFATass-tex
 NB.
-NB. monad:  clVersion =. InsertDudActDietStats uuIgnore
+NB. monad:  clMsg =. InsertDudActDietStats uuIgnore
 
 file=. 'c:/pd/diaries/projects/prjFATass.tex'
 tex=.  read file
 
 NB. count table header statistics
-dat=. meanActDietCnts parseActDietCnts tex
+dat=. dataActDietCnts parseActDietCnts tex
 frg=. fmtActDietCnts dat
 
 tex=. ('%<actdietavg0>';'%</actdietavg0>';frg) insertbetween tex
 tex=. ('%<actdietavg1>';'%</actdietavg1>';frg) insertbetween tex
 
 tex write file
-showpass 'statistics updated: ',(":dat),LF,file
+showpass 'statistics updated ->',file
 )
 
 InsertDudVersion=:3 : 0
@@ -283,6 +283,22 @@ tex =. '#\begin{verbatim}#\begin{lstlisting}#\end{verbatim}#\end{lstlisting}' ch
 
 NB. left justify verbatim regions
 ('\begin{lstlisting}';'\end{lstlisting}') JustifyVerbatim tex
+)
+
+LatexFrWordpress=:3 : 0
+
+NB.*LatexFrWordpress v-- experimental conversion of Wordpress XML to LaTeX.
+NB.
+NB. monad:  btcl =. LatexFrWordpress clPathFile
+NB.
+NB.    LatexFrWordpress 'c:/pd/blog/wordpress/wordpress-dump.xml'
+
+NB. read wordpress xml
+xml=. read y
+
+NB. published posts
+post=. ptableFrwpxml xml
+
 )
 
 MeWeek=:3 : 0
@@ -777,6 +793,22 @@ else. ''
 end.
 )
 
+dataActDietCnts=:3 : 0
+
+NB.*dataActDietCnts  v--  activity, diet and read counts.
+NB.
+NB. monad:  ft =. dataActDietCnts btcl
+NB.
+NB.   cdat=. parseActDietCnts read 'c:/pd/diaries/projects/prjFATass.tex'
+NB.   dataActDietCnts cdat
+
+'invalid column count activity diet table' assert  7 = 1{$y
+
+dat=.  _99&".&> }."1 y
+'invalid counts activity diet table' assert -. _99 e. dat
+dat
+)
+
 fileurlescapes=:3 : 0
 
 NB.*fileurlescapes v-- revert escaped bibtex characters. 
@@ -796,9 +828,12 @@ fmtActDietCnts=:3 : 0
 NB.*fmtActDietCnts v--  formats  activity  diet counts  as  latex
 NB. table fragment.
 NB.
-NB. monad:  cl =. fmtActDietCnts flMeans
+NB. monad:  cl =. fmtActDietCnts ftData
 
-'n kg gym bx5 walk ofood read'=. y
+n=. #y
+dat=. 0.01 round ( mean ,: stddev) y
+'kg  gym  bx5  walk  ofood  read'=.  0{dat
+'skg sgym sbx5 swalk sofood sread'=. 1{dat
 
 t=.   '\multicolumn{1}{|c|}{\emph{averages} $n=',(":n),'$} &',LF
 t=. t,'\multicolumn{1}{l|}{',(":kg),   '}  &',LF
@@ -806,7 +841,14 @@ t=. t,'\multicolumn{1}{l|}{',(":gym),  '}  &',LF
 t=. t,'\multicolumn{1}{l|}{',(":bx5),  '}  &',LF
 t=. t,'\multicolumn{1}{l|}{',(":walk), '}  &',LF
 t=. t,'\multicolumn{1}{l|}{',(":ofood),'}  &',LF
-    t,'\multicolumn{1}{l|}{',(":read), '}',LF
+t=. t,'\multicolumn{1}{l|}{',(":read), '}  \\',LF
+t=. t,'\multicolumn{1}{|c|}{\emph{std. deviation}} &',LF
+t=. t,'\multicolumn{1}{l|}{',(":skg),   '}  &',LF
+t=. t,'\multicolumn{1}{l|}{',(":sgym),  '}  &',LF
+t=. t,'\multicolumn{1}{l|}{',(":sbx5),  '}  &',LF
+t=. t,'\multicolumn{1}{l|}{',(":swalk), '}  &',LF
+t=. t,'\multicolumn{1}{l|}{',(":sofood),'}  &',LF
+    t,'\multicolumn{1}{l|}{',(":sread), '}  \\ \hline',LF
 )
 
 gdimfile=:[: '['&afterstr@:('}'&beforestr)&.> ] <;.1~ '\includegraphics' E. ]
@@ -909,6 +951,32 @@ NB. parse lines as btcl
 <;._1&> '&' ,&.> d
 )
 
+ptableFrwpxml=:3 : 0
+
+NB.*ptableFrwpxml v-- published post table from wordpress xml.
+NB.
+NB. monad:  btcl =. ptableFrwpxml clXml
+NB.
+NB.   ptableFrwpxml read 'c:/pd/blog/wordpress/wordpress-dump.xml'
+
+NB. cut items
+cxml=. ('<item>' E. y) <;.1 y
+
+NB. item attribute extractors
+istatus=.  [: '</wp:status>'&beforestr&.> '<wp:status>'&afterstr&.>
+itype=.    [: '</wp:post_type>'&beforestr&.> '<wp:post_type>'&afterstr&.>
+ititle=.   [: '</title>'&beforestr&.> '<title>'&afterstr&.>
+ilink=.    [: '</link>'&beforestr&.> '<link>'&afterstr&.>
+idate=.    [: '</pubDate>'&beforestr&.> '<pubDate>'&afterstr&.>
+icontent=. [: '</content:encoded>'&beforestr&.> '<content:encoded>'&afterstr&.>
+
+NB. all published posts
+ppxml=. cxml #~ (;:'publish post') -:"1 (istatus ,. itype) cxml
+
+NB. return btcl of title, date, link, content 
+(ititle ,. idate ,. ilink ,. icontent) ppxml
+)
+
 versionymw=:3 : 0
 
 NB.*versionymw v-- year month week tally from start date.
@@ -929,7 +997,7 @@ showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:''
-zz=:zz,'68 2$<;._1 ''|APL385Unicode|Adrian Smith APL385 Unicode font encodin'
+zz=:zz,'69 2$<;._1 ''|APL385Unicode|Adrian Smith APL385 Unicode font encodin'
 zz=:zz,'g|APL385UnicodeDec|APL385 unicode font codepoints as decimal|APL385'
 zz=:zz,'UnicodeTest|generates UTF8 encoded APL test text|AplwinUnicodePoint'
 zz=:zz,'s|256 APL+WIN QuadAV characters mapped to unicode codepoints|Append'
@@ -978,21 +1046,21 @@ zz=:zz,'PDFs|returns path to local PIP documents|bibMendeleyNotes|appends a'
 zz=:zz,' ''''NOTES='''' element to Mendeley bibtex|bibUrlTable|parses bib/bbl t'
 zz=:zz,'ext and return [[[key]]] expansion table|bibitems|cuts latex bib fi'
 zz=:zz,'les into items|bibkeys|extracts bibliography keys from bib file tex'
-zz=:zz,'t|bibnotes|appends a ''''NOTES='''' element to bibtex|fileurlescapes|re'
-zz=:zz,'vert escaped bibtex characters|fmtActDietCnts|formats activity diet'
-zz=:zz,' counts as latex table fragment|gdimfile|cuts \includegraphics argu'
-zz=:zz,'ments out of latex|graphdimfile|dimensions and file names from late'
-zz=:zz,'x \includegraphics - see long document|graphdims|extract unique lis'
-zz=:zz,'t of graphics dimensions from latex|insertbetween|insert cl between'
-zz=:zz,' tags|lastmonday|calendar date YYYY MM DD of last monday - see long'
-zz=:zz,' document|latexfiles|extracts a unique list of files from LaTeX \li'
-zz=:zz,'stfiles log entries|meanActDietCnts|computes column means of activi'
-zz=:zz,'ty and diet counts|nextsunday|calendar date YYYY MM DD of next sund'
-zz=:zz,'ay - see (lastmonday)|parseActDietCnts|extracts activity diet count'
-zz=:zz,'s from tex source file|versionymw|year month week tally from start '
-zz=:zz,'date|weekcount|weeks between two YYYY MM DD dates: 2001 9 11 weekco'
-zz=:zz,'unt 2011 11 24''                                                    '
-zz=:4169{.zz
+zz=:zz,'t|bibnotes|appends a ''''NOTES='''' element to bibtex|dataActDietCnts|a'
+zz=:zz,'ctivity, diet and read counts|fileurlescapes|revert escaped bibtex '
+zz=:zz,'characters|fmtActDietCnts|formats activity diet counts as latex tab'
+zz=:zz,'le fragment|gdimfile|cuts \includegraphics arguments out of latex|g'
+zz=:zz,'raphdimfile|dimensions and file names from latex \includegraphics -'
+zz=:zz,' see long document|graphdims|extract unique list of graphics dimens'
+zz=:zz,'ions from latex|insertbetween|insert cl between tags|lastmonday|cal'
+zz=:zz,'endar date YYYY MM DD of last monday - see long document|latexfiles'
+zz=:zz,'|extracts a unique list of files from LaTeX \listfiles log entries|'
+zz=:zz,'meanActDietCnts|computes column means of activity and diet counts|n'
+zz=:zz,'extsunday|calendar date YYYY MM DD of next sunday - see (lastmonday'
+zz=:zz,')|parseActDietCnts|extracts activity diet counts from tex source fi'
+zz=:zz,'le|versionymw|year month week tally from start date|weekcount|weeks'
+zz=:zz,' between two YYYY MM DD dates: 2001 9 11 weekcount 2011 11 24''     '
+zz=:4216{.zz
 showpass 0 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
@@ -1127,21 +1195,21 @@ zz=:zz,'udVersion DudWeek HomePIPDocs InsertDudActDietStats InsertDudVersio'
 zz=:zz,'n LF LinuxPIPDocs LocalPDFDir MendeleyPDFDir RunDudPreprocess WeekH'
 zz=:zz,'eader WeekHeader2 afterstr allwhitetrim assert beforelaststr before'
 zz=:zz,'str bibLocalPDFs bibMendeleyNotes bibitems boxopen changestr charsu'
-zz=:zz,'b fboxname fexist fileurlescapes fmtActDietCnts insertbetween jpath'
-zz=:zz,'sep lastmonday mean meanActDietCnts monthsbetween nextsunday parseA'
-zz=:zz,'ctDietCnts read showpass timestamp tlf todate today todayno tolower'
-zz=:zz,' tslash versionymw weekcount weekday weeknumber weeksbetween weeksi'
-zz=:zz,'nyear write''),(<<;._1 '' MweccTeXPreprocess InsertMweccVersion LF Mw'
-zz=:zz,'eccDiaryStart MweccVersion MweccWeek WeekHeader afterstr assert bef'
-zz=:zz,'orestr charsub lastmonday monthsbetween nextsunday read showpass ti'
-zz=:zz,'mestamp todate today todayno tolower versionymw weekcount weekday w'
-zz=:zz,'eeknumber weeksbetween weeksinyear write''),<<;._1 '' Weeks CLifeExpe'
-zz=:zz,'ctancy DudDiaryStart DudWeek IFACEWORDSWeeks MeWeek MweccDiaryStart'
-zz=:zz,' MweccWeek MyBirthDate MyDeathDate MyWeeksLeft ROOTWORDSWeeks Tropi'
-zz=:zz,'calYear WeekHeader WeekHeader2 lastmonday nextsunday timestamp toda'
-zz=:zz,'te today todayno tolower weekcount weekday weeknumber weeksbetween '
-zz=:zz,'weeksinyear''                                                       '
-zz=:1553{.zz
+zz=:zz,'b dataActDietCnts dev fboxname fexist fileurlescapes fmtActDietCnts'
+zz=:zz,' insertbetween jpathsep lastmonday mean monthsbetween nextsunday pa'
+zz=:zz,'rseActDietCnts read round showpass ssdev stddev timestamp tlf todat'
+zz=:zz,'e today todayno tolower tslash var versionymw weekcount weekday wee'
+zz=:zz,'knumber weeksbetween weeksinyear write''),(<<;._1 '' MweccTeXPreproce'
+zz=:zz,'ss InsertMweccVersion LF MweccDiaryStart MweccVersion MweccWeek Wee'
+zz=:zz,'kHeader afterstr assert beforestr charsub lastmonday monthsbetween '
+zz=:zz,'nextsunday read showpass timestamp todate today todayno tolower ver'
+zz=:zz,'sionymw weekcount weekday weeknumber weeksbetween weeksinyear write'
+zz=:zz,'''),<<;._1 '' Weeks CLifeExpectancy DudDiaryStart DudWeek IFACEWORDSW'
+zz=:zz,'eeks MeWeek MweccDiaryStart MweccWeek MyBirthDate MyDeathDate MyWee'
+zz=:zz,'ksLeft ROOTWORDSWeeks TropicalYear WeekHeader WeekHeader2 lastmonda'
+zz=:zz,'y nextsunday timestamp todate today todayno tolower weekcount weekd'
+zz=:zz,'ay weeknumber weeksbetween weeksinyear''                            '
+zz=:1580{.zz
 showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
