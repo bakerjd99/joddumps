@@ -1,5 +1,5 @@
-NB. JOD dictionary dump: 17 Jan 2012 17:12:11
-NB. Generated with JOD version; 0.9.70; 12; 16 Jan 2012 16:59:49
+NB. JOD dictionary dump:  3 Feb 2012 17:02:00
+NB. Generated with JOD version; 0.9.75; 17; 30 Jan 2012 09:24:29
 
 NB.
 NB. Names & DidNums on current path
@@ -65,6 +65,12 @@ WebUrlColor=:'magenta'
 WinPipLib=:'c:/pd/docs/piplib/'
 
 WorkPIPDocs=:'c:/Documents and Settings/jdbaker/My Documents/Ubuntu One/pipdocs/'
+
+s3=:'<ol> <li> <ol> <li> nested </li> <li> again </li> </ol> <li> not so nested </li> </ol>'
+
+s5=:'this is some meandering <ol> <li> <ol> <li> nested </li> <li> again </li> </ol> <li> not so nested </li> </ol> more terminal stuff ehhthis is some meandering <ol> <li> <ol> <li> nested </li> <li> again </li> </ol> <li> not so nested </li> </ol> more terminal stuff ehh'
+
+tag=:<;._1 ' <ol </ol>'
 
 showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
@@ -137,7 +143,7 @@ NB.   DudWeek~ 0 NB. return table latex format
 hdr=. DudDiaryStart;' --- '
 if. 0-:y do. hdr WeekHeader today '' else. hdr WeekHeader y end.
 :
-hdr=. DudDiaryStart;' --- '
+hdr=. DudDiaryStart;' $\rightarrow$ '
 if. 0-:y do. hdr WeekHeader2 today '' else. hdr WeekHeader2 y end.
 )
 
@@ -630,6 +636,46 @@ else.
 end.
 )
 
+benestidx=:4 : 0
+
+NB.*benestidx v-- wordtext
+NB.
+NB. dyad:  ?? benestidx ??
+
+if. #y do.
+  's e'=. x                      NB. start/end delimiters
+  assert. -. s -: e              NB. they must differ
+  tx=. y,' '                     NB. pad byte
+  sm=. s E. tx                   NB. start mask
+
+  NB. quit if no delimiters
+  if. -.1 e. sm do. (i.0);<<y return. end.
+
+  em=. (-#e) |.!.0 e E. tx       NB. end mask
+  assert. (+/sm) = +/em          NB. starts = ends
+  ds=. +/\ sm + - em             NB. delimiter scan
+  assert. 0 *./ . <: ds          NB. delimiter balance
+
+  NB. adjust masks and cut nested 
+  ds=. }: ds
+  sm=. firstones 1 <: ds 
+  em=. (+./\sm) *. firstones 0 = ds
+  c=. (1 (0)} sm +. em) <;.1 y 
+
+  mc=. +/sm 
+
+  NB. insert any missing middles to insure all indexed
+  NB. sublists correspond to a location in the cut list
+  ex=. 1 #~ >: +: mc
+  ex=. (-. sm {.;.1 em) (>: +: i. mc)} ex
+  c=. ex #^:_1 c
+
+  ((# i.@#) (#c)$0 1);<c         NB. prefix indexes
+else.
+  (i.0);<<y                      NB. empty arg result
+end.
+)
+
 bibLocalPDFs=:3 : 0
 
 NB.*bibLocalPDFs v-- returns path to local PIP documents.
@@ -953,12 +999,19 @@ NB. parse lines as btcl
 
 ptableFrwpxml=:3 : 0
 
-NB.*ptableFrwpxml v-- published post table from wordpress xml.
+NB.*ptableFrwpxml v-- type status table from wordpress xml.
 NB.
 NB. monad:  btcl =. ptableFrwpxml clXml
 NB.
-NB.   ptableFrwpxml read 'c:/pd/blog/wordpress/wordpress-dump.xml'
+NB.   wpxml=. 'c:/pd/blog/wordpress/analyzethedatanotthedrivel.wordpress.xml' 
+NB.   ptableFrwpxml read wpxml
+NB.
+NB. dyad:  btcl =. (clStatus;clType) ptableFrwpxml clXml
+NB.
+NB.   (;:'draft post') ptableFrwpxml wpxml
 
+(;:'publish post') ptableFrwpxml y
+:
 NB. cut items
 cxml=. ('<item>' E. y) <;.1 y
 
@@ -970,8 +1023,8 @@ ilink=.    [: '</link>'&beforestr&.> '<link>'&afterstr&.>
 idate=.    [: '</pubDate>'&beforestr&.> '<pubDate>'&afterstr&.>
 icontent=. [: '</content:encoded>'&beforestr&.> '<content:encoded>'&afterstr&.>
 
-NB. all published posts
-ppxml=. cxml #~ (;:'publish post') -:"1 (istatus ,. itype) cxml
+NB. all status + types
+ppxml=. cxml #~ x -:"1 (istatus ,. itype) cxml
 
 NB. return btcl of title, date, link, content 
 (ititle ,. idate ,. ilink ,. icontent) ppxml
@@ -997,7 +1050,7 @@ showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:''
-zz=:zz,'69 2$<;._1 ''|APL385Unicode|Adrian Smith APL385 Unicode font encodin'
+zz=:zz,'70 2$<;._1 ''|APL385Unicode|Adrian Smith APL385 Unicode font encodin'
 zz=:zz,'g|APL385UnicodeDec|APL385 unicode font codepoints as decimal|APL385'
 zz=:zz,'UnicodeTest|generates UTF8 encoded APL test text|AplwinUnicodePoint'
 zz=:zz,'s|256 APL+WIN QuadAV characters mapped to unicode codepoints|Append'
@@ -1058,9 +1111,10 @@ zz=:zz,'|extracts a unique list of files from LaTeX \listfiles log entries|'
 zz=:zz,'meanActDietCnts|computes column means of activity and diet counts|n'
 zz=:zz,'extsunday|calendar date YYYY MM DD of next sunday - see (lastmonday'
 zz=:zz,')|parseActDietCnts|extracts activity diet counts from tex source fi'
-zz=:zz,'le|versionymw|year month week tally from start date|weekcount|weeks'
-zz=:zz,' between two YYYY MM DD dates: 2001 9 11 weekcount 2011 11 24''     '
-zz=:4216{.zz
+zz=:zz,'le|ptableFrwpxml|type status table from wordpress xml|versionymw|ye'
+zz=:zz,'ar month week tally from start date|weekcount|weeks between two YYY'
+zz=:zz,'Y MM DD dates: 2001 9 11 weekcount 2011 11 24''                     '
+zz=:4267{.zz
 showpass 0 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
