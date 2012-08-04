@@ -1,10 +1,10 @@
-NB. JOD dictionary dump: 25 Jun 2012 16:31:50
-NB. Generated with JOD version; 0.9.75; 46; 25 Jun 2012 14:32:47
+NB. JOD dictionary dump: 13 Jul 2012 14:09:00
+NB. Generated with JOD version; 0.9.80; 57; 13 Jul 2012 09:37:35
 
 NB.
 NB. Names & DidNums on current path
 NB. +----+---------------------------------------+
-NB. |docs|210276490679502810680448417641165777727|
+NB. |docs|253172977301894840199799670632186866371|
 NB. +----+---------------------------------------+
 
 9!:41 [ 1 NB.{*JOD*}
@@ -466,8 +466,7 @@ NB. file.
 NB.
 NB. monad:  bl =. MainMarkdown clPathFile
 NB.
-NB.   wpxml=. 'c:/pd/blog/wordpress/analyzethedatanotthedrivel.wordpress.xml'
-NB.   MainMarkdown wpxml
+NB.   MainMarkdown 'c:/pd/blog/wordpress/analyzethedatanotthedrivel.wordpress.xml'
 NB.
 NB. dyad:   bl =. (clMdownfile;clDirectory;clAmble) MainMarkdown clPathFile
 
@@ -478,15 +477,20 @@ NB. dyad:   bl =. (clMdownfile;clDirectory;clAmble) MainMarkdown clPathFile
 NB. read wordpress xml - valid posts
 if. fexist y do. xml=. read y else. 0;'missing or invalid XML export file' return. end.
 
-files=. 0 {"1 (1!:0) epubdir,'*',MARKDOWNEXT
+pfiles=. 0 {"1 (1!:0) epubdir,'*',MARKDOWNEXT
 
 NB. keep only post markdown files
-posts=. (0{"1 ptableFrwpxml xml) ,&.> <MARKDOWNEXT
-files=. files -. files -. posts
-files=. (<epubdir) ,&.> files
+ptable=. ptableFrwpxml xml
+posts=. (0{"1 ptable) ,&.> <MARKDOWNEXT
+pfiles=. pfiles -. pfiles -. posts
 
+NB. sort files by publish date
+pfiles=. ptable sortonpublishdate pfiles
+files=. (<epubdir) ,&.> pfiles
+
+NB. NOTE: sometimes posts are written long before they are published
 NB. sort files by trailing post id 
-files=. sortonid files
+NB. files=. sortonid files
 
 NB. mash posts together - affix date
 epubamble=. (allwhitetrim epubamble),LF,('% ',timestamp ''),2#LF
@@ -1690,6 +1694,24 @@ NB. monad:  blcl=. sortonid blclFiles
 (/: ".&> ('/'&afterlaststr&.> y) -.&.> <a. -. '0123456789') { y
 )
 
+sortonpublishdate=:4 : 0
+
+NB.*sortonpublishdate v-- sort markdown post files by publish date.
+NB.
+NB. dyad:  blcl =. btclPosts sortonpublishdate blclFiles
+
+NB. posts and dates
+postdate=. 0 3 {"1 x
+
+NB. selected post files without extension
+pfiles =. '.'&beforelaststr&.> y
+
+mask=. pfiles e. 0 {"1 postdate
+postdate=. mask # postdate
+files=. 0 {"1 (/: 1 {"1 postdate){postdate
+files ,&.> <MARKDOWNEXT
+)
+
 sortposts=:3 : 0
 
 NB.*sortposts v-- sort posts chronologically.
@@ -1888,7 +1910,7 @@ showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:''
-zz=:zz,'136 2$<;._1 ''|APL385Unicode|Adrian Smith APL385 Unicode font encodi'
+zz=:zz,'137 2$<;._1 ''|APL385Unicode|Adrian Smith APL385 Unicode font encodi'
 zz=:zz,'ng|APL385UnicodeDec|APL385 unicode font codepoints as decimal|APL38'
 zz=:zz,'5UnicodeTest|generates UTF8 encoded APL test text|AplwinUnicodePoin'
 zz=:zz,'ts|256 APL+WIN QuadAV characters mapped to unicode codepoints|Appen'
@@ -1998,14 +2020,14 @@ zz=:zz,'x|LaTeX code for single post/draft|prunePtable|removes post table e'
 zz=:zz,'ntries that have corresponding LaTeX files|ptableFrwpxml|type statu'
 zz=:zz,'s table from wordpress xml|rmLatexGraphics|remove/blank out LaTeX g'
 zz=:zz,'raphics|sortonid|sort files by trailing post id - monotonically inc'
-zz=:zz,'reasing|sortposts|sort posts chronologically|texFrhtml|convert Word'
-zz=:zz,'Press HTML fragments to LaTeX fragments|tfwTitles|LaTeX titles from'
-zz=:zz,' WordPress XML titles|tlslash|append trailing / character if necess'
-zz=:zz,'ary|uedposts|lists unedited post files|versionymw|year month week t'
-zz=:zz,'ally from start date|weekcount|weeks between two YYYY MM DD dates: '
-zz=:zz,'2001 9 11 weekcount 2011 11 24|winpathsep|to windows \ character in'
-zz=:zz,' paths''                                                            '
-zz=:7779{.zz
+zz=:zz,'reasing|sortonpublishdate|sort markdown post files by publish date|'
+zz=:zz,'sortposts|sort posts chronologically|texFrhtml|convert WordPress HT'
+zz=:zz,'ML fragments to LaTeX fragments|tfwTitles|LaTeX titles from WordPre'
+zz=:zz,'ss XML titles|tlslash|append trailing / character if necessary|uedp'
+zz=:zz,'osts|lists unedited post files|versionymw|year month week tally fro'
+zz=:zz,'m start date|weekcount|weeks between two YYYY MM DD dates: 2001 9 1'
+zz=:zz,'1 weekcount 2011 11 24|winpathsep|to windows \ character in paths'' '
+zz=:7838{.zz
 showpass 0 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
@@ -2721,14 +2743,15 @@ zz=:zz,'sidx cutlatexidx cutnestidx cutpxtidx cutstridx fboxname ferase fex'
 zz=:zz,'ist filenamesFrtid firstones getNewgraphics htmlParagraphs inputpos'
 zz=:zz,'ts jpathsep justdrv justext justfile justpath lstFrsrcb pandoc post'
 zz=:zz,'TitleDate postfiles postid posttex prunePtable ptableFrwpxml read r'
-zz=:zz,'mLatexGraphics showpass smoutput sortonid sortposts texFrhtml tfwTi'
-zz=:zz,'tles timestamp tlf tlslash toCRLF toHOST toJ tolower uedposts utf8 '
-zz=:zz,'winpathsep write''),<<;._1 '' Weeks CLifeExpectancy DudDiaryStart Dud'
-zz=:zz,'Week IFACEWORDSWeeks MeWeek MweccDiaryStart MweccWeek MyBirthDate M'
-zz=:zz,'yDeathDate MyWeeksLeft ROOTWORDSWeeks TropicalYear WeekHeader WeekH'
-zz=:zz,'eader2 lastmonday nextsunday timestamp todate today todayno tolower'
-zz=:zz,' weekcount weekday weeknumber weeksbetween weeksinyear''            '
-zz=:2601{.zz
+zz=:zz,'mLatexGraphics showpass smoutput sortonid sortonpublishdate sortpos'
+zz=:zz,'ts texFrhtml tfwTitles timestamp tlf tlslash toCRLF toHOST toJ tolo'
+zz=:zz,'wer uedposts utf8 winpathsep write''),<<;._1 '' Weeks CLifeExpectancy'
+zz=:zz,' DudDiaryStart DudWeek IFACEWORDSWeeks MeWeek MweccDiaryStart Mwecc'
+zz=:zz,'Week MyBirthDate MyDeathDate MyWeeksLeft ROOTWORDSWeeks TropicalYea'
+zz=:zz,'r WeekHeader WeekHeader2 lastmonday nextsunday timestamp todate tod'
+zz=:zz,'ay todayno tolower weekcount weekday weeknumber weeksbetween weeksi'
+zz=:zz,'nyear''                                                             '
+zz=:2619{.zz
 showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
@@ -2778,7 +2801,11 @@ zz=:zz,'101 120 41 32 97 100 100 101 100 13 10 78 66 46 32 49 50 102 101 98'
 zz=:zz,' 50 55 32 40 70 105 120 66 97 100 100 111 119 110 44 32 77 97 105 1'
 zz=:zz,'10 77 97 114 107 100 111 119 110 41 32 97 100 100 101 100 13 10 78 '
 zz=:zz,'66 46 32 49 50 102 101 98 50 57 32 40 98 108 111 103 105 109 103 11'
-zz=:zz,'5 41 32 97 100 100 101 100 13 10 13 10 114 101 113 117 105 114 101 '
+zz=:zz,'5 41 32 97 100 100 101 100 13 10 78 66 46 32 49 50 106 117 110 50 5'
+zz=:zz,'6 32 40 115 111 114 116 111 110 112 117 98 108 105 115 104 100 97 1'
+zz=:zz,'16 101 41 32 97 100 100 101 100 32 45 32 112 117 98 108 105 115 104'
+zz=:zz,' 32 111 114 100 101 114 32 110 111 116 32 97 108 119 97 121 115 32 '
+zz=:zz,'112 111 115 116 32 105 100 13 10 13 10 114 101 113 117 105 114 101 '
 zz=:zz,'32 39 116 97 115 107 39 13 10 99 111 99 108 97 115 115 32 39 84 101'
 zz=:zz,' 88 102 114 87 112 120 109 108 39 32 13 10 13 10 78 66 46 42 100 10'
 zz=:zz,'1 112 101 110 100 101 110 116 115 13 10 78 66 46 32 100 101 99 108 '
@@ -2912,8 +2939,19 @@ zz=:zz,'0 32 116 111 32 99 108 97 115 115 10 78 66 46 32 49 49 110 111 118 '
 zz=:zz,'48 50 32 77 101 87 101 101 107 44 32 77 121 87 101 101 107 115 76 1'
 zz=:zz,'01 102 116 32 97 100 100 101 100 10 10 99 111 99 108 97 115 115 32 '
 zz=:zz,'39 87 101 101 107 115 39 10{a.                                     '
-zz=:11889{.zz
+zz=:12157{.zz
 showpass 2 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
+
+
+cocurrent SO__JODobj NB.{*JOD*}
+zz=:''
+zz=:zz,',:<;._1 ''||document TeX, XML, HTML utils'''
+zz=:41{.zz
+showpass 5 put >1{,".".'zz_',SOLOCALE,'_' [ cocurrent 'base'  NB.{*JOD*}
+".soclear NB.{*JOD*}
+
+
 cocurrent 'base' NB.{*JOD*}
+0 0$(4!:55);:'sonl_z_ SOLOCALE_z_ soput_z_ soclear_z_' NB.{*JOD*}
 showpass 'NB. end-of-JOD-dump-file regenerate cross references with:  0 globs&> }. revo '''' ' NB.{*JOD*}

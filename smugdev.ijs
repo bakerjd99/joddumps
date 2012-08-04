@@ -1,11 +1,11 @@
-NB. JOD dictionary dump: 29 May 2012 17:07:29
-NB. Generated with JOD version; 0.9.75; 18; 30 Apr 2012 09:15:27
+NB. JOD dictionary dump: 12 Jul 2012 14:45:32
+NB. Generated with JOD version; 0.9.80; 51; 11 Jul 2012 15:40:02
 
 NB.
 NB. Names & DidNums on current path
-NB. +-------+---------------------------------------+
-NB. |smugdev|175396618157183052064577932652422533781|
-NB. +-------+---------------------------------------+
+NB. +-------+-------------------------------------+
+NB. |smugdev|6854466154278147637216138182407134488|
+NB. +-------+-------------------------------------+
 
 9!:41 [ 1 NB.{*JOD*}
 cocurrent 'base' NB.{*JOD*}
@@ -29323,5 +29323,16 @@ zz=:zz,'13 10{a.                                                           '
 zz=:170791{.zz
 showpass 2 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
+
+
+cocurrent SO__JODobj NB.{*JOD*}
+zz=:''
+zz=:zz,',:<;._1 ''||smugmug/psm source'''
+zz=:30{.zz
+showpass 5 put >1{,".".'zz_',SOLOCALE,'_' [ cocurrent 'base'  NB.{*JOD*}
+".soclear NB.{*JOD*}
+
+
 cocurrent 'base' NB.{*JOD*}
+0 0$(4!:55);:'sonl_z_ SOLOCALE_z_ soput_z_ soclear_z_' NB.{*JOD*}
 showpass 'NB. end-of-JOD-dump-file regenerate cross references with:  0 globs&> }. revo '''' ' NB.{*JOD*}

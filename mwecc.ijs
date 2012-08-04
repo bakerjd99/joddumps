@@ -1,11 +1,11 @@
-NB. JOD dictionary dump:  7 May 2012 13:26:59
-NB. Generated with JOD version; 0.9.75; 18; 30 Apr 2012 09:15:27
+NB. JOD dictionary dump:  3 Jul 2012 11:44:23
+NB. Generated with JOD version; 0.9.80; 14; 2 Jul 2012 10:34:06
 
 NB.
 NB. Names & DidNums on current path
-NB. +-----+---------------------------------------+
-NB. |mwecc|301715481472175760334608678216064218833|
-NB. +-----+---------------------------------------+
+NB. +-----+-------------------------------------+
+NB. |mwecc|4122760148766630843845336771964851015|
+NB. +-----+-------------------------------------+
 
 9!:41 [ 1 NB.{*JOD*}
 cocurrent 'base' NB.{*JOD*}
@@ -3345,5 +3345,14 @@ zz=:zz,' 105 39 13 10{a.                                                   '
 zz=:20451{.zz
 showpass 2 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
+
+
+cocurrent SO__JODobj NB.{*JOD*}
+zz=:''
+zz=:zz,',:<;._1 ''||midwest employers casualty company related'''
+zz=:54{.zz
+showpass 5 put >1{,".".'zz_',SOLOCALE,'_' [ cocurrent 'base'  NB.{*JOD*}
+".soclear NB.{*JOD*}
+
 cocurrent 'base' NB.{*JOD*}
 showpass 'NB. end-of-JOD-dump-file regenerate cross references with:  0 globs&> }. revo '''' ' NB.{*JOD*}

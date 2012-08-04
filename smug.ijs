@@ -1,11 +1,11 @@
-NB. JOD dictionary dump: 21 Jul 2011 08:24:12
-NB. Generated with JOD version; 0.9.4; 3; 14 Jun 2011 09:38:23
+NB. JOD dictionary dump: 12 Jul 2012 14:39:43
+NB. Generated with JOD version; 0.9.80; 51; 11 Jul 2012 15:40:02
 
 NB.
 NB. Names & DidNums on current path
-NB. +----+---------------------------------------+
-NB. |smug|275154106446472950200205867763468064922|
-NB. +----+---------------------------------------+
+NB. +----+--------------------------------------+
+NB. |smug|43455955758015935767084357747404724541|
+NB. +----+--------------------------------------+
 
 9!:41 [ 1 NB.{*JOD*}
 cocurrent 'base' NB.{*JOD*}
@@ -6429,5 +6429,16 @@ zz=:zz,'o manipulate GoogleEarth KML''                                      '
 zz=:230{.zz
 showpass 2 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
+
+
+cocurrent SO__JODobj NB.{*JOD*}
+zz=:''
+zz=:zz,',:<;._1 ''||smugmug/flickr api source'''
+zz=:37{.zz
+showpass 5 put >1{,".".'zz_',SOLOCALE,'_' [ cocurrent 'base'  NB.{*JOD*}
+".soclear NB.{*JOD*}
+
+
 cocurrent 'base' NB.{*JOD*}
+0 0$(4!:55);:'sonl_z_ SOLOCALE_z_ soput_z_ soclear_z_' NB.{*JOD*}
 showpass 'NB. end-of-JOD-dump-file regenerate cross references with:  0 globs&> }. revo '''' ' NB.{*JOD*}
