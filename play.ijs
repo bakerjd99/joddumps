@@ -1,10 +1,9 @@
-NB. JOD dictionary dump: 11 Oct 2012 18:42:37
-NB. Generated with JOD version; 0.9.80; 57; 13 Jul 2012 09:37:35
-
+NB. JOD dictionary dump: 15 Nov 2012 10:57:11
+NB. Generated with JOD version; 0.9.85; 16; 13 Oct 2012 14:40:36
 NB.
 NB. Names & DidNums on current path
 NB. +----+---------------------------------------+
-NB. |play|167824044379299363708784036579700101893|
+NB. |play|264050324869006553592915131059092214990|
 NB. +----+---------------------------------------+
 
 9!:41 [ 1 NB.{*JOD*}
