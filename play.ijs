@@ -1,5 +1,6 @@
-NB. JOD dictionary dump:  8 Aug 2012 11:19:33
-NB. Generated with JOD version; 0.9.85; 6; 2 Aug 2012 11:32:01
+NB. JOD dictionary dump: 11 Oct 2012 18:42:37
+NB. Generated with JOD version; 0.9.80; 57; 13 Jul 2012 09:37:35
+
 NB.
 NB. Names & DidNums on current path
 NB. +----+---------------------------------------+
@@ -109,6 +110,7 @@ NB.   cols CountryFreeScores 0
 :
 d=. HeritageOrg2012
 d=. ((0{d) i. x) {"1 ] 2 }. d
+d=. d -.&.> <'$/",-' 
 d=. ;"1 ( _1&".)&.> d
 d=. d #~ _1 ~: 1 {"1 d
 d {~ /: 1 {"1 d
