@@ -1,9 +1,9 @@
-NB. JOD dictionary dump: 20 Nov 2012 13:38:03
-NB. Generated with JOD version; 0.9.90; 22; 19 Nov 2012 11:09:06
+NB. JOD dictionary dump: 20 Nov 2012 19:48:24
+NB. Generated with JOD version; 0.9.90; 21; 16 Nov 2012 23:04:32
 NB.
 NB. Names & DidNums on current path
 NB. +------+---------------------------------------+
-NB. |joddev|120707246519653157629321214215227954927|
+NB. |joddev|224014536902852425130249407744540919794|
 NB. +------+---------------------------------------+
 
 9!:41 [ 1 NB.{*JOD*}
@@ -1167,788 +1167,2276 @@ writeas=:(1!:2 ]`<@.(32&>@(3!:0))) ::([: 'cannot write file'&(13!:8) 1:)
 showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
-zz=:dec85__MK__JODobj 0 : 0
-1Ggm12)ud7+>GPm1b^%,1a"V6+>GYp2)HF9+>bu!3$:%3+>GVo1c6C10d&>/+?(E"1a"M/+>Y_p
-1,0n.2'=V-+>Y_p3$:%;+>GPm1GL",0d&53+>GSn1,pC20d&80+>GPm1Gp:00d&8-+>GPm1H?R4
-3?U+8+>GSn1GL"3+>PVn3$9t5+>GVo2`)X31*A>2+>GSn1,C%.0H`20+>GPm1,9t3+>Pku3?U7<
-+>GPm2E2g61E\V2+>GVo2)-4.1a"V4+>GPm0fC./0H`)0+>GPm1,^700H`2.+>t>t1a"M.+>Ybq
-0ea_*2BX_1+>kqt3?U(9+>GVo1GU(-1*AA-+>GVo1Gg4/1*A>/+>GVo1,pC7+>Pbr0eje,0H`@u
-1bg+.+>bu!3$:";+>GYp2)l^51E\M/+>G\q1,9t,1a"Y4+>GSn1c$75+>u)D77TpE8PVZB=E%\d
-A8bs#BPD*mCh[NqF<GXHEbTE(+D,Y4D'12h3^#MO+DkP-CI1H[8PVlR6qBa46q(!j@<-.)+EMX5
-Ec`FBAfs]A6m-,_Dfp"ABOtU_ATAo-DBNn,DIdZq+DbJ.AU$O17nHHJ:IJ#T;cHS1@<-.)+EMX5
-Ec`FBAfs]A6m-,_Dfp"AE,Tf>E,ol,ATMp2EZf(6+E1b,A8bs#CghEsGX=hh8PW#V<(_"9Ebf_=
-FD,5.F*(i2F<GL6+A*bt@rc:&F<G[:G]Y'MBOQ!*BlbD7Dfd*o78?6B:..NQE+*WpDdso'BkM*q
-BkM+$+EMXFBl7Q+Ao_g,+=B<)4YA*)D..I#78?6C:II`B5t".>D..I#F!,%3A0>f&+A,Et+D5_5
-F`8I:ART+\EZf(6+E1b,A8bs#CghEsGXY@q8l%iO:K(4hD..I#F!,%3A0>f&+A,Et+D5_5F`8IB
-Df^#>Ec5H!F)u8?+DG^9E+*WpDdso+@<?(*78?6G:K0r'@<-.)+EV:.+D#G$+E(j78g&1bEbTK7
-+EV1>F<G[=@<<W+F!,@=F<F1I7R9C1=&2^^;c#qcBl8$(Eb8`iAKZ28Eb$;/BleA=DIIBn+E2@4
-AncK]7R9C1=&2^^;eg5]Ch\!&Eaa'$Bl8$(Eb8`iAKZ28Eb'56-qQlo6Ub'P;FFGuDe*ZuFCfK$
-FCcmDB6%p5E(P@J:IK;CDesJe:IJ/X:J=\0-u!F7A18X8DKKH1Amo1\+EqaEA91@:5uglT:JtqG
-A8Gt%ATD4$AKYE(FD,T5+>"^MDKBB0FCeu*Bl5&0@<?(*+C&>tFD,T5H[SL[6Vg*=7S-9BF*2),
-Bm:b=Afti,A8Gt%ATD4$AKYK$A7ZlqBl%?Q9LMHM771$M;H[aQA8Gt%ATD4$AKZ28EbfB,B-:`!
-Eb/a&DfU+q9LhuW9M&2_79FSKDfd+<@<?(*+D,>(AKYT'EZccCEc>i/F=BgU:KC%U=%5bT7<<T`
-AncK4De:,,De*ZuFCfK$FCcS5G%G];Bk;K2Anc'm8k`#]8OZ][79F;CA8Gt%ATD4$AKYetFCf\>
-Dg#]4G%kN3+EV13E,8s)AP,Wq8Q8AP7S-9BF*2),Bm:b=Afti,A8Gt%ATD4$AKZ)/FDPM2Anc'm
-8k`2U<(o_[79F;CA8Gt%ATD4$AKYetFCf\>@<H[*DfQtBBln0&+EV13E,8s)AP,`d9PJT[Eaa'$
-:i^,UD.7<mC2[X!Blmp,@<?''-tdR>Ch[u?+DbJ.AU#>:Eb/Zr@VfUJ:IJ/X:J=\f9ghTL6rZrX
-9N*'WATDj+Df.*KD..3k+CT.u+Cno&AP>Bh79EM`:ip8cE,Tc*Ed8dD@<?(*+D,>(APGHg912QW
-:/+#P6r-lZ+EV1>F<GL@FD5Z2+Cf>#APGHg912QW:.Rf>6u?@QCNCV>FCB33+E(j78g%V^A7Zlq
-DfQt>@;]Uo@j!?T+ED%5F_Pl-F!,F1DIdZq+EqOABHV%4F*VYF@<`o)Des?4Bl7QX5uL?D:KL:j
-5tOae@<-.)+D#G$+A*bdDe*E%AoD]4E+*WpDduL-;G0DR=&)^h:ip8cE,Tc*Ed8dE@<--oDg-(A
-Anc'm;GU(f=&2^^;eg5]Ch\!&Eaa'$Ec5l<+EqaEA9/kA;GU(f=&2^^;eg5]Ch\!&Eaa'$.3N8D
-Dfp"A+<VdL+BM**<(0_^5sn(bBPDR"+EML1@q?cmBOPpi@ru:&F&u7*:eX;D6u6FCA8,po+?hD1
-/g+tEDIjr7Ea`o0D..I#=&M=\9M%rM<,H&gBl/!0+Du==@V'R&De:,%De*E%Ch[s4Bl7Q+@q]:k
-@:OCjEcW?T+CSeqF`VXIAoD]4B5)O#DBMV]<+T/SE+*BjF(or3=&M=\:f9_O8Q]\EG%#3$A0>V0
-F*)G:DJ()/@<--tDJ()5FCB33+E(j7GB.,2E+NQ&Ch[cu+>"^G@;]t$F<G(3DKK<$DBL;i3[\!,
-5u:BU77KjN<(0o.@;]Uo@j"HR<+T/SAo_<mD.RU,+D,Y4D'16.;F+,U;FO&H==G@E+EV:.F(HJ8
-FE2)5B6,24F`VXI@rHC.ATMg/DId?tEc#N&@:NkjAU%g*Ec#6,F!,.AE+O'+Bl7]tA0>;uA0>Q"
-B4u*qB4uBuA0>T(FCfK)@:NjkGAhM4F(T?2D00?6Bl7HmG\(r.DfT]'F<GC.FCf\>Bl7HmGT^L7
-D/E^!A9/l*Ec5e;B5DKq@;I''@<-.)B4>diH#-o2AU%j.Dfp"A@W,e&+DbJ.AU%j$ART+c@<?(*
-B6%p5E$/h*@:Wqi+DbJ.AU%j,Df^#:@<?(*B6%p5E$0+<F*&ODEc5H!F)u8?+DbJ.AU%j.Dfp#8
-@<?(*B6%p5E$/t*FCf\>GA2/4+E1b,A8bs#F*VYF@<`o.BkM*qBkM+$Bl7QrEc>i/FDYH%AKYet
-FCf\>AoD]4B6%p5E$-QS.;<C&@qB^m@ruF'DJ=!1ATDBk@q?d(ARfgrDf-\=F_tu(Ed8dKFE2)5
-B5(sd@qBk&Eb'63ATW'8DBNY2FCfK)@:NjkGAhM4+Dbb5FD5W'AU%j.Dfp#@AU%p,F(KB6+DG_(
-AU#>-Df'?"DIdf2Bl5&4@;]Uo@j#H!B4u*qB4uB0B6%p5E$/t*FCf]3FDkr+DJ=E.FDkr+DJ=E.
-F!,3?FCf]=+EqOABHS^IAo&o4@<?(*Ao_`sEbf3%@<?(*+D,Y4D'3\(Ebf3(GA\OGF(oN)+E1b,
-A8bsp@<--oAo_NtART+d@<--oDg-(AFCf]=+D,Y4D'3J3Dfp"ABOtU_ATDWrEbf2tEbB?0F*)8-
-Ebf3(GA\O8Ec5e;B6%p5E$0+<F*&ODEc5H!F)u8?D..I#A7fjpEc6)>D..I#A8c[0+EV1>F<G19
-Df$V0Ec6)>D..I#A7fk+DfTB0D..I#A8c[0+EV1>F<G19Df$V@DfTA2Ch[s4D..I#A85siEbce4
-+Cf>#AKYT'EZf4-Ebf3(GA_8+Ebf;rF)u&.DJ`g&CER@7@rGmh+D,P4+DbJ.AU#>3DId='Bl7R#
-@<--rDJsE-D..I#+Du+8+DN$/De*E%Eb/ltDf-\1Ci<ckC`m/-F(o9)D.RU,F)H25A8--.@3BH!
-G9CIAE,95uBlkJADfTA2F`V87B-9fB6m,uXDK]T/FD5Z2F)tf4Deip%F(/rqC`mY.+Du+8ASlC.
-Gp%!CDI[U%D.RU,+A*bdC`mh<CLqC)F(KH-Amo1\Ch[d&F)to7+D?%>ATDg&Afto(DJO;9Bl5&%
-DL!@CG%G];Bk;K2Bl8$(Eb8`iAKZ28Eb'56F(Jj'Bl@m1ATVWu@:Nkj@<-"%F(KG9BR+Q.EboH-
-CER_-EbAs*F!,17+D5_5F`8I4De+,9CghEsG]RG<C2[X!Blmp,@<?("Eb02uEb-A*DfQt>Ec5H!
-F)u&5B6S$'FCfQ4CLqC"Bl7L&ATMs3Eb0;7Eb0&uG%#91+EqL5FCfN4@:NjkFDi:@@<-F#A0<rp
-+DN$/De*E%Ch[cuF*DY5E-?82Ci=3(GB.,2F!,X;EaiI!Bl+u7AU&;>Ch[cuF!,[@FD)e5ASu.&
-BHTJ].!R1bEbTW,@<6X5Blmo/Anc'm+CT=6Ch[s4+E(j7@X3',F!*%WFD,]5GB4mLDIIBkBkMR,
-F`S[:EcQ)=+E)-?AmoCiF`M$                                                  ~>
-)
+zz=:''
+zz=:zz,'59 2$<;._1 ''|BEGININDEX|pandoc highlight string from ''''=:=:'''' mark|'
+zz=:zz,'BEGINJODHEADER|marks start of JOD group header in pandoc latex|BEGI'
+zz=:zz,'NJODPOSTP|marks start of JOD group postprocessor in pandoc latex|BE'
+zz=:zz,'GINNOTJ|marks the start of J script text that is not J|ENDINDEX|pan'
+zz=:zz,'doc highlight string from ''''=.=.'''' mark|ENDJODHEADER|marks end of J'
+zz=:zz,'OD group header in pandoc latex|ENDJODPOSTP|marks end of JOD group '
+zz=:zz,'postprocessor in pandoc latex|ENDNOTJ|marks the end of J script tex'
+zz=:zz,'t that is not J|IFACEWORDSPFX|interface word list name prefix|IFACE'
+zz=:zz,'WORDSjodliterate|interface words (IFACEWORDSjodliterate) group|IzJO'
+zz=:zz,'Dtools|JODTOOLS (ijod) interface words|JLAUTHOR|jodliterate author '
+zz=:zz,'- inserted in latex \author{}|JLCODEFILE|suffix of jodliterate code'
+zz=:zz,' file|JLDIRECTORY|jodliterate working directory|JLGRPLITTEX|root la'
+zz=:zz,'tex file for (grplit)|JLOVIEWFILE|suffix of jodliterate overview fi'
+zz=:zz,'le|JLOVIEWTEX|jodliterate latex overview template|JLTITLEFILE|suffi'
+zz=:zz,'x of jodliterate title file|JLTITLETEX|jodliterate latex author tit'
+zz=:zz,'le template|JODLiteratePreamble|jodliterate (grplit) latex preamble'
+zz=:zz,'|JODTOOLSVMD|JODTOOLS version, make and date|LATEXTMP|temporary lat'
+zz=:zz,'ex file|MARKDOWN|MARDOWN text option code|MARKDOWNHEAD|marks start '
+zz=:zz,'of J code for pandoc -- requires pandoc with j syntax coloring|MARK'
+zz=:zz,'DOWNTAIL|marks end J code for pandoc|MARKDOWNTMP|temporary markdown'
+zz=:zz,' file|ROOTWORDSjodliterate|root words (ROOTWORDSjodliterate) group '
+zz=:zz,'     |WHITESPACE|white space characters|WRAPLEAD|leading >... line '
+zz=:zz,'wrap mark|WRAPLIMIT|maximum number of code listing characters - adj'
+zz=:zz,'ust for given LaTeX pagesize|WRAPPREFIX|invalid j string marking st'
+zz=:zz,'art of wrapped line - cannot contain ''''=:''''|WRAPPREFIXTEX|pandoc La'
+zz=:zz,'TeX fragment from (WRAPPREFIX) - these strings must correspond|form'
+zz=:zz,'ifacetex|formats hyperlinked and highlighted interface words|formte'
+zz=:zz,'xindexes|format latex index commands from global marks|gbodylatex|g'
+zz=:zz,'roup body latex|gheadlatex|group header latex|gpostlatex|group post'
+zz=:zz,' processor latex|grouplatex|group latex with pandoc syntax highligh'
+zz=:zz,'ting|grplit|make latex for group (y)|ifacesection|interface section'
+zz=:zz,' summary string|ifacewords|return interface word list|indexgrouptex'
+zz=:zz,'|insert index commands in pandoc highlight group latex|jtokenize|to'
+zz=:zz,'kenizes j text with (wfl)|latexfrmarkd|latex from markdown using pa'
+zz=:zz,'ndoc|markdfrghead|markdown text from group header|markdfrgpost|mark'
+zz=:zz,'down from group post processor|markdfrgroup|markdown text from grou'
+zz=:zz,'p|markdfrwords|markdown text from word list|markdj|mark j code for '
+zz=:zz,'markdown|markgassign|mark j code for latex indexing|markgnonj|mark '
+zz=:zz,'non j code region global assignments|nw|edit a new explicit word us'
+zz=:zz,'ing JOD conventions|sbtokens|blcl of nonempty noncomment J cl token'
+zz=:zz,'s|setifacelinks|set hyperref links in any overview interface words '
+zz=:zz,'section|setifacetargs|set hyperlink targets in group body latex|set'
+zz=:zz,'jodliterate|prepare for processing|whitetokenline|restores relevant'
+zz=:zz,' whitespace to parsed ;: j code lines|wrapvrblong|wraps verbatim te'
+zz=:zz,'xt lines with length > (x)|writeas|write file as list of bytes - th'
+zz=:zz,'rows unambiguous error on failure''                                 '
+zz=:3049{.zz
 showpass 0 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
-zz=:dec85__MK__JODobj 0 : 0
-1H-F6+>P&o1*AS41*A;-+?)&9+?1Ju3&Da40H`,,3Ahp=+>l)7A8lU$F@'DWBk&hO:-pQ_A8lU$
-F@'DWBk&hO+ET1e+C\c#Bk&8rE-#T4+E1b0@;TRtATAo7ATTS8BOPdkAKZ)+F*)IU%15is/e&._
-67sBHF)uJ@ATJu9ATMr9A8,OqBl@ltEd8cUFCfN8C2[W:.3N2HBleB;/e&._67r]S:-pQUG%G]'
-@<?4#3XlEk67sB'%15is/g+SFFD,T53ZoP;DeO#26nTTK@;BFp%15is/g+YEART[lA3(hg0JP>#
-Dg!li%15is/g+Y;@;]^hF#kEq/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
-/M/P+/M/P+/M/P+%13OO@rGk"EcP`/F<Dr?@<6!-%17,eEHPu9AKW@8De*s$F*(u6-OgCl$;No?
-+EqaECER>/+Cf5!@<*K"@<6!&DfQtBEaa$&+Dbt+@;KKa$=dm`@<*J<-OgCl$=e!aCghC++EVI>
-Ci<fj5s[eYEaa$&3B9*,4ZX]55s[eYEaa$&3B9)I+BosuDe3rtF(HIV-UC$aFE1f2BK8(5-OgDm
-DeX*1ATDl8-Y[=6A1%fn%172gF*(u2G%ku8DJ`s&F<DrDDf9/64"!Wr6miEN:-pQU/ULGc;cFl<
-<'aD]I4Ym8%16Ze+>P'XA0<7AATMs.De(OL+<VdL+AP6U+E)41DBMhG5t"LD9N_f3DImi2A8lU$
-F<Dqs;aX,J3&N'F0d%T667sBj@;]t$F<G(,@;]^h+E1b0@;TRtATA4e%15is/g,1GDfB9*+DG_7
-F`M%9;FNl>=&MUh71BT8EZf:2+=D8BF*)/8A2#AR>9G^EDe't<-OgDoEZen3F(KG9-W3B!6s!8X
-<(//D$>"6#A8lU$F<Dqs;aX,J3&N'F0b"J$EZen3F(KG9-W3B!6r-QO=XOXcDImi2A8lU$F<Dqs
-;aX,J3&N'F0b"I!$;No?+ED%3E+No0/KeS<@ruF'DIIR2+DGm>;FNl>:JOSd%16Ze+E(d5-Zip@
-FD>`)0IIuI+>Y-YA0<6I%16uaEZen3F(KG9-UCZu8P(m!-Ta")+<VdL%13OO%15is/g)`m<(0_b
-+B)9-6UapP7TE-1/I`%uEb00.ASrVE%13OO@rGk"EcP`/F<Dr?@<6!-%16T`ATD4#AKX*WD/a<0
-@p_Mf6$.-UF(dQo3F?E>E,9616=FqL@k]W467sa#Ec>i/F@'DWBk&hO+ET1e+C\c#Bk&9-ATMr9
-AoD]4D..-r+DPh*Ch\!&Eaa'$+Eh=:@N[(3Ec>i/F=AgO$;No?%15is/g,=KEaiI!Bl,mR@<6L4
-D.Rc2-u*[2Ch\!&Eaa'$.3KaADIak<C2[W3+DGm>Ci<`mARl5W:-pQB$;No?+CTD7BQ%oP+<X9p
-BPnq\/g*JhCLqMq$;No?+CfG'@<?'k3Zp130f!ZWF>,]a$;No?+>#/s/M/P+/M/P+/M/P+/M/P+
-/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M.D=%16T`@s)g4ASuT4
--XpM*AL@ooEb065Bl[c-+<W%HDe*s$F*(u6+DPh*Ch\!&Eaa'$-OgDmDe!TlF)rIGD/a<0@p_Mf
-6$.-UF(dQo3F=p1+=BH@6$.-UF(dQo3@>qR+Cf>$Eaa$#+?V#;5s]U5@<6*B3B8Gr$=e!gDKBB0
-F<D\RBkhQs-OgDmDeX*1ATDl8+=CT4De*ZuFCfK$FCcg/$4R>aATMs)DK]`7Df0E'DKI!KB5_^!
--T`\J:IHQ>$;No?+>%q>78m/.;cH%\<.->-$8Ga-1E^UH+=ANG$>"6#De'tP3[\Z\A7T7p+DPh*
-+E_d?Ci^s5$>"6#F(KH.De*ZuFCfK$FCcRB@lc8bASlB6%13OO:-pQUB4YslEaa'$+DbJ.AU#>0
-DfQt/Cht5,Ec6)>F!,C=+E1b2BHSlL@3B'#F`(]&ATA4e4*rS(0d(ONDg-//F)rI:Ec>i/F='0o
-I4cXTEc<BR%13OO:-pQU/ULGc;cFl<<C9,B;c?.c9RSK%$>"6hDfB9*+>=63%16T`@s)g4ASuT4
--XpM*AL@oo@rGq!@<6!&4EPFZCi<fj5s[eYEaa$&3B9*,E,Tf>F*)P6:-pR0:K(5"H[\qCI3<KI
-F*&ODEc5H!F)u8?+=Jfo.6T^$$4R>`D/XQ=E-67F0H`D!0F\@a67sB/H[\qCI46:QDKKH1Amo1\
-+EqaEA12LJ3XlEk67sB'+EqaEA2,2L:-pQU@VfId+C].qBFP;D67sB'+EqaEA258M:-pQUH!t5l
-+F.C+@3?!d.1HUn$=e!aF`MM6DKI!K@UX=h-OgDmDeX*1ATDl8+=DMb<.96CEb0&u@<6!pDe)U0
-/h1mQCh7$rASQ-o+EK+d+D,>*@;I'-@rc:&F<G"2E,96"A0>T(+C]J-Ch.6tB-:r-A0>o(Ch7$r
-AKZ;5E%VS,:-pQU%15is/g+SFFD,T53ZoP;DeO#26nTTK@;BFp+<V+#:-pQU@rc-hFCeuD+AZKh
-Ddm9u+>PW)2%9mf67sBjBOPdkATKmT/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
-/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M.D=:-pQU0em9O@PK\^/KePABl8!'Ec`EOBkhQs-Qm#>
-EZf72G9C^?@ps1b%15is/g)l'D..]F2'=In-qQm08PU]WAU%^$F_#&o+D,Y4D'3n<D.Oh<B4PRm
-F"&5RATMs7%15is/g)l(De!lD1*A.k-qQm08PUC"7S-BS+B;0&9gpKRAU%^$F_#&o+D,Y4D'16>
-A7]_$.3N_DF*)I4$4R>PDe!p1Eb0-1+=CW,F(H^.$?B]tF_Pl-+=DVHA7TUrF'N-o@pF=oE*R^$
-Bl%@%/no'A-OgDmDe!TlF)rIGD/a<0@p_Mf6$.-UF(dQo3F=p1-UC$aFE1f2BK8(5-QlV9@rGq!
-@<6!&4=<E\6$.-UF(dQo3@>7C@rH(!F(KB6+=Cl<De(4)$4R>;67sC$ASbpdF(HJ)Bk)7!Df0!(
-Bk;>p$=e4!E]lH+A8,Qs0F\@Q0RGSuDe't<-OgDH0RI_K+?MV3C2[WnATf22De'u5FD5Q4-OgCl
-$;No?+D,2,@q[!*AT;j,Eb/c(F`_>6F!+n/A0?&,EcYr5DBO%A@:O(eDJ()0Dfor=%159QHZX+D
-Ci<f+B4Z0-I4cXTEc<-K@WcC$A86$n-OgCl$>OKiG%G]8Bl@lP3Zot;0RHDf6rm#M%13OO:-pQU
-8l%htF*VhKASiQ(DKBo.Cht5?BlG2/DBNn@F<G+.@ruF'DIIR"ATJu&Ch[Hu+Co2,ARfh#Ed8*$
-8l%iC8Q/Sd8O?EV8P`)b8PhQ2+=CoBA7$]8-mpWS-Qlo4@<-F3@N]E(A9MO)F(oQ1.4ci!H>.=G
-%15^'6psUF<)Q:S<E)Oc:0L4c4ZX]6+tb6/9M$T_4)AhFF(TZ(?V4*^?XHE$6uQOL+F>_f3[-:$
-6r60K87,_&<*s!):IK,1C+1]+:IITB;cHXd6<-uV:JP(b:^mb,67sBQ:IIoF2*EuJC2[W8D.GLO
-%13OO:-pQU@q]F`CER_4@<<W#Cht5,Ec6)>+Co&&ASu$iDKKqB@<,p%Bl5&%F)u80Bjl*pA0>N*
-Dfp#?%15is/g,7LBlbD2F!,@=F<GI4@qB_&@<-W9@Wcc8BPD*mCj@.DARfXqD.RTqARloqDfQt5
-Ec6)>Et&IO67sC&BOQ!*@<,p%F`V,)+EVNEAoD^,+Cf4rF)to6%15^(;GTbR9LV**+?MV38Oc9I
-;]nY$=%Q.0<DGhS74/NO-t,.Z/M;Jp-td(%E-!-LC2[W1.3L2p+A,I.:I[oL74B?j/g+eIE$-NC
-De(4)$7K=D+>#3p+=Ll5AT2]5-YdR1F*)>@ALAoL/M8/<:f:(Y8PDQ%+D!/JB6%r6-YdR1F*)>@
-AL@oo-t,.Z/M;Jp-td(%E-!-LC2[X*FD5P=.3L2p+A,I.:I[oL74B?j/g+eIE$-NCDe+!4Bl#.+
-$7K=D+>#3p+D54rE-!-LC2[X"@;BF%.3N1S+D5_6+=CoBA8PajAL@oo-t,.Z/M;JpB4PRmF!)iF
-De*Bs@OETIAM,*<Ec<-KC2[WnDdk('$7K=D+>#3p+D54rE-!-LC2[X$DC6kUAM,*<Ec<-KC2[X$
-DC5l#-t,.Z/M;JpB4PRmF!)iFDe*s.DesJB.3N1S+D5_6+=CoBA9;a.Ci^s5$4R>;67sC'E+EC!
-AKY`+A1h_02'?CBARfLsF_r75Bl%?'/Kf+GFE8Qo8PDQO%15is/g*nb<(/hj0K3lfFttir/Kf.K
-AKXT29H\D!@Wl='F(oQ1+C]J-Ch.T0GB.8'CNCV.BOt[hF*2>@%15is/g+VGF<GL4A8HN6A8c%#
-+Du+>+EM47G9CF1AnGUpASu!hF!+q'FE_;-DBNP*Ch7Z1/Kf"DEbJm#Et&IO67sC%F^fN*EcYr5
-DBL-6BkCsgEb0,uATK%<A8`T.Dfd+9DI[L*A7ZlnATDm$Bl5&'BOPdkATJ:f:-pQU0K_s'6qp',
-+DkXHD..<rAn?%*+A,Et6qL<V;Fs2T<(Tk\>"MO"$4R>;67sBmATVEq+A+pn+DkP)BkCptF:ARu
-Ccsg%4$"K3D..<rAn?%*C2[W1%17,c+Bos9Eap5,De*p!E[O"2+>b3RATT&9C^g_"HS-Ks+DPh*
-F(95>4ZX^43[-:$C2[X(@r`"c%15is/g,1WDBMP;9H\1\DJ<]oF*&NV+EM+9F!*qD9LVkh$7I;V
-+Z_>40I\,*3Zp+;.3NJ9DJ<]oF*)/8A.8kT$;No?+DkP)BkCptF<G10Ch7Z1/Kek@F)rI@A2PK>
-BOt[hF*2>@%15Qr9LVlC3Zosr@6,M_/q+p*4"akp+A>6U7S-9B;]mYE+@B$9$:[T\78l?1+@\pr
-78k<\/g*8(C2[W8D.GLO%13OO:-pQUA8`T!Cht5+Bl%@%+D#e3F*&O=DBO7>E"*.D8PDQO4ZX^7
-/g*VT9LVl&+AP6U+=oWI:IIoF2%9n=AU%p1F<WF^7S-9B;]mVD+?W7l6psUF<)Q:S<E)Oc:0L4c
-%13OO:-pQUF(fK9+ED%1@;0UnDJ()(Bl%@%%15m184?E>3Zoh)+F>:e+F7R4EZdtM6psUF<)Q:S
-<E)Oc:0L4c.3L2p+@\pr78jX&0d'[CF(fK9E+*g/+AYs-78b6QINU!k-[n+'3[R$5:K0kR;BS_$
-/g+_M@r-9uAKYMtEb/a&DfTQ'Et&Hc$;No?+ED%3E+Nnr$9g.j1E^UH+=ANG$9g.jDe'u=/n9$E
-EX`?b$=e!aF`MM6DKI!K@UX=h-OgDmDe3rtF(HIVFDYu5De!-?5s]U5@<6*B3B:FU$?Tj#FE;PH
-@ST6B.XQVDIXN>\/M/)eATMr9F*)P6/e&._67r]S:-pQU<+oue+EV19F<E1g/hSb!AoD^,@<?U&
-A0>u*G]XB%:-pQB$;No?+Eh=:@UX@mD)r+5:-pQU%15is/g)8Z+<W9h/hS8hDJ!g-D..NtA0>u*
-G]XB%:-pQU+:SZQ67sBhF`_;8E]P<c8oJB\+@Ih)6=FY@EX`@N67sBjEb/[$ARmhEH[\A3I16NY
-67sBjBOPdkATKmT/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
-/M/P+/I`$r$=e!aF`MM6DKI!K@UX=h-OgE'AT;j,Eb-@@C2[X)ATMs)E[M;'%15is/g,@VEbce3
-DBNG*ARTU%@UX=h+E)9CFE1f2BHV,0@ps1b%15is/g+Y?ARTU%-RT?1%16T`@r,RpF!,RAE,9H&
-?U6tDFE1f2BK8(5?TgFm-UC$aFE1f2BK8(5-QlV9@rGq!@<6!&4=<E\6$.-UF(dQo3@>7C@rH(!
-F(KB6+=Cl<De(4)$4R>aATMs)DK]`7Df0E'DKI!KB5_^!-T`\J:IHQ>$;No?+>%q>78m/.;cH%\
-<.->-$4R=O$4R>;67sB4HW3F4<$5+>6UO:@;asb\I4Ym8ATD@#E+No00F\?u$=e!aF`MM6DKI!K
-@UX=h-OgDmDe3rtF(HIVFDYu5De!-?5s]U5@<6*B3B:F                              ~>
-)
+zz=:''
+zz=:zz,'5 2$<;.(_1) 124 100 112 115 101 116 66 97 115 105 99 48 49 124 78 6'
+zz=:zz,'6 46 42 100 112 115 101 116 66 97 115 105 99 48 49 32 116 45 45 32 '
+zz=:zz,'98 97 115 105 99 32 100 112 115 101 116 32 112 97 114 97 109 101 11'
+zz=:zz,'6 101 114 32 115 101 116 47 99 104 97 110 103 101 32 116 101 115 11'
+zz=:zz,'6 115 46 13 10 78 66 46 13 10 78 66 46 32 65 115 115 117 109 101 11'
+zz=:zz,'5 32 116 101 115 116 32 100 105 99 116 105 111 110 97 114 121 32 40'
+zz=:zz,' 116 101 115 116 106 111 100 48 41 32 101 120 105 115 116 115 46 13'
+zz=:zz,' 10 78 66 46 13 10 78 66 46 32 118 101 114 98 97 116 105 109 58 13 '
+zz=:zz,'10 78 66 46 32 32 13 10 78 66 46 32 97 117 116 104 111 114 58 32 32'
+zz=:zz,' 74 111 104 110 32 68 46 32 66 97 107 101 114 13 10 78 66 46 32 99 '
+zz=:zz,'114 101 97 116 101 100 58 32 50 48 49 50 110 111 118 50 48 13 10 78'
+zz=:zz,' 66 46 32 99 104 97 110 103 101 115 58 32 45 45 45 45 45 45 45 45 4'
+zz=:zz,'5 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45'
+zz=:zz,' 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 '
+zz=:zz,'13 10 13 10 99 111 99 117 114 114 101 110 116 32 39 98 97 115 101 3'
+zz=:zz,'9 13 10 114 101 113 117 105 114 101 32 39 106 111 100 116 101 115 1'
+zz=:zz,'16 101 114 39 13 10 13 10 78 66 46 32 119 111 114 107 32 105 110 32'
+zz=:zz,' 99 108 101 97 114 32 98 97 115 101 32 111 114 32 116 114 97 115 10'
+zz=:zz,'4 32 108 111 99 97 108 101 13 10 99 108 101 97 114 32 39 39 13 10 1'
+zz=:zz,'3 10 99 111 99 108 97 115 115 32 116 109 112 108 111 99 95 65 65 65'
+zz=:zz,' 116 114 97 115 104 57 57 57 95 61 58 32 39 65 65 65 116 114 97 115'
+zz=:zz,' 104 57 57 57 39 32 91 32 99 111 101 114 97 115 101 32 60 39 65 65 '
+zz=:zz,'65 116 114 97 115 104 57 57 57 39 13 10 99 111 105 110 115 101 114 '
+zz=:zz,'116 32 39 105 106 111 100 39 13 10 13 10 116 101 115 116 101 110 11'
+zz=:zz,'8 105 114 111 110 109 101 110 116 32 39 103 111 111 100 39 59 39 74'
+zz=:zz,' 79 68 39 13 10 78 66 46 32 45 123 84 69 83 84 32 83 84 65 82 84 12'
+zz=:zz,'5 45 13 10 13 10 101 114 32 50 32 111 100 32 39 116 101 115 116 106'
+zz=:zz,' 111 100 48 39 32 32 32 32 32 78 66 46 32 111 112 101 110 32 82 69 '
+zz=:zz,'65 68 79 78 76 89 13 10 110 101 114 32 100 112 115 101 116 32 39 65'
+zz=:zz,' 83 67 73 73 56 53 39 59 49 32 32 78 66 46 32 99 97 110 110 111 116'
+zz=:zz,' 32 99 104 97 110 103 101 32 112 97 114 97 109 101 116 101 114 13 1'
+zz=:zz,'0 13 10 78 66 46 32 114 101 111 112 101 110 32 105 110 115 117 114 '
+zz=:zz,'101 32 82 69 65 68 87 82 73 84 69 13 10 101 114 32 111 100 32 39 11'
+zz=:zz,'6 101 115 116 106 111 100 48 39 32 91 32 51 32 111 100 32 39 39 13 '
+zz=:zz,'10 101 114 32 100 112 115 101 116 32 39 82 69 65 68 87 82 73 84 69 '
+zz=:zz,'39 13 10 101 114 32 100 112 115 101 116 32 39 65 83 67 73 73 56 53 '
+zz=:zz,'39 59 49 13 10 101 114 32 100 112 115 101 116 32 39 82 69 65 68 79 '
+zz=:zz,'78 76 89 39 13 10 110 101 114 32 100 112 115 101 116 32 39 65 83 67'
+zz=:zz,' 73 73 56 53 39 59 49 13 10 13 10 78 66 46 32 114 101 111 112 101 1'
+zz=:zz,'10 32 45 32 100 105 99 116 105 111 110 97 114 121 32 105 115 32 82 '
+zz=:zz,'69 65 68 79 78 76 89 13 10 101 114 32 111 100 32 39 116 101 115 116'
+zz=:zz,' 106 111 100 48 39 32 91 32 51 32 111 100 32 39 39 13 10 110 101 11'
+zz=:zz,'4 32 100 112 115 101 116 32 39 65 83 67 73 73 56 53 39 59 48 32 32 '
+zz=:zz,'32 32 32 13 10 13 10 13 10 78 66 46 32 45 123 84 69 83 84 32 83 85 '
+zz=:zz,'67 67 69 83 83 70 85 76 125 45 13 10 101 114 101 111 112 101 110 32'
+zz=:zz,' 48 13 10 13 10 99 111 99 117 114 114 101 110 116 32 39 98 97 115 1'
+zz=:zz,'01 39 13 10 99 111 101 114 97 115 101 32 60 116 109 112 108 111 99 '
+zz=:zz,'95 65 65 65 116 114 97 115 104 57 57 57 95 124 103 114 112 108 105 '
+zz=:zz,'116 66 97 115 105 99 48 49 124 78 66 46 42 103 114 112 108 105 116 '
+zz=:zz,'66 97 115 105 99 48 49 32 116 45 45 32 98 97 115 105 99 32 116 101 '
+zz=:zz,'115 116 32 102 111 114 32 109 97 105 110 32 106 111 100 108 105 116'
+zz=:zz,' 101 114 97 116 101 32 118 101 114 98 32 40 103 114 112 108 105 116'
+zz=:zz,' 41 46 13 10 78 66 46 13 10 78 66 46 32 118 101 114 98 97 116 105 1'
+zz=:zz,'09 58 32 97 115 115 117 109 101 115 32 40 106 111 100 108 105 116 1'
+zz=:zz,'01 114 97 116 101 41 32 32 97 110 100 32 40 106 111 100 41 32 105 1'
+zz=:zz,'15 32 108 111 97 100 101 100 13 10 78 66 46 13 10 78 66 46 32 97 11'
+zz=:zz,'7 116 104 111 114 58 32 32 74 111 104 110 32 68 46 32 66 97 107 101'
+zz=:zz,' 114 13 10 78 66 46 32 99 114 101 97 116 101 100 58 32 50 48 49 50 '
+zz=:zz,'111 99 116 48 57 13 10 78 66 46 32 45 45 45 45 45 45 45 45 45 45 45'
+zz=:zz,' 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 '
+zz=:zz,'45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 4'
+zz=:zz,'5 45 45 45 45 45 45 45 45 45 13 10 13 10 99 111 99 117 114 114 101 '
+zz=:zz,'110 116 32 39 98 97 115 101 39 13 10 114 101 113 117 105 114 101 32'
+zz=:zz,' 32 32 39 106 111 100 116 101 115 116 101 114 32 106 111 100 108 10'
+zz=:zz,'5 116 101 114 97 116 101 39 13 10 99 111 99 108 97 115 115 32 116 1'
+zz=:zz,'09 112 108 111 99 95 65 65 65 116 114 97 115 104 57 57 57 95 61 58 '
+zz=:zz,'32 39 65 65 65 116 114 97 115 104 57 57 57 39 32 91 32 99 111 101 1'
+zz=:zz,'14 97 115 101 32 60 39 65 65 65 116 114 97 115 104 57 57 57 39 13 1'
+zz=:zz,'0 99 111 105 110 115 101 114 116 32 32 39 105 106 111 100 39 13 10 '
+zz=:zz,'99 111 105 110 115 101 114 116 32 32 39 97 106 111 100 108 105 116 '
+zz=:zz,'101 114 97 116 101 39 13 10 13 10 116 101 115 116 101 110 118 105 1'
+zz=:zz,'14 111 110 109 101 110 116 32 39 103 111 111 100 39 59 39 74 79 68 '
+zz=:zz,'39 13 10 78 66 46 32 45 123 84 69 83 84 32 83 84 65 82 84 125 45 13'
+zz=:zz,' 10 49 91 32 51 32 111 100 32 39 39 13 10 101 114 32 111 100 32 59 '
+zz=:zz,'58 39 106 111 100 100 101 118 32 106 111 100 32 117 116 105 108 115'
+zz=:zz,' 39 13 10 101 114 32 115 101 116 106 111 100 108 105 116 101 114 97'
+zz=:zz,' 116 101 32 39 99 58 47 116 101 109 112 39 13 10 13 10 78 66 46 32 '
+zz=:zz,'103 101 110 101 114 97 116 101 32 108 97 116 101 120 32 102 111 114'
+zz=:zz,' 32 97 108 108 32 103 114 111 117 112 115 32 111 110 32 112 97 116 '
+zz=:zz,'104 32 45 32 97 32 99 114 117 110 99 104 101 114 13 10 59 123 46 34'
+zz=:zz,' 49 32 115 104 111 119 112 97 115 115 32 103 114 112 108 105 116 38'
+zz=:zz,' 62 32 125 46 32 103 114 112 39 39 13 10 13 10 78 66 46 32 45 123 8'
+zz=:zz,'4 69 83 84 32 83 85 67 67 69 83 83 70 85 76 125 45 13 10 101 114 10'
+zz=:zz,'1 111 112 101 110 32 48 13 10 13 10 99 111 99 117 114 114 101 110 1'
+zz=:zz,'16 32 39 98 97 115 101 39 13 10 99 111 101 114 97 115 101 32 60 116'
+zz=:zz,' 109 112 108 111 99 95 65 65 65 116 114 97 115 104 57 57 57 95 124 '
+zz=:zz,'112 111 115 116 115 116 117 98 124 78 66 46 80 79 83 84 95 123 126 '
+zz=:zz,'84 126 125 32 112 111 115 116 32 112 114 111 99 101 115 115 111 114'
+zz=:zz,' 32 40 45 46 41 61 58 13 10 13 10 115 109 111 117 116 112 117 116 3'
+zz=:zz,'2 48 32 58 32 48 13 10 78 66 46 32 40 123 126 84 126 125 41 32 105 '
+zz=:zz,'110 116 101 114 102 97 99 101 32 119 111 114 100 40 115 41 58 13 10'
+zz=:zz,' 78 66 46 32 32 32 119 111 114 100 49 32 32 78 66 46 32 98 108 97 1'
+zz=:zz,'04 32 98 108 97 104 13 10 78 66 46 32 32 32 119 111 114 100 50 32 3'
+zz=:zz,'2 78 66 46 32 121 97 100 97 32 121 97 100 97 32 13 10 41 13 10 13 1'
+zz=:zz,'0 99 111 99 117 114 114 101 110 116 32 39 98 97 115 101 39 13 10 99'
+zz=:zz,' 111 105 110 115 101 114 116 32 32 39 123 126 84 126 125 39 124 114'
+zz=:zz,' 101 108 101 97 115 101 106 111 100 124 78 66 46 42 114 101 108 101'
+zz=:zz,' 97 115 101 106 111 100 32 115 45 45 32 102 105 110 97 108 32 115 9'
+zz=:zz,'9 114 105 112 116 32 97 112 112 108 105 101 100 32 105 110 32 98 11'
+zz=:zz,'7 105 108 100 105 110 103 32 106 111 100 32 114 101 108 101 97 115 '
+zz=:zz,'101 32 122 105 112 46 13 10 78 66 46 32 13 10 78 66 46 32 97 117 11'
+zz=:zz,'6 104 111 114 58 32 32 74 111 104 110 32 68 46 32 66 97 107 101 114'
+zz=:zz,' 32 32 13 10 78 66 46 32 99 114 101 97 116 101 100 58 32 79 99 116 '
+zz=:zz,'111 98 101 114 32 50 48 48 53 13 10 78 66 46 32 99 104 97 110 103 1'
+zz=:zz,'01 115 58 32 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 '
+zz=:zz,'45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 4'
+zz=:zz,'5 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 13'
+zz=:zz,' 10 78 66 46 32 49 49 102 101 98 49 52 32 45 32 99 111 105 110 115 '
+zz=:zz,'101 114 116 32 39 105 106 111 100 39 32 102 111 114 32 110 101 119 '
+zz=:zz,'32 108 111 99 97 108 101 13 10 78 66 46 32 49 49 109 97 121 50 53 3'
+zz=:zz,'2 45 32 40 73 70 87 73 78 41 32 101 120 99 108 117 100 101 100 32 1'
+zz=:zz,'02 114 111 109 32 115 111 109 101 32 40 103 100 101 112 115 41 32 1'
+zz=:zz,'16 101 115 116 115 13 10 78 66 46 32 49 50 111 99 116 49 50 32 45 3'
+zz=:zz,'2 40 73 70 87 73 78 32 73 70 73 79 83 32 85 78 65 77 69 41 32 101 1'
+zz=:zz,'20 99 108 117 100 101 100 32 102 114 111 109 32 40 103 100 101 112 '
+zz=:zz,'115 41 32 116 101 115 116 115 13 10 13 10 99 111 99 117 114 114 101'
+zz=:zz,' 110 116 32 39 98 97 115 101 39 13 10 114 101 113 117 105 114 101 3'
+zz=:zz,'2 39 126 97 100 100 111 110 115 92 97 114 99 92 122 105 112 92 122 '
+zz=:zz,'102 105 108 101 115 46 105 106 115 39 13 10 99 111 99 108 97 115 11'
+zz=:zz,'5 32 116 109 112 108 111 99 95 65 65 65 116 114 97 115 104 57 57 57'
+zz=:zz,' 95 61 58 39 65 65 65 116 114 97 115 104 57 57 57 39 32 91 32 99 11'
+zz=:zz,'1 101 114 97 115 101 32 60 39 65 65 65 116 114 97 115 104 57 57 57 '
+zz=:zz,'39 13 10 99 111 105 110 115 101 114 116 32 39 105 106 111 100 39 13'
+zz=:zz,' 10 13 10 78 66 46 32 114 101 108 101 97 115 101 32 100 105 99 116 '
+zz=:zz,'105 111 110 97 114 105 101 115 13 10 99 117 114 114 61 58 32 100 10'
+zz=:zz,'5 100 32 48 13 10 62 48 123 51 32 111 100 32 39 39 13 10 62 48 123 '
+zz=:zz,'111 100 32 59 58 39 106 111 100 100 101 118 32 106 111 100 32 117 1'
+zz=:zz,'16 105 108 115 39 13 10 13 10 78 66 46 32 102 101 116 99 104 32 114'
+zz=:zz,' 101 113 117 105 114 101 100 32 117 116 105 108 115 32 97 110 100 3'
+zz=:zz,'2 118 101 114 115 105 111 110 32 116 114 97 99 107 105 110 103 32 1'
+zz=:zz,'10 111 117 110 115 13 10 62 48 123 116 109 112 108 111 99 32 103 10'
+zz=:zz,'1 116 32 125 46 32 103 114 112 32 39 98 117 105 108 100 106 111 100'
+zz=:zz,' 39 13 10 13 10 106 111 100 118 101 114 115 105 111 110 61 58 32 44'
+zz=:zz,' 62 48 123 74 79 68 86 77 68 13 10 13 10 78 66 46 32 74 79 68 32 11'
+zz=:zz,'5 121 115 116 101 109 32 105 110 115 116 97 108 108 32 122 105 112 '
+zz=:zz,'32 105 110 32 112 117 116 32 100 105 99 116 105 111 110 97 114 105 '
+zz=:zz,'101 115 32 97 108 105 101 110 32 100 105 114 101 99 116 111 114 121'
+zz=:zz,' 13 10 74 79 68 68 73 83 84 82 73 66 85 84 73 79 78 90 73 80 61 58 '
+zz=:zz,'32 39 106 111 100 95 39 44 40 39 46 95 39 32 99 104 97 114 115 117 '
+zz=:zz,'98 32 106 111 100 118 101 114 115 105 111 110 41 44 39 46 122 105 1'
+zz=:zz,'12 39 13 10 74 79 68 68 73 83 84 82 73 66 85 84 73 79 78 90 73 80 6'
+zz=:zz,'1 58 32 40 34 46 39 65 76 73 39 44 59 108 111 99 115 102 120 95 95 '
+zz=:zz,'74 79 68 95 95 74 79 68 111 98 106 32 123 46 123 58 34 49 32 68 80 '
+zz=:zz,'65 84 72 95 95 83 84 95 95 74 79 68 111 98 106 41 44 74 79 68 68 73'
+zz=:zz,' 83 84 82 73 66 85 84 73 79 78 90 73 80 13 10 78 66 46 32 74 79 68 '
+zz=:zz,'77 68 53 61 58 39 106 111 100 46 109 100 53 39 13 10 13 10 78 66 46'
+zz=:zz,' 32 99 104 101 99 107 32 116 104 97 116 32 97 108 108 32 103 114 11'
+zz=:zz,'1 117 112 32 100 101 112 101 110 100 101 110 116 115 32 97 114 101 '
+zz=:zz,'32 105 110 32 97 115 115 111 99 105 97 116 101 100 32 103 114 111 1'
+zz=:zz,'17 112 115 13 10 78 66 46 32 116 104 105 115 32 105 115 32 110 111 '
+zz=:zz,'116 32 110 101 99 101 115 115 97 114 121 32 98 117 116 32 104 105 1'
+zz=:zz,'03 104 108 121 32 114 101 99 111 109 109 101 110 100 101 100 32 102'
+zz=:zz,' 111 114 32 103 114 111 117 112 115 13 10 78 66 46 32 116 104 97 11'
+zz=:zz,'6 32 97 114 101 32 117 115 101 100 32 116 111 32 102 111 114 109 32'
+zz=:zz,' 99 108 97 115 115 101 115 13 10 74 80 82 79 70 73 76 69 61 58 32 5'
+zz=:zz,'9 58 39 73 70 73 79 83 32 73 70 87 73 78 32 85 78 65 77 69 39 13 10'
+zz=:zz,' 40 97 58 32 45 46 126 32 40 103 100 101 112 115 32 39 106 111 100 '
+zz=:zz,'39 41 32 45 46 32 74 80 82 79 70 73 76 69 41 32 101 46 32 103 114 1'
+zz=:zz,'12 32 39 106 111 100 39 13 10 40 97 58 32 45 46 126 32 40 103 100 1'
+zz=:zz,'01 112 115 32 39 106 111 100 115 116 111 114 101 39 41 32 45 46 32 '
+zz=:zz,'74 80 82 79 70 73 76 69 41 32 101 46 32 103 114 112 32 39 106 111 1'
+zz=:zz,'00 115 116 111 114 101 39 13 10 40 97 58 32 45 46 126 32 40 103 100'
+zz=:zz,' 101 112 115 32 39 106 111 100 117 116 105 108 39 41 32 45 46 32 74'
+zz=:zz,' 80 82 79 70 73 76 69 41 32 101 46 32 103 114 112 32 39 106 111 100'
+zz=:zz,' 117 116 105 108 39 13 10 40 97 58 32 45 46 126 32 103 100 101 112 '
+zz=:zz,'115 32 39 106 111 100 109 97 107 101 39 41 32 101 46 32 103 114 112'
+zz=:zz,' 32 39 106 111 100 109 97 107 101 39 13 10 40 97 58 32 45 46 126 32'
+zz=:zz,' 103 100 101 112 115 32 39 106 111 100 100 111 98 39 41 32 101 46 3'
+zz=:zz,'2 103 114 112 32 39 106 111 100 100 111 98 39 13 10 40 97 58 32 45 '
+zz=:zz,'46 126 32 103 100 101 112 115 32 39 106 111 100 111 110 39 41 32 10'
+zz=:zz,'1 46 32 103 114 112 32 39 106 111 100 111 110 39 13 10 40 97 58 32 '
+zz=:zz,'45 46 126 32 103 100 101 112 115 32 39 106 111 100 116 111 111 108 '
+zz=:zz,'115 39 41 32 101 46 32 103 114 112 32 39 106 111 100 116 111 111 10'
+zz=:zz,'8 115 39 13 10 13 10 78 66 46 32 117 112 100 97 116 101 32 106 111 '
+zz=:zz,'100 46 109 100 53 32 99 104 101 99 107 115 117 109 32 102 105 108 1'
+zz=:zz,'01 32 45 32 115 101 116 115 32 70 73 76 69 83 13 10 78 66 46 32 78 '
+zz=:zz,'79 84 69 58 32 48 55 110 111 118 50 51 32 45 32 116 104 101 32 74 6'
+zz=:zz,'5 76 32 115 117 98 118 101 114 115 105 111 110 32 98 117 105 108 10'
+zz=:zz,'0 115 32 119 114 101 97 107 115 32 99 104 101 99 107 115 117 109 11'
+zz=:zz,'5 13 10 78 66 46 32 98 117 116 32 111 100 100 108 121 32 100 111 10'
+zz=:zz,'1 115 32 110 111 116 32 115 104 111 119 32 100 105 102 102 101 114 '
+zz=:zz,'101 110 99 101 115 32 98 101 116 119 101 101 110 32 102 105 108 101'
+zz=:zz,' 115 32 45 32 112 101 114 104 97 112 115 13 10 78 66 46 32 115 117 '
+zz=:zz,'98 118 101 114 115 105 111 110 32 34 100 105 102 102 101 114 101 11'
+zz=:zz,'0 99 101 115 34 32 100 111 32 110 111 116 32 105 110 99 108 117 100'
+zz=:zz,' 101 32 99 101 114 116 97 105 110 32 99 104 97 110 103 101 115 13 1'
+zz=:zz,'0 78 66 46 32 48 60 74 79 68 77 68 53 32 109 100 53 109 97 110 105 '
+zz=:zz,'102 101 115 116 32 74 79 68 68 73 83 84 82 73 66 85 84 73 79 78 90 '
+zz=:zz,'73 80 13 10 13 10 78 66 46 32 102 101 116 99 104 32 74 65 76 32 109'
+zz=:zz,' 97 110 105 102 101 115 116 13 10 115 108 61 58 32 59 58 32 39 109 '
+zz=:zz,'97 110 105 102 101 115 116 106 111 100 39 13 10 114 99 32 91 32 39 '
+zz=:zz,'114 99 32 106 111 100 115 99 114 39 61 58 32 52 32 103 101 116 32 1'
+zz=:zz,'15 108 13 10 40 123 46 34 49 32 106 111 100 115 99 114 41 61 58 32 '
+zz=:zz,'123 58 34 49 32 106 111 100 115 99 114 13 10 13 10 78 66 46 32 114 '
+zz=:zz,'117 110 32 74 65 76 32 109 97 110 105 102 101 115 116 32 45 32 115 '
+zz=:zz,'101 116 115 32 70 73 76 69 83 13 10 40 40 48 33 58 49 49 48 41 32 5'
+zz=:zz,'8 58 32 48 58 41 32 109 97 110 105 102 101 115 116 106 111 100 13 1'
+zz=:zz,'0 13 10 78 66 46 32 109 97 110 105 102 101 115 116 32 102 105 108 1'
+zz=:zz,'01 115 32 45 32 108 101 115 115 32 109 100 53 32 99 104 101 99 107 '
+zz=:zz,'115 117 109 115 13 10 70 73 76 69 83 61 58 32 44 32 97 58 32 45 46 '
+zz=:zz,'126 32 60 59 46 95 49 32 76 70 44 70 73 76 69 83 32 45 46 32 67 82 '
+zz=:zz,'13 10 70 73 76 69 83 61 58 32 70 73 76 69 83 32 45 46 32 60 39 106 '
+zz=:zz,'111 100 46 109 100 53 39 13 10 13 10 78 66 46 32 100 111 32 97 108 '
+zz=:zz,'108 32 102 105 108 101 115 32 101 120 105 115 116 32 105 110 32 122'
+zz=:zz,' 105 112 13 10 70 73 76 69 83 61 58 32 126 46 32 70 73 76 69 83 32 '
+zz=:zz,'32 78 66 46 32 44 60 74 79 68 77 68 53 13 10 122 101 120 105 115 11'
+zz=:zz,'6 34 49 32 70 73 76 69 83 32 44 46 32 60 74 79 68 68 73 83 84 82 73'
+zz=:zz,' 66 85 84 73 79 78 90 73 80 13 10 13 10 78 66 46 32 115 104 111 119'
+zz=:zz,' 32 114 101 109 97 105 110 105 110 103 32 102 105 108 101 115 13 10'
+zz=:zz,' 79 84 72 69 82 61 58 32 40 48 32 123 34 49 32 122 100 105 114 32 7'
+zz=:zz,'4 79 68 68 73 83 84 82 73 66 85 84 73 79 78 90 73 80 41 32 45 46 32'
+zz=:zz,' 70 73 76 69 83 13 10 49 32 91 32 115 104 111 119 112 97 115 115 32'
+zz=:zz,' 79 84 72 69 82 32 35 126 32 39 47 39 126 58 123 58 38 62 32 79 84 '
+zz=:zz,'72 69 82 32 78 66 46 32 101 120 99 108 117 100 101 32 100 105 114 1'
+zz=:zz,'01 99 116 111 114 105 101 115 13 10 13 10 78 66 46 32 114 101 111 1'
+zz=:zz,'12 101 110 13 10 62 48 123 51 32 111 100 32 39 39 13 10 62 48 123 1'
+zz=:zz,'11 100 32 125 46 99 117 114 114 13 10 13 10 99 111 99 117 114 114 1'
+zz=:zz,'01 110 116 32 39 98 97 115 101 39 13 10 99 111 101 114 97 115 101 3'
+zz=:zz,'2 60 116 109 112 108 111 99 95 65 65 65 116 114 97 115 104 57 57 57'
+zz=:zz,' 95 13 10 124 116 101 115 116 115 116 117 98 124 78 66 46 42 123 12'
+zz=:zz,'6 84 126 125 32 116 45 45 32 116 101 115 116 32 115 116 117 98 46 1'
+zz=:zz,'3 10 78 66 46 13 10 78 66 46 32 84 104 105 115 32 116 101 115 116 3'
+zz=:zz,'2 46 46 46 46 46 32 102 111 114 109 97 116 116 101 100 32 116 101 1'
+zz=:zz,'20 116 13 10 78 66 46 13 10 78 66 46 32 118 101 114 98 97 116 105 1'
+zz=:zz,'09 58 13 10 78 66 46 32 13 10 78 66 46 32 32 32 32 32 46 46 46 46 3'
+zz=:zz,'2 117 110 102 111 114 109 97 116 101 100 32 116 101 120 116 13 10 7'
+zz=:zz,'8 66 46 32 32 13 10 78 66 46 32 97 117 116 104 111 114 58 32 32 74 '
+zz=:zz,'111 104 110 32 68 46 32 66 97 107 101 114 13 10 78 66 46 32 99 114 '
+zz=:zz,'101 97 116 101 100 58 32 123 126 68 126 125 13 10 78 66 46 32 99 10'
+zz=:zz,'4 97 110 103 101 115 58 32 45 45 45 45 45 45 45 45 45 45 45 45 45 4'
+zz=:zz,'5 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45'
+zz=:zz,' 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 13 10 13 10 99 '
+zz=:zz,'111 99 117 114 114 101 110 116 32 39 98 97 115 101 39 13 10 114 101'
+zz=:zz,' 113 117 105 114 101 32 39 106 111 100 116 101 115 116 101 114 39 1'
+zz=:zz,'3 10 13 10 78 66 46 32 119 111 114 107 32 105 110 32 99 108 101 97 '
+zz=:zz,'114 32 98 97 115 101 32 111 114 32 116 114 97 115 104 32 108 111 99'
+zz=:zz,' 97 108 101 13 10 78 66 46 32 99 108 101 97 114 32 39 39 13 10 13 1'
+zz=:zz,'0 99 111 99 108 97 115 115 32 116 109 112 108 111 99 95 65 65 65 11'
+zz=:zz,'6 114 97 115 104 57 57 57 95 61 58 32 39 65 65 65 116 114 97 115 10'
+zz=:zz,'4 57 57 57 39 32 91 32 99 111 101 114 97 115 101 32 60 39 65 65 65 '
+zz=:zz,'116 114 97 115 104 57 57 57 39 13 10 99 111 105 110 115 101 114 116'
+zz=:zz,' 32 39 105 106 111 100 39 13 10 13 10 116 101 115 116 101 110 118 1'
+zz=:zz,'05 114 111 110 109 101 110 116 32 39 103 111 111 100 39 59 39 74 79'
+zz=:zz,' 68 39 13 10 78 66 46 32 45 123 84 69 83 84 32 83 84 65 82 84 125 4'
+zz=:zz,'5 13 10 13 10 13 10 13 10 78 66 46 32 45 123 84 69 83 84 32 83 85 6'
+zz=:zz,'7 67 69 83 83 70 85 76 125 45 13 10 101 114 101 111 112 101 110 32 '
+zz=:zz,'48 13 10 13 10 99 111 99 117 114 114 101 110 116 32 39 98 97 115 10'
+zz=:zz,'1 39 13 10 99 111 101 114 97 115 101 32 60 116 109 112 108 111 99 9'
+zz=:zz,'5 65 65 65 116 114 97 115 104 57 57 57 95{a.                       '
+zz=:16660{.zz
 showpass 1 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
-zz=:dec85__MK__JODobj 0 : 0
-0f(L+0f'q.+>G_r1*AG/0fC.00H`+n1cREN+>Gbs1*AA,3$9t1+>P&u1b^%,1E\Fq0eb::+>GPm
-1*AS:0f'q,1E\Fq3B9&A0ea_*+>Y`41E\D/+>P&r1-%*40esk,+>Yr11E\D,+>P&o0f^s20fL41
-+>GW32'=V0+>P'"2E"0'6pamF9LMEC;cHOj=Y_j067sBZH#n(=D)re3:IH<J6$79_DfRl]8oJB\
-+@Ih)6=FY@EZcJnD..-p3Zqm?CLqO$A2uY8B5M'kCbB49D%-hI67sB]ATDj+Df.TY0J5@<3&Mg$
-6?R!YA0=WiD.7's3Zp."+@KX[ANCqg1E];4C`kJe0esk+1cdEN3]&]'$4R=O$;No?+B*Q,FCf;M
-+A,Et+<WsmFD,T53Zq%5BPnq\/g*JhCLqN/+@U-UBl#gQ@UX%`Eb],F3C%4o@;0O1@rH2n$;No?
-+BE&oF(oQ13Zp+/3A*9K+<X!nBl%<&:3CD_ATBgS1*@]-@<?'A+>GYp8p+qm1,(F<+>G]61cRNM
-3"63($4R>;67sBZH#n(=D)re3:IH<J6$79_DfRl]8oJB\+@Ih)6=FY@EZcJnD..-p3Zqm?CLqO$
-A2uY8B5M'kCbB49D%-hI67sB]ATDj+Df.TY0J5@<3&Mg$6?R!YA0=WiD.7's3Zp4$+@KX[ANCqg
-1E];4C`kJe0esk+1cdKL3\`W($4R=O$;No?+B*Q,FCf;M+A,Et+<WsmFD,T53Zq%5BPnq\/g*Jh
-CLqN/+@U-UBl#gQ@UX%`Eb],F3C%4o@;0O1@rH2n$;No?+BE&oF(oQ13Zp+/3A*9K+<X!nBl%<&
-:3CD_ATBgS1a!o/@<?'A+>GYp8p+qm1,(F<+>G]62)@9M3"63($4R>;67sBZH#n(=D)re3:IH<J
-6$79_DfRl]8oJB\+@Ih)6=FY@EZcJnD..-p3Zqm?CLqO$A2uY8B5M'kCbB49D%-hI67sB]ATDj+
-Df.TY0J5@<3&Mg$6?R!YA0=WiD.7's3Zp:&+@KX[ANCqh+@1-_+>PW*1*A;+3\iBM0f'7G$49Np
-/g+)<F*(u13Zq$j6m*U<F`_;8E]P=8DeO#26nTTK@;BFp+<X*i@;0O=+C\bpATDNr3B9?;D..-p
-/n8g:$;No?+BE&oF(oQ13Zp+/3A*9K+<X!nBl%<&:3CD_ATBgS2BX,1@<?'A+>P'*F_;gP0JP=*
-0ek^F1-.*D$47,867sBZH#n(=D)re3:IH<J6$79_DfRl]8oJB\+@Ih)6=FY@EZcJnD..-p3Zqm?
-CLqO$A2uY8B5M'kCbB49D$j$)/g+2+EcYr5DE8mo/ibOD2'=#.F_PZ&+AR&r@V'R@+?(Dc6t(1K
-3Zp17+B)ij+>PW*1*A;*3\rWS0Js1E$;No?+B*Q,FCf;M+A,Et+<WsmFD,T53Zq%5BPnq\/g*Jh
-CLqN/+@U-UBl#gQ@UX%`Eb],F3C%4o@;0O1@rH2k:-pQU<b6;mBl@lM+>>E./iY^2+@:3bCh+Y`
-F_tT!E]P=&+<X'\FCdKU0ea_G@rrhK0JP=*0ek^G2``]P$47,867sBZH#n(=D)re3:IH<J6$79_
-DfRl]8oJB\+@Ih)6=FY@EZcJnD..-p3Zqm?CLqO$A2uY8B5M'kCbB49D$j$)/g+2+EcYr5DE8mo
-/ibOD2'=#.F_PZ&+AR&r@V'R@+?:Pe6t(1K3Zp.2+AZKh+>PW*1*A;,3\`<L1,fOI$;No?+B*Q,
-FCf;M+A,Et+<WsmFD,T53Zq%5BPnq\/g*JhCLqN/+@U-UBl#gQ@UX%`Eb],F3C%4o@;0O1@rH2k
-:-pQU<b6;mBl@lM+>>E./iY^2+@:3bCh+Y`F_tT!E]P<t0H_K+@<?'A+>GPm:LeJh1,(F<+>G`7
-0ebXD2$sZt:-pQU;gEG+ASjIN8l%ht+@1-lBQ%oP+A-QcDBM>"+@9LPATAn97;ZIICcW\J@;BFp
-C1K=b5\FqBBl#D3Df#hV67sB]ATDj+Df.TY0J5@<3&Mg$6?R!YA0=WiD.7's3Zp.3+<X'\FCdKU
-0eskI@rrhK0JP=*0ebXF0KLmJ$47,867sBZH#n(=D)re3:IH<J6$79_DfRl]8oJB\+@Ih)6=FY@
-EZcJnD..-p3Zqm?CLqO$A2uY8B5M'kCbB49D$j$)/g+2+EcYr5DE8mo/ibOD2'=#.F_PZ&+AR&r
-@V'R@+>GVo+@KX[ANCqg1*BA&F<E=m0esk+0KM$I3]/W!$49Np/g+)<F*(u13Zq$j6m*U<F`_;8
-E]P=8DeO#26nTTK@;BFp+<X*i@;0O=+C\bpATDNr3B9?;D..-p/n8g:$;No?+BE&oF(oQ13Zp+/
-3A*9K+<X!nBl%<&:3CD_ATBgS0f'pp6t(1K3Zp.4+AZKh+>PW*1*A;*3]&iX0K'7F$;No?+B*Q,
-FCf;M+A,Et+<WsmFD,T53Zq%5BPnq\/g*JhCLqN/+@U-UBl#gQ@UX%`Eb],F3C%4o@;0O1@rH2k
-:-pQU<b6;mBl@lM+>>E./iY^2+@:3bCh+Y`F_tT!E]P<t1a!o/@<?'A+>GVo:LeJh1,(F<+>GT3
-0KD0O2@9cu:-pQU;gEG+ASjIN8l%ht+@1-lBQ%oP+A-QcDBM>"+@9LPATAn97;ZIICcW\J@;BFp
-C1K=b5\FqBBl#D3Df#hV67sB]ATDj+Df.TY0J5@<3&Mg$6?R!YA0=WiD.7's3Zp.7+<X'\FCdKU
-0f'qJ@rrhK0JP=*0f(jF1HI<N$47,867sBZH#n(=D)re3:IH<J6$79_DfRl]8oJB\+@Ih)6=FY@
-EZcJnD..-p3Zqm?CLqO$A2uY8B5M'kCbB49D$j$)/g+2+EcYr5DE8mo/ibOD2'=#.F_PZ&+AR&r
-@V'R@+>Gbs+@KX[ANCqg1E]J'F<E=m0esk+1cdHI3\rZ$$49Np/g+)<F*(u13Zq$j6m*U<F`_;8
-E]P=8DeO#26nTTK@;BFp+<X*i@;0O=+C\bpATDNr3B9?;D..-p/n8g:$;No?+BE&oF(oQ13Zp+/
-3A*<G+<X!nBl%<&:3CD_ATBgS0d%T,@<?'A+>Gbs:LeJh1,(F<+>>f:2)REM0FA-o:-pQU;gEG+
-ASjIN8l%ht+@1-lBQ%oP+A-QcDBM>"+@9LPATAn97;ZIICcW\J@;BFpC1K=b5\FqBBl#D3Df#hV
-67sB]ATDj+Df.TY0J5@<3A;Qu6?R!YA0=WiD.7's3Zp1#+@KX[ANCqg2BYe*F<E=m0esk+0KM!E
-3\`T$$49Np/g+)<F*(u13Zq$j6m*U<F`_;8E]P=8DeO#26nTTK@;BFp+<X*i@;0O=+C\bpATDNr
-3B9?;D..-p/n8g:$;No?+BE&oF(oQ13Zp+/3A*<G+<X!nBl%<&:3CD_ATBgS1E[f.@<?'A+>Gbs
-:LeJh1,(F<+>GQ21H%9J1^XQs:-pQU;gEG+ASjIN8l%ht+@1-lBQ%oP+A-QcDBM>"+@9LPATAn9
-7;ZIICcW\J@;BFpC1K=b5\FqBBl#D3Df#hV67sB]ATDj+Df.TY0J5@<3A;Qu6?R!YA0=WiD.7's
-3Zp7%+@KX[ANCqg2BYe*F<E=m0esk+0KM$K3\iJu$49Np/g+)<F*(u13Zq$j6m*U<F`_;8E]P=8
-DeO#26nTTK@;BFp+<X*i@;0O=+C\bpATDNr3B9?;D..-p/n8g:$;No?+BE&oF(oQ13Zp+/3A*<G
-+<X!nBl%<&:3CD_ATBgS2'=#0@<?'A+>Gbs:LeJh1,(F<+>GT30JY[C0FA-o:-pQU;gEG+ASjIN
-8l%ht+@1-lBQ%oP+A-QcDBM>"+@9LPATAn97;ZIICcW\J@;BFpC1K=b5\FqBBl#D3Df#hV67sB]
-ATDj+Df.TY0J5@<3A;Qu6?R!YA0=WiD.7's3Zp='+@KX[ANCqh+AQiu+>PW*1*A;*3]/ZR0JWtB
-$;No?+B*Q,FCf;M+A,Et+<WsmFD,T53Zq%5BPnq\/g*JhCLqN/+@U-UBl#gQ@UX%`Eb],F3C%4o
-@;0O1@rH2k:-pQU<b6;mBl@lM+>>E./ibU.+@:3bCh+Y`F_tT!E]P=%+<X'\FCdKU1*B>1Fs&Oo
-0esk+0fh!K3\rGs$49Np/g+)<F*(u13Zq$j6m*U<F`_;8E]P=8DeO#26nTTK@;BFp+<X*i@;0O=
-+C\bpATDNr3B9?;D..-p/n8g:$;No?+BE&oF(oQ13Zp+/3A*<G+<X!nBl%<&:3CD_ATBgS3$9>3
-@<?'A+>P'7Dg!6Y0JP=*0ek^F2EENI$47,867sBZH#n(=D)re3:IH<J6$79_DfRl]8oJB\+@Ih)
-6=FY@EZcJnD..-p3Zqm?CLqO$A2uY8B5M'kCbB49D$j$)/g+2+EcYr5DE8mo/ibOE0H_K)F_PZ&
-+AR&r@V'R@+?:Pe6t(1K3Zp1#:2b:u1,(F<+>GT32)73K3!p!":-pQU;gEG+ASjIN8l%ht+@1-l
-BQ%oP+A-QcDBM>"+@9LPATAn97;ZIICcW\J@;BFpC1K=b5\FqBBl#D3Df#hV67sB]ATDj+Df.TY
-0J5@<3A;Qu6?R!YA0=WiD.7's3Zp.2+<X'\FCdKU1*B>1Fs&Oo0esk+1-.*I3]&Z#$49Np/g+)<
-F*(u13Zq$j6m*U<F`_;8E]P=8DeO#26nTTK@;BFp+<X*i@;0O=+C\bpATDNr3B9?;D..-p/n8g:
-$;No?+BE&oF(oQ13Zp+/3A*<G+<X!nBl%<&:3CD_ATBgS0ejdn6t(1K3Zp1#:2b:u1,(F<+>GZ5
-1,q<M2[Tm!:-pQU;gEG+ASjIN8l%ht+@1-lBQ%oP+A-QcDBM>"+@9LPATAn97;ZIICcW\J@;BFp
-C1K=b5\FqBBl#D3Df#hV67sB]ATDj+Df.TY0J5@<3A;Qu6?R!YA0=WiD.7's3Zp.4+<X'\FCdKU
-1*B>1Fs&Oo0esk+1HI<I3\rc'$49Np/g+)<F*(u13Zq$j6m*U<F`_;8E]P=8DeO#26nTTK@;BFp
-+<X*i@;0O=+C\bpATDNr3B9?;D..-p/n8g:$;No?+BE&oF(oQ13Zp+/3A*<G+<X!nBl%<&:3CD_
-ATBgS0f'pp6t(1K3Zp1#:2b:u1,(F<+>G]61-%BQ1C=Hr:-pQU;gEG+ASjIN8l%ht+@1-lBQ%oP
-+A-QcDBM>"+@9LPATAn97;ZIICcW\J@;BFpC1K=b5\FqBBl#D3Df#hV67sB]ATDj+Df.TY0J5@<
-3A;Qu6?R!YA0=WiD.7's3Zp.6+<X'\FCdKU1*B>1Fs&Oo0esk+1cdHO3\WH!$49Np/g+)<F*(u1
-3Zq$j6m*U<F`_;8E]P=8DeO#26nTTK@;BFp+<X*i@;0O=+C\bpATDNr3B9?;D..-p/n8g:$;No?
-+BE&oF(oQ13Zp+/3A*<G+<X!nBl%<&:3CD_ATBgS0f:'r6t(1K3Zp4$:2b:u1,(F<+>G`71GV!J
-3!p!":-pQU;gEG+ASjIN8l%ht+@1-lBQ%oP+A-QcDBM>"+@9LPATAn97;ZIICcW\J@;BFpC1K=b
-5\FqBBl#D3Df#hV67sB]ATDj+Df.TY0J5@<3A;Qu6?R!YA0=WiD.7's3Zp.8+<X'\FCdKU0fC.L
-Dg!6Y0JP=*0KD0M0fh'L$47,867sBZH#n(=D)re3:IH<J6$79_DfRl]8oJB\+@Ih)6=FY@EZcJn
-D..-p3Zqm?CLqO$A2uY8B5M'kCbB49D$j$)/g+2+EcYr5DE8mo/ibOE0H_K)F_PZ&+AR&r@V'R@
-+>Get+@KX[ANCqg2BYb5Fs&Oo0esk*3BArO3\iQ"$49Np/g+)<F*(u13Zq$j6m*U<F`_;8E]P=8
-DeO#26nTTK@;BFp+<X*i@;0O=+C\bpATDNr3B9?;D..-p/n8g:$;No?+BE&oF(oQ13Zp+/3A*<G
-+<X!nBl%<&:3CD_ATBgS0fU9u6t(1K3Zp.8+AQiu+>PW*1*A823]/ZR2)YdK$;No?+B*Q,FCf;M
-+A,Et+<WsmFD,T53Zq%5BPnq\/g*JhCLqN/+@U-UBl#gQ@UX%`Eb],F3C%4o@;0O1@rH2k:-pQU
-<b6;mBl@lM+>>E./ibU.+@:3bCh+Y`F_tT!E]P<t3?TG4@<?'A+>Gbs:2b:u1,(F<+>GQ20JY[C
-2@9cu:-pQU;gEG+ASjIN8l%ht+@1-lBQ%oP+A-QcDBM>"+@9LPATAn97;ZIICcW\J@;BFpC1K=b
-5\FqBBl#D3Df#hV67sB]ATDj+Df.TY0J5@<3A;Qu6?R!YA0=WiD.7's3Zp13+<X'\FCdKU0fC.L
-Dg!6Y0JP=*0ek^E1HI6E$47,867sBZH#n(=D)re3:IH<J6$79_DfRl]8oJB\+@Ih)6=FY@EZcJn
-D..-p3Zqm?CLqO$A2uY8B5M'kCbB49D$j$)/g+2+EcYr5DE8mo/ibOE0H_K)F_PZ&+AR&r@V'R@
-+>PYo+@KX[ANCqg3$:t7Fs&Oo0esk,0fh$L3]&`%$49Np/g+)<F*(u13Zq$j6m*U<F`_;8E]P=8
-DeO#26nTTK@;BFp+<X*i@;0O=+C\bpATDNr3B9?;D..-p/n8g:$;No?+BE&oF(oQ13Zp+/3A*<G
-+<X!nBl%<&:3CD_ATBgS1,9sp6t(1K3Zp.;+AQiu+>PW*1*A;+3\WQT0K'81:IJ/X:J=\R<CokP
-84c`Z:Jt=N2,6Ij+B*Q,FCf;M+DPh*FDl)6F!)SkF`_;8E]P=8DeO#26nTTK@;BFp+<X*i@;0O=
-+C\bpATDNr3B9?;D..-p/n8g:%15is/g+2+EcYr5DE8mo/ibOD0H_K)F_PZ&+AR&r@V'R@+>Ykt
-+@KX[ANCqg1E];4C`kJe0esk*3BArT3\r`)$4R=O$;No?+B*Q,FCf;M+DPh*FDl)6F!)SkF`_;8
-E]P=8DeO#26nTTK@;BFp+<X*i@;0O=+C\bpATDNr3B9?;D..-p/n8g:%15is/g+2+EcYr5DE8mo
-/ibOD2'=#.F_PZ&+AR&r@V'R@+>Fu]6t(1K3Zp1#6$6f_1,(F<+>GT31,(aD2@U!#$;No?+B*Q,
-FCf;M+DPh*FDl)6F!)SkF`_;8E]P=8DeO#26nTTK@;BFp+<X*i@;0O=+C\bpATDNr3B9?;D..-p
-/n8g:$;No?+BE&oF(oQ13Zp+/3A*9K+<X!nBl%<&:3CD_ATBgS1*@]-@<?'A+>P'*F_;gP0JP=*
-0ek^F1-.*E$47,867sBZH#n(=D)reSDe*s.DesJ;+@1-lBQ%oP+A-QcDBM>"+@9LPATAn97;ZII
-CcW\J@;BFpC1K=b5\FqBBl#D3Df#hV67sB]ATDj+Df.TY0J5@<3&Mg$6?R!YA0=WiD.7's3Zp4$
-+@KX[ANCqh1a#_.E$-ni0esk+0KM!I3\WK"$49Np/g+)<F*(u13Zr0UA9;a.Ci^^A6$79_DfRl]
-8oJB\+@Ih)6=FY@EZcJnD..-p3Zqm?CLqO$A2uY8B5M'kCbB49D$j$)/g+2+EcYr5DE8mo/ibOD
-2'=#.F_PZ&+AR&r@V'R@+>b2`6t(1K3Zp.2+AZKh+>PW*1*A;+3]&cV1-#[K$;No?+B*Q,FCf;M
-+DPh*FDl)6F!)SkF`_;8E]P=8DeO#26nTTK@;BFp+<X*i@;0O=+C\bpATDNr3B9?;D..-p/n8g:
-$;No?+BE&oF(oQ13Zp+/3A*9K+<X!nBl%<&:3CD_ATBgS2'=#0@<?'A+>GPm:LeJh1,(F<+>GW4
-0ebXD3=6*#:-pQU;gEG+ASjINC2[X)Df9H5+<WsmFD,T53Zq%5BPnq\/g*JhCLqN/+@U-UBl#gQ
-@UX%`Eb],F3C%4o@;0O1@rH2k:-pQU<b6;mBl@lM+>>E./iY^2+@:3bCh+Y`F_tT!E]P=$+<X'\
-FCdKU0ea_G@rrhK0JP=*0f;!H0KLsI$47,867sBZH#n(=D)reSDe*s.DesJ;+@1-lBQ%oP+A-Qc
-DBM>"+@9LPATAn97;ZIICcW\J@;BFpC1K=b5\FqBBl#D3Df#hV67sB]ATDj+Df.TY0J5@<3&Mg$
-6?R!YA0=WiD.7's3Zp@(+@KX[ANCqg1*BA&F<E=m0esk+0KM$E3\`>r$49Np/g+)<F*(u13Zr0U
-A9;a.Ci^^A6$79_DfRl]8oJB\+@Ih)6=FY@EZcJnD..-p3Zqm?CLqO$A2uY8B5M'kCbB49D$j$)
-/g+2+EcYr5DE8mo/ibOD2'=#.F_PZ&+AR&r@V'R@+?1Jd6t(1K3Zp.4+AZKh+>PW*1*A;*3]&ZS
-2)>RH$;No?+B*Q,FCf;M+DPh*FDl)6F!)SkF`_;8E]P=8DeO#26nTTK@;BFp+<X*i@;0O=+C\bp
-ATDNr3B9?;D..-p/n8g:$;No?+BE&oF(oQ13Zp+/3A*9K+<X!nBl%<&:3CD_ATBgS3?TG4@<?'A
-+>GVo:LeJh1,(F<+>GQ21c[TQ1C=Hr:-pQU;gEG+ASjINC2[X)Df9H5+<WsmFD,T53Zq%5BPnq\
-/g*JhCLqN/+@U-UBl#gQ@UX%`Eb],F3C%4o@;0O1@rH2k:-pQU<b6;mBl@lM+>>E./iY^2+@:3b
-Ch+Y`F_tT!E]P<t0H_K+@<?'A+>GVo:LeJh1,(F<+>GT30KD0O2[Tm!:-pQU;gEG+ASjINC2[X)
-Df9H5+<WsmFD,T53Zq%5BPnq\/g*JhCLqN/+@U-UBl#gQ@UX%`Eb],F3C%4o@;0O1@rH2k:-pQU
-<b6;mBl@lM+>>E./iY^2+@:3bCh+Y`F_tT!E]P<t0d%T,@<?'A+>GYp:LeJh1,(F<+>GZ50f(jI
-0FA-o:-pQU;gEG+ASjINC2[X)Df9H5+<WsmFD,T53Zq%5BPnq\/g*JhCLqN/+@U-UBl#gQ@UX%`
-Eb],F3C%4o@;0O1@rH2k:-pQU<b6;mBl@lM+>>E./iY^2+@:3bCh+Y`F_tT!E]P<t1*@]-@<?'A
-+>GYp:LeJh1,(F<+>G]61b^sH3!p!":-pQU;gEG+ASjINC2[X)Df9H5+<WsmFD,T53Zq%5BPnq\
-/g*JhCLqN/+@U-UBl#gQ@UX%`Eb],F3C%4o@;0O1@rH2k:-pQU<b6;mBl@lM+>>E./ibU.+@:3b
-Ch+Y`F_tT!E]P<t+<X'\FCdKU0fC.M@rrhK0JP=*0KD0O2**KK$47,867sBZH#n(=D)reSDe*s.
-DesJ;+@1-lBQ%oP+A-QcDBM>"+@9LPATAn97;ZIICcW\J@;BFpC1K=b5\FqBBl#D3Df#hV67sB]
-ATDj+Df.TY0J5@<3A;Qu6?R!YA0=WiD.7's3Zp1#+@KX[ANCqg2BYe*F<E=m0esk+0KM!E3\iAr
-$49Np/g+)<F*(u13Zr0UA9;a.Ci^^A6$79_DfRl]8oJB\+@Ih)6=FY@EZcJnD..-p3Zqm?CLqO$
-A2uY8B5M'kCbB49D$j$)/g+2+EcYr5DE8mo/ibOE0H_K)F_PZ&+AR&r@V'R@+>Y,_6t(1K3Zp.8
-+AZKh+>PW*1*A;*3\rZT0K'7F$;No?+B*Q,FCf;M+DPh*FDl)6F!)SkF`_;8E]P=8DeO#26nTTK
-@;BFp+<X*i@;0O=+C\bpATDNr3B9?;D..-p/n8g:$;No?+BE&oF(oQ13Zp+/3A*<G+<X!nBl%<&
-:3CD_ATBgS1a!o/@<?'A+>Gbs:LeJh1,(F<+>GQ21c@BM2$sZt:-pQU;gEG+ASjINC2[X)Df9H5
-+<WsmFD,T53Zq%5BPnq\/g*JhCLqN/+@U-UBl#gQ@UX%`Eb],F3C%4o@;0O1@rH2k:-pQU<b6;m
-Bl@lM+>>E./ibU.+@:3bCh+Y`F_tT!E]P=#+<X'\FCdKU0fC.M@rrhK0JP=*0ek^C1-.*E$47,8
-67sBZH#n(=D)reSDe*s.DesJ;+@1-lBQ%oP+A-QcDBM>"+@9LPATAn97;ZIICcW\J@;BFpC1K=b
-5\FqBBl#D3Df#hV67sB]ATDj+Df.TY0J5@<3A;Qu6?R!YA0=WiD.7's3Zp='+@KX[ANCqh+AQiu
-+>PW*1*A;*3]/ZR0Js1E$;No?+B*Q,FCf;M+DPh*FDl)6F!)SkF`_;8E]P=8DeO#26nTTK@;BFp
-+<X*i@;0O=+C\bpATDNr3B9?;D..-p/n8g:$;No?+BE&oF(oQ13Zp+/3A*<G+<X!nBl%<&:3CD_
-ATBgS2]s52@<?'A+>P'7Dg!6Y0JP=*0ek^C3BArO$47,867sBZH#n(=D)reSDe*s.DesJ;+@1-l
-BQ%oP+A-QcDBM>"+@9LPATAn97;ZIICcW\J@;BFpC1K=b5\FqBBl#D3Df#hV67sB]ATDj+Df.TY
-0J5@<3A;Qu6?R!YA0=WiD.7's3ZpC)+@KX[ANCqh+AQiu+>PW*1*A;+3\rZT0Jj+D$;No?+B*Q,
-FCf;M+DPh*FDl)6F!)SkF`_;8E]P=8DeO#26nTTK@;BFp+<X*i@;0O=+C\bpATDNr3B9?;D..-p
-/n8g:$;No?+BE&oF(oQ13Zp+/3A*<G+<X!nBl%<&:3CD_ATBgS3?TG4@<?'A+>P'7Dg!6Y0JP=*
-0ek^H1-.6G$47,867sBZH#n(=D)reSDe*s.DesJ;+@1-lBQ%oP+A-QcDBM>"+@9LPATAn97;ZII
-CcW\J@;BFpC1K=b5\FqBBl#D3Df#hV67sB]ATDj+Df.TY0J5@<3A;Qu6?R!YA0=WiD.7's3Zp.2
-+<X'\FCdKU1*B>1Fs&Oo0esk+1-.*I3]&`%$49Np/g+)<F*(u13Zr0UA9;a.Ci^^A6$79_DfRl]
-8oJB\+@Ih)6=FY@EZcJnD..-p3Zqm?CLqO$A2uY8B5M'kCbB49D$j$)/g+2+EcYr5DE8mo/ibOE
-0H_K)F_PZ&+AR&r@V'R@+>GSn+@KX[ANCqh+AQiu+>PW*1*A;-3\iZU1-#[K$;No?+B*Q,FCf;M
-+DPh*FDl)6F!)SkF`_;8E]P=8DeO#26nTTK@;BFp+<X*i@;0O=+C\bpATDNr3B9?;D..-p/n8g:
-$;No?+BE&oF(oQ13Zp+/3A*<G+<X!nBl%<&:3CD_ATBgS0esjo6t(1K3Zp1#:2b:u1,(F<+>GZ5
-1GV!J0FA-o:-pQU;gEG+ASjINC2[X)Df9H5+<WsmFD,T53Zq%5BPnq\/g*JhCLqN/+@U-UBl#gQ
-@UX%`Eb],F3C%4o@;0O1@rH2k:-pQU<b6;mBl@lM+>>E./ibU.+@:3bCh+Y`F_tT!E]P<t1E[f.
-@<?'A+>P'7Dg!6Y0JP=*0f1pH3BB#T$47,867sBZH#n(=D)reSDe*s.DesJ;+@1-lBQ%oP+A-Qc
-DBM>"+@9LPATAn97;ZIICcW\J@;BFpC1K=b5\FqBBl#D3Df#hV67sB]ATDj+Df.TY0J5@<3A;Qu
-6?R!YA0=WiD.7's3Zp.6+<X'\FCdKU1*B>1Fs&Oo0esk+1cdHO3\WN#$49Np/g+)<F*(u13Zr0U
-A9;a.Ci^^A6$79_DfRl]8oJB\+@Ih)6=FY@EZcJnD..-p3Zqm?CLqO$A2uY8B5M'kCbB49D$j$)
-/g+2+EcYr5DE8mo/ibOE0H_K)F_PZ&+AR&r@V'R@+>G_r+@KX[ANCqi+AQiu+>PW*1*A;/3\rNP
-2),FF$;No?+B*Q,FCf;M+DPh*FDl)6F!)SkF`_;8E]P=8DeO#26nTTK@;BFp+<X*i@;0O=+C\bp
-ATDNr3B9?;D..-p/n8g:$;No?+BE&oF(oQ13Zp+/3A*<G+<X!nBl%<&:3CD_ATBgS0fC-s6t(1K
-3Zp.8+AQiu+>PW*1*A823\rNP1,]IH$;No?+B*Q,FCf;M+DPh*FDl)6F!)SkF`_;8E]P=8DeO#2
-6nTTK@;BFp+<X*i@;0O=+C\bpATDNr3B9?;D..-p/n8g:$;No?+BE&oF(oQ13Zp+/3A*<G+<X!n
-Bl%<&:3CD_ATBgS0fL3t6t(1K3Zp.8+AQiu+>PW*1*A823]&iX1,91D$;No?+B*Q,FCf;M+DPh*
-FDl)6F!)SkF`_;8E]P=8DeO#26nTTK@;BFp+<X*i@;0O=+C\bpATDNr3B9?;D..-p/n8g:$;No?
-+BE&oF(oQ13Zp+/3A*<G+<X!nBl%<&:3CD_ATBgS0fU9u6t(1K3Zp.8+AQiu+>PW*1*A823]/ZR
-2)bjL$;No?+B*Q,FCf;M+DPh*FDl)6F!)SkF`_;8E]P=8DeO#26nTTK@;BFp+<X*i@;0O=+C\bp
-ATDNr3B9?;D..-p/n8g:$;No?+BE&oF(oQ13Zp+/3A*<G+<X!nBl%<&:3CD_ATBgS0f^@!6t(1K
-3Zp.8+AQiu+>PW*1*A;*3\W<M0K0=G$;No?+B*Q,FCf;M+DPh*FDl)6F!)SkF`_;8E]P=8DeO#2
-6nTTK@;BFp+<X*i@;0O=+C\bpATDNr3B9?;D..-p/n8g:$;No?+BE&oF(oQ13Zp+/3A*<G+<X!n
-Bl%<&:3CD_ATBgS1,'gn6t(1K3Zp.8+AQiu+>PW*1*A;+3\iKP0ej"B$;No?+B*Q,FCf;M+DPh*
-FDl)6F!)SkF`_;8E]P=8DeO#26nTTK@;BFp+<X*i@;0O=+C\bpATDNr3B9?;D..-p/n8g:$;No?
-+BE&oF(oQ13Zp+/3A*<G+<X!nBl%<&:3CD_ATBgS1,0mo6t(1K3Zp.:+AQiu+>PW*1*A>,3\`WU
-1cPgL$;No?+B*Q,FCf;M+DPh*FDl)6F!)SkF`_;8E]P=8DeO#26nTTK@;BFp+<X*i@;0O=+C\bp
-ATDNr3B9?;D..-p/n8g:$;No?+BE&oF(oQ13Zp+/3A*<G+<X!nBl%<&:3CD_ATBgS1,9sp6t(1K
-3Zp.;+AQiu+>PW*1*A;+3\WQT0K9D9:K(5"C2[X!Blmp,@<?'90ht%f:et"h?YXLiCh\!&Eaa'$
-+E27?F<GOCDe!@"F)Q(A-nR&#4ZX#Z%17/nDfp/@F`\`[+?CW!%15is/g)QWDe*ZuFCfK$FCcmD
-Bl8$(Eb8`iAKZ28Eb$S>.67nF:-pQU+<Y<;E,961+<VdL+<VdL+<XEG/g,">CLnW)@<?(*+D,P4
-+D5_5F`8HOGps10:-pQU+<YB1@:NkiARfgrDf-[?+<XEG/g+kGFCfK)@:NjkF(Jj'Bl@l3F*2>:
-@<-W9F*)G:DJ'Cc:-pQU+<Y`:FD>`)Ch\!&Eaa'$+<XEG/g,+RAT2'uAKYT'EZf=ADe!@"F(oN)
-%14Nn$4R>PDe!p1Eb0-1+=CW,F(H^.$=e!gDKBB0F<D\R@;9^kCh\!&Eaa'$-Xq44Ch.:!A7TCq
-FE2))F`_>9DDEqA67s`sF_PZ&C2[WnBleB:Bju4,Bl@l3F"JsdAp%p++A,Et+Co2-FE2))F`_>9
-DBND2Bl%;h$4R>PDe!p1Eb0-1+=CW,F(H^.$=e!aCghC++EVI>Ci<fj5s[eODe*="Bl%<?3B:Fh
-4ZX]55s[eODe*="Bl%<?3B8H0>9IEoATD4#AKX)_5s[eODe*="Bl%<?3B8Gr$=e!gDKBB0F<DrF
-C2[W1%13OODf9PW3ZqsIA0<Q8$?'Gt4$"a(De*BiFs(O<A0?#:Bl%i<+BosE+E(d5-RT?1%14g4
-EccCG-ZsB=@<?'qDe*]nDJ<]oF*&cP+<VdL+<XEG/g*GG6$.-UF(dQo3=Q<)$?C21-Xq44Ch.:!
-A7KOpE,oN2F(Jl0+<VdL+<VdL+AP6U+@/:ZFE1f2BK8(5%17,s+=CW@Bl%<pDe*s.DesK)Df'H6
-ATMp(A1&KB+<XEG/g*GG6$.-UF(dQo3=Q<)$;No?+E_X6@<?(%+D,%rC`mY6+EqO;2]uOM+EM4-
-ChtJ5DJ()2CO0]6+CoD%Et&IO67sBuDfd+BATW'8DBLMRF`:l"FCfM9A8-*n@VfUd+E)-?D..ZB
-Ch[d0GT[G&%14g4EccCG-ZsB=@<?'qDe*BmF*)G:@Wcd,Df-pF+<XEG/g*GG6$.-UF(dQo3=Q<M
-+EDRG+=D;NA79RkC2[X(Dfp)1ARoq#E-!BL+<Ve%67sBH5s]U5@<6*B3B7NU%14g4EccCG-ZWd7
-ARTXkC2[W1+<VdL+<VdL+<VdL+<XEG/g*GG6$.-UF(dQo3=Q<)$;No?+Co1rFD5Z2@<-'nF!,C?
-ASu'i+DG^9Eb0&u@<6!pDe':a:-pQUDe'u=/oPZH%13OO@rGk"EcP`/F<Dr?@<6!-%16T`ATD4#
-AKX*WD/a<0@p_Mf6#(=K@WcC$A2uY1?O[>O$4R>OF_PZ&C2[X!@<?(*1,2Nj/h1=QBl%<pDe*Zm
-FCf\>F"Jsd+D58'ATD4$ATJu8H#@_4GT^[6B4u*qB4uBuA0=K?6m-PhF`Lu'+A?3CAQUPo$;No?
-%15is/g*VtCh7Z1@<,p%GB.D>FCf>4FDi:DBOr<*F`\a:Bk)7!Df0!(Gp$X9@s)X"DKI"3Bl[cp
-FDl2F/e&-s$=e!aF`MM6DKI!K@UX=h-OgE'AT;j,Eb-@9+=CoBA8Gt%ATD4$AL@oo@rGjn@<6K4
-FDYu5De!-?5s]7(A8G[rAU$3q3F<ml3Zoe95s]7(A8G[rAU$3q3@>qR+Cf>$Eaa$#+?V#;5s]7(
-A8G[rAU$3q3@>7C@rH(!F(KB6+<W%GC2[W1%16T`Bl8!'Ec`EH-Xgb.A8Gt%ATD4$AL@oo%172o
-E,9H&+D58-+?MV3Eb/Zi+Eqj?FCcS)BOPdkATMs6+A,Et<_Yt0%13OO:-pQU@s)g4ASuT4E-67F
-A8,OqBl@ltEd8d<De!p,ASuT4A8-'q@ruX0Gmt*kDdtpk+@K!m?XI>^@N\ktA8bp?3Zrc1HS.]_
-5u^B^?W0p2?V4*^DdmGj$?Kd#C2[X!Blmp,@<?''A8bre$4R>;67sB.H?slb+DkP&ATJu9BPDN1
-Anc:,F<GL>+ED%:ATDj'+Co2,ARfh#Ed8d>Bl%?'DIIBn+EMIAFE7lu-ZW]>FCf\E4ZX]B+D58-
-+=DJ]H>7A/D..-rFCf\E%172gGWe)14*s">FCf\+$?Tj(4ZX]6-SH]nINs#IEcYr5DBjUZ,;1Dq
-4"u"R:IJ5X6n'6gBOPdkATMs6+EV1>%14M*Db;-oAU#XHGB.D>AKYN%@k9!RH?s=EA8PahDD$$B
-GUEq-%15is/g*b^6m,uU@<6L$Et&Ik@r+:h+?MV3C2[X$DBN\4A0>W*A92j2Eb-A.De*Bs@N]E(
-A8PajAKY`+A9E!.C`mJ2A9;a.Ci^s5$>ag/4ZX]uEc6)>CghEsGU>%,+DPD&%13OO:-pQUF`V+:
--[L(d+E2@4AncK4FDi:1G&M)*+Cf4rF(f-++EqOABHS[;De(4</hSefDe!p,ASuT4Anc'mEt&Iu
-AU%g$Ch7ZN3Zoh5A8bs,+=nil4s279-[L(d.3L/g/j:Cm@r*8=-8%J)4=;b'AU#RF%17/nDfp/@
-F`\aJAU%g$Ch7Z1>9Ia(GT_3NBlmo5/j:D"AU%g$Ch7Ys$4R>PDe!p1Eb0-1+=CW,F(H^.$=e!c
-Eaa$#+?Xa_E,9H&?U6tDC2[X!@<?(*3B9*,BPDO0DfU,<De(U^B4YslEa`c;C2[W*/KeP:@;]^h
-+D>J1FDl2F%156]4Ztqk4Ztqk4Ztqk4Ztqk4Ztqk4Ztqk4Zs5]%14=),9SZm3A*<G+>"^2Dg#]/
-@V'R&=BI*s1,(F<%13OO+=\KV8l%htF)Q2A@q?cmDe*E%BlbD7Dg*=4G%#*$@:F%a+E)-?>=WCL
-89JBI-tm^EE-"&n05#!@BQ[c:@rH3;.4u&:+<VdL<+ohcF)Q2A@q?csF!,"-F*)G:@Wcd(A0>T(
-+EV:;AS!!)AT2R/Bln96Bk;?H%144#+<V+#+<VdL0eOSQC2[Wg-tm^EE-"&n05#!@BQ[c:@rH3;
-@UX%`Eb],F3A5,cA18X2Df0Z*Bl7u7FD,5.Anc'mEt&I!+<VdL+<Ve;BleB:Bju4,ARlp-Bln#2
-8jQ-'+B3#c+CSekBln'-DII?(A8-'q@ruX0Gp$L0De*QsF'p+"$6UH6+<VdL+D>\0A9/l*F_kl>
-+Cf>,D.RU,ARloU:IH=8CghC++D,>(ATKIH+B3#c+EMX5DId0rA.8kg+<VdL+<Ve!5tiDB@rc:&
-FE8R5Eb-@;@rH4'Eb0<5ARmD;%144#+<VdL+<V+#+<VdL1+j\RC2[WnDe!'$BQS?8F#ks-B5)I$
-F^ct5Df%.:@;BFpC1K=b05>E9A8bs,+D>\0A9/l%ChsOf+<VdL+<VeKBOr;o9OUn3=C<7[DIal2
-F`;;<Ecc#5B-:f#Ch7Z1DImBiARlp*D]iM3Bl%<&FD,4p$6UH6+<VdL8l%htD..=)@;I&oC2[W8
-E+EQg/e&.1+<V+#+=\LAA8lU$FC65#F_;h/Bm=3"/g*`-+Eq78+CT)&Dg,o5B-;/%Ea`frFCfJ%
-$6UH6@q]:gB4Z-,Df-\*;FNl>:JOSd?m&uo@ruF'DIIR"ATKIH6tp.QBl@ltEbT*++:SZ#+<YND
-F*&O6AKY])+CQC#;FNl>=&MUh7:76ZFCB9&+EVNE@q]:gB4W2nA8lU$F<DqY?m'DsEa`frFCfK6
-/g(T1+<VdL+<VdL%144#+<VdL+<Y36F(KG9-W3B!6s!8X<(//W%144#+<VdL+<Y36F(KG9-UCZu
-8P(m!-Ta$l$6UH6+<VdL+:SZ#.Ni>;G\(D.D/"'4Bl7Q+?mp7N3%5t\Ble59H!hb'EbBN3ASuT4
-DfBf4Df-\ABOu3q%144#+CKG%+DGm>Bl5&$BeCMc?nNR'Bln#2FD,B0+Cf(nDJ*N'?nria+Co2-
-E$0Q]B6%r=-X\&+$6UH6DJs_AA8-+(CghU1+EM47Ec`F:Ec6)>+CoD#F_t]-FE8R>F`VXICh[Zr
-+:SZ#+<Y&I+?:QTBle59I4f/QE$m#@+Co2-E,8s.F!,:;DJ()&De!p,ASuU2/g(T1%144-+CK)/
-?m'Q&D/a<"FCcS9FE2)5B6,2*BOPdkARlp*D]in*FCSu,FD,4p$6UH6F*)G:DJ+#5De:,"DJ*He
-/g+P>B4G<lBlbD*+E_d?Ch\!:+Eh=:@N]B&+EV:.%144#+Co2-FE2))F`_2*+A,Et+Co1rFD5Z2
-@<-'nF#kFbARuulA8-+(+=D&>@jbY:%144#+B3#c+EV13E,8s)AKZ&9EbTE(F!+n3ANCrAH[\qC
-I:+TK@!d>gIXPTT+CKPF7"0Pl/0GB/+<Ve8DIaktH[\m]IXPTHAoD]4+EV=>Ch5.?@<H[*DfRBO
-A79Rk+=LWCH$O[PDf0)r?n!4,DIa1`+<VeJBQ%p5+Cno&AKWC/H$O7FDId9c.4u&:+<Vd9$6Uf@
-?uC'o+Cob+A0>;kA7]:(+<Wsf+CKG%+CT;'F_t]-F<G:=+:SZ#+<Y)8@q]:k@:OCjEZf14F*&OC
-Afu/:EbTE(+ED%4CgggbD.RU,Et&I!+<Yc>@<<W#Eb-A%E,]W-ARlp*D]iG0ATMs7FEM&#/0K"F
-AKYAkBle59-Zip@FE;PH@OGP7%144#+CSl(ATAo8ASlC&@<?''F*)G:DJ+#5@<,p%E,ol,ATMp(
-A1f!(BOqV[+<Ve=Bl\9:+Cf(nEa`I"ATAo-DBO%7AKZ&9EbTE(+Co&"Bl.R+Et&I!+<Y]9E,8rm
-ASl!rF<GO2Bl\8I%143e$6UH6+<VdL+=ACDBOPdkAKso<,@PJ#,?[fB-Qm;K+=D&<GB@D;F=.M)
-%144-+CK&!?n<F.D00/:+CK&$?n<F/DIaktFECn5Eb0*+G%G2,Ao_g,+CJr&A9;a.Ci`u:+B3#c
-F(HJ*A8--.BOu"!ATDi$$6UH6@<,p%DJs_ADfBf4Df0!"Cj@.6AS,XoARlotDBN>9@:WneDK@ID
-ASu("@;IT3De(M9De*g-De<^"AM.\3F'pUC%13OO,9nEU0J5@<3&Mg1+AZKhDdm9u+>GZ'+>PW*
-1(=R"$6Uf@?tsUjCh\!&Eaa'$?m'*&Dfp"A@:Wn[A1f!'ARuul1*AS"A8-+(+=CoBA8Gt%ATD4$
-ALCjp$6UH6@;]TuFD,5.@Vfsq+E27?F<FddASl-59PJT[Eaa'$%144#+A,Et>psB.FDs8o04J@*
-ATDNr3B8^9DfTB-Eb0<5/n8g:0/>491+t@90/,+6F(K3&/So-CATD4$AM%Y8A1oAS%144#+D,P4
-+Co&*@;0P!%13OO+=\LA9gMZM6r-lZ?m';p@rcK1FCf]=+Cf>#AKW`e+CSekARmD&$6UH6%144-
-+CI&LA8-+(+=AOE+Du+A+Co2-E,8s.F!+n/Gp%$KATD3qC`m\>F<G+.@ruF'DIIR2+CoD#F_t]-
-FCB9*Df.0:$6Tcb+=\KVD/!m+EZeb)De(J>A7f3lARoLsF!+n/A0>;kA8-."Df0VK%143e$6Uf@
-;flGgFD5W*+EV:.+E2@>@qB_&+E(j7@rH7.ATDm,DJ()/Df^"C8l%htA8bt#D.RU,+:SZ#+<Yc;
-G]Y'MD]i8$@<--oDg-))-tm^EE&oX*A79LmDJ*QqEb/]gCht_AATTSEEc5](@rucFD..I#A8c[0
-0.A"Q$6UH6Bl7EsF_#3(B-;;0BlbD-De!p,ASuTB>@'$i%13OO,9nEU0J5@<3%uI,+A-cmGp"gs
-/0H]%0es1F%144-+Co1rFD5Z2@<-W9A8bt#D.RU,F!,O8F<G"0A0>JqFCSuqA0?)1FD)e)2'?j\
-F<DrADdsnB/hSMZ%144#+CT.u+CI&LB4Z0--RW:E@<,p%DJs_AF('6'A0>T(+CoV3E$043EbTK7
-F"SSC2'?j\F<Dq`/gk$L%144#+DGm>@rH7,Ec5c1ARlomGp$N<DIn#7E+*cqD.Rg#EZeb)De*fq
-Ec#kMBkh]s+CIT56WHiL:/jVQ6W@G&$6UH6FD,*)+Co&*ATDX%DIml3GA(Q0BOu3,?o9'GF`\`R
-A8bs#/hSMZ+EMXCEb0;7FCf]=/g+,,AISth+<Y3+AmoguF<FsZ:IA,V78?fM8OHH?0jl,FFDl22
-F!,R9G]YPI$4R=b.NinGF*),/Bjkg#@!Z3'Ci<flCh4`"F_u(?F(96)E-*4=Ddd0!F`_>6Bln'#
-F!+k3Df0AuH=&34$6UH6;bp(_6U=C7?[?'1+EMI?F`^u:?XP!bDIaktF)PQ)ARTUdH=(&&@<,p%
-DJs_AATD4#ARlolF<G[=AISth+<Y65A0>f&+CoV3E$043EbTK7+EDUBF"SS-:IH=9AS,XoATJu*
-G[Y*(Cj@.8Dfp(CGAhM4Et&I!+<YB9+EV:.+F5/HDe!3lANCrAC2[X$AnGCr?S!=7De*d(?[?'1
-+DPh*F*VhKASlBpFD,$-?XO<M+<Ve8DIaktF(fK9E+*g/?[?'e/e&-s$6Uf@?uL!qDIdHkFC65)
-@<3Q#AS#a%D/Ws!Anbge+EVNEFCfN8+EqL1FD,6++DkP.FCfJ%$6UH6Anc'm+E1b2BQG;)Eb-A4
-Eb/isG\(q=De:,5FDl22A0>Ds@ruF'DIIR2+E1b2BQGdK7W3;i%144#+CJ)95t"dP8Q8,d+Co1r
-FD5Z2@<-'nF!,R<AKYr4AS,Y$+Dl7BF<GF/FCSu:+@^9i+CJ)95t"LD9Nba4$6UH6A8,OqBl@lt
-EbT*++EV:.+DkP.FCfJ8E+*j%+ED%4CgggbF!,R<AKZ&9DfTE"+E1b2BHV#,%144#+Co1rFD5Z2
-@<-W9A8-'q@ruX0Gp%$7C1UmsF!,1/+EV:.Gp$X3AnGUp/g+,,BlbD*Ci"$6F!(o!+<Ve7;FNl>
-:JOSd?m&uo@ruF'DIIR"ATJu9D]iM#+E2.*@qB0nDf-\6De!QoA0>E$GA\O@ATW-7Ebcd,$6UH6
-A9)C-ATJu&DIaku@q0(kF(Jl)@X0)5@;^?5F`V,7F!,R<@<<W/@<iu/@<Q3)A8,XfATD@"F<D#"
-+<Ve8@q0(kF!,F1FD,_J+<V+#+<Vd9$6Uf@6q'p@:./#'F(Jj'Bl@m1+CSekARlp*D]hYJ6m,oU
-A0=K?6rQl];F<kqD..<rAn?%*+EM%5BlJ08/e&.1%144-+CJr&A1hh3Amc`0B4YslEa`c;C2[Wn
-De!p,ASuT4@:WneDCH]NE+EC!ARmD&$4R=e,9n<b/ibOC2'=In8p,#_+>Pi++>PW*1(=R"$6Uf@
-Anc:,F<F:d@j#9"D/`p*Bjtmi+Eh=:F(oQ1+E(j78l%i-+B3#c+AH9S+Eh=:F(oQ1%144#+ED%5
-F_Pl-F!+'t2_Hd=+E)9C@V'h'DIal2AS!nF%13OO+<VdL+<VdLIUQbtDf0VLB4YslEa`c;C2[W9
-C2[WnDdtG;@:O1nFCfMGFEhm:$6UH6%144-+CJr&A1hh3Amca(E+EC!ARlolDIal-Dg*=7BleB:
-Bju4,ARlolF!+m#$6UH6F(K<!Eaa'$+A+pn+CSekDf.0M8T&Tk@;Ka&?tX%gATD3q05>E9A8bt#
-D.RU,?k!Gc+<YcE+E2.*@q?cjC2[W8E+EQg+DG^9FD,5.A8-'q@ruX0Bk;?.F(Jd#@q]Fa%144#
-+C]U=?tsUjBOu"!?nNR0C2[WrASc<n+Du*?Ci=3(ATAo0Df9E4+D,P4+CT-s$6UH6Df0B*DIjr6
-ATDj+Df-\9AftJrDe(J>A7f4%+:SZ#+<V+#+=\LGBm=3"+CQC#A8-+(?m'8sDJ+')+D#S6DfRHQ
-%143e$6Uf@Ch[cu+D#G$F!,17+CT)&+EM%5BlJ/:Anc'mF!,O8F<G[D+Dbb0AKYSrARloW7L]\I
-%144-+DbIqF!,UEA79RkA0>K&EZdss2_Hd=+CT.u+A?KeFa,Q6@:LF'ATDj+Df0V*$6Tcb+=\LM
-@:C?eC2[X%Eb]GDBkh`t+ED%1Dg#]&+>"^XBPDN1CggcqEb/ioEcP`%%144#+EVNE@;[3+Ch+Y:
-E,oM42_Hd=.3NSMDe`inF<GF/DII0hE\8ID$6UH#$6pc?+>>E./iOn)+A-'[+>Gc*+>PW*0b"I!
-$6Uf@?tsUjAoD^*?m'?*G9CC(Ci"/8?tO=tCL:gu@<63k?m%$DA8c?s+EVNEBOPdhCh4`!BOPdk
-AISth+<YB9+DkP$DBMOoCh[@!@<-WG+CK;"F),/+G%G]'F!+n3AKYl/+Dbt6B4Z*+Ci<`mARlp*
-D]iG6?m'9(@ps1b%13OO,9nEU0J5@<2DlU/+@KdN+>Gl-+>PW*0b"I!$6Uf@?tX%m/0JnSFC65/
-Dg*=9ATVEq+CT.u+EM+9+E2IF+Co1rFD5Z2@<-W9A8bt#D.RU,@<?4%DCuA*+:SZ#+<VdL+<Vda
-+D58-+=ANZ%144#+<VdL+<WNaE-67F-Y..*F_t]-F<G[=BlbD-Bk)7!Df0!(Gpa^D$4R=e,9n<b
-/ibOB+>"^(ARci;1+XP'0JP9k$4R=b.Ni,6De*NmCiEc)E,TH.FCeu*FDi:>ATo88DJX$)AKZ/-
-EcYr5DBNk0+CJr&A1hh3Amc&T+<Vdq:fAnf<(0n3@;]Tu85r;W+CoD#F_t]-F<G10Ch7Z1Eb0*+
-G%G2,Ao_g,+DkP$DBN\4A0>Ds@ruF'DIIR2%144#+EVNEEb/d(@q?d)BOr<-BmO>5De:,"C2[X(
-Dfp)1AM/:CE*t:@<+oiaAKYT!Ch7Ys$6UH6@<,p%@<Q'nCggdhAKY])+EV:.+E).6Bl7K)8l%ht
-F*;FDEb03.F(o`7Ed98[%144#+B)i_+BqfYAKXT@6m,<7B4Y?sBQS?83\N-q@;BFpC1K=b/pD5S
-A8lR#F)rsDDf%.LBOrc1De(G=@:s.).4u&:+<Vd9$6Uf@?t4+lE,&c'@ps6tDJs_A@V$ZuBl.R+
-ARlp*D]it9Cj@.IBPDR"+EML1@q?d'ASl@/@;I&qGp!P'+<Ve@DKBB0FD5W*+EV:.+Cf>,D.RU,
-+EV%)+CHTL/h&qE?m&lqH$<q5Eb-A-DBO%7AKZ)+G]Y'HAdo(i+<Y*1+D#e:Ch[BnF<GdGEb$d3
-$6UH6%14=),9SZm3A*03/KdGm@j!TZ+>PW*0b"I!$6Uf@AncL$A0>;'?u9=fARHWiF_;h2DBN=t
-F_u)ADfTB0?m&l#E+*j%+E(j7@;K`h$6UH6ASlC.Gp$X3@ruF'DIIR"ATJu+@;0OhA0>u4+DkP&
-AM+E!+<Vd9$6Uf@AncL$A0>;u+CK&&F'p,"F_;h=BOQ!*E,ol-F^nun+DG_'DfTl0@rrh&$6UH6
-8l%ht?upEuEccGC/no'A?m'#uFE2),F!,C=+A?KeFa,MJ$6UH6%144-+Dl%;AKZ)+F*&O7@<6"$
-+CSekARmD&$4R=e,9n<b/ibO@+>"^2Dg!6Y2(Tk*0JP9k$4R=b.NikQA79Rk+CJr&A8,plAU#h@
-FDYi%+EVNEEb/ioEb0,uAKYK*EcP`/F<GL>Ch[cu+CoD#F_t]-FCB9*Df-!k+:SZ#.Ni>;G\(D.
-@3Arp@;BF^+C]J++>"^DD..3k?m&rtF_kS2AmoCi+EqL1DBO.AEb'56GA2/4+EV:.%144#+EV:.
-+ELt.AKYl!D.OhuDIal#BkCsgEb0-1+DtV)AKYK!@<6L$F!,[<Eb-A4Eb0<'DKI">D@Hpq+<Yc>
-AKYr#FD*99$6UH6%144-+E_X6@<?4$B-:W#A0>H.FCf?#Bl7Q+8l%htFCfN8F"Rn/+<Vd9$6pc?
-+>>E./i+V%+A-co+>GT%+>PW*0b"I!$6Uf@Df0B*DIjr$De!p,ASuTuFD5Z2+ED%:Bldir+CT.u
-+D#e>ASu$iA1f!(BOr<)DJX$)AKYN%@s)X"DKKq/$6UH6@<,p%BQ%s6ARlomGp#UqDeElt+@L-X
-F_t]-FE8R5DIal"@;[2sAKZ#)@:UL!DBO%7AKZ2.@N]T0%144#+CoD7DJX6"A7]9oBl5&%+Eh16
-Bk;C3+E(j7AoD^,@<?QO+AbHq/0I_V<%K.nDfTA>+@oI+9J.GeBOqV[+<VeFAnGjnDIjquC2[W8
-E+EQg+EqO9C`m1u+ED%:Bldir+CSl(ATAo'Des6$@ruF&B-;><ATAo*AS#C]@:O(*%13OO,9nEU
-0J5@<1*A.k9jr;i1-$m.1,(F;%13OO+=\LGBl\9:+A?KeFa,$=Df'H%FD53#AKZ/-EcYr5DBNk0
-+A,Et/g+,,AKXZ\DKU1HG%G]8Bl@ku$6UH6Eb065Bl[d++A*b8/hf"&DfQt0AU/33A0>r)ANCqC
-$4R=b+<VdL+<VeU@:WneDK@IDASu("@;IT3De(M9De*Bs@kVY4DKU2ADffQ3/p)>[%13OO+=\LP
-DJX$)AKYN%@s)X"DKK</Bl@l?+CTG%Bl%3eCh4`4Bji-+BOr<0ATD6&?tsUjBOu"!?n;`o+<Ve?
-@<3Q#AS#a%@rH7.ATDm(A0>u4+EV:.+Dtb7+@g?gB5D-%6uQRXD.RU,+D,P4D..N=+:SZ#+<XWs
-AKYK$DK]T3F(oQ1+E2@>@qB_&+C]A0CLnVsCht59BOr<#DKKH1DII?(BR+Q.EboH-CNBpl+<Vdu
-+CT+0F)5c=Cj@.8Bm=?0B-;;0ASj%B<+ohcDe<TtBl7K):ddbqA8bt#D.RU,+:SZ#+<XlrC2[W8
-E+EQg>psB.FDs8o06_Va/n/aD/oG6B06:f8Eb/c7B45OeFYtjc@k]>@$6UH6A8c%#+Du+>+EM47
-G9BRnDKU1HF)Y]#BkD'h+D#e+D/a<&F!+q7F<G:=+EMX=ChsOf+<Ve8DBN@t@s)g#FCcS*ATM@%
-BlJ0.Df-\9Afu;2@<<Va:IH=>F!+n-C`m.qDfp.S%13OO+=\LBA7TCrBl@ltC`mG0AoD^,@<?4%
-DBN@sDfp.E8l%htGA1l0+C\n)D.-sd%144#+CTG%Bl%3eCh4`-DBN/#Gp$R4DeE?(BQS?83\N-q
-@;BFpC1K=b/pD5SA8lR#F)rsDDf$p4$6UH6@:jUmEZed5Ec6)<A0>f&+C\o(@3BZ'F*),6B-:o+
-+EV:.+EqO9A1euI%13OO+=\LUBPDN1G%G]8Bl@l3De:+a:IH=GF`)7CDf-\ABl7I"GB4m!+>ti+
-GT^F4A0=Je2_He/+EMgLFCf<1/e&.1+:SZ&,9n<b/ibO=+>"^1@<itS/0H]%0ej+E%144-+Dkh1
-DfQt4Bm:b=AftYqBlkJ@ATD6&?tFFf+EVNEEcl7BDf-\,DffY82_He/+CT.u+>ti+GT]U$F*VhK
-ASlK@%13OO,9nEU0J5@<0H_qi7V-$O0fU^,1,(F;%13OO+=\LNDe*QoBk:ftFDi:BF`&=EDId=!
-+A*b8/hf"&8k;l'@;]Tu8k2iR/g+,,BlbD?ATDj+Df-!k+<Ve8CiaM;Ecl8@+E)-?8g$#E0R+^]
-H#n(=D0%<=$6UH6%144-+ED%4CgggbA0=K?6mm$u@!Z3'Ci<flCh4`'DKKH1Amo1\+EqOABHU`$
-+CJnuDe*5uBl8$(Eb8`iAM+E!+<Ve!:IH=CDg*=7AS,XoATJu4DJXS@FD,]+AKZ28Eb'5P+CJr&
-A8c?:+DPh*De<Th+CT.u+:SZ#+<Y',De*p7F*(u1E+*j%?m'0$+EV:.+CKM'+Dbt+@;KL-+<Wsd
-C`mY<BOu3,Bl8$(Eb8`iAISth+<YlHEb'56@<,p%A7]@eDIm?$Bl5&$BkhQs?m'Z,Bk(g!BlbD9
-CgggbA0>f.+EV:.%144#+C\c#AKYf-@ps1b-Z^DOARTUhBHV8&FD)*j+<Vd9$6Uf@E+*j%+CT.u
-+D,>(AKYMtF)Yr(H#k*<Df0`0Ecbl'+EVNE?tsXhFD,`,E*seuDf0`0DKKT2DK@E>$6Tcb+=\LA
-C2[W8E+EQg+ED%1Dg#]&+D,Y4D'3q6AKYK$Eb-@c:IH=6A7TUr+E1b!CLLje/g)9EC2[W8E+EQg
-%144#+Eq78+C]U=Amo^&FD,5.Cgh?sATMr9E+*d/+E(j7FD,5.@rHC!+DG_7FCB!%+E1b!CLLje
-/g+P:De(J>A7f3Y$6UH6BlbD7Dg*=5Ec6/CARlp%DCo[=DIjr"Gp$L0De*NmCiEc7+B`W*+Ceht
-+CoD7DJX6"A0>8pDe(J>A7f3Y$6UH6@;]TuE,8rmAKY]/+DG^9@")NpA8c@,05"j6ATD3q05>E9
-05>E9A8bs2E+EQkDdtG.+EVNEAStpcCh4%_+<VeCDe!3l+AbHq+ED%%A8,po/e&.1+<V+#+=\LP
-DJX$)AKXT@6m-#Y@s)X"DKK</Bl@l3F`:l"FCeu*FDi:BAS,ai@rri'BOPdkATKI5$6Tcb+=\LA
-<E)FI?m';p@rcK1F(96)E-*44De*E%@q]:gB4YTrAo_g,+>PhtFDi9W3$9ViASl!q@V'R&1,pCg
-DfQt.<E)FI?n!];$6Tcb+=\LA6<R8V?m';p@rcK1F(96)E-*44De*E%@:Wn[A0?)1FD)e?@;L't
-+>Pi-+<V+#+:SZ&,9n<b/iYI;+>"^3@rrhL0e=G&0JGHq$4R=b.Ni/1A7]9oDIn#7?tsUjE+*d(
-F"V0AF'p,0@<,dnATVL(+CIK66V0j/2..PKBOQ!*@rH7,Ec5c8+EqL1FD,6+%144#+CoV3E$/b,
-Ch7Z1F`V+:@<5pmBfIsmAoD]4FCf]=+E(_(ARfh'/g)9)AS,@nCige6F!*.h%144#+B3#c+CT>$
-Bk]Oa+ED%4Eb0<'DKK</Bl@l3B4YslEa`d#Gp%'HDe+!#ATJu8D..6sATAn&$6UH6A9Da.+D,>(
-ATJu'F`\a?F!,O?Dg,c5+EV:*DBO%7AKYMpAmoguF<GF3FD,T'/e&.1+<V+#+=\LAC2[X(Dfp)1
-ARHX'F(KD8@<5pmBfIsmAoD]48l%htA7]pqCi=90ASuT4A8,OqBl@ltEbT*++EVNE%144#+ED%(
-F^nu*FD,5.F(or3+E(j7FD,5.A8c[0Ci<`mF"Rn/+<Vd9$6Uf@D/!m+EZet.G\(q=Bl5&$C2[W8
-E+EQg%13OO,9nEU0J5::1E\7l:LeJh2_6(,0JGHq$4R=b.Ni>AEarZk+E1b2BHUf'D/`p(Ble31
-F!,RC+Dbt?ATAo'@<6!&Bl5%c:IH=!@:C?(1a$4EA0>u*F*&O4-Z`j@F`:]&De*g-De`inF=1H*
-$6Tcb+=\LGBm=3"+CQC)ATo8=H#R\C+DG^9?tsUj/oY?5?k!GP$6pc?+>>E,/i"P$+B)ij+>Pf*
-+>PW)3"63($6Uf@@rH4'Ch7^"A0>E.@:X(^+Cei$AKYo'+CJ_u@pf`Q+:SZ#.NikQA79RkA0>8p
-De(J>A7f3lFDi:4ATM@%BjtWr@q]:gB4Z,n$4R=e,9n<b/iPC;+>"^7AT/bI1b9b)0JGHq$4R=b
-.NibCD/XT/A0>r3D.Oi+@<-!l+@T+*+D,>(ATJu+Ec5e;A8,OqBl@ltEd8dLD]j(3A9DBn+CoD7
-DJX6"A0>r-H=[Nm+:SZ#.NibCE,8rmARloU:IH=9Bl[cpFDl2F+Co1pB6%Et+DG^9?tsUj/oY?5
-?m%$DEb/d(@qB^(F(or3+E(j7C1(sj/oY?5?k!GP$6pc?+>>E,/heD"+B)ij+>Pc)+>PW)3"63(
-$6Uf@Eb/ioEb0,uATJu&A7T7^+EVNE?tsUj/oY?5+CGWc+:SZ#.NiV?G9CX=A0>PoEb&ZuE-WR1
-GB\6`CisQ:/n8g:>psB.FDs8o06_Va/o5ZHFY70BD(-T=A8-."Df-!k+:SZ&,9n<b/iG=9+>"^%
-F_;gO3%Q1-0JGHq$4R=b.NiSBDJsP<C2[W*F(96)E-*46A8-.,%143e$6Uf@?tsUj/oY?5?m'0$
-A7^!.Bl.g0Dg#]&+:SZ#%14=),9SZm2(gU+/KdZ.C`kJf/0H]%0K9LK%144-+CJr&A9Ds)Eas$*
-Anbm1Bkh]s+CSekARl5W+:SZ#.Ni,3A7]_$?m'?*G9CF7@s)X"DKKH#+DG^9?tsUj/oY?5?k!Gc
-%14=),9SZm2(gR*/KdZ.C`kGl/0H]%0K9LK%144-+CJr&A1hh3Amc`lDe!p,ASuTuFD5Z2+Cf>,
-E,9*-AISth%14=),9SZm1bLI)/KdZ.C`kGd/0H]%0K9LK%144-+DG_7F`M%9@<<W.ARTY%+E)./
-+D5_5F`8I;DBN>%De*BiG&2)*A7-NlDfQt:@:BZQ+:SZ#.NiSBDJsP<CggcqARoLsF!*%WEb/io
-EZfIB+CK84@<-I4E%Yj>F'p,)DKBo2@:UL!AftK&@rc:&FE9'KC3*bl$6Tcb,9nEU0J5.63$9dq
-9jr;i1GLF'1,(CA%13OO+=\LNBl7j0+E_X6@<?''FDi:<@<6N5CggcqF(Jj'Bl@ku$4R=e,9n<b
-/i,+=+>"^1@<itO0e=G&0JGHq$4R=b.Ni2CB-:f#G\(q=Bl5&0@:F:#/KeJ<C`mP&@WNZ%@;[2s
-AKZ#9D@Hp^$6pc?+>>E(/iFh(+AH9i+>Pr.+>PW)3"63($6Uf@Anc:,F<GU8Ch7$rAKYo'+D,b4
-Cj@-I@:WneDCoRKARlu-8l%ht/Kf4JEcYr5DK?q>EbTH4%144#+EVNEFD,B0+ED%0ARTXk+D>1o
-+EVNE@V$[!@;^3rCi"A>Bl8!6@;KakA0>?,+:SZ#+<Y*'/SK'4+EM%5BlJ08/g*o-G9D!@AKXT2
-9H\D%F*(u1+D>2$A8Ggu+A,Et+DG_7FCB!%F"Rn/+<Vd9$6Tcb>@'$i3ZoPEBPDN1A8bt#D.RU,
-+Ceht+C\n)@rH7.ATDm(A0>u4+DkP)Gp$^;Ec#6,F!,[@FD)d+$6UH6+<VdL>B""gA8bs`-tm^E
-E&oX*C2[d'D.-pd@<-0mDIkG<ATTSE@;]Uo@kT8`%144#+<VdL+@^9i+D#e+D/a<&+EV:.+D,P.
-Ci=N3DJ()%Df'?"DIal/Ec5K2@qB^(@;[2Y<)$%/G%G]8Bl@lM%144#+<VdL+:SZ#+<VdL+<VdL
-+<VeG@;]Uo@j!@E+D>J1FDl2FC2[W8D..I#A8c[0+>%LSBPDO0DfU,<De(J6FDYh'$6UH6+<VdL
-+<VdL+:SZ#%143e$>=-pFDl2FC2[WnDdtO]B4YslEa`c;C2[WnDe!p,ASuT4/KeP:@;]^h+D>J1
-FDl2F%156]4Ztqk4Ztqk4Ztqk4Ztqk4Ztqk4Ztqk4Ztqk4Ztqk4Zs5]%14=),9SZm3A*9K+>"^3
-@ruWuATAnJ1FsY(0JP<l$4R=b.NiSBDJsP<ARoLsF!*%W?qipb912QW:1,2SDe*E%1,g=aDIakt
-2'?FDF)W6L-X\'7DffQ$/e&.1%144-+EV:2F!,"3@s)X"DKI"2Df0`0Ecbl'+EVNE>A[ehCLh@-
-DI"Z(FEDI_0/$jEEbTE(Anc9s@UX(h/oG6B05trMC1UmsF"_B=Ebf3(GA]&_%13OO,9nEU0J5@<
-3%uI,+A-cmGp"gt/0H]%0es1F%144-+ED%*ATD@"@qB^(FDi9r@:LF'ATDj+Df-\+DIaktC2[Wn
-De!p,ASuTt+CSekDf-\+A7T7^+:SYe$6pc?+>>E./iP[2/KdZ.DIjqG0J">%0JP<l$4R=b.NhPU
-7Nb<!6m-#Y@s)X"DKK</Bl@l3F)Yr0F<GL6Aftf*FDi:1+EM+5@<,duAKYDlA8c?<+B3#c+DkP$
-D@Hpq+<Y91Ch4_sC2[W8E+EQg+DGm>Eb0&qFD5o0Cj@.EFCAWpAKYE!A0>;sD/XK;+EV14+EV=7
-ATJu9BOr<-BmO>"$6UH6De:,6BOr;rDfTD38l%ht@:WneDD!&'F<G7*F!+q'ASrW2ASl@/ARloq
-Ec5e;FD,5.@rHC!+A,Et+CSekDf-!k+<VeKD]j(3A9DBn+CoD7DJX6"A0>u.D.Rc@+Br5gDe(J>
-A7f4T-tm^EE&oX*@UX%`Eb],F3A,MoEb'-0ATMoF@rH3;FD,5;C2[W7E+*Bj0.@>;+<Ve?@<3Q#
-AS#a%@<Q'nCggdhAKYo/+EV:.+A,Et+AcKZAKYT'EZfLGATDi7FDi:4Dg-)8Ddd0!@;]Tu%144#
-+Cf>/Gp%3I+EV:.+Cf>1Eb/a&+CJr&A8#OjE*sf!Bl[cpFDl2F+C]J8+EqOABHVD1AKVEh+<VeG
-Ec5c.An?!kFD5Z2+E(j78g&(h@<?+"Ec#k?@;]Tu8l%htG%G]8Bl@m1+EV:2F!,1<+D58-FD5W*
-+:SZ#+<YN4F)uUZ+A$Z&F!,%&F(o3++EVNEF`V+:8jQ,nFDi:4BleB:Bju4,AKZ).BlbD/Bl%?'
-@;]Tu@q]:gB4VMZ+<Ve7C2[WrASc<n+EVNECi=6-+DG^9FD,B0+CSekDf-qD+Co2,ARfh#EbT*+
-/e&.1%16igA8lR-Anc'm1,2Nj/h1USA8lR-Anc'm+EK+d+A,Et+Co1rFD5Z2@<-W9E,ol/Bl%?5
-%15is/e&._67sBHDBNM8@;Tt"AKXT@6m-GhDe<^"AKZ&(EbTK7/g+)$G%De<BPDN1F(96)E-*4:
-D@HqJ67r]S:-pQUIUQbtDf0VLB4YslEa`c;C2[W9%15is/e&._67sC)Bln#2FD,5.DIIBn+DPh*
-E,ol/Bl%?5Bkh\u$;No?%15is/g+,,BlbD<@rc:&F<D]?F!)T:G\(B-FCeu*+CSl(ATAo%Cht5)
-Bk)7!Df0!(Gp"5J@VTIaFE8R<@<Q2k$;No?+C\nnDBNG0ART[lA1eurF<D]9@;[21@V$[)F(Jl)
-+EVNE+EM+9+E_WG+F.mJEZen(AmoguF<D\u:IGX!:-pQUGAhM;Bl7Q+ASu[*Ec5i4ASuTB%15is
-/e&._67sB^5uLHL:.I>f6uO2cDfd+4E-#T4+=C&U;ajY[7403lAftr/Eb-A8BOPd$Df0,/+A,Et
-+EV%5CER>4%15is/g+S4FD5o0/g*_t+E).6Gp%$CAKZ)'F))n4F!+n$FD5o0+AtX,78uuM-Z^DL
-Eb0E*DKI"0DJjB<Bl7Pm$;No?+CT),ART+p+E)41DBL'=ATMp$B4Z-,FD,*)+D,Y*EHPi1FDQ4F
-Eb0<7Cige3Ec5e;AoD^&ATW$.DJ'Cc:-pQUFDi:3Ci=B++Co1rFD5Z2@<-'nF!,UEDf-\/G\M86
-DJ((a/e&._67r]S:-pQU:2b5c+EVNE+A*beAThX$DfB9.F"SS$+EM4=FC]<6DBO"3DKKH-@q?c2
-@3BB#DIjq5De:+a+<Yc>AISuA67sBpDKKH1E,oN3DfQsCAU%crF`_29+<Y-)AoD^$+<VeKATDX%
-DIIX$DJ(C@+EqaHCh+Y2@V$Z)G%G]>%15is/g,:XAS-($/e&._67r]S:-pQU@<H[*DfRl]8oJB\
-+@Ih)6=FY@EX`@N67sBlD..-p3ZoPS@;BFpC1K=b5\FqBBl#D3Df#pj%15is/g,4HF<Gd@Blmo/
-F)YPtAKYr4ATMF'G%#K,Df-\9D@Hq5+Z_G7+BosC%13OO:-pQUA8`T.Dfd+BATMF)+DGF1H#IgJ
-@<,p%Ecl8;Bl7Q+D/XH++EV:*DBNk8AKXT@6m-2]F*(i.@q?)VA8lU$F<Dr/78lWS9gpE=$4R>;
-67sBQ:IH=>DKKH1Amo1\+Dbt+@;KKt%16T`@r,RpF!)iEC2[W1%13OO:-pQUAoDL%Dg,o5B-:W'
-AKYYpDIe#8-u!F7A18X;De!3lAKZ&-DfTr0F`_[c%13OO:-pQUE,ol3ARfg)F(fK4FCTH8F!*%W
-F`V+:AU&01Bk(k!+:SZQ67sBkAS,XoFD5Z2F!,OB+DGpFF!,%&F*SmMD]j(3F(KG9FD,5.B6%p5
-E%c9TBlmnq$=RR13Zp4$3ZoebDe*K'@:Wn]Ec<.H-OgDkF$2Q,1E\_$-R`_JA90gg.3N&0A7oq%
-+F,=D$=md43Zp4$3ZoebDe*K'A7]RiEc<.H-OgDnF$2Q,1E\_$-R`_JA90gg.3N/4ChId-+F,=D
-$6UH6%15is/g,1GAn?!oDI[6g+D5_5F`8IIDfTB0+Du+>+DG^9B6%p5E"*.lGWe)11E\_$-R`D>
-CiX*!F!)TR/g+eE.3L2p+D5RT/g+eIE$/n6A7m8!$6UH6%15is/g,@VEb'56Bl5&+Ec6)>+E_a>
-DJ()#+EqaEA.8lgB0A9u1E\_$-[?hWF(JlkGp%Mf+D5_6+DPh*B.",q+<Vd9$;No?+D58'ATD4$
-AKW<BF('6'+Dbt)A0>r'EbTK7%17/h4ZX]A+?CVmD/=89C2[Wq+Bot6-OgCl$;No?+EVO@+=M2O
-F<G+.@ruF'DIIR2.3NhQEb'5B+D5_5F`;CEBl5&6AThd/Bl@l3DfTB"EX`@tG<Iu0Eb0E4%172i
-4ZX]@-?<[@D[d$_$;No?+EDUB+EV%7FDku6B6bV.F!,F<@;0V$ATMr9/KeSBATJu3Dfd+CFDl+@
-Df-\8Df0l4Ec3(@ATN!1FE7luEcaH*+>P9aFE@s!%15is/g,1WDBNe)@rcK1F(oH%DKK]?+>"^[
-Bl%T.F(fK9+D#e:Ch[C$+EMC<F`_SFF:ARtF$2Q,0d^pX%13OO:-pQUF(fK4F<G7.CiCM/DfQt5
-Ec6)>+EqaEA9/1eBP0Ih+BplLBP_X*C`lqC+FPjbB6%r#$4R>;67sC%BQ%p5+D>>&E$0(:+E2IF
-+E(_(ARfh'+DG^9Eb0E.F(Jl)DfTB"EZet7Df$V,De*E?%15is/g)8ZBQ>4P+<XEG/g,">@rcJs
-$;No?+<Ve?EZd+[+AP6U+D5_5F`;C2$>=HC3Zp.5+?CVmGp$d:E,KJ7I4cXf+ED%:D]gDT-RU$@
-+F,=D$4R>;67sC%Bl7R"AKYf'DIjr%G]7J-DIIX$Df-\0DfQt<Df0c;Eb'5#$;No?+<WK`F)5E4
-+=CoBA9)6oBleB-E[MtP:-pQUD.-ppD[d%K67sB'0d(ORAU#=FFD,B0FCfN8-QjNS+<XEG/g,7I
-F*%iuF)5E44ZX]B+?CVm.!R:&.3NSPF<GijAnc:,FCT6+D.RU,?XHE$7!*?cCi^_D+Co2-E$0ER
-%13OO:-pQUEb/lpDImisFCcS6F`\a:Bk)7!Df0!(Gp%<LEb$;&Ec6#?+ED%*ATD@"@qB]j$?B]u
-AS+(d+>Y-$+=ART/1tum+<u=X/M9+=HQk0eF$2-0+D5M/@WNk[DETV#/okNHD^Qn[-QlV9Gpa%.
-%15is/g+h9DIe#8@r*8uDdso'ASc<sEcVZsA8bt!@ra^n+>Y-$+=CZ@CgUUcDe*2t-oNeA0KUsM
--RVYU/gi"q+CoD#@rsJ5?WC'4?V4*^DdmH(>rsZG0d'.Z/9rg"6W,9@$=n'bFEhmj3Zp4$3Zoe[
-FDP;mC2[Wi+=K-&4"r`M4!uC'-Rg0KDe!:!11+Bg<*s!):IK,1C*6eD/mg=U9L^RY/M9Cg-OgCl
-$;No?+Co2-E,8s.+Du+?DBNk8+EM%5AS#a%@;]TuEb0?8Ec*";Dfoq?G%#30AISufBQ&*6@<6KQ
-3aEk4+>G$#1+"ac$4R>;67sBlA8--.@rH4$@;]Tu%15L!6WHiL:/jSV9hdoK6p3RR-Z`s>GApu3
-F!,FB+=AO`ISP??-RU8N$4R>;67sC$ART*l-6RMQBlmo/Anc'mEt&IO67sC$ART+43\_d=0d\;S
-?p$\,-o3V*5!UMP+Z_;+.4G]5:-pQUGB.D>AN`(/+Z_A$?!oc[/grM2-9a[C1Eee5.4G]5%15is
-/g+b;FCSu,ARoLs+EV1>F>%K>@rcL/%15is/g,7X4ZZjk4!80X%15is/g,"Q4ZZjk4!6:9,$uHS
-+D5d=+<XEG/g)VrFEhm:$;No?+DkjV3aEji+>PYq?Q_EQB657=+AP6U+=]!XC3'gk:-pQUD.Gdj
->p)3O1,gCa+?L]YF<D\K:-pQU.P>RHEbf3(GA[is:-pQUD0S3)>p)3O1,:%\+?L]YF<D\K:-pQU
-.P>gSGRXuh$;No?+D#e+D/a<&F!,C5+A,Et+EM+8F(oQ1+EMX5Ec`FHE-!-R+EM47GB43#:-pQU
-BQ&);FDi:?E+No0A8,OqBl@ltEbT*++CT.u+DG_:Deio,E,ol3ARfg)D.-ppDfZ?p%15is/g,4H
-F<G^F+CfP7Eb0-1+E2@>C1Ums+=JreF*2G@Eb0<5+A#?[+>=pVEZeq0Bk1dc+Co2-E,8s..1HVZ
-67sB8+ED<A-ZF*@F)?&4BOPCdBl7Q2+Bot0D/XQ=E-67FDe'tP3[\ucF_>5rFs(jCF_;h>FD5Q4
--OgDX67sB8+ED<A-ZF*@C2[W1+Bot0D/XQ=E-67FDe'tP3[\Z\A7T7p+DPh*+E_d?Ci^s5$4R>;
-67sBjF`MM6DKI"BFCB33+E_W4$;No?+EMC<F`_SFF<GL4+?MV3D0KQ$@j#o9Bl%i<%13OO@rGk"
-EcP`/F<Dr?@<6!-%16T`Bl8!'Ec`EOBkhQs-OgE!Bl8'<DJsW.F'hmK<&-C+Bl8'<+B*5j@qfOh
-@j"NbFCfM9AoD]48l%ht%156]4Ztqk4Ztqk4Ztqk4Ztqk4Ztqk4Ztqk4Zs5]%15F5AoD^$+E_a>
-DJ((a:IH=DDBNb0DKU1HD.-pfBl7L'+E2..@<6!&Eb/Zi+EV:.F(HJ3DffQ3/e&-s$8F.U8l%ht
-:ddbqA8bt#D.RU,@<?4%DBNY7+Co2-FE2))F`_2*+DG^9FD,5.%144#+BqH66psg<<D>nW<*^nc
-FEDI_0/%NnG:mWODe=*8@<,p3@rH3;C3OB-BeMb_A8c@,05"j6ATD3q05>E9A8bt#D.RU,.3K',
-+<Ve8A7TUr/g*`'F*(i,C`m+uASu("@;IT3De*Bs@s)X"DKK8/FDi:@Cgggb+CJr&A1hh3Amc`q
-DBO%7AKYMtEb/a&DfTQ'Et&I!+<Y`:@<,jkARlomGp$L0De*NmCiEc7%13OO1+j\A:IH=HDfp)1
-AKYK$A7ZltF!,"-F*)G:@Wcd(A0>T(+EV:.+:SZ#+<Xl\:IJ,W<Dl1Q>psB.FDs8o06_Va/o#HG
-Aor6*Eb-k5Df%.BGA1i,00s,ZDf0VLB4YslEa`c;C2[X(Dfp)1ALS`2$6UH6@:WneDD!&'DKBo.
-Cht5%B4YslEa`c;C2[X(Dfp)1ARHWhDIal1F`&=DBOr<-@rc:&F?0j<%144#+<VdL+<Z,AA7TUr
-F"_0;DImisCbKOAA92[3EarZ6C2[X(Dfp)1ATMF)F`8sIC3(L,$4R>ABPDN1F(96)E-*4:DKBo.
-Ci"/8FD,5.8l%htA7]pqCi=90ASuT4A8,OqBl@ltEbT*++E_a>DJ()/Gp%-=@rH4$ASu$iA0>i"
-FD)e<FE2M6FEMV8/e&.RAoqU)+EDUBDJ=!$+CJr&A92[3Ear[%ATW'6/no'A?m'`5FWba=Dfol,
-+EM+*+Co2,ARfh#EbT*++Dbb-ANCrA-YdR5DC8g7BlbD6Gp$K?85DrK?k!GP$6UH6+<VdL+>7DH
-D.PA8DeO#AC2[W9C,[h$05>E9A7]on$6UH6+<VdL+>7DHD.PA8DeO#AC2[W9C,[h$05>E9%144#
-+<VdL+<W=NDf'&=C2[d'05>E905<F"0e[ZkBl%i"$6UH#$<1pdG%kN3+Eh=:@WNZ&ATM@%BjtXa
-+DG^9AoDL%Dg,o5B-:o1ASlK2FD,6,AKYMt@ruF'DIIR"ATJu2F`VXI@V$ZjG%#*$@:F%a/e&-s
-$<KMk:.\2N3ZqgFDe*p-F`Lu'F(KH9E%Yj>F'p,5F(KD8FD,5.?t"(c07%>O?m&lgA8c?<+=^?(
-BlbD*A7TUr+DkP4+D,%rC^g_iDBLho+C]&,+A*btH#n(=D0%<Z+<XToAKY2VBOr;Y:IH=%@:s.W
--tm^EE&oX*@UX%`Eb],F3A,MoEb'-0ATMoF@rH3;FD,5;C2[W7E+*Bj.1HVrDfQt/+>u&!@VKp,
-F*VhKASiQ6DfTVF@<-:/DIb@/$4R=O$6pc?+>>E./iPX1/KdZ.DIjqG0JP<l$4R=O$8F.U8l%ht
-G@>P8DfTQ)Bl7?qCj@.6AThX$DfB8u+E)-?=(uP_Dg-7T+B3#c+E27>F<G[D+A?KeFa,$Q@<2kb
-+<Ve;Df0,/Df-\++>Ybq@VKp,<FU)gFEJ]\0eP/)+EMgLFCf;A+B3#c+E).6Gp#dpDKU1HCh[@!
-@<-W9@ps1i%144#+DkOtAKYH-+A,Et+E(b"F`MOGBl5&8BOr;oB6@p!F'p,6ATD64+CJi)Bk29m
-+EqaECNCV:DBL_j+C]&,+B;lnDKL"D%144#+A?KeFa,$G@:NtbDImlA+A$YtD..]4GAhM;+E)-?
-2DcOcBlkIkBl8'<+CT=6G@bT,/g)99BOr<,ASkjiDJ=!$+D>\7F:AR"+<Y3+E+NotASu!lATJu)
-ATDL.AKYT*Df$V<BOu!r+Cf>,D..<mF"SS-:IH=B@;BFq+Eh=:Gp$p;D/"*'A0?#9AKYo'+:SZ#
-+<X?lDKU1HF(f-$C`m5+D/E^!A90@G;eT`YC`m5+D/E^!A9/l%Eb-A'@;KakA0>i3Bl.:!Bl&&;
-FDi:=Dg#\C+ED%2@;TQu%144#+CT.u+Cf>/Gp$^5Ch7Z?+B3#cGp%0ADfol,+EqaECERP5+<Y*1
-Gp%0MEa`["+E(j79PJBeGT^pF+B<;nGV1*J$6UH688i]`G%G\F+=\j5:IH==@<3Q0DJXS@@V'+g
-+EV19FCeu*Df-[R1*C%?F<FRmF`);D+Y"rN$6UH6%17Q5IXWDd+>.COI16NY67sC&D]j4;ATo7F
-B6@p!F"&4[Bl8!6@;Ka&8l%iR:K::[74AZQDe'tP3[\Z\A7T7p+DPh*+E_d?Ci^sH>9G^EDe't<
--OgDnBle594$"a%F_PB--OgE3IXZ_T$4R=t/g*b^6m,u[ART[lF!,.7F*&O:Bl%@%+CT.u+Co2,
-ARfh#EbT*++CT.u+CT>4F_t]2+DGp?BOPs)FD,5.DIm<hF)tc1Gmt*'+<Y]=B4uC.+EVNEEb/Zi
-/0K.WBlmo/@;]TuD/XT/+EV:.F(HJ+Bl%@%/g*Q)EbTE(+Co&,ASc:(D.RU,+A!\pF`\a7Cht52
-Gmt*'+<X9P6m-#S@ruF'DIIR"ATJu.DBNeA+CHHc:JF8c+CHj9Df'&=C2[d'?m&uoEb/a&DfU,2
-/e&.1+<V+#IXZ`p+F>4`C*7p6$;No?+EVNEG%kN3+Eh=:@WNZ6BOQ!*D..<rE-5u*FCcS.Df^"C
-Anc'mF!)lFDKBo.Cht4d:IJ,W<Dl1Q.1HW&A0<rp-YdR1A7]p,C2[W*F`_>6F!i)7+>Y-YA0<6I
-%16W[F)W6`3[\rZDIIBnAnc'mF!+t2E-Z&0Ch7Z8%17Q5IXV_5%14mD+A,Et+ED%5F_Pl-F!,LA
-DffQ$+Co1rFD5Z2@<-W9E+*j%F"AGJ/nHXd+F.mJEZf=0FD,_<D09oA+C\npBl5&;Bln#2@3BW-
-@<6*)?nYn?%144#+B3#gF!,LGCh4`+@<?U&EcW@?Df^"CGA(Q*+CfG'@<?4$B-:W#A0>o(B5)F/
-ATDL&B-:`!@ruF'DIIR"ATKIH7W3;iAU%X#E,9)H%13OOIXZ`p+F>4`C*7p6$;No?+CfG'@<?''
-@3B)p@ruF'DIIR2+DtV)ARlo3FCfN80I\,YDBO">ARfFdBk:ftCi<flFD5Z2%16uaG@VgDFCfN8
-0IJq005,9@AM7e:BPoJ<De(M92_Zs>FCfN80IJq0FCfN80Hb7OFCfM@%144#%15is/g,1GB5)F/
-ATAo%DBNM8FCB'/+Co1rFD5Z2@<-W9DIIBnA0<:BATMrJ.1HW)AS5Nr-Zip@F>5.)-SK.OD.PA8
-DeO#AC2[W9C,[h$06CcHF>5.)-Zip@F>4nUDffQ3-OgE3IXZ_T$4R>!/g*b^6m-VnATJtd-Z^D?
-Df00$B6A6+A0?)-@N]-#Dg-86EZee.A0>i%Afu,*@:Wqi/g*ksCLnW0F`M%9H#Ig7$6UH6BOQ'q
-+CQC%Ec6/CATAo%DIal1ART+\EZfF7FEMOT+<V+#%144#+A$/fH#IgJBOQ'q+Du+>+Cf>-Anbn#
-Eb/c(@3A/bG@b5+@WHC2F(KA78l%htGA1l0+CTA6ASlC.+EVNEF`V+:?t3kjDf'32D(T4;Dg-86
-EaT=`+<VeKD]iM0Dg-86+E).6Bl7K)BOu"!/g*_t+F.mJ+CoC5DJsV>BOQ'q+@Bg_Df'&.Bl8!6
-@;KakA0>8pDe*NmCiEc)GA1l0%144#+Du+>+EqaECG$&'+<Vd9$@[GQINWt[/nuMW%15is/g,(C
-+?MV3C2[WnATf22De'u5FD5Q4-QlV91E^UH-RU$367sC$AT;j,Eb/c(A8,OqBl@ltEbT*+%16W[
-F)W6LC2[WrASc<5%17Q5IXV_5%16$JD/!fpEbT?8+A,Et+EqO9C`mkAAKZ).AKYA6F`VRVAThd*
-@qB$jE+EQ'Eb/ZiATAo-AfuA;FWb@+G%De6Dfd+CE+NNnAnbge+CQC3A7cs)ART+\E\7e.%14sF
-+=\j/:EWD.<$51>73H&U@;]k%+DG^99PJBeGT]US6m-GWFD,_J.OlP`6>U(JCNCV8@<iu7Ec5K2
-@q?coEcQ)=F!,17+:SZ#+<X9P6m-,RDImisFCeu*F(f-$C`m5+D/E^!A90@G+AZkt=(uP_Dg-7F
-D.-pfBl7L'+F.mJ+Ceht+D#G#Ci=B++C].qDJK[g+<Ve@DJ!I$FCeu*E+*j%F!,[@FD)e-DfoN*
-AKYu8DffQ3+Dbb-AKYA)@ldjkEc5T2@;R,VBl%@%>U!Q.+<X5u@;R-)Dfd*2$6UH6F*2M7+D>\;
-+EVNEA8`T3Df''-BPD?s+EM76Bl%KlEZfR?FD)djBl8'<+E1b2BQGd8$4R>#/g*b^6m-S_F*)IG
-G&M2>D.Oi2E+*6f+C\noDfTD3@rc-hFD5W*/0JG@E-Z/8B-;,5+ED%7FDl26DJ()$@:O(qE-!WS
-:Mq:VBl7I"GB43#+<Ve=Eb/f)A8-+#+EML1@q?csF!,L7FEMVAARlomGp$O5+@/gq+CehrCb?hQ
-:Mq:KBl8'<+EV:.+CJ_l?m'N(ASc0*@rH4$@;]TuBlbD>F(Jl7%144#+B3#c+CJ_l?m&rtD/E^!
-A0>o(FEMVAF!,(8AS!!*E+*6f+D,P4+CT)&+Dl%>DKKH#+Eh[>F_t]2/g)9.+E).6Gp%!9ARlp*
-BOr<0DesQ5AISth+<Yc>@<<W%Df0Z*Bl7u78l%htA8,OqBl@ltEd8d>Bl%@%+C]J8+A!\dD]iq9
-F<G@:Dg*=;Dg*=GD]iS%FCfK0Bl7K)FD,5.G&M2>D.O.`+<VeE@;TQuAo_g,+CQC/Bl8'<+D,>(
-AKYr#FD*9L+@p']@q?cS+ED%8F`M@BFD,5.F)>?%Ch7[0+CT,*F`):DDe:,(Eb/f)F)YPtAKYT'
-EZbeu+<Ve8Cht52Dfor>ARlp,DesQ5ATKIH+B)i_+EV:.+A,Et+CJf%AS#CdF),/+G%G]'+D,P4
-+Co&*@;0P!/g*_t+F.mJ+D>2,AKZ#)@;Kb*%144#+EMC.Cht5;DesQ5ATJu2Dfor>ARloU:IH=B
-@<iu9AS-(+AKZ)5+CfG'@<?'3+C\bhCNXS=DfQt@ATMs3Eb-A(Bk)7!Df0!(Bk;?<%13OOIXZ`p
-+F>4`C*7p6$;No?+E(d54$"a(De*BiFs(O<A0?#:Bl%i<+BosE+E(d<-Ql/N/g,1GEHPu9ARloo
-Bk)7!Df0!(Bk;>p$=mjlE$-N?Eb/fmBle&;%17Q5IXZ_T$6UH#$:\`I@;Kb*/0IMr+F.mJ+D#G#
-Dfor>ATAo4Ec5E'ASlK2F`V87B-9fB6m-GbARTXk+D#CuBl"o/AKYE'3Zqg>@;BFpC1K=b5\FqB
-Bl#D3Df&kk$4R=O$4R=O$4R>Z@:O1nFCfN#<*3*T2bd^j+B*5j@qfOh@j"NbFCfM9AoD]48l%ha
-$9^O84Ztqk4Ztqk4Ztqk4Ztqk4Ztqk4Ztq;$4R>ABPDN1BlbD=BOr;uBl\9:+AH9S+Cf>,E+*j&
-@VfTuG%G]8Bl@l3De:+a:IHfE$:8<9DfTD3F`V87B-9fB6m-Dc+AH9S+DkOsBPD?qF!,F<ARTXk
-+ED%%A0>u-ATME*DJsW.F"Rn/%14gB+A,Et+AbHq+CoD#F_t]-FCB9*Df-\3F!,"-F*)G:@Wcd(
-A0>T(+EV:.+:SZ#+<Xl\:IITH6WHiL:/kLIBQS?83\N.1GBYZSF)PZ4G@>N'/n8g:05>]FCM>Ff
-A7TUrF"_0;DImisCbKOAA7TUgF_t]-F=A=A$6UH6@:WneDD!&'DKBo.Cht5%B4YslEa`c;C2[Wn
-De!p,ASuTt+EVNEE,8rmAKYAqDe(J>A7f3lBl5&8BOr;sBl[cpFDl26ATJ:f+<VeJARTUhBOt]s
-@X0)(C2[WrASc<n/e&-s$8O4V8l%htF)Q2A@q?cmDe*E%BlbD-BleB:Bju4,ARlotDBO%7AKVEh
-+<Ve28l%iR:K::[79q<TFEDI_0/%NnG:mWODe=*8@<,p3@rH3;C3OB-BeMb_A8c@,05"j6ATD3q
-05>E9F)Q2A@q@)3%144#+CSekDf.0M8T&Tk@;Ka&?tX%gATD3q05>E9F)Q2A@qB$j@;]TuEcl7B
-FD,5.F(96)E-+,M$4R=b+<VdL+<VeU@:WneDK@IDASu("@;IT3De*p-F`Lu'05>E9F)Q2A@qB^m
-FEMOTBkh]3%13OO<+oue+EM%5BlJ/:Bl8!6@;Kb$+EV:.+A,Et+Co&,ASc:(D.RU,+Co1rFD5Z2
-@<-'nF!,UHBl7Q+D0[7EARfXqD.RTqARlp&@<?0*F*)GF@ruj6AM+E!6"Y4MEZfCFDJj0+B-:Ss
-De*p-F`Lu'F(KH9E%Yj>F'p,9Dfm1DBQ&$0A0>r)AKYMtEb/a&DfTQ'F!,:5CLoOL%13OO+<VdL
-+<VdL03*()EcWmKDeO#AC2[W9C,[h$05>E9A7]on$6UH6+<VdL+>6`9ATDiFC2[d'05>E905<F"
-0e[9[A.8kg+<VdL+<Vd[<HD_lF"_9HBPoJ<De(M92_Zs>F`_>6Et&I!+:SZWD]j4;ATo8?ATD7$
-+Co&)@rc9mARlotDBNP0Ci"$6Bl7Q+Blmp'F!,R<ATME*A8,OqBl@ltEbT*++Dl7BF<G%(+CTG%
-Bl%3eCh54.$4R>D5uLHL:.I>f?tsUjF)Q2A@qB^mFEMOTBkh]s+E_a:F!,R<AKYAhEapbKBlIH&
-@:WneDD!%]<+oue+CSekDf-\7@<iu-@;0Ne$?'f)2DcOcBlkIi+EMgLFCf<1/h.td;e9M_>?#9I
-+A,Et+AcKZAR-]tFEDI_0/$dCCLqO$A2uY&GAhM4E,oN2F"Us@D(g!EAM%Y8A1_b/B4WM$$>+3s
-+CQBN1a$7AF<GXMF*(u1+EqaECFrt8Dfor./e&-s$4R=e,9n<b/ibOC2'=In8p,#_+>PW*1(=R"
-$8F.U8l%htG@>P8DfTQ)Bl7?qCj@.6AThX$DfB8u+E)-?=(uP_Dg-7T+B3#c+AH9S+E27>F<Gd9
-Et&I!+<Y35DIjr/DBN@11GU(^BlkIhDKKH++AH9S+Ad)s/g+,,AKYo/Cj@-t@:LErBju*kEd8d;
-@;K`h$6UH6D.-sd+C]U=8l%htDe!:"EcW@;DBO%7AKYAnF_PB-?m'W(EagXD%144#+CJi)Bk29m
-+EqaECNCV1Bl7K)Df-[R1*C%?F<F:d@j#Vs@q]RoATKIH8TZ(l@<iu>DfTV9Df-[U1a$7AF<D#"
-+<Ve$@:O@$@<3Q8ASc08+<XWsAKZ#)D..-rBl7Q+BQ%s6+Co&&ASu$iDI[BlF!,")EbT].+D,Y4
-D'3n5ASc0*@rH4$@;]Us/g(T1+<Ve!:IH=B@;BFq+Eh=:Gp$p;D/"*'A0?#9AKYo'+AH9S+EM4-
-Cht5(Df'?"DIdf@+B)rbCht5(Df'?"DIdf2@<,p%%144#+CehrCh7-"FDi:=Dg#\C+ED%2@;TQu
-@;]Tu@rH=3+D,>(ATKIH<+oig+EM47F_kS2GAhM;+E)-?%144#+CT/5+AH9S/g*]'G@br/E\&>*
-:IH==@<3Q0DJXS@@V'+g+EV19FCeu*Df-[R1*C%?F<F.mFCf829jqOQ+Unbf$@[GQINWt[/nuMW
-%15is/g,7S+EhI1G9A;HF_PB-.3L$QDKBo.Cht4d:IJ,W<Dl1Q.1HW&A0<rp-YdR1A7]p,C2[W*
-F`_>6F!i)7+>Y-YA0<6I%16W[F)W6`3[\Q_Bk294%17Q5IXV_5%14jC+A,Et+CfG'@<?(%+D>\7
-F<G10Ch7Z1@;]TuA8-'q@ruX0Bk;?.@;]Tu@<6L4D.Rc2BlkJ2@<3Q5BOr<(ARf:mF('*7%144#
-+ED1/BQS;<FDi:BART+#+Eqj?FCcS'DIal,Dg#\7FD,6,AKYT!Ch7Z?+@L?mBl7Q+A7]pqCi=90
-ASuT48K_tpF<G".C`mS?%144#+A,Et+Co1rFD5Z2@<-'nF!,17+DlBHBQ%a!+CHj&F(KB505>E=
-DI=StBl[cpFDl2F/e&.1%17Q5IXZVd/nuMW%144#:-pQUFDi:FBk;K2G%G]'F!,R<@<<W/@;]du
-F_kK.AKYZ)F*&O:Bl%@%+=LrAF*(i,C`l>G6rQl];F<l%%144#De'tP3[\Z\A7T7p+DPh*+E_d?
-Ci^sH>9G^EDe't<-OgD*+Co2-E$.5'-ZWd9@;TRfBl%@%+Cf>/H"Lc,ATK4.$@[GQILQVn$8X:W
-9jqNS8l%htEb065Bl[d++EDC=FCeu*A8,OqBl@ltEd8dH@<?1(/0JXZAM,MVH#IhG+E1b2BQG;5
-F`VXI@V'1dDBO.;FD)e*+EM@-F(c\(046CA$6UH6<+oue+EDU@AKYhuFED)7F!,=<F*&OKBOu'(
-@rc-hFD5W*+CT.u+ED%+BleB-EbTE(+Co1rFD5Z2@<-'nF"SS)DfQt3G[YH.Ch5X:$4R>kIXZ`m
-+>.COI16NY67sBjEb/[$AKYD(A8,OqBl@ltEd8dF@;TRd+=M>CF*')b+DG^9F)Y]#BkD'jA0>],
-@psInDf-!kDIn$&+=D8BF*')`4!u[]F(KB505>E=DD,aCA1q[V0JP5&ATMrI-T`\tATMrI+Du+>
-ATK4.$4R>;67sC$AS5^uFCfJ8@;[3!G][A3F<G+.@ruF'DIIR2+DtV)ARlo3FCfN80e!P=Eb/lo
-+=D8BF*',a4!u[]F(KB505>E=DD,aCA1q[V0JP5&ATMrJ-T`\tATMrJ+Du+>ATK4.$@[GQILQVn
-$8a@X<+ohc9jqNSG%G]8Bl@l3De:+a:IH=JF(KD8FD,5.F(f-$C`m5+D/E^!A0<(7E+No2+EVNE
-@WHC2F(Gdf+<Ve,;G;-S@;]TuEb/Zi+AbHq+CoD#F_t]-FE9&W+AH9S+A,Et+DGJ+DfTE1+EV:.
-+A*bdDf00$B6A6+A0;<g+<Ve9Ec6/CATAo%DIakd6q/;>ART+\E\8J6BPDN1Ch[a#FCB9*Df-\7
-BkM+$+C\n)Eb0&qG\(D.BkAIs$6UH6BlkJ:Ec6,4F!+n/DJsf7DJ(R2$4R>"/g)Vn6r+q#:K/H:
-;ahg<Cgh3sF!,17+AH9S+A,Et+E1b2BQGdU.Nh](BlbD2F!+n/+CT/*Dg?&7B-;5+F*)G:@ruF'
-D@Hpq+<Yc>@<<V`+EqO9C`mb0CghQ2Bl5&0@<?($+Eh=:F(oQ1F"SS%Cgh3sF!,=.Gp%'HDe+!#
-AKYQ)Ec5u>+DG^9%144#+A,Et+D58'ATD4$ARlp)BOu!r+Cf>,D..<mF"SRX:Mq:VBl7I"GB4mD
-@:NtbDIml3H#IgJ@ps6tASu!oDf]J4@VfIjCCLUn+<YB9An?%*ARlp&@<?1(+EqOABHUi(F^f/u
-+E;OBFCfM9Ch[Zr+CHC'3a>L%DeF*!D'2;^Ch7Zm,%*#G+A!\aD'3_7F<D#"+<VeJF`M%9BQ&);
-FDi:4D]j+>D.Rg&Bl7Q+F(oK*Ch[<u+EqOABHU#X@j#`!FD,_J%13OO2D-+E:IH=IATMs7+Eh[>
-F_t\4F)YPtAKYGnAoD^$+CfG'@<?4$B.P08DfBu9DJ()1EZfC6F*)>@Bl7Q+@UWb^F`;CS+AZkt
-=(uP_Dg-73$6UH6Ao_Ho+Co2-CER\;@:NjkBlbD;ATW'8DIm?$@X0))DBM5A8K_MOCht^H+AZkt
-9jqNZF!,"-F))n>E+*6f+DGm+$6UH6@s)g4ASuU+Gp$g6DJsQ,A1f!-Dfm1HBl%T.DImBi+CT@7
-Ch7$rF<E>U@N]T$+D,Y*AKZ&5@:NjkFDi:3Eb/[$ALns@Dg#\$$6UH6DfQt1DfBtE8l%htA8,Oq
-Bl@ltEbT*+/g*l&DIal8Dfm1:AfuA;FWbU?Cj@.:@<Q3)12UJCAo_Ho+Dl%<F<GL6+F.mJEZbeu
-+<Ve$@:LF$De=*8@<,p%GA1l0+EMXCE$0@CEbfB,B-:W#H$<\B/e&.1+:SZLAfuA;FWb75@rHL-
-FCfJ8E,ol+Ch7I)+E_a>DJ((a:IH=ECh7$rAKYQ$@;0O#D.OhuF?1OP@UX%`Eb],F3C%4o@;0O1
-@rH3l%13OO%13OO%13OOD..<rAn?%*C2[W<0ht%f+DkP)BkCptF<G16EZdtM6k'Jj5u:NP:JO&6
--V@0&+A*bP@VTIaF<Etc@ruF'DIIR2-OgD`78d&U:JO&6-SR/5/ibU5%15p*5u^<L;GC(Q3[],c
-DBNb0DKU1HA79M&Bl5:@+<VdL+:SZO5sdq)<(0;Q;HZ.D-V%`cATD3q-OgDP8PDQO4ZX]>+?CW!
-%16igA1hS2Et&IkDe*fqEc#kMBkh\u$>OKiE,ol/Bl%?5Bkh\u$>j3hBkCptF=q9BEt&IiBleB7
-Ed99ZG]XB%C2[Wl@;@N2De*fqEc#l,@;@K0C3'gkC2[Wl@;@N2De*g-De<^"AR](`/no'A%16ig
-A7At_05>E9F`V,7@rH6sBkLm`CG'=9Et&IkDe*Bs@kVY4DKU2ADffQ3/p)>[%16igA7TUg05Y--
-DJsW.F"VQZF:ARlDe*Bs@kVM;D/<a$@kVS8A8,plAU#h@FDYh'$>OKiA8bs2E+EQkDdtG8De*ft
-AhJ1MF:ARlDe*F(FE9*MDe*s.DesJIBkh\u$>OKiCggdo05>E9A9Da./no'B%16igA8G[`F"_9H
-A8,q'Ec3REC30mlC2[X!@:F:2C2[WlATMrGBkh`!$>OKiCggdo05P'+AU%X#E,9)>0JP1oC3'gk
-C2[X!@:F:2Cggd`F_u(MBkh\u$7QDk;FO8J5uU383[\Z#0JO\b2D?m/C,[h$-OgDN78QEJ6rQ60
-+>=p!+>=63A79Rg05>*5Ch7Ys$>3pfATD3q06:WDBlJ0)Dds4`.1HVP78lQO8PiAX:JO&6+>=p!
-+>=638l%ht-qYUX@VTIaF<Etc@ruF'DIIR2.3N>G+CQBb+E2@>B6%EtD/!m#+EVO?Cb?i&:IH=>
-F!(o!@3Bc4Eb$;2EbT*&FCeu*A79Rg@UX=h+D,P4+CT)&+EVmJATJu4Afs\gDdmHm@rucE+A,Et
-+:S[!F`;;<Ecc@FCh[d&ARlooBk)7!Df0!(Gp$X+FCAWeF(KD8@;]TuE,ol?Bk1dr+EVO?Ci^_2
-DfQs0$=n'bF_t]-FD5W*+CT.u+EV19FD5W*+A*bdDe*E3+:SYe$;#+X8g$&F0R+^4:IH=GAT;j,
-Eb0;7FD,5.AoDL%Dg,o5B-:VnA8c@,3XlE*$6UI%@<>p2C1_0rATJ:f+<Y*5@kW.BE$,Ss%15RC
-EZf4;Eb-A-DJ!g-D..O#Df-\=AS!!+BOr;Y:IH=LBkqE*E+*BjF!)l&DJ!f06?RBlDf.!T%17,u
-DBO%7AKYet@NZje:IH=A@:C?O:IH<sDKKo;A9DC(Bl@l5+>"^.:IH=A@:F:#@<,p%F`(`$EZbeu
-FD,5.7qHRLEa`c,Cggcq@psIjB5_g9+>"^SEZfO>F(o_=<+ohc8l%ht:gn!J+CT@Q%13OOBQS?8
-3\N-q@;BFpC1K=b/pD5SA8lR#F)rsDDf%.LBOrc1De(G=@:s.)%13OO8oJB\+@9LPATA4e@UX%`
-Eb],F3C%4o@;0O1@rH2n$7QDkD..<rAn?%*C2[X(Dfp)1AMPu867sBt@;]dkATMr9AoD]48l%iR
-:K::[71BSk5u:NP:JO&6-V@0&+AZH]ARfg)6tp.QBl@ltEd8d+Dfp)1AL@oo<^fnb8P`)E3[ZU6
-3A*<G-OgDZ9L2WI:Jsnc4ZXs7Bl5&0Bl8'<+Cno$GA1qB%15cp6:4%<77U-O=Znen7qHRLEa`c3
-%15Qr9LVlC3Zp+!3Zp*c$>j3hBkCptF=q9BEt&IkDe*p-F`Lu'/p_5N%16igA92[3Ear[%ATW'6
-/no'A%14Nn$;s;d76sj@4ZXs*2D?j.C,Rb$+DNhh0ddD;6q'p@:./#D3Zp+!3Zp*c$>3pfATD3q
-05>E9%16Na@kW.BE"*.'%15Kl;aXGS:fL"^:-CW\0H`D!0F\@;C2[X(Dfp)1AM/:CE%)oDF!+n/
-+CT;#BPDX$+Cf>-FCAm$Bl7Q+F(KB+@;KY(ARlooF_u(,$?g!$F(oQ1F!,C5+EV:.+EV:;ARuuV
-:IH=9Bk)7!Df0!(Gp$X+FCAWeF(KD8-u*[2A7]p8C2[W6F`_>6F"%P*FD,*)+CT;%+E_a:A0>u4
-+C]J-Ch+Z1BOr;Y:IH=HH#n(=D(Zr':IH=HH#n(=D'3A'@ruF'DIIR"ATJu&Eb,[eB5_^!+D#e+
-D/a<&F!,C5+D>\;+A,Et+Ceht+C\n)F`V,)+EVNE@WcC$A0>B#D/a<&GT]U$F*VhKASlK@%13OO
-8T#YC+?(o,GT]US6m-M]EHPu9ATJu9BOr;uDes6.GA1r-+CSekDf0VW%13OO+<Y3'FC?h;Anc'm
-Et&I!+CT;#07%>O+:SYe$;+)^+EMIDEarZ'A8,OqBl@ltEbT*++DG^9-u*[2F)Q2A@q@9=BlGLD
-@ps6t@V$['ATT&;E$/k4+EVgG+Eq7>F#ja;%14g=+B!?"+EV:.+A*bt@rc:&F<H$@A7TUrF"_0;
-DImisCbKOAA92[3EarZ6C2[X(Dfp)1ATMF)F`8sIC3'gk%144#+B3#gF!,1<+EV:.+ED%'Df'?&
-DId<h+Dk\3BQ%E6+<W(IDe*p-F`Lu'F(KH9E%Yj>F"&5F@<3Q#AS#`g$6UH6@q]F`CLq$!Df-\!
-Bl7I"GB4mA2D-[=/0J[d/hf"&@;]TuCh[d0GT^F4A0=TT@j#MF/hf"&1GU(^BlkJ=H#n(=D0%<=
-$6UH6:/=hX3Zq"9+Ceht+EV%-AKYD(D/!m1FCcS5EZfFA+EVNEEcl7P%144#+:SZ#+<X`O;GKeY
-7lhb@C2[X(Dfp)1ATMF)F`8cPF`V,8+CT;#07%>O+EqL5@qZus@;0P!+E)-?2DcOcBljdk+<VeJ
-H#n(=D0%<P;e9M_FD,5.8l%ht:gn!J%144#+:SZ#+<Y?>FDs8o04J@*ATDNr3B8^9DfTB-Eb0<5
-/n8g:06Cl=/S]37/T>-2AM4K"+<Vd9$6UH6AoD]4@3Bc4Ebd78Ec6)<A0>K&EZd7s+C]&,+EMgL
-FCf<1/e&-s$8O%Q;KZk"FD,5.8l%htCggcq,"bX!+B*3$EarZ'6Z6LH+@L?hE$/(hEbTK7F"SXZ
-%144#+A,Et+DbIqF!+n3AKY])+EV:.+D58'ATD3q+DbIq+Cei%AS5q%GqKO5%16QQCLqO$A2uY8
-B5M'kCbB49D%-h$%17E-H>7A/D..-rFCf\P1*n&;@;0U%8l%ht.!g2cC2[X"@;0U3FCf\G+DbJ.
-AU#>0Bl%?5+A,Et+EMIDEarZ'BlaV-+Cf>,E,Tf/A0>f&+CQC1F_tT!EZf:4+Cf4rF)to6/g+,,
-BlbD/Bl%>f,p6W;F(K2tCh7Z18l%ht@r,RpF(KD8@;]TuAU&04F(o`7Ed8dE@<?($Bjkfb,p6o>
-FDi:1+EM77B5D-%F)Q2A@q?cmDe*E%A8bt#D.RU,/d`m3,p6]9D/a3*Bl7Q+FD,B0+D,>(AKZ#)
-EHPu9ATJu5A7fXdFCf\J+F%I6@<?(*$7-$*+<VeGA7fXdFCf\>+F8?[C2[X"@;0Td,p4<QD..3k
-Bl7HmGT_<YH>7A/D..-r$7-f;+E1k'CghEsGT\,TH?s=EA8PahD@.[4+<YW6Ao(mtAU#=?H?smP
-De*]nBl47b>\S(pF`_t&:IIljFCfK$FCe9hARTFbCh55@AU&V1$=%"^FD,T5HV/3iDBM>"+@9LP
-ATE2+>]a\%Ch7ruFCf]=FEDk%:IH<Z/ibOE0RY'BDfp)1AKX?YA7^/r$7-g)Df'?"DIdf2AoD]4
-@:X+qF*),6B-:`!F*(i.@q>un+C\o(G@b?'+Cf>+F_u#;+CT.u+DG_7ATDm,DJ()#+EDU@AI;[`
-ATVa"DJ+')HX('!CisT4F(K<=HS]5MI0s5#ATVa"DJ+')HX('!CisT4F(K<2F_kW;HS@'0E--L8
->]b1.@rH1+D/K[f>]!nbATVX.Ch3rYFCAWpAT)0jDf0Z.DKKq,>]4Lk@rH1+D/K[f>]++sE+*Bj
-$=%:_E-68LH?s=EA8c?<FCf]F$4:$UATr*%B4VETBl7m4FF/=[C2[W8FCf]F$4:$UATr*%B4VET
-Bl7m4FF/=[C2[X(FDl22/p(ZLI0p<dDIn$2@:s-Y>\S(pF`_tVH>7A/D..3k/p(ZLI0p<dDIn$2
-@:s-Y>\S(pF`_tVH>7A/F`_>6/p(ZLI0p<dDIn$2@:s-Y>\S(pF`_tVH>7A/FDl)6F"VQGG^To+
--!Y>!GApu'AI9_gDf0,rDesQ5D@.[pBl7m4FF/H]IV3\>F`;dSIUd;,AM/(9G^To+>]++sE+*Bj
-$=%O`@;^1*D0'8uFD5Z2$=%"MA7KOqFCf?3F)5Q.AUAN;@sr]FARfgrDf0uM>]aP%FEDVO4Z\!6
-8T&'MG^Tp(E,oZ1FD5W'AU"Oh>\.e`HXq&)F_t]-FF=J                              ~>
-)
+zz=:''
+zz=:zz,'13 3$''JODBUILDHISTORY'';25;(78 66 46 32 83 121 115 116 101 109 58 32'
+zz=:zz,' 74 79 68 32 32 65 117 116 104 111 114 58 32 74 111 104 110 32 68 4'
+zz=:zz,'6 32 66 97 107 101 114 32 32 69 109 97 105 108 58 32 98 97 107 101 '
+zz=:zz,'114 106 100 57 57 64 103 109 97 105 108 46 99 111 109 13 10 78 66 4'
+zz=:zz,'6 32 86 101 114 115 105 111 110 58 32 48 46 57 46 56 53 32 32 66 11'
+zz=:zz,'7 105 108 100 32 78 117 109 98 101 114 58 32 49 32 32 68 97 116 101'
+zz=:zz,' 58 32 49 51 32 74 117 108 32 50 48 49 50 32 49 52 58 51 54 58 52 5'
+zz=:zz,'3 13 10 13 10 13 10 78 66 46 32 83 121 115 116 101 109 58 32 74 79 '
+zz=:zz,'68 32 32 65 117 116 104 111 114 58 32 74 111 104 110 32 68 46 32 66'
+zz=:zz,' 97 107 101 114 32 32 69 109 97 105 108 58 32 98 97 107 101 114 106'
+zz=:zz,' 100 57 57 64 103 109 97 105 108 46 99 111 109 13 10 78 66 46 32 86'
+zz=:zz,' 101 114 115 105 111 110 58 32 48 46 57 46 56 53 32 32 66 117 105 1'
+zz=:zz,'08 100 32 78 117 109 98 101 114 58 32 50 32 32 68 97 116 101 58 32 '
+zz=:zz,'49 51 32 74 117 108 32 50 48 49 50 32 49 52 58 52 56 58 48 56 13 10'
+zz=:zz,' 13 10 13 10 78 66 46 32 83 121 115 116 101 109 58 32 74 79 68 32 3'
+zz=:zz,'2 65 117 116 104 111 114 58 32 74 111 104 110 32 68 46 32 66 97 107'
+zz=:zz,' 101 114 32 32 69 109 97 105 108 58 32 98 97 107 101 114 106 100 57'
+zz=:zz,' 57 64 103 109 97 105 108 46 99 111 109 13 10 78 66 46 32 86 101 11'
+zz=:zz,'4 115 105 111 110 58 32 48 46 57 46 56 53 32 32 66 117 105 108 100 '
+zz=:zz,'32 78 117 109 98 101 114 58 32 51 32 32 68 97 116 101 58 32 49 51 3'
+zz=:zz,'2 74 117 108 32 50 48 49 50 32 49 52 58 53 50 58 49 57 13 10 13 10 '
+zz=:zz,'13 10 78 66 46 32 83 121 115 116 101 109 58 32 74 79 68 32 32 65 11'
+zz=:zz,'7 116 104 111 114 58 32 74 111 104 110 32 68 46 32 66 97 107 101 11'
+zz=:zz,'4 32 32 69 109 97 105 108 58 32 98 97 107 101 114 106 100 57 57 64 '
+zz=:zz,'103 109 97 105 108 46 99 111 109 13 10 78 66 46 32 86 101 114 115 1'
+zz=:zz,'05 111 110 58 32 48 46 57 46 56 53 32 32 66 117 105 108 100 32 78 1'
+zz=:zz,'17 109 98 101 114 58 32 52 32 32 68 97 116 101 58 32 49 51 32 74 11'
+zz=:zz,'7 108 32 50 48 49 50 32 49 52 58 53 51 58 52 56 13 10 13 10 13 10 7'
+zz=:zz,'8 66 46 32 83 121 115 116 101 109 58 32 74 79 68 32 32 65 117 116 1'
+zz=:zz,'04 111 114 58 32 74 111 104 110 32 68 46 32 66 97 107 101 114 32 32'
+zz=:zz,' 69 109 97 105 108 58 32 98 97 107 101 114 106 100 57 57 64 103 109'
+zz=:zz,' 97 105 108 46 99 111 109 13 10 78 66 46 32 86 101 114 115 105 111 '
+zz=:zz,'110 58 32 48 46 57 46 56 53 32 32 66 117 105 108 100 32 78 117 109 '
+zz=:zz,'98 101 114 58 32 53 32 32 68 97 116 101 58 32 50 32 65 117 103 32 5'
+zz=:zz,'0 48 49 50 32 49 49 58 50 48 58 49 51 13 10 10 10 78 66 46 32 83 12'
+zz=:zz,'1 115 116 101 109 58 32 74 79 68 32 32 65 117 116 104 111 114 58 32'
+zz=:zz,' 74 111 104 110 32 68 46 32 66 97 107 101 114 32 32 69 109 97 105 1'
+zz=:zz,'08 58 32 98 97 107 101 114 106 100 57 57 64 103 109 97 105 108 46 9'
+zz=:zz,'9 111 109 10 78 66 46 32 86 101 114 115 105 111 110 58 32 48 46 57 '
+zz=:zz,'46 56 53 32 32 66 117 105 108 100 32 78 117 109 98 101 114 58 32 54'
+zz=:zz,' 32 32 68 97 116 101 58 32 50 32 65 117 103 32 50 48 49 50 32 49 49'
+zz=:zz,' 58 51 50 58 48 49 10 10 10 78 66 46 32 83 121 115 116 101 109 58 3'
+zz=:zz,'2 74 79 68 32 32 65 117 116 104 111 114 58 32 74 111 104 110 32 68 '
+zz=:zz,'46 32 66 97 107 101 114 32 32 69 109 97 105 108 58 32 98 97 107 101'
+zz=:zz,' 114 106 100 57 57 64 103 109 97 105 108 46 99 111 109 10 78 66 46 '
+zz=:zz,'32 86 101 114 115 105 111 110 58 32 48 46 57 46 56 53 32 32 66 117 '
+zz=:zz,'105 108 100 32 78 117 109 98 101 114 58 32 55 32 32 68 97 116 101 5'
+zz=:zz,'8 32 50 52 32 83 101 112 32 50 48 49 50 32 49 48 58 51 53 58 48 53 '
+zz=:zz,'10 10 10 78 66 46 32 83 121 115 116 101 109 58 32 74 79 68 32 32 65'
+zz=:zz,' 117 116 104 111 114 58 32 74 111 104 110 32 68 46 32 66 97 107 101'
+zz=:zz,' 114 32 32 69 109 97 105 108 58 32 98 97 107 101 114 106 100 57 57 '
+zz=:zz,'64 103 109 97 105 108 46 99 111 109 10 78 66 46 32 86 101 114 115 1'
+zz=:zz,'05 111 110 58 32 48 46 57 46 56 53 32 32 66 117 105 108 100 32 78 1'
+zz=:zz,'17 109 98 101 114 58 32 56 32 32 68 97 116 101 58 32 49 48 32 79 99'
+zz=:zz,' 116 32 50 48 49 50 32 49 49 58 52 55 58 50 54 10 10 10 78 66 46 32'
+zz=:zz,' 83 121 115 116 101 109 58 32 74 79 68 32 32 65 117 116 104 111 114'
+zz=:zz,' 58 32 74 111 104 110 32 68 46 32 66 97 107 101 114 32 32 69 109 97'
+zz=:zz,' 105 108 58 32 98 97 107 101 114 106 100 57 57 64 103 109 97 105 10'
+zz=:zz,'8 46 99 111 109 10 78 66 46 32 86 101 114 115 105 111 110 58 32 48 '
+zz=:zz,'46 57 46 56 53 32 32 66 117 105 108 100 32 78 117 109 98 101 114 58'
+zz=:zz,' 32 57 32 32 68 97 116 101 58 32 49 48 32 79 99 116 32 50 48 49 50 '
+zz=:zz,'32 49 50 58 49 48 58 50 55 10 10 10 78 66 46 32 83 121 115 116 101 '
+zz=:zz,'109 58 32 74 79 68 32 32 65 117 116 104 111 114 58 32 74 111 104 11'
+zz=:zz,'0 32 68 46 32 66 97 107 101 114 32 32 69 109 97 105 108 58 32 98 97'
+zz=:zz,' 107 101 114 106 100 57 57 64 103 109 97 105 108 46 99 111 109 10 7'
+zz=:zz,'8 66 46 32 86 101 114 115 105 111 110 58 32 48 46 57 46 56 53 32 32'
+zz=:zz,' 66 117 105 108 100 32 78 117 109 98 101 114 58 32 49 48 32 32 68 9'
+zz=:zz,'7 116 101 58 32 49 48 32 79 99 116 32 50 48 49 50 32 49 53 58 49 48'
+zz=:zz,' 58 50 53 10 10 10 78 66 46 32 83 121 115 116 101 109 58 32 74 79 6'
+zz=:zz,'8 32 32 65 117 116 104 111 114 58 32 74 111 104 110 32 68 46 32 66 '
+zz=:zz,'97 107 101 114 32 32 69 109 97 105 108 58 32 98 97 107 101 114 106 '
+zz=:zz,'100 57 57 64 103 109 97 105 108 46 99 111 109 10 78 66 46 32 86 101'
+zz=:zz,' 114 115 105 111 110 58 32 48 46 57 46 56 53 32 32 66 117 105 108 1'
+zz=:zz,'00 32 78 117 109 98 101 114 58 32 49 49 32 32 68 97 116 101 58 32 4'
+zz=:zz,'9 50 32 79 99 116 32 50 48 49 50 32 49 48 58 52 48 58 48 57 10 10 1'
+zz=:zz,'0 78 66 46 32 83 121 115 116 101 109 58 32 74 79 68 32 32 65 117 11'
+zz=:zz,'6 104 111 114 58 32 74 111 104 110 32 68 46 32 66 97 107 101 114 32'
+zz=:zz,' 32 69 109 97 105 108 58 32 98 97 107 101 114 106 100 57 57 64 103 '
+zz=:zz,'109 97 105 108 46 99 111 109 10 78 66 46 32 86 101 114 115 105 111 '
+zz=:zz,'110 58 32 48 46 57 46 56 53 32 32 66 117 105 108 100 32 78 117 109 '
+zz=:zz,'98 101 114 58 32 49 50 32 32 68 97 116 101 58 32 49 50 32 79 99 116'
+zz=:zz,' 32 50 48 49 50 32 49 48 58 52 52 58 53 49 10 10 10 78 66 46 32 83 '
+zz=:zz,'121 115 116 101 109 58 32 74 79 68 32 32 65 117 116 104 111 114 58 '
+zz=:zz,'32 74 111 104 110 32 68 46 32 66 97 107 101 114 32 32 69 109 97 105'
+zz=:zz,' 108 58 32 98 97 107 101 114 106 100 57 57 64 103 109 97 105 108 46'
+zz=:zz,' 99 111 109 10 78 66 46 32 86 101 114 115 105 111 110 58 32 48 46 5'
+zz=:zz,'7 46 56 53 32 32 66 117 105 108 100 32 78 117 109 98 101 114 58 32 '
+zz=:zz,'49 51 32 32 68 97 116 101 58 32 49 50 32 79 99 116 32 50 48 49 50 3'
+zz=:zz,'2 49 48 58 52 57 58 48 54 10 10 10 78 66 46 32 83 121 115 116 101 1'
+zz=:zz,'09 58 32 74 79 68 32 32 65 117 116 104 111 114 58 32 74 111 104 110'
+zz=:zz,' 32 68 46 32 66 97 107 101 114 32 32 69 109 97 105 108 58 32 98 97 '
+zz=:zz,'107 101 114 106 100 57 57 64 103 109 97 105 108 46 99 111 109 10 78'
+zz=:zz,' 66 46 32 86 101 114 115 105 111 110 58 32 48 46 57 46 56 53 32 32 '
+zz=:zz,'66 117 105 108 100 32 78 117 109 98 101 114 58 32 49 52 32 32 68 97'
+zz=:zz,' 116 101 58 32 49 50 32 79 99 116 32 50 48 49 50 32 49 49 58 48 57 '
+zz=:zz,'58 53 54 10 10 10 78 66 46 32 83 121 115 116 101 109 58 32 74 79 68'
+zz=:zz,' 32 32 65 117 116 104 111 114 58 32 74 111 104 110 32 68 46 32 66 9'
+zz=:zz,'7 107 101 114 32 32 69 109 97 105 108 58 32 98 97 107 101 114 106 1'
+zz=:zz,'00 57 57 64 103 109 97 105 108 46 99 111 109 10 78 66 46 32 86 101 '
+zz=:zz,'114 115 105 111 110 58 32 48 46 57 46 56 53 32 32 66 117 105 108 10'
+zz=:zz,'0 32 78 117 109 98 101 114 58 32 49 53 32 32 68 97 116 101 58 32 49'
+zz=:zz,' 51 32 79 99 116 32 50 48 49 50 32 49 51 58 49 51 58 51 55 10 10 10'
+zz=:zz,' 78 66 46 32 83 121 115 116 101 109 58 32 74 79 68 32 32 65 117 116'
+zz=:zz,' 104 111 114 58 32 74 111 104 110 32 68 46 32 66 97 107 101 114 32 '
+zz=:zz,'32 69 109 97 105 108 58 32 98 97 107 101 114 106 100 57 57 64 103 1'
+zz=:zz,'09 97 105 108 46 99 111 109 10 78 66 46 32 86 101 114 115 105 111 1'
+zz=:zz,'10 58 32 48 46 57 46 56 53 32 32 66 117 105 108 100 32 78 117 109 9'
+zz=:zz,'8 101 114 58 32 49 54 32 32 68 97 116 101 58 32 49 51 32 79 99 116 '
+zz=:zz,'32 50 48 49 50 32 49 52 58 52 48 58 51 54 10 10 10 78 66 46 32 83 1'
+zz=:zz,'21 115 116 101 109 58 32 74 79 68 32 32 65 117 116 104 111 114 58 3'
+zz=:zz,'2 74 111 104 110 32 68 46 32 66 97 107 101 114 32 32 69 109 97 105 '
+zz=:zz,'108 58 32 98 97 107 101 114 106 100 57 57 64 103 109 97 105 108 46 '
+zz=:zz,'99 111 109 10 78 66 46 32 86 101 114 115 105 111 110 58 32 48 46 57'
+zz=:zz,' 46 57 48 32 32 66 117 105 108 100 32 78 117 109 98 101 114 58 32 4'
+zz=:zz,'9 32 32 68 97 116 101 58 32 49 54 32 79 99 116 32 50 48 49 50 32 48'
+zz=:zz,' 57 58 53 53 58 50 48 10 10 10 78 66 46 32 83 121 115 116 101 109 5'
+zz=:zz,'8 32 74 79 68 32 32 65 117 116 104 111 114 58 32 74 111 104 110 32 '
+zz=:zz,'68 46 32 66 97 107 101 114 32 32 69 109 97 105 108 58 32 98 97 107 '
+zz=:zz,'101 114 106 100 57 57 64 103 109 97 105 108 46 99 111 109 10 78 66 '
+zz=:zz,'46 32 86 101 114 115 105 111 110 58 32 48 46 57 46 57 48 32 32 66 1'
+zz=:zz,'17 105 108 100 32 78 117 109 98 101 114 58 32 50 32 32 68 97 116 10'
+zz=:zz,'1 58 32 49 54 32 79 99 116 32 50 48 49 50 32 49 48 58 51 49 58 49 5'
+zz=:zz,'6 10 10 10 78 66 46 32 83 121 115 116 101 109 58 32 74 79 68 32 32 '
+zz=:zz,'65 117 116 104 111 114 58 32 74 111 104 110 32 68 46 32 66 97 107 1'
+zz=:zz,'01 114 32 32 69 109 97 105 108 58 32 98 97 107 101 114 106 100 57 5'
+zz=:zz,'7 64 103 109 97 105 108 46 99 111 109 10 78 66 46 32 86 101 114 115'
+zz=:zz,' 105 111 110 58 32 48 46 57 46 57 48 32 32 66 117 105 108 100 32 78'
+zz=:zz,' 117 109 98 101 114 58 32 51 32 32 68 97 116 101 58 32 49 54 32 79 '
+zz=:zz,'99 116 32 50 48 49 50 32 49 48 58 51 54 58 48 52 10 10 10 78 66 46 '
+zz=:zz,'32 83 121 115 116 101 109 58 32 74 79 68 32 32 65 117 116 104 111 1'
+zz=:zz,'14 58 32 74 111 104 110 32 68 46 32 66 97 107 101 114 32 32 69 109 '
+zz=:zz,'97 105 108 58 32 98 97 107 101 114 106 100 57 57 64 103 109 97 105 '
+zz=:zz,'108 46 99 111 109 10 78 66 46 32 86 101 114 115 105 111 110 58 32 4'
+zz=:zz,'8 46 57 46 57 48 32 32 66 117 105 108 100 32 78 117 109 98 101 114 '
+zz=:zz,'58 32 52 32 32 68 97 116 101 58 32 49 54 32 79 99 116 32 50 48 49 5'
+zz=:zz,'0 32 49 48 58 52 54 58 50 51 10 10 10 78 66 46 32 83 121 115 116 10'
+zz=:zz,'1 109 58 32 74 79 68 32 32 65 117 116 104 111 114 58 32 74 111 104 '
+zz=:zz,'110 32 68 46 32 66 97 107 101 114 32 32 69 109 97 105 108 58 32 98 '
+zz=:zz,'97 107 101 114 106 100 57 57 64 103 109 97 105 108 46 99 111 109 10'
+zz=:zz,' 78 66 46 32 86 101 114 115 105 111 110 58 32 48 46 57 46 57 48 32 '
+zz=:zz,'32 66 117 105 108 100 32 78 117 109 98 101 114 58 32 53 32 32 68 97'
+zz=:zz,' 116 101 58 32 49 54 32 79 99 116 32 50 48 49 50 32 49 49 58 48 50 '
+zz=:zz,'58 48 48 10 10 10 78 66 46 32 83 121 115 116 101 109 58 32 74 79 68'
+zz=:zz,' 32 32 65 117 116 104 111 114 58 32 74 111 104 110 32 68 46 32 66 9'
+zz=:zz,'7 107 101 114 32 32 69 109 97 105 108 58 32 98 97 107 101 114 106 1'
+zz=:zz,'00 57 57 64 103 109 97 105 108 46 99 111 109 10 78 66 46 32 86 101 '
+zz=:zz,'114 115 105 111 110 58 32 48 46 57 46 57 48 32 32 66 117 105 108 10'
+zz=:zz,'0 32 78 117 109 98 101 114 58 32 54 32 32 68 97 116 101 58 32 50 32'
+zz=:zz,' 78 111 118 32 50 48 49 50 32 49 48 58 53 50 58 48 50 10 10 10 78 6'
+zz=:zz,'6 46 32 83 121 115 116 101 109 58 32 74 79 68 32 32 65 117 116 104 '
+zz=:zz,'111 114 58 32 74 111 104 110 32 68 46 32 66 97 107 101 114 32 32 69'
+zz=:zz,' 109 97 105 108 58 32 98 97 107 101 114 106 100 57 57 64 103 109 97'
+zz=:zz,' 105 108 46 99 111 109 10 78 66 46 32 86 101 114 115 105 111 110 58'
+zz=:zz,' 32 48 46 57 46 57 48 32 32 66 117 105 108 100 32 78 117 109 98 101'
+zz=:zz,' 114 58 32 55 32 32 68 97 116 101 58 32 50 32 78 111 118 32 50 48 4'
+zz=:zz,'9 50 32 49 49 58 48 57 58 51 48 10 10 10 78 66 46 32 83 121 115 116'
+zz=:zz,' 101 109 58 32 74 79 68 32 32 65 117 116 104 111 114 58 32 74 111 1'
+zz=:zz,'04 110 32 68 46 32 66 97 107 101 114 32 32 69 109 97 105 108 58 32 '
+zz=:zz,'98 97 107 101 114 106 100 57 57 64 103 109 97 105 108 46 99 111 109'
+zz=:zz,' 10 78 66 46 32 86 101 114 115 105 111 110 58 32 48 46 57 46 57 48 '
+zz=:zz,'32 32 66 117 105 108 100 32 78 117 109 98 101 114 58 32 56 32 32 68'
+zz=:zz,' 97 116 101 58 32 50 32 78 111 118 32 50 48 49 50 32 49 49 58 51 54'
+zz=:zz,' 58 48 50 10 10 10 78 66 46 32 83 121 115 116 101 109 58 32 74 79 6'
+zz=:zz,'8 32 32 65 117 116 104 111 114 58 32 74 111 104 110 32 68 46 32 66 '
+zz=:zz,'97 107 101 114 32 32 69 109 97 105 108 58 32 98 97 107 101 114 106 '
+zz=:zz,'100 57 57 64 103 109 97 105 108 46 99 111 109 10 78 66 46 32 86 101'
+zz=:zz,' 114 115 105 111 110 58 32 48 46 57 46 57 48 32 32 66 117 105 108 1'
+zz=:zz,'00 32 78 117 109 98 101 114 58 32 57 32 32 68 97 116 101 58 32 50 3'
+zz=:zz,'2 78 111 118 32 50 48 49 50 32 49 49 58 53 50 58 51 56 10 10 10 78 '
+zz=:zz,'66 46 32 83 121 115 116 101 109 58 32 74 79 68 32 32 65 117 116 104'
+zz=:zz,' 111 114 58 32 74 111 104 110 32 68 46 32 66 97 107 101 114 32 32 6'
+zz=:zz,'9 109 97 105 108 58 32 98 97 107 101 114 106 100 57 57 64 103 109 9'
+zz=:zz,'7 105 108 46 99 111 109 10 78 66 46 32 86 101 114 115 105 111 110 5'
+zz=:zz,'8 32 48 46 57 46 57 48 32 32 66 117 105 108 100 32 78 117 109 98 10'
+zz=:zz,'1 114 58 32 49 48 32 32 68 97 116 101 58 32 50 32 78 111 118 32 50 '
+zz=:zz,'48 49 50 32 49 50 58 48 54 58 52 52 10 10 10 78 66 46 32 83 121 115'
+zz=:zz,' 116 101 109 58 32 74 79 68 32 32 65 117 116 104 111 114 58 32 74 1'
+zz=:zz,'11 104 110 32 68 46 32 66 97 107 101 114 32 32 69 109 97 105 108 58'
+zz=:zz,' 32 98 97 107 101 114 106 100 57 57 64 103 109 97 105 108 46 99 111'
+zz=:zz,' 109 10 78 66 46 32 86 101 114 115 105 111 110 58 32 48 46 57 46 57'
+zz=:zz,' 48 32 32 66 117 105 108 100 32 78 117 109 98 101 114 58 32 49 49 3'
+zz=:zz,'2 32 68 97 116 101 58 32 50 32 78 111 118 32 50 48 49 50 32 49 51 5'
+zz=:zz,'8 50 56 58 50 55 10 10 10 78 66 46 32 83 121 115 116 101 109 58 32 '
+zz=:zz,'74 79 68 32 32 65 117 116 104 111 114 58 32 74 111 104 110 32 68 46'
+zz=:zz,' 32 66 97 107 101 114 32 32 69 109 97 105 108 58 32 98 97 107 101 1'
+zz=:zz,'14 106 100 57 57 64 103 109 97 105 108 46 99 111 109 10 78 66 46 32'
+zz=:zz,' 86 101 114 115 105 111 110 58 32 48 46 57 46 57 48 32 32 66 117 10'
+zz=:zz,'5 108 100 32 78 117 109 98 101 114 58 32 49 50 32 32 68 97 116 101 '
+zz=:zz,'58 32 50 32 78 111 118 32 50 48 49 50 32 49 51 58 51 50 58 51 57 10'
+zz=:zz,' 10 10 78 66 46 32 83 121 115 116 101 109 58 32 74 79 68 32 32 65 1'
+zz=:zz,'17 116 104 111 114 58 32 74 111 104 110 32 68 46 32 66 97 107 101 1'
+zz=:zz,'14 32 32 69 109 97 105 108 58 32 98 97 107 101 114 106 100 57 57 64'
+zz=:zz,' 103 109 97 105 108 46 99 111 109 10 78 66 46 32 86 101 114 115 105'
+zz=:zz,' 111 110 58 32 48 46 57 46 57 48 32 32 66 117 105 108 100 32 78 117'
+zz=:zz,' 109 98 101 114 58 32 49 51 32 32 68 97 116 101 58 32 50 32 78 111 '
+zz=:zz,'118 32 50 48 49 50 32 49 52 58 50 57 58 53 51 10 10 10 78 66 46 32 '
+zz=:zz,'83 121 115 116 101 109 58 32 74 79 68 32 32 65 117 116 104 111 114 '
+zz=:zz,'58 32 74 111 104 110 32 68 46 32 66 97 107 101 114 32 32 69 109 97 '
+zz=:zz,'105 108 58 32 98 97 107 101 114 106 100 57 57 64 103 109 97 105 108'
+zz=:zz,' 46 99 111 109 10 78 66 46 32 86 101 114 115 105 111 110 58 32 48 4'
+zz=:zz,'6 57 46 57 48 32 32 66 117 105 108 100 32 78 117 109 98 101 114 58 '
+zz=:zz,'32 49 52 32 32 68 97 116 101 58 32 50 32 78 111 118 32 50 48 49 50 '
+zz=:zz,'32 49 52 58 52 54 58 48 54 10 10 10 78 66 46 32 83 121 115 116 101 '
+zz=:zz,'109 58 32 74 79 68 32 32 65 117 116 104 111 114 58 32 74 111 104 11'
+zz=:zz,'0 32 68 46 32 66 97 107 101 114 32 32 69 109 97 105 108 58 32 98 97'
+zz=:zz,' 107 101 114 106 100 57 57 64 103 109 97 105 108 46 99 111 109 10 7'
+zz=:zz,'8 66 46 32 86 101 114 115 105 111 110 58 32 48 46 57 46 57 48 32 32'
+zz=:zz,' 66 117 105 108 100 32 78 117 109 98 101 114 58 32 49 53 32 32 68 9'
+zz=:zz,'7 116 101 58 32 51 32 78 111 118 32 50 48 49 50 32 49 53 58 51 50 5'
+zz=:zz,'8 52 56 10 10 10 78 66 46 32 83 121 115 116 101 109 58 32 74 79 68 '
+zz=:zz,'32 32 65 117 116 104 111 114 58 32 74 111 104 110 32 68 46 32 66 97'
+zz=:zz,' 107 101 114 32 32 69 109 97 105 108 58 32 98 97 107 101 114 106 10'
+zz=:zz,'0 57 57 64 103 109 97 105 108 46 99 111 109 10 78 66 46 32 86 101 1'
+zz=:zz,'14 115 105 111 110 58 32 48 46 57 46 57 48 32 32 66 117 105 108 100'
+zz=:zz,' 32 78 117 109 98 101 114 58 32 49 54 32 32 68 97 116 101 58 32 49 '
+zz=:zz,'54 32 78 111 118 32 50 48 49 50 32 48 57 58 51 49 58 50 56 10 10 10'
+zz=:zz,' 78 66 46 32 83 121 115 116 101 109 58 32 74 79 68 32 32 65 117 116'
+zz=:zz,' 104 111 114 58 32 74 111 104 110 32 68 46 32 66 97 107 101 114 32 '
+zz=:zz,'32 69 109 97 105 108 58 32 98 97 107 101 114 106 100 57 57 64 103 1'
+zz=:zz,'09 97 105 108 46 99 111 109 10 78 66 46 32 86 101 114 115 105 111 1'
+zz=:zz,'10 58 32 48 46 57 46 57 48 32 32 66 117 105 108 100 32 78 117 109 9'
+zz=:zz,'8 101 114 58 32 49 55 32 32 68 97 116 101 58 32 49 54 32 78 111 118'
+zz=:zz,' 32 50 48 49 50 32 48 57 58 51 50 58 50 53 10 10 10 78 66 46 32 83 '
+zz=:zz,'121 115 116 101 109 58 32 74 79 68 32 32 65 117 116 104 111 114 58 '
+zz=:zz,'32 74 111 104 110 32 68 46 32 66 97 107 101 114 32 32 69 109 97 105'
+zz=:zz,' 108 58 32 98 97 107 101 114 106 100 57 57 64 103 109 97 105 108 46'
+zz=:zz,' 99 111 109 10 78 66 46 32 86 101 114 115 105 111 110 58 32 48 46 5'
+zz=:zz,'7 46 57 48 32 32 66 117 105 108 100 32 78 117 109 98 101 114 58 32 '
+zz=:zz,'49 56 32 32 68 97 116 101 58 32 49 54 32 78 111 118 32 50 48 49 50 '
+zz=:zz,'32 48 57 58 53 50 58 53 54 10 10 10 78 66 46 32 83 121 115 116 101 '
+zz=:zz,'109 58 32 74 79 68 32 32 65 117 116 104 111 114 58 32 74 111 104 11'
+zz=:zz,'0 32 68 46 32 66 97 107 101 114 32 32 69 109 97 105 108 58 32 98 97'
+zz=:zz,' 107 101 114 106 100 57 57 64 103 109 97 105 108 46 99 111 109 10 7'
+zz=:zz,'8 66 46 32 86 101 114 115 105 111 110 58 32 48 46 57 46 57 48 32 32'
+zz=:zz,' 66 117 105 108 100 32 78 117 109 98 101 114 58 32 49 57 32 32 68 9'
+zz=:zz,'7 116 101 58 32 49 54 32 78 111 118 32 50 48 49 50 32 49 48 58 48 5'
+zz=:zz,'0 58 48 54 10 10 10 78 66 46 32 83 121 115 116 101 109 58 32 74 79 '
+zz=:zz,'68 32 32 65 117 116 104 111 114 58 32 74 111 104 110 32 68 46 32 66'
+zz=:zz,' 97 107 101 114 32 32 69 109 97 105 108 58 32 98 97 107 101 114 106'
+zz=:zz,' 100 57 57 64 103 109 97 105 108 46 99 111 109 10 78 66 46 32 86 10'
+zz=:zz,'1 114 115 105 111 110 58 32 48 46 57 46 57 48 32 32 66 117 105 108 '
+zz=:zz,'100 32 78 117 109 98 101 114 58 32 50 48 32 32 68 97 116 101 58 32 '
+zz=:zz,'49 54 32 78 111 118 32 50 48 49 50 32 49 49 58 50 51 58 49 48 10 10'
+zz=:zz,' 10 78 66 46 32 83 121 115 116 101 109 58 32 74 79 68 32 32 65 117 '
+zz=:zz,'116 104 111 114 58 32 74 111 104 110 32 68 46 32 66 97 107 101 114 '
+zz=:zz,'32 32 69 109 97 105 108 58 32 98 97 107 101 114 106 100 57 57 64 10'
+zz=:zz,'3 109 97 105 108 46 99 111 109 10 78 66 46 32 86 101 114 115 105 11'
+zz=:zz,'1 110 58 32 48 46 57 46 57 48 32 32 66 117 105 108 100 32 78 117 10'
+zz=:zz,'9 98 101 114 58 32 50 49 32 32 68 97 116 101 58 32 49 56 32 78 111 '
+zz=:zz,'118 32 50 48 49 50 32 50 49 58 49 57 58 52 54 10 10 10 78 66 46 32 '
+zz=:zz,'83 121 115 116 101 109 58 32 74 79 68 32 32 65 117 116 104 111 114 '
+zz=:zz,'58 32 74 111 104 110 32 68 46 32 66 97 107 101 114 32 32 69 109 97 '
+zz=:zz,'105 108 58 32 98 97 107 101 114 106 100 57 57 64 103 109 97 105 108'
+zz=:zz,' 46 99 111 109 10 78 66 46 32 86 101 114 115 105 111 110 58 32 48 4'
+zz=:zz,'6 57 46 57 48 32 32 66 117 105 108 100 32 78 117 109 98 101 114 58 '
+zz=:zz,'32 50 50 32 32 68 97 116 101 58 32 49 57 32 78 111 118 32 50 48 49 '
+zz=:zz,'50 32 49 49 58 48 57 58 48 54 10{a.);''JODTOOLSBUILDHISTORY'';25;(78 '
+zz=:zz,'66 46 32 83 121 115 116 101 109 58 32 106 111 100 116 111 111 108 1'
+zz=:zz,'15 32 32 65 117 116 104 111 114 58 32 74 111 104 110 32 68 46 32 66'
+zz=:zz,' 97 107 101 114 32 32 69 109 97 105 108 58 32 98 97 107 101 114 106'
+zz=:zz,' 100 57 57 64 103 109 97 105 108 46 99 111 109 13 10 78 66 46 32 86'
+zz=:zz,' 101 114 115 105 111 110 58 32 48 46 57 46 56 48 32 32 66 117 105 1'
+zz=:zz,'08 100 32 78 117 109 98 101 114 58 32 51 53 32 32 68 97 116 101 58 '
+zz=:zz,'32 49 51 32 74 117 108 32 50 48 49 50 32 48 57 58 51 55 58 51 56 13'
+zz=:zz,' 10 13 10 13 10 78 66 46 32 83 121 115 116 101 109 58 32 106 111 10'
+zz=:zz,'0 116 111 111 108 115 32 32 65 117 116 104 111 114 58 32 74 111 104'
+zz=:zz,' 110 32 68 46 32 66 97 107 101 114 32 32 69 109 97 105 108 58 32 98'
+zz=:zz,' 97 107 101 114 106 100 57 57 64 103 109 97 105 108 46 99 111 109 1'
+zz=:zz,'3 10 78 66 46 32 86 101 114 115 105 111 110 58 32 48 46 57 46 56 53'
+zz=:zz,' 32 32 66 117 105 108 100 32 78 117 109 98 101 114 58 32 49 32 32 6'
+zz=:zz,'8 97 116 101 58 32 50 32 65 117 103 32 50 48 49 50 32 49 49 58 50 4'
+zz=:zz,'8 58 49 54 13 10 10 10 78 66 46 32 83 121 115 116 101 109 58 32 106'
+zz=:zz,' 111 100 116 111 111 108 115 32 32 65 117 116 104 111 114 58 32 74 '
+zz=:zz,'111 104 110 32 68 46 32 66 97 107 101 114 32 32 69 109 97 105 108 5'
+zz=:zz,'8 32 98 97 107 101 114 106 100 57 57 64 103 109 97 105 108 46 99 11'
+zz=:zz,'1 109 10 78 66 46 32 86 101 114 115 105 111 110 58 32 48 46 57 46 5'
+zz=:zz,'6 53 32 32 66 117 105 108 100 32 78 117 109 98 101 114 58 32 50 32 '
+zz=:zz,'32 68 97 116 101 58 32 50 32 65 117 103 32 50 48 49 50 32 49 49 58 '
+zz=:zz,'51 50 58 48 50 10 10 10 78 66 46 32 83 121 115 116 101 109 58 32 10'
+zz=:zz,'6 111 100 116 111 111 108 115 32 32 65 117 116 104 111 114 58 32 74'
+zz=:zz,' 111 104 110 32 68 46 32 66 97 107 101 114 32 32 69 109 97 105 108 '
+zz=:zz,'58 32 98 97 107 101 114 106 100 57 57 64 103 109 97 105 108 46 99 1'
+zz=:zz,'11 109 10 78 66 46 32 86 101 114 115 105 111 110 58 32 48 46 57 46 '
+zz=:zz,'56 53 32 32 66 117 105 108 100 32 78 117 109 98 101 114 58 32 51 32'
+zz=:zz,' 32 68 97 116 101 58 32 50 52 32 83 101 112 32 50 48 49 50 32 49 48'
+zz=:zz,' 58 51 53 58 48 55 10 10 10 78 66 46 32 83 121 115 116 101 109 58 3'
+zz=:zz,'2 106 111 100 116 111 111 108 115 32 32 65 117 116 104 111 114 58 3'
+zz=:zz,'2 74 111 104 110 32 68 46 32 66 97 107 101 114 32 32 69 109 97 105 '
+zz=:zz,'108 58 32 98 97 107 101 114 106 100 57 57 64 103 109 97 105 108 46 '
+zz=:zz,'99 111 109 10 78 66 46 32 86 101 114 115 105 111 110 58 32 48 46 57'
+zz=:zz,' 46 56 53 32 32 66 117 105 108 100 32 78 117 109 98 101 114 58 32 5'
+zz=:zz,'2 32 32 68 97 116 101 58 32 49 48 32 79 99 116 32 50 48 49 50 32 49'
+zz=:zz,' 49 58 52 55 58 50 57 10 10 10 78 66 46 32 83 121 115 116 101 109 5'
+zz=:zz,'8 32 106 111 100 116 111 111 108 115 32 32 65 117 116 104 111 114 5'
+zz=:zz,'8 32 74 111 104 110 32 68 46 32 66 97 107 101 114 32 32 69 109 97 1'
+zz=:zz,'05 108 58 32 98 97 107 101 114 106 100 57 57 64 103 109 97 105 108 '
+zz=:zz,'46 99 111 109 10 78 66 46 32 86 101 114 115 105 111 110 58 32 48 46'
+zz=:zz,' 57 46 56 53 32 32 66 117 105 108 100 32 78 117 109 98 101 114 58 3'
+zz=:zz,'2 53 32 32 68 97 116 101 58 32 49 48 32 79 99 116 32 50 48 49 50 32'
+zz=:zz,' 49 50 58 49 48 58 50 57 10 10 10 78 66 46 32 83 121 115 116 101 10'
+zz=:zz,'9 58 32 106 111 100 116 111 111 108 115 32 32 65 117 116 104 111 11'
+zz=:zz,'4 58 32 74 111 104 110 32 68 46 32 66 97 107 101 114 32 32 69 109 9'
+zz=:zz,'7 105 108 58 32 98 97 107 101 114 106 100 57 57 64 103 109 97 105 1'
+zz=:zz,'08 46 99 111 109 10 78 66 46 32 86 101 114 115 105 111 110 58 32 48'
+zz=:zz,' 46 57 46 56 53 32 32 66 117 105 108 100 32 78 117 109 98 101 114 5'
+zz=:zz,'8 32 54 32 32 68 97 116 101 58 32 49 48 32 79 99 116 32 50 48 49 50'
+zz=:zz,' 32 49 53 58 49 48 58 50 54 10 10 10 78 66 46 32 83 121 115 116 101'
+zz=:zz,' 109 58 32 106 111 100 116 111 111 108 115 32 32 65 117 116 104 111'
+zz=:zz,' 114 58 32 74 111 104 110 32 68 46 32 66 97 107 101 114 32 32 69 10'
+zz=:zz,'9 97 105 108 58 32 98 97 107 101 114 106 100 57 57 64 103 109 97 10'
+zz=:zz,'5 108 46 99 111 109 10 78 66 46 32 86 101 114 115 105 111 110 58 32'
+zz=:zz,' 48 46 57 46 56 53 32 32 66 117 105 108 100 32 78 117 109 98 101 11'
+zz=:zz,'4 58 32 55 32 32 68 97 116 101 58 32 49 50 32 79 99 116 32 50 48 49'
+zz=:zz,' 50 32 49 48 58 52 48 58 49 49 10 10 10 78 66 46 32 83 121 115 116 '
+zz=:zz,'101 109 58 32 106 111 100 116 111 111 108 115 32 32 65 117 116 104 '
+zz=:zz,'111 114 58 32 74 111 104 110 32 68 46 32 66 97 107 101 114 32 32 69'
+zz=:zz,' 109 97 105 108 58 32 98 97 107 101 114 106 100 57 57 64 103 109 97'
+zz=:zz,' 105 108 46 99 111 109 10 78 66 46 32 86 101 114 115 105 111 110 58'
+zz=:zz,' 32 48 46 57 46 56 53 32 32 66 117 105 108 100 32 78 117 109 98 101'
+zz=:zz,' 114 58 32 56 32 32 68 97 116 101 58 32 49 50 32 79 99 116 32 50 48'
+zz=:zz,' 49 50 32 49 48 58 52 52 58 53 51 10 10 10 78 66 46 32 83 121 115 1'
+zz=:zz,'16 101 109 58 32 106 111 100 116 111 111 108 115 32 32 65 117 116 1'
+zz=:zz,'04 111 114 58 32 74 111 104 110 32 68 46 32 66 97 107 101 114 32 32'
+zz=:zz,' 69 109 97 105 108 58 32 98 97 107 101 114 106 100 57 57 64 103 109'
+zz=:zz,' 97 105 108 46 99 111 109 10 78 66 46 32 86 101 114 115 105 111 110'
+zz=:zz,' 58 32 48 46 57 46 56 53 32 32 66 117 105 108 100 32 78 117 109 98 '
+zz=:zz,'101 114 58 32 57 32 32 68 97 116 101 58 32 49 50 32 79 99 116 32 50'
+zz=:zz,' 48 49 50 32 49 48 58 52 57 58 51 51 10 10 10 78 66 46 32 83 121 11'
+zz=:zz,'5 116 101 109 58 32 106 111 100 116 111 111 108 115 32 32 65 117 11'
+zz=:zz,'6 104 111 114 58 32 74 111 104 110 32 68 46 32 66 97 107 101 114 32'
+zz=:zz,' 32 69 109 97 105 108 58 32 98 97 107 101 114 106 100 57 57 64 103 '
+zz=:zz,'109 97 105 108 46 99 111 109 10 78 66 46 32 86 101 114 115 105 111 '
+zz=:zz,'110 58 32 48 46 57 46 56 53 32 32 66 117 105 108 100 32 78 117 109 '
+zz=:zz,'98 101 114 58 32 49 48 32 32 68 97 116 101 58 32 49 50 32 79 99 116'
+zz=:zz,' 32 50 48 49 50 32 49 49 58 48 57 58 53 55 10 10 10 78 66 46 32 83 '
+zz=:zz,'121 115 116 101 109 58 32 106 111 100 116 111 111 108 115 32 32 65 '
+zz=:zz,'117 116 104 111 114 58 32 74 111 104 110 32 68 46 32 66 97 107 101 '
+zz=:zz,'114 32 32 69 109 97 105 108 58 32 98 97 107 101 114 106 100 57 57 6'
+zz=:zz,'4 103 109 97 105 108 46 99 111 109 10 78 66 46 32 86 101 114 115 10'
+zz=:zz,'5 111 110 58 32 48 46 57 46 56 53 32 32 66 117 105 108 100 32 78 11'
+zz=:zz,'7 109 98 101 114 58 32 49 49 32 32 68 97 116 101 58 32 49 51 32 79 '
+zz=:zz,'99 116 32 50 48 49 50 32 49 51 58 49 51 58 52 48 10 10 10 78 66 46 '
+zz=:zz,'32 83 121 115 116 101 109 58 32 106 111 100 116 111 111 108 115 32 '
+zz=:zz,'32 65 117 116 104 111 114 58 32 74 111 104 110 32 68 46 32 66 97 10'
+zz=:zz,'7 101 114 32 32 69 109 97 105 108 58 32 98 97 107 101 114 106 100 5'
+zz=:zz,'7 57 64 103 109 97 105 108 46 99 111 109 10 78 66 46 32 86 101 114 '
+zz=:zz,'115 105 111 110 58 32 48 46 57 46 56 53 32 32 66 117 105 108 100 32'
+zz=:zz,' 78 117 109 98 101 114 58 32 49 50 32 32 68 97 116 101 58 32 49 51 '
+zz=:zz,'32 79 99 116 32 50 48 49 50 32 49 52 58 52 48 58 51 56 10 10 10 78 '
+zz=:zz,'66 46 32 83 121 115 116 101 109 58 32 106 111 100 116 111 111 108 1'
+zz=:zz,'15 32 32 65 117 116 104 111 114 58 32 74 111 104 110 32 68 46 32 66'
+zz=:zz,' 97 107 101 114 32 32 69 109 97 105 108 58 32 98 97 107 101 114 106'
+zz=:zz,' 100 57 57 64 103 109 97 105 108 46 99 111 109 10 78 66 46 32 86 10'
+zz=:zz,'1 114 115 105 111 110 58 32 48 46 57 46 57 48 32 32 66 117 105 108 '
+zz=:zz,'100 32 78 117 109 98 101 114 58 32 49 32 32 68 97 116 101 58 32 49 '
+zz=:zz,'54 32 79 99 116 32 50 48 49 50 32 48 57 58 53 53 58 50 51 10 10 10 '
+zz=:zz,'78 66 46 32 83 121 115 116 101 109 58 32 106 111 100 116 111 111 10'
+zz=:zz,'8 115 32 32 65 117 116 104 111 114 58 32 74 111 104 110 32 68 46 32'
+zz=:zz,' 66 97 107 101 114 32 32 69 109 97 105 108 58 32 98 97 107 101 114 '
+zz=:zz,'106 100 57 57 64 103 109 97 105 108 46 99 111 109 10 78 66 46 32 86'
+zz=:zz,' 101 114 115 105 111 110 58 32 48 46 57 46 57 48 32 32 66 117 105 1'
+zz=:zz,'08 100 32 78 117 109 98 101 114 58 32 50 32 32 68 97 116 101 58 32 '
+zz=:zz,'49 54 32 79 99 116 32 50 48 49 50 32 49 48 58 51 49 58 50 48 10 10 '
+zz=:zz,'10 78 66 46 32 83 121 115 116 101 109 58 32 106 111 100 116 111 111'
+zz=:zz,' 108 115 32 32 65 117 116 104 111 114 58 32 74 111 104 110 32 68 46'
+zz=:zz,' 32 66 97 107 101 114 32 32 69 109 97 105 108 58 32 98 97 107 101 1'
+zz=:zz,'14 106 100 57 57 64 103 109 97 105 108 46 99 111 109 10 78 66 46 32'
+zz=:zz,' 86 101 114 115 105 111 110 58 32 48 46 57 46 57 48 32 32 66 117 10'
+zz=:zz,'5 108 100 32 78 117 109 98 101 114 58 32 51 32 32 68 97 116 101 58 '
+zz=:zz,'32 49 54 32 79 99 116 32 50 48 49 50 32 49 48 58 51 54 58 48 54 10 '
+zz=:zz,'10 10 78 66 46 32 83 121 115 116 101 109 58 32 106 111 100 116 111 '
+zz=:zz,'111 108 115 32 32 65 117 116 104 111 114 58 32 74 111 104 110 32 68'
+zz=:zz,' 46 32 66 97 107 101 114 32 32 69 109 97 105 108 58 32 98 97 107 10'
+zz=:zz,'1 114 106 100 57 57 64 103 109 97 105 108 46 99 111 109 10 78 66 46'
+zz=:zz,' 32 86 101 114 115 105 111 110 58 32 48 46 57 46 57 48 32 32 66 117'
+zz=:zz,' 105 108 100 32 78 117 109 98 101 114 58 32 52 32 32 68 97 116 101 '
+zz=:zz,'58 32 49 54 32 79 99 116 32 50 48 49 50 32 49 48 58 52 54 58 50 53 '
+zz=:zz,'10 10 10 78 66 46 32 83 121 115 116 101 109 58 32 106 111 100 116 1'
+zz=:zz,'11 111 108 115 32 32 65 117 116 104 111 114 58 32 74 111 104 110 32'
+zz=:zz,' 68 46 32 66 97 107 101 114 32 32 69 109 97 105 108 58 32 98 97 107'
+zz=:zz,' 101 114 106 100 57 57 64 103 109 97 105 108 46 99 111 109 10 78 66'
+zz=:zz,' 46 32 86 101 114 115 105 111 110 58 32 48 46 57 46 57 48 32 32 66 '
+zz=:zz,'117 105 108 100 32 78 117 109 98 101 114 58 32 53 32 32 68 97 116 1'
+zz=:zz,'01 58 32 49 54 32 79 99 116 32 50 48 49 50 32 49 49 58 48 50 58 48 '
+zz=:zz,'50 10 10 10 78 66 46 32 83 121 115 116 101 109 58 32 106 111 100 11'
+zz=:zz,'6 111 111 108 115 32 32 65 117 116 104 111 114 58 32 74 111 104 110'
+zz=:zz,' 32 68 46 32 66 97 107 101 114 32 32 69 109 97 105 108 58 32 98 97 '
+zz=:zz,'107 101 114 106 100 57 57 64 103 109 97 105 108 46 99 111 109 10 78'
+zz=:zz,' 66 46 32 86 101 114 115 105 111 110 58 32 48 46 57 46 57 48 32 32 '
+zz=:zz,'66 117 105 108 100 32 78 117 109 98 101 114 58 32 54 32 32 68 97 11'
+zz=:zz,'6 101 58 32 50 32 78 111 118 32 50 48 49 50 32 49 48 58 53 50 58 48'
+zz=:zz,' 53 10 10 10 78 66 46 32 83 121 115 116 101 109 58 32 106 111 100 1'
+zz=:zz,'16 111 111 108 115 32 32 65 117 116 104 111 114 58 32 74 111 104 11'
+zz=:zz,'0 32 68 46 32 66 97 107 101 114 32 32 69 109 97 105 108 58 32 98 97'
+zz=:zz,' 107 101 114 106 100 57 57 64 103 109 97 105 108 46 99 111 109 10 7'
+zz=:zz,'8 66 46 32 86 101 114 115 105 111 110 58 32 48 46 57 46 57 48 32 32'
+zz=:zz,' 66 117 105 108 100 32 78 117 109 98 101 114 58 32 55 32 32 68 97 1'
+zz=:zz,'16 101 58 32 50 32 78 111 118 32 50 48 49 50 32 49 49 58 48 57 58 5'
+zz=:zz,'1 50 10 10 10 78 66 46 32 83 121 115 116 101 109 58 32 106 111 100 '
+zz=:zz,'116 111 111 108 115 32 32 65 117 116 104 111 114 58 32 74 111 104 1'
+zz=:zz,'10 32 68 46 32 66 97 107 101 114 32 32 69 109 97 105 108 58 32 98 9'
+zz=:zz,'7 107 101 114 106 100 57 57 64 103 109 97 105 108 46 99 111 109 10 '
+zz=:zz,'78 66 46 32 86 101 114 115 105 111 110 58 32 48 46 57 46 57 48 32 3'
+zz=:zz,'2 66 117 105 108 100 32 78 117 109 98 101 114 58 32 56 32 32 68 97 '
+zz=:zz,'116 101 58 32 50 32 78 111 118 32 50 48 49 50 32 49 49 58 51 54 58 '
+zz=:zz,'48 52 10 10 10 78 66 46 32 83 121 115 116 101 109 58 32 106 111 100'
+zz=:zz,' 116 111 111 108 115 32 32 65 117 116 104 111 114 58 32 74 111 104 '
+zz=:zz,'110 32 68 46 32 66 97 107 101 114 32 32 69 109 97 105 108 58 32 98 '
+zz=:zz,'97 107 101 114 106 100 57 57 64 103 109 97 105 108 46 99 111 109 10'
+zz=:zz,' 78 66 46 32 86 101 114 115 105 111 110 58 32 48 46 57 46 57 48 32 '
+zz=:zz,'32 66 117 105 108 100 32 78 117 109 98 101 114 58 32 57 32 32 68 97'
+zz=:zz,' 116 101 58 32 50 32 78 111 118 32 50 48 49 50 32 49 49 58 53 50 58'
+zz=:zz,' 52 48 10 10 10 78 66 46 32 83 121 115 116 101 109 58 32 106 111 10'
+zz=:zz,'0 116 111 111 108 115 32 32 65 117 116 104 111 114 58 32 74 111 104'
+zz=:zz,' 110 32 68 46 32 66 97 107 101 114 32 32 69 109 97 105 108 58 32 98'
+zz=:zz,' 97 107 101 114 106 100 57 57 64 103 109 97 105 108 46 99 111 109 1'
+zz=:zz,'0 78 66 46 32 86 101 114 115 105 111 110 58 32 48 46 57 46 57 48 32'
+zz=:zz,' 32 66 117 105 108 100 32 78 117 109 98 101 114 58 32 49 48 32 32 6'
+zz=:zz,'8 97 116 101 58 32 50 32 78 111 118 32 50 48 49 50 32 49 50 58 48 5'
+zz=:zz,'4 58 52 54 10 10 10 78 66 46 32 83 121 115 116 101 109 58 32 106 11'
+zz=:zz,'1 100 116 111 111 108 115 32 32 65 117 116 104 111 114 58 32 74 111'
+zz=:zz,' 104 110 32 68 46 32 66 97 107 101 114 32 32 69 109 97 105 108 58 3'
+zz=:zz,'2 98 97 107 101 114 106 100 57 57 64 103 109 97 105 108 46 99 111 1'
+zz=:zz,'09 10 78 66 46 32 86 101 114 115 105 111 110 58 32 48 46 57 46 57 4'
+zz=:zz,'8 32 32 66 117 105 108 100 32 78 117 109 98 101 114 58 32 49 49 32 '
+zz=:zz,'32 68 97 116 101 58 32 50 32 78 111 118 32 50 48 49 50 32 49 51 58 '
+zz=:zz,'50 56 58 50 57 10 10 10 78 66 46 32 83 121 115 116 101 109 58 32 10'
+zz=:zz,'6 111 100 116 111 111 108 115 32 32 65 117 116 104 111 114 58 32 74'
+zz=:zz,' 111 104 110 32 68 46 32 66 97 107 101 114 32 32 69 109 97 105 108 '
+zz=:zz,'58 32 98 97 107 101 114 106 100 57 57 64 103 109 97 105 108 46 99 1'
+zz=:zz,'11 109 10 78 66 46 32 86 101 114 115 105 111 110 58 32 48 46 57 46 '
+zz=:zz,'57 48 32 32 66 117 105 108 100 32 78 117 109 98 101 114 58 32 49 50'
+zz=:zz,' 32 32 68 97 116 101 58 32 50 32 78 111 118 32 50 48 49 50 32 49 51'
+zz=:zz,' 58 51 50 58 52 48 10 10 10 78 66 46 32 83 121 115 116 101 109 58 3'
+zz=:zz,'2 106 111 100 116 111 111 108 115 32 32 65 117 116 104 111 114 58 3'
+zz=:zz,'2 74 111 104 110 32 68 46 32 66 97 107 101 114 32 32 69 109 97 105 '
+zz=:zz,'108 58 32 98 97 107 101 114 106 100 57 57 64 103 109 97 105 108 46 '
+zz=:zz,'99 111 109 10 78 66 46 32 86 101 114 115 105 111 110 58 32 48 46 57'
+zz=:zz,' 46 57 48 32 32 66 117 105 108 100 32 78 117 109 98 101 114 58 32 4'
+zz=:zz,'9 51 32 32 68 97 116 101 58 32 50 32 78 111 118 32 50 48 49 50 32 4'
+zz=:zz,'9 52 58 50 57 58 53 53 10 10 10 78 66 46 32 83 121 115 116 101 109 '
+zz=:zz,'58 32 106 111 100 116 111 111 108 115 32 32 65 117 116 104 111 114 '
+zz=:zz,'58 32 74 111 104 110 32 68 46 32 66 97 107 101 114 32 32 69 109 97 '
+zz=:zz,'105 108 58 32 98 97 107 101 114 106 100 57 57 64 103 109 97 105 108'
+zz=:zz,' 46 99 111 109 10 78 66 46 32 86 101 114 115 105 111 110 58 32 48 4'
+zz=:zz,'6 57 46 57 48 32 32 66 117 105 108 100 32 78 117 109 98 101 114 58 '
+zz=:zz,'32 49 52 32 32 68 97 116 101 58 32 50 32 78 111 118 32 50 48 49 50 '
+zz=:zz,'32 49 52 58 52 54 58 48 56 10 10 10 78 66 46 32 83 121 115 116 101 '
+zz=:zz,'109 58 32 106 111 100 116 111 111 108 115 32 32 65 117 116 104 111 '
+zz=:zz,'114 58 32 74 111 104 110 32 68 46 32 66 97 107 101 114 32 32 69 109'
+zz=:zz,' 97 105 108 58 32 98 97 107 101 114 106 100 57 57 64 103 109 97 105'
+zz=:zz,' 108 46 99 111 109 10 78 66 46 32 86 101 114 115 105 111 110 58 32 '
+zz=:zz,'48 46 57 46 57 48 32 32 66 117 105 108 100 32 78 117 109 98 101 114'
+zz=:zz,' 58 32 49 53 32 32 68 97 116 101 58 32 51 32 78 111 118 32 50 48 49'
+zz=:zz,' 50 32 49 53 58 51 50 58 53 49 10 10 10 78 66 46 32 83 121 115 116 '
+zz=:zz,'101 109 58 32 106 111 100 116 111 111 108 115 32 32 65 117 116 104 '
+zz=:zz,'111 114 58 32 74 111 104 110 32 68 46 32 66 97 107 101 114 32 32 69'
+zz=:zz,' 109 97 105 108 58 32 98 97 107 101 114 106 100 57 57 64 103 109 97'
+zz=:zz,' 105 108 46 99 111 109 10 78 66 46 32 86 101 114 115 105 111 110 58'
+zz=:zz,' 32 48 46 57 46 57 48 32 32 66 117 105 108 100 32 78 117 109 98 101'
+zz=:zz,' 114 58 32 49 54 32 32 68 97 116 101 58 32 49 54 32 78 111 118 32 5'
+zz=:zz,'0 48 49 50 32 48 57 58 51 50 58 50 54 10 10 10 78 66 46 32 83 121 1'
+zz=:zz,'15 116 101 109 58 32 106 111 100 116 111 111 108 115 32 32 65 117 1'
+zz=:zz,'16 104 111 114 58 32 74 111 104 110 32 68 46 32 66 97 107 101 114 3'
+zz=:zz,'2 32 69 109 97 105 108 58 32 98 97 107 101 114 106 100 57 57 64 103'
+zz=:zz,' 109 97 105 108 46 99 111 109 10 78 66 46 32 86 101 114 115 105 111'
+zz=:zz,' 110 58 32 48 46 57 46 57 48 32 32 66 117 105 108 100 32 78 117 109'
+zz=:zz,' 98 101 114 58 32 49 55 32 32 68 97 116 101 58 32 49 54 32 78 111 1'
+zz=:zz,'18 32 50 48 49 50 32 48 57 58 52 57 58 50 50 10 10 10 78 66 46 32 8'
+zz=:zz,'3 121 115 116 101 109 58 32 106 111 100 116 111 111 108 115 32 32 6'
+zz=:zz,'5 117 116 104 111 114 58 32 74 111 104 110 32 68 46 32 66 97 107 10'
+zz=:zz,'1 114 32 32 69 109 97 105 108 58 32 98 97 107 101 114 106 100 57 57'
+zz=:zz,' 64 103 109 97 105 108 46 99 111 109 10 78 66 46 32 86 101 114 115 '
+zz=:zz,'105 111 110 58 32 48 46 57 46 57 48 32 32 66 117 105 108 100 32 78 '
+zz=:zz,'117 109 98 101 114 58 32 49 56 32 32 68 97 116 101 58 32 49 54 32 7'
+zz=:zz,'8 111 118 32 50 48 49 50 32 48 57 58 53 50 58 53 55 10 10 10 78 66 '
+zz=:zz,'46 32 83 121 115 116 101 109 58 32 106 111 100 116 111 111 108 115 '
+zz=:zz,'32 32 65 117 116 104 111 114 58 32 74 111 104 110 32 68 46 32 66 97'
+zz=:zz,' 107 101 114 32 32 69 109 97 105 108 58 32 98 97 107 101 114 106 10'
+zz=:zz,'0 57 57 64 103 109 97 105 108 46 99 111 109 10 78 66 46 32 86 101 1'
+zz=:zz,'14 115 105 111 110 58 32 48 46 57 46 57 48 32 32 66 117 105 108 100'
+zz=:zz,' 32 78 117 109 98 101 114 58 32 49 57 32 32 68 97 116 101 58 32 49 '
+zz=:zz,'54 32 78 111 118 32 50 48 49 50 32 49 48 58 48 50 58 48 55 10 10 10'
+zz=:zz,' 78 66 46 32 83 121 115 116 101 109 58 32 106 111 100 116 111 111 1'
+zz=:zz,'08 115 32 32 65 117 116 104 111 114 58 32 74 111 104 110 32 68 46 3'
+zz=:zz,'2 66 97 107 101 114 32 32 69 109 97 105 108 58 32 98 97 107 101 114'
+zz=:zz,' 106 100 57 57 64 103 109 97 105 108 46 99 111 109 10 78 66 46 32 8'
+zz=:zz,'6 101 114 115 105 111 110 58 32 48 46 57 46 57 48 32 32 66 117 105 '
+zz=:zz,'108 100 32 78 117 109 98 101 114 58 32 50 48 32 32 68 97 116 101 58'
+zz=:zz,' 32 49 54 32 78 111 118 32 50 48 49 50 32 49 49 58 50 51 58 49 49 1'
+zz=:zz,'0 10 10 78 66 46 32 83 121 115 116 101 109 58 32 106 111 100 116 11'
+zz=:zz,'1 111 108 115 32 32 65 117 116 104 111 114 58 32 74 111 104 110 32 '
+zz=:zz,'68 46 32 66 97 107 101 114 32 32 69 109 97 105 108 58 32 98 97 107 '
+zz=:zz,'101 114 106 100 57 57 64 103 109 97 105 108 46 99 111 109 10 78 66 '
+zz=:zz,'46 32 86 101 114 115 105 111 110 58 32 48 46 57 46 57 48 32 32 66 1'
+zz=:zz,'17 105 108 100 32 78 117 109 98 101 114 58 32 50 49 32 32 68 97 116'
+zz=:zz,' 101 58 32 49 56 32 78 111 118 32 50 48 49 50 32 50 49 58 49 57 58 '
+zz=:zz,'52 56 10 10 10 78 66 46 32 83 121 115 116 101 109 58 32 106 111 100'
+zz=:zz,' 116 111 111 108 115 32 32 65 117 116 104 111 114 58 32 74 111 104 '
+zz=:zz,'110 32 68 46 32 66 97 107 101 114 32 32 69 109 97 105 108 58 32 98 '
+zz=:zz,'97 107 101 114 106 100 57 57 64 103 109 97 105 108 46 99 111 109 10'
+zz=:zz,' 78 66 46 32 86 101 114 115 105 111 110 58 32 48 46 57 46 57 48 32 '
+zz=:zz,'32 66 117 105 108 100 32 78 117 109 98 101 114 58 32 50 50 32 32 68'
+zz=:zz,' 97 116 101 58 32 49 57 32 78 111 118 32 50 48 49 50 32 49 49 58 48'
+zz=:zz,' 57 58 48 56 10{a.);''POST_jodliterate'';21;(78 66 46 80 79 83 84 95 '
+zz=:zz,'106 111 100 108 105 116 101 114 97 116 101 32 112 111 115 116 32 11'
+zz=:zz,'2 114 111 99 101 115 115 111 114 32 40 45 46 41 61 58 13 10 13 10 1'
+zz=:zz,'15 109 111 117 116 112 117 116 32 48 32 58 32 48 13 10 78 66 46 32 '
+zz=:zz,'40 106 111 100 108 105 116 101 114 97 116 101 41 32 105 110 116 101'
+zz=:zz,' 114 102 97 99 101 32 119 111 114 100 40 115 41 58 13 10 78 66 46 3'
+zz=:zz,'2 32 32 103 114 112 108 105 116 32 32 32 32 32 32 32 32 32 32 78 66'
+zz=:zz,' 46 32 109 97 107 101 32 108 97 116 101 120 32 102 111 114 32 103 1'
+zz=:zz,'14 111 117 112 32 40 121 41 13 10 78 66 46 32 32 32 105 102 97 99 1'
+zz=:zz,'01 115 101 99 116 105 111 110 32 32 32 32 78 66 46 32 105 110 116 1'
+zz=:zz,'01 114 102 97 99 101 32 115 101 99 116 105 111 110 32 115 117 109 1'
+zz=:zz,'09 97 114 121 32 115 116 114 105 110 103 13 10 78 66 46 32 32 32 11'
+zz=:zz,'5 101 116 106 111 100 108 105 116 101 114 97 116 101 32 32 78 66 46'
+zz=:zz,' 32 112 114 101 112 97 114 101 32 102 111 114 32 112 114 111 99 101'
+zz=:zz,' 115 115 105 110 103 13 10 41 13 10 13 10 99 111 99 117 114 114 101'
+zz=:zz,' 110 116 32 39 98 97 115 101 39 13 10 99 111 105 110 115 101 114 11'
+zz=:zz,'6 32 32 39 97 106 111 100 108 105 116 101 114 97 116 101 39{a.);''bu'
+zz=:zz,'ildjoddistribution'';21;(78 66 46 42 98 117 105 108 100 106 111 100 '
+zz=:zz,'100 105 115 116 114 105 98 117 116 105 111 110 32 115 45 45 32 102 '
+zz=:zz,'117 108 108 32 74 79 68 32 100 105 115 116 114 105 98 117 116 105 1'
+zz=:zz,'11 110 32 98 117 105 108 100 13 10 13 10 99 111 99 117 114 114 101 '
+zz=:zz,'110 116 32 39 98 97 115 101 39 13 10 99 111 99 108 97 115 115 32 11'
+zz=:zz,'6 109 112 108 111 99 95 65 65 65 106 111 100 98 117 105 108 100 57 '
+zz=:zz,'57 57 95 32 61 58 32 39 65 65 65 106 111 100 98 117 105 108 100 57 '
+zz=:zz,'57 57 39 32 91 32 99 111 101 114 97 115 101 32 60 39 65 65 65 106 1'
+zz=:zz,'11 100 98 117 105 108 100 57 57 57 39 13 10 99 111 105 110 115 101 '
+zz=:zz,'114 116 32 39 105 106 111 100 39 13 10 13 10 111 111 111 61 58 32 1'
+zz=:zz,'00 105 100 32 48 13 10 111 100 32 59 58 39 106 111 100 100 101 118 '
+zz=:zz,'32 106 111 100 32 117 116 105 108 115 39 32 91 32 51 32 111 100 32 '
+zz=:zz,'39 39 13 10 13 10 49 32 114 116 116 32 39 117 112 100 97 116 101 10'
+zz=:zz,'6 111 100 109 97 110 105 102 101 115 116 39 32 32 32 32 32 32 32 78'
+zz=:zz,' 66 46 32 65 65 65 116 114 97 115 104 57 57 57 13 10 13 10 114 115 '
+zz=:zz,'32 39 98 117 105 108 100 106 111 100 99 111 109 112 114 101 115 115'
+zz=:zz,' 101 100 39 32 32 32 32 32 32 32 32 32 78 66 46 32 65 65 65 116 114'
+zz=:zz,' 97 115 104 57 57 57 13 10 114 115 32 39 98 117 105 108 100 106 111'
+zz=:zz,' 100 116 111 111 108 115 99 111 109 112 114 101 115 115 101 100 39 '
+zz=:zz,'32 32 32 32 78 66 46 32 65 65 65 116 114 97 115 104 57 57 57 13 10 '
+zz=:zz,'13 10 78 66 46 32 117 112 100 97 116 101 115 32 102 97 105 108 32 1'
+zz=:zz,'11 110 32 119 105 110 55 32 97 115 32 115 104 101 108 108 39 105 11'
+zz=:zz,'0 103 32 112 107 122 105 112 32 100 111 101 115 13 10 78 66 46 32 1'
+zz=:zz,'10 111 116 32 114 101 116 117 114 110 32 45 32 117 112 100 97 116 1'
+zz=:zz,'01 115 32 100 105 115 97 98 108 101 100 32 111 110 32 109 97 120 47'
+zz=:zz,' 108 105 110 117 120 32 13 10 13 10 49 32 114 116 116 32 39 117 112'
+zz=:zz,' 100 97 116 101 106 111 100 100 105 115 116 114 105 98 117 116 105 '
+zz=:zz,'111 110 39 32 32 32 78 66 46 32 65 65 65 116 114 97 115 104 57 57 5'
+zz=:zz,'7 13 10 49 32 114 116 116 32 39 117 112 100 97 116 101 106 111 100 '
+zz=:zz,'115 111 117 114 99 101 100 117 109 112 115 39 32 32 32 32 78 66 46 '
+zz=:zz,'32 65 65 65 116 114 97 115 104 57 57 57 13 10 13 10 49 32 114 116 1'
+zz=:zz,'16 32 39 114 101 108 101 97 115 101 106 111 100 39 32 32 32 32 32 3'
+zz=:zz,'2 32 32 32 32 32 32 32 32 78 66 46 32 65 65 65 116 114 97 115 104 5'
+zz=:zz,'7 57 57 13 10 13 10 78 66 46 32 100 105 99 116 105 111 110 97 114 1'
+zz=:zz,'05 101 115 32 111 112 101 110 101 100 32 105 110 32 114 101 108 101'
+zz=:zz,' 97 115 101 106 111 100 13 10 78 66 46 32 111 100 32 125 46 111 111'
+zz=:zz,' 111 13 10 13 10 99 111 99 117 114 114 101 110 116 32 39 98 97 115 '
+zz=:zz,'101 39 13 10 99 111 101 114 97 115 101 32 60 116 109 112 108 111 99'
+zz=:zz,' 95 65 65 65 106 111 100 98 117 105 108 100 57 57 57 95 13 10 13 10'
+zz=:zz,' 13 10{a.);''buildjodlatex'';21;(78 66 46 42 98 117 105 108 100 106 1'
+zz=:zz,'11 100 108 97 116 101 120 32 115 45 45 32 32 103 101 110 101 114 97'
+zz=:zz,' 116 101 115 32 115 121 110 116 97 120 32 104 105 103 104 108 105 1'
+zz=:zz,'03 104 116 101 100 32 74 79 68 32 115 111 117 114 99 101 32 76 97 8'
+zz=:zz,'4 101 88 46 13 10 78 66 46 13 10 78 66 46 32 70 105 108 101 115 32 '
+zz=:zz,'97 114 101 32 119 114 105 116 116 101 110 32 116 111 32 116 104 101'
+zz=:zz,' 32 112 117 116 32 100 105 99 116 105 111 110 97 114 121 32 100 111'
+zz=:zz,' 99 117 109 101 110 116 32 100 105 114 101 99 116 111 114 121 46 13'
+zz=:zz,' 10 13 10 99 111 99 117 114 114 101 110 116 32 39 98 97 115 101 39 '
+zz=:zz,'13 10 114 101 113 117 105 114 101 32 32 32 39 106 111 100 108 105 1'
+zz=:zz,'16 101 114 97 116 101 39 13 10 99 111 99 108 97 115 115 32 116 109 '
+zz=:zz,'112 108 111 99 95 65 65 65 106 111 100 108 97 116 101 120 57 57 57 '
+zz=:zz,'95 32 61 58 32 39 65 65 65 106 111 100 108 97 116 101 120 57 57 57 '
+zz=:zz,'39 32 91 32 99 111 101 114 97 115 101 32 60 39 65 65 65 106 111 100'
+zz=:zz,' 108 97 116 101 120 57 57 57 39 13 10 99 111 105 110 115 101 114 11'
+zz=:zz,'6 32 32 39 105 106 111 100 39 13 10 99 111 105 110 115 101 114 116 '
+zz=:zz,'32 32 39 97 106 111 100 108 105 116 101 114 97 116 101 39 13 10 13 '
+zz=:zz,'10 116 109 112 108 111 99 32 103 101 116 32 59 58 39 114 101 97 100'
+zz=:zz,' 32 119 114 105 116 101 32 99 104 97 110 103 101 115 116 114 32 74 '
+zz=:zz,'79 68 86 77 68 39 13 10 13 10 78 66 46 32 99 117 114 114 101 110 11'
+zz=:zz,'6 32 112 117 116 32 100 105 99 116 105 111 110 97 114 121 32 100 11'
+zz=:zz,'1 99 117 109 101 110 116 32 100 105 114 101 99 116 111 114 121 13 1'
+zz=:zz,'0 100 111 99 61 58 32 68 79 67 95 95 100 111 98 32 91 32 100 111 98'
+zz=:zz,' 61 58 32 123 58 123 46 68 80 65 84 72 95 95 83 84 95 95 74 79 68 1'
+zz=:zz,'11 98 106 13 10 115 101 116 106 111 100 108 105 116 101 114 97 116 '
+zz=:zz,'101 32 100 111 99 13 10 13 10 78 66 46 32 39 122 122 122 39 32 109 '
+zz=:zz,'97 107 101 115 32 116 104 105 115 32 102 105 114 115 116 32 111 110'
+zz=:zz,' 32 114 101 118 101 114 115 101 32 100 105 114 101 99 116 111 114 1'
+zz=:zz,'21 32 102 105 108 101 32 110 97 109 101 32 115 111 114 116 115 13 1'
+zz=:zz,'0 39 114 99 32 116 101 120 39 61 58 32 52 32 103 101 116 32 39 122 '
+zz=:zz,'122 122 106 111 100 109 97 105 110 116 101 120 39 13 10 116 101 120'
+zz=:zz,' 61 58 32 59 123 58 44 116 101 120 13 10 116 101 120 61 58 32 40 39'
+zz=:zz,' 47 35 126 126 35 118 101 114 115 105 111 110 35 126 126 35 47 39 4'
+zz=:zz,'4 59 48 123 74 79 68 86 77 68 41 32 99 104 97 110 103 101 115 116 1'
+zz=:zz,'14 32 116 101 120 13 10 40 116 111 74 32 116 101 120 41 32 119 114 '
+zz=:zz,'105 116 101 32 100 111 99 44 39 122 122 122 106 111 100 109 97 105 '
+zz=:zz,'110 46 116 101 120 39 13 10 13 10 78 66 46 32 74 79 68 32 99 108 97'
+zz=:zz,' 115 115 101 115 13 10 106 99 108 61 58 32 59 58 39 106 111 100 111'
+zz=:zz,' 110 32 106 111 100 32 106 111 100 115 116 111 114 101 32 106 111 1'
+zz=:zz,'00 100 111 98 32 106 111 100 109 97 107 101 32 106 111 100 117 116 '
+zz=:zz,'105 108 32 106 111 100 116 111 111 108 115 39 13 10 108 116 120 61 '
+zz=:zz,'58 32 103 114 111 117 112 108 97 116 101 120 38 46 62 32 106 99 108'
+zz=:zz,' 13 10 13 10 78 66 46 32 117 115 101 32 39 122 122 39 32 112 114 10'
+zz=:zz,'1 102 105 120 32 116 111 32 97 118 111 105 100 32 99 108 97 115 104'
+zz=:zz,' 101 115 32 119 105 116 104 32 39 106 111 100 39 32 46 46 47 100 11'
+zz=:zz,'1 99 117 109 101 110 116 32 102 105 108 101 115 13 10 116 101 120 1'
+zz=:zz,'02 105 108 101 115 61 58 32 40 60 100 111 99 41 32 44 38 46 62 32 4'
+zz=:zz,'0 60 39 122 122 39 41 32 44 38 46 62 32 106 99 108 32 44 38 46 62 3'
+zz=:zz,'2 60 39 46 116 101 120 39 32 13 10 115 109 111 117 116 112 117 116 '
+zz=:zz,'32 116 101 120 102 105 108 101 115 32 91 32 108 116 120 32 119 114 '
+zz=:zz,'105 116 101 38 46 62 32 116 101 120 102 105 108 101 115 13 10 13 10'
+zz=:zz,' 99 111 99 117 114 114 101 110 116 32 39 98 97 115 101 39 13 10 99 '
+zz=:zz,'111 101 114 97 115 101 32 60 116 109 112 108 111 99 95 65 65 65 106'
+zz=:zz,' 111 100 108 97 116 101 120 57 57 57 95{a.);''historyjod'';27;(103 10'
+zz=:zz,'1 110 101 114 97 108 47 106 111 100 32 45 32 99 104 97 110 103 101 '
+zz=:zz,'32 104 105 115 116 111 114 121 13 10 61 61 61 61 61 61 61 61 61 61 '
+zz=:zz,'61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 13 10 13 10 3'
+zz=:zz,'5 35 35 32 48 46 57 46 57 48 32 45 32 78 111 118 101 109 98 101 114'
+zz=:zz,' 32 88 88 44 32 50 48 49 50 13 10 13 10 32 42 32 32 74 79 68 32 115'
+zz=:zz,' 111 117 114 99 101 32 99 111 100 101 32 105 115 32 110 111 119 32 '
+zz=:zz,'97 118 97 105 108 97 98 108 101 32 111 110 32 91 71 105 116 72 117 '
+zz=:zz,'98 93 40 104 116 116 112 115 58 47 47 103 105 116 104 117 98 46 99 '
+zz=:zz,'111 109 47 41 46 13 10 32 32 32 32 84 104 101 32 115 111 117 114 99'
+zz=:zz,' 101 32 105 115 32 100 105 115 116 114 105 98 117 116 101 100 32 10'
+zz=:zz,'5 110 32 116 104 114 101 101 32 114 101 112 111 115 105 116 111 114'
+zz=:zz,' 105 101 115 58 13 10 32 32 32 32 13 10 32 32 32 32 49 46 32 91 106'
+zz=:zz,' 111 100 93 40 104 116 116 112 115 58 47 47 103 105 116 104 117 98 '
+zz=:zz,'46 99 111 109 47 98 97 107 101 114 106 100 57 57 47 106 111 100 41 '
+zz=:zz,'32 99 111 110 116 97 105 110 115 32 116 104 101 32 102 105 108 101 '
+zz=:zz,'115 13 10 32 32 32 32 32 32 32 32 100 105 115 116 114 105 98 117 11'
+zz=:zz,'6 101 100 32 119 105 116 104 32 74 65 76 46 32 84 104 101 32 97 100'
+zz=:zz,' 100 105 116 105 111 110 97 108 32 100 105 114 101 99 116 111 114 1'
+zz=:zz,'21 32 96 106 111 100 105 106 115 96 32 13 10 32 32 32 32 32 32 32 3'
+zz=:zz,'2 104 111 108 100 115 32 102 117 108 108 121 32 99 111 109 109 101 '
+zz=:zz,'110 116 101 100 32 74 79 68 32 99 108 97 115 115 32 102 105 108 101'
+zz=:zz,' 115 46 32 32 84 104 101 32 115 116 97 110 100 97 114 100 13 10 32 '
+zz=:zz,'32 32 32 32 32 32 32 74 65 76 32 115 99 114 105 112 116 115 32 97 1'
+zz=:zz,'14 101 32 34 99 111 109 112 114 101 115 115 101 100 46 34 13 10 32 '
+zz=:zz,'32 32 32 32 32 32 32 13 10 32 32 32 32 50 46 32 91 106 111 100 100 '
+zz=:zz,'111 99 93 40 104 116 116 112 115 58 47 47 103 105 116 104 117 98 46'
+zz=:zz,' 99 111 109 47 98 97 107 101 114 106 100 57 57 47 106 111 100 100 1'
+zz=:zz,'11 99 41 32 104 111 108 100 115 32 97 108 108 13 10 32 32 32 32 32 '
+zz=:zz,'32 32 116 104 101 32 96 76 97 84 101 88 96 32 97 110 100 32 115 117'
+zz=:zz,' 112 112 111 114 116 105 110 103 32 102 105 108 101 115 32 110 101 '
+zz=:zz,'101 100 101 100 32 116 111 32 98 117 105 108 100 32 116 104 101 13 '
+zz=:zz,'10 32 32 32 32 32 32 32 74 79 68 32 109 97 110 117 97 108 32 96 106'
+zz=:zz,' 111 100 46 112 100 102 96 46 13 10 32 32 32 13 10 32 42 32 96 100 '
+zz=:zz,'112 115 101 116 96 32 98 117 103 32 102 105 120 101 100 46 32 73 11'
+zz=:zz,'6 32 119 97 115 32 97 108 108 111 119 105 110 103 32 112 97 114 97 '
+zz=:zz,'109 101 116 101 114 13 10 32 32 32 99 104 97 110 103 101 115 32 111'
+zz=:zz,' 110 32 96 82 69 65 68 79 78 76 89 96 32 100 105 99 116 105 111 110'
+zz=:zz,' 97 114 105 101 115 46 32 68 105 99 116 105 111 110 97 114 105 101 '
+zz=:zz,'115 32 13 10 32 32 32 109 117 115 116 32 98 101 32 105 110 32 97 32'
+zz=:zz,' 96 82 69 65 68 87 82 73 84 69 96 32 115 116 97 116 101 32 116 111 '
+zz=:zz,'32 99 104 97 110 103 101 32 96 100 112 115 101 116 32 39 39 96 32 1'
+zz=:zz,'12 97 114 97 109 101 116 101 114 115 46 32 13 10 32 32 32 32 32 32 '
+zz=:zz,'32 32 13 10 32 32 32 32 32 32 32 32 100 112 115 101 116 32 39 82 69'
+zz=:zz,' 65 68 87 82 73 84 69 39 32 13 10 32 32 32 32 32 32 32 32 100 112 1'
+zz=:zz,'15 101 116 32 39 65 83 67 73 73 56 53 39 59 49 13 10 32 32 32 32 32'
+zz=:zz,' 32 32 32 13 10 32 42 32 102 105 120 101 100 32 109 105 115 115 105'
+zz=:zz,' 110 103 32 96 40 120 44 56 41 32 100 105 115 112 32 121 96 32 97 1'
+zz=:zz,'14 103 117 109 101 110 116 32 111 112 116 105 111 110 32 119 104 10'
+zz=:zz,'1 114 101 13 10 32 32 32 96 120 96 32 105 115 32 105 110 32 96 105 '
+zz=:zz,'46 32 53 96 46 32 87 105 116 104 32 116 104 105 115 32 99 104 97 11'
+zz=:zz,'0 103 101 32 96 50 32 56 32 100 105 115 112 32 125 46 103 114 112 3'
+zz=:zz,'9 39 96 32 13 10 32 32 32 110 111 119 32 100 105 115 112 108 97 121'
+zz=:zz,' 115 32 115 104 111 114 116 32 103 114 111 117 112 32 100 111 99 11'
+zz=:zz,'7 109 101 110 116 115 32 106 117 115 116 32 108 105 107 101 32 13 1'
+zz=:zz,'0 32 32 32 96 50 32 57 32 100 105 115 112 32 125 46 103 114 112 39 '
+zz=:zz,'39 96 32 100 105 115 112 108 97 121 115 32 108 111 110 103 32 100 1'
+zz=:zz,'11 99 117 109 101 110 116 115 46 32 13 10 13 10 32 42 32 96 110 116'
+zz=:zz,' 96 32 116 101 109 112 108 97 116 101 32 115 116 114 105 110 103 11'
+zz=:zz,'5 32 99 104 97 110 103 101 100 32 116 111 32 109 97 116 99 104 32 1'
+zz=:zz,'16 104 101 13 10 32 32 32 115 116 114 105 110 103 115 32 111 102 32'
+zz=:zz,' 96 110 103 99 96 46 32 96 110 103 99 96 32 105 115 32 97 32 117 11'
+zz=:zz,'6 105 108 105 116 121 32 118 101 114 98 32 105 110 32 116 104 101 1'
+zz=:zz,'3 10 32 32 32 100 105 115 116 114 105 98 117 116 101 100 32 74 79 6'
+zz=:zz,'8 32 100 105 99 116 105 111 110 97 114 105 101 115 58 32 115 101 10'
+zz=:zz,'1 32 96 100 105 115 112 32 39 110 103 99 39 96 46 13 10 32 32 32 84'
+zz=:zz,' 104 101 32 116 101 109 112 108 97 116 101 32 115 116 114 105 110 1'
+zz=:zz,'03 115 32 97 114 101 58 32 96 123 126 84 126 125 96 44 32 96 123 12'
+zz=:zz,'6 65 126 125 96 44 32 96 123 126 68 126 125 96 44 32 13 10 32 32 32'
+zz=:zz,' 97 110 100 32 96 123 126 83 68 126 125 96 32 102 111 114 32 32 116'
+zz=:zz,' 105 116 108 101 44 32 97 117 116 104 111 114 44 32 100 97 116 101 '
+zz=:zz,'32 40 96 121 121 121 121 109 111 110 100 100 96 41 32 97 110 100 13'
+zz=:zz,' 10 32 32 32 115 104 111 114 116 32 100 97 116 101 32 40 96 121 121'
+zz=:zz,' 109 111 110 100 100 96 41 46 13 10 32 32 32 13 10 32 42 32 96 110 '
+zz=:zz,'116 96 32 100 121 97 100 32 97 100 100 101 100 46 32 32 65 110 32 9'
+zz=:zz,'6 120 96 32 97 114 103 117 109 101 110 116 32 105 115 32 13 10 32 3'
+zz=:zz,'2 32 97 32 99 104 97 114 97 99 116 101 114 32 108 105 115 116 32 11'
+zz=:zz,'1 102 32 115 116 114 105 110 103 32 114 101 112 108 97 99 101 109 1'
+zz=:zz,'01 110 116 115 13 10 32 32 32 116 104 97 116 32 97 114 101 32 97 11'
+zz=:zz,'2 112 108 105 101 100 32 116 111 32 96 116 101 115 116 115 116 117 '
+zz=:zz,'98 96 44 32 115 101 101 32 96 100 105 115 112 32 39 116 101 115 116'
+zz=:zz,' 115 116 117 98 39 96 44 13 10 32 32 32 97 102 116 101 114 32 116 1'
+zz=:zz,'01 109 112 108 97 116 101 32 115 116 114 105 110 103 115 32 97 114 '
+zz=:zz,'101 32 112 114 111 99 101 115 115 101 100 46 32 84 104 101 13 10 32'
+zz=:zz,' 32 32 102 105 114 115 116 32 99 104 97 114 97 99 116 101 114 32 10'
+zz=:zz,'5 110 32 116 104 101 32 115 116 114 105 110 103 32 100 101 108 105 '
+zz=:zz,'109 105 116 115 13 10 32 32 32 114 101 112 108 97 99 101 109 101 11'
+zz=:zz,'0 116 32 112 97 105 114 115 46 13 10 32 13 10 32 32 32 32 32 32 32 '
+zz=:zz,'32 39 35 99 104 97 110 103 101 35 77 69 35 97 110 100 35 89 79 85 3'
+zz=:zz,'9 32 110 116 32 39 110 101 119 116 101 115 116 39 13 10 13 10 32 42'
+zz=:zz,' 32 96 109 103 96 44 32 96 109 116 96 44 32 96 109 106 96 44 32 97 '
+zz=:zz,'110 100 32 96 116 116 96 32 114 101 109 111 118 101 100 32 102 114 '
+zz=:zz,'111 109 32 96 106 111 100 116 111 111 108 115 96 46 32 84 104 101 1'
+zz=:zz,'15 101 32 101 100 105 116 32 104 101 108 112 101 114 115 13 10 32 3'
+zz=:zz,'2 32 97 114 101 32 110 111 119 32 111 112 116 105 111 110 97 108 10'
+zz=:zz,'8 121 32 100 101 102 105 110 101 100 32 105 110 32 96 126 97 100 10'
+zz=:zz,'0 111 110 115 47 103 101 110 101 114 97 108 47 106 111 100 47 106 1'
+zz=:zz,'11 100 112 114 111 102 105 108 101 46 105 106 115 96 46 32 13 10 13'
+zz=:zz,' 10 35 35 35 32 48 46 57 46 56 53 32 45 32 79 99 116 111 98 101 114'
+zz=:zz,' 32 49 51 44 32 50 48 49 50 13 10 13 10 32 42 32 96 106 111 100 108'
+zz=:zz,' 105 116 101 114 97 116 101 96 32 103 114 111 117 112 32 97 100 100'
+zz=:zz,' 101 100 46 32 83 101 101 32 96 50 32 57 32 100 105 115 112 32 39 1'
+zz=:zz,'06 111 100 108 105 116 101 114 97 116 101 39 96 13 10 32 32 32 97 1'
+zz=:zz,'10 100 32 116 104 101 32 98 108 111 103 32 112 111 115 116 32 91 83'
+zz=:zz,' 101 109 105 45 76 105 116 101 114 97 116 101 13 10 32 32 32 74 79 '
+zz=:zz,'68 93 40 104 116 116 112 58 47 47 98 97 107 101 114 106 100 57 57 4'
+zz=:zz,'6 119 111 114 100 112 114 101 115 115 46 99 111 109 47 50 48 49 50 '
+zz=:zz,'47 49 48 47 48 49 47 115 101 109 105 45 108 105 116 101 114 97 116 '
+zz=:zz,'101 45 106 111 100 47 41 32 13 10 32 32 32 102 111 114 32 100 101 1'
+zz=:zz,'16 97 105 108 115 13 10 13 10 32 42 32 96 77 65 82 75 68 79 87 78 9'
+zz=:zz,'6 32 109 97 99 114 111 32 116 101 120 116 32 99 111 100 101 32 50 5'
+zz=:zz,'5 32 97 100 100 101 100 46 13 10 32 32 32 13 10 32 42 32 96 53 32 1'
+zz=:zz,'00 105 115 112 32 39 39 96 32 110 111 119 32 100 105 115 112 108 97'
+zz=:zz,' 121 115 32 97 110 121 32 111 118 101 114 97 108 108 32 112 117 116'
+zz=:zz,' 32 100 105 99 116 105 111 110 97 114 121 32 100 111 99 117 109 101'
+zz=:zz,' 110 116 97 116 105 111 110 46 13 10 32 13 10 32 42 32 32 109 105 1'
+zz=:zz,'10 111 114 32 96 106 111 100 46 112 100 102 96 32 101 100 105 116 1'
+zz=:zz,'15 32 97 110 100 32 97 100 100 105 116 105 111 110 115 46 13 10 32 '
+zz=:zz,'13 10 32 42 32 83 116 97 114 116 105 110 103 32 116 104 101 32 112 '
+zz=:zz,'114 111 99 101 115 115 32 111 102 32 99 111 110 118 101 114 116 105'
+zz=:zz,' 110 103 32 109 111 115 116 32 74 79 68 32 100 111 99 117 109 101 1'
+zz=:zz,'10 116 32 13 10 32 32 32 116 101 120 116 32 116 111 32 91 109 97 11'
+zz=:zz,'4 107 100 111 119 110 93 40 104 116 116 112 58 47 47 100 97 114 105'
+zz=:zz,' 110 103 102 105 114 101 98 97 108 108 46 110 101 116 47 112 114 11'
+zz=:zz,'1 106 101 99 116 115 47 109 97 114 107 100 111 119 110 47 41 32 13 '
+zz=:zz,'10 32 32 32 105 110 99 108 117 100 105 110 103 32 116 104 105 115 3'
+zz=:zz,'2 100 111 99 117 109 101 110 116 46 91 94 49 93 13 10 13 10 35 35 3'
+zz=:zz,'5 32 48 46 57 46 56 48 32 45 32 74 117 108 121 32 49 50 44 32 50 48'
+zz=:zz,' 49 50 13 10 13 10 32 42 32 100 105 99 116 105 111 110 97 114 121 3'
+zz=:zz,'2 100 111 99 117 109 101 110 116 115 32 115 101 116 32 97 110 100 3'
+zz=:zz,'2 102 101 116 99 104 101 100 32 119 105 116 104 32 96 53 32 112 117'
+zz=:zz,' 116 32 39 100 111 99 32 46 46 46 39 96 13 10 32 32 32 97 110 100 3'
+zz=:zz,'2 96 53 32 103 101 116 32 39 39 96 32 97 114 101 32 110 111 119 32 '
+zz=:zz,'115 97 118 101 100 32 105 110 32 100 117 109 112 32 115 99 114 105 '
+zz=:zz,'112 116 115 46 32 96 53 32 112 117 116 32 39 46 46 39 96 32 13 10 3'
+zz=:zz,'2 32 32 105 115 32 99 111 110 116 114 111 108 108 101 100 32 98 121'
+zz=:zz,' 32 97 32 110 101 119 32 112 97 114 97 109 101 116 101 114 32 96 10'
+zz=:zz,'6 111 100 112 97 114 109 115 46 105 106 115 96 32 96 68 79 67 85 77'
+zz=:zz,' 69 78 84 68 73 67 84 96 13 10 32 32 32 116 104 97 116 32 100 101 1'
+zz=:zz,'16 101 114 109 105 110 101 115 32 119 104 101 116 104 101 114 32 96'
+zz=:zz,' 53 32 112 117 116 32 39 100 111 99 32 46 46 39 96 32 115 116 111 1'
+zz=:zz,'14 101 115 32 116 101 120 116 46 32 84 104 101 13 10 32 32 32 100 1'
+zz=:zz,'01 102 97 117 108 116 32 96 68 79 67 85 77 69 78 84 68 73 67 84 61 '
+zz=:zz,'49 96 32 115 116 111 114 101 115 32 116 101 120 116 46 13 10 13 10 '
+zz=:zz,'32 42 32 118 101 115 116 105 103 105 97 108 32 96 122 96 32 108 111'
+zz=:zz,' 99 97 108 101 32 100 117 109 112 32 115 99 114 105 112 116 32 108 '
+zz=:zz,'111 97 100 32 117 116 105 108 105 116 105 101 115 32 96 115 111 110'
+zz=:zz,' 108 95 122 95 44 13 10 32 32 32 83 79 76 79 67 65 76 69 95 122 95 '
+zz=:zz,'44 32 115 111 112 117 116 95 122 95 96 32 97 110 100 32 96 115 111 '
+zz=:zz,'99 108 101 97 114 95 122 95 96 32 97 114 101 32 110 111 119 32 101 '
+zz=:zz,'114 97 115 101 100 32 97 116 32 116 104 101 13 10 32 32 32 101 110 '
+zz=:zz,'100 32 111 102 32 100 117 109 112 32 115 99 114 105 112 116 32 114 '
+zz=:zz,'117 110 115 46 32 74 79 68 32 100 101 102 105 110 101 115 32 101 12'
+zz=:zz,'0 97 99 116 108 121 32 102 111 117 114 32 119 111 114 100 115 13 10'
+zz=:zz,' 32 32 32 105 110 32 116 104 101 32 122 32 108 111 99 97 108 101 58'
+zz=:zz,' 32 96 106 111 100 111 102 102 95 122 95 44 32 106 111 100 111 110 '
+zz=:zz,'95 122 95 44 32 106 111 100 115 121 115 116 101 109 112 97 116 104 '
+zz=:zz,'95 122 95 96 13 10 32 32 32 97 110 100 32 96 115 104 111 119 112 97'
+zz=:zz,' 115 115 95 122 95 96 46 13 10 13 10 32 42 32 96 111 112 101 110 10'
+zz=:zz,'0 105 99 116 96 32 104 97 115 32 98 101 101 110 32 109 111 100 105 '
+zz=:zz,'102 105 101 100 32 116 111 32 116 101 115 116 32 119 104 101 116 10'
+zz=:zz,'4 101 114 32 109 97 115 116 101 114 13 10 32 32 32 102 105 108 101 '
+zz=:zz,'32 112 97 116 104 115 32 97 114 101 32 112 114 101 102 105 120 101 '
+zz=:zz,'115 32 111 102 32 115 116 111 114 101 100 32 100 105 99 116 105 111'
+zz=:zz,' 110 97 114 121 32 112 97 116 104 115 46 32 70 111 114 32 13 10 32 '
+zz=:zz,'32 32 96 82 69 65 68 87 82 73 84 69 96 32 100 105 99 116 105 111 11'
+zz=:zz,'0 97 114 105 101 115 32 116 104 101 32 112 114 101 102 105 120 32 1'
+zz=:zz,'09 117 115 116 32 109 97 116 99 104 46 32 70 111 114 32 96 82 69 65'
+zz=:zz,' 68 79 78 76 89 96 13 10 32 32 32 100 105 99 116 105 111 110 97 114'
+zz=:zz,' 105 101 115 32 116 104 101 32 109 97 115 116 101 114 32 112 97 116'
+zz=:zz,' 104 32 114 101 112 108 97 99 101 115 32 116 104 101 32 115 116 111'
+zz=:zz,' 114 101 100 32 112 97 116 104 32 105 110 13 10 32 32 32 100 105 99'
+zz=:zz,' 116 105 111 110 97 114 121 32 100 105 114 101 99 116 111 114 121 3'
+zz=:zz,'2 111 98 106 101 99 116 115 32 105 102 32 116 104 101 121 32 100 10'
+zz=:zz,'5 102 102 101 114 46 32 84 104 105 115 32 97 108 108 111 119 115 32'
+zz=:zz,' 13 10 32 32 32 96 82 69 65 68 79 78 76 89 96 32 100 105 99 116 105'
+zz=:zz,' 111 110 97 114 105 101 115 32 116 111 32 98 101 32 112 108 97 99 1'
+zz=:zz,'01 100 32 111 110 32 108 111 99 107 101 100 32 100 111 119 110 32 1'
+zz=:zz,'10 101 116 119 111 114 107 32 13 10 32 32 32 100 114 105 118 101 11'
+zz=:zz,'5 32 97 110 100 32 97 99 99 101 115 115 101 100 32 98 121 32 109 97'
+zz=:zz,' 110 121 32 117 115 101 114 115 32 116 104 97 116 32 109 97 121 32 '
+zz=:zz,'104 97 118 101 32 100 105 102 102 101 114 101 110 116 32 13 10 32 3'
+zz=:zz,'2 32 97 99 99 101 115 115 32 112 97 116 104 115 46 32 32 13 10 32 3'
+zz=:zz,'2 32 13 10 32 42 32 68 69 80 69 78 68 83 32 115 101 99 116 105 111 '
+zz=:zz,'110 115 32 97 100 100 101 100 32 116 111 32 74 79 68 32 97 110 100 '
+zz=:zz,'32 74 79 68 83 79 85 82 67 69 32 109 97 110 105 102 101 115 116 32 '
+zz=:zz,'115 99 114 105 112 116 115 46 13 10 32 13 10 32 42 32 96 106 111 10'
+zz=:zz,'0 46 112 100 102 96 32 40 103 101 110 101 114 97 108 47 106 111 100'
+zz=:zz,' 100 111 99 117 109 101 110 116 32 97 100 100 111 110 41 32 117 112'
+zz=:zz,' 100 97 116 101 100 46 13 10 13 10 35 35 35 32 48 46 57 46 55 53 32'
+zz=:zz,' 45 32 74 117 110 101 32 50 54 44 32 50 48 49 50 13 10 13 10 32 42 '
+zz=:zz,'32 102 105 114 115 116 32 77 97 99 32 99 111 109 112 97 116 105 98 '
+zz=:zz,'108 101 32 118 101 114 115 105 111 110 32 111 102 32 74 79 68 46 32'
+zz=:zz,' 84 104 101 32 77 97 99 32 118 101 114 115 105 111 110 13 10 32 32 '
+zz=:zz,'32 114 101 113 117 105 114 101 115 32 74 32 55 46 48 49 32 111 114 '
+zz=:zz,'32 98 101 121 111 110 100 32 115 101 101 58 32 13 10 13 10 32 32 32'
+zz=:zz,' 32 32 32 32 32 126 97 100 100 111 110 115 47 103 101 110 101 114 9'
+zz=:zz,'7 108 47 106 111 100 47 106 111 100 100 111 99 47 109 97 99 110 111'
+zz=:zz,' 116 101 115 46 116 120 116 13 10 32 32 32 13 10 32 42 32 96 106 11'
+zz=:zz,'1 100 46 112 100 102 96 32 117 112 100 97 116 101 100 32 97 110 100'
+zz=:zz,' 32 110 111 119 32 100 105 115 116 114 105 98 117 116 101 100 32 97'
+zz=:zz,' 115 32 97 13 10 32 32 32 115 101 112 97 114 97 116 101 32 74 65 76'
+zz=:zz,' 32 97 100 100 111 110 46 32 73 110 115 116 97 108 108 32 96 103 10'
+zz=:zz,'1 110 101 114 97 108 47 106 111 100 100 111 99 117 109 101 110 116 '
+zz=:zz,'96 13 10 32 32 32 116 111 32 112 108 97 99 101 32 96 106 111 100 46'
+zz=:zz,' 112 100 102 96 32 105 110 32 116 104 101 32 100 105 114 101 99 116'
+zz=:zz,' 111 114 105 101 115 32 115 101 97 114 99 104 101 100 13 10 32 32 3'
+zz=:zz,'2 98 121 32 96 106 111 100 104 101 108 112 96 46 32 96 106 111 100 '
+zz=:zz,'104 101 108 112 96 32 110 111 32 108 111 110 103 101 114 32 108 111'
+zz=:zz,' 111 107 115 32 102 111 114 32 97 110 13 10 32 32 32 111 110 108 10'
+zz=:zz,'5 110 101 32 118 101 114 115 105 111 110 32 111 102 32 96 106 111 1'
+zz=:zz,'00 46 112 100 102 96 46 32 13 10 32 32 32 13 10 32 42 32 102 105 12'
+zz=:zz,'0 101 100 32 97 32 96 100 105 115 112 96 32 108 101 110 103 116 104'
+zz=:zz,' 32 101 114 114 111 114 46 32 13 10 32 13 10 32 42 32 108 105 110 1'
+zz=:zz,'01 32 101 110 100 115 32 105 110 32 97 108 108 32 115 99 114 105 11'
+zz=:zz,'2 116 32 102 105 108 101 115 32 115 101 116 32 116 111 32 108 105 1'
+zz=:zz,'10 101 32 102 101 101 100 32 76 70 13 10 32 13 10 32 42 32 108 97 9'
+zz=:zz,'8 115 32 117 112 100 97 116 101 100 32 102 111 114 32 74 32 55 46 4'
+zz=:zz,'8 49 32 97 110 100 32 76 105 110 117 120 47 77 97 99 32 118 101 114'
+zz=:zz,' 115 105 111 110 115 13 10 32 13 10 32 42 32 108 97 98 32 96 106 11'
+zz=:zz,'1 100 112 114 106 109 46 105 106 116 96 32 114 101 109 111 118 101 '
+zz=:zz,'100 32 45 32 116 104 105 115 32 108 97 98 32 114 101 102 101 114 11'
+zz=:zz,'4 101 100 13 10 32 32 32 116 111 32 97 110 32 111 108 100 32 40 112'
+zz=:zz,' 114 101 32 55 46 48 49 41 32 112 114 111 106 101 99 116 32 109 97 '
+zz=:zz,'110 97 103 101 114 46 32 13 10 32 32 13 10 35 35 35 32 48 46 57 46 '
+zz=:zz,'55 32 45 32 74 97 110 32 49 54 44 32 50 48 49 49 13 10 13 10 32 42 '
+zz=:zz,'32 96 106 111 100 102 111 114 107 96 32 110 111 119 32 99 97 108 10'
+zz=:zz,'8 115 32 96 102 111 114 107 95 106 116 97 115 107 95 96 32 45 32 10'
+zz=:zz,'0 111 110 101 32 116 111 32 104 97 110 100 108 101 32 99 104 97 110'
+zz=:zz,' 103 101 13 10 32 32 32 105 110 32 109 97 105 110 32 74 32 108 105 '
+zz=:zz,'98 114 97 114 121 46 32 96 116 97 115 107 96 32 118 101 114 98 115 '
+zz=:zz,'32 97 114 101 32 110 111 32 108 111 110 103 101 114 32 108 111 97 1'
+zz=:zz,'00 101 100 32 116 111 32 96 122 96 32 108 111 99 97 108 101 13 10 1'
+zz=:zz,'3 10 35 35 35 32 48 46 57 46 54 53 32 45 32 68 101 99 32 49 57 44 3'
+zz=:zz,'2 50 48 49 49 13 10 13 10 32 42 32 96 103 101 116 44 32 112 117 116'
+zz=:zz,' 96 32 110 111 119 32 102 101 116 99 104 32 97 110 100 32 115 101 1'
+zz=:zz,'16 32 112 117 116 32 100 105 99 116 105 111 110 97 114 121 32 100 1'
+zz=:zz,'11 99 117 109 101 110 116 97 116 105 111 110 46 13 10 32 13 10 32 3'
+zz=:zz,'2 32 32 32 32 32 32 53 32 103 101 116 32 39 39 32 13 10 32 32 32 32'
+zz=:zz,' 32 32 32 32 53 32 112 117 116 32 39 100 111 99 117 109 101 110 116'
+zz=:zz,' 32 116 104 105 115 32 100 105 99 116 105 111 110 97 114 121 39 32 '
+zz=:zz,'13 10 13 10 35 35 35 32 48 46 57 46 54 32 45 32 68 101 99 32 49 50 '
+zz=:zz,'44 32 50 48 49 49 13 10 13 10 32 42 32 96 106 111 100 104 101 108 1'
+zz=:zz,'12 96 32 112 111 105 110 116 101 100 32 116 111 32 110 101 119 32 1'
+zz=:zz,'11 110 108 105 110 101 32 118 101 114 115 105 111 110 32 111 102 32'
+zz=:zz,' 96 106 111 100 46 112 100 102 96 13 10 32 32 32 69 80 83 44 32 84 '
+zz=:zz,'69 88 32 97 110 100 32 72 84 77 76 32 100 111 99 117 109 101 110 11'
+zz=:zz,'6 32 102 105 108 101 115 32 114 101 109 111 118 101 100 32 102 114 '
+zz=:zz,'111 109 32 109 97 105 110 32 106 111 100 32 100 105 99 116 105 111 '
+zz=:zz,'110 97 114 121 13 10 32 32 32 116 111 32 114 101 100 117 99 101 32 '
+zz=:zz,'116 104 101 32 115 105 122 101 32 111 102 32 96 106 111 100 115 111'
+zz=:zz,' 117 114 99 101 46 122 105 112 96 46 32 84 104 101 115 101 32 102 1'
+zz=:zz,'05 108 101 115 13 10 32 32 32 97 114 101 32 97 118 97 105 108 97 98'
+zz=:zz,' 108 101 32 105 110 32 116 104 101 32 111 110 108 105 110 101 32 74'
+zz=:zz,' 79 68 32 115 118 110 32 114 101 112 111 115 105 116 111 114 121 46'
+zz=:zz,' 32 13 10 32 32 32 83 101 101 32 91 84 104 101 32 74 79 68 32 80 97'
+zz=:zz,' 103 101 93 40 104 116 116 112 58 47 47 98 97 107 101 114 106 100 5'
+zz=:zz,'7 57 46 119 111 114 100 112 114 101 115 115 46 99 111 109 47 116 10'
+zz=:zz,'4 101 45 106 111 100 45 112 97 103 101 47 41 46 13 10 32 32 32 13 1'
+zz=:zz,'0 32 42 32 96 99 111 109 112 106 96 32 99 97 110 32 110 111 119 32 '
+zz=:zz,'98 101 32 108 105 109 105 116 101 100 32 116 111 32 111 110 108 121'
+zz=:zz,' 32 119 104 105 116 101 32 115 112 97 99 101 32 114 101 109 111 118'
+zz=:zz,' 97 108 32 98 121 32 13 10 32 32 32 105 110 115 101 114 116 105 110'
+zz=:zz,' 103 32 116 104 101 32 99 111 109 109 101 110 116 32 116 97 103 32 '
+zz=:zz,'96 40 45 46 41 61 58 96 32 97 110 121 119 104 101 114 101 32 105 11'
+zz=:zz,'0 32 116 104 101 32 116 101 120 116 32 111 102 13 10 32 32 32 97 11'
+zz=:zz,'0 32 101 120 112 108 105 99 105 116 32 119 111 114 100 46 13 10 32 '
+zz=:zz,'32 32 13 10 35 35 35 32 48 46 57 46 53 32 45 32 68 101 99 32 52 44 '
+zz=:zz,'32 50 48 49 49 13 10 13 10 32 42 32 102 105 120 101 100 32 97 32 96'
+zz=:zz,' 109 97 107 101 96 32 98 117 103 32 105 110 32 96 100 117 109 112 1'
+zz=:zz,'19 111 114 100 115 96 32 97 32 112 97 116 104 32 111 102 32 97 108 '
+zz=:zz,'108 13 10 32 32 32 101 109 112 116 121 32 100 105 99 116 105 111 11'
+zz=:zz,'0 97 114 105 101 115 32 102 97 105 108 101 100 32 116 111 32 109 97'
+zz=:zz,' 107 101 46 13 10 32 32 32 13 10 32 42 32 102 105 120 101 100 32 97'
+zz=:zz,' 110 32 96 109 108 115 96 32 98 117 103 32 116 104 97 116 32 112 11'
+zz=:zz,'4 111 100 117 99 101 100 32 105 110 99 111 114 114 101 99 116 32 13'
+zz=:zz,' 10 32 32 32 74 79 68 32 96 115 116 97 114 116 117 112 46 105 106 1'
+zz=:zz,'15 96 32 101 110 116 114 105 101 115 32 111 110 32 76 105 110 117 1'
+zz=:zz,'20 46 13 10 32 32 32 13 10 32 42 32 109 111 114 101 32 116 101 115 '
+zz=:zz,'116 32 99 97 115 101 115 32 97 100 100 101 100 46 13 10 13 10 35 35'
+zz=:zz,' 35 32 48 46 57 46 52 32 45 32 78 111 118 32 50 53 44 32 50 48 49 4'
+zz=:zz,'9 13 10 13 10 32 42 32 117 112 100 97 116 101 32 96 106 111 100 105'
+zz=:zz,' 110 100 101 120 46 104 116 109 108 96 32 116 111 32 114 101 102 10'
+zz=:zz,'1 114 101 110 99 101 32 99 117 114 114 101 110 116 32 111 110 108 1'
+zz=:zz,'05 110 101 32 100 111 99 117 109 101 110 116 97 116 105 111 110 13 '
+zz=:zz,'10 32 13 10 32 42 32 102 105 120 101 100 32 97 32 96 109 97 107 101'
+zz=:zz,' 96 32 98 117 103 32 45 32 96 109 97 107 101 96 32 99 111 117 108 1'
+zz=:zz,'00 32 102 97 105 108 32 119 104 101 110 32 119 111 114 100 115 32 1'
+zz=:zz,'19 105 116 104 32 116 104 101 13 10 32 32 32 116 104 101 32 115 97 '
+zz=:zz,'109 101 32 110 97 109 101 32 97 110 100 32 100 105 102 102 101 114 '
+zz=:zz,'101 110 116 32 110 97 109 101 32 99 108 97 115 115 101 115 32 119 1'
+zz=:zz,'01 114 101 32 112 114 101 115 101 110 116 32 111 110 13 10 32 32 32'
+zz=:zz,' 116 104 101 32 112 97 116 104 46 13 10 32 32 32 13 10 32 42 32 117'
+zz=:zz,' 112 100 97 116 105 110 103 32 97 110 100 32 101 120 116 101 110 10'
+zz=:zz,'0 105 110 103 32 74 79 68 32 116 101 115 116 115 46 13 10 32 32 32 '
+zz=:zz,'13 10 35 35 35 32 48 46 57 46 51 32 45 32 74 117 110 32 49 49 44 32'
+zz=:zz,' 50 48 49 49 13 10 13 10 32 42 32 111 110 108 105 110 101 32 100 11'
+zz=:zz,'1 99 117 109 101 110 116 97 116 105 111 110 32 114 101 118 105 115 '
+zz=:zz,'101 100 32 97 110 100 32 101 120 116 101 110 100 101 100 46 32 84 1'
+zz=:zz,'04 101 32 111 110 108 105 110 101 32 100 111 99 117 109 101 110 116'
+zz=:zz,' 115 13 10 32 32 32 97 114 101 32 104 111 115 116 101 100 32 98 121'
+zz=:zz,' 32 71 111 111 103 108 101 32 68 111 99 117 109 101 110 116 115 32 '
+zz=:zz,'97 110 100 32 99 97 110 32 98 101 32 114 101 97 100 32 111 110 32 1'
+zz=:zz,'16 104 101 32 119 101 98 32 111 114 13 10 32 32 32 100 111 119 110 '
+zz=:zz,'108 111 97 100 101 100 32 105 110 32 97 32 118 97 114 105 101 116 1'
+zz=:zz,'21 32 111 102 32 102 111 114 109 97 116 115 58 32 80 68 70 44 32 79'
+zz=:zz,' 68 84 44 32 87 111 114 100 44 32 72 84 77 76 46 32 84 104 101 13 1'
+zz=:zz,'0 32 32 32 111 102 102 108 105 110 101 32 96 106 111 100 46 112 100'
+zz=:zz,' 102 96 32 119 105 108 108 32 98 101 32 114 101 118 105 115 101 100'
+zz=:zz,' 32 97 102 116 101 114 32 99 111 108 108 101 99 116 105 110 103 32 '
+zz=:zz,'117 115 101 114 32 102 101 101 100 98 97 99 107 46 13 10 13 10 35 3'
+zz=:zz,'5 35 32 48 46 57 46 50 32 45 32 77 97 121 32 50 57 44 32 50 48 49 4'
+zz=:zz,'9 13 10 13 10 32 42 32 102 105 114 115 116 32 76 105 110 117 120 32'
+zz=:zz,' 99 111 109 112 97 116 105 98 108 101 32 118 101 114 115 105 111 11'
+zz=:zz,'0 32 111 102 32 74 79 68 46 32 84 104 101 32 76 105 110 117 120 32 '
+zz=:zz,'118 101 114 115 105 111 110 13 10 32 32 32 114 101 113 117 105 114 '
+zz=:zz,'101 115 32 74 32 55 46 48 49 32 111 114 32 98 101 121 111 110 100 3'
+zz=:zz,'2 115 101 101 58 32 13 10 13 10 32 32 32 32 32 32 32 32 126 97 100 '
+zz=:zz,'100 111 110 115 47 103 101 110 101 114 97 108 47 106 111 100 47 106'
+zz=:zz,' 111 100 100 111 99 47 108 105 110 117 120 110 111 116 101 115 46 1'
+zz=:zz,'16 120 116 13 10 13 10 32 42 32 111 110 108 105 110 101 32 100 111 '
+zz=:zz,'99 117 109 101 110 116 97 116 105 111 110 44 32 97 118 97 105 108 9'
+zz=:zz,'7 98 108 101 32 118 105 97 32 116 104 101 32 118 101 114 98 32 96 1'
+zz=:zz,'06 111 100 104 101 108 112 96 44 13 10 32 32 32 104 97 115 32 98 10'
+zz=:zz,'1 101 110 32 99 111 110 118 101 114 116 101 100 32 116 111 32 116 1'
+zz=:zz,'04 101 32 110 101 119 32 71 111 111 103 108 101 32 68 111 99 117 10'
+zz=:zz,'9 101 110 116 32 102 111 114 109 97 116 46 32 13 10 32 32 32 84 104'
+zz=:zz,' 101 32 99 111 110 118 101 114 115 105 111 110 32 112 114 111 99 10'
+zz=:zz,'1 115 115 32 98 114 111 107 101 32 97 108 108 32 116 104 101 32 105'
+zz=:zz,' 110 116 101 114 110 97 108 32 104 121 112 101 114 108 105 110 107 '
+zz=:zz,'115 13 10 32 32 32 73 32 97 109 32 115 108 111 119 108 121 32 102 1'
+zz=:zz,'05 120 105 110 103 32 116 104 101 109 46 32 84 104 101 32 111 102 1'
+zz=:zz,'02 108 105 110 101 32 80 68 70 32 100 111 99 117 109 101 110 116 32'
+zz=:zz,' 13 10 32 32 32 91 96 106 111 100 46 112 100 102 96 93 40 104 116 1'
+zz=:zz,'16 112 58 47 47 119 119 119 46 98 111 120 46 110 101 116 47 115 104'
+zz=:zz,' 97 114 101 100 47 103 97 106 102 117 53 48 103 99 48 41 13 10 32 3'
+zz=:zz,'2 32 100 111 101 115 32 110 111 116 32 115 104 111 119 32 76 105 11'
+zz=:zz,'0 117 120 32 115 112 101 99 105 102 105 99 32 101 120 97 109 112 10'
+zz=:zz,'8 101 115 32 98 117 116 32 105 115 32 115 116 105 108 108 13 10 32 '
+zz=:zz,'32 32 97 110 32 97 99 99 117 114 97 116 101 32 100 101 115 99 114 1'
+zz=:zz,'05 112 116 105 111 110 32 111 102 32 119 104 97 116 32 74 79 68 32 '
+zz=:zz,'105 115 32 97 108 108 32 97 98 111 117 116 46 13 10 13 10 32 42 32 '
+zz=:zz,'97 100 100 105 116 105 111 110 97 108 32 105 110 102 111 114 109 97'
+zz=:zz,' 116 105 111 110 32 97 98 111 117 116 32 74 79 68 32 119 105 108 10'
+zz=:zz,'8 32 98 101 32 109 97 100 101 13 10 32 32 32 97 118 97 105 108 97 9'
+zz=:zz,'8 108 101 32 111 110 32 91 109 121 32 98 108 111 103 93 40 104 116 '
+zz=:zz,'116 112 58 47 47 98 97 107 101 114 106 100 57 57 46 119 111 114 100'
+zz=:zz,' 112 114 101 115 115 46 99 111 109 41 13 10 32 32 32 97 102 116 101'
+zz=:zz,' 114 32 97 32 114 111 117 110 100 32 111 102 32 98 101 116 97 32 11'
+zz=:zz,'6 101 115 116 105 110 103 32 105 110 32 116 104 101 32 119 105 108 '
+zz=:zz,'100 46 32 32 13 10 13 10 32 42 32 116 104 105 115 32 118 101 114 11'
+zz=:zz,'5 105 111 110 32 111 102 32 74 79 68 32 114 117 110 115 32 111 110 '
+zz=:zz,'32 119 105 110 100 111 119 115 32 74 32 54 46 48 120 32 97 110 100 '
+zz=:zz,'32 74 32 55 46 48 120 32 115 121 115 116 101 109 115 46 13 10 32 32'
+zz=:zz,' 13 10 35 35 35 32 48 46 57 46 49 32 45 32 77 97 121 32 55 44 32 50'
+zz=:zz,' 48 49 49 13 10 13 10 32 42 32 109 105 110 111 114 32 102 105 120 3'
+zz=:zz,'2 111 102 32 101 100 105 116 32 118 101 114 98 32 96 101 116 96 32 '
+zz=:zz,'116 111 32 114 117 110 32 111 110 32 98 111 116 104 32 55 46 48 120'
+zz=:zz,' 32 97 110 100 32 54 46 48 120 32 74 32 115 121 115 116 101 109 115'
+zz=:zz,' 46 13 10 13 10 35 35 35 32 48 46 57 46 48 32 45 32 70 101 98 32 49'
+zz=:zz,' 56 44 32 50 48 49 49 13 10 13 10 32 42 32 109 111 100 105 102 105 '
+zz=:zz,'101 100 32 116 111 32 114 117 110 32 117 110 100 101 114 32 74 32 5'
+zz=:zz,'5 46 48 49 32 74 72 83 32 97 110 100 32 74 71 84 75 46 32 84 104 10'
+zz=:zz,'5 115 32 118 101 114 115 105 111 110 13 10 32 32 32 97 108 115 111 '
+zz=:zz,'32 114 117 110 115 32 111 110 32 74 32 54 46 48 120 32 115 121 115 '
+zz=:zz,'116 101 109 115 46 13 10 32 32 32 13 10 32 42 32 114 101 112 108 97'
+zz=:zz,' 99 101 100 32 74 79 68 39 115 32 96 122 96 32 108 111 99 97 108 10'
+zz=:zz,'1 32 105 110 116 101 114 102 97 99 101 32 119 105 116 104 32 97 110'
+zz=:zz,' 32 96 105 106 111 100 96 32 105 110 116 101 114 102 97 99 101 46 1'
+zz=:zz,'3 10 32 32 32 74 79 68 32 110 111 119 32 100 101 102 105 110 101 11'
+zz=:zz,'5 32 111 110 108 121 32 116 104 114 101 101 32 119 111 114 100 115 '
+zz=:zz,'58 32 96 106 111 100 111 110 44 32 106 111 100 111 102 102 96 32 97'
+zz=:zz,' 110 100 32 13 10 32 32 32 96 106 111 100 115 121 115 116 101 109 1'
+zz=:zz,'12 97 116 104 96 32 105 110 32 116 104 101 32 96 122 96 32 108 111 '
+zz=:zz,'99 97 108 101 46 32 32 65 108 108 32 111 116 104 101 114 32 105 110'
+zz=:zz,' 116 101 114 102 97 99 101 13 10 32 32 32 119 111 114 100 115 32 97'
+zz=:zz,' 114 101 32 100 101 102 105 110 101 100 32 105 110 32 96 105 106 11'
+zz=:zz,'1 100 96 32 119 104 105 99 104 32 105 115 32 112 108 97 99 101 100 '
+zz=:zz,'32 111 110 32 116 104 101 13 10 32 32 32 98 97 115 101 32 108 111 9'
+zz=:zz,'9 97 108 101 39 115 32 115 101 97 114 99 104 32 112 97 116 104 13 1'
+zz=:zz,'0 32 32 32 13 10 32 42 32 112 97 116 104 32 97 110 100 32 102 105 1'
+zz=:zz,'08 101 32 100 105 115 112 108 97 121 115 32 99 111 110 118 101 114 '
+zz=:zz,'116 101 100 32 116 111 32 96 106 112 97 116 104 115 101 112 96 32 9'
+zz=:zz,'9 111 110 118 101 110 116 105 111 110 115 46 13 10 32 13 10 32 42 3'
+zz=:zz,'2 96 106 111 100 46 112 100 102 96 32 114 101 109 111 118 101 100 3'
+zz=:zz,'2 102 114 111 109 32 116 104 101 32 99 111 114 101 32 74 79 68 32 9'
+zz=:zz,'7 100 100 111 110 32 112 97 99 107 97 103 101 46 32 32 96 106 111 1'
+zz=:zz,'00 46 112 100 102 96 13 10 32 32 32 119 97 115 32 98 121 32 102 97 '
+zz=:zz,'114 32 116 104 101 32 108 97 114 103 101 115 116 32 112 97 114 116 '
+zz=:zz,'32 111 102 32 116 104 101 32 99 111 114 101 32 105 110 115 116 97 1'
+zz=:zz,'08 108 32 112 97 99 107 97 103 101 46 32 96 106 111 100 46 112 100 '
+zz=:zz,'102 96 13 10 32 32 32 105 115 32 110 111 119 32 98 114 111 119 115 '
+zz=:zz,'101 100 32 111 110 45 108 105 110 101 32 98 121 32 96 106 111 100 1'
+zz=:zz,'04 101 108 112 96 46 32 89 111 117 32 99 97 110 32 100 111 119 110 '
+zz=:zz,'108 111 97 100 32 96 106 111 100 46 112 100 102 96 13 10 32 32 32 9'
+zz=:zz,'7 110 100 32 112 108 97 99 101 32 105 116 32 105 110 32 96 126 97 1'
+zz=:zz,'00 100 111 110 115 47 103 101 110 101 114 97 108 47 106 111 100 47 '
+zz=:zz,'106 111 100 100 111 99 47 112 100 102 100 111 99 47 96 32 116 111 3'
+zz=:zz,'2 101 110 97 98 108 101 13 10 32 32 32 108 111 99 97 108 32 80 68 7'
+zz=:zz,'0 32 114 101 97 100 105 110 103 46 13 10 32 32 32 13 10 32 42 32 11'
+zz=:zz,'1 110 108 105 110 101 32 74 79 68 32 100 111 99 117 109 101 110 116'
+zz=:zz,' 97 116 105 111 110 32 117 112 100 97 116 101 100 32 116 111 32 114'
+zz=:zz,' 101 102 108 101 99 116 32 99 104 97 110 103 101 115 46 13 10 32 13'
+zz=:zz,' 10 32 42 32 96 85 84 70 56 96 32 109 97 99 114 111 32 115 99 114 1'
+zz=:zz,'05 112 116 32 99 111 100 101 32 99 104 97 110 103 101 100 32 102 11'
+zz=:zz,'4 111 109 32 50 54 32 116 111 32 50 56 32 40 114 101 109 101 109 98'
+zz=:zz,' 101 114 32 50 56 32 102 111 114 32 96 85 84 70 56 96 41 46 13 10 3'
+zz=:zz,'2 13 10 32 42 32 96 66 89 84 69 96 32 109 97 99 114 111 32 115 99 1'
+zz=:zz,'14 105 112 116 32 99 111 100 101 32 97 100 100 101 100 32 119 105 1'
+zz=:zz,'16 104 32 118 97 108 117 101 32 50 54 46 32 32 13 10 32 13 10 35 35'
+zz=:zz,' 35 32 48 46 56 46 48 32 45 32 79 99 116 32 51 49 44 32 50 48 48 56'
+zz=:zz,' 13 10 13 10 32 42 32 97 100 100 101 100 32 110 101 119 32 96 106 1'
+zz=:zz,'11 100 112 97 114 109 115 46 105 106 115 96 32 112 97 114 97 109 10'
+zz=:zz,'1 116 101 114 32 96 65 83 67 73 73 56 53 96 32 116 104 97 116 32 99'
+zz=:zz,' 111 110 116 114 111 108 115 32 119 104 101 116 104 101 114 13 10 3'
+zz=:zz,'2 32 32 100 117 109 112 32 102 105 108 101 115 32 117 115 101 32 97'
+zz=:zz,' 115 99 105 105 56 53 32 102 111 114 32 116 101 120 116 32 111 98 1'
+zz=:zz,'06 101 99 116 115 46 32 32 68 101 102 97 117 108 116 32 105 115 32 '
+zz=:zz,'48 46 13 10 32 32 32 84 104 101 32 97 115 99 105 105 56 53 32 114 1'
+zz=:zz,'01 112 114 101 115 101 110 116 97 116 105 111 110 32 103 101 110 10'
+zz=:zz,'1 114 97 108 108 121 32 112 114 111 100 117 99 101 115 32 115 109 9'
+zz=:zz,'7 108 108 101 114 32 13 10 32 32 32 100 117 109 112 32 102 105 108 '
+zz=:zz,'101 115 32 98 117 116 32 105 115 32 115 108 111 119 101 114 32 116 '
+zz=:zz,'104 97 110 32 116 104 101 32 100 101 102 97 117 108 116 32 109 101 '
+zz=:zz,'116 104 111 100 46 13 10 32 32 32 13 10 32 42 32 96 106 111 100 115'
+zz=:zz,' 111 117 114 99 101 96 32 117 115 101 115 32 97 115 99 105 105 56 5'
+zz=:zz,'3 32 102 111 114 32 74 79 68 32 100 101 118 101 108 111 112 109 101'
+zz=:zz,' 110 116 32 100 105 99 116 105 111 110 97 114 105 101 115 32 116 11'
+zz=:zz,'1 32 13 10 32 32 32 114 101 100 117 99 101 32 116 104 101 32 115 10'
+zz=:zz,'5 122 101 32 111 102 32 116 104 101 32 100 111 119 110 108 111 97 1'
+zz=:zz,'00 115 46 13 10 32 32 32 13 10 32 42 32 109 105 110 111 114 32 102 '
+zz=:zz,'105 120 101 115 32 105 110 32 96 106 111 100 46 112 100 102 96 13 1'
+zz=:zz,'0 13 10 35 35 35 32 48 46 55 46 51 32 45 32 79 99 116 32 55 44 32 5'
+zz=:zz,'0 48 48 56 13 10 13 10 32 42 32 102 111 114 99 101 100 32 112 97 11'
+zz=:zz,'6 104 32 99 111 109 112 97 114 105 115 111 110 115 32 116 111 32 10'
+zz=:zz,'8 111 119 101 114 32 99 97 115 101 32 105 110 32 74 79 68 32 76 97 '
+zz=:zz,'98 32 35 52 32 97 110 100 32 116 101 115 116 32 96 39 115 101 116 1'
+zz=:zz,'17 112 95 106 111 100 112 114 111 106 101 99 116 39 96 13 10 32 13 '
+zz=:zz,'10 32 42 32 102 105 120 101 100 32 97 32 102 101 119 32 116 121 112'
+zz=:zz,' 111 115 32 105 110 32 96 106 111 100 46 112 100 102 96 13 10 13 10'
+zz=:zz,' 35 35 35 32 48 46 55 46 50 32 45 32 83 101 112 32 50 53 44 32 50 4'
+zz=:zz,'8 48 56 13 10 13 10 32 42 32 99 111 109 112 108 101 116 101 100 32 '
+zz=:zz,'100 121 97 100 105 99 32 99 97 115 101 32 111 102 32 96 100 111 99 '
+zz=:zz,'96 13 10 32 13 10 32 42 32 117 112 100 97 116 101 100 32 96 106 111'
+zz=:zz,' 100 46 112 100 102 96 32 116 111 32 100 101 115 99 114 105 98 101 '
+zz=:zz,'32 99 104 97 110 103 101 115 13 10 13 10 35 35 35 32 48 46 55 46 49'
+zz=:zz,' 32 45 32 83 101 112 32 50 52 44 32 50 48 48 56 13 10 13 10 32 42 3'
+zz=:zz,'2 114 101 109 111 118 101 100 32 115 111 109 101 32 108 97 114 103 '
+zz=:zz,'101 32 69 80 83 32 102 105 108 101 115 32 102 114 111 109 32 100 10'
+zz=:zz,'5 99 116 105 111 110 97 114 121 32 116 111 32 114 101 100 117 99 10'
+zz=:zz,'1 32 100 111 119 110 108 111 97 100 32 115 105 122 101 13 10 32 13 '
+zz=:zz,'10 32 42 32 114 101 112 108 97 99 101 100 32 74 79 68 32 100 105 11'
+zz=:zz,'4 101 99 116 111 114 121 32 100 105 97 103 114 97 109 32 105 110 32'
+zz=:zz,' 96 106 111 100 46 112 100 102 96 32 45 32 114 101 100 117 99 101 1'
+zz=:zz,'15 32 115 105 122 101 32 111 102 32 106 96 111 100 46 112 100 102 9'
+zz=:zz,'6 13 10 13 10 35 35 35 32 48 46 55 46 48 32 45 32 83 101 112 32 50 '
+zz=:zz,'52 44 32 50 48 48 56 13 10 13 10 32 42 32 114 101 102 101 114 101 1'
+zz=:zz,'10 99 101 115 32 97 100 100 101 100 32 116 111 32 96 106 111 100 46'
+zz=:zz,' 112 100 102 32 96 13 10 32 13 10 32 42 32 110 101 119 32 106 111 1'
+zz=:zz,'00 32 104 97 114 100 99 111 112 121 32 91 119 119 119 46 108 117 10'
+zz=:zz,'8 117 46 99 111 109 93 40 104 116 116 112 58 47 47 119 119 119 46 1'
+zz=:zz,'08 117 108 117 46 99 111 109 41 32 101 100 105 116 105 111 110 13 1'
+zz=:zz,'0 32 13 10 35 35 35 32 48 46 54 46 48 32 45 32 65 117 103 32 49 56 '
+zz=:zz,'44 32 50 48 48 56 13 10 13 10 32 42 32 109 105 110 111 114 32 106 1'
+zz=:zz,'11 100 32 115 99 114 105 112 116 32 101 100 105 116 115 13 10 32 13'
+zz=:zz,' 10 32 42 32 96 106 111 100 46 112 100 102 96 32 105 110 100 101 12'
+zz=:zz,'0 32 105 109 112 114 111 118 101 100 32 13 10 32 13 10 35 35 35 32 '
+zz=:zz,'48 46 53 46 49 32 45 32 74 117 108 32 50 49 44 32 50 48 48 56 13 10'
+zz=:zz,' 13 10 32 42 32 96 106 111 100 117 115 101 114 99 111 110 102 105 1'
+zz=:zz,'03 46 105 106 115 96 32 97 100 100 101 100 13 10 32 13 10 32 42 32 '
+zz=:zz,'96 103 100 101 112 115 96 32 110 111 119 32 100 111 99 117 109 101 '
+zz=:zz,'110 116 101 100 32 105 110 32 96 106 111 100 46 112 100 102 96 13 1'
+zz=:zz,'0 32 13 10 35 35 35 32 48 46 53 46 48 32 45 32 74 117 108 32 49 56 '
+zz=:zz,'44 32 50 48 48 56 13 10 13 10 32 42 32 96 106 111 100 46 112 100 10'
+zz=:zz,'2 96 32 100 111 99 117 109 101 110 116 97 116 105 111 110 32 99 111'
+zz=:zz,' 109 112 108 101 116 101 13 10 32 13 10 35 35 35 32 48 46 52 46 48 '
+zz=:zz,'32 45 32 74 117 108 32 49 48 44 32 50 48 48 56 13 10 13 10 32 42 32'
+zz=:zz,' 105 110 115 117 114 101 32 97 116 32 108 101 97 115 116 32 111 110'
+zz=:zz,' 101 32 103 114 111 117 112 32 105 110 32 96 106 111 100 100 101 11'
+zz=:zz,'8 108 111 97 100 96 32 102 111 114 32 108 97 98 13 10 32 13 10 32 4'
+zz=:zz,'2 32 109 105 110 111 114 32 108 97 98 32 101 100 105 116 115 32 45 '
+zz=:zz,'32 114 101 102 101 114 32 116 111 32 96 115 116 97 114 116 117 112 '
+zz=:zz,'46 105 106 115 96 32 105 110 115 116 101 97 100 32 111 102 32 96 11'
+zz=:zz,'5 99 114 105 112 116 115 46 105 106 115 96 13 10 32 13 10 35 35 35 '
+zz=:zz,'32 48 46 51 46 56 32 45 32 77 97 121 32 51 49 44 32 50 48 48 56 13 '
+zz=:zz,'10 13 10 32 42 32 109 105 110 111 114 32 117 112 100 97 116 101 32 '
+zz=:zz,'116 111 32 108 97 115 116 32 108 97 98 32 115 101 99 116 105 111 11'
+zz=:zz,'0 13 10 13 10 35 35 35 32 48 46 51 46 55 32 45 32 77 97 121 32 51 4'
+zz=:zz,'9 44 32 50 48 48 56 13 10 13 10 32 42 32 98 117 103 32 102 105 120 '
+zz=:zz,'101 115 32 105 110 32 108 97 98 115 32 45 32 97 108 108 32 108 97 9'
+zz=:zz,'8 115 32 99 97 110 32 98 101 32 114 117 110 13 10 13 10 35 35 35 32'
+zz=:zz,' 48 46 51 46 54 32 45 32 77 97 121 32 50 57 44 32 50 48 48 56 13 10'
+zz=:zz,' 13 10 32 42 32 102 105 114 115 116 32 114 101 108 101 97 115 101 3'
+zz=:zz,'2 111 102 32 102 117 108 108 121 32 34 97 100 100 111 110 45 105 12'
+zz=:zz,'2 101 100 34 32 74 79 68 32 45 32 118 101 114 115 105 111 110 115 3'
+zz=:zz,'2 112 114 105 111 114 13 10 32 32 32 116 111 32 116 104 105 115 32 '
+zz=:zz,'114 101 108 101 97 115 101 32 104 97 100 32 116 111 32 98 101 32 10'
+zz=:zz,'9 97 110 117 97 108 108 121 32 105 110 115 116 97 108 108 101 100 3'
+zz=:zz,'2 98 121 32 13 10 32 32 32 97 100 45 104 111 99 32 115 99 114 105 1'
+zz=:zz,'12 116 115 46 32 78 111 119 32 116 104 101 32 74 65 76 32 115 121 1'
+zz=:zz,'15 116 101 109 32 104 97 110 100 108 101 115 32 74 79 68 32 105 110'
+zz=:zz,' 115 116 97 108 108 115 46 13 10 32 32 32 13 10 32 13 10 91 94 49 9'
+zz=:zz,'3 58 32 32 84 104 105 115 32 100 111 99 117 109 101 110 116 32 99 9'
+zz=:zz,'7 110 32 98 101 32 99 111 110 118 101 114 116 101 100 32 116 111 32'
+zz=:zz,' 109 97 110 121 32 102 111 114 109 97 116 115 32 119 105 116 104 32'
+zz=:zz,' 13 10 32 32 32 32 32 32 32 91 112 97 110 100 111 99 93 40 104 116 '
+zz=:zz,'116 112 58 47 47 106 111 104 110 109 97 99 102 97 114 108 97 110 10'
+zz=:zz,'1 46 110 101 116 47 112 97 110 100 111 99 47 41 46 13 10 32 32 32 3'
+zz=:zz,'2 32 32 32 70 111 114 32 101 120 97 109 112 108 101 32 116 104 101 '
+zz=:zz,'32 102 111 108 108 111 119 105 110 103 32 99 111 109 109 97 110 100'
+zz=:zz,' 32 112 114 111 100 117 99 101 115 32 97 110 32 72 84 77 76 32 118 '
+zz=:zz,'101 114 115 105 111 110 58 13 10 32 32 32 32 32 32 32 13 10 32 32 3'
+zz=:zz,'2 32 32 32 32 32 32 32 32 32 112 97 110 100 111 99 32 45 115 32 104'
+zz=:zz,' 105 115 116 111 114 121 106 111 100 46 109 97 114 107 100 111 119 '
+zz=:zz,'110 32 45 111 32 104 105 115 116 111 114 121 106 111 100 46 104 116'
+zz=:zz,' 109 108 13 10 32 32 32 32 32 32 32 32 32 32 32 32 13 10 32 13 10 3'
+zz=:zz,'2 13 10{a.);''historyjoddoc'';27;(103 101 110 101 114 97 108 47 106 1'
+zz=:zz,'11 100 100 111 99 117 109 101 110 116 32 45 32 99 104 97 110 103 10'
+zz=:zz,'1 32 104 105 115 116 111 114 121 13 10 61 61 61 61 61 61 61 61 61 6'
+zz=:zz,'1 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61'
+zz=:zz,' 61 61 61 61 13 10 13 10 35 35 35 32 48 46 57 46 56 53 32 45 32 79 '
+zz=:zz,'99 116 111 98 101 114 32 49 51 44 32 50 48 49 50 13 10 13 10 32 42 '
+zz=:zz,'32 109 105 110 111 114 32 101 100 105 116 115 32 45 32 96 77 65 82 '
+zz=:zz,'75 68 79 87 78 96 32 99 111 100 101 32 50 55 32 97 110 100 32 96 53'
+zz=:zz,' 32 100 105 115 112 32 39 39 96 32 110 111 116 101 100 46 13 10 32 '
+zz=:zz,'13 10 32 42 32 116 104 105 115 32 100 111 99 117 109 101 110 116 32'
+zz=:zz,' 99 111 110 118 101 114 116 101 100 32 116 111 32 91 109 97 114 107'
+zz=:zz,' 100 111 119 110 93 40 104 116 116 112 58 47 47 100 97 114 105 110 '
+zz=:zz,'103 102 105 114 101 98 97 108 108 46 110 101 116 47 112 114 111 106'
+zz=:zz,' 101 99 116 115 47 109 97 114 107 100 111 119 110 47 41 13 10 13 10'
+zz=:zz,' 35 35 35 32 48 46 57 46 56 48 32 45 32 74 117 108 121 32 49 51 44 '
+zz=:zz,'32 50 48 49 50 13 10 13 10 32 42 32 114 101 102 101 114 101 110 99 '
+zz=:zz,'101 115 32 116 111 32 77 97 99 32 118 101 114 115 105 111 110 32 97'
+zz=:zz,' 110 100 32 96 106 111 100 100 111 99 117 109 101 110 116 96 32 97 '
+zz=:zz,'100 100 111 110 32 97 100 100 101 100 32 13 10 13 10 35 35 35 32 48'
+zz=:zz,' 46 57 46 55 54 32 45 32 74 117 110 101 32 50 48 44 32 50 48 49 50 '
+zz=:zz,'13 10 13 10 32 42 32 80 68 70 32 74 79 68 32 100 111 99 117 109 101'
+zz=:zz,' 110 116 97 116 105 111 110 32 115 112 108 105 116 32 111 102 102 3'
+zz=:zz,'2 105 110 116 111 32 97 32 115 101 112 97 114 97 116 101 32 97 100 '
+zz=:zz,'100 111 110 46 32 84 104 101 32 109 97 105 110 13 10 32 32 32 102 1'
+zz=:zz,'05 108 101 32 96 106 111 100 46 112 100 102 96 32 105 115 32 114 10'
+zz=:zz,'1 108 97 116 105 118 101 108 121 32 115 116 97 98 108 101 32 97 110'
+zz=:zz,' 100 32 97 108 109 111 115 116 32 116 101 110 32 116 105 109 101 11'
+zz=:zz,'5 32 116 104 101 32 115 105 122 101 13 10 32 32 32 111 102 32 116 1'
+zz=:zz,'04 101 32 99 111 114 101 32 74 79 68 32 97 100 100 111 110 46 32 73'
+zz=:zz,' 116 32 104 97 115 32 98 101 101 110 32 114 101 109 111 118 101 100'
+zz=:zz,' 32 102 114 111 109 32 116 104 101 32 99 111 114 101 32 74 79 68 32'
+zz=:zz,' 97 100 100 111 110 13 10 32 32 32 116 111 32 114 101 100 117 99 10'
+zz=:zz,'1 32 100 111 119 110 108 111 97 100 32 116 105 109 101 115 46 32 91'
+zz=:zz,' 96 106 111 100 46 112 100 102 96 93 40 104 116 116 112 58 47 47 98'
+zz=:zz,' 97 107 101 114 106 100 57 57 46 119 111 114 100 112 114 101 115 11'
+zz=:zz,'5 46 99 111 109 47 116 104 101 45 106 111 100 45 112 97 103 101 47 '
+zz=:zz,'41 13 10 32 32 32 104 97 115 32 98 101 101 110 32 97 118 97 105 108'
+zz=:zz,' 97 98 108 101 32 111 110 32 116 104 101 32 74 79 68 32 80 97 103 1'
+zz=:zz,'01 32 102 111 114 32 117 115 101 114 115 32 116 111 32 100 111 119 '
+zz=:zz,'110 108 111 97 100 32 97 110 100 32 13 10 32 32 32 99 111 112 121 3'
+zz=:zz,'2 116 111 32 116 104 101 32 99 111 114 114 101 99 116 32 96 106 111'
+zz=:zz,' 100 104 101 108 112 96 32 100 105 114 101 99 116 111 114 121 32 98'
+zz=:zz,' 117 116 32 119 105 116 104 32 116 104 101 32 13 10 32 32 32 112 11'
+zz=:zz,'4 111 108 105 102 101 114 97 116 105 111 110 32 111 102 32 74 32 11'
+zz=:zz,'2 108 97 116 102 111 114 109 115 32 97 110 100 32 74 79 68 32 118 1'
+zz=:zz,'01 114 115 105 111 110 115 32 116 104 105 115 32 105 115 32 103 101'
+zz=:zz,' 116 116 105 110 103 32 13 10 32 32 32 109 101 115 115 121 46 32 73'
+zz=:zz,' 116 39 115 32 101 97 115 105 101 114 32 116 111 32 117 115 101 32 '
+zz=:zz,'74 65 76 32 116 111 32 100 105 115 116 114 105 98 117 116 101 32 11'
+zz=:zz,'6 104 105 115 32 102 105 108 101 32 97 110 100 32 99 104 97 110 103'
+zz=:zz,' 101 13 10 32 32 32 96 106 111 100 104 101 108 112 96 32 116 111 32'
+zz=:zz,' 108 111 111 107 32 105 110 32 116 104 105 115 32 97 100 100 111 11'
+zz=:zz,'0 39 115 32 100 105 114 101 99 116 111 114 105 101 115 46 13 10 32 '
+zz=:zz,'13 10{a.);''jodprofile'';21;(78 66 46 42 106 111 100 112 114 111 102 '
+zz=:zz,'105 108 101 32 115 45 45 32 74 79 68 32 100 105 99 116 105 111 110 '
+zz=:zz,'97 114 121 32 112 114 111 102 105 108 101 46 13 10 78 66 46 13 10 7'
+zz=:zz,'8 66 46 32 65 110 32 101 120 97 109 112 108 101 32 74 79 68 32 112 '
+zz=:zz,'114 111 102 105 108 101 32 115 99 114 105 112 116 46 32 83 97 118 1'
+zz=:zz,'01 32 116 104 105 115 32 115 99 114 105 112 116 32 105 110 13 10 78'
+zz=:zz,' 66 46 13 10 78 66 46 32 126 97 100 100 111 110 115 47 103 101 110 '
+zz=:zz,'101 114 97 108 47 106 111 100 47 13 10 78 66 46 13 10 78 66 46 32 1'
+zz=:zz,'19 105 116 104 32 116 104 101 32 110 97 109 101 32 106 111 100 112 '
+zz=:zz,'114 111 102 105 108 101 46 105 106 115 13 10 78 66 46 13 10 78 66 4'
+zz=:zz,'6 32 84 104 105 115 32 115 99 114 105 112 116 32 32 105 115 32 32 1'
+zz=:zz,'01 120 101 99 117 116 101 100 32 32 97 102 116 101 114 32 97 108 10'
+zz=:zz,'8 32 100 105 99 116 105 111 110 97 114 121 32 32 111 98 106 101 99 '
+zz=:zz,'116 115 32 104 97 118 101 13 10 78 66 46 32 98 101 101 110 32 99 11'
+zz=:zz,'4 101 97 116 101 100 46 32 73 116 32 32 99 97 110 32 32 98 101 32 1'
+zz=:zz,'17 115 101 100 32 32 116 111 32 32 115 101 116 32 117 112 32 32 121'
+zz=:zz,' 111 117 114 32 100 101 102 97 117 108 116 32 32 74 79 68 13 10 78 '
+zz=:zz,'66 46 32 119 111 114 107 105 110 103 32 101 110 118 105 114 111 110'
+zz=:zz,' 109 101 110 116 46 13 10 78 66 46 13 10 78 66 46 32 87 65 82 78 73'
+zz=:zz,' 78 71 58 32 68 111 32 110 111 116 32 100 112 115 101 116 32 39 82 '
+zz=:zz,'69 83 69 84 77 69 39 32 105 102 32 109 111 114 101 32 116 104 97 11'
+zz=:zz,'0 32 111 110 101 32 32 74 79 68 32 116 97 115 107 32 105 115 13 10 '
+zz=:zz,'78 66 46 32 97 99 116 105 118 101 46 32 73 102 32 111 110 108 121 3'
+zz=:zz,'2 111 110 101 32 116 97 115 107 32 105 115 32 97 99 116 105 118 101'
+zz=:zz,' 32 82 69 83 69 84 77 69 39 115 32 112 114 101 118 101 110 116 32 9'
+zz=:zz,'7 110 110 111 121 105 110 103 13 10 78 66 46 32 97 108 114 101 97 1'
+zz=:zz,'00 121 32 111 112 101 110 32 32 109 101 115 115 97 103 101 115 32 1'
+zz=:zz,'16 104 97 116 32 102 114 101 113 117 101 110 116 108 121 32 114 101'
+zz=:zz,' 115 117 108 116 32 102 114 111 109 32 102 111 114 103 101 116 116 '
+zz=:zz,'105 110 103 13 10 78 66 46 32 116 111 32 99 108 111 115 101 32 100 '
+zz=:zz,'105 99 116 105 111 110 97 114 105 101 115 32 117 112 111 110 32 101'
+zz=:zz,' 120 105 116 105 110 103 32 74 46 13 10 78 66 46 13 10 78 66 46 32 '
+zz=:zz,'78 111 116 101 32 116 111 32 32 74 32 100 101 118 101 108 111 112 1'
+zz=:zz,'01 114 115 46 32 65 32 115 104 117 116 100 111 119 110 32 115 101 1'
+zz=:zz,'10 116 101 110 99 101 32 40 97 32 108 105 110 101 32 32 111 102 32 '
+zz=:zz,'74 32 32 116 104 101 13 10 78 66 46 32 105 110 116 101 114 112 114 '
+zz=:zz,'101 116 111 114 32 32 101 120 101 99 117 116 101 115 32 32 98 101 1'
+zz=:zz,'02 111 114 101 32 32 32 116 101 114 109 105 110 97 116 105 110 103 '
+zz=:zz,'41 32 32 119 111 117 108 100 32 32 98 101 32 32 118 101 114 121 13 '
+zz=:zz,'10 78 66 46 32 117 115 101 102 117 108 46 13 10 78 66 46 13 10 78 6'
+zz=:zz,'6 46 32 97 117 116 104 111 114 58 32 74 111 104 110 32 68 46 32 66 '
+zz=:zz,'97 107 101 114 13 10 78 66 46 32 101 109 97 105 108 58 32 32 98 97 '
+zz=:zz,'107 101 114 106 100 57 57 64 103 109 97 105 108 46 99 111 109 13 10'
+zz=:zz,' 13 10 78 66 46 32 115 101 116 32 119 104 105 116 101 32 115 112 97'
+zz=:zz,' 99 101 32 112 114 101 115 101 114 118 97 116 105 111 110 32 111 11'
+zz=:zz,'0 13 10 57 33 58 52 49 32 91 32 49 13 10 13 10 78 66 46 32 100 111 '
+zz=:zz,'32 110 111 116 32 114 101 115 101 116 32 105 102 32 121 111 117 32 '
+zz=:zz,'97 114 101 32 114 117 110 110 105 110 103 32 109 111 114 101 32 116'
+zz=:zz,' 104 97 110 32 111 110 101 32 74 79 68 32 105 110 115 116 97 110 99'
+zz=:zz,' 101 13 10 100 112 115 101 116 32 39 82 69 83 69 84 77 69 39 13 10 '
+zz=:zz,'13 10 78 66 46 32 74 79 68 32 105 110 116 101 114 102 97 99 101 32 '
+zz=:zz,'108 111 99 97 108 101 32 13 10 99 111 99 108 97 115 115 32 39 105 1'
+zz=:zz,'06 111 100 39 13 10 13 10 78 66 46 32 102 111 108 108 111 119 105 1'
+zz=:zz,'10 103 32 97 114 101 32 104 97 110 100 121 32 40 105 106 111 100 41'
+zz=:zz,' 32 108 111 99 97 108 101 32 115 104 111 114 116 99 117 116 115 58 '
+zz=:zz,'13 10 13 10 78 66 46 32 112 114 111 106 101 99 116 32 115 104 111 1'
+zz=:zz,'14 116 99 117 116 115 32 45 32 117 115 101 32 101 120 112 108 105 9'
+zz=:zz,'9 105 116 32 13 10 78 66 46 32 100 101 102 105 110 116 105 111 110 '
+zz=:zz,'115 32 115 111 32 105 116 39 115 32 101 97 115 121 32 116 111 32 11'
+zz=:zz,'4 101 115 101 116 32 116 104 101 32 103 114 111 117 112 47 115 117 '
+zz=:zz,'105 116 101 13 10 97 103 61 58 32 51 32 58 32 39 106 111 100 103 32'
+zz=:zz,' 97 100 100 103 114 112 32 121 39 13 10 97 115 61 58 32 51 32 58 32'
+zz=:zz,' 39 40 106 111 100 115 59 51 41 32 97 100 100 103 114 112 32 121 39'
+zz=:zz,' 13 10 100 103 61 58 32 51 32 58 32 39 106 111 100 103 32 100 101 1'
+zz=:zz,'08 103 114 112 32 121 39 13 10 100 115 61 58 32 51 32 58 32 39 40 1'
+zz=:zz,'06 111 100 115 59 51 41 32 100 101 108 103 114 112 32 121 39 13 10 '
+zz=:zz,'32 32 32 13 10 78 66 46 32 114 101 102 101 114 101 110 99 101 100 3'
+zz=:zz,'2 103 114 111 117 112 32 119 111 114 100 115 32 110 111 116 32 105 '
+zz=:zz,'110 32 103 114 111 117 112 13 10 110 120 61 58 32 51 32 58 32 39 40'
+zz=:zz,' 97 108 108 114 101 102 115 32 32 125 46 32 103 110 41 32 45 46 32 '
+zz=:zz,'103 110 61 46 32 103 114 112 32 106 111 100 103 39 13 10 32 32 32 1'
+zz=:zz,'3 10 78 66 46 32 119 111 114 100 115 32 105 110 32 103 114 111 117 '
+zz=:zz,'112 32 117 115 105 110 103 32 97 32 119 111 114 100 13 10 117 103 6'
+zz=:zz,'1 58 32 51 32 58 32 39 121 32 117 115 101 100 98 121 32 125 46 32 1'
+zz=:zz,'03 114 112 32 106 111 100 103 39 13 10 32 32 32 13 10 78 66 46 32 1'
+zz=:zz,'03 101 110 101 114 97 116 101 32 38 32 115 97 118 101 32 108 111 97'
+zz=:zz,' 100 32 115 99 114 105 112 116 13 10 115 103 61 58 32 51 32 58 32 3'
+zz=:zz,'9 109 108 115 32 106 111 100 103 32 91 32 121 39 13 10 13 10 78 66 '
+zz=:zz,'46 32 116 111 112 32 40 112 117 116 32 100 105 99 116 105 111 110 9'
+zz=:zz,'7 114 121 41 32 119 111 114 100 115 44 32 103 114 111 117 112 115 3'
+zz=:zz,'2 105 110 32 114 101 118 105 115 105 111 110 32 111 114 100 101 114'
+zz=:zz,' 13 10 116 119 61 58 32 114 101 118 111 13 10 116 103 61 58 32 50 3'
+zz=:zz,'8 114 101 118 111 13 10 13 10 78 66 46 32 114 117 110 32 116 97 117'
+zz=:zz,' 116 111 108 111 103 121 32 97 115 32 112 108 97 105 110 116 101 11'
+zz=:zz,'5 116 32 45 32 100 111 101 115 32 110 111 116 32 115 116 111 112 32'
+zz=:zz,' 111 110 32 110 111 110 122 101 114 111 32 114 101 115 117 108 116 '
+zz=:zz,'115 13 10 114 116 61 58 32 50 38 114 116 116 13 10 13 10 78 66 46 3'
+zz=:zz,'2 114 117 110 32 109 97 99 114 111 32 115 105 108 101 110 116 108 1'
+zz=:zz,'21 32 45 32 119 105 108 108 32 115 104 111 119 32 101 120 112 108 1'
+zz=:zz,'05 99 116 32 115 109 111 117 116 112 117 116 13 10 114 115 61 58 32'
+zz=:zz,' 49 38 114 109 13 10 13 10 78 66 46 32 115 104 111 114 116 32 104 1'
+zz=:zz,'01 108 112 32 102 111 114 32 103 114 111 117 112 32 119 111 114 100'
+zz=:zz,' 115 13 10 104 103 61 58 32 91 58 32 104 108 112 110 108 32 91 58 3'
+zz=:zz,'2 125 46 32 103 114 112 13 10 13 10 78 66 46 32 115 104 111 114 116'
+zz=:zz,' 32 104 101 108 112 32 111 110 32 112 117 116 32 111 98 106 101 99 '
+zz=:zz,'116 115 32 105 110 32 114 101 118 105 115 101 100 32 111 114 100 10'
+zz=:zz,'1 114 32 102 114 111 109 32 99 111 100 101 58 13 10 78 66 46 32 32 '
+zz=:zz,'32 104 114 32 52 32 32 78 66 46 32 109 97 99 114 111 13 10 78 66 46'
+zz=:zz,' 32 32 32 104 114 32 50 32 32 78 66 46 32 103 114 111 117 112 115 1'
+zz=:zz,'3 10 104 114 61 58 32 49 51 32 58 32 39 121 32 104 108 112 110 108 '
+zz=:zz,'32 125 46 32 121 32 114 101 118 111 32 39 39 39 39 32 91 32 121 39 '
+zz=:zz,'13 10 13 10 78 66 46 32 115 105 110 103 108 101 32 108 105 110 101 '
+zz=:zz,'32 101 120 112 108 97 110 97 116 105 111 110 32 102 111 114 32 110 '
+zz=:zz,'111 110 119 111 114 100 115 13 10 78 66 46 32 32 52 32 115 108 101 '
+zz=:zz,'120 32 39 106 111 100 114 101 103 105 115 116 101 114 39 32 32 78 6'
+zz=:zz,'6 46 32 109 97 99 114 111 13 10 78 66 46 32 32 49 32 115 108 101 12'
+zz=:zz,'0 32 39 116 104 105 115 116 101 115 116 39 32 32 32 32 32 78 66 46 '
+zz=:zz,'32 116 101 115 116 13 10 115 108 101 120 61 58 32 52 32 58 32 39 40'
+zz=:zz,' 120 44 56 41 32 112 117 116 32 121 59 102 105 114 115 116 99 111 1'
+zz=:zz,'09 109 101 110 116 95 95 74 79 68 116 111 111 108 115 32 120 32 100'
+zz=:zz,' 105 115 112 32 121 39 13 10 13 10 78 66 46 32 114 101 103 101 110 '
+zz=:zz,'101 114 97 116 101 32 112 117 116 32 100 105 99 116 105 111 110 97 '
+zz=:zz,'114 121 32 119 111 114 100 32 99 114 111 115 115 32 114 101 102 101'
+zz=:zz,' 114 101 110 99 101 115 13 10 114 101 114 101 102 61 58 32 51 32 58'
+zz=:zz,' 32 39 40 110 44 46 115 41 32 35 126 32 45 46 59 48 123 34 49 32 11'
+zz=:zz,'5 61 46 48 32 103 108 111 98 115 38 62 110 61 46 125 46 114 101 118'
+zz=:zz,' 111 39 39 39 39 32 91 32 121 39 13 10 13 10 78 66 46 32 104 97 110'
+zz=:zz,' 100 121 32 99 108 32 100 111 99 32 104 101 108 112 101 114 115 13 '
+zz=:zz,'10 100 111 99 115 99 114 61 58 32 51 32 58 32 39 99 116 108 95 97 1'
+zz=:zz,'06 111 100 95 32 40 54 49 59 48 59 48 59 39 39 78 66 46 39 39 41 32'
+zz=:zz,' 100 111 99 99 116 50 95 95 85 84 95 95 74 79 68 111 98 106 32 93 5'
+zz=:zz,'9 46 95 49 32 76 70 44 121 45 46 67 82 39 13 10 100 111 99 116 120 '
+zz=:zz,'116 61 58 32 51 32 58 32 39 99 116 108 95 97 106 111 100 95 32 40 5'
+zz=:zz,'4 49 59 48 59 48 59 39 39 39 39 41 32 100 111 99 99 116 50 95 95 85'
+zz=:zz,' 84 95 95 74 79 68 111 98 106 32 93 59 46 95 49 32 76 70 44 121 45 '
+zz=:zz,'46 67 82 39 13 10 13 10 78 66 46 32 100 105 115 112 108 97 121 32 1'
+zz=:zz,'10 111 117 110 32 111 110 32 115 99 114 101 101 110 32 97 110 100 3'
+zz=:zz,'2 114 101 116 117 114 110 32 110 111 117 110 32 118 97 108 117 101 '
+zz=:zz,'13 10 115 104 111 119 112 97 115 115 61 58 93 32 91 32 49 33 58 50 '
+zz=:zz,'38 50 13 10 13 10 78 66 46 32 101 100 105 116 32 99 111 109 109 97 '
+zz=:zz,'110 100 32 13 10 68 79 67 85 77 69 78 84 67 79 77 77 65 78 68 61 58'
+zz=:zz,' 32 39 115 104 111 119 112 97 115 115 32 112 114 32 39 39 123 126 7'
+zz=:zz,'8 126 125 39 39 39 13 10 13 10 78 66 46 32 114 101 97 100 32 38 32 '
+zz=:zz,'119 114 105 116 101 32 102 105 108 101 115 13 10 78 66 46 32 114 10'
+zz=:zz,'1 97 100 61 58 49 33 58 49 38 40 93 96 60 64 46 40 51 50 38 62 64 4'
+zz=:zz,'0 51 33 58 48 41 41 41 13 10 78 66 46 32 119 114 105 116 101 61 58 '
+zz=:zz,'49 33 58 50 32 93 96 60 64 46 40 51 50 38 62 64 40 51 33 58 48 41 4'
+zz=:zz,'1 13 10 13 10 78 66 46 32 102 101 116 99 104 32 101 100 105 116 32 '
+zz=:zz,'116 101 120 116 47 109 97 99 114 111 115 13 10 78 66 46 32 116 116 '
+zz=:zz,'61 58 93 32 59 32 103 116 13 10 78 66 46 32 109 116 61 58 93 32 59 '
+zz=:zz,'32 50 53 34 95 32 59 32 103 116 32 32 32 78 66 46 32 42 46 116 120 '
+zz=:zz,'116 13 10 78 66 46 32 109 106 61 58 93 32 59 32 50 49 34 95 32 59 3'
+zz=:zz,'2 103 116 32 32 32 78 66 46 32 42 46 105 106 115 13 10 78 66 46 32 '
+zz=:zz,'109 100 61 58 93 32 59 32 50 55 34 95 32 59 32 103 116 32 32 32 78 '
+zz=:zz,'66 46 32 42 46 109 97 114 107 100 111 119 110 13 10 78 66 46 32 109'
+zz=:zz,' 120 61 58 93 32 59 32 50 50 34 95 32 59 32 103 116 32 32 32 78 66 '
+zz=:zz,'46 32 42 46 116 101 120 13 10 13 10 78 66 46 32 101 120 97 109 112 '
+zz=:zz,'108 101 115 32 111 102 32 74 79 68 32 115 101 115 115 105 111 110 3'
+zz=:zz,'2 115 116 97 114 116 32 117 112 115 32 45 32 115 104 111 119 115 13'
+zz=:zz,' 10 78 66 46 32 104 111 119 32 116 111 32 111 112 101 110 32 100 10'
+zz=:zz,'5 99 116 105 111 110 97 114 105 101 115 32 97 110 100 32 105 110 11'
+zz=:zz,'8 111 107 101 32 112 114 111 106 101 99 116 32 109 97 99 114 111 11'
+zz=:zz,'5 13 10 13 10 78 66 46 32 115 101 116 32 117 112 32 99 117 114 114 '
+zz=:zz,'101 110 116 32 112 114 111 106 101 99 116 32 40 49 32 115 117 112 1'
+zz=:zz,'12 114 101 115 115 32 73 79 44 32 48 32 111 114 32 101 108 105 100 '
+zz=:zz,'101 100 32 100 105 115 112 108 97 121 41 13 10 78 66 46 32 49 32 11'
+zz=:zz,'4 109 32 39 112 114 106 115 109 117 103 104 97 99 107 105 110 103 3'
+zz=:zz,'9 32 91 32 115 109 111 117 116 112 117 116 32 111 100 32 59 58 39 1'
+zz=:zz,'15 109 117 103 100 101 118 32 115 109 117 103 32 117 116 105 108 11'
+zz=:zz,'5 39 13 10 78 66 46 32 49 32 114 109 32 39 112 114 106 106 111 100 '
+zz=:zz,'39 32 91 32 115 109 111 117 116 112 117 116 32 111 100 32 59 58 39 '
+zz=:zz,'106 111 100 100 101 118 32 106 111 100 32 117 116 105 108 115 39 13'
+zz=:zz,' 10 13 10 78 66 46 32 99 117 114 114 101 110 116 32 115 116 97 114 '
+zz=:zz,'116 32 117 112 13 10 78 66 46 32 115 109 111 117 116 112 117 116 32'
+zz=:zz,' 111 100 32 59 58 39 109 119 101 99 99 32 117 116 105 108 115 39 13'
+zz=:zz,' 10 13 10 99 111 99 117 114 114 101 110 116 32 39 98 97 115 101 39 '
+zz=:zz,'13 10 99 111 105 110 115 101 114 116 32 39 105 106 111 100 39 13 10'
+zz=:zz,'{a.);''linuxnotes_TXT'';27;(76 105 110 117 120 32 83 112 101 99 105 1'
+zz=:zz,'02 105 99 32 78 111 116 101 115 32 102 111 114 32 74 79 68 32 13 10'
+zz=:zz,' 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 '
+zz=:zz,'61 61 61 61 61 61 13 10 13 10 66 101 102 111 114 101 32 117 115 105'
+zz=:zz,' 110 103 32 74 79 68 32 111 110 32 108 105 110 117 120 32 109 97 99'
+zz=:zz,' 104 105 110 101 115 32 112 108 101 97 115 101 32 114 101 97 100 32'
+zz=:zz,' 116 104 101 115 101 32 110 111 116 101 115 46 13 10 13 10 49 46 32'
+zz=:zz,' 74 79 68 32 80 68 70 32 100 111 99 117 109 101 110 116 97 116 105 '
+zz=:zz,'111 110 32 105 115 32 100 105 115 116 114 105 98 117 116 101 100 32'
+zz=:zz,' 105 110 32 116 104 101 32 13 10 32 32 32 91 74 79 68 68 79 67 85 7'
+zz=:zz,'7 69 78 84 93 40 104 116 116 112 58 47 47 119 119 119 46 106 115 11'
+zz=:zz,'1 102 116 119 97 114 101 46 99 111 109 47 106 119 105 107 105 47 65'
+zz=:zz,' 100 100 111 110 115 47 103 101 110 101 114 97 108 47 106 111 100 1'
+zz=:zz,'00 111 99 117 109 101 110 116 41 32 13 10 32 32 32 97 100 100 111 1'
+zz=:zz,'10 46 32 73 110 115 116 97 108 108 32 96 103 101 110 101 114 97 108'
+zz=:zz,' 47 106 111 100 100 111 99 117 109 101 110 116 96 32 116 111 32 112'
+zz=:zz,' 108 97 99 101 32 96 106 111 100 46 112 100 102 96 32 105 110 32 11'
+zz=:zz,'6 104 101 32 100 105 114 101 99 116 111 114 105 101 115 13 10 32 32'
+zz=:zz,' 32 115 101 97 114 99 104 101 100 32 98 121 32 96 106 111 100 104 1'
+zz=:zz,'01 108 112 96 46 13 10 13 10 50 46 32 74 79 68 32 115 111 117 114 9'
+zz=:zz,'9 101 32 99 111 100 101 32 105 115 32 100 105 115 116 114 105 98 11'
+zz=:zz,'7 116 101 100 32 105 110 32 116 104 101 32 13 10 32 32 32 91 74 79 '
+zz=:zz,'68 83 79 85 82 67 69 93 40 104 116 116 112 58 47 47 119 119 119 46 '
+zz=:zz,'106 115 111 102 116 119 97 114 101 46 99 111 109 47 106 119 105 107'
+zz=:zz,' 105 47 65 100 100 111 110 115 47 103 101 110 101 114 97 108 47 106'
+zz=:zz,' 111 100 115 111 117 114 99 101 41 32 13 10 32 32 32 97 100 100 111'
+zz=:zz,' 110 46 32 73 110 115 116 97 108 108 32 96 103 101 110 101 114 97 1'
+zz=:zz,'08 47 106 111 100 115 111 117 114 99 101 96 32 97 110 100 32 114 11'
+zz=:zz,'7 110 32 116 104 101 32 115 99 114 105 112 116 58 13 10 13 10 32 32'
+zz=:zz,' 32 32 32 32 32 32 126 97 100 100 111 110 115 47 103 101 110 101 11'
+zz=:zz,'4 97 108 47 106 111 100 115 111 117 114 99 101 47 106 111 100 115 1'
+zz=:zz,'11 117 114 99 101 115 101 116 117 112 46 105 106 115 32 13 10 13 10'
+zz=:zz,' 84 104 105 115 32 115 99 114 105 112 116 32 105 110 115 116 97 108'
+zz=:zz,' 108 115 32 116 104 101 32 74 79 68 32 100 101 118 101 108 111 112 '
+zz=:zz,'109 101 110 116 32 100 105 99 116 105 111 110 97 114 105 101 115 32'
+zz=:zz,' 117 115 105 110 103 32 109 121 32 114 101 99 111 109 109 101 110 1'
+zz=:zz,'00 101 100 32 112 97 116 104 32 115 116 114 117 99 116 117 114 101 '
+zz=:zz,'46 13 10 65 102 116 101 114 32 114 117 110 110 105 110 103 32 96 10'
+zz=:zz,'6 111 100 115 111 117 114 99 101 115 101 116 117 112 46 105 106 115'
+zz=:zz,' 96 32 121 111 117 32 115 104 111 117 108 100 32 115 101 101 32 100'
+zz=:zz,' 105 114 101 99 116 111 114 105 101 115 32 108 105 107 101 58 32 96'
+zz=:zz,' 39 106 111 104 110 39 96 32 105 115 32 109 121 32 96 36 72 79 77 6'
+zz=:zz,'9 96 13 10 13 10 32 32 32 32 32 32 32 32 47 104 111 109 101 47 106 '
+zz=:zz,'111 104 110 47 106 111 100 47 106 55 48 49 47 106 111 100 100 101 1'
+zz=:zz,'18 13 10 32 32 32 32 32 32 32 32 47 104 111 109 101 47 106 111 104 '
+zz=:zz,'110 47 106 111 100 47 106 55 48 49 47 106 111 100 13 10 32 32 32 32'
+zz=:zz,' 32 32 32 32 47 104 111 109 101 47 106 111 104 110 47 106 111 100 4'
+zz=:zz,'7 106 55 48 49 47 117 116 105 108 115 13 10 32 32 13 10 84 111 32 1'
+zz=:zz,'18 105 101 119 32 118 101 114 98 115 32 100 101 115 99 114 105 98 1'
+zz=:zz,'01 100 32 105 110 32 102 111 108 108 111 119 105 110 103 32 105 116'
+zz=:zz,' 101 109 115 32 116 104 101 115 101 32 100 105 99 116 105 111 110 9'
+zz=:zz,'7 114 105 101 115 32 109 117 115 116 32 98 101 32 97 118 97 105 108'
+zz=:zz,' 97 98 108 101 46 13 10 13 10 87 65 82 78 73 78 71 58 32 96 106 111'
+zz=:zz,' 100 115 111 117 114 99 101 115 101 116 117 112 46 105 106 115 96 3'
+zz=:zz,'2 117 115 101 115 32 116 104 101 32 96 97 114 99 47 122 105 112 96 '
+zz=:zz,'32 97 100 100 111 110 46 32 42 84 104 105 115 32 97 100 100 111 110'
+zz=:zz,' 32 109 97 121 32 102 97 105 108 13 10 111 110 32 54 52 32 98 105 1'
+zz=:zz,'16 32 74 32 115 121 115 116 101 109 115 46 42 32 32 83 101 101 32 9'
+zz=:zz,'1 84 104 101 32 74 79 68 32 80 97 103 101 93 40 104 116 116 112 58 '
+zz=:zz,'47 47 98 97 107 101 114 106 100 57 57 46 119 111 114 100 112 114 10'
+zz=:zz,'1 115 115 46 99 111 109 47 116 104 101 45 106 111 100 45 112 97 103'
+zz=:zz,' 101 41 13 10 102 111 114 32 97 32 54 52 32 98 105 116 32 115 121 1'
+zz=:zz,'15 116 101 109 32 119 111 114 107 45 97 114 111 117 110 100 46 13 1'
+zz=:zz,'0 13 10 13 10 35 35 35 32 48 46 57 46 55 53 32 45 32 74 117 110 101'
+zz=:zz,' 32 50 48 49 50 13 10 13 10 13 10 49 46 32 74 79 68 32 119 97 115 3'
+zz=:zz,'2 111 114 105 103 105 110 97 108 108 121 32 100 101 118 101 108 111'
+zz=:zz,' 112 101 100 32 111 110 32 87 105 110 100 111 119 115 46 32 84 104 '
+zz=:zz,'101 32 112 111 114 116 32 116 111 32 76 105 110 117 120 32 119 97 1'
+zz=:zz,'15 13 10 32 32 32 100 111 110 101 32 111 110 32 97 32 51 50 32 98 1'
+zz=:zz,'05 116 32 85 98 117 110 116 117 32 49 49 46 48 120 32 115 121 115 1'
+zz=:zz,'16 101 109 46 32 84 104 101 32 111 110 108 121 32 76 105 110 117 12'
+zz=:zz,'0 32 108 105 98 114 97 114 121 32 99 97 108 108 13 10 32 32 32 109 '
+zz=:zz,'97 100 101 32 98 121 32 74 79 68 32 111 99 99 117 114 115 32 105 11'
+zz=:zz,'0 32 116 104 101 32 96 103 117 105 100 115 96 32 118 101 114 98 46 '
+zz=:zz,'32 96 103 117 105 100 115 96 32 119 111 114 107 115 32 111 110 32 5'
+zz=:zz,'1 50 32 98 105 116 32 85 98 117 110 116 117 32 13 10 32 32 32 76 10'
+zz=:zz,'5 110 117 120 32 109 97 99 104 105 110 101 115 46 32 73 116 32 109 '
+zz=:zz,'97 121 32 119 111 114 107 32 111 110 32 54 52 32 98 105 116 32 76 1'
+zz=:zz,'05 110 117 120 32 97 115 32 119 101 108 108 46 32 32 84 104 101 32 '
+zz=:zz,'114 101 109 97 105 110 105 110 103 32 104 111 115 116 13 10 32 32 3'
+zz=:zz,'2 100 101 112 101 110 100 101 110 99 105 101 115 32 100 101 114 105'
+zz=:zz,' 118 101 32 102 114 111 109 32 115 104 101 108 108 32 99 111 109 10'
+zz=:zz,'9 97 110 100 115 46 32 74 79 68 32 109 97 107 101 115 32 118 101 11'
+zz=:zz,'4 121 32 108 105 109 105 116 101 100 32 117 115 101 32 111 102 32 1'
+zz=:zz,'3 10 32 32 32 76 105 110 117 120 32 115 104 101 108 108 32 99 111 1'
+zz=:zz,'09 109 97 110 100 115 46 32 83 104 101 108 108 32 99 111 109 109 97'
+zz=:zz,' 110 100 115 32 97 114 101 32 99 97 108 108 101 100 32 112 114 105 '
+zz=:zz,'109 97 114 105 108 121 32 116 111 32 109 111 118 101 44 32 114 101 '
+zz=:zz,'110 97 109 101 32 13 10 32 32 32 97 110 100 32 99 111 112 121 32 10'
+zz=:zz,'2 105 108 101 115 46 32 84 104 101 121 32 115 104 111 117 108 100 3'
+zz=:zz,'2 119 111 114 107 32 111 110 32 32 97 110 121 32 115 116 114 97 105'
+zz=:zz,' 110 32 111 102 32 76 105 110 117 120 32 111 114 32 85 110 105 120 '
+zz=:zz,'46 32 13 10 32 32 32 72 111 119 101 118 101 114 44 32 42 42 74 79 6'
+zz=:zz,'8 32 104 97 115 32 111 110 108 121 32 98 101 101 110 32 116 101 115'
+zz=:zz,' 116 101 100 32 111 110 32 51 50 32 98 105 116 32 85 98 117 110 116'
+zz=:zz,' 117 33 42 42 13 10 32 32 32 13 10 126 126 126 126 32 123 32 46 106'
+zz=:zz,' 32 125 13 10 78 66 46 32 116 111 32 118 105 101 119 32 40 103 117 '
+zz=:zz,'105 100 115 41 32 40 105 110 115 116 97 108 108 32 74 79 68 83 79 8'
+zz=:zz,'5 82 67 69 41 13 10 111 100 32 59 58 39 106 111 100 100 101 118 32 '
+zz=:zz,'106 111 100 32 117 116 105 108 115 39 32 91 32 51 32 111 100 32 39 '
+zz=:zz,'39 13 10 100 105 115 112 32 59 58 39 103 117 105 100 115 39 13 10 1'
+zz=:zz,'26 126 126 126 13 10 13 10 50 46 32 74 79 68 32 99 114 101 97 116 1'
+zz=:zz,'01 115 32 104 111 115 116 32 102 105 108 101 115 32 97 110 100 32 1'
+zz=:zz,'00 105 114 101 99 116 111 114 105 101 115 32 97 110 100 32 97 115 1'
+zz=:zz,'15 117 109 101 115 32 105 116 32 104 97 115 32 116 104 101 32 110 1'
+zz=:zz,'01 99 101 115 115 97 114 121 13 10 32 32 32 114 105 103 104 116 115'
+zz=:zz,' 32 116 111 32 114 101 97 100 44 32 119 114 105 116 101 32 97 110 1'
+zz=:zz,'00 32 109 111 118 101 32 116 104 101 115 101 32 102 105 108 101 115'
+zz=:zz,' 46 32 68 117 114 105 110 103 32 100 101 118 101 108 111 112 109 10'
+zz=:zz,'1 110 116 32 73 32 112 117 116 32 97 108 108 32 109 121 13 10 32 32'
+zz=:zz,' 32 74 79 68 32 100 105 99 116 105 111 110 97 114 105 101 115 32 10'
+zz=:zz,'5 110 32 109 121 32 96 36 72 79 77 69 96 32 96 47 104 111 109 101 4'
+zz=:zz,'7 106 111 104 110 96 32 100 105 114 101 99 116 111 114 121 96 46 13'
+zz=:zz,' 10 32 32 32 13 10 126 126 126 126 32 123 32 46 106 32 125 13 10 78'
+zz=:zz,' 66 46 32 116 111 32 118 105 101 119 32 118 101 114 98 115 32 116 1'
+zz=:zz,'04 97 116 32 109 97 110 105 112 117 108 97 116 101 32 104 111 115 1'
+zz=:zz,'16 32 102 105 108 101 115 32 40 105 110 115 116 97 108 108 32 74 79'
+zz=:zz,' 68 83 79 85 82 67 69 41 13 10 111 100 32 59 58 39 106 111 100 100 '
+zz=:zz,'101 118 32 106 111 100 32 117 116 105 108 115 39 32 91 32 51 32 111'
+zz=:zz,' 100 32 39 39 13 10 100 105 115 112 32 59 58 39 114 101 110 97 109 '
+zz=:zz,'101 102 105 108 101 115 32 99 111 112 121 102 105 108 101 115 39 13'
+zz=:zz,' 10 126 126 126 126 13 10 13 10 51 46 32 74 79 68 32 114 101 113 11'
+zz=:zz,'7 105 114 101 115 32 114 111 111 116 101 100 32 100 105 99 116 105 '
+zz=:zz,'111 110 97 114 121 32 112 97 116 104 115 44 32 105 46 101 46 44 32 '
+zz=:zz,'121 111 117 114 32 112 97 116 104 115 32 109 117 115 116 32 98 101 '
+zz=:zz,'103 105 110 32 119 105 116 104 32 97 32 115 108 97 115 104 32 96 47'
+zz=:zz,' 96 46 13 10 32 32 32 84 104 105 115 32 114 117 108 101 32 109 97 1'
+zz=:zz,'16 116 101 114 115 32 109 111 115 116 32 119 104 101 110 32 99 114 '
+zz=:zz,'101 97 116 105 110 103 32 97 110 100 32 114 101 103 105 115 116 101'
+zz=:zz,' 114 105 110 103 32 100 105 99 116 105 111 110 97 114 105 101 115 4'
+zz=:zz,'6 32 70 111 114 32 101 120 97 109 112 108 101 58 13 10 13 10 126 12'
+zz=:zz,'6 126 126 32 123 32 46 106 32 125 13 10 78 66 46 32 99 114 101 97 1'
+zz=:zz,'16 101 32 97 32 100 105 99 116 105 111 110 97 114 121 32 110 97 109'
+zz=:zz,' 101 100 32 40 116 101 115 116 48 41 32 105 110 32 115 112 101 99 1'
+zz=:zz,'05 102 105 101 100 32 108 111 99 97 116 105 111 110 13 10 110 101 1'
+zz=:zz,'19 100 32 39 116 101 115 116 48 39 59 39 47 104 111 109 101 47 106 '
+zz=:zz,'111 104 110 47 106 111 100 47 106 55 48 49 47 116 101 115 116 48 39'
+zz=:zz,' 59 39 116 101 115 116 48 32 110 111 116 101 115 39 13 10 32 32 13 '
+zz=:zz,'10 78 66 46 32 114 101 103 105 115 116 101 114 32 97 110 32 101 120'
+zz=:zz,' 116 97 110 116 32 100 105 99 116 105 111 110 97 114 121 32 110 97 '
+zz=:zz,'109 101 100 32 40 116 101 115 116 49 41 13 10 114 101 103 100 32 39'
+zz=:zz,' 116 101 115 116 49 39 59 39 47 104 111 109 101 47 106 111 104 110 '
+zz=:zz,'47 106 111 100 47 106 55 48 49 47 116 101 115 116 49 39 59 39 116 1'
+zz=:zz,'01 115 116 49 32 110 111 116 101 115 39 13 10 126 126 126 126 13 10'
+zz=:zz,' 13 10 52 46 32 74 79 68 32 117 115 101 115 32 74 39 115 32 99 111 '
+zz=:zz,'110 102 105 103 117 114 101 100 32 119 101 98 32 98 114 111 119 115'
+zz=:zz,' 101 114 32 97 110 100 32 112 100 102 32 114 101 97 100 101 114 46 '
+zz=:zz,'32 77 97 107 101 32 115 117 114 101 32 121 111 117 13 10 32 32 32 1'
+zz=:zz,'04 97 118 101 32 97 32 98 114 111 119 115 101 114 32 97 110 100 32 '
+zz=:zz,'114 101 97 100 101 114 32 115 101 116 117 112 46 32 32 13 10 13 10 '
+zz=:zz,'32 32 32 73 102 32 121 111 117 32 104 97 118 101 32 110 111 116 32 '
+zz=:zz,'99 111 110 102 105 103 117 114 101 100 32 97 32 74 32 119 101 98 32'
+zz=:zz,' 98 114 111 119 115 101 114 32 74 79 68 32 119 105 108 108 32 97 11'
+zz=:zz,'6 116 101 109 112 116 32 116 111 32 117 115 101 32 96 99 104 114 11'
+zz=:zz,'1 109 105 117 109 45 98 114 111 119 115 101 114 96 13 10 32 32 32 1'
+zz=:zz,'16 111 32 98 114 111 119 115 101 32 111 110 108 105 110 101 32 104 '
+zz=:zz,'101 108 112 46 32 73 102 32 121 111 117 32 100 111 32 110 111 116 3'
+zz=:zz,'2 104 97 118 101 32 67 104 114 111 109 101 32 105 110 115 116 97 10'
+zz=:zz,'8 108 101 100 32 96 106 111 100 104 101 108 112 96 32 119 105 108 1'
+zz=:zz,'08 13 10 32 32 32 110 111 116 32 119 111 114 107 46 13 10 32 32 32 '
+zz=:zz,'13 10 126 126 126 126 32 123 32 46 106 32 125 13 10 78 66 46 32 111'
+zz=:zz,' 100 32 59 58 39 106 111 100 100 101 118 32 106 111 100 32 117 116 '
+zz=:zz,'105 108 115 39 32 91 32 51 32 111 100 39 39 32 78 66 46 32 114 101 '
+zz=:zz,'113 117 105 114 101 100 32 100 105 99 116 105 111 110 97 114 105 10'
+zz=:zz,'1 115 13 10 100 105 115 112 32 39 106 111 100 104 101 108 112 39 13'
+zz=:zz,' 10 126 126 126 126 13 10 13 10 83 105 109 105 108 97 114 105 108 1'
+zz=:zz,'21 32 74 79 68 32 119 105 108 108 32 117 115 101 32 116 104 101 32 '
+zz=:zz,'96 47 117 115 114 47 101 118 105 110 99 101 96 32 112 100 102 32 11'
+zz=:zz,'4 101 97 100 101 114 32 105 102 32 121 111 117 32 104 97 118 101 32'
+zz=:zz,' 110 111 116 32 115 112 101 99 105 102 105 101 100 32 97 32 112 100'
+zz=:zz,' 102 32 114 101 97 100 101 114 46 13 10 13 10 53 46 32 42 42 68 79 '
+zz=:zz,'32 78 79 84 32 85 83 69 32 98 108 97 110 107 115 32 105 110 32 76 1'
+zz=:zz,'05 110 117 120 32 74 79 68 32 112 97 116 104 115 46 42 42 32 32 66 '
+zz=:zz,'108 97 110 107 115 32 109 97 121 32 112 114 111 100 117 99 101 32 1'
+zz=:zz,'01 114 114 111 114 115 32 105 110 32 13 10 32 32 32 74 79 68 32 103'
+zz=:zz,' 101 110 101 114 97 116 101 100 32 115 104 101 108 108 32 99 111 10'
+zz=:zz,'9 109 97 110 100 115 46 32 32 79 110 32 87 105 110 100 111 119 115 '
+zz=:zz,'32 109 97 99 104 105 110 101 115 32 121 111 117 32 99 97 110 32 101'
+zz=:zz,' 110 99 108 111 115 101 32 98 108 97 110 107 13 10 32 32 32 105 110'
+zz=:zz,' 102 101 115 116 101 100 32 112 97 116 104 115 32 119 105 116 104 3'
+zz=:zz,'2 100 111 117 98 108 101 32 113 117 111 116 101 115 32 108 105 107 '
+zz=:zz,'101 32 96 34 99 58 92 80 114 111 103 114 97 109 32 70 105 108 101 1'
+zz=:zz,'15 92 34 96 46 32 32 73 32 97 109 32 110 111 116 32 13 10 32 32 32 '
+zz=:zz,'115 117 114 101 32 104 111 119 32 116 111 32 100 111 32 115 111 109'
+zz=:zz,' 101 116 104 105 110 103 32 115 105 109 105 108 105 97 114 32 119 1'
+zz=:zz,'05 116 104 32 76 105 110 117 120 32 112 97 116 104 115 46 13 10 13 '
+zz=:zz,'10 54 46 32 74 79 68 32 116 101 115 116 115 32 118 111 108 117 109 '
+zz=:zz,'101 32 115 112 97 99 101 32 98 101 102 111 114 101 32 99 114 101 97'
+zz=:zz,' 116 105 110 103 44 32 99 111 112 121 105 110 103 32 111 114 32 114'
+zz=:zz,' 101 115 116 111 114 105 110 103 32 98 97 99 107 117 112 115 46 32 '
+zz=:zz,'79 110 32 87 105 110 100 111 119 115 13 10 32 32 32 102 114 101 101'
+zz=:zz,' 32 100 105 115 107 32 115 112 97 99 101 32 105 115 32 114 101 116 '
+zz=:zz,'117 114 110 101 100 32 98 121 32 97 110 32 65 80 73 32 99 97 108 10'
+zz=:zz,'8 46 32 32 79 110 32 76 105 110 117 120 32 116 104 101 32 96 100 10'
+zz=:zz,'2 96 32 115 104 101 108 108 32 99 111 109 109 97 110 100 32 105 115'
+zz=:zz,' 32 117 115 101 100 46 13 10 32 32 32 84 104 101 32 96 100 102 96 3'
+zz=:zz,'2 99 111 109 109 97 110 100 32 114 101 116 117 114 110 115 32 102 1'
+zz=:zz,'14 101 101 32 115 112 97 99 101 32 102 111 114 32 97 108 108 32 109'
+zz=:zz,' 111 117 110 116 101 100 32 118 111 108 117 109 101 115 46 32 32 73'
+zz=:zz,' 32 111 110 108 121 32 110 101 101 100 32 116 104 101 32 118 111 10'
+zz=:zz,'8 117 109 101 13 10 32 32 32 116 104 97 116 32 99 111 110 116 97 10'
+zz=:zz,'5 110 115 32 74 79 68 32 100 105 99 116 105 111 110 97 114 121 32 1'
+zz=:zz,'02 105 108 101 115 32 98 117 116 32 73 32 100 111 32 110 111 116 32'
+zz=:zz,' 107 110 111 119 32 104 111 119 32 116 111 32 100 101 116 101 114 1'
+zz=:zz,'09 105 110 101 32 116 104 101 32 118 111 108 117 109 101 13 10 32 3'
+zz=:zz,'2 32 110 97 109 101 32 102 114 111 109 32 97 32 108 105 110 117 120'
+zz=:zz,' 32 102 105 108 101 32 112 97 116 104 46 32 32 72 101 110 99 101 32'
+zz=:zz,' 73 32 114 101 116 117 114 110 32 116 104 101 32 115 109 97 108 108'
+zz=:zz,' 101 115 116 32 97 109 111 117 110 116 32 111 102 32 102 114 101 10'
+zz=:zz,'1 32 115 112 97 99 101 32 102 111 114 32 13 10 32 32 32 97 108 108 '
+zz=:zz,'32 109 111 117 110 116 101 100 32 118 111 108 117 109 101 115 46 32'
+zz=:zz,' 32 83 101 101 32 116 104 101 32 74 79 68 32 96 102 114 101 101 100'
+zz=:zz,' 105 115 107 96 32 118 101 114 98 32 102 111 114 32 100 101 116 97 '
+zz=:zz,'105 108 115 46 32 73 102 32 121 111 117 32 104 97 118 101 32 114 10'
+zz=:zz,'1 97 108 108 121 13 10 32 32 32 115 109 97 108 108 32 118 111 108 1'
+zz=:zz,'17 109 101 115 32 109 111 117 110 116 101 100 32 74 79 68 32 109 97'
+zz=:zz,' 121 32 114 101 102 117 115 101 32 116 111 32 99 114 101 97 116 101'
+zz=:zz,' 44 32 98 97 99 107 117 112 32 111 114 32 114 101 115 116 111 114 1'
+zz=:zz,'01 32 100 105 99 116 105 111 110 97 114 105 101 115 46 13 10 13 10 '
+zz=:zz,'126 126 126 126 32 123 32 46 106 32 125 13 10 78 66 46 32 111 100 3'
+zz=:zz,'2 59 58 39 106 111 100 100 101 118 32 106 111 100 32 117 116 105 10'
+zz=:zz,'8 115 39 32 91 32 51 32 111 100 39 39 32 78 66 46 32 114 101 113 11'
+zz=:zz,'7 105 114 101 100 32 100 105 99 116 105 111 110 97 114 105 101 115 '
+zz=:zz,'13 10 100 105 115 112 32 39 102 114 101 101 100 105 115 107 39 13 1'
+zz=:zz,'0 126 126 126 126 126 13 10 32 32 13 10 70 105 110 97 108 108 121 4'
+zz=:zz,'4 32 73 102 32 121 111 117 32 101 110 99 111 117 110 116 101 114 32'
+zz=:zz,' 112 114 111 98 108 101 109 115 32 117 115 105 110 103 32 74 79 68 '
+zz=:zz,'32 112 108 101 97 115 101 32 101 109 97 105 108 32 109 101 32 97 11'
+zz=:zz,'6 58 32 96 98 97 107 101 114 106 100 57 57 64 103 109 97 105 108 46'
+zz=:zz,' 99 111 109 96 13 10 13 10 13 10 13 10 13 10 13 10{a.);''macnotes_TX'
+zz=:zz,'T'';27;(77 97 99 32 83 112 101 99 105 102 105 99 32 78 111 116 101 1'
+zz=:zz,'15 32 102 111 114 32 74 79 68 13 10 61 61 61 61 61 61 61 61 61 61 6'
+zz=:zz,'1 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 13 10 13 10 84 104 1'
+zz=:zz,'05 115 32 105 115 32 116 104 101 32 102 105 114 115 116 32 77 97 99'
+zz=:zz,' 32 99 111 109 112 97 116 105 98 108 101 32 118 101 114 115 105 111'
+zz=:zz,' 110 32 111 102 32 74 79 68 46 13 10 66 101 102 111 114 101 32 117 '
+zz=:zz,'115 105 110 103 32 74 79 68 32 111 110 32 77 97 99 32 109 97 99 104'
+zz=:zz,' 105 110 101 115 32 112 108 101 97 115 101 32 114 101 97 100 32 116'
+zz=:zz,' 104 101 115 101 32 110 111 116 101 115 46 13 10 13 10 49 46 32 74 '
+zz=:zz,'79 68 32 80 68 70 32 100 111 99 117 109 101 110 116 97 116 105 111 '
+zz=:zz,'110 32 105 115 32 100 105 115 116 114 105 98 117 116 101 100 32 105'
+zz=:zz,' 110 32 116 104 101 32 13 10 32 32 32 91 74 79 68 68 79 67 85 77 69'
+zz=:zz,' 78 84 93 40 104 116 116 112 58 47 47 119 119 119 46 106 115 111 10'
+zz=:zz,'2 116 119 97 114 101 46 99 111 109 47 106 119 105 107 105 47 65 100'
+zz=:zz,' 100 111 110 115 47 103 101 110 101 114 97 108 47 106 111 100 100 1'
+zz=:zz,'11 99 117 109 101 110 116 41 32 13 10 32 32 32 97 100 100 111 110 4'
+zz=:zz,'6 32 73 110 115 116 97 108 108 32 96 103 101 110 101 114 97 108 47 '
+zz=:zz,'106 111 100 100 111 99 117 109 101 110 116 96 32 116 111 32 112 108'
+zz=:zz,' 97 99 101 32 96 106 111 100 46 112 100 102 96 32 105 110 32 116 10'
+zz=:zz,'4 101 32 100 105 114 101 99 116 111 114 105 101 115 13 10 32 32 32 '
+zz=:zz,'115 101 97 114 99 104 101 100 32 98 121 32 96 106 111 100 104 101 1'
+zz=:zz,'08 112 96 46 13 10 13 10 50 46 32 74 79 68 32 115 111 117 114 99 10'
+zz=:zz,'1 32 99 111 100 101 32 105 115 32 100 105 115 116 114 105 98 117 11'
+zz=:zz,'6 101 100 32 105 110 32 116 104 101 32 13 10 32 32 32 91 74 79 68 8'
+zz=:zz,'3 79 85 82 67 69 93 40 104 116 116 112 58 47 47 119 119 119 46 106 '
+zz=:zz,'115 111 102 116 119 97 114 101 46 99 111 109 47 106 119 105 107 105'
+zz=:zz,' 47 65 100 100 111 110 115 47 103 101 110 101 114 97 108 47 106 111'
+zz=:zz,' 100 115 111 117 114 99 101 41 32 13 10 32 32 32 97 100 100 111 110'
+zz=:zz,' 46 32 73 110 115 116 97 108 108 32 96 103 101 110 101 114 97 108 4'
+zz=:zz,'7 106 111 100 115 111 117 114 99 101 96 32 97 110 100 32 114 117 11'
+zz=:zz,'0 32 116 104 101 32 115 99 114 105 112 116 58 13 10 13 10 32 32 32 '
+zz=:zz,'32 32 32 32 32 126 97 100 100 111 110 115 47 103 101 110 101 114 97'
+zz=:zz,' 108 47 106 111 100 115 111 117 114 99 101 47 106 111 100 115 111 1'
+zz=:zz,'17 114 99 101 115 101 116 117 112 46 105 106 115 32 13 10 13 10 84 '
+zz=:zz,'104 105 115 32 115 99 114 105 112 116 32 105 110 115 116 97 108 108'
+zz=:zz,' 115 32 116 104 101 32 74 79 68 32 100 101 118 101 108 111 112 109 '
+zz=:zz,'101 110 116 32 100 105 99 116 105 111 110 97 114 105 101 115 32 117'
+zz=:zz,' 115 105 110 103 32 109 121 32 114 101 99 111 109 109 101 110 100 1'
+zz=:zz,'01 100 32 112 97 116 104 32 115 116 114 117 99 116 117 114 101 46 1'
+zz=:zz,'3 10 65 102 116 101 114 32 114 117 110 110 105 110 103 32 96 106 11'
+zz=:zz,'1 100 115 111 117 114 99 101 115 101 116 117 112 46 105 106 115 96 '
+zz=:zz,'32 121 111 117 32 115 104 111 117 108 100 32 115 101 101 32 100 105'
+zz=:zz,' 114 101 99 116 111 114 105 101 115 32 108 105 107 101 58 32 13 10 '
+zz=:zz,'13 10 32 32 32 32 32 32 32 32 47 85 115 101 114 115 47 106 111 104 '
+zz=:zz,'110 47 106 111 100 47 106 55 48 49 47 106 111 100 100 101 118 13 10'
+zz=:zz,' 32 32 32 32 32 32 32 32 47 85 115 101 114 115 47 106 111 104 110 4'
+zz=:zz,'7 106 111 100 47 106 55 48 49 47 106 111 100 13 10 32 32 32 32 32 3'
+zz=:zz,'2 32 32 47 85 115 101 114 115 47 106 111 104 110 47 106 111 100 47 '
+zz=:zz,'106 55 48 49 47 117 116 105 108 115 13 10 32 32 13 10 84 111 32 118'
+zz=:zz,' 105 101 119 32 118 101 114 98 115 32 100 101 115 99 114 105 98 101'
+zz=:zz,' 100 32 105 110 32 102 111 108 108 111 119 105 110 103 32 105 116 1'
+zz=:zz,'01 109 115 32 116 104 101 115 101 32 100 105 99 116 105 111 110 97 '
+zz=:zz,'114 105 101 115 32 109 117 115 116 32 98 101 32 97 118 97 105 108 9'
+zz=:zz,'7 98 108 101 46 13 10 13 10 87 65 82 78 73 78 71 58 32 96 106 111 1'
+zz=:zz,'00 115 111 117 114 99 101 115 101 116 117 112 46 105 106 115 96 32 '
+zz=:zz,'117 115 101 115 32 116 104 101 32 96 97 114 99 47 122 105 112 96 32'
+zz=:zz,' 97 100 100 111 110 46 32 42 84 104 105 115 32 97 100 100 111 110 3'
+zz=:zz,'2 109 97 121 32 102 97 105 108 13 10 111 110 32 54 52 32 98 105 116'
+zz=:zz,' 32 74 32 115 121 115 116 101 109 115 46 42 32 32 83 101 101 32 91 '
+zz=:zz,'84 104 101 32 74 79 68 32 80 97 103 101 93 40 104 116 116 112 58 47'
+zz=:zz,' 47 98 97 107 101 114 106 100 57 57 46 119 111 114 100 112 114 101 '
+zz=:zz,'115 115 46 99 111 109 47 116 104 101 45 106 111 100 45 112 97 103 1'
+zz=:zz,'01 41 13 10 102 111 114 32 97 32 54 52 32 98 105 116 32 115 121 115'
+zz=:zz,' 116 101 109 32 119 111 114 107 45 97 114 111 117 110 100 46 13 10 '
+zz=:zz,'13 10 13 10 35 35 35 32 48 46 57 46 55 53 32 45 32 74 117 110 101 3'
+zz=:zz,'2 50 48 49 50 13 10 13 10 49 46 32 74 79 68 32 119 97 115 32 111 11'
+zz=:zz,'4 105 103 105 110 97 108 108 121 32 100 101 118 101 108 111 112 101'
+zz=:zz,' 100 32 111 110 32 87 105 110 100 111 119 115 46 32 84 104 101 32 7'
+zz=:zz,'7 97 99 32 112 111 114 116 32 119 97 115 13 10 32 32 32 100 111 110'
+zz=:zz,' 101 32 111 110 32 97 32 51 50 32 98 105 116 32 73 110 116 101 108 '
+zz=:zz,'32 77 97 99 32 80 114 111 46 32 84 104 101 32 111 110 108 121 32 77'
+zz=:zz,' 97 99 32 108 105 98 114 97 114 121 32 99 97 108 108 13 10 32 32 32'
+zz=:zz,' 109 97 100 101 32 98 121 32 74 79 68 32 111 99 99 117 114 115 32 1'
+zz=:zz,'05 110 32 116 104 101 32 96 103 117 105 100 115 96 32 118 101 114 9'
+zz=:zz,'8 46 32 13 10 32 32 32 96 103 117 105 100 115 96 32 119 111 114 107'
+zz=:zz,' 115 32 102 105 110 101 32 111 110 32 51 50 32 98 105 116 32 77 97 '
+zz=:zz,'99 32 109 97 99 104 105 110 101 115 46 32 73 116 32 109 97 121 32 1'
+zz=:zz,'19 111 114 107 32 111 110 32 54 52 32 98 105 116 32 13 10 32 32 32 '
+zz=:zz,'77 97 99 115 32 97 115 32 119 101 108 108 46 32 32 84 104 101 32 11'
+zz=:zz,'4 101 109 97 105 110 105 110 103 32 104 111 115 116 32 100 101 112 '
+zz=:zz,'101 110 100 101 110 99 105 101 115 32 100 101 114 105 118 101 32 10'
+zz=:zz,'2 114 111 109 32 115 104 101 108 108 32 99 111 109 109 97 110 100 1'
+zz=:zz,'15 46 32 13 10 32 32 32 74 79 68 32 109 97 107 101 115 32 118 101 1'
+zz=:zz,'14 121 32 108 105 109 105 116 101 100 32 117 115 101 32 111 102 32 '
+zz=:zz,'77 97 99 32 115 104 101 108 108 32 99 111 109 109 97 110 100 115 46'
+zz=:zz,' 32 83 104 101 108 108 32 99 111 109 109 97 110 100 115 32 97 114 1'
+zz=:zz,'01 32 13 10 32 32 32 99 97 108 108 101 100 32 116 111 32 109 111 11'
+zz=:zz,'8 101 44 32 114 101 110 97 109 101 32 97 110 100 32 99 111 112 121 '
+zz=:zz,'32 102 105 108 101 115 46 32 84 104 101 121 32 115 104 111 117 108 '
+zz=:zz,'100 32 119 111 114 107 32 111 110 32 13 10 32 32 32 97 110 121 32 7'
+zz=:zz,'7 97 99 46 32 72 111 119 101 118 101 114 44 32 74 79 68 32 104 97 1'
+zz=:zz,'15 32 111 110 108 121 32 98 101 101 110 32 116 101 115 116 101 100 '
+zz=:zz,'32 111 110 32 51 50 32 98 105 116 32 73 110 116 101 108 32 77 97 99'
+zz=:zz,' 115 33 13 10 13 10 126 126 126 126 32 123 32 46 106 32 125 13 10 7'
+zz=:zz,'8 66 46 32 116 111 32 118 105 101 119 32 40 103 117 105 100 115 41 '
+zz=:zz,'32 40 105 110 115 116 97 108 108 32 74 79 68 83 79 85 82 67 69 41 1'
+zz=:zz,'3 10 111 100 32 59 58 39 106 111 100 100 101 118 32 106 111 100 32 '
+zz=:zz,'117 116 105 108 115 39 32 91 32 51 32 111 100 32 39 39 13 10 100 10'
+zz=:zz,'5 115 112 32 59 58 39 103 117 105 100 115 39 13 10 126 126 126 126 '
+zz=:zz,'13 10 13 10 50 46 32 74 79 68 32 99 114 101 97 116 101 115 32 104 1'
+zz=:zz,'11 115 116 32 102 105 108 101 115 32 97 110 100 32 100 105 114 101 '
+zz=:zz,'99 116 111 114 105 101 115 32 97 110 100 32 97 115 115 117 109 101 '
+zz=:zz,'115 32 105 116 32 104 97 115 32 116 104 101 32 110 101 99 101 115 1'
+zz=:zz,'15 97 114 121 13 10 32 32 32 114 105 103 104 116 115 32 116 111 32 '
+zz=:zz,'114 101 97 100 44 32 119 114 105 116 101 32 97 110 100 32 109 111 1'
+zz=:zz,'18 101 32 116 104 101 115 101 32 102 105 108 101 115 46 32 68 117 1'
+zz=:zz,'14 105 110 103 32 100 101 118 101 108 111 112 109 101 110 116 32 73'
+zz=:zz,' 32 112 117 116 32 97 108 108 32 109 121 13 10 32 32 32 74 79 68 32'
+zz=:zz,' 100 105 99 116 105 111 110 97 114 105 101 115 32 105 110 32 109 12'
+zz=:zz,'1 32 104 111 109 101 32 96 47 85 115 101 114 115 47 106 111 104 110'
+zz=:zz,' 96 32 100 105 114 101 99 116 111 114 121 46 13 10 32 13 10 126 126'
+zz=:zz,' 126 126 123 32 46 106 32 125 13 10 32 32 78 66 46 32 116 111 32 11'
+zz=:zz,'8 105 101 119 32 118 101 114 98 115 32 116 104 97 116 32 109 97 110'
+zz=:zz,' 105 112 117 108 97 116 101 32 104 111 115 116 32 102 105 108 101 1'
+zz=:zz,'15 32 40 105 110 115 116 97 108 108 32 74 79 68 83 79 85 82 67 69 4'
+zz=:zz,'1 13 10 32 32 111 100 32 59 58 39 106 111 100 100 101 118 32 106 11'
+zz=:zz,'1 100 32 117 116 105 108 115 39 32 91 32 51 32 111 100 32 39 39 13 '
+zz=:zz,'10 32 32 100 105 115 112 32 59 58 39 114 101 110 97 109 101 102 105'
+zz=:zz,' 108 101 115 32 99 111 112 121 102 105 108 101 115 39 13 10 126 126'
+zz=:zz,' 126 126 13 10 13 10 51 46 32 77 97 99 32 74 79 68 32 114 101 113 1'
+zz=:zz,'17 105 114 101 115 32 114 111 111 116 101 100 32 100 105 99 116 105'
+zz=:zz,' 111 110 97 114 121 32 112 97 116 104 115 44 32 105 46 101 46 44 32'
+zz=:zz,' 121 111 117 114 32 112 97 116 104 115 32 109 117 115 116 32 98 101'
+zz=:zz,' 103 105 110 32 119 105 116 104 32 97 32 115 108 97 115 104 32 96 4'
+zz=:zz,'7 96 46 13 10 32 32 32 84 104 105 115 32 114 117 108 101 32 109 97 '
+zz=:zz,'116 116 101 114 115 32 109 111 115 116 32 119 104 101 110 32 99 114'
+zz=:zz,' 101 97 116 105 110 103 32 97 110 100 32 114 101 103 105 115 116 10'
+zz=:zz,'1 114 105 110 103 32 100 105 99 116 105 111 110 97 114 105 101 115 '
+zz=:zz,'46 32 70 111 114 32 101 120 97 109 112 108 101 58 13 10 13 10 126 1'
+zz=:zz,'26 126 126 123 32 46 106 32 125 13 10 78 66 46 32 99 114 101 97 116'
+zz=:zz,' 101 32 97 32 100 105 99 116 105 111 110 97 114 121 32 110 97 109 1'
+zz=:zz,'01 100 32 40 116 101 115 116 48 41 32 105 110 32 115 112 101 99 105'
+zz=:zz,' 102 105 101 100 32 108 111 99 97 116 105 111 110 13 10 110 101 119'
+zz=:zz,' 100 32 39 116 101 115 116 48 39 59 39 47 85 115 101 114 115 47 106'
+zz=:zz,' 111 104 110 47 106 111 100 47 106 55 48 49 47 116 101 115 116 48 3'
+zz=:zz,'9 59 39 116 101 115 116 48 32 110 111 116 101 115 39 13 10 13 10 78'
+zz=:zz,' 66 46 32 114 101 103 105 115 116 101 114 32 97 110 32 101 120 116 '
+zz=:zz,'97 110 116 32 100 105 99 116 105 111 110 97 114 121 32 110 97 109 1'
+zz=:zz,'01 100 32 40 116 101 115 116 49 41 13 10 114 101 103 100 32 39 116 '
+zz=:zz,'101 115 116 49 39 59 39 47 85 115 101 114 115 47 106 111 104 110 47'
+zz=:zz,' 106 111 100 47 106 55 48 49 47 116 101 115 116 49 39 59 39 116 101'
+zz=:zz,' 115 116 49 32 110 111 116 101 115 39 13 10 126 126 126 126 13 10 1'
+zz=:zz,'3 10 52 46 32 84 104 101 32 77 97 99 32 118 101 114 115 105 111 110'
+zz=:zz,' 32 111 102 32 74 79 68 32 117 115 101 115 32 116 104 101 32 115 10'
+zz=:zz,'4 101 108 108 32 99 111 109 109 97 110 100 32 34 111 112 101 110 34'
+zz=:zz,' 32 116 111 32 98 114 111 119 115 101 13 10 32 32 32 85 82 76 115 3'
+zz=:zz,'2 97 110 100 32 114 101 97 100 32 80 68 70 32 100 111 99 117 109 10'
+zz=:zz,'1 110 116 115 46 32 32 77 97 99 32 74 79 68 32 105 103 110 111 114 '
+zz=:zz,'101 115 32 116 104 101 32 74 32 99 111 110 102 105 103 117 114 101 '
+zz=:zz,'100 32 13 10 32 32 32 98 114 111 119 115 101 114 32 97 110 100 32 8'
+zz=:zz,'0 68 70 32 114 101 97 100 101 114 46 32 84 104 105 115 32 108 105 1'
+zz=:zz,'09 105 116 97 116 105 111 110 32 109 105 103 104 116 32 98 101 32 1'
+zz=:zz,'14 101 108 97 120 101 100 32 105 102 32 13 10 32 32 32 105 116 32 1'
+zz=:zz,'12 114 111 118 101 115 32 97 110 110 111 121 105 110 103 46 13 10 1'
+zz=:zz,'3 10 53 46 32 42 42 68 79 32 78 79 84 32 85 83 69 32 98 108 97 110 '
+zz=:zz,'107 115 32 105 110 32 77 97 99 32 74 79 68 32 112 97 116 104 115 46'
+zz=:zz,' 42 42 32 84 104 105 115 32 105 115 32 97 110 32 97 110 110 111 121'
+zz=:zz,' 105 110 103 32 114 101 115 116 114 105 99 116 105 111 110 13 10 32'
+zz=:zz,' 32 32 116 104 97 116 32 73 32 119 105 108 108 32 114 101 108 97 12'
+zz=:zz,'0 32 105 110 32 108 97 116 101 114 32 118 101 114 115 105 111 110 1'
+zz=:zz,'15 46 32 66 108 97 110 107 115 32 109 97 121 32 112 114 111 100 117'
+zz=:zz,' 99 101 32 101 114 114 111 114 115 32 105 110 32 13 10 32 32 32 74 '
+zz=:zz,'79 68 32 103 101 110 101 114 97 116 101 100 32 115 104 101 108 108 '
+zz=:zz,'32 99 111 109 109 97 110 100 115 46 32 32 79 110 32 87 105 110 100 '
+zz=:zz,'111 119 115 32 109 97 99 104 105 110 101 115 32 121 111 117 32 99 9'
+zz=:zz,'7 110 32 101 110 99 108 111 115 101 32 98 108 97 110 107 13 10 32 3'
+zz=:zz,'2 32 105 110 102 101 115 116 101 100 32 112 97 116 104 115 32 119 1'
+zz=:zz,'05 116 104 32 100 111 117 98 108 101 32 113 117 111 116 101 115 32 '
+zz=:zz,'108 105 107 101 32 96 34 99 58 92 80 114 111 103 114 97 109 32 70 1'
+zz=:zz,'05 108 101 115 92 34 96 46 32 32 73 32 97 109 32 110 111 116 32 13 '
+zz=:zz,'10 32 32 32 115 117 114 101 32 104 111 119 32 116 111 32 100 111 32'
+zz=:zz,' 115 111 109 101 116 104 105 110 103 32 115 105 109 105 108 105 97 '
+zz=:zz,'114 32 119 105 116 104 32 77 97 99 32 112 97 116 104 115 46 13 10 1'
+zz=:zz,'3 10 54 46 32 74 79 68 32 116 101 115 116 115 32 118 111 108 117 10'
+zz=:zz,'9 101 32 115 112 97 99 101 32 98 101 102 111 114 101 32 99 114 101 '
+zz=:zz,'97 116 105 110 103 44 32 99 111 112 121 105 110 103 32 111 114 32 1'
+zz=:zz,'14 101 115 116 111 114 105 110 103 32 98 97 99 107 117 112 115 46 3'
+zz=:zz,'2 79 110 32 87 105 110 100 111 119 115 13 10 32 32 32 102 114 101 1'
+zz=:zz,'01 32 100 105 115 107 32 115 112 97 99 101 32 105 115 32 114 101 11'
+zz=:zz,'6 117 114 110 101 100 32 98 121 32 97 110 32 65 80 73 32 99 97 108 '
+zz=:zz,'108 46 32 32 79 110 32 77 97 99 39 115 32 100 105 115 107 32 115 11'
+zz=:zz,'2 97 99 101 32 105 115 13 10 32 32 32 99 117 114 114 101 110 116 10'
+zz=:zz,'8 121 32 105 103 110 111 114 101 100 46 32 89 111 117 32 119 105 10'
+zz=:zz,'8 108 32 110 101 101 100 32 97 116 32 108 101 97 115 116 32 50 109 '
+zz=:zz,'98 32 111 102 32 102 114 101 101 32 115 112 97 99 101 32 116 111 32'
+zz=:zz,' 99 114 101 97 116 101 44 32 109 111 118 101 13 10 32 32 32 111 114'
+zz=:zz,' 32 99 111 112 121 32 74 79 68 32 100 105 99 116 105 111 110 97 114'
+zz=:zz,' 105 101 115 46 32 77 105 110 100 32 121 111 117 32 105 102 32 121 '
+zz=:zz,'111 117 32 111 110 108 121 32 104 97 118 101 32 50 109 98 32 102 11'
+zz=:zz,'4 101 101 32 109 111 115 116 32 111 102 32 121 111 117 114 32 13 10'
+zz=:zz,' 32 32 32 77 97 99 32 115 111 102 116 119 97 114 101 32 119 105 108'
+zz=:zz,' 108 32 115 116 111 112 32 119 111 114 107 105 110 103 32 97 110 12'
+zz=:zz,'1 119 97 121 46 13 10 32 32 13 10 73 102 32 121 111 117 32 101 110 '
+zz=:zz,'99 111 117 110 116 101 114 32 112 114 111 98 108 101 109 115 32 117'
+zz=:zz,' 115 105 110 103 32 74 79 68 32 112 108 101 97 115 101 32 101 109 9'
+zz=:zz,'7 105 108 32 109 101 32 97 116 58 32 96 98 97 107 101 114 106 100 5'
+zz=:zz,'7 57 64 103 109 97 105 108 46 99 111 109 96 13 10 13 10 13 10 13 10'
+zz=:zz,' 13 10 13 10{a.);''manifestjod'';21;(78 66 46 32 109 97 110 105 102 1'
+zz=:zz,'01 115 116 32 102 111 114 32 74 79 68 13 10 67 65 80 84 73 79 78 61'
+zz=:zz,' 58 39 74 79 68 32 74 32 79 98 106 101 99 116 32 68 105 99 116 105 '
+zz=:zz,'111 110 97 114 121 39 13 10 86 69 82 83 73 79 78 61 58 39 48 46 57 '
+zz=:zz,'46 57 48 39 13 10 80 76 65 84 70 79 82 77 83 61 58 39 119 105 110 3'
+zz=:zz,'2 108 105 110 117 120 32 100 97 114 119 105 110 39 32 32 32 32 32 3'
+zz=:zz,'2 13 10 76 65 66 67 65 84 69 71 79 82 89 61 58 39 71 101 110 101 11'
+zz=:zz,'4 97 108 39 13 10 70 73 76 69 83 61 58 32 48 32 58 32 48 13 10 106 '
+zz=:zz,'111 100 46 105 106 115 13 10 106 111 100 112 97 114 109 115 46 105 '
+zz=:zz,'106 115 13 10 106 111 100 112 114 111 102 105 108 101 46 105 106 11'
+zz=:zz,'5 13 10 109 97 110 105 102 101 115 116 46 105 106 115 13 10 104 105'
+zz=:zz,' 115 116 111 114 121 46 116 120 116 13 10 106 111 100 98 97 107 47 '
+zz=:zz,'106 111 100 112 97 114 109 115 98 97 107 46 105 106 115 13 10 106 1'
+zz=:zz,'11 100 98 97 107 47 106 111 100 112 114 111 102 105 108 101 98 97 1'
+zz=:zz,'07 46 105 106 115 13 10 106 111 100 98 97 107 47 106 111 100 117 11'
+zz=:zz,'5 101 114 99 111 110 102 105 103 98 97 107 46 105 106 115 13 10 106'
+zz=:zz,' 111 100 100 111 99 47 108 105 110 117 120 110 111 116 101 115 46 1'
+zz=:zz,'16 120 116 13 10 106 111 100 100 111 99 47 109 97 99 110 111 116 10'
+zz=:zz,'1 115 46 116 120 116 13 10 106 111 100 100 111 99 47 104 116 109 10'
+zz=:zz,'8 100 111 99 47 106 111 100 105 110 100 101 120 46 104 116 109 108 '
+zz=:zz,'13 10 106 111 100 100 111 99 47 112 100 102 100 111 99 47 106 111 1'
+zz=:zz,'00 112 100 102 46 116 120 116 13 10 106 111 100 101 120 116 115 47 '
+zz=:zz,'106 111 100 116 111 111 108 115 46 105 106 115 13 10 106 111 100 10'
+zz=:zz,'8 97 98 115 47 106 111 100 100 117 109 112 46 105 106 116 13 10 106'
+zz=:zz,' 111 100 108 97 98 115 47 106 111 100 105 110 116 114 111 46 105 10'
+zz=:zz,'6 116 13 10 106 111 100 108 97 98 115 47 106 111 100 98 101 115 116'
+zz=:zz,' 46 105 106 116 13 10 106 111 100 108 97 98 115 47 108 97 98 101 12'
+zz=:zz,'0 97 109 112 108 101 48 48 49 46 105 106 115 13 10 106 111 100 108 '
+zz=:zz,'97 98 115 47 108 97 98 100 117 109 112 46 105 106 115 13 10 41 13 1'
+zz=:zz,'0 82 69 76 69 65 83 69 61 58 39 106 54 48 49 32 106 54 48 50 32 106'
+zz=:zz,' 55 48 49 39 13 10 68 69 80 69 78 68 83 61 58 32 48 32 58 32 48 13 '
+zz=:zz,'10 100 97 116 97 47 106 102 105 108 101 115 13 10 103 101 110 101 1'
+zz=:zz,'14 97 108 47 115 99 114 105 112 116 100 111 99 13 10 41 13 10 68 69'
+zz=:zz,' 83 67 82 73 80 84 73 79 78 61 58 32 48 32 58 32 48 13 10 74 79 68 '
+zz=:zz,'32 40 74 32 79 98 106 101 99 116 32 68 105 99 116 105 111 110 97 11'
+zz=:zz,'4 121 41 32 105 115 32 97 32 74 32 112 114 111 103 114 97 109 109 1'
+zz=:zz,'05 110 103 32 116 111 111 108 46 32 74 79 68 32 105 115 32 13 10 97'
+zz=:zz,' 32 119 111 114 100 32 111 114 105 101 110 116 101 100 32 100 97 11'
+zz=:zz,'6 97 98 97 115 101 32 102 111 114 32 97 108 108 32 116 121 112 101 '
+zz=:zz,'115 32 111 102 32 74 32 111 98 106 101 99 116 115 46 32 74 79 68 32'
+zz=:zz,' 13 10 115 117 112 112 111 114 116 115 32 108 105 110 107 101 100 3'
+zz=:zz,'2 100 105 99 116 105 111 110 97 114 121 32 100 97 116 97 98 97 115 '
+zz=:zz,'101 115 32 97 110 100 32 112 114 111 118 105 100 101 115 32 116 111'
+zz=:zz,' 111 108 115 32 102 111 114 32 13 10 100 111 99 117 109 101 110 116'
+zz=:zz,' 105 110 103 32 97 110 100 32 116 101 115 116 105 110 103 32 74 32 '
+zz=:zz,'99 111 100 101 46 32 13 10 13 10 73 110 32 74 32 55 46 48 120 32 74'
+zz=:zz,' 79 68 32 114 101 113 117 105 114 101 115 32 116 104 101 32 102 111'
+zz=:zz,' 108 108 111 119 105 110 103 32 97 100 100 111 110 115 58 13 10 13 '
+zz=:zz,'10 32 32 100 97 116 97 47 106 102 105 108 101 115 13 10 32 32 97 11'
+zz=:zz,'4 99 47 122 105 112 32 13 10 13 10 70 111 114 32 109 111 114 101 32'
+zz=:zz,' 105 110 102 111 114 109 97 116 105 111 110 32 115 101 101 32 116 1'
+zz=:zz,'04 101 32 74 79 68 32 119 105 107 105 32 112 97 103 101 115 32 40 7'
+zz=:zz,'3 110 102 111 32 66 117 116 116 111 110 41 44 13 10 114 117 110 32 '
+zz=:zz,'116 104 101 32 108 97 98 32 34 74 79 68 32 108 97 98 32 74 79 68 32'
+zz=:zz,' 73 110 116 114 111 100 117 99 116 105 111 110 34 32 45 32 74 79 68'
+zz=:zz,' 32 108 97 98 115 32 97 114 101 32 117 110 100 101 114 32 13 10 116'
+zz=:zz,' 104 101 32 71 101 110 101 114 97 108 32 108 97 98 32 99 97 116 101'
+zz=:zz,' 103 111 114 121 32 45 32 111 114 32 118 105 115 105 116 32 84 104 '
+zz=:zz,'101 32 74 79 68 32 80 97 103 101 32 97 116 58 13 10 13 10 104 116 1'
+zz=:zz,'16 112 58 47 47 98 97 107 101 114 106 100 57 57 46 119 111 114 100 '
+zz=:zz,'112 114 101 115 115 46 99 111 109 47 116 104 101 45 106 111 100 45 '
+zz=:zz,'112 97 103 101 47 13 10 13 10 74 111 104 110 32 66 97 107 101 114 1'
+zz=:zz,'3 10 98 97 107 101 114 106 100 57 57 64 103 109 97 105 108 46 99 11'
+zz=:zz,'1 109 13 10 41 13 10{a.);''manifestjodsource'';21;(78 66 46 32 109 97'
+zz=:zz,' 110 105 102 101 115 116 32 102 111 114 32 74 79 68 83 79 85 82 67 '
+zz=:zz,'69 13 10 67 65 80 84 73 79 78 61 58 39 74 79 68 32 79 98 106 101 99'
+zz=:zz,' 116 32 68 105 99 116 105 111 110 97 114 121 32 83 111 117 114 99 1'
+zz=:zz,'01 39 13 10 86 69 82 83 73 79 78 61 58 39 48 46 57 46 57 48 39 13 1'
+zz=:zz,'0 80 76 65 84 70 79 82 77 83 61 58 39 119 105 110 32 108 105 110 11'
+zz=:zz,'7 120 32 100 97 114 119 105 110 39 13 10 76 65 66 67 65 84 69 71 79'
+zz=:zz,' 82 89 61 58 39 71 101 110 101 114 97 108 39 13 10 70 73 76 69 83 6'
+zz=:zz,'1 58 32 48 32 58 32 48 13 10 109 97 110 105 102 101 115 116 46 105 '
+zz=:zz,'106 115 13 10 106 111 100 115 111 117 114 99 101 46 122 105 112 13 '
+zz=:zz,'10 106 111 100 115 111 117 114 99 101 115 101 116 117 112 46 105 10'
+zz=:zz,'6 115 13 10 41 13 10 82 69 76 69 65 83 69 61 58 39 106 54 48 49 32 '
+zz=:zz,'106 54 48 50 32 106 55 48 49 39 13 10 68 69 80 69 78 68 83 61 58 32'
+zz=:zz,' 48 32 58 32 48 13 10 103 101 110 101 114 97 108 47 106 111 100 13 '
+zz=:zz,'10 97 114 99 47 122 105 112 13 10 41 13 10 68 69 83 67 82 73 80 84 '
+zz=:zz,'73 79 78 61 58 32 48 32 58 32 48 13 10 40 106 111 100 115 111 117 1'
+zz=:zz,'14 99 101 46 122 105 112 41 32 105 115 32 97 110 32 97 114 99 104 1'
+zz=:zz,'05 118 101 32 99 111 110 116 97 105 110 105 110 103 32 115 101 114 '
+zz=:zz,'105 97 108 105 122 101 100 32 100 117 109 112 13 10 118 101 114 115'
+zz=:zz,' 105 111 110 115 32 111 102 32 116 104 101 32 116 104 114 101 101 3'
+zz=:zz,'2 74 79 68 32 100 105 99 116 105 111 110 97 114 121 32 100 97 116 9'
+zz=:zz,'7 98 97 115 101 115 32 40 106 111 100 100 101 118 44 106 111 100 44'
+zz=:zz,' 117 116 105 108 115 41 13 10 116 104 97 116 32 97 114 101 32 117 1'
+zz=:zz,'15 101 100 32 116 111 32 98 117 105 108 100 32 116 104 101 32 74 79'
+zz=:zz,' 68 32 115 121 115 116 101 109 46 32 74 79 68 32 115 121 115 116 10'
+zz=:zz,'1 109 32 100 105 99 116 105 111 110 97 114 105 101 115 32 97 114 10'
+zz=:zz,'1 13 10 103 111 111 100 32 101 120 97 109 112 108 101 115 32 111 10'
+zz=:zz,'2 32 104 111 119 32 74 79 68 32 99 97 110 32 98 101 32 117 115 101 '
+zz=:zz,'100 32 116 111 32 98 117 105 108 100 32 99 111 109 112 108 101 120 '
+zz=:zz,'32 74 32 115 121 115 116 101 109 115 46 13 10 13 10 73 110 32 74 32'
+zz=:zz,' 55 46 48 120 32 74 79 68 32 114 101 113 117 105 114 101 115 32 116'
+zz=:zz,' 104 101 32 102 111 108 108 111 119 105 110 103 32 97 100 100 111 1'
+zz=:zz,'10 115 58 13 10 13 10 32 32 100 97 116 97 47 106 102 105 108 101 11'
+zz=:zz,'5 13 10 32 32 97 114 99 47 122 105 112 32 13 10 13 10 74 79 68 32 1'
+zz=:zz,'15 111 117 114 99 101 32 100 105 99 116 105 111 110 97 114 105 101 '
+zz=:zz,'115 32 105 110 32 40 106 111 100 115 111 117 114 99 101 46 122 105 '
+zz=:zz,'112 41 32 99 97 110 32 98 101 32 115 101 116 32 117 112 32 105 110 '
+zz=:zz,'32 116 119 111 32 119 97 121 115 58 13 10 13 10 49 41 32 82 117 110'
+zz=:zz,' 32 116 104 101 32 74 32 115 99 114 105 112 116 32 126 97 100 100 1'
+zz=:zz,'11 110 115 47 103 101 110 101 114 97 108 47 106 111 100 115 111 117'
+zz=:zz,' 114 99 101 47 106 111 100 115 111 117 114 99 101 115 101 116 117 1'
+zz=:zz,'12 46 105 106 115 13 10 13 10 32 32 32 84 104 105 115 32 105 115 32'
+zz=:zz,' 116 104 101 32 114 101 99 111 109 109 101 110 100 101 100 32 109 1'
+zz=:zz,'01 116 104 111 100 46 32 32 40 106 111 100 115 111 117 114 99 101 1'
+zz=:zz,'15 101 116 117 112 46 105 106 115 41 32 104 97 115 32 98 101 101 11'
+zz=:zz,'0 13 10 32 32 32 99 104 101 99 107 101 100 32 111 110 32 87 105 110'
+zz=:zz,' 100 111 119 115 32 106 54 46 48 50 44 32 106 55 46 48 49 32 97 110'
+zz=:zz,' 100 32 108 105 110 117 120 32 97 110 100 32 77 97 99 32 106 55 46 '
+zz=:zz,'48 49 32 51 50 32 98 105 116 32 115 121 115 116 101 109 115 46 13 1'
+zz=:zz,'0 32 32 32 78 79 84 69 58 32 73 116 32 99 97 110 32 116 97 107 101 '
+zz=:zz,'32 97 32 109 105 110 117 116 101 32 111 114 32 115 111 32 116 111 3'
+zz=:zz,'2 114 117 110 46 13 10 32 32 32 13 10 32 32 32 87 65 82 78 73 78 71'
+zz=:zz,' 58 32 40 106 111 100 115 111 117 114 99 101 115 101 116 117 112 41'
+zz=:zz,' 32 117 115 101 115 32 97 114 99 47 122 105 112 32 119 104 105 99 1'
+zz=:zz,'04 32 102 97 105 108 115 32 111 110 32 54 52 32 98 105 116 13 10 32'
+zz=:zz,' 32 32 115 121 115 116 101 109 115 46 32 83 101 101 32 116 104 101 '
+zz=:zz,'32 74 79 68 32 80 97 103 101 13 10 32 32 32 13 10 32 32 32 104 116 '
+zz=:zz,'116 112 58 47 47 98 97 107 101 114 106 100 57 57 46 119 111 114 100'
+zz=:zz,' 112 114 101 115 115 46 99 111 109 47 116 104 101 45 106 111 100 45'
+zz=:zz,' 112 97 103 101 47 13 10 32 32 32 13 10 32 32 32 102 111 114 32 97 '
+zz=:zz,'32 119 111 114 107 45 97 114 111 117 110 100 32 102 111 114 32 54 5'
+zz=:zz,'2 32 98 105 116 32 115 121 115 116 101 109 115 46 13 10 13 10 50 41'
+zz=:zz,' 32 82 117 110 32 116 104 101 32 74 79 68 32 108 97 98 32 34 74 79 '
+zz=:zz,'68 32 83 111 117 114 99 101 32 67 111 100 101 32 68 117 109 112 32 '
+zz=:zz,'83 99 114 105 112 116 115 46 34 32 13 10 32 32 32 74 79 68 32 108 9'
+zz=:zz,'7 98 115 32 97 114 101 32 105 110 32 116 104 101 32 103 101 110 101'
+zz=:zz,' 114 97 108 32 108 97 98 32 99 97 116 101 103 111 114 121 46 13 10 '
+zz=:zz,'13 10 98 97 107 101 114 106 100 57 57 64 103 109 97 105 108 46 99 1'
+zz=:zz,'11 109 13 10 41 13 10{a.);''zzzjodmaintex'';22;37 32 77 97 105 110 32'
+zz=:zz,' 74 79 68 32 40 122 122 122 106 111 100 109 97 105 110 46 116 101 1'
+zz=:zz,'20 41 32 108 97 116 101 120 32 102 105 108 101 46 32 74 79 68 32 11'
+zz=:zz,'5 111 117 114 99 101 32 105 115 10 37 32 99 111 109 112 111 115 101'
+zz=:zz,' 100 32 111 102 32 97 32 110 117 109 98 101 114 32 111 102 32 99 10'
+zz=:zz,'8 97 115 115 101 115 46 32 84 104 105 115 32 102 105 108 101 10 37 '
+zz=:zz,'32 97 115 115 101 109 98 108 101 115 32 74 79 68 32 99 108 97 115 1'
+zz=:zz,'15 101 115 32 97 110 100 32 101 120 112 111 115 105 116 111 114 121'
+zz=:zz,' 32 109 97 116 101 114 105 97 108 10 37 32 105 110 116 111 32 97 32'
+zz=:zz,' 115 105 110 103 108 101 32 115 111 117 114 99 101 32 99 111 100 10'
+zz=:zz,'1 32 100 111 99 117 109 101 110 116 46 10 37 10 37 32 99 111 109 11'
+zz=:zz,'2 105 108 105 110 103 32 116 104 105 115 32 102 105 108 101 32 114 '
+zz=:zz,'101 113 117 105 114 101 115 32 112 100 102 108 97 116 101 120 44 32'
+zz=:zz,' 120 101 108 97 116 101 120 10 37 10 37 32 32 32 112 100 102 108 97'
+zz=:zz,' 116 101 120 32 32 122 122 122 106 111 100 109 97 105 110 10 37 32 '
+zz=:zz,'32 32 109 97 107 101 105 110 100 101 120 32 122 122 122 106 111 100'
+zz=:zz,' 109 97 105 110 10 37 32 32 32 112 100 102 108 97 116 101 120 32 32'
+zz=:zz,' 122 122 122 106 111 100 109 97 105 110 10 37 32 32 32 112 100 102 '
+zz=:zz,'108 97 116 101 120 32 32 122 122 122 106 111 100 109 97 105 110 10 '
+zz=:zz,'10 92 105 110 112 117 116 123 74 79 68 76 105 116 101 114 97 116 10'
+zz=:zz,'1 80 114 101 97 109 98 108 101 46 116 101 120 125 10 10 92 97 117 1'
+zz=:zz,'16 104 111 114 123 74 111 104 110 32 68 46 32 66 97 107 101 114 125'
+zz=:zz,' 10 92 116 105 116 108 101 123 92 116 101 120 116 116 116 123 74 79'
+zz=:zz,' 68 32 48 46 57 46 57 48 125 32 83 111 117 114 99 101 32 67 111 100'
+zz=:zz,' 101 125 10 10 37 32 99 111 109 109 97 110 100 115 32 102 111 114 3'
+zz=:zz,'2 97 100 106 117 115 116 105 110 103 32 100 105 115 116 97 110 99 1'
+zz=:zz,'01 10 37 32 98 101 116 119 101 101 110 32 99 111 108 117 109 110 11'
+zz=:zz,'5 32 97 110 100 32 105 110 115 101 114 116 105 110 103 32 97 32 114'
+zz=:zz,' 117 108 101 10 92 115 101 116 108 101 110 103 116 104 123 92 99 11'
+zz=:zz,'1 108 117 109 110 115 101 112 125 123 51 101 109 125 10 92 115 101 '
+zz=:zz,'116 108 101 110 103 116 104 123 92 99 111 108 117 109 110 115 101 1'
+zz=:zz,'12 114 117 108 101 125 123 48 46 53 112 116 125 10 92 116 119 111 9'
+zz=:zz,'9 111 108 117 109 110 10 10 92 109 97 107 101 116 105 116 108 101 1'
+zz=:zz,'0 92 116 97 98 108 101 111 102 99 111 110 116 101 110 116 115 10 92'
+zz=:zz,' 111 110 101 99 111 108 117 109 110 10 10 92 110 101 119 112 97 103'
+zz=:zz,' 101 10 92 105 110 112 117 116 123 122 122 106 111 100 111 110 46 1'
+zz=:zz,'16 101 120 125 10 10 92 110 101 119 112 97 103 101 10 92 105 110 11'
+zz=:zz,'2 117 116 123 122 122 106 111 100 46 116 101 120 125 10 10 92 110 1'
+zz=:zz,'01 119 112 97 103 101 10 92 105 110 112 117 116 123 122 122 106 111'
+zz=:zz,' 100 115 116 111 114 101 46 116 101 120 125 10 10 92 110 101 119 11'
+zz=:zz,'2 97 103 101 10 92 105 110 112 117 116 123 122 122 106 111 100 109 '
+zz=:zz,'97 107 101 46 116 101 120 125 10 10 92 110 101 119 112 97 103 101 1'
+zz=:zz,'0 92 105 110 112 117 116 123 122 122 106 111 100 117 116 105 108 46'
+zz=:zz,' 116 101 120 125 10 10 92 110 101 119 112 97 103 101 10 92 105 110 '
+zz=:zz,'112 117 116 123 122 122 106 111 100 116 111 111 108 115 46 116 101 '
+zz=:zz,'120 125 10 10 37 92 110 101 119 112 97 103 101 10 37 92 111 110 101'
+zz=:zz,' 99 111 108 117 109 110 10 37 92 105 110 112 117 116 123 126 35 126'
+zz=:zz,' 103 114 111 117 112 126 35 126 99 111 100 101 46 116 101 120 125 1'
+zz=:zz,'0 10 92 110 101 119 112 97 103 101 10 92 112 104 97 110 116 111 109'
+zz=:zz,' 115 101 99 116 105 111 110 10 92 97 100 100 99 111 110 116 101 110'
+zz=:zz,' 116 115 108 105 110 101 123 116 111 99 125 123 115 101 99 116 105 '
+zz=:zz,'111 110 125 123 92 116 101 120 116 116 116 123 61 58 125 32 73 110 '
+zz=:zz,'100 101 120 125 10 92 112 114 105 110 116 105 110 100 101 120 10 10'
+zz=:zz,' 92 101 110 100 123 100 111 99 117 109 101 110 116 125 10{a.       '
+zz=:131380{.zz
 showpass 4 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
@@ -2022,446 +3510,1348 @@ showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
-zz=:dec85__MK__JODobj 0 : 0
-1GU(0+>P&q+>Y`-1a"M-+?;>81*AP!1GC^C+?1Ju3B/s4De)U0/g+nIA1hS2F!*%d+DkP$DBMPI
-6m-#S@ruF'DIIR2+Cf4rF)qct:-pQB$;No?+@0g[+E)@8ATAo(Bk)7!Df0!(Gp$U5@<6L$F!+n3
-AKYQ/FCf?2Bl@m1+E(j7FD,5.A8,OqBl@ltEd8d;CghC+/e&._67sB[BOuH3@;Ka&F`V+:F*(i.
-A79Lh+Cf>-F*(i.FE8R5DIal5ATD7$+Co%qBl7Km+DG^9FD,B0+Cf4rF)rrC$;No?%15is/g*N%
-ART[pDJ()#+A,Et+E(_(ARfg)A7]@eDIml3@3?t4C2[W3+Dbt+@;KKtBl8$(Eb8`iAM+E!:-pQU
-6tLF]Ec65;DJ()#+A,Et+E(_(ARfg)ATD4#ATJu9BOr;7BkhQs.3NGF@ps1b+DG_8ATDBk@q@8%
-$;No?%15is/g*N"DKK<$DK@i]A8,OqBl@ltEd8dMFD5Q*FD5<-/0JG@DKBo.DKKqN+DG_8ATDBk
-@q?d+ATD7$%15is/e&._67sBPDKKH1Amo1\3ZohoATD7$+DkOtAKYE)@;0Od@VfTu@X0)1C2[W*
-Ci<flCh5%)$;No?+<Ve9B4Z0-+<Ve%8PN#B+D58-+E(_(ARfh'+D,Y4D'3e?F<G+.@ruF'DIIR2
-+C\bhCNXT;+:SZQ67sB'+C]5)+<VdL+APL&:c]_.@:O(qE$0%,D.Oi+BleB;+D,Y4D'3e+FED)7
-DK?6o:-pQU+<Y3+C`jiC+<Y3+Ch7^"+EqaEA90:EFCfN8F"AGHEc6)>F"AGN@:O=rF"AGFF<G()
-FCfK$%15is/g)8ZA8,Qs+<VdLA8,OqBl@ltEd8dAA7]Y#BkD'h@<?4%D@HqJ67sB'+CoA++<VdL
-+Co1rFD5Z2@<-W9DIIBn+Dbb5FE8R:Ec5e;E+*j1ATD[0%15is/g)8ZA8lU$F<D\KF(KH7+Co1r
-FD5Z2@<-W9E+*cqD.Rg#EcVZs:-pQU+<Y<-AT2]5+<YK7F*&O;Ec6)>+CT.u+EM[>FCcS*AT23u
-A7]Y#Et&IO67sB'+D58-+<VdL+D58-+EqaEA90:EFCfN8F"AGN@:O=rF"AGFF<G()FCfK$+D,Y4
-D'3A'@ruF'DIIR2%15is/g)8ZB5DKqF!)SJGAhM4+CT.u+EV19F<G44Ddm-k+DtV)AKZ#)An?!o
-DI[7!%15is/g)8ZB6%r6+<VdL@rc-hFCcS'DIal0F_,T=+D5_5F`;CE@;]TuF*22=ATJ:f:-pQU
-+<YN0CLnV2+<Y<.DImisFCcRe+EM%5BlJ08+CT.u+Cno&@:EYdAKYN+D/aP*$;No?+<VeDDJUF<
-+<Ve%8PN#B+DkP)Gp$X3@ruF'DIIR2+DtV)AKYf'F*)IGAo_g,+E1b2FCfK1Et&IO67sB'+Dtb7
-A0<!;+CfG'@<?''DIn#7A8,OqBl@ltEd8*$:-pQU+<YT5+<VdL+<YTAASuQ3@;]Tu@r-()ATJu)
-Bk)7!Df0!(Bk;>p$;No?+<VeG@:O(`+<VeG@:O'qA8,OqBl@ltEbT*+%15is/g)8ZE-67F+<VdL
-E-67FGAhM4F"AGUATMs7/0Je<@rcL//0JMG+Ceu)ATD3%Bl8$2+Co1rFD5Z2@<-W&$;No?+<VeI
-AS5Nr+<VeIAS5^uFCfJGF`)52B5)F/ATAo%+Co1rFD5Z2@<-W&$;No?+<VeIATMs(+<VeIATMs3
-Eb-A0@<6N5@UWb^F`8I5Eb/[$ARlomGp"MS@:O(`.1HVZ67sB'+ED^J+<VdL+APL&:c]_>AS6.%
-@<*K%G]7\7F)u&6DBO"3@<,jk%15is/g)8ZF`V,8+<VdLGAhM4F!,UHARlomGp%<LEb'56@;]Tu
-FCfN8Et&IO67r]S:-pQU:2b5cF#ja;:-pQU+<X*nEc5t@D.Rd0@:s.m+=KiX6m-&]Ec5u>+>>K'
-/MK"A.1HUn$=e!aCghC++<W%?C2[W1%16T`Bl8!'Ec`EOBkhQs-OgE'AT;j,Eb-@@C1_0rATJu7
-AS5S!+EV%5CF9Pu%15is/h1CCE+NotASuU2+F#Ii+EqaEA9/l(AS,XoARlotDBO%7BlbD<ARfgr
-Df-\2@<Q3)Eb0&qFCeu*A7]@eDJ=3,Df0V*$4R>;67sBoDf^"CF)Y]#BkD'h+F5/HDe!3lAKYl/
-F`)7CF(KG9A9Dp,DJ((a+E2@>Anc'm+Dbt)A8,po%15is/g)Pl.6T^78OccQ:*<P35tscj8Oc9I
-;[j'C$;No?+Dbb0AKYSrARm>7@psCuBjkXc+ED%8F`M@N+EV%$+CT.u+Dbb0AKYQ%A9/1e9L_0+
-0edr_/e&.T;E[&q1OEO_%16'#69R@iHXSN9$:@]b7Qie";CkL2%13OO:-pQUD.-ppD]j+2EbTK7
-+E)4@Bl@l3@rGmhF!*%WFDi:1A7Qg"DfTD3@:Wmk@3BH!G9Cg5C1Ums+Cf>#AISuA67sBhDIal,
-De*QoGp%3BAKYT'Ci"$6Bl7Q+A7]@eDJ=3,Df-\9Afsf66W-]Z=\qNr$;+5a;Fs\a4ZY>Q%15cp
-<(0nP3\iH"$:n,j9KbEl1CX[n9h[]21,KFI<(0ng4ZY>U%15F)<(/r21,]RK9gMZM6r-lZ4ZY>W
-%16*77Q<Ol1,o^M%15is/g,">@rcK1FCf]=+EVmJATKCFA7]^kDIdfL+A,R";Fs\a/5/?/79D*3
-<)$%;=A;I?<(0ng/4*K=74_/!;G0DR=&(;H<(8hV$;EfR;GU7p:dmN.8lJ)T8PiA;9L2WH==d!B
-9h[*?9h[*;79EM?6<R8V/58E.912QW:+TCE7Q:ha%15is/g,(AC1Ums+Cf>#ATJ:f=&2^^4ZY8+
-$<0Gm<'<8s%15U':K:4S3\h-O;cQCg76N[f%15fq6W-]C3]%9Q%15is/g+\=@ruF'DIIR2+EM+1
-Afu,*An?!oDI[5e$:IHQ<(Tk\5uLiK3].?R%15is/g,(AC1Ums+DtV)AKYK!@<6K@+Co&&ASu%"
-3ZqL";FE'878m/:7oE,_:b5OF8Q8,09gM-E:CRY,6:s[6<),eD3`f*T6nD;+;cG;<;GU:h/5oP?
-<(/?45snOG%13OO:-pQU@UWdiDdmHm@rri'De*E1+Co&&ASu%"3Zq3b8ju*H:.#Ht@UWec@VS%e
-><3lY/g+@Z+=\us+BplL/0J4@AM,*$6:s[6<),e)?O[>O$;No?+E1b2BHUhsCh[a#FCfJ8@q]:k
-@:OCjEZc\OE+*j%+E2I@@ruj%FD5Z2+Cf(nEa`I"ATDi$$;a#f845m?4ZX]W7TW/V+F>4Y03fk6
-$;a#f84,pG;a!/h+?D,,-S/([<(KDG9FV=<$;No?+E1b2BHVJ0Eaj)4/KeVA@V''m03fW0BOPq&
-+Co&&ASu$mDJ()1DBNV2F*&O#;[j(IDf^#AAT0dn+=KfN=%Q/6-SJ^P.4-Gk-qQm08PXU[>V@HR
-+A"1N3^"Tk.=EWS$4R>;67sBlG][t7@ruc7Df0B:+EV:.+E1b2BHUo-Df$V:F^]*#Anbge+D,>(
-AKYl!D.Rbt$>O^)FDtZ1BK\C\3Zri3+C-*7INU%C3Zp",+BplL.kWJ[/g)N&-RLu*+=\ud><3lW
-/h^H^+Ab@'845m?-9VeF%15is/g+\9AmoguF<GF/F*(u6+E2@>Anc'm+E_a:EZf1:@psInDf0V*
-$;No?+DPh*F*VhKASlBpFD)e2F!,:1Aoo/.Ci<ckC`mD&Eb-A%F!,R<Bla^j:-pQUG%G]'+DGm>
-A7]@eDIm?$Bl5&.De*d(/no'A%15^%5uU`O;E['UDe*p7F*(u1E+*j%+=Co@@<6O%E[M;'8l%iO
-;GTbF3biSDF*VhKASlBpFD)dEC2[X%Ec5Q(Ch555C3(a3$;+)^<Du=a4Z[=rA93$;FCf<.@<?0*
--YdR1F`V,7@rH6sBkK&4C3(a3$4R>;67sa!DId9hE+NotASuU2%16igA8Gt%ATD4$APPQE.V`m4
-Ch\!&Eaa'$+EK+d+D58'ATD4$ATJu1Blmp,@<?''F)Q2A@q?cmDe*E%A8bt#D.RU,F!,"-Eb/a&
-Cj@.8Ec5e;8l%htB6%p5E-!W@$;No?%15is/g,=KEaiI!Bl,m?$;No?%15is/g+kGFCfK)@:Njk
-GAhM4.!$gu+:SZQ67sB4/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
-/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/I`%^67sBnEc>i/F<D\K+<VdL+<VeD@;BEs
-CghEsGT^U:EZf"8Dfp"A.![6N$;No?+DGFr@qB^m@ruF'DBL&E+DG_8ATDBk@q?d(ARfgrDf-\=
-F_tu(Ed8dKFE2)5B+52C67sC%ATV[*A8Gt%ATD4$AKW+7Eb02uEb-A*DfQt>Ec5H!F)u&5B+52C
-67sB'%15is/g+SFFD,T53ZoP;DeO#26nTTK@;BFp%15is/g+YEART[lA3(hg0JP>$@rsCZ%15is
-/g)_t/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
-/M/P+/M/P+/M/P+/M/P+/M/P+%15is/g)l(De!lC1E\)j.3N8DE,961+CT;'F_t]-F<G"&A7]9o
-FDi:CF`;;?ATMo8Ec5l<+EV1>+E)F7Ed)P<FCfM&$;No?+>GWi@rsC]+D5_5F`8Hp7R9C1=&2^^
-;eL,hF`;5,D.Oi'H#R>8Ch[d&ARl5W:-pQU0f!ZWF>,QpEb03+@:NkZ+?MV,E+*d.Bl7Q+GA2/4
-+=MGGCagJY+D>2$A8Ggu+C\bi+DN$/De*Dg$;No?+>GWi@rsCa+CSekARlopEcQ)=+D>2$A8Gst
-B-8cKEb03+@:NkZ+=MGSBlmo8+EqOABHS^IEbTW,@<3k,$;No?+>GWi@rsF[+CSeqF`VY9A0=QS
-<+T/SE,oMuD.7<m+>"^GBOPdkBl7Q+D/X<1AoDR/Et&IO67sB812gZE0esk[A7T7^+=M;?FDkr+
-DK@6L/Kf1WAS-($+D,P4+CT.rCjC>@DJ()%De*E%FCf]=%15is/g)l(De!lD2]uO>A7]9o.!K]?
-E-?82Ci=3(.3L2bCi=3(+EMIDEarZ'Ch[cuF!,@=G9D*M@;p0sA.8kT$=e!aCghC++<W%?C2[X!
-Blmp,@<?'.%16T`Bl8!'Ec`EOBkhQs-OgCl$;No?.V*+0ASu$iDKKq/$;No?+Co%nCgh?qA0>N$
-Ddm-k+D>>,AKZ)5+CTG3Bk/>rDf000F(oN)+A?3CAQU'm@;TRs+EqOABHTniDIIBnEt&IO67sB/
-.OdMA+A,=,8Q8AP<(0n38k`#]8OZ][79C[)9LhuW9M&2_79C[):IIljFCfK$FCe9hARTFbCh4%_
-%15is/g+&1B4Z*+89JVoF!,[FEb$;)DfT]'FD5Z2+EMX5FCcS3@:NtbDIjqB+EM76Bl%KlEZfIB
-+?MV,@Wcc%$;No?+E1b0F(KD8FCf]=+EqOABHTu<F"AGSATV?pDK?qEBPDR"F)YPtAKYE!A0>Po
-DIdQpF!,C?ASrW1F`2A5F"Rn/%15is/g+hAA7Zm)@rc:&F<GC<@ps1p+<`-_.6T:+D.[T,F(T52
-%16raCcsBn1,Us80H_J\+<VdL+<VdL+<VdL+<VdL+<VdL:-pQU=<MO(BOu2n$>jBk4Y@j3+<W'm
-/7C/F/ghbh.3K`U+<VdL+FS*=C`jiq67sBZ+EqL5FCfN4@:Njk.!'?9@q?ckDIal'DfTQ<Df0Z*
-C`mh.@OV`nD.[TI/g)nl+=JXH/nlpc6"),i.kbTh1,^R(I;NS4+<XEG/g*G&5qQ7_@4cdJAU%^$
-F_#3(B-9ql64F9=Ao'U_+>Y,_-t+`B/gjCA.3K`U+<VdL+<VeTD.[T,+AP6U+AO&$BOr<&ATW$*
-EZe*d$>jBk4Y@j6+<W(@/nlpc6743)+<VdL+<VdL+FS*=C`jiq67sBI+EV:.+DbV2FCfJ864F9=
-Ao'U_+>k8a-t+`B/gi>-1,CaE2E*TU?RI:ND.[T,+AP6U+?:QTBkM.%F!+n/A0>4g$>jBk4Y@j8
-+<W(@/nlpc/gi(j+<VdL+<VdL+FS*=C`jiq67sBK+>+*1D.[TI/g*(q+=LYNBeCbo-Rg/\+<VdL
-+<VdLI;NS4+<XEG/g*M(3XlF5Ao'U_+?1Jd-t+`B/gi"o-Rg/\+<VdL+<VeTD.[T,+AP6U+Aj8$
-F`2A5%16raCcsBn3?TFm0f(7$+<VdL+<VdL+<VdL+<Z)LAo&S4:-pQU6W+@#D.[TI/g)l&+=Jru
-.3K`U+<VdL+<VdL+<VdLI;NS4+<XEG/g*hW%13OOF(T5O/g+LV?!JR.+FPjd/it[m1*@u!+?CW!
-.1HV3+BTa/+<Ve*+<VdL5p.9m+AO%%+<Wun+<Vde+<VdL6m*Tp+@@7o+<XN(+<Vdo;BR))+<X?I
-+<W%;0F\@30d&1n+>GVo0d%So+>Fu]1E\Cp+>P&o+<WQb0d%Sn+>Fu]0d&1n+?(Dt+<WBm+>Fu]
-+>Fun+<Ve%67sB7+<YB9Bln&tC^g^o0d&4o+>GVo1*@\p+>P&^1E\Fq+>P&p+<WQb1*@\o+>=o\
-0d&.m+?(Du+<WBm+>P&^+>Fuo+<Ve%67sB8+<YTEBOu2n$6V&G1*@\o1*A=p+>P&n+<WE^0H_Jn
-+>=o\1*A7n+>Fum+<WB]0H_Js+>P&^0ea_*+<Vd]+>P&^+AP6U+>P&^@;Km9DKTe*$6V&G1*@\o
-1*A=p+>P&n+<WE^0H_Jp+>=o\1*A7n+>Fum+<WB]0H_Js+>P&^0ea_*+<Vd]+>P&^+AP6U+>Y,_
-:(7OQ0d&4o+>GVo1*@\p+>=o\1*A7n+>P&n+<WE^0H_Jq+>=o\0d&.m+?(Du+<WBm+>P&^+>Fuo
-+<Ve%67sB;+<XEG%144<+>=o\+?:Pu+<WZe0H_Ju+>=o\3?U!u+?:Pu+<WB]0H_Jm+>=o\3?U!u
-+>GPm1*@\^0d&4o+<XEG/g*"o+AP6U%1444+>b2`0f'q++<WQb0H_Jr+>=o\2BX[r+>t>r+<WQb
-0H_Jm+>=o\2]sq"+>GPm1*@\^0d&4o+<XEG/g*%p+Du==%144:+>=o\+?(Ds+<WTc0H_Js+>=o\
-2]sds+?(Ds+<WTc0H_Js+>=o\3$9mt+>GPm1*@\^0d&4o+<XEG/g*(q+=@U*+>Fuo+<WBn+>P&^
-1*A=p+>Y,q+<WE^1*@\t+>P&^0d&4o+>Fuo+<WTc0H_Jm0H`+n+<WB]1*@\^:-pQU3$9=k-OgD*
-3?U!u+<WZe0H_Ju+>=o\3?U!u+?:Pu+<WZe0H_Ju+>=o\3?U!u+?:Pu+<WBm+>P&^+>Fuo+<Ve%
-67sB@+<Y04D/Ej%F:AR"0d&4o+>GSn1*@\p+>P&^1a"Or+>P&p+<WQb1*@\o+>P&^0d&4o+?(Du
-+<WBm+>P&^0eje)+<Ve%67sB80H`_\%1444+>P&^0eje++<WE^1*@\r+>P&^1*A=p+>t>t+<WB]
-1*@\o+>P&^2]sju+>GPm1*@\^0d&4o+<XEG/g)l'+@B%#7L]\I0d&4o+>GVo0H_Jn+>P&^1E\Fq
-+>P&p+<WQb0H_Jm+>P&^0d&4o+?(Du+<WBm+>P&^+>Fuo+<Ve%67sB81*CXW@:NjX$6V&G1*@\o
-1E\@o+>P&p+<WH_1*@\p+>P&^2BX[r+>Fuo+<WB]1*@\u+>P&^0ea_*+<Vd]+>P&^+AP6U+>GYp
-F)YPtAKYDnFCfJ8DKTe*$7QDk%15is/g,@VEb$;)DfT]'FD5Z2+D,P4+Dbb0ATJ:fG@kYS3Zoh)
-4*,"M4)JSG.3Kr[4$!fX%15^$6qL9F6W?iZ=Zneg-RT?1:-pQ_ASu$hAT23uA7]Y#Et&Hc$4R>;
-67tA_IXZ`p+F>4`CghEsGT_DD$4R>;67sBnEc6)>+EV=>Ch4_tDIakuF`_;8EZcqVF*(i.A79Lh
-+C&blCLqU%FDPLt$;*uk8Q8AP<(0nP3Zp+!3Zp*c$7-g2@<?(*+CTD7BQ%o6@;]TuFD5i5AISuO
-@<H[*DfU2R,CX'DFD,T5INs;i%16?^Bln0&HX(Z(G]\%LH[[2gB6%p5E.0$\I3;%#Dfp#I%14Nn
-$4R>;67sBnEc6)>+E)F7Ecu/.G9CR1@:Wqi%15^$:KC%U=&_Uj4ZX]>+?CW!%14C(FD,B0+DPh*
-Ch\!&Eaa'$+E)F7Ecu/.G7=maF(Jj'Bl@m9>]aP%FEDVOINs;SEc6)>INs;i+A[/lEcu/.GC9o-
-.1HUn$;No?+D5_5F`8IDDf9_?FCf\>/KePACisT4F!,=.Gp%!9ARlolA867.FD5W*%15^$7oE/W
-8Q8YX=?S\f0H`D!0F\@8+AH9YDBN\4A8Gt%ATD4$AKWC6Ec>i/F=A>K@<?(*+D,>(AM,)RB6%s-
-BlkdHB4YslEaa'$F!)Z>Ec6)>+q4l*+DtV)ARlp,ATDj+Df0V=De:,6BPDN1Anc'm+D,P4+D"tk
-BHToC6m-,_Dfp"ABlkJ:Ec5H!F)to6/e&-s$=%:_E-68L8l%iKBlmp,@<?'WEb/Zr@VfU.FCf]F
-%13OO>\S(pF`_tZ,CX9GDfp#J,CX`KFDPM@FCf]F%16?W@;BFrBln0&%16?^@:F%aDe<KtDKKH-
-FE7lu%16?XATr*%B4VMZ,p6]9D/E^!A9/l*DfQt/A867.FD5W*+Co2-FCB&sAIStm+C\o(G@b?'
-+Cf>+F_u#;+CT.u+DG_7ATDm,DJ()#+EDU@AIStm>]XIuCh7KsFD-#+@rH1+D/OE+E.*'hASli)
-$7/quATVa"DJ+')HX('!CisT4F(K<2F_kW;HS@'0E--L;$7/r!GAgu0CisT4%16?SDK'`?H[[2g
-B6%p5E.0$\Dg#i+G:muKG^U#.%16?XATr*%B4VMZ-!YA+ARfXpF_u"*$=%:_E-68LINs;SEc6)>
-INs;ODe*E3FCf]F%13OO>]++sE+*Bj%16?ZBOPe#Df'Q,@ruF'D@HqX@:WnYDf0Z.DKKr9Bl7L/
-FDkZ;HZNb.FD5Z2I=#4@AU&<=FF-/3I3;+!A7^"6%16?ZEbTE5Bl7HmGRXuh$=%.[A:%j*@s)X"
-DKL:9$7QDk%15is/g,">Bl5&.De*ZuFCfK$FCcRg@8pf?+E2@4@;TIiAISu=:IIljFCfK$FCe9h
-ARTFbCh5aj+>=p!+>=63,p6r@A8Gt%ATD4$AKYetFCf\>E,oMuD.7<m/g(T1,p3X(,p60#BlbD/
-Bl%?'BlbD*+D>J%BP_r:@s)j7Df'37ARlp,ATDj+Df-\9Afu2/AKYr4ARTFbCh4%_,p7&5FCfK,
-@;I'!ASu("@<?'k+C]U=E+*WpDdt/9+>%XWDfBf4Df-\ABOu'(E,ol-F^o-'B-7Wj,p4g^AU#>9
-F`_SFF=n\T@;]Uo@j#H!B4u*qB4uC$DJ()+F!,CEATDg*A7T7h+CT.u%14C(FD,5.F*(i.A79Lh
-+DG_(AU#>3F!,L7A7]@eDIm?2+:SYe$=%+[@s)X"DKKB)@<6Ko0f!]i?$g"#FD56$AUP!p%16?_
-F(K<!@r#LcAQrtZDIdfu@;od`HY6o.D.Rg0H$p,/>]k+!E+*6l@:s.UBOtU_Bl7R)?$g1+Ci"'!
-B4ZK#$=%^pAT2'fCLLjeHYdP;A7]e!I16NgF`V,5@:O(]B4ZEuD0'cDD.5&)D0'Q&FD-(3$=%^p
-AT2'fCLLjeHYI):ATVL./88^4F^]B'G^U#.%14C(E,ol?Bk1dr+C'#"G]\"L@WQ%"BlJ/'$=%^p
-AT2'fCLLjeHY-u:CijnWAUP[1$4R=g+E_a:+Dkh&Ec6&FE+L/+AftN*@;0Od@VfTb$=$/77VQ[M
-7<iNfFE;eGBk)1%FEqh:/ou,[I=#4AF(K<!@r#LcAUA9.@rcL0H#R>CI=$AO$=%:WDKTe=0O/=(
-G\(u.GT\_GAnbLaAo)TuFCf\>0jJ=)4YS!)+DGF1E+ER&AU"Xk+<Xp3F(K<!@r#LcAQs;!AiO(C
-Bl7m4FCf?"I16NgAScF!+=/.EAfto4@<?(*+E)9CG\(]"FCf\+$6UHrF`V,5@:O(]B4ZF%Df0Z<
-E+NO-%144#>\RepATVL.%144#+<Xp3F(K<!@r#LcAUAZ<FEhnJ@4ZYGDJ<U!A7^/u$6UHrAn_\]
-+<Xp"AS,@nCij9-DKKK%@<?X4ATN2m@;p1"DJ)+SAU#eKAU&;J;e'6PAN`arFCSuXDg,c5@psFi
-I16N++=/.NAT2Ho@q?cO<DlUm6QgSeFD)e>DJ<U!A7ZlpF`MCC@q]:k@:OCjEZbeu+<VsQBkAK5
-Dfm1?AS#BpFD,B0+Cf(nEa`I"ATAnF+EV:.+E2@4F(K6!AKYo'%144#,p7;CBlbD<Bl7R"AKYJr
-@<,ddFCfJ8Bl5&8BOr<*Eb/Zr@VfTuAoD^"ATJu:F(HJ4Afu>0CghEsGUstRF^])pFCetl$6UH;
->]++s@rH4$@;]V&>\/%uDgct$<DlUm6[^("+:SZ#+=/.?@;[3/ATT&5FD,6++Dl%7Df]l+@q?cp
-Df0Z<+DGF1FD,62-ZWc@@<Q'nCggdhAISth+=/.%+ECn4BOu3,Ch[Zr+B*3$EarZ'6Z6LH+Ad)s
-+EM+*3XlE=+=/.DFEDI_0/$dNDeF,D@:X:cAM.J2D(g!VE+3X%B6%F"BR)6d0JP=90KCe-Dfp)1
-AM%D1A7[?3Ec3RDFDYh'$6UH;>]XIuD/X<1AoDR/HU`$eAPI)\Dg`'%+<Vt8F(KH1Df0K*Df0ZD
-;f?f!@q?cMDe*E%:i^K&%16?PBakCY$7-fmARo@aBl7K)CggdaCj0T(FD)e/DfQt:BleB;4!8H`
-BOu4.Bldi:+EV:.+D#G5D.R`rFCcS6@:O(]B4W30Bl%T.@psM$AIStm+DkP-CLqO-+EVNEAU&<.
-DIal!AU/33A0>u-AKYf#Aoo/4@<-!pDCuA*>]!nbART[sATW$*Ea1nP6=jeDDFADQF_t]-FF,;C
-$6UHrEb0-"G@PQ.D..<mHX&gPBleB1I16N++<VeR>]XIuCh7KsFD-#+CggdaCj0T(FD-)L1hCNP
-I16O3>]!nbART\!FD,6+%16?_F(K<!@r#LcAUA!+F_t]1@<?(/%13OO,p6Z>Bl%<&A8bt#D.RU,
-+DG_(AU"Xk>]k+!E+*6l@:s.uD..3kBk2I:%13OO,p6]9Ci=?8%16?_F(K<!@r#LcAU@p*Ci=?B
-%16?NAS,XoARfXpDfU2GBOPF_@rH1%Ed`:47m_WN1,LsA1,LsA1,Lt=%14C(C*7#)DKKo;C`me@
-Eckl6F`M&7+:SZ_A7]@eDIm<rCi=?@CLqd8@rH1%Ed`:TB4?:90J5(9/2/\33@lj:2)BXi$7-g0
-+D#e:Ch[BnF<G"4B6A'&DKKqBGT_8SD'3^=FWbi:$=%+QAnc-o@rH1%EdM>*FCAZtCi=?BHZEb.
-I=!Y#0f(@7/i#F<0J54=I16N0+DN$:F_tT!EcW?T+CT)&+EVmJATJu8AS!!!/pM5L%16?NAS,Xo
-ARfXpDfU28ARfmnDes?4I=$!I@XWSW/het10J5%5/2/\90msK<>\%DXBl7KlDes?4HX^E)ASu!r
-Ci=?BHZEb.I=!Y#0JG%3/het10J5=>I16NgA7]@eDIm<rCi=?@Ao)BoFCT6*DfU8QEbAj0HS@'+
-0J"n10JG%3/iYS6%14C(C*7>2@ps0r@<6L(B5VQtDKKq/$=%+QAnc-o@rH1%EdM;0@<,jrCi=?B
-HZEb.I=!Y#1GLF7/iGC70J5%7I16NgA7]@eDIm<rCi=?@F*)G:DJ*HtCi=?BHZEb.I=!Y#1GLF7
-/iGC70J5%7I16NgA7]@eDIm<rCi=?@@rH4$ASuU"Des?4I=$!I@XWSW/i>O<0J5.=/2/\10msK<
-,p7/IBl.R+Bm+&1@:XOmEaj)4@;]Tu@rH7"F`(]2Bl@m1%14CdA7]@eDIm<rCi=?@DffZ(Eas$(
-DfU8QEbAj0HS@'02CpO71Gp^;/hf#.+<Vd9$=%+QAnc-o@rH1%EdM_HBOu3oDes?4I="j^6@F27
-/2/V12)Tdk$7-g-Ci<ckC`m/-F(o9)D.RU,Et&I]A7]@eDIm<rCi=?@@;KLqFCT6*DfU8QEbAj0
-HS@'41b:=50fCR:/ho84%14C(E,oZ0Bln'4AKXSfG%G]'F!+n/A0>c.F`&=>@;TRs%16?NAS,Xo
-ARfXpDfU2:F`(]!Des?4I=$!I@XWSW/het10J5%5/2/\10RY&d+<Vd9$4R>IF`V,5@:O(]B4ZF%
-@;]S#G&h&?%16?.AS,XoAQ*8\Ecb>nEai6_Df'?"DId6j@<-EP>[1N\>^]n)>^Ur/$=#u1Anc-o
-<b6;\@<?4#7;d9_Ec5i4ASuU:882^MCh[NqFD5W*I=#"+EaiI!Bl/9F@rH4$@;]UcBOPq&4^;5s
-HX(uI%14C(6"FLK-S/kJDKKr6H=]6EF)>?%CaU?;DfQt;DfTD3@q]:k@:OCjEcW@BATAo0Bl7Jk
-$4R=g+E1b,A8bs#B4YslEaa'$A0>r=DKK<3+Cf>+DfTQ0B-:]&D/E^!A9/kF+DtV)ATJ:f,p6W:
-AKYT!G\(D.Bl5&+ASu("@<?'k+Cf>#AKYH)F<G+*Anc-sFD5Z2F!,=.Gp!P',p6Z.+EM+9+EVNE
-@;^?5G%#3$A0>u*G]Y'?DfT]'FED57B-:]&D/E^!A.8lNF`V,5@:O(]B4ZF%Ea`frA:4mo>]++s
-ASu[*Ec5i4ASuU:;eTTMARp49I=$AO$=%I[G@PQ.D..<mHX'3TH$=1IA5mJ_I9SF3HX(Z(G][G6
-Ci=?@CLqd8@rH1%Ed`:>FCf]=@V0t6,;FUpI=2P3,p7DMEbf_=@V'Y'ATAo;Bln#2;f?f!@q?cM
-De*E%:i^I`$7/qpATqX&D/E^!A:%QSAU/K<Eb&-fCOKDA?$fguAU&<,Des?4HY[2<G@PQ-DfU8Q
-HQt7nI=2P3>]++s@rH4$@;]V&>XW"B@8qMkAQ3S`I9SF3HX(Z(G][G6Ci=?@A79Rg@rH1%Ed`:]
-,;FUpI16N0>]++s@rH4$@;]V&>XW.5<affDDejc*0jT-2FCf]=@rH1%EdM>.@s2@#Ci=?BH[?tl
-I=6MQ$=%I[G@PQ.D..<mHX&sM@od#S<,ZQ#>;9E1HQt7nI38t+>]++s@rH4$@;]V&>XDk?APQ3C
-COKDA?$fguAU&<,Des?4HX^E)ASu!rCi=?BH[?tlI=6MQ$=%I[G@PQ.D..<mHX'$VDdd`eDejc*
-0jT-2FCf]=@rH1%EdMD7Ddd`tDes?4I=$;c0n"Iu%16?XATqX&D/E^!A:%QKBOPp\Dejc*0jT-2
-FCf]=@rH1%EdM;0@<,jrCi=?BHX(Z(G][D,H[?tlI=6Nl%16?XATqX&D/E^!A:%Q[FE2)5B2ieb
-I9SF3HX(Z(G][G6Ci=?@F*)G:DJ*HtCi=?BH[?tlI=6MQ$=%I[G@PQ.D..<mHX&pVD/Ej%FB!0o
-I9SF3HX(Z(G][G6Ci=?@@rH4$ASuU"Des?4I=#4@AU&<2FF/?Z0n"IuI16NgDIn$%Df'?"DIe*!
-:NU8]E`?smI9SF3HX(Z(G][G6Ci=?@DffZ(Eas$(DfU8QHQt7nI=34I$=%I[G@PQ.D..<mHX&jQ
-ATDllDejc*0jT-2FCf]=@rH1%EdM52ATDm&Des?4I=#4@AU&<+Ap\kL0n"IuI16N0>]++s@rH4$
-@;]V&>XijR@ruF'DH(OiI9SF3HX(Z(G][G6Ci=?@Ap&!$@rH1%Ed`:],;FUpI16NgDIn$%Df'?"
-DIe*!7WiTYFD5Z2<,ZQ#>;9E1HQt7nI16NgDIn$%Df'?"DIe*!;IsKTDf/9XEbf6,<,ZQ#>;9E1
-HQt7nI16NgDIn$%Df'?"DIe*!7<3EeE`?smI9SF3HX(Z(G][D,H[?tlI=6MQ$=%I[G@PQ.D..<m
-HX'<aEc#6$<,ZQ#>;9E1HQt7nI16Mm$7-fe:IH=DEbT*&FCeu*@<Hg/Ch[<uGp$U8D/E^!A9/l*
-DfQt>Df^"CE,ol,ATMp,DJ()2@;]Uo@j#DqDImisFCeu*CghEsGRY!bDIn$'DK]`7Df0E'DKL4t
-:II]nDfp"iART+\Ed`:_H[Q>1>]++sASu[*Ec5i4ASuU:8l%iODf^"sEc5H!F)u8?I=$BhI16Mm
-$=%^pAT2'fCLLjeHY-](@sM`uEd\B(>]=+aATMs=Ch7s*@;]S#I16Mm$=%:WG\(u.GRY!&+C'&1
-AT2'fCLLje>B=@tE+*BjF(or34_A,=F(HmF,p7/8B4W3,BmO>5A7]@eDIm?$@X0)@ATVL.%144#
-+<VdL+<VdL+<VdLF`(o'De*EBAmoLsALnrH+<VdQ+E_R9@rGmh+C]A&@;Bp,GA(Q*+E_a:A0?)1
-FD)eAATVL.%144#+<VdL+<VdL+<VdLG\(u.G[5Z0H#R>8Eb/j2%16?OCia.s$6UHrF`V,5@:O(]
-B4Y:iDJ<U!A7[oGEckr!HY@\DATDg&Apk*q>\7[Z$4R>IBR+Q.EcYf6F`;\:Eb/ZpCh[d&F$4Vc
-F_**5$6UH6+<VdL+<VdL+C]8-CMdL#CNDX\EckqE%144#+<VdL+<VdL+<YW6Amoh(BQ%oSH[RFS
-$6UH6+<VdL+<VdL+E1k'FD5i5ANbBg/.Dq/+<VdL+<VdL+<Ve:Des?4Ch[d&F$4VcF_**5$6UH6
-+<VdL+<VdL+E_^@@rH1%E]mlJF_**5$6UH6+<VdL+<VdL+Dbb0CL_:!DfS!X@:s.hFC?^0$6UH6
-+<VdL+<VdL+E1k'@W-9tATBq\0H`%l0R\?Y$=%X`FDPN+B67g6>]=+lBl7HmDKL;R0Q;,^%16?]
-ATVa"DJ+')HX(MuEcZ#1E.*'kE-*4ACiseA12q=XD/!m1F!*2VFF=T*>]XIuCh7KsFD-#+ASl"!
-B4YsjH#n(JATVEqI=!b]D1*NL,p7/IAThX&F<GLFATDC*Cht51Bl7L'%16?]ATVF#F`);4EdMk=
-@r?F+A7]_%BRP4]I16Mm$7-g8ATMF)+DbJ.AU#>3DId='+EVNEF`V+:AoDg4+Cf>+F_u#;+>"^H
-AS,@nCige6F!,RKD[d%"+EqL5@q[!*ATN!1FE8R=DBNb6FE8RCAfu;+F*(u(+E1b%AKZ&5@:Njk
-Bl5&0@;]Us@ps=f%14C(:/=hX3ZqjAC3=T>+DGF1Bl7HmGT^m4D.Rc2Ecl7BFDkf'FD,6++:SZ(
-+D,Y4D)reQFEDI_0/%NnG:m]?FCf\K@rH4$F`(o8GqO#UB.nFBATr67E+rf7E+j2TAj%stF?M?;
-1GoUK>]k+!E+*6l@:s.uD09Z:Bk)'tI16NgD..3k@<?<sFED)7%16?\ASu('ASu[*Ec5i4ASuU:
-FD,6"DId='I16N++F@@-AjCH^De!^%F_u"*$6UH6+<Ve35]UFWFDl&.@rH0q@;L!r%144#+C&Jo
-F(Gdf+<VdL+<XoSEb0<6Df0,rDesN9F_)!h+<Ve3An_\]+<Ve3F(KH0ASu.&BR<uoDesQ5DKBB.
-Ecl20I=!YeFF=T*+<Ve3F(KH0ASu.&BR<uoDesQ5DKBB.I=!b-E--L;$6UH6>[h8WBl897F_l/6
-@rH1)I=!f!>?l5\@ruF'DCU!<Bl7HmG]$r,AURhn$6UH6>]!niCLV4(BR<uY@;BFSE,]B/@psFi
->\S(dAU&*$D.S,A%144#+<VdL+<VdL+<Z#99jqgK<H)ngEarO!AR&qeA7^"'@;TS(,n12(+<Xp2
-BPDO,@:s.mFEq\6HZ3e0Bl8>.$6UH6>]XIuCh7KsFD-#+E+*d$DId<rFFAKiE--L;$6UH6>]XIu
-Ch7KsFD-#+E+*d.CM@a9HSBD\+E2.>F!*.h1N7Ga%144#+C&quCghPt$6UH6>\mtn>\S:kD-T>?
-A9_g1ASliA%144#HX(-"A:&09CijB$DesKC>\Re8Eb0<6Df0,rDerZsDIm<rCisT4>\._mAR&_]
-ARTUu@:s.VAncZ&$=%FVCLpprDffZ(EX`?b$=%FVCLq3tA7]up$4R>I@V'1dDL5o4@s)X"DKL:9
-$4R=k%15is/j;IJIXZ`\De*p2DfTDa67sBqDe*p2DfTDABkh]3/M/)dFDl2.B4W3(@VTIaF<G(0
-@<6KN+D#e>ASuR'Df-\9AfrL:De(:+$;No?%15is/g*]!A7]g)FD,5.F`(`$Ebp#8DJ()&@<>pe
-@<6!5Anc'm+EMgLFCf;3F`V,)+EVNEF*)>@AISuA67sBkBk)7!Df0!(Gp%$7C1UmsF"SS5AT2Ho
-@qfgn+EV:2F!+t/@<6K4BlbD*Cht59BOQ!1Et&IO67sC$AT;j,Eb/c(FDi:3BOPdkAKZ).AKYMt
-@ruF'DIIR2+EMXCEa`Tl+EMgLFCf;A%15is/e&._67sB]ATD6&Bl8$(Eb8`iANC8-:-pQU+<Y0-
-ARfLoE+No0+<Ve:BOt[hF!,1/+CT/5+Co1rFD5Z2@<-W9BlbD8E+Nnr$;No?+<Ve:BOt[hE+*j%
-+<VdL@q]F`CNCV.F`MM6DKI"?@<?0*@:s"_DKBnBA8,OqBl@ltEd8dH@<?/l$;No?+<Ve:BOt[h
-E-67F+<VdL@q]F`CNCV4Aft]"EcZ=FE+*j%+Co1rFD5Z2@<-W9BlbD*+E2IF+Co1rFD5Z2@<-W&
-$;No?+<Ve:Ci=B+A8,Oq+<VdL@r-()ATJu)Bk)7!Df0!(Bk;>p$;No?+<Ve:Eb/[$ATMr9+<VdL
-Bl7X,BjkglH=_.?F*)>@@:s-oDdmHm@ruc$$;No?+<Ve;AS-.)Eb'56+<VdLA7]@eDIjr7DfTB0
-%15is/g)8ZA7]RuFEM2-+<VdL+Co&"ATVK+DdmHm@ruc$$;No?+<Ve;Bk2:,@<?Q5+<VdLA8,Oq
-Bl@ltEd8dKFCB9*F*),+F!+n/A0>i"FD)e2DJ!g-D..O#Df-!k:-pQU+<Y34Cia/rEarc*+<VeJ
-ARTUhBHUo*EZf7.D.Oi/@<?U&Ec,q-$;No?+<Ve>ATVI$@s)X"DKI!DB4Z0-DdmHm@rri(De!p,
-ASuTuFD5Z2%15is/g)8ZB4Z0rG]7J-Bl5%9+D58-+EM47Ec`FB@VTIaF<G.>E,8s#@<?4%DK?6o
-:-pQU+<Y<.FD#Z:AU&;>+<Ve>ATT&-Ec6)>+CT.u+EM[>FCcS9@rc:&F<G[:G]XB%:-pQU+<Y<.
-FDkW'ARfh'+<Ve>ATT&5@VTIaFE7lu:-pQU+<Y<.FE1r)F!)SJ+<Ve>ATT&8AS,LoASu!hEt&IO
-67sB'+D5b3BleB6C`jiC+<Y<;Dfp"A@;]TuF*22=AKYl!D.Oi+BleB;%15is/g)8ZBl7m4FC])q
-F<D\K+EV19F<G16EZf:0C1UmsF!,17+E2IF+Co1rFD5Z2@<-W&$;No?+<Ve@DK]H-E+Not+<VdL
-@;p0sDIal(DK]T3FCeu*A79Rg%15is/g)8ZBl8*)ASbq"AKW*<+Co&"ATVK+Bl8**Ecbl'+Cno&
-@1<Q=67sB'+DG_:An?'oBHSE?+<Y9-FCSu,Bl8**Ecbl'+Cno&@1<Q=67sB'+DG_:Eb03+@:Njk
-+<YfGA79Rk+DG_:ATDm(A0>DkFC>Uc:-pQU+<YQ5GB.8-A8,Oq+<Ve:Eb/[$AKYl%G9CgE+ED%+
-BleB-EZen,@ruF'DIIR2%15is/g)8ZDfB9*A8,Oq+<VdL+E)41DBN@1A8,OqBl@ltEd8*$:-pQU
-+<YW3FD,Q.+<VdL+<VeG@<?0*DIIBn+Dbb5FE7lu:-pQU+<YWGFCf]9Cgh$q+<VeJFDl22+EM47
-Ec`FB@VTIaF<G.>E,8s#@<?4%DK?6o:-pQU+<YWGFD#Y;+<VdL+<VeJFDl22+D5_5F`;CE@;]Tu
-F*22=ATJ:f:-pQU+<YWGFECr#Ch4_3+<VeJFDl22+=M,9D.P8?AU&;G+CT.u+=M,9D.P8.CghC+
-/9GHJF=A>S@:F%aEt&IO67sB'+E2IFFCf]=F!)SJ+<Y`IDfTD3DdmHm@rri(De!p,ASuTuFD5Z2
-+CT.u+D5_5F`9!TF_Pr/+EV1>FE7lu:-pQU+<YWGFE_YDA9/k9+<VeJFDl22+EqaEA9/1e:-pQU
-+<YWGFE_YDA9`-9+<VeJFDl22+EqaEA0>N$Ddm-k+ED%*ATD@"@qB]j$;No?%15is/g*o-FCfMS
-%15is/g)8Z7<3EeEZf41F)tc&ATJtBC2[X(FDl22+ECn.B4W2>2)$U:1cZuo$4R>PDe!TlF)rHH
--Xgb.A92j2Eb-U-$=e!gDKBB0F<Dr>C2[W1%13OO:-pQ_A7]^kDId<rFE8RL/M/);:IK8GDfTD3
-A7]^kDId<rF<G+*Anc.)Bl@m1%13OO6V^?A;G0/60H_J\+<Ve%67sBmBl%?'@rH4'Df0-(F?1OS
-Dfor>+CT.u+EV=7ATMs%D/^V7@<-,m$:@Q^8Q/SO3]%s%+<VdL:-pQUAnc'm+Cf>,E,TW*DKIo^
-D..-r+E(_(ARfg)Bl7HmGT^g:F*%iu6V^!E9i+bO3]/$&+<Ve%67sBmBl%?'@rH4'Df0-(F?1O]
-@;0U%DdmHm@rri'Df'H3DIm^-+Dbb5F:AQd$;No?+DkP$DBNJ(Eb/a&DfU+GAnc'm+Cf>,E,TW*
-DKI";BleA*$:@QV8Q%]46V^?A;G/Q.:/"5X<%LC36VgEQ;[j'C$:@QU9L2TU4ZYJD+<VdL:-pQU
-Anc'm+Cf>,E,TW*DKIo^GAhM4+DtV)AKYK!@<6K4DfQt;@:O=r+EVmJAISu6:.%oJ5u^EO:-CWt
-+<XEG/g+b?Ch4`!Df'H3DIm^-3ZrW[ASrW/@VTIaF<Gd9F!,(/EcZ=F@rc-hFCetl$:@QV8OGmA
-6TmIc+<VdL:-pQUAnc'm+Cf>,E,TW*DKIo^A8,OqBl@ltEd8d<De!p,ASuTuFD5Z2+>"]aEb/lo
-.1HVO:.88]9L26F4ZY;P+<XEG/g+b?Ch4`!Df'H3DIm^-3ZrKWDfTqBAU&01@;]LqBl@m1%15Ht
-:dIuR;a!/t+<VdL+AP6U+D,>(AKYK$D/aE2ASuTN+Co1rFD5Z2@<-W9E+*cqD.Rg#EcVZs6V^HX
-<('#O76N[j+<Ve%67sBmBl%?'@rH4'Df0-(F?1O\@<6N5FD5T'+E(_(ARfg)G@>P8-ua<N.1HVO
-:/XMM4ZYGNBeD.`1*B=Y/g,1GAn?!oDI[6#@rH4'Df0-(F<G[6@VfTb$:@Qd:dJ&O4ZY;X+<VdL
-:-pQUAnc'm+Cf>,E,TW*DKIo^Eb/ioEb0,uAKYr#FD)dK+=Lc7A8ZO,.3NG@F*%iu6V^QO>"(S8
-3?TFe+<Ve%67sBmBl%?'@rH4'Df0-(F?1OcBmO>5De:,1@VTIaF<G:8+C]V<ATJ:f%15is/g+kG
-G%G]9ARlorEc6)>+CT.u+EM[>FCcS*@<>p#Anc'm+Cf>,E,TW*DKKq/$;!un7oE,_:fBM<+@An#
-<E)@P<(/?*:.%oJ5u^EO:+Sb-79EA[5tOf\$;!un;cQCg78l?1+A#=/7oE,_:f@f1%15is/g+kG
-G%G]9ARlp#@:O=r+CT.u+EqaEA0>DkFC?;(Bl%?'@rH4'Df0-(FE7lu8PW;\5snOG;a!/a6V^!B
-5uU]56V^HX<('#O74^f$6W-?=<(Tk\/43028QnP66V^'P:eX/H:(7P%:0(Fl;FFGH3ZoP::0((T
-6W-]Y%13OO:-pQUBl8**Ecbl'+EV19F<G+&FC>Uc8PW;c78m/a4ZX]Q:/Fqi6pXd@/430";FNlN
-8P`)46V^QO>"'u0:.88]9L26F+:SYe$;No?+EVX<D'3k5B4uB0.!0K<Bl%L$B.4sB@<?0*A7]Rk
-D/"*'EcW?H-n6Z//g*tV<(KDG9FV>LE+F'2Bl-!o>p(A@+BplL/M8/M3Zon)03g+P:dJ&O6q'cn
-?Q_KS>n%,M$;No?.V3L.A7]^kDId<rFE;28A9;a.Ci`?</h1USA9;a.Ci^_//M/);:IH=IDf9H5
-+Cf4rF)rHU+D#e>ASu%"+A,Et+E_d?Ch\!:+Cf4rF)rrC$;No?%15is/g*`'FCfK)@:NjkGAhM4
-F#ja;:-pQU+CSekB6%r6+<Y*'A0?)7Eb'5EFCfN8F!,RC+D5_5F`9!TF_Pr/+<VdL+<VdL+<VdL
-+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<V+#:-pQU+CT)&DIIBnF!+t2D.73sATJu3@;TRs
-+D,Y4D'16IAS,ggD.Rc;+CT.u+=M/;DIIBnF"&4S+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<V+#
-:-pQU+CT)&Eb/j(+<Y*/C`mV(D.Rc2Eb/ioEb0,uARlomGp%$7C1UmsF!,C=+DtV)AKYf'F*&NI
-+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<V+#:-pQU+Co&"B6%r6+<Y]9D/XT/+EqaEA90DGATMs7
-+D,Y4D'3J3Dfp#?06;8MFCfM9+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<V+#:-pQU
-+D58-Ed/]L+<Y<.F<GU8EHPu9ARlp*D]iV9ARfk)AKW*<+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL
-+<VdL+<VdL+<VdL+<VdL+<VdL+<V+#:-pQU+D>S1DJUF<+<Y3/F)Yr(H#k*LBQ%p5+Co&)@rc:&
-FD5Z2F!,C5+E(_(ARfh'+E)-?.![6a+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+:SZQ67sB'C2[Wk
-B4W2.+Cno+F!,O<DI[6#CghC,+Cf(nDJ*N'@;]Tu@rc-hFD5Z2+E(j78l%htDdmHm@ruc$$;No?
-+<YE;A8#OjE$-8GA8-+(CghT3Df0B*DIjq_:IH==ASc<.+<VdL+<VdL+<VdL+<VdL+<VdL%15is
-/g)9QB-8<>+<VdLD..3k+CT.u+Dbt)A0=K?6m-,_Dfp"A+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL
-+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL%15is/g)9RCi^^A+<VdLD..3k+Dbt)A0>r'EbTK7+<VdL
-+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL
-+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<Vd9$;No?+<YQ?AU&/:+<VeIATW'8DK?q/+Dbb5
-F<GL6+E(_(ARfh'+EqOABHV22+D#e:Cgh3iFD5Z2F!)SJ+<VdL+<VdL+<VdL+<VdL+<VdL+<Vd9
-$;No?+<YQ?FD#W5+<VeNDfTB0+E)9CFCfN8F!,(8Df$UFGpskXBOQ!*@<,p%DJsV>Bl5&+Ec6)>
-F!,CA+EM[>FCfM9+<VdL+<VdL+<VdL+<V+#:-pQU+Du9D+<VdL+<Y<.FE8RB@;TQu@;]TuFCf]=
-+D,Y4D'3D#BlkJABl7I"GB4lL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<V+#:-pQU
-+DuBG+<VdL+<Y6+BlkJ++Dtb7+D#e:Ch[BnF<GdGEb$;8F(oN)+A,Et+Cf>-G%GQ5Bl@m1+<VdL
-+<VdL+<VdL+<VdL+<VdL+<VdL+<V+#:-pQU+E(_,@;TRs+<YfEBlS9,+EMIAFCeu*DdmHm@rri%
-DIal+De!3lAKYl!D.Rc2Ao_g,+=MARATK:CEb0<7CigdB+<VdL+<VdL+<VdL+<V+#:-pQU+E2?D
-+<VdL+<YWGF<G"0A0>B&Df]tBEb/ioEb0,uAKYD(GAhM4+>"^ZATE&=BOPdhGp$O:+CT.1ARoLs
-DfQsg:IA,V78?fL:JFPL:.,Nu:-pQU+ED%*DIIBnF!,UCBlS9,+EMIAFCeu*Eb/ioEb0,uAKYl!
-D.Rc2Ao_g,+=MARATK:CEb0<7CigdB+<VdL+<VdL+<VdL+<VdL+<VdL+<V+#:-pQU+ED%:Df0-2
-+<Y]9FEMVAF!+m6Ch[s4+E(j7E-67FA8,OqBl@ltEd8dG@VTIaFE8RKBln#2DJpY/G]7J-DIIX$
-Df0V=+<VdL+<VdL+<V+#:-pQU+EMa<GT\+O+<Y`:F<GX<DfTqBGAhM4+D#e:Cgh$q@<?4%DBNP3
-Df$UFA8bs,+D>=pA7]d(+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<V+#:-pQU+E_a:A7Bg,+<Y]9
-FEMVAF!+m6Ch[s4+E(j7GAhM4F!,(8Df$UFGpskXBOQ!*6qL9F6W?`^+CehrC`mq?Eb'56Df-[G
-GUXaX+<VdL%15is/e&._67sBUDffQ33XlEk67sB'+@U<kDfQt;ATMp$B4Z-,-u*[2FDl)6F!,L3
-DJ*N'0JG=;0J+t40eb:8.1HUn$7InX3]&Q?+>=o\:-pQUA8-*p@<,m$GA(]4ATMg!@q?)V%16T`
-@r,RpF!)i=C2[X)Df9H5-OgDmDeX*1ATDl8+=CT4De+!4Bl#.+$3                      ~>
-)
+zz=:''
+zz=:zz,'4 2$''jod'';(78 66 46 32 106 111 100 46 105 106 115 32 45 45 32 109 9'
+zz=:zz,'7 105 110 32 74 79 68 32 100 105 99 116 105 111 110 97 114 121 32 9'
+zz=:zz,'9 108 97 115 115 13 10 78 66 46 13 10 78 66 46 32 65 108 108 32 111'
+zz=:zz,' 116 104 101 114 32 100 105 99 116 105 111 110 97 114 121 32 99 108'
+zz=:zz,' 97 115 115 101 115 32 97 114 101 32 101 120 116 101 110 115 105 11'
+zz=:zz,'1 110 115 32 111 102 32 116 104 101 32 100 105 99 116 105 111 110 9'
+zz=:zz,'7 114 121 32 99 108 97 115 115 46 13 10 78 66 46 32 84 104 101 121 '
+zz=:zz,'32 97 108 108 32 117 115 101 32 115 116 97 110 100 97 114 100 32 99'
+zz=:zz,' 111 110 115 116 97 110 116 115 32 97 110 100 32 118 101 114 98 115'
+zz=:zz,' 32 100 101 102 105 110 101 100 32 105 110 32 116 104 105 115 32 99'
+zz=:zz,' 108 97 115 115 46 13 10 78 66 46 13 10 78 66 46 32 67 114 101 97 1'
+zz=:zz,'16 105 110 103 32 97 32 74 79 68 32 111 98 106 101 99 116 32 100 10'
+zz=:zz,'1 102 105 110 101 115 32 97 32 40 105 106 111 100 41 32 108 111 99 '
+zz=:zz,'97 108 101 32 105 110 116 101 114 102 97 99 101 46 13 10 78 66 46 3'
+zz=:zz,'2 68 101 115 116 114 111 121 105 110 103 32 97 32 74 79 68 32 111 9'
+zz=:zz,'8 106 101 99 116 32 101 114 97 115 101 115 32 116 104 101 32 40 105'
+zz=:zz,' 106 111 100 41 32 108 111 99 97 108 101 32 105 110 116 101 114 102'
+zz=:zz,' 97 99 101 46 13 10 78 66 46 13 10 78 66 46 32 67 111 110 116 97 10'
+zz=:zz,'5 110 115 58 32 100 105 99 116 105 111 110 97 114 121 32 117 116 10'
+zz=:zz,'5 108 105 116 105 101 115 44 32 99 111 110 115 116 97 110 116 115 4'
+zz=:zz,'4 32 105 110 116 101 114 102 97 99 101 32 118 101 114 98 115 13 10 '
+zz=:zz,'78 66 46 13 10 78 66 46 32 73 110 116 101 114 102 97 99 101 58 32 4'
+zz=:zz,'0 118 101 114 98 115 32 109 97 100 101 32 97 118 97 105 108 97 98 1'
+zz=:zz,'08 101 32 98 121 32 105 106 111 100 32 108 111 99 97 108 101 41 13 '
+zz=:zz,'10 78 66 46 32 32 32 98 103 101 116 32 32 32 32 78 73 77 80 58 32 1'
+zz=:zz,'03 101 116 32 111 98 106 101 99 116 115 32 102 114 111 109 32 112 1'
+zz=:zz,'17 116 32 100 105 99 116 105 111 110 97 114 121 32 98 97 99 107 117'
+zz=:zz,' 112 115 32 13 10 78 66 46 32 32 32 98 110 108 32 32 32 32 32 78 73'
+zz=:zz,' 77 80 58 32 98 97 99 107 117 112 32 110 97 109 101 32 108 105 115 '
+zz=:zz,'116 115 32 102 114 111 109 32 112 97 116 116 101 114 110 115 13 10 '
+zz=:zz,'78 66 46 32 32 32 100 101 108 32 32 32 32 32 100 101 108 101 116 10'
+zz=:zz,'1 32 119 111 114 100 115 44 32 116 101 115 116 115 44 32 103 114 11'
+zz=:zz,'1 117 112 115 44 32 109 97 99 114 111 115 44 32 101 116 32 99 101 1'
+zz=:zz,'16 101 114 97 13 10 78 66 46 32 32 32 100 105 100 32 32 32 32 32 10'
+zz=:zz,'0 105 99 116 105 111 110 97 114 121 32 105 100 101 110 116 105 102 '
+zz=:zz,'105 99 97 116 105 111 110 13 10 78 66 46 32 32 32 100 110 108 32 32'
+zz=:zz,' 32 32 32 100 105 99 116 105 111 110 97 114 121 32 110 97 109 101 3'
+zz=:zz,'2 108 105 115 116 115 32 102 114 111 109 32 112 97 116 116 101 114 '
+zz=:zz,'110 115 13 10 78 66 46 32 32 32 100 112 115 101 116 32 32 32 115 10'
+zz=:zz,'1 116 115 32 100 105 99 116 105 111 110 97 114 121 32 112 97 114 97'
+zz=:zz,' 109 101 116 101 114 115 13 10 78 66 46 32 32 32 103 100 101 112 11'
+zz=:zz,'5 32 32 32 108 105 115 116 32 103 114 111 117 112 32 97 110 100 32 '
+zz=:zz,'115 117 105 116 101 32 100 101 112 101 110 100 101 110 116 115 13 1'
+zz=:zz,'0 78 66 46 32 32 32 103 101 116 32 32 32 32 32 103 101 116 32 119 1'
+zz=:zz,'11 114 100 115 44 32 116 101 115 116 115 44 32 109 97 99 114 111 11'
+zz=:zz,'5 44 32 101 116 32 99 101 116 101 114 97 32 102 114 111 109 32 100 '
+zz=:zz,'105 99 116 105 111 110 97 114 121 13 10 78 66 46 32 32 32 103 108 1'
+zz=:zz,'11 98 115 32 32 32 119 111 114 100 32 97 110 100 32 116 101 115 116'
+zz=:zz,' 32 103 108 111 98 97 108 32 110 97 109 101 32 114 101 102 101 114 '
+zz=:zz,'101 110 99 101 115 13 10 78 66 46 32 32 32 103 114 112 32 32 32 32 '
+zz=:zz,'32 99 114 101 97 116 101 32 97 110 100 32 113 117 101 114 121 32 10'
+zz=:zz,'3 114 111 117 112 115 32 97 110 100 32 115 117 105 116 101 115 13 1'
+zz=:zz,'0 78 66 46 32 32 32 109 97 107 101 32 32 32 32 103 101 110 101 114 '
+zz=:zz,'97 116 101 32 74 32 115 99 114 105 112 116 115 32 97 110 100 32 100'
+zz=:zz,' 97 116 97 98 97 115 101 32 100 117 109 112 115 13 10 78 66 46 32 3'
+zz=:zz,'2 32 109 110 108 32 32 32 32 32 78 73 77 80 58 32 109 97 110 121 32'
+zz=:zz,' 100 105 99 116 105 111 110 97 114 121 32 110 97 109 101 32 108 105'
+zz=:zz,' 115 116 115 32 102 114 111 109 32 112 97 116 116 101 114 110 115 1'
+zz=:zz,'3 10 78 66 46 32 32 32 110 101 119 100 32 32 32 32 99 114 101 97 11'
+zz=:zz,'6 101 32 110 101 119 32 100 105 99 116 105 111 110 97 114 121 13 10'
+zz=:zz,' 78 66 46 32 32 32 111 100 32 32 32 32 32 32 111 112 101 110 115 32'
+zz=:zz,' 97 110 100 32 99 108 111 115 101 115 32 100 105 99 116 105 111 110'
+zz=:zz,' 97 114 105 101 115 13 10 78 66 46 32 32 32 112 97 99 107 100 32 32'
+zz=:zz,' 32 112 97 99 107 32 100 105 99 116 105 111 110 97 114 105 101 115 '
+zz=:zz,'13 10 78 66 46 32 32 32 112 117 116 32 32 32 32 32 112 117 116 32 1'
+zz=:zz,'19 111 114 100 115 44 32 116 101 115 116 115 44 32 109 97 99 114 11'
+zz=:zz,'1 115 44 32 101 116 32 99 101 116 101 114 97 32 105 110 116 111 32 '
+zz=:zz,'100 105 99 116 105 111 110 97 114 121 13 10 78 66 46 32 32 32 114 1'
+zz=:zz,'01 103 100 32 32 32 32 114 101 103 105 115 116 101 114 47 117 110 1'
+zz=:zz,'14 101 103 105 115 116 101 114 32 97 32 100 105 99 116 105 111 110 '
+zz=:zz,'97 114 121 13 10 78 66 46 32 32 32 114 101 115 116 100 32 32 32 114'
+zz=:zz,' 101 115 116 111 114 101 32 108 97 115 116 32 98 97 99 107 117 112 '
+zz=:zz,'32 99 114 101 97 116 101 100 32 98 121 32 40 112 97 99 107 100 41 1'
+zz=:zz,'3 10 78 66 46 32 32 32 114 120 115 32 32 32 32 32 78 73 77 80 58 32'
+zz=:zz,' 114 101 103 117 108 97 114 32 101 120 112 114 101 115 115 105 111 '
+zz=:zz,'110 32 115 101 97 114 99 104 13 10 78 66 46 32 32 32 117 115 101 11'
+zz=:zz,'5 32 32 32 32 119 111 114 100 115 32 117 115 101 100 32 98 121 32 1'
+zz=:zz,'19 111 114 100 115 32 97 110 100 32 116 101 115 116 115 13 10 78 66'
+zz=:zz,' 46 13 10 78 66 46 32 78 111 116 101 115 58 13 10 78 66 46 32 32 32'
+zz=:zz,' 69 114 114 111 114 32 109 101 115 115 97 103 101 115 32 40 74 79 6'
+zz=:zz,'8 32 101 114 114 111 114 115 32 48 48 48 45 48 52 57 41 13 10 13 10'
+zz=:zz,' 99 111 99 108 97 115 115 32 32 39 97 106 111 100 39 13 10 99 111 1'
+zz=:zz,'05 110 115 101 114 116 32 39 105 106 111 100 39 13 10 114 101 113 1'
+zz=:zz,'17 105 114 101 32 39 106 102 105 108 101 115 32 114 101 103 101 120'
+zz=:zz,' 32 116 97 115 107 39 13 10 13 10 78 66 46 42 100 101 112 101 110 1'
+zz=:zz,'00 101 110 116 115 32 120 45 45 32 119 111 114 100 115 32 100 101 1'
+zz=:zz,'02 105 110 101 100 32 105 110 32 116 104 105 115 32 115 101 99 116 '
+zz=:zz,'105 111 110 32 104 97 118 101 32 114 101 108 97 116 101 100 32 100 '
+zz=:zz,'101 102 105 110 105 116 105 111 110 115 13 10 13 10 78 66 46 32 104'
+zz=:zz,' 111 115 116 32 115 112 101 99 105 102 105 99 32 122 32 108 111 99 '
+zz=:zz,'97 108 101 32 110 111 117 110 115 32 115 101 116 32 100 117 114 105'
+zz=:zz,' 110 103 32 74 32 112 114 111 102 105 108 101 32 108 111 97 100 105'
+zz=:zz,' 110 103 13 10 78 66 46 32 40 42 41 61 58 32 73 70 87 73 78 32 85 7'
+zz=:zz,'8 65 77 69 32 73 70 73 79 83 13 10 13 10 78 66 46 32 108 105 110 10'
+zz=:zz,'1 32 102 101 101 100 44 32 99 97 114 114 105 97 103 101 32 114 101 '
+zz=:zz,'116 117 114 110 44 32 116 97 98 32 97 110 100 32 108 105 110 101 32'
+zz=:zz,' 101 110 100 115 13 10 76 70 61 58 49 48 123 97 46 13 10 67 82 61 5'
+zz=:zz,'8 49 51 123 97 46 13 10 84 65 66 61 58 57 123 97 46 13 10 67 82 76 '
+zz=:zz,'70 61 58 67 82 44 76 70 13 10 13 10 78 66 46 32 109 97 99 114 111 3'
+zz=:zz,'2 115 99 114 105 112 116 32 111 112 116 105 111 110 32 99 111 100 1'
+zz=:zz,'01 115 32 45 32 116 111 32 97 100 100 32 109 111 114 101 32 97 100 '
+zz=:zz,'100 32 97 32 110 101 119 32 111 98 106 101 99 116 32 99 111 100 101'
+zz=:zz,' 13 10 78 66 46 32 97 110 100 32 109 111 100 105 102 121 32 116 104'
+zz=:zz,' 101 32 102 111 108 108 111 119 105 110 103 32 100 101 102 105 110 '
+zz=:zz,'105 116 105 111 110 32 111 102 32 77 65 67 82 79 84 89 80 69 13 10 '
+zz=:zz,'74 83 67 82 73 80 84 61 58 50 49 13 10 76 65 84 69 88 61 58 50 50 1'
+zz=:zz,'3 10 72 84 77 76 61 58 50 51 13 10 88 77 76 61 58 50 52 13 10 84 69'
+zz=:zz,' 88 84 61 58 50 53 13 10 66 89 84 69 61 58 50 54 13 10 77 65 82 75 '
+zz=:zz,'68 79 87 78 61 58 50 55 13 10 85 84 70 56 61 58 50 56 13 10 13 10 7'
+zz=:zz,'8 66 46 32 109 97 99 114 111 32 116 101 120 116 32 116 121 112 101 '
+zz=:zz,'115 44 32 100 101 112 101 110 100 115 58 32 74 83 67 82 73 80 84 44'
+zz=:zz,' 76 65 84 69 88 44 72 84 77 76 44 88 77 76 44 84 69 88 84 44 66 89 '
+zz=:zz,'84 69 44 77 65 82 75 68 79 87 78 44 85 84 70 56 13 10 77 65 67 82 7'
+zz=:zz,'9 84 89 80 69 61 58 74 83 67 82 73 80 84 44 76 65 84 69 88 44 72 84'
+zz=:zz,' 77 76 44 88 77 76 44 84 69 88 84 44 66 89 84 69 44 77 65 82 75 68 '
+zz=:zz,'79 87 78 44 85 84 70 56 13 10 13 10 78 66 46 32 111 98 106 101 99 1'
+zz=:zz,'16 32 99 111 100 101 115 13 10 87 79 82 68 61 58 48 13 10 84 69 83 '
+zz=:zz,'84 61 58 49 13 10 71 82 79 85 80 61 58 50 13 10 83 85 73 84 69 61 5'
+zz=:zz,'8 51 13 10 77 65 67 82 79 61 58 52 13 10 13 10 78 66 46 32 100 105 '
+zz=:zz,'99 116 105 111 110 97 114 121 32 115 101 108 102 32 114 101 102 101'
+zz=:zz,' 114 101 110 99 101 13 10 68 73 67 84 73 79 78 65 82 89 61 58 53 13'
+zz=:zz,' 10 13 10 78 66 46 32 111 98 106 101 99 116 32 110 97 109 101 32 99'
+zz=:zz,' 108 97 115 115 44 32 100 101 112 101 110 100 115 58 32 87 79 82 68'
+zz=:zz,' 44 84 69 83 84 44 71 82 79 85 80 44 83 85 73 84 69 44 77 65 67 82 '
+zz=:zz,'79 13 10 79 66 74 69 67 84 78 67 61 58 87 79 82 68 44 84 69 83 84 4'
+zz=:zz,'4 71 82 79 85 80 44 83 85 73 84 69 44 77 65 67 82 79 13 10 13 10 78'
+zz=:zz,' 66 46 32 98 97 100 32 111 98 106 101 99 116 32 99 111 100 101 44 3'
+zz=:zz,'2 100 101 112 101 110 100 115 58 32 79 66 74 69 67 84 78 67 13 10 9'
+zz=:zz,'8 97 100 111 98 106 61 58 91 58 32 45 46 32 91 58 32 42 46 47 32 91'
+zz=:zz,' 58 32 44 32 93 32 101 46 32 79 66 74 69 67 84 78 67 34 95 13 10 13'
+zz=:zz,' 10 78 66 46 32 112 97 116 104 32 100 101 108 105 109 105 116 101 1'
+zz=:zz,'14 32 99 104 97 114 97 99 116 101 114 32 38 32 112 97 116 104 32 11'
+zz=:zz,'2 117 110 99 116 117 97 116 105 111 110 32 99 104 97 114 97 99 116 '
+zz=:zz,'101 114 115 13 10 80 65 84 72 68 69 76 61 58 32 73 70 87 73 78 32 1'
+zz=:zz,'23 32 39 47 92 39 13 10 80 65 84 72 67 72 82 83 61 58 39 32 58 46 4'
+zz=:zz,'5 39 44 80 65 84 72 68 69 76 13 10 13 10 78 66 46 32 112 97 116 104'
+zz=:zz,' 32 118 101 114 98 115 32 45 32 101 109 98 101 100 32 47 92 32 99 1'
+zz=:zz,'04 97 114 115 32 100 101 112 101 110 100 105 110 103 32 111 110 32 '
+zz=:zz,'104 111 115 116 32 79 83 13 10 104 111 115 116 115 101 112 61 58 32'
+zz=:zz,' 40 73 70 87 73 78 123 39 47 92 39 41 38 40 40 40 73 70 87 73 78 12'
+zz=:zz,'3 39 92 47 39 41 32 73 46 64 58 61 32 93 41 125 41 13 10 13 10 78 6'
+zz=:zz,'6 46 32 101 120 116 114 97 99 116 115 32 111 110 108 121 32 116 104'
+zz=:zz,' 101 32 112 97 116 104 32 102 114 111 109 32 113 117 97 108 105 102'
+zz=:zz,' 105 101 100 32 102 105 108 101 32 110 97 109 101 115 13 10 106 117'
+zz=:zz,' 115 116 112 97 116 104 61 58 91 58 32 125 58 32 93 32 35 126 32 40'
+zz=:zz,' 91 58 32 45 46 32 91 58 32 43 46 47 92 46 32 39 58 39 38 61 41 32 '
+zz=:zz,'42 46 32 91 58 32 43 46 47 92 46 32 80 65 84 72 68 69 76 38 61 13 1'
+zz=:zz,'0 13 10 78 66 46 32 100 101 102 97 117 108 116 32 109 97 115 116 10'
+zz=:zz,'1 114 32 112 114 111 102 105 108 101 32 117 115 101 114 32 108 111 '
+zz=:zz,'99 97 116 105 111 110 115 13 10 78 66 46 32 106 111 100 115 121 115'
+zz=:zz,' 116 101 109 112 97 116 104 32 105 115 32 108 101 102 116 32 103 10'
+zz=:zz,'8 111 98 97 108 32 104 101 114 101 32 97 115 32 116 104 105 115 13 '
+zz=:zz,'10 78 66 46 32 118 101 114 98 32 105 115 32 100 101 102 105 110 101'
+zz=:zz,' 100 32 105 110 32 106 111 100 111 110 46 105 106 115 13 10 74 77 6'
+zz=:zz,'5 83 84 69 82 61 58 106 111 100 115 121 115 116 101 109 112 97 116 '
+zz=:zz,'104 32 39 106 109 97 115 116 101 114 39 13 10 74 79 68 80 82 79 70 '
+zz=:zz,'61 58 106 111 100 115 121 115 116 101 109 112 97 116 104 32 39 106 '
+zz=:zz,'111 100 112 114 111 102 105 108 101 46 105 106 115 39 13 10 74 79 6'
+zz=:zz,'8 85 83 69 82 61 58 106 111 100 115 121 115 116 101 109 112 97 116 '
+zz=:zz,'104 32 39 106 111 100 117 115 101 114 99 111 110 102 105 103 46 105'
+zz=:zz,' 106 115 39 13 10 13 10 78 66 46 42 101 110 100 100 101 112 101 110'
+zz=:zz,' 100 101 110 116 115 13 10{a.);''jodliterate'';(78 66 46 42 106 111 1'
+zz=:zz,'00 108 105 116 101 114 97 116 101 32 115 45 45 32 103 101 110 101 1'
+zz=:zz,'14 97 116 101 115 32 108 105 116 101 114 97 116 101 32 115 111 117 '
+zz=:zz,'114 99 101 32 99 111 100 101 32 100 111 99 117 109 101 110 116 115 '
+zz=:zz,'32 100 105 114 101 99 116 108 121 32 102 114 111 109 32 74 79 68 32'
+zz=:zz,' 103 114 111 117 112 115 46 13 10 78 66 46 13 10 78 66 46 32 118 10'
+zz=:zz,'1 114 98 97 116 105 109 58 13 10 78 66 46 13 10 78 66 46 32 105 110'
+zz=:zz,' 116 101 114 102 97 99 101 32 119 111 114 100 40 115 41 58 32 13 10'
+zz=:zz,' 78 66 46 32 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 '
+zz=:zz,'45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 4'
+zz=:zz,'5 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45'
+zz=:zz,' 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 13 10 78 66 46 32 103'
+zz=:zz,' 114 112 108 105 116 32 32 32 32 32 32 32 32 32 32 109 97 107 101 3'
+zz=:zz,'2 108 97 116 101 120 32 102 111 114 32 103 114 111 117 112 32 40 12'
+zz=:zz,'1 41 13 10 78 66 46 32 105 102 97 99 101 115 101 99 116 105 111 110'
+zz=:zz,' 32 32 32 32 105 110 116 101 114 102 97 99 101 32 115 101 99 116 10'
+zz=:zz,'5 111 110 32 115 117 109 109 97 114 121 32 115 116 114 105 110 103 '
+zz=:zz,'13 10 78 66 46 32 115 101 116 106 111 100 108 105 116 101 114 97 11'
+zz=:zz,'6 101 32 32 112 114 101 112 97 114 101 32 102 111 114 32 112 114 11'
+zz=:zz,'1 99 101 115 115 105 110 103 13 10 78 66 46 32 32 13 10 78 66 46 32'
+zz=:zz,' 97 117 116 104 111 114 58 32 32 74 111 104 110 32 68 46 32 66 97 1'
+zz=:zz,'07 101 114 13 10 78 66 46 32 99 114 101 97 116 101 100 58 32 50 48 '
+zz=:zz,'49 50 111 99 116 48 49 13 10 78 66 46 32 45 45 45 45 45 45 45 45 45'
+zz=:zz,' 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 '
+zz=:zz,'45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 4'
+zz=:zz,'5 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45 45'
+zz=:zz,' 45 45 13 10 78 66 46 32 49 50 111 99 116 48 51 32 40 120 41 32 103'
+zz=:zz,' 114 112 108 105 116 32 97 114 103 117 109 101 110 116 32 97 100 10'
+zz=:zz,'0 101 100 32 116 111 32 115 117 112 112 114 101 115 115 32 114 111 '
+zz=:zz,'111 116 32 116 101 120 32 111 118 101 114 119 114 105 116 101 115 1'
+zz=:zz,'3 10 78 66 46 32 49 50 111 99 116 48 52 32 103 114 111 117 112 32 7'
+zz=:zz,'3 70 65 67 69 87 79 82 68 83 103 114 111 117 112 110 97 109 101 32 '
+zz=:zz,'104 121 112 101 114 108 105 110 107 101 100 13 10 78 66 46 32 49 50'
+zz=:zz,' 111 99 116 48 53 32 114 101 112 108 97 99 101 100 32 59 58 32 112 '
+zz=:zz,'97 114 115 105 110 103 32 119 105 116 104 32 40 119 102 108 41 32 4'
+zz=:zz,'5 32 104 97 110 100 108 101 115 32 98 97 100 32 106 32 99 111 100 1'
+zz=:zz,'01 13 10 78 66 46 32 49 50 111 99 116 48 56 32 97 100 100 101 100 3'
+zz=:zz,'2 101 114 114 111 114 32 104 97 110 100 108 105 110 103 32 45 32 11'
+zz=:zz,'4 101 112 108 97 99 101 100 32 40 119 114 105 116 101 41 32 119 105'
+zz=:zz,' 116 104 32 40 119 114 105 116 101 97 115 41 13 10 78 66 46 32 49 5'
+zz=:zz,'0 111 99 116 49 49 32 97 100 106 117 115 116 101 100 32 76 97 84 10'
+zz=:zz,'1 88 32 112 114 101 97 109 98 108 101 32 45 32 99 104 97 110 103 10'
+zz=:zz,'5 110 103 32 109 111 110 111 102 111 110 116 115 13 10 78 66 46 32 '
+zz=:zz,'49 50 111 99 116 49 50 32 97 100 100 101 100 32 40 115 98 116 111 1'
+zz=:zz,'07 101 110 115 41 32 45 32 117 115 101 102 117 108 32 102 111 114 3'
+zz=:zz,'2 97 110 97 108 121 122 105 110 103 32 99 111 100 101 32 116 101 12'
+zz=:zz,'0 116 13 10 78 66 46 32 49 50 111 99 116 49 55 32 97 100 100 101 10'
+zz=:zz,'0 32 40 119 114 97 112 118 114 98 108 111 110 103 41 32 45 32 108 1'
+zz=:zz,'11 110 103 32 115 111 117 114 99 101 32 108 105 110 101 115 32 110 '
+zz=:zz,'111 119 32 119 114 97 112 112 101 100 13 10 13 10 99 111 99 108 97 '
+zz=:zz,'115 115 32 32 39 97 106 111 100 108 105 116 101 114 97 116 101 39 1'
+zz=:zz,'3 10 99 111 105 110 115 101 114 116 32 39 105 106 111 100 39 13 10 '
+zz=:zz,'13 10 78 66 46 42 100 101 112 101 110 100 101 110 116 115 13 10 78 '
+zz=:zz,'66 46 32 100 101 99 108 97 114 101 100 32 103 108 111 98 97 108 32 '
+zz=:zz,'104 101 114 101 32 116 111 32 97 118 111 105 100 32 99 111 110 102 '
+zz=:zz,'117 115 105 110 103 32 76 97 84 101 88 32 110 97 109 101 115 32 119'
+zz=:zz,' 105 116 104 32 74 32 110 97 109 101 115 13 10 78 66 46 32 40 42 41'
+zz=:zz,' 61 58 32 74 76 84 73 84 76 69 84 69 88 32 74 76 79 86 73 69 87 84 '
+zz=:zz,'69 88 32 74 76 71 82 80 76 73 84 84 69 88 32 74 79 68 76 105 116 10'
+zz=:zz,'1 114 97 116 101 80 114 101 97 109 98 108 101 13 10 13 10 78 66 46 '
+zz=:zz,'32 82 111 103 101 114 32 72 117 105 39 115 32 119 111 114 100 32 10'
+zz=:zz,'2 111 114 109 97 116 105 111 110 32 115 116 97 116 101 32 109 97 99'
+zz=:zz,' 104 105 110 101 32 45 32 115 105 109 105 108 105 97 114 32 116 111'
+zz=:zz,' 32 59 58 32 98 117 116 13 10 78 66 46 32 112 97 114 115 101 115 32'
+zz=:zz,' 116 101 120 116 32 119 105 116 104 32 76 70 115 44 32 114 101 116 '
+zz=:zz,'97 105 110 115 32 119 104 105 116 101 115 112 97 99 101 32 97 110 1'
+zz=:zz,'00 32 104 97 110 100 108 101 115 32 111 112 101 110 32 113 117 111 '
+zz=:zz,'116 101 115 46 13 10 13 10 78 66 46 32 104 105 100 101 32 115 99 11'
+zz=:zz,'4 105 112 116 32 108 111 99 97 108 115 32 33 40 42 41 61 46 32 109 '
+zz=:zz,'102 108 32 115 102 108 32 13 10 109 102 108 61 46 32 50 53 54 36 48'
+zz=:zz,' 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 '
+zz=:zz,'32 78 66 46 32 88 32 111 116 104 101 114 13 10 109 102 108 61 46 32'
+zz=:zz,' 49 32 32 40 57 44 97 46 105 46 39 32 39 41 32 32 32 32 32 32 32 32'
+zz=:zz,' 125 109 102 108 32 32 78 66 46 32 83 32 119 104 105 116 101 115 11'
+zz=:zz,'2 97 99 101 32 40 115 112 97 99 101 32 97 110 100 32 104 111 114 10'
+zz=:zz,'5 122 111 110 116 97 108 32 116 97 98 41 13 10 109 102 108 61 46 32'
+zz=:zz,' 50 32 32 40 40 97 46 105 46 39 65 97 39 41 43 47 105 46 50 54 41 3'
+zz=:zz,'2 125 109 102 108 32 32 78 66 46 32 65 32 65 45 90 32 97 45 122 32 '
+zz=:zz,'101 120 99 108 117 100 105 110 103 32 78 32 66 13 10 109 102 108 61'
+zz=:zz,' 46 32 51 32 32 40 97 46 105 46 39 78 39 41 32 32 32 32 32 32 32 32'
+zz=:zz,' 32 32 125 109 102 108 32 32 78 66 46 32 78 32 116 104 101 32 108 1'
+zz=:zz,'01 116 116 101 114 32 78 13 10 109 102 108 61 46 32 52 32 32 40 97 '
+zz=:zz,'46 105 46 39 66 39 41 32 32 32 32 32 32 32 32 32 32 125 109 102 108'
+zz=:zz,' 32 32 78 66 46 32 66 32 116 104 101 32 108 101 116 116 101 114 32 '
+zz=:zz,'66 13 10 109 102 108 61 46 32 53 32 32 40 97 46 105 46 39 48 49 50 '
+zz=:zz,'51 52 53 54 55 56 57 95 39 41 125 109 102 108 32 32 78 66 46 32 57 '
+zz=:zz,'32 100 105 103 105 116 115 32 97 110 100 32 95 13 10 109 102 108 61'
+zz=:zz,' 46 32 54 32 32 40 97 46 105 46 39 46 39 41 32 32 32 32 32 32 32 32'
+zz=:zz,' 32 32 125 109 102 108 32 32 78 66 46 32 68 32 46 13 10 109 102 108'
+zz=:zz,' 61 46 32 55 32 32 40 97 46 105 46 39 58 39 41 32 32 32 32 32 32 32'
+zz=:zz,' 32 32 32 125 109 102 108 32 32 78 66 46 32 67 32 58 13 10 109 102 '
+zz=:zz,'108 61 46 32 56 32 32 40 97 46 105 46 39 39 39 39 41 32 32 32 32 32'
+zz=:zz,' 32 32 32 32 125 109 102 108 32 32 78 66 46 32 81 32 113 117 111 11'
+zz=:zz,'6 101 13 10 109 102 108 61 46 32 57 32 32 40 49 51 41 32 32 32 32 3'
+zz=:zz,'2 32 32 32 32 32 32 32 32 32 32 125 109 102 108 32 32 78 66 46 32 6'
+zz=:zz,'7 82 13 10 109 102 108 61 46 32 49 48 32 40 49 48 41 32 32 32 32 32'
+zz=:zz,' 32 32 32 32 32 32 32 32 32 32 125 109 102 108 32 32 78 66 46 32 76'
+zz=:zz,' 70 13 10 13 10 115 102 108 61 46 32 95 50 93 92 34 49 32 125 46 34'
+zz=:zz,' 46 59 46 95 50 32 40 48 32 58 32 48 41 13 10 39 32 88 32 32 32 32 '
+zz=:zz,'32 83 32 32 32 32 65 32 32 32 32 78 32 32 32 32 66 32 32 32 32 57 3'
+zz=:zz,'2 32 32 32 68 32 32 32 32 67 32 32 32 32 81 32 32 32 32 67 82 32 32'
+zz=:zz,' 32 32 32 76 70 32 32 39 93 48 13 10 32 49 32 49 32 32 49 50 32 49 '
+zz=:zz,'32 32 50 32 49 32 32 51 32 49 32 32 50 32 49 32 32 54 32 49 32 32 4'
+zz=:zz,'9 32 49 32 32 49 32 49 32 32 55 32 49 32 32 49 48 32 49 32 32 32 49'
+zz=:zz,' 32 49 32 32 32 78 66 46 32 48 32 32 105 110 105 116 105 97 108 13 '
+zz=:zz,'10 32 49 32 50 32 32 49 50 32 50 32 32 50 32 50 32 32 51 32 50 32 3'
+zz=:zz,'2 50 32 50 32 32 54 32 50 32 32 49 32 48 32 32 49 32 48 32 32 55 32'
+zz=:zz,' 50 32 32 49 48 32 50 32 32 32 49 32 50 32 32 32 78 66 46 32 49 32 '
+zz=:zz,'32 111 116 104 101 114 13 10 32 49 32 50 32 32 49 50 32 50 32 32 50'
+zz=:zz,' 32 48 32 32 50 32 48 32 32 50 32 48 32 32 50 32 48 32 32 49 32 48 '
+zz=:zz,'32 32 49 32 48 32 32 55 32 50 32 32 49 48 32 50 32 32 32 49 32 50 3'
+zz=:zz,'2 32 32 78 66 46 32 50 32 32 97 108 112 47 110 117 109 13 10 32 49 '
+zz=:zz,'32 50 32 32 49 50 32 50 32 32 50 32 48 32 32 50 32 48 32 32 52 32 4'
+zz=:zz,'8 32 32 50 32 48 32 32 49 32 48 32 32 49 32 48 32 32 55 32 50 32 32'
+zz=:zz,' 49 48 32 50 32 32 32 49 32 50 32 32 32 78 66 46 32 51 32 32 78 13 '
+zz=:zz,'10 32 49 32 50 32 32 49 50 32 50 32 32 50 32 48 32 32 50 32 48 32 3'
+zz=:zz,'2 50 32 48 32 32 50 32 48 32 32 53 32 48 32 32 49 32 48 32 32 55 32'
+zz=:zz,' 50 32 32 49 48 32 50 32 32 32 49 32 50 32 32 32 78 66 46 32 52 32 '
+zz=:zz,'32 78 66 13 10 32 57 32 48 32 32 32 57 32 48 32 32 57 32 48 32 32 5'
+zz=:zz,'7 32 48 32 32 57 32 48 32 32 57 32 48 32 32 49 32 48 32 32 49 32 48'
+zz=:zz,' 32 32 57 32 48 32 32 49 48 32 50 32 32 32 49 32 50 32 32 32 78 66 '
+zz=:zz,'46 32 53 32 32 78 66 46 13 10 32 49 32 52 32 32 49 51 32 48 32 32 5'
+zz=:zz,'4 32 48 32 32 54 32 48 32 32 54 32 48 32 32 54 32 48 32 32 54 32 48'
+zz=:zz,' 32 32 49 32 48 32 32 55 32 52 32 32 49 48 32 50 32 32 32 49 32 50 '
+zz=:zz,'32 32 32 78 66 46 32 54 32 32 110 117 109 13 10 32 55 32 48 32 32 3'
+zz=:zz,'2 55 32 48 32 32 55 32 48 32 32 55 32 48 32 32 55 32 48 32 32 55 32'
+zz=:zz,' 48 32 32 55 32 48 32 32 55 32 48 32 32 56 32 48 32 32 49 48 32 50 '
+zz=:zz,'32 32 32 49 32 50 32 32 32 78 66 46 32 55 32 32 39 13 10 32 49 32 5'
+zz=:zz,'0 32 32 49 49 32 50 32 32 50 32 50 32 32 51 32 50 32 32 50 32 50 32'
+zz=:zz,' 32 54 32 50 32 32 49 32 50 32 32 49 32 50 32 32 55 32 48 32 32 49 '
+zz=:zz,'48 32 50 32 32 32 49 32 50 32 32 32 78 66 46 32 56 32 32 39 39 13 1'
+zz=:zz,'0 32 57 32 48 32 32 32 57 32 48 32 32 57 32 48 32 32 57 32 48 32 32'
+zz=:zz,' 57 32 48 32 32 57 32 48 32 32 57 32 48 32 32 57 32 48 32 32 57 32 '
+zz=:zz,'48 32 32 49 48 32 50 32 32 32 49 32 50 32 32 32 78 66 46 32 57 32 3'
+zz=:zz,'2 99 111 109 109 101 110 116 13 10 32 49 32 50 32 32 49 49 32 50 32'
+zz=:zz,' 32 50 32 50 32 32 52 32 50 32 32 50 32 50 32 32 54 32 50 32 32 49 '
+zz=:zz,'32 50 32 32 49 32 50 32 32 55 32 50 32 32 49 48 32 50 32 32 49 49 3'
+zz=:zz,'2 48 32 32 32 78 66 46 32 49 48 32 67 82 13 10 32 49 32 50 32 32 49'
+zz=:zz,' 49 32 50 32 32 50 32 50 32 32 52 32 50 32 32 50 32 50 32 32 54 32 '
+zz=:zz,'50 32 32 49 32 50 32 32 49 32 50 32 32 55 32 50 32 32 49 48 32 50 3'
+zz=:zz,'2 32 32 49 32 50 32 32 32 78 66 46 32 49 49 32 67 82 76 70 13 10 32'
+zz=:zz,' 49 32 50 32 32 49 50 32 48 32 32 50 32 50 32 32 51 32 50 32 32 50 '
+zz=:zz,'32 50 32 32 54 32 48 32 32 49 32 50 32 32 49 32 50 32 32 55 32 50 3'
+zz=:zz,'2 32 49 48 32 50 32 32 32 49 32 50 32 32 32 78 66 46 32 49 50 32 11'
+zz=:zz,'5 112 97 99 101 13 10 32 49 32 50 32 32 49 51 32 48 32 32 50 32 50 '
+zz=:zz,'32 32 51 32 50 32 32 50 32 50 32 32 54 32 48 32 32 49 32 50 32 32 4'
+zz=:zz,'9 32 50 32 32 55 32 50 32 32 49 48 32 50 32 32 32 49 32 50 32 32 32'
+zz=:zz,' 78 66 46 32 49 51 32 115 112 97 99 101 32 97 102 116 101 114 32 11'
+zz=:zz,'0 117 109 13 10 41 13 10 13 10 78 66 46 32 119 111 114 100 32 102 1'
+zz=:zz,'11 114 109 97 116 105 111 110 32 102 111 114 32 108 105 110 101 115'
+zz=:zz,' 13 10 119 102 108 61 58 32 40 48 59 115 102 108 59 109 102 108 41 '
+zz=:zz,'32 38 32 59 58 13 10 13 10 74 76 68 73 82 69 67 84 79 82 89 61 58 3'
+zz=:zz,'2 39 39 13 10 78 66 46 42 101 110 100 100 101 112 101 110 100 101 1'
+zz=:zz,'10 116 115 13 10 13 10 13 10 78 66 46 60 60 126 126 126 126 32 123 '
+zz=:zz,'32 46 108 97 116 101 120 32 125 13 10 13 10 78 66 46 32 103 114 111'
+zz=:zz,' 117 112 32 116 105 116 108 101 32 97 110 100 32 97 117 116 104 111'
+zz=:zz,' 114 32 45 32 115 116 97 110 100 97 114 100 32 92 109 97 107 101 11'
+zz=:zz,'6 105 116 108 101 13 10 74 76 84 73 84 76 69 84 69 88 61 58 32 48 3'
+zz=:zz,'2 58 32 48 13 10 37 32 108 97 116 101 120 32 97 117 116 104 111 114'
+zz=:zz,' 32 97 110 100 32 116 105 116 108 101 13 10 92 97 117 116 104 111 1'
+zz=:zz,'14 123 126 35 126 97 117 116 104 111 114 126 35 126 125 13 10 92 11'
+zz=:zz,'6 105 116 108 101 123 92 116 101 120 116 116 116 123 126 35 126 103'
+zz=:zz,' 114 111 117 112 126 35 126 125 32 71 114 111 117 112 125 13 10 41 '
+zz=:zz,'13 10 13 10 78 66 46 32 103 114 111 117 112 32 111 118 101 114 118 '
+zz=:zz,'105 101 119 32 104 101 97 100 101 114 13 10 74 76 79 86 73 69 87 84'
+zz=:zz,' 69 88 61 58 32 48 32 58 32 48 13 10 37 32 116 104 105 115 32 106 1'
+zz=:zz,'11 100 108 105 116 101 114 97 116 101 32 111 118 101 114 118 105 10'
+zz=:zz,'1 119 13 10 92 115 101 99 116 105 111 110 123 92 116 101 120 116 11'
+zz=:zz,'6 116 123 126 35 126 103 114 111 117 112 126 35 126 125 32 79 118 1'
+zz=:zz,'01 114 118 105 101 119 125 13 10 41 13 10 13 10 78 66 46 32 103 114'
+zz=:zz,' 111 117 112 32 114 111 111 116 32 116 101 120 32 45 32 99 111 108 '
+zz=:zz,'117 109 110 115 32 109 97 121 32 110 101 101 100 32 97 100 106 117 '
+zz=:zz,'115 116 105 110 103 13 10 74 76 71 82 80 76 73 84 84 69 88 61 58 32'
+zz=:zz,' 48 32 58 32 48 13 10 37 32 77 97 105 110 32 106 111 100 108 105 11'
+zz=:zz,'6 101 114 97 116 101 32 40 103 114 112 108 105 116 41 32 108 97 116'
+zz=:zz,' 101 120 32 102 105 108 101 46 32 40 103 114 112 108 105 116 41 32 '
+zz=:zz,'103 101 110 101 114 97 116 101 115 32 34 103 114 111 117 112 34 13 '
+zz=:zz,'10 37 32 110 97 109 101 100 32 118 101 114 115 105 111 110 115 32 1'
+zz=:zz,'11 102 32 116 104 105 115 32 102 105 108 101 32 102 111 114 32 101 '
+zz=:zz,'97 99 104 32 74 79 68 32 103 114 111 117 112 32 105 116 32 112 114 '
+zz=:zz,'111 99 101 115 115 101 115 46 13 10 13 10 92 105 110 112 117 116 12'
+zz=:zz,'3 74 79 68 76 105 116 101 114 97 116 101 80 114 101 97 109 98 108 1'
+zz=:zz,'01 46 116 101 120 125 13 10 13 10 92 105 110 112 117 116 123 126 35'
+zz=:zz,' 126 103 114 111 117 112 126 35 126 116 105 116 108 101 46 116 101 '
+zz=:zz,'120 125 13 10 92 109 97 107 101 116 105 116 108 101 13 10 92 116 97'
+zz=:zz,' 98 108 101 111 102 99 111 110 116 101 110 116 115 13 10 13 10 92 1'
+zz=:zz,'10 101 119 112 97 103 101 13 10 37 32 99 111 109 109 97 110 100 115'
+zz=:zz,' 32 102 111 114 32 97 100 106 117 115 116 105 110 103 32 100 105 11'
+zz=:zz,'5 116 97 110 99 101 13 10 37 32 98 101 116 119 101 101 110 32 99 11'
+zz=:zz,'1 108 117 109 110 115 32 97 110 100 32 105 110 115 101 114 116 105 '
+zz=:zz,'110 103 32 97 32 114 117 108 101 13 10 37 92 115 101 116 108 101 11'
+zz=:zz,'0 103 116 104 123 92 99 111 108 117 109 110 115 101 112 125 123 51 '
+zz=:zz,'101 109 125 13 10 37 92 115 101 116 108 101 110 103 116 104 123 92 '
+zz=:zz,'99 111 108 117 109 110 115 101 112 114 117 108 101 125 123 48 46 53'
+zz=:zz,' 112 116 125 13 10 37 92 116 119 111 99 111 108 117 109 110 13 10 9'
+zz=:zz,'2 105 110 112 117 116 123 126 35 126 103 114 111 117 112 126 35 126'
+zz=:zz,' 111 118 105 101 119 46 116 101 120 125 13 10 13 10 92 110 101 119 '
+zz=:zz,'112 97 103 101 13 10 37 92 111 110 101 99 111 108 117 109 110 13 10'
+zz=:zz,' 92 105 110 112 117 116 123 126 35 126 103 114 111 117 112 126 35 1'
+zz=:zz,'26 99 111 100 101 46 116 101 120 125 13 10 13 10 92 110 101 119 112'
+zz=:zz,' 97 103 101 13 10 92 112 104 97 110 116 111 109 115 101 99 116 105 '
+zz=:zz,'111 110 13 10 92 97 100 100 99 111 110 116 101 110 116 115 108 105 '
+zz=:zz,'110 101 123 116 111 99 125 123 115 101 99 116 105 111 110 125 123 9'
+zz=:zz,'2 116 101 120 116 116 116 123 61 58 125 32 73 110 100 101 120 125 1'
+zz=:zz,'3 10 92 112 114 105 110 116 105 110 100 101 120 13 10 13 10 92 101 '
+zz=:zz,'110 100 123 100 111 99 117 109 101 110 116 125 13 10 41 13 10 13 10'
+zz=:zz,' 78 66 46 32 109 97 105 110 32 106 111 100 108 105 116 101 114 97 1'
+zz=:zz,'16 101 32 76 97 84 101 88 32 112 114 101 97 109 98 108 101 13 10 74'
+zz=:zz,' 79 68 76 105 116 101 114 97 116 101 80 114 101 97 109 98 108 101 6'
+zz=:zz,'1 58 32 48 32 58 32 48 13 10 37 32 106 111 100 108 105 116 101 114 '
+zz=:zz,'97 116 101 32 108 97 116 101 120 32 112 114 101 97 109 98 108 101 4'
+zz=:zz,'6 32 13 10 37 32 13 10 37 32 84 104 105 115 32 102 105 108 101 32 1'
+zz=:zz,'05 115 32 97 32 104 105 103 104 108 121 32 99 117 115 116 111 109 1'
+zz=:zz,'05 122 101 100 32 118 101 114 115 105 111 110 32 111 102 32 116 104'
+zz=:zz,' 101 32 112 114 101 97 109 98 108 101 13 10 37 32 109 97 116 101 11'
+zz=:zz,'4 105 97 108 32 103 101 110 101 114 97 116 101 100 32 98 121 32 112'
+zz=:zz,' 97 110 100 111 99 39 115 32 45 115 32 111 112 116 105 111 110 32 1'
+zz=:zz,'19 104 101 110 32 112 114 111 100 117 99 105 110 103 32 13 10 37 32'
+zz=:zz,' 46 116 101 120 32 111 117 116 112 117 116 46 32 112 97 110 100 111'
+zz=:zz,' 99 32 104 105 103 104 108 105 103 104 116 105 110 103 32 105 115 3'
+zz=:zz,'2 111 118 101 114 114 105 100 100 101 110 32 97 110 100 13 10 37 32'
+zz=:zz,' 116 104 101 32 115 116 97 110 100 97 114 100 32 105 110 100 101 12'
+zz=:zz,'0 32 105 115 32 114 101 100 101 102 105 110 101 100 46 32 13 10 13 '
+zz=:zz,'10 92 100 111 99 117 109 101 110 116 99 108 97 115 115 91 49 50 112'
+zz=:zz,' 116 93 123 97 114 116 105 99 108 101 125 13 10 13 10 92 117 115 10'
+zz=:zz,'1 112 97 99 107 97 103 101 91 108 97 110 100 115 99 97 112 101 93 1'
+zz=:zz,'23 103 101 111 109 101 116 114 121 125 13 10 92 117 115 101 112 97 '
+zz=:zz,'99 107 97 103 101 91 104 101 97 100 105 110 103 115 93 123 102 117 '
+zz=:zz,'108 108 112 97 103 101 125 13 10 92 117 115 101 112 97 99 107 97 10'
+zz=:zz,'3 101 123 108 109 111 100 101 114 110 125 13 10 92 117 115 101 112 '
+zz=:zz,'97 99 107 97 103 101 123 97 109 115 115 121 109 98 44 97 109 115 10'
+zz=:zz,'9 97 116 104 125 13 10 92 117 115 101 112 97 99 107 97 103 101 123 '
+zz=:zz,'105 102 120 101 116 101 120 44 105 102 108 117 97 116 101 120 125 1'
+zz=:zz,'3 10 13 10 37 32 112 114 111 118 105 100 101 115 32 92 116 101 120 '
+zz=:zz,'116 115 117 98 115 99 114 105 112 116 13 10 92 117 115 101 112 97 9'
+zz=:zz,'9 107 97 103 101 123 102 105 120 108 116 120 50 101 125 32 13 10 13'
+zz=:zz,' 10 37 32 117 115 101 32 109 105 99 114 111 116 121 112 101 32 105 '
+zz=:zz,'102 32 97 118 97 105 108 97 98 108 101 13 10 92 73 102 70 105 108 1'
+zz=:zz,'01 69 120 105 115 116 115 123 109 105 99 114 111 116 121 112 101 46'
+zz=:zz,' 115 116 121 125 123 92 117 115 101 112 97 99 107 97 103 101 123 10'
+zz=:zz,'9 105 99 114 111 116 121 112 101 125 125 123 125 13 10 92 105 102 1'
+zz=:zz,'10 117 109 32 48 92 105 102 120 101 116 101 120 32 49 92 102 105 92'
+zz=:zz,' 105 102 108 117 97 116 101 120 32 49 92 102 105 61 48 32 37 32 105'
+zz=:zz,' 102 32 112 100 102 116 101 120 13 10 32 32 92 117 115 101 112 97 9'
+zz=:zz,'9 107 97 103 101 91 117 116 102 56 93 123 105 110 112 117 116 101 1'
+zz=:zz,'10 99 125 13 10 92 101 108 115 101 32 37 32 105 102 32 108 117 97 1'
+zz=:zz,'16 101 120 32 111 114 32 120 101 108 97 116 101 120 13 10 32 32 92 '
+zz=:zz,'117 115 101 112 97 99 107 97 103 101 123 102 111 110 116 115 112 10'
+zz=:zz,'1 99 125 13 10 32 32 92 105 102 120 101 116 101 120 13 10 32 32 32 '
+zz=:zz,'32 92 117 115 101 112 97 99 107 97 103 101 123 120 108 116 120 116 '
+zz=:zz,'114 97 44 120 117 110 105 99 111 100 101 125 13 10 32 32 92 102 105'
+zz=:zz,' 13 10 32 32 92 100 101 102 97 117 108 116 102 111 110 116 102 101 '
+zz=:zz,'97 116 117 114 101 115 123 77 97 112 112 105 110 103 61 116 101 120'
+zz=:zz,' 45 116 101 120 116 44 83 99 97 108 101 61 77 97 116 99 104 76 111 '
+zz=:zz,'119 101 114 99 97 115 101 125 13 10 32 32 37 32 114 101 112 108 97 '
+zz=:zz,'99 101 32 69 85 82 79 85 67 32 119 105 116 104 32 117 110 105 99 11'
+zz=:zz,'1 100 101 32 101 117 114 111 32 99 104 97 114 97 99 116 101 114 32 '
+zz=:zz,'13 10 32 32 37 32 105 102 32 121 111 117 32 110 101 101 100 32 116 '
+zz=:zz,'104 105 115 32 99 104 97 114 97 99 116 101 114 32 45 32 116 104 101'
+zz=:zz,' 32 112 114 101 115 101 110 99 101 32 111 102 13 10 32 32 37 32 116'
+zz=:zz,' 104 105 115 32 115 105 110 103 108 101 32 99 104 97 114 97 99 116 '
+zz=:zz,'101 114 32 105 110 32 116 104 101 32 112 114 101 97 109 98 108 101 '
+zz=:zz,'32 102 111 114 99 101 115 32 117 115 101 32 111 102 32 120 101 108 '
+zz=:zz,'97 116 101 120 44 32 108 117 97 108 97 116 101 100 13 10 32 32 37 9'
+zz=:zz,'2 110 101 119 99 111 109 109 97 110 100 123 92 101 117 114 111 125 '
+zz=:zz,'123 69 85 82 79 85 67 125 32 32 32 13 10 32 32 37 32 99 97 110 32 1'
+zz=:zz,'15 101 116 32 111 116 104 101 114 32 109 111 110 111 115 112 97 99 '
+zz=:zz,'101 32 102 111 110 116 115 32 105 102 32 116 104 101 121 39 114 101'
+zz=:zz,' 32 97 118 97 105 108 97 98 108 101 13 10 32 32 37 32 73 32 114 97 '
+zz=:zz,'116 104 101 114 32 108 105 107 101 32 83 111 117 114 99 101 32 67 1'
+zz=:zz,'11 100 101 32 80 114 111 32 115 101 101 58 13 10 32 32 37 32 104 11'
+zz=:zz,'6 116 112 58 47 47 98 108 111 103 115 46 97 100 111 98 101 46 99 11'
+zz=:zz,'1 109 47 116 121 112 98 108 111 103 114 97 112 104 121 47 50 48 49 '
+zz=:zz,'50 47 48 57 47 115 111 117 114 99 101 45 99 111 100 101 45 112 114 '
+zz=:zz,'111 46 104 116 109 108 13 10 32 32 37 92 115 101 116 109 111 110 11'
+zz=:zz,'1 102 111 110 116 123 70 114 101 101 77 111 110 111 125 13 10 32 32'
+zz=:zz,' 37 92 115 101 116 109 111 110 111 102 111 110 116 123 83 111 117 1'
+zz=:zz,'14 99 101 32 67 111 100 101 32 80 114 111 125 13 10 92 102 105 13 1'
+zz=:zz,'0 13 10 37 32 82 101 100 101 102 105 110 101 32 108 97 98 101 108 1'
+zz=:zz,'19 105 100 116 104 32 102 111 114 32 108 105 115 116 115 59 32 111 '
+zz=:zz,'116 104 101 114 119 105 115 101 44 32 116 104 101 32 101 110 117 10'
+zz=:zz,'9 101 114 97 116 101 32 112 97 99 107 97 103 101 32 119 105 108 108'
+zz=:zz,' 32 99 97 117 115 101 13 10 37 32 109 97 114 107 101 114 115 32 116'
+zz=:zz,' 111 32 101 120 116 101 110 100 32 98 101 121 111 110 100 32 116 10'
+zz=:zz,'4 101 32 108 101 102 116 32 109 97 114 103 105 110 46 13 10 92 109 '
+zz=:zz,'97 107 101 97 116 108 101 116 116 101 114 92 65 116 66 101 103 105 '
+zz=:zz,'110 68 111 99 117 109 101 110 116 123 37 13 10 32 32 92 114 101 110'
+zz=:zz,' 101 119 99 111 109 109 97 110 100 123 92 64 108 105 115 116 105 12'
+zz=:zz,'5 13 10 32 32 32 32 123 92 115 101 116 108 101 110 103 116 104 123 '
+zz=:zz,'92 108 97 98 101 108 119 105 100 116 104 125 123 52 101 109 125 125'
+zz=:zz,' 13 10 125 92 109 97 107 101 97 116 111 116 104 101 114 13 10 92 11'
+zz=:zz,'7 115 101 112 97 99 107 97 103 101 123 101 110 117 109 101 114 97 1'
+zz=:zz,'16 101 125 13 10 13 10 37 32 98 117 105 108 100 32 100 111 99 117 1'
+zz=:zz,'09 101 110 116 32 105 110 100 101 120 13 10 92 117 115 101 112 97 9'
+zz=:zz,'9 107 97 103 101 123 109 97 107 101 105 100 120 125 13 10 13 10 37 '
+zz=:zz,'32 99 111 108 111 114 115 13 10 92 117 115 101 112 97 99 107 97 103'
+zz=:zz,' 101 123 99 111 108 111 114 125 13 10 92 100 101 102 105 110 101 99'
+zz=:zz,' 111 108 111 114 123 115 104 97 100 101 99 111 108 111 114 125 123 '
+zz=:zz,'82 71 66 125 123 50 52 56 44 50 52 56 44 50 52 56 125 13 10 37 32 1'
+zz=:zz,'06 32 99 111 110 116 114 111 108 32 115 116 114 117 99 116 117 114 '
+zz=:zz,'101 115 32 13 10 92 100 101 102 105 110 101 99 111 108 111 114 123 '
+zz=:zz,'107 101 121 119 99 111 108 111 114 125 123 114 103 98 125 123 48 46'
+zz=:zz,' 49 51 44 48 46 50 57 44 48 46 53 51 125 13 10 37 32 106 32 101 120'
+zz=:zz,' 112 108 105 99 105 116 32 97 114 103 117 109 101 110 116 115 32 12'
+zz=:zz,'0 32 121 32 109 32 110 32 117 32 118 13 10 92 100 101 102 105 110 1'
+zz=:zz,'01 99 111 108 111 114 123 100 97 116 97 99 111 108 111 114 125 123 '
+zz=:zz,'114 103 98 125 123 48 46 49 51 44 48 46 50 57 44 48 46 53 51 125 13'
+zz=:zz,' 10 37 32 106 32 110 117 109 98 101 114 115 32 45 32 97 108 108 32 '
+zz=:zz,'116 121 112 101 115 32 115 101 101 32 106 46 120 109 108 13 10 92 1'
+zz=:zz,'00 101 102 105 110 101 99 111 108 111 114 123 100 101 99 118 99 111'
+zz=:zz,' 108 111 114 125 123 114 103 98 125 123 48 46 48 48 44 48 46 48 48 '
+zz=:zz,'44 48 46 56 49 125 13 10 92 100 101 102 105 110 101 99 111 108 111 '
+zz=:zz,'114 123 98 97 115 101 110 99 111 108 111 114 125 123 114 103 98 125'
+zz=:zz,' 123 48 46 48 48 44 48 46 48 48 44 48 46 56 49 125 13 10 92 100 101'
+zz=:zz,' 102 105 110 101 99 111 108 111 114 123 102 108 111 97 116 99 111 1'
+zz=:zz,'08 111 114 125 123 114 103 98 125 123 48 46 48 48 44 48 46 48 48 44'
+zz=:zz,' 48 46 56 49 125 13 10 37 32 106 32 108 111 99 97 108 32 97 115 115'
+zz=:zz,' 105 103 110 109 101 110 116 115 13 10 92 100 101 102 105 110 101 9'
+zz=:zz,'9 111 108 111 114 123 99 104 97 114 99 111 108 111 114 125 123 114 '
+zz=:zz,'103 98 125 123 48 46 51 49 44 48 46 54 48 44 48 46 48 50 125 13 10 '
+zz=:zz,'92 100 101 102 105 110 101 99 111 108 111 114 123 115 116 114 105 1'
+zz=:zz,'10 103 99 111 108 111 114 125 123 114 103 98 125 123 48 46 51 49 44'
+zz=:zz,' 48 46 54 48 44 48 46 48 50 125 13 10 92 100 101 102 105 110 101 99'
+zz=:zz,' 111 108 111 114 123 99 111 109 109 101 110 116 99 111 108 111 114 '
+zz=:zz,'125 123 114 103 98 125 123 48 46 53 54 44 48 46 51 53 44 48 46 48 4'
+zz=:zz,'9 125 13 10 37 32 112 114 105 109 105 116 105 118 101 32 97 100 118'
+zz=:zz,' 101 114 98 115 32 97 110 100 32 99 111 110 106 117 110 99 116 105 '
+zz=:zz,'111 110 115 13 10 37 92 100 101 102 105 110 101 99 111 108 111 114 '
+zz=:zz,'123 111 116 104 101 114 99 111 108 111 114 125 123 114 103 98 125 1'
+zz=:zz,'23 48 46 53 54 44 48 46 51 53 44 48 46 48 49 125 32 32 32 13 10 92 '
+zz=:zz,'100 101 102 105 110 101 99 111 108 111 114 123 111 116 104 101 114 '
+zz=:zz,'99 111 108 111 114 125 123 82 71 66 125 123 48 44 48 44 50 53 53 12'
+zz=:zz,'5 13 10 37 32 103 108 111 98 97 108 32 97 115 115 105 103 110 109 1'
+zz=:zz,'01 110 116 115 13 10 92 100 101 102 105 110 101 99 111 108 111 114 '
+zz=:zz,'123 97 108 101 114 116 99 111 108 111 114 125 123 114 103 98 125 12'
+zz=:zz,'3 48 46 57 52 44 48 46 49 54 44 48 46 49 54 125 13 10 37 32 112 114'
+zz=:zz,' 105 109 105 116 105 118 101 32 74 32 118 101 114 98 115 32 97 110 '
+zz=:zz,'100 32 110 111 117 110 32 110 97 109 101 115 13 10 92 100 101 102 1'
+zz=:zz,'05 110 101 99 111 108 111 114 123 102 117 110 99 99 111 108 111 114'
+zz=:zz,' 125 123 114 103 98 125 123 48 46 48 48 44 48 46 48 48 44 48 46 48 '
+zz=:zz,'48 125 32 32 32 32 32 13 10 13 10 92 117 115 101 112 97 99 107 97 1'
+zz=:zz,'03 101 123 102 97 110 99 121 118 114 98 125 13 10 92 68 101 102 105'
+zz=:zz,' 110 101 83 104 111 114 116 86 101 114 98 91 99 111 109 109 97 110 '
+zz=:zz,'100 99 104 97 114 115 61 92 92 92 123 92 125 93 123 92 124 125 13 1'
+zz=:zz,'0 92 68 101 102 105 110 101 86 101 114 98 97 116 105 109 69 110 118'
+zz=:zz,' 105 114 111 110 109 101 110 116 123 72 105 103 104 108 105 103 104'
+zz=:zz,' 116 105 110 103 125 123 86 101 114 98 97 116 105 109 125 123 99 11'
+zz=:zz,'1 109 109 97 110 100 99 104 97 114 115 61 92 92 92 123 92 125 125 1'
+zz=:zz,'3 10 37 32 65 100 100 32 39 44 102 111 110 116 115 105 122 101 61 9'
+zz=:zz,'2 115 109 97 108 108 39 32 102 111 114 32 109 111 114 101 32 99 104'
+zz=:zz,' 97 114 97 99 116 101 114 115 32 112 101 114 32 108 105 110 101 13 '
+zz=:zz,'10 13 10 37 32 112 97 110 100 111 99 32 103 101 110 101 114 97 116 '
+zz=:zz,'101 100 32 115 121 110 116 97 120 32 99 111 108 111 114 105 110 103'
+zz=:zz,' 32 99 111 109 109 97 110 100 115 32 45 32 110 97 109 101 115 13 10'
+zz=:zz,' 37 32 97 114 101 32 102 105 120 101 100 32 105 110 32 103 101 110 '
+zz=:zz,'101 114 97 116 101 100 32 99 111 100 101 32 98 117 116 32 100 101 1'
+zz=:zz,'02 105 110 105 116 105 111 110 115 32 109 97 121 32 13 10 37 32 98 '
+zz=:zz,'101 32 115 101 116 32 116 111 32 97 110 121 32 118 97 108 105 100 3'
+zz=:zz,'2 116 101 120 116 32 102 111 114 109 97 116 116 105 110 103 32 99 1'
+zz=:zz,'11 109 109 97 110 100 13 10 92 117 115 101 112 97 99 107 97 103 101'
+zz=:zz,' 123 102 114 97 109 101 100 125 13 10 92 110 101 119 101 110 118 10'
+zz=:zz,'5 114 111 110 109 101 110 116 123 83 104 97 100 101 100 125 123 125'
+zz=:zz,' 123 125 13 10 92 110 101 119 99 111 109 109 97 110 100 123 92 75 1'
+zz=:zz,'01 121 119 111 114 100 84 111 107 125 91 49 93 123 92 116 101 120 1'
+zz=:zz,'16 99 111 108 111 114 123 107 101 121 119 99 111 108 111 114 125 12'
+zz=:zz,'3 92 116 101 120 116 98 102 123 123 35 49 125 125 125 125 13 10 37 '
+zz=:zz,'32 119 111 114 107 115 32 98 101 116 116 101 114 32 119 105 116 104'
+zz=:zz,' 32 83 111 117 114 99 101 32 67 111 100 101 32 80 114 111 13 10 37 '
+zz=:zz,'92 110 101 119 99 111 109 109 97 110 100 123 92 75 101 121 119 111 '
+zz=:zz,'114 100 84 111 107 125 91 49 93 123 92 116 101 120 116 99 111 108 1'
+zz=:zz,'11 114 123 107 101 121 119 99 111 108 111 114 125 123 123 35 49 125'
+zz=:zz,' 125 125 13 10 92 110 101 119 99 111 109 109 97 110 100 123 92 68 9'
+zz=:zz,'7 116 97 84 121 112 101 84 111 107 125 91 49 93 123 92 116 101 120 '
+zz=:zz,'116 99 111 108 111 114 123 100 97 116 97 99 111 108 111 114 125 123'
+zz=:zz,' 123 35 49 125 125 125 13 10 37 92 110 101 119 99 111 109 109 97 11'
+zz=:zz,'0 100 123 92 68 101 99 86 97 108 84 111 107 125 91 49 93 123 92 116'
+zz=:zz,' 101 120 116 99 111 108 111 114 123 100 101 99 118 99 111 108 111 1'
+zz=:zz,'14 125 123 123 35 49 125 125 125 13 10 92 110 101 119 99 111 109 10'
+zz=:zz,'9 97 110 100 123 92 68 101 99 86 97 108 84 111 107 125 91 49 93 123'
+zz=:zz,' 123 35 49 125 125 32 13 10 92 110 101 119 99 111 109 109 97 110 10'
+zz=:zz,'0 123 92 66 97 115 101 78 84 111 107 125 91 49 93 123 92 116 101 12'
+zz=:zz,'0 116 99 111 108 111 114 123 98 97 115 101 110 99 111 108 111 114 1'
+zz=:zz,'25 123 123 35 49 125 125 125 13 10 92 110 101 119 99 111 109 109 97'
+zz=:zz,' 110 100 123 92 70 108 111 97 116 84 111 107 125 91 49 93 123 92 11'
+zz=:zz,'6 101 120 116 99 111 108 111 114 123 102 108 111 97 116 99 111 108 '
+zz=:zz,'111 114 125 123 123 35 49 125 125 125 13 10 92 110 101 119 99 111 1'
+zz=:zz,'09 109 97 110 100 123 92 67 104 97 114 84 111 107 125 91 49 93 123 '
+zz=:zz,'92 116 101 120 116 99 111 108 111 114 123 99 104 97 114 99 111 108 '
+zz=:zz,'111 114 125 123 92 116 101 120 116 98 102 123 123 35 49 125 125 125'
+zz=:zz,' 125 13 10 92 110 101 119 99 111 109 109 97 110 100 123 92 83 116 1'
+zz=:zz,'14 105 110 103 84 111 107 125 91 49 93 123 92 116 101 120 116 99 11'
+zz=:zz,'1 108 111 114 123 115 116 114 105 110 103 99 111 108 111 114 125 12'
+zz=:zz,'3 123 35 49 125 125 125 13 10 92 110 101 119 99 111 109 109 97 110 '
+zz=:zz,'100 123 92 67 111 109 109 101 110 116 84 111 107 125 91 49 93 123 9'
+zz=:zz,'2 116 101 120 116 99 111 108 111 114 123 99 111 109 109 101 110 116'
+zz=:zz,' 99 111 108 111 114 125 123 92 116 101 120 116 105 116 123 123 35 4'
+zz=:zz,'9 125 125 125 125 13 10 92 110 101 119 99 111 109 109 97 110 100 12'
+zz=:zz,'3 92 79 116 104 101 114 84 111 107 125 91 49 93 123 92 116 101 120 '
+zz=:zz,'116 99 111 108 111 114 123 111 116 104 101 114 99 111 108 111 114 1'
+zz=:zz,'25 123 123 35 49 125 125 125 32 13 10 92 110 101 119 99 111 109 109'
+zz=:zz,' 97 110 100 123 92 65 108 101 114 116 84 111 107 125 91 49 93 123 9'
+zz=:zz,'2 116 101 120 116 99 111 108 111 114 123 97 108 101 114 116 99 111 '
+zz=:zz,'108 111 114 125 123 92 116 101 120 116 98 102 123 123 35 49 125 125'
+zz=:zz,' 125 125 13 10 37 92 110 101 119 99 111 109 109 97 110 100 123 92 7'
+zz=:zz,'0 117 110 99 116 105 111 110 84 111 107 125 91 49 93 123 92 116 101'
+zz=:zz,' 120 116 99 111 108 111 114 123 102 117 110 99 99 111 108 111 114 1'
+zz=:zz,'25 123 123 35 49 125 125 125 13 10 92 110 101 119 99 111 109 109 97'
+zz=:zz,' 110 100 123 92 70 117 110 99 116 105 111 110 84 111 107 125 91 49 '
+zz=:zz,'93 123 123 35 49 125 125 13 10 92 110 101 119 99 111 109 109 97 110'
+zz=:zz,' 100 123 92 82 101 103 105 111 110 77 97 114 107 101 114 84 111 107'
+zz=:zz,' 125 91 49 93 123 123 35 49 125 125 13 10 92 110 101 119 99 111 109'
+zz=:zz,' 109 97 110 100 123 92 69 114 114 111 114 84 111 107 125 91 49 93 1'
+zz=:zz,'23 92 116 101 120 116 98 102 123 123 35 49 125 125 125 13 10 92 110'
+zz=:zz,' 101 119 99 111 109 109 97 110 100 123 92 78 111 114 109 97 108 84 '
+zz=:zz,'111 107 125 91 49 93 123 123 35 49 125 125 13 10 13 10 37 32 74 79 '
+zz=:zz,'68 32 111 114 105 101 110 116 101 100 32 97 117 120 105 108 105 97 '
+zz=:zz,'114 121 32 99 111 109 109 97 110 100 115 32 102 111 114 32 112 111 '
+zz=:zz,'115 116 32 112 114 111 99 101 115 115 105 110 103 32 112 97 110 100'
+zz=:zz,' 111 99 32 103 101 110 101 114 97 116 101 100 32 108 97 116 101 120'
+zz=:zz,' 13 10 92 110 101 119 101 110 118 105 114 111 110 109 101 110 116 1'
+zz=:zz,'23 74 79 68 71 114 111 117 112 72 101 97 100 101 114 125 123 125 12'
+zz=:zz,'3 125 13 10 92 110 101 119 101 110 118 105 114 111 110 109 101 110 '
+zz=:zz,'116 123 74 79 68 80 111 115 116 80 114 111 99 101 115 115 111 114 1'
+zz=:zz,'25 123 125 123 125 13 10 13 10 92 117 115 101 112 97 99 107 97 103 '
+zz=:zz,'101 123 102 97 110 99 121 104 100 114 125 13 10 92 112 97 103 101 1'
+zz=:zz,'15 116 121 108 101 123 102 97 110 99 121 125 13 10 13 10 92 105 102'
+zz=:zz,' 120 101 116 101 120 13 10 32 32 92 117 115 101 112 97 99 107 97 10'
+zz=:zz,'3 101 91 115 101 116 112 97 103 101 115 105 122 101 61 102 97 108 1'
+zz=:zz,'15 101 44 32 37 32 112 97 103 101 32 115 105 122 101 32 100 101 102'
+zz=:zz,' 105 110 101 100 32 98 121 32 120 101 116 101 120 13 10 32 32 32 32'
+zz=:zz,' 32 32 32 32 32 32 32 32 32 32 117 110 105 99 111 100 101 61 102 97'
+zz=:zz,' 108 115 101 44 32 32 32 32 32 37 32 117 110 105 99 111 100 101 32 '
+zz=:zz,'98 114 101 97 107 115 32 119 104 101 110 32 117 115 101 100 32 119 '
+zz=:zz,'105 116 104 32 120 101 116 101 120 13 10 32 32 32 32 32 32 32 32 32'
+zz=:zz,' 32 32 32 32 32 120 101 116 101 120 93 123 104 121 112 101 114 114 '
+zz=:zz,'101 102 125 13 10 92 101 108 115 101 13 10 32 32 92 117 115 101 112'
+zz=:zz,' 97 99 107 97 103 101 91 117 110 105 99 111 100 101 61 116 114 117 '
+zz=:zz,'101 93 123 104 121 112 101 114 114 101 102 125 13 10 92 102 105 13 '
+zz=:zz,'10 13 10 92 104 121 112 101 114 115 101 116 117 112 123 98 114 101 '
+zz=:zz,'97 107 108 105 110 107 115 61 116 114 117 101 44 13 10 32 32 32 32 '
+zz=:zz,'32 32 32 32 32 32 32 32 98 111 111 107 109 97 114 107 115 61 116 11'
+zz=:zz,'4 117 101 44 13 10 32 32 32 32 32 32 32 32 32 32 32 32 112 100 102 '
+zz=:zz,'97 117 116 104 111 114 61 123 125 44 13 10 32 32 32 32 32 32 32 32 '
+zz=:zz,'32 32 32 32 112 100 102 116 105 116 108 101 61 123 125 44 13 10 32 '
+zz=:zz,'32 32 32 32 32 32 32 32 32 32 32 99 111 108 111 114 108 105 110 107'
+zz=:zz,' 115 61 116 114 117 101 44 13 10 32 32 32 32 32 32 32 32 32 32 32 3'
+zz=:zz,'2 117 114 108 99 111 108 111 114 61 98 108 117 101 44 13 10 32 32 3'
+zz=:zz,'2 32 32 32 32 32 32 32 32 32 108 105 110 107 99 111 108 111 114 61 '
+zz=:zz,'109 97 103 101 110 116 97 44 13 10 32 32 32 32 32 32 32 32 32 32 32'
+zz=:zz,' 32 112 100 102 98 111 114 100 101 114 61 123 48 32 48 32 48 125 12'
+zz=:zz,'5 13 10 92 115 101 116 108 101 110 103 116 104 123 92 112 97 114 10'
+zz=:zz,'5 110 100 101 110 116 125 123 48 112 116 125 13 10 92 115 101 116 1'
+zz=:zz,'08 101 110 103 116 104 123 92 112 97 114 115 107 105 112 125 123 54'
+zz=:zz,' 112 116 32 112 108 117 115 32 50 112 116 32 109 105 110 117 115 32'
+zz=:zz,' 49 112 116 125 13 10 92 115 101 116 108 101 110 103 116 104 123 92'
+zz=:zz,' 101 109 101 114 103 101 110 99 121 115 116 114 101 116 99 104 125 '
+zz=:zz,'123 51 101 109 125 32 32 37 32 112 114 101 118 101 110 116 32 111 1'
+zz=:zz,'18 101 114 102 117 108 108 32 108 105 110 101 115 13 10 92 115 101 '
+zz=:zz,'116 99 111 117 110 116 101 114 123 115 101 99 110 117 109 100 101 1'
+zz=:zz,'12 116 104 125 123 48 125 13 10 13 10 37 32 114 101 115 101 116 32 '
+zz=:zz,'108 97 116 101 120 32 105 110 100 101 120 32 116 111 32 117 115 101'
+zz=:zz,' 32 102 111 117 114 32 99 111 108 117 109 110 115 32 45 32 100 101 '
+zz=:zz,'102 97 117 108 116 32 105 115 32 116 119 111 13 10 37 32 119 104 10'
+zz=:zz,'5 99 104 32 114 101 115 117 108 116 115 32 105 110 32 108 111 116 1'
+zz=:zz,'15 32 111 102 32 119 97 115 116 101 100 32 112 97 103 101 32 115 11'
+zz=:zz,'2 97 99 101 32 105 110 32 108 97 110 100 115 99 97 112 101 13 10 37'
+zz=:zz,' 32 78 79 84 69 58 32 97 100 106 117 115 116 32 105 102 32 105 110 '
+zz=:zz,'100 101 120 32 110 97 109 101 115 32 114 117 110 32 116 111 103 101'
+zz=:zz,' 116 104 101 114 32 13 10 37 32 102 114 111 109 58 32 104 116 116 1'
+zz=:zz,'12 58 47 47 119 119 119 46 108 97 116 101 120 45 99 111 109 109 117'
+zz=:zz,' 110 105 116 121 46 111 114 103 47 118 105 101 119 116 111 112 105 '
+zz=:zz,'99 46 112 104 112 63 102 61 52 38 116 61 49 55 51 53 13 10 92 117 1'
+zz=:zz,'15 101 112 97 99 107 97 103 101 123 109 117 108 116 105 99 111 108 '
+zz=:zz,'125 13 10 92 109 97 107 101 97 116 108 101 116 116 101 114 13 10 92'
+zz=:zz,' 114 101 110 101 119 101 110 118 105 114 111 110 109 101 110 116 12'
+zz=:zz,'3 116 104 101 105 110 100 101 120 125 13 10 32 32 123 92 105 102 64'
+zz=:zz,' 116 119 111 99 111 108 117 109 110 13 10 32 32 32 32 32 32 92 64 1'
+zz=:zz,'14 101 115 116 111 110 101 99 111 108 102 97 108 115 101 13 10 32 3'
+zz=:zz,'2 32 92 101 108 115 101 13 10 32 32 32 32 32 32 92 64 114 101 115 1'
+zz=:zz,'16 111 110 101 99 111 108 116 114 117 101 13 10 32 32 32 92 102 105'
+zz=:zz,' 13 10 32 32 32 92 115 101 116 108 101 110 103 116 104 123 92 99 11'
+zz=:zz,'1 108 117 109 110 115 101 112 114 117 108 101 125 123 48 112 116 12'
+zz=:zz,'5 13 10 32 32 32 92 115 101 116 108 101 110 103 116 104 123 92 99 1'
+zz=:zz,'11 108 117 109 110 115 101 112 125 123 51 53 112 116 125 13 10 32 3'
+zz=:zz,'2 32 92 98 101 103 105 110 123 109 117 108 116 105 99 111 108 115 1'
+zz=:zz,'25 123 52 125 91 92 115 101 99 116 105 111 110 42 123 92 105 110 10'
+zz=:zz,'0 101 120 110 97 109 101 125 93 13 10 32 32 32 92 109 97 114 107 98'
+zz=:zz,' 111 116 104 123 92 77 97 107 101 85 112 112 101 114 99 97 115 101 '
+zz=:zz,'92 105 110 100 101 120 110 97 109 101 125 37 13 10 32 32 32 32 32 3'
+zz=:zz,'2 32 32 32 32 32 32 123 92 77 97 107 101 85 112 112 101 114 99 97 1'
+zz=:zz,'15 101 92 105 110 100 101 120 110 97 109 101 125 37 13 10 32 32 32 '
+zz=:zz,'92 116 104 105 115 112 97 103 101 115 116 121 108 101 123 112 108 9'
+zz=:zz,'7 105 110 125 13 10 32 32 32 92 115 101 116 108 101 110 103 116 104'
+zz=:zz,' 123 92 112 97 114 105 110 100 101 110 116 125 123 48 112 116 125 1'
+zz=:zz,'3 10 32 32 32 92 115 101 116 108 101 110 103 116 104 123 92 112 97 '
+zz=:zz,'114 115 107 105 112 125 123 48 112 116 32 112 108 117 115 32 48 46 '
+zz=:zz,'51 112 116 125 13 10 32 32 32 92 114 101 108 97 120 13 10 32 32 32 '
+zz=:zz,'92 108 101 116 92 105 116 101 109 92 64 105 100 120 105 116 101 109'
+zz=:zz,' 125 37 13 10 32 32 123 92 101 110 100 123 109 117 108 116 105 99 1'
+zz=:zz,'11 108 115 125 92 105 102 64 114 101 115 116 111 110 101 99 111 108'
+zz=:zz,' 92 111 110 101 99 111 108 117 109 110 92 101 108 115 101 92 99 108'
+zz=:zz,' 101 97 114 112 97 103 101 92 102 105 125 13 10 92 109 97 107 101 9'
+zz=:zz,'7 116 111 116 104 101 114 13 10 13 10 92 109 97 107 101 105 110 100'
+zz=:zz,' 101 120 13 10 13 10 92 98 101 103 105 110 123 100 111 99 117 109 1'
+zz=:zz,'01 110 116 125 13 10 13 10 41 13 10 78 66 46 62 62 126 126 126 126{'
+zz=:zz,'a.);''jodstore'';(78 66 46 32 106 111 100 115 116 111 114 101 46 105 '
+zz=:zz,'106 115 32 45 45 32 115 116 111 114 97 103 101 32 111 98 106 101 99'
+zz=:zz,' 116 32 99 108 97 115 115 58 32 101 120 116 101 110 115 105 111 110'
+zz=:zz,' 32 111 102 32 40 106 111 100 41 13 10 78 66 46 13 10 78 66 46 32 7'
+zz=:zz,'2 105 100 101 115 32 116 104 101 32 117 110 100 101 114 108 121 105'
+zz=:zz,' 110 103 32 100 97 116 97 98 97 115 101 47 102 105 108 101 32 115 1'
+zz=:zz,'21 115 116 101 109 32 117 115 101 100 32 116 111 32 115 116 111 114'
+zz=:zz,' 101 13 10 78 66 46 32 100 105 99 116 105 111 110 97 114 121 32 111'
+zz=:zz,' 98 106 101 99 116 115 46 32 82 101 112 108 97 99 105 110 103 32 11'
+zz=:zz,'6 104 105 115 32 99 108 97 115 115 32 105 115 32 97 108 108 32 116 '
+zz=:zz,'104 97 116 39 115 13 10 78 66 46 32 114 101 113 117 105 114 101 100'
+zz=:zz,' 32 116 111 32 99 104 97 110 103 101 32 116 104 101 32 100 105 99 1'
+zz=:zz,'16 105 111 110 97 114 121 32 115 116 111 114 97 103 101 32 115 121 '
+zz=:zz,'115 116 101 109 46 13 10 78 66 46 13 10 78 66 46 32 86 101 114 98 3'
+zz=:zz,'2 105 110 116 101 114 102 97 99 101 58 13 10 78 66 46 32 32 32 99 1'
+zz=:zz,'04 101 99 107 111 112 101 110 32 32 32 32 99 104 101 99 107 115 32 '
+zz=:zz,'105 102 32 97 110 121 32 100 105 99 116 105 111 110 97 114 121 32 1'
+zz=:zz,'05 115 32 111 112 101 110 13 10 78 66 46 32 32 32 99 104 101 99 107'
+zz=:zz,' 112 97 116 104 32 32 32 32 99 104 101 99 107 115 32 99 117 114 114'
+zz=:zz,' 101 110 116 32 112 97 116 104 32 97 103 97 105 110 115 116 32 100 '
+zz=:zz,'105 99 116 105 111 110 97 114 121 32 112 97 116 104 13 10 78 66 46 '
+zz=:zz,'32 32 32 99 104 101 99 107 112 117 116 32 32 32 32 32 99 104 101 99'
+zz=:zz,' 107 115 32 105 102 32 102 105 114 115 116 32 112 97 116 104 32 100'
+zz=:zz,' 105 99 116 105 111 110 97 114 121 32 105 115 32 97 32 112 117 116 '
+zz=:zz,'32 100 105 99 116 105 111 110 97 114 121 13 10 78 66 46 32 32 32 99'
+zz=:zz,' 108 111 115 101 100 105 99 116 32 32 32 32 99 108 111 115 101 115 '
+zz=:zz,'32 100 105 99 116 105 111 110 97 114 105 101 115 13 10 78 66 46 32 '
+zz=:zz,'32 32 99 114 101 97 116 101 115 116 32 32 32 32 32 105 110 105 116 '
+zz=:zz,'105 97 108 105 122 101 115 32 115 116 111 114 97 103 101 32 111 98 '
+zz=:zz,'106 101 99 116 115 13 10 78 66 46 32 32 32 100 101 102 119 111 114 '
+zz=:zz,'100 115 32 32 32 32 32 100 101 102 105 110 101 32 119 111 114 100 1'
+zz=:zz,'15 13 10 78 66 46 32 32 32 100 101 108 115 116 117 102 102 32 32 32'
+zz=:zz,' 32 32 100 101 108 101 116 101 32 111 98 106 101 99 116 115 13 10 7'
+zz=:zz,'8 66 46 32 32 32 100 105 100 115 116 97 116 115 32 32 32 32 32 100 '
+zz=:zz,'105 99 116 105 111 110 97 114 121 32 115 116 97 116 105 115 116 105'
+zz=:zz,' 99 115 32 97 110 100 32 112 97 116 104 32 105 110 102 111 114 109 '
+zz=:zz,'97 116 105 111 110 13 10 78 66 46 32 32 32 100 110 108 115 101 97 1'
+zz=:zz,'14 99 104 32 32 32 32 115 101 97 114 99 104 32 102 111 114 32 110 9'
+zz=:zz,'7 109 101 32 112 97 116 116 101 114 110 115 13 10 78 66 46 32 32 32'
+zz=:zz,' 103 101 116 100 111 99 117 109 101 110 116 32 32 103 101 116 32 11'
+zz=:zz,'1 98 106 101 99 116 32 100 111 99 117 109 101 110 116 97 116 105 11'
+zz=:zz,'1 110 13 10 78 66 46 32 32 32 103 101 116 101 120 112 108 97 105 11'
+zz=:zz,'0 32 32 32 103 101 116 32 115 104 111 114 116 32 111 98 106 101 99 '
+zz=:zz,'116 32 101 120 112 108 97 110 97 116 105 111 110 115 13 10 78 66 46'
+zz=:zz,' 32 32 32 103 101 116 103 115 116 101 120 116 32 32 32 32 103 101 1'
+zz=:zz,'16 32 103 114 111 117 112 32 97 110 100 32 115 117 105 116 101 32 1'
+zz=:zz,'15 99 114 105 112 116 32 116 101 120 116 13 10 78 66 46 32 32 32 10'
+zz=:zz,'3 101 116 111 98 106 101 99 116 115 32 32 32 103 101 116 32 111 98 '
+zz=:zz,'106 101 99 116 115 13 10 78 66 46 32 32 32 103 101 116 114 101 102 '
+zz=:zz,'115 32 32 32 32 32 32 103 101 116 32 114 101 102 101 114 101 110 99'
+zz=:zz,' 101 115 13 10 78 66 46 32 32 32 103 115 108 105 115 116 110 108 32'
+zz=:zz,' 32 32 32 32 103 114 111 117 112 32 97 110 100 32 115 117 105 116 1'
+zz=:zz,'01 32 110 97 109 101 32 108 105 115 116 115 13 10 78 66 46 32 32 32'
+zz=:zz,' 105 110 112 117 116 100 105 99 116 32 32 32 32 116 101 115 116 32 '
+zz=:zz,'102 111 114 32 111 98 106 101 99 116 115 32 105 110 32 112 117 116 '
+zz=:zz,'32 100 105 99 116 105 111 110 97 114 121 13 10 78 66 46 32 32 32 10'
+zz=:zz,'5 110 118 97 112 112 101 110 100 32 32 32 32 97 112 112 101 110 100'
+zz=:zz,' 32 105 110 118 101 114 116 101 100 32 100 97 116 97 13 10 78 66 46'
+zz=:zz,' 32 32 32 105 110 118 100 101 108 101 116 101 32 32 32 32 100 101 1'
+zz=:zz,'08 101 116 101 32 105 110 118 101 114 116 101 100 32 100 97 116 97 '
+zz=:zz,'13 10 78 66 46 32 32 32 105 110 118 102 101 116 99 104 32 32 32 32 '
+zz=:zz,'32 102 101 116 99 104 32 105 110 118 101 114 116 101 100 32 100 97 '
+zz=:zz,'116 97 13 10 78 66 46 32 32 32 105 110 118 114 101 112 108 97 99 10'
+zz=:zz,'1 32 32 32 117 112 100 97 116 101 32 105 110 118 101 114 116 101 10'
+zz=:zz,'0 32 100 97 116 97 13 10 78 66 46 32 32 32 110 101 119 114 101 103 '
+zz=:zz,'100 105 99 116 32 32 32 99 114 101 97 116 101 32 110 101 119 32 111'
+zz=:zz,' 114 32 114 101 103 105 115 116 101 114 32 100 105 99 116 105 111 1'
+zz=:zz,'10 97 114 121 13 10 78 66 46 32 32 32 111 112 101 110 100 105 99 11'
+zz=:zz,'6 32 32 32 32 32 111 112 101 110 32 97 32 100 105 99 116 105 111 11'
+zz=:zz,'0 97 114 121 13 10 78 66 46 32 32 32 112 97 116 104 110 108 32 32 3'
+zz=:zz,'2 32 32 32 32 112 97 116 104 32 110 97 109 101 32 108 105 115 116 1'
+zz=:zz,'15 13 10 78 66 46 32 32 32 112 117 116 101 120 112 108 97 105 110 3'
+zz=:zz,'2 32 32 115 116 111 114 101 32 115 104 111 114 116 32 111 98 106 10'
+zz=:zz,'1 99 116 32 101 120 112 108 97 110 97 116 105 111 110 115 13 10 78 '
+zz=:zz,'66 46 32 32 32 112 117 116 103 115 32 32 32 32 32 32 32 32 115 116 '
+zz=:zz,'111 114 101 32 103 114 111 117 112 115 32 97 110 100 32 115 117 105'
+zz=:zz,' 116 101 115 13 10 78 66 46 32 32 32 112 117 116 116 97 98 108 101 '
+zz=:zz,'32 32 32 32 32 115 116 111 114 101 32 40 110 97 109 101 44 116 101 '
+zz=:zz,'120 116 41 32 97 110 100 32 40 110 97 109 101 44 99 108 97 115 115 '
+zz=:zz,'44 116 101 120 116 41 32 116 97 98 108 101 115 13 10 78 66 46 32 32'
+zz=:zz,' 32 112 117 116 116 101 120 116 115 32 32 32 32 32 115 116 111 114 '
+zz=:zz,'101 32 111 98 106 101 99 116 32 100 111 99 117 109 101 110 116 97 1'
+zz=:zz,'16 105 111 110 32 97 110 100 32 103 114 111 117 112 47 115 117 105 '
+zz=:zz,'116 101 32 116 101 120 116 115 13 10 78 66 46 32 32 32 112 117 116 '
+zz=:zz,'119 111 114 100 115 32 32 32 32 32 115 116 111 114 101 32 119 111 1'
+zz=:zz,'14 100 115 13 10 78 66 46 32 32 32 112 117 116 119 111 114 100 120 '
+zz=:zz,'114 115 32 32 32 115 116 111 114 101 32 119 111 114 100 32 103 108 '
+zz=:zz,'111 98 97 108 32 114 101 102 101 114 101 110 99 101 115 13 10 78 66'
+zz=:zz,' 46 13 10 78 66 46 32 78 111 116 101 115 58 13 10 78 66 46 32 32 32'
+zz=:zz,' 69 114 114 111 114 32 109 101 115 115 97 103 101 115 32 40 106 111'
+zz=:zz,' 100 115 116 111 114 101 32 114 97 110 103 101 32 48 53 48 45 49 52'
+zz=:zz,' 57 41 13 10 13 10 99 111 99 108 97 115 115 32 32 39 97 106 111 100'
+zz=:zz,' 115 116 111 114 101 39 13 10 99 111 105 110 115 101 114 116 32 39 '
+zz=:zz,'97 106 111 100 39 13 10 13 10 78 66 46 42 100 101 112 101 110 100 1'
+zz=:zz,'01 110 116 115 32 120 45 45 32 74 79 68 115 116 111 114 101 32 100 '
+zz=:zz,'101 112 101 110 100 101 110 116 32 100 101 102 105 110 116 105 111 '
+zz=:zz,'110 115 13 10 13 10 67 78 77 65 82 75 61 58 48 32 32 32 32 32 32 78'
+zz=:zz,' 66 46 32 102 105 108 101 32 99 111 109 112 111 110 101 110 116 58 '
+zz=:zz,'32 99 111 117 110 116 32 97 110 100 32 116 105 109 101 115 116 97 1'
+zz=:zz,'09 112 32 109 97 114 107 13 10 67 78 76 73 83 84 61 58 52 32 32 32 '
+zz=:zz,'32 32 32 78 66 46 32 102 105 108 101 32 99 111 109 112 111 110 101 '
+zz=:zz,'110 116 58 32 109 97 105 110 32 111 98 106 101 99 116 32 105 110 10'
+zz=:zz,'0 101 120 32 108 105 115 116 13 10 67 78 67 79 77 80 83 61 58 53 32'
+zz=:zz,' 32 32 32 32 78 66 46 32 102 105 108 101 32 99 111 109 112 111 110 '
+zz=:zz,'101 110 116 58 32 109 97 105 110 32 111 98 106 101 99 116 32 99 111'
+zz=:zz,' 109 112 111 110 101 110 116 32 108 105 115 116 13 10 13 10 78 66 4'
+zz=:zz,'6 32 109 97 105 110 32 100 105 114 101 99 116 111 114 121 32 102 10'
+zz=:zz,'5 108 101 32 99 111 109 112 111 110 101 110 116 32 108 105 115 116 '
+zz=:zz,'13 10 67 78 68 73 82 61 58 67 78 77 65 82 75 44 67 78 76 73 83 84 4'
+zz=:zz,'4 67 78 67 79 77 80 83 13 10 13 10 67 78 67 76 65 83 83 61 58 54 32'
+zz=:zz,' 32 32 32 32 78 66 46 32 102 105 108 101 32 99 111 109 112 111 110 '
+zz=:zz,'101 110 116 58 32 119 111 114 100 32 110 97 109 101 32 99 108 97 11'
+zz=:zz,'5 115 32 111 114 32 109 97 99 114 111 32 116 121 112 101 13 10 67 7'
+zz=:zz,'8 67 82 69 65 84 73 79 78 61 58 56 32 32 78 66 46 32 102 105 108 10'
+zz=:zz,'1 32 99 111 109 112 111 110 101 110 116 58 32 119 104 101 110 32 11'
+zz=:zz,'1 98 106 101 99 116 32 119 97 115 32 102 105 114 115 116 32 99 114 '
+zz=:zz,'101 97 116 101 100 13 10 67 78 68 73 67 68 79 67 61 58 50 32 32 32 '
+zz=:zz,'32 78 66 46 32 102 105 108 101 32 99 111 109 112 111 110 101 110 11'
+zz=:zz,'6 58 32 100 105 99 116 105 111 110 97 114 121 32 100 111 99 117 109'
+zz=:zz,' 101 110 116 97 116 105 111 110 32 45 32 40 114 101 103 100 41 13 1'
+zz=:zz,'0 67 78 69 88 80 76 65 73 78 61 58 49 49 32 32 78 66 46 32 102 105 '
+zz=:zz,'108 101 32 99 111 109 112 111 110 101 110 116 58 32 115 104 111 114'
+zz=:zz,' 116 32 101 120 112 108 97 110 97 116 105 111 110 115 13 10 67 78 8'
+zz=:zz,'0 65 82 77 83 61 58 51 32 32 32 32 32 78 66 46 32 102 105 108 101 3'
+zz=:zz,'2 99 111 109 112 111 110 101 110 116 58 32 100 105 99 116 105 111 1'
+zz=:zz,'10 97 114 121 32 112 97 114 97 109 101 116 101 114 115 13 10 67 78 '
+zz=:zz,'80 85 84 68 65 84 69 61 58 55 32 32 32 78 66 46 32 102 105 108 101 '
+zz=:zz,'32 99 111 109 112 111 110 101 110 116 58 32 108 97 115 116 32 116 1'
+zz=:zz,'05 109 101 32 111 98 106 101 99 116 32 119 97 115 32 40 112 117 116'
+zz=:zz,' 41 13 10 67 78 82 69 70 61 58 53 43 105 46 50 32 50 32 78 66 46 32'
+zz=:zz,' 114 101 102 101 114 101 110 99 101 32 99 111 109 112 111 110 101 1'
+zz=:zz,'10 116 32 116 97 98 108 101 13 10 67 78 82 80 65 84 72 61 58 49 57 '
+zz=:zz,'32 32 32 32 78 66 46 32 102 105 108 101 32 99 111 109 112 111 110 1'
+zz=:zz,'01 110 116 58 32 114 101 102 101 114 101 110 99 101 32 112 97 116 1'
+zz=:zz,'04 32 45 32 40 100 105 100 110 117 109 41 32 108 105 115 116 13 10 '
+zz=:zz,'67 78 83 73 90 69 61 58 57 32 32 32 32 32 32 78 66 46 32 102 105 10'
+zz=:zz,'8 101 32 99 111 109 112 111 110 101 110 116 58 32 115 105 122 101 3'
+zz=:zz,'2 111 102 32 111 98 106 101 99 116 32 105 110 32 98 121 116 101 115'
+zz=:zz,' 13 10 13 10 78 66 46 32 105 110 118 101 114 116 101 100 32 103 114'
+zz=:zz,' 111 117 112 32 97 110 100 32 115 117 105 116 101 32 100 97 116 97 '
+zz=:zz,'32 102 105 108 101 32 99 111 109 112 111 110 101 110 116 115 13 10 '
+zz=:zz,'73 78 86 71 82 79 85 80 83 61 58 32 67 78 80 85 84 68 65 84 69 44 6'
+zz=:zz,'7 78 67 82 69 65 84 73 79 78 44 67 78 69 88 80 76 65 73 78 13 10 73'
+zz=:zz,' 78 86 83 85 73 84 69 83 61 58 32 73 78 86 71 82 79 85 80 83 13 10 '
+zz=:zz,'13 10 78 66 46 32 105 110 118 101 114 116 101 100 32 109 97 99 114 '
+zz=:zz,'111 32 97 110 100 32 119 111 114 100 32 100 97 116 97 32 102 105 10'
+zz=:zz,'8 101 32 99 111 109 112 111 110 101 110 116 115 13 10 73 78 86 77 6'
+zz=:zz,'5 67 82 79 83 61 58 32 67 78 67 76 65 83 83 44 67 78 80 85 84 68 65'
+zz=:zz,' 84 69 44 67 78 67 82 69 65 84 73 79 78 44 67 78 83 73 90 69 44 67 '
+zz=:zz,'78 69 88 80 76 65 73 78 13 10 73 78 86 87 79 82 68 83 61 58 32 32 7'
+zz=:zz,'3 78 86 77 65 67 82 79 83 13 10 13 10 78 66 46 32 105 110 118 101 1'
+zz=:zz,'14 116 101 100 32 116 101 115 116 32 100 97 116 97 13 10 73 78 86 8'
+zz=:zz,'4 69 83 84 83 61 58 32 67 78 80 85 84 68 65 84 69 44 67 78 67 82 69'
+zz=:zz,' 65 84 73 79 78 44 67 78 83 73 90 69 44 67 78 69 88 80 76 65 73 78 '
+zz=:zz,'32 13 10 13 10 78 66 46 32 116 114 105 109 32 114 105 103 104 116 3'
+zz=:zz,'2 40 116 114 97 105 108 105 110 103 41 32 112 97 116 104 32 100 101'
+zz=:zz,' 108 105 109 105 116 101 114 115 32 33 40 42 41 61 46 32 80 65 84 7'
+zz=:zz,'2 68 69 76 13 10 114 112 100 116 114 105 109 61 58 93 32 35 126 32 '
+zz=:zz,'91 58 32 45 46 32 91 58 32 42 46 47 92 46 32 80 65 84 72 68 69 76 3'
+zz=:zz,'4 95 32 61 32 93 13 10 13 10 78 66 46 42 101 110 100 100 101 112 10'
+zz=:zz,'1 110 100 101 110 116 115{a.);''jodtools'';78 66 46 42 106 111 100 11'
+zz=:zz,'6 111 111 108 115 32 99 45 45 32 74 79 68 32 116 111 111 108 115 32'
+zz=:zz,' 99 108 97 115 115 32 45 32 101 120 116 101 110 100 115 32 74 79 68'
+zz=:zz,' 32 117 116 105 108 105 116 121 32 99 108 97 115 115 46 13 10 78 66'
+zz=:zz,' 46 13 10 78 66 46 32 73 110 116 101 114 102 97 99 101 32 119 111 1'
+zz=:zz,'14 100 115 58 13 10 78 66 46 32 32 97 100 100 103 114 112 32 32 32 '
+zz=:zz,'97 100 100 32 119 111 114 100 115 47 116 101 115 116 115 32 116 111'
+zz=:zz,' 32 103 114 111 117 112 47 115 117 105 116 101 32 32 32 32 32 32 32'
+zz=:zz,' 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 '
+zz=:zz,'32 32 32 32 32 32 32 32 32 32 32 32 32 13 10 78 66 46 32 32 97 108 '
+zz=:zz,'108 110 97 109 101 115 32 99 111 109 98 105 110 101 115 32 110 97 1'
+zz=:zz,'09 101 115 32 102 114 111 109 32 40 114 101 102 110 97 109 101 115 '
+zz=:zz,'41 32 97 110 100 32 40 111 98 110 97 109 101 115 41 32 32 32 32 32 '
+zz=:zz,'32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 3'
+zz=:zz,'2 13 10 78 66 46 32 32 97 108 108 114 101 102 115 32 32 97 108 108 '
+zz=:zz,'32 110 97 109 101 115 32 114 101 102 101 114 101 110 99 101 100 32 '
+zz=:zz,'98 121 32 111 98 106 101 99 116 115 32 111 110 32 110 97 109 101 32'
+zz=:zz,' 108 105 115 116 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32'
+zz=:zz,' 32 32 32 32 32 32 32 32 32 32 32 13 10 78 66 46 32 32 100 101 108 '
+zz=:zz,'103 114 112 32 32 32 114 101 109 111 118 101 32 119 111 114 100 115'
+zz=:zz,' 47 116 101 115 116 115 32 102 114 111 109 32 103 114 111 117 112 1'
+zz=:zz,'15 47 115 117 105 116 101 115 32 32 32 32 32 32 32 32 32 32 32 32 3'
+zz=:zz,'2 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32'
+zz=:zz,' 13 10 78 66 46 32 32 103 101 116 114 120 32 32 32 32 103 101 116 3'
+zz=:zz,'2 114 101 113 117 105 114 101 100 32 116 111 32 101 120 101 99 117 '
+zz=:zz,'116 101 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32'
+zz=:zz,' 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 '
+zz=:zz,'32 32 32 32 32 32 32 13 10 78 66 46 32 32 104 108 112 110 108 32 32'
+zz=:zz,' 32 32 100 105 115 112 108 97 121 115 32 115 104 111 114 116 32 100'
+zz=:zz,' 101 115 99 114 105 112 116 105 111 110 115 32 111 102 32 111 98 10'
+zz=:zz,'6 101 99 116 115 32 111 110 32 40 121 41 32 32 32 32 32 32 32 32 32'
+zz=:zz,' 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 13 10 78 66 46 '
+zz=:zz,'32 32 106 111 100 97 103 101 32 32 32 100 97 121 115 32 115 105 110'
+zz=:zz,' 99 101 32 108 97 115 116 32 99 104 97 110 103 101 32 97 110 100 32'
+zz=:zz,' 99 114 101 97 116 105 111 110 32 111 102 32 74 79 68 32 111 98 106'
+zz=:zz,' 101 99 116 115 13 10 78 66 46 32 32 106 111 100 104 101 108 112 32'
+zz=:zz,' 32 32 100 105 115 112 108 97 121 32 111 110 108 105 110 101 32 74 '
+zz=:zz,'79 68 32 104 101 108 112 32 32 32 32 32 32 32 32 32 32 32 32 32 32 '
+zz=:zz,'32 32 32 32 32 32 32 13 10 78 66 46 32 32 108 103 32 32 32 32 32 32'
+zz=:zz,' 32 109 97 107 101 32 97 110 100 32 108 111 97 100 32 74 79 68 32 1'
+zz=:zz,'03 114 111 117 112 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 '
+zz=:zz,'32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 3'
+zz=:zz,'2 32 32 32 32 32 32 32 32 32 32 13 10 78 66 46 32 32 109 108 115 32'
+zz=:zz,' 32 32 32 32 32 109 97 107 101 32 108 111 97 100 32 115 99 114 105 '
+zz=:zz,'112 116 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32'
+zz=:zz,' 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 '
+zz=:zz,'32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 3'
+zz=:zz,'2 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32'
+zz=:zz,' 32 32 32 32 32 32 32 32 13 10 78 66 46 32 32 110 111 101 120 112 3'
+zz=:zz,'2 32 32 32 114 101 116 117 114 110 115 32 97 32 108 105 115 116 32 '
+zz=:zz,'111 102 32 111 98 106 101 99 116 115 32 119 105 116 104 32 110 111 '
+zz=:zz,'32 101 120 112 108 97 110 97 116 105 111 110 115 32 32 32 32 32 32 '
+zz=:zz,'32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 13 10 7'
+zz=:zz,'8 66 46 32 32 110 111 116 103 114 112 32 32 32 119 111 114 100 115 '
+zz=:zz,'32 111 114 32 116 101 115 116 115 32 102 114 111 109 32 40 121 41 3'
+zz=:zz,'2 116 104 97 116 32 97 114 101 32 110 111 116 32 105 110 32 103 114'
+zz=:zz,' 111 117 112 115 32 111 114 32 115 117 105 116 101 115 32 32 32 32 '
+zz=:zz,'32 32 32 32 32 32 32 32 32 32 32 13 10 78 66 46 32 32 110 116 32 32'
+zz=:zz,' 32 32 32 32 32 103 101 116 115 32 110 97 109 101 32 97 110 100 32 '
+zz=:zz,'116 101 120 116 32 102 114 111 109 32 101 100 105 116 32 119 105 11'
+zz=:zz,'0 100 111 119 115 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 3'
+zz=:zz,'2 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 13 10 78'
+zz=:zz,' 66 46 32 32 110 119 32 32 32 32 32 32 32 101 100 105 116 32 97 32 '
+zz=:zz,'110 101 119 32 101 120 112 108 105 99 105 116 32 119 111 114 100 32'
+zz=:zz,' 117 115 105 110 103 32 74 79 68 32 99 111 110 118 101 110 116 105 '
+zz=:zz,'111 110 115 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 3'
+zz=:zz,'2 32 32 32 32 32 32 32 13 10 78 66 46 32 32 111 98 110 97 109 101 1'
+zz=:zz,'15 32 32 117 110 105 113 117 101 32 115 111 114 116 101 100 32 111 '
+zz=:zz,'98 106 101 99 116 32 97 110 100 32 108 111 99 97 108 101 32 110 97 '
+zz=:zz,'109 101 115 32 102 114 111 109 32 40 117 115 101 115 41 32 114 101 '
+zz=:zz,'115 117 108 116 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 13 '
+zz=:zz,'10 78 66 46 32 32 112 114 32 32 32 32 32 32 32 112 117 116 32 97 11'
+zz=:zz,'0 100 32 99 114 111 115 115 32 114 101 102 101 114 101 110 99 101 3'
+zz=:zz,'2 97 32 119 111 114 100 32 45 32 118 101 114 121 32 104 97 110 100 '
+zz=:zz,'121 32 97 115 32 97 110 32 101 100 105 116 111 114 32 68 79 67 85 7'
+zz=:zz,'7 69 78 84 67 79 77 77 65 78 68 13 10 78 66 46 32 32 114 101 102 11'
+zz=:zz,'0 97 109 101 115 32 117 110 105 113 117 101 32 115 111 114 116 101 '
+zz=:zz,'100 32 114 101 102 101 114 101 110 99 101 32 110 97 109 101 115 32 '
+zz=:zz,'102 114 111 109 32 40 117 115 101 115 41 32 114 101 115 117 108 116'
+zz=:zz,' 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 '
+zz=:zz,'32 32 13 10 78 66 46 32 32 114 101 118 111 110 101 120 32 32 114 10'
+zz=:zz,'1 116 117 114 110 115 32 97 32 108 105 115 116 32 111 102 32 112 11'
+zz=:zz,'7 116 32 100 105 99 116 105 111 110 97 114 121 32 111 98 106 101 99'
+zz=:zz,' 116 115 32 119 105 116 104 32 110 111 32 101 120 112 108 97 110 97'
+zz=:zz,' 116 105 111 110 115 32 32 32 32 32 32 32 32 32 32 32 13 10 78 66 4'
+zz=:zz,'6 32 32 115 119 101 120 32 32 32 32 32 115 101 116 32 115 104 111 1'
+zz=:zz,'14 116 32 119 111 114 100 32 101 120 112 108 97 105 110 97 116 105 '
+zz=:zz,'111 110 32 102 114 111 109 32 40 100 111 99 41 32 104 101 97 100 10'
+zz=:zz,'1 114 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 3'
+zz=:zz,'2 32 32 32 32 32 32 13 10 78 66 46 32 32 117 115 101 100 98 121 32 '
+zz=:zz,'32 32 114 101 116 117 114 110 115 32 97 32 108 105 115 116 32 111 1'
+zz=:zz,'02 32 119 111 114 100 115 32 102 114 111 109 32 40 121 41 32 116 10'
+zz=:zz,'4 97 116 32 68 73 82 69 67 84 76 89 32 99 97 108 108 32 119 111 114'
+zz=:zz,' 100 115 32 111 110 32 40 120 41 32 32 32 32 32 32 13 10 78 66 46 1'
+zz=:zz,'3 10 78 66 46 32 78 111 116 101 115 58 13 10 78 66 46 32 32 32 69 1'
+zz=:zz,'14 114 111 114 32 109 101 115 115 97 103 101 115 32 40 106 111 100 '
+zz=:zz,'116 111 111 108 115 32 114 97 110 103 101 32 48 48 52 48 48 45 48 4'
+zz=:zz,'8 49 48 48 48 41 13 10 13 10 40 57 33 58 52 49 41 32 48 32 32 78 66'
+zz=:zz,' 46 32 100 105 115 99 97 114 100 32 119 104 105 116 101 115 112 97 '
+zz=:zz,'99 101 13 10 13 10 99 111 99 108 97 115 115 32 39 97 106 111 100 11'
+zz=:zz,'6 111 111 108 115 39 13 10 99 111 105 110 115 101 114 116 32 32 39 '
+zz=:zz,'97 106 111 100 117 116 105 108 39 13 10{a.                         '
+zz=:62151{.zz
 showpass 2 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
-zz=:dec85__MK__JODobj 0 : 0
-0fU:2+>P&q+>GZ/0H`))+>ko/1hpr>?tsUj?m'0)+EV:.+EDC=F<G(0@<6K4De:,6BOr;Y:IH=H
-H#n(=D(ZqsCht54FD,6++A,Et%16T]@<6L$F!+n3AKYAjDeX*1ATDm#ARlotDBN>%De*6.+<Xa!
-ASrW,Ddd0fA0>8pDe*5uBla^jE,8rmARlotDBO%7AKYAhC2[Wj+Dbt+@;KL-+:SYe$=%Xp@WQ*j
-FD5Z2HX(Z(G]\%LHYRJ0I3;+!FCfK)@:Nks%13OOIXZ`p+F>4`C*7p6$=[mh+<VdL:-pRLBleA=
-DdmHm@ruc7Bl5&4F`\a:Bk)7!Df0!(Gp$X+FCAWeF(HJ'@:O(qE$/b,Ch7Z1+:SZgAS`J3+<XEG
-/nAO0ATVL)+E(_(ARfh'+DG^9A8,OqBl@ltEd8d<@<>pe@<6!&Anc'mF!)SJ+<VdL+<Vd9$=mj]
-+<VdL:-pRDBk)7!Df0!(Gp$g3ASuU(Anba`FD5Z2+CT.u+EMX5FD5f<Bk)3,+<VdL+<VdL+<VdL
-+:SZgDJUF<+<XEG/o56CF<GL2C1UmsF!,17+Co1rFD5Z2@<-W9A79Rg@UX=h+D,>(ATJt:+<VdL
-+<VdL+<Vd9$=n*sATT%;:-pRSATT&*Bk)7!Df0!(Gp%'7Ea`frFCfK6+<VdL+<VdL+<VdL+<VdL
-+<VdL+<VdL+<VdL+:SZjA7]_$+<XEG/n]3CF`8I3DIal2F_Pr/+Co&&ASu$iDKKqB+<VdL+<VdL
-+<VdL+<VdL+<VdL+<VdL+<Vd9$>3pl+<VdL:-pRRATVs,AThX++E(_(ARfh'+D,Y4D'3A'@ruF'
-DIIR2+Cno&@:EYdAKYT!Ch7Z1+<VdL+:SZjCi<d(+<XEG/n&X+CjC></0JtEE,Tc=+CT.u+EMXC
-Eb-A+Ci<ckC`mV(D.Rc2+<VdL+<VdL+<VdL+<Vd9$>4Bu+<VdL:-pRCEb/[$AKYE!A0>`-A8,Y$
-+D5_5F`;CE+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+:SZp@;BEs+<XEG/o>$4ATJtd+EM%5
-BlJ08+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<Vd9$>sF!A0<!;:-pRCEb/[$
-ATJu&+Dtb7+Co1rFD5Z2@<-W9+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+:SZrA0<!;+<XEG
-/oP]?DK?q/DIal"Ci=B+F!,"-@ruF'DIIR"ATJt:+<VdL+<VdL+<VdL+<VdL+<VdL+<Vd9$?0E`
-CLeP1:-pRB@:O(o+E_WG@;]TuEb/a!G%G]8+Eq78FCeu*F)YPtAKY])+Co1rFD5Z2@<-W9Anc'm
-Et&IqF`\`K+<XEG/ou,QEb0;7DdmHm@ruc7Bl5&(Bk)7!Df0!(Gp$X+FCAWeF(HJ+Bl%@%+<VdL
-+<VdL+<Vd9$?B]jA0<!;:-pRRAS5^uFCfJ8@;]TuF`)52B5)F/ATAnc:IH=9Bk)7!Df0!(Bk;?.
-+<VdL+<VdL+<VdL+:SZuATMs(+<XEG/okNEFDl22F!,R<AKYi.F*&OFARf:hF<G%$@r$4++CfG'
-@<?'k+C]U=-u`U)CLek:+<Vd9$?^E$F!)SJ:-pRRATW'8DK?qEDfTA2Eb/ioEb0,uATJt:+<Vd9
-$@[GQILQVn$4R=b%13OO%13OO%13OO%13OO%13OO%13OO%13OO%13OOC2[X!Blmp,@<?'gC2[X!
-Blmp,@<?'g+DGm>@3A/bF`_>6BlnVCF(96)E-*4EBOQ!*B4YslEaa'$F!)rKBlmp,@<?'1+:SZg
-De!p,ASuU2+Co2,ARfguGp$^>Df$Uh:IH=9Bk)7!Df0!(Gp$a?Dfp#?/e&-s$=%Xp@WQ*jFD5Z2
-HX(Z(G]\%LHYRJ0Ch\!&Eaa'$I3;+!FCfK)@:Nks%13OOIXZ`p+F>4`C*7p6$>4BuCh[u6+<VdL
-+<VdL+AP6U+DkP&AKYetFCf\>AoD]4B6%p5E$-QS.1HW*ATV[*A8Gt%ATD4$AKW*j67sC"Eb02u
-Eb-A*DfQt>Ec5H!F)u&5B+52sIXZ_T$4R>IF*1r5ARfgrDf0o,FCf]=FEDkEDe*ZuFCfK$FCfkC
-@;]Tu8l%j'%13OO?tsUjCh\!&Eaa'$?m';pCLqQ0F)Po,+CT>4F_u)>Bl@m1+CS_tF`\aJBOr;Y
-+Cf>#AKYE!A0>E$@s)X"DKH<pFCf]=+DGp?E,ol,ATMp(F"SS,F<G"5F*2>2F#ja;%14gB+@0g[
-+EMIDEarZ'@rGmh+DGm>F*)>@ARlotDBMPI6m-#S@ruF'DIIR"ATKI5$4R=t/g*b^6m-,_Dfp"A
-A8bt#D.RU,F!+jG+?:QTBle59-YII<F`;5,D.P)&+CT;%+BrenDIdZq%144#+Cf>,E+*j&@VfTu
-D..I#A8c[0>psB.FDs8o05>E=DJ`flAmo^r@;]X/DImoCE+*WpDdtFu76s=974r7qD/:G9@;]Uo
-@rj5=@<--oDg-(J+:SZ#+<Yc;G]Y'?Ea`TtASuU2/g)WCBPDN1BlbD=BOr<'Df^"CF(KB+Dfp+D
-Ch[a#FCB9*Df-\9AftJrDe*ZuFCfK$FCei4.Lc_-+<XBsF*&OCAftr9+D5_5F`8I6De!p,ASuU2
-+CT;%+Du+>+DkP-CLh@-DD!&'+CT+0F)5c=Cj?Hs+<Ve:Df0`0Ecc#5B-;;0ASj%B8S0)jDfm14
-Df'H3F(HJ,Ec6)>+CoD#F_t]-FE8RIF(HI'$6UH6E+*WpDdso,@<--oDg-(A@;]Tu?tsUjCh\!&
-Eaa'$?m'Z-Cht5'AKYD(Ci=D<D/XH++E_a:Ap%oB%13OO1G0e9DL!@;Ec6)>+Cf4rF)tPl1gM5<
-DKKH1Amo1\+DGm>@3BW*D/a<&+A*c"ATD6gFD5S7@VfsmCER_4@<;qc+<Ve@F!,=.Ebf5s+EqOA
-BHU_+>YJR*AQW1[F(Jj'Bl@l3@rH4$@;]U.+@UN`D/!m!%144#+EV:2F!,+9Dfp"HF!,"3@s)X"
-DKI"/1*AS"A8-+(+=CoBA8Gt%ATD4$ALCk.AoD]4@;ZM]+<Ve<G[YH.Ch54.$6UH6%144#+<VdL
-+<VsQCghEsGT_'=@ruF'DBKAq+<VdL+<VdL>]Y$sF(Jj'Bl@m9>]aP%FEDVOB6%p5E,K*$AUP[m
-DKKH1Amo1\I16Mm$6UH6+<VdL+F\cgINWt[/o#eD$6UH6+<VdL+D5_6Ch[u6+<VdL+<VdL+AP6U
-+DkP&AKYetFCf\>AoD]4B6%p5E$-QS.1HV,+<VdL+<VeJATV[*A8Gt%ATD4$AKW*j67sC"Eb02u
-Eb-A*DfQt>Ec5H!F)u&5B+51j+<VdL+<VeUIXZ`p+<V+#%14sF+AQim/P7-qDe*E%BlbD,Df00$
-DIm?$FDi:DBOr;Y:IH=<Ec6)>+D>=pA7]dc?8Gk0@;]TuBla^j+<VeD@<--pA0?)1FD)e9F(KK)
-D_5p:DIdZq+Co&"Bl.R+ATDiE+@UHbEd;b?Bl7Q+Bl5&'F`M;D+CKPE?k!Gc+<Y-6@:O(aFE8R:
-Des6.GB4mG@;]Uo@j#i2F`Lu'+Cf>#AKYZ#B4u*qB4uC$DJ()%Df0`0DKKT2DK@E>$6UH6?tsUj
-Ch\!&Eaa'$?mg"<BOtU_ATAo'Df0Z*Bl7u7>YJR*AQW1[@rGmh+EV:*F<G:=+DkP-CLq$!%144#
-+Dbb-AKZ).BlbmL%13OO+<VdL+<VdL:-pQq4FVa.INWt[/o4s<AU#>8F_tT!E_L1bATJu8FCB33
-7WNEa4X)U)+FO\++<VdL+<VdL:-pQs5(7s0INT(,%16?]F^fE'@ruF'DL59(DJj0+B-:H$AU&<=
-FF.b@A8Gt%ATD4$AUSt9$4R>MC2[X!Blmp,@<?'g+EDUBF!,C=+BN8pA8c[5/0IW#DKU1H@;]Tu
-9jqNSG%G]8Bl@m1+E(j78hO=S0jP4q%16'Q+E_a:+CJr&A8Gt%ATD4$ARHX+Dfm1>F`VXc%13OO
-0eOS?DKBo.Cht4d:IHfX>=q[Z>psB.FDs8o06_Va/o#HGAor6*Eb-k5Df%.BGA1i,00s,ZDf0VL
-B4YslEa`c;C2[W3+DGm>@3A/b@:WneDCuA*+<VduF<G:=+E_aJ@;Kb*+DG_7FCB!%ARlp-Bln#2
->=q1T>psB.FDs8o06_Va/o#HGAor6*Eb-k5Df%.BGA1i,01nN(.4u&:+<Vd9$8O4V8T&Tk@;Ka&
-8l%iR:K::[74o]e8l%iR:K::[79q<TFEDI_0/%NnG:mWODe=*8@<,p3@rH3;C3OB-BeMb_A8c@,
-05"j6ATD3q05>E9F)Q2A@q@(u$6UH6BlbD*CiaM;@3A/b@:WneDD!&'DKBo.Cht5.F<GdAFD)dh
-5tin8?8>e/8TZ(bDf0Z*Bl7u7FD,5.%144#+A,Et+Co1rFD5Z2@<-'nF!,L7EHPu9ARlp*D]iM3
-Bl%<&8l%i-+A,Et;bpCk6U`,+CiaM;@rH7,@;0V#%144#+CJr&A8Gt%ATD4$AM.@"$6UH6%14mD
-+B)inF`8I3+Eh=:F(oQ1+E(j7>B""gA8bs`-tm^EE&oX*C2[d'D.-pd@<-0mDIkG<ATTSE@;]Uo
-@kT8?$6UH6FD,*)+EM[EE,Tc=F!+'tF*VYF@<`o.BkM*qBkM+$Bl7Q9+B)i_+EV:.+C]/*B-;/3
-F*&N6$6UH6>>SaGA8bs#@UX=hA0=Je;gE8&@<`ncBkM*qBkM+$Bl7Qh-tm^EE&oX*@UX%`Eb],F
-3A,MoEb'-0ATMoF@rH3;1,(F<0/,C>1,(A#@;]Uo@kD.uF(Jl6C+XLPDKK<3/SJj2BP_BqBQRs+
-B.k\V%144#+D,P4+Co&*@;0P!/e&.1+<V+#1bKn;F_PZ&+CJr&A8Gt%ATD4$AM.@5+CJr&A8Gt%
-ATD4$ARHWpF!+m68g%beDfp"O+A,Et+DkP&ATJ:f+<Ve!+EM%5BlJ08+D,Y4D'3J3Dfp#?/g+,3
-+DkP&AKYAqDe*ZuFCfK$FCei&A8aL<$6UH6+<VdL+:SZ#+<VdL+<VeIAT;j,Eb-@@B4YslEa`c;
-C2[W1%144#+<VdL+<YT5+?MV3C2[WnATf22De'u5FD5Q4-QlV91E^UH+=ANG$6UH6+<VdL+Dkq9
-+=CoBA8Gt%ATD4$AL@oo+<V+#2(g"IE+No0FD,5.8l%htA8,OqBl@ltEbT*++Cf>-FCAm$Bl7Q+
-FD,5.B6%p5E$0FEFWbm:DKI"CD]iS/@s)X"DKIK?$4R=b+<VdL+<VeFA0<rp-YdR1A7]p,C2[W*
-F`_>6F!i)7+>Y-YA0<6I%144#%15!G+A?]^A0>8pDe*ZuFCfK$FCd(4+@0U]ATAo1@;BRpB-:Ss
-De*ZuFCfK$FCei&BlkJ-@;[2sAKYf-@:Wq[+Dbb-AISth+<Y*1Gp#^%F(96)E-*]A$6UH6%144#
-+<VdL+<YK=@:UK.C2[X!Blmp,@<?'.%144#%15$H+B)in+CQC:DfTW-DJ()&Bl[cpFDl2F/g+P:
-De*ZuFCfK$FCei&B4YslEaa'$F!,=.Ebf3(GA\O3DIakp9OUn3=Blt\Bl%@%/e&.1+<WsdC`meA
-@qZusBl%@%+CT;%+Eqj?FED)3+EVNEFD,5.A8-'q@ruX0Gp%0IARfFdBk:ft@X0)(F(KH.De*Zu
-FCfK$FCd(4%144#+:SZ#+<VdL+<VeJATV[*A8Gt%ATD4$AKW@13a?c<D/^jF+<VdL+<VdL+AP6U
-+EqO;A8c[5%144#+<VdL+<Y`:FD>`)Ch\!&Eaa'$+=AgUDf'&=C2[d'06CcBE$lbN:-pQUCh[d0
-GRY!&+:SZ;/g+&7DBN>"Ec>i/FC650DBO%7AKYW+Dfp"AH#IgJG@>B2+EVNEA8bt#D.RU,/e&.1
-+<Y')Ec>i/FC65(ASu("@<?(%+C%TK<+T0:+D,>(ATJu.DBO%7AKZ28EbfB,B-:`!Eb/a&DfU+U
-+B3#c+EDC=F:AR"+<Xo_@8pf?>TdWmCh4`'F!,+0G%GP6FD,5.B6%p5E$0%,D.P=/$6UH6%144#
-+<VdL+<Y<;E,961+=CoBA8Gt%ATD4$ALATq67sBt@;BFq+DPh*Ch\!&Eaa'$/p(ZL+:SZ#+:SZ<
-/g+/8AKY5O@8pf?>Te-,+Cf>,E+s-"+EV:.+D,>(ATJu,ASu("@<?'k+C]U=?tXM!Ch[uD?m#mc
-+<VdrBl%@%+DkP4+C\n)E,ol,ATMp(A0?)1FD)e)E+EQs@<?(*?n<F.G\(]"FCf])+E)9C?u0so
-CghEsG[N-5$6UH6=`8G'+Cf)'Bk(]sGA1l0+C\n)A8,Oq@<?'k+C]U=FD,5.E,oN2ASu!h+E(j7
-<GlM\De*E%@q]:k@:OCjEcWiB$6UH67W3;iD/XH++Co&*@;0P!+EM+*+EV:.+E2@4@;TIiAKYT!
-Ch4_s8l%iKBlmp,@<?'WEb/Zr@VfU.FCf])%144#+DG^9FD,5.GAhM;Bl7Q+A8-'q@ruX0GqKO5
-+<Vd9$<1\MEb-A%Eb-A7Df'&.>YJR*AQW1[F(KH8Bl7R)+F.mJ+DkP4+Eq73F<G[D+CSeqF`VXW
-%13OO0eOS;A8--.?qO3_9PJT[Eaa'$:i^,UD.7<m/p(ZL?m'Q0%144#+Cf(nDJ*N'FD,5.DKTf*
-ATAo3Aftf*A7^!.@rH1+D/ODI%144#+B3#c+Co%q@<HC.+DGm>AoDg4+C]J8+EV:2F!,=.Gp%-=
-F*2;@+:SZ#+<YB9+Dbt6B-;)#D.Rc2Ecl8;Bl7Q+FDkf'FD,6+/g(T1+<Ve+D]iS%@rc-hF(HJ4
-EZf(6@rc-hF(HJ.DId='+Cf>+F_u#;+Cf(nDJ*NA%144#+:SZ#+<VdL+<Ve3@V'1dDL65CCijB$
-DesKCHSg.T>]XIdFD5Z2.XPE7DId='DIIBnI9d9h+<VdL+<VdL%14jC+CJr&A8Gt%ATD4$ARHX)
-Ea`p.+Dbt6B-;86F`Lu'+Cf>#AKYf'DImlA+BNSlE,]N/B-:o0+Cf>-FE2;9Ch7,d$6UH6@X0)(
-=&M=\9M%rM<+%=$<+ohcA7]@]F_l.BBlbCO0ea_[BOPpi@ru:&F"SS&BOPdkAKZ).BlbD?@;L't
-+:SZ#+<YB1+F.mJ+Cf(nDJ*N'AoDR/+E)9CE+*Bj+EM7CAM,*,Ea`p+ARlp"Bl7L'+CT;%+E2@4
-@qB4^ARl5W+<VeNBln#2FD,5.F*)G:DJ()"=&M=\9LV68?m'Z-FD)e-AS,@nCige)6#:+QFB!0o
-HX(Z(G]\%LHTj&7/j=]3/e&.1+<Vd9$4R>H?85_H+CJr&A8Gt%ATD4$ARHX)Bl%T.Ecl7BDf-\!
-Bl7I"GB4mMATDj+Df0V=De:+a+>ti+1*C"CA0>>mH#IS2/e&.1+<VdL+B3#c+A?KeFa,$;DIaka
-@:LF'ATDj+Df0V=De:,"C2[X!Blmp,@<?'g+ED%5F_Pl-+A*b8/hf"&@;]Tu@V'h'DIb@B+:SZ#
-+<V+#>@''j3Zq49+>u&!@VKp,G%G]8Bl@m1+E(j78g&4hAKZ&9@;]UaEb$:b5tiD8DKBo.Cht54
-Afs]A6rQl];F<kqD..]4AmoCi/e&.1+<VdL+B)i_+BqfYAKXT`A0=]WB4Y?sBQS?83\N-q@;BFp
-C1K=b/pD5SA8lR#F)rsDDf%.LBOrc1De(G=@:s.),@bY/D.RU,/M]%7.1HV,+<VdL+D,P4+CT.1
-@;L$sEc,<-AKY])F*(i,C`mS+FD,T'/g)8G$4R>H?8GkJ+B3#gF!,:5D/"*#FD5Z2+DkP4+C\n)
-ARTXkA0>Su+DGp?@V'%fD.Rc2@3B5tDIdcrDI[61+:SYe$<pgn>rj)o+=_#EDfp"A@r,RpF"/;H
-F!+m68l%htB6%p5E$0@=FD)e*+Co%nCgh?qA0>]&F*&OCAftf*FCfK)@:NjX$6UH6+<Ve8DIal1
-Df9_?GAhM4F#kFO8Oc!579<8_6rRJCB6%p5E,K*$AL\g2DIakt;GU(f=&2^^;d_(fEc6)>DIIBn
-.P;/;+<VdL+<XR#Dfd+GDfTB0+CT)&Dg*=3@;Kb#AS-!k+EVNEAnc-n+CT)&+EV:.+EqaEA9/l8
-BOQ!*@V'@oDJ()6D[d$r+<VdL+EV:.+D5_5F`8rU6Yp1PF!,+9Dfp#?+EVmJBk(RfCj@.>Ddd0!
-Bl8$2+Dbt+@;KLr/g+P:De*ZuFCfK$FCd(=C3*bl$6UH6+<Ve@F!+n/+D#e+D/a<&+E(j7@3B&r
-@<6K4B6%p5E%VS,+:SYe$4R=O$4R=O$4R=O$4R=O$4R=O$4R=O$4R=O$4R=O$3            ~>
-)
+zz=:''
+zz=:zz,'2 2$<;.(_1) 124 106 111 100 124 96 106 111 100 96 32 105 115 32 116'
+zz=:zz,' 104 101 32 114 111 111 116 32 99 108 97 115 115 32 111 102 32 116 '
+zz=:zz,'104 101 32 74 79 68 32 115 121 115 116 101 109 46 32 65 108 108 32 '
+zz=:zz,'111 116 104 101 114 32 74 79 68 13 10 99 108 97 115 115 101 115 32 '
+zz=:zz,'97 114 101 32 96 99 111 105 110 115 101 114 116 96 101 100 32 105 1'
+zz=:zz,'10 32 96 106 111 100 96 46 32 32 87 104 101 110 32 108 111 97 100 1'
+zz=:zz,'01 100 32 96 106 111 100 96 32 105 115 13 10 112 108 97 99 101 100 '
+zz=:zz,'32 105 110 32 116 104 101 32 96 97 106 111 100 96 32 108 111 99 97 '
+zz=:zz,'108 101 46 32 13 10 13 10 92 115 117 98 115 101 99 116 105 111 110 '
+zz=:zz,'123 92 116 101 120 116 116 116 123 106 111 100 125 32 73 110 116 10'
+zz=:zz,'1 114 102 97 99 101 125 13 10 13 10 126 126 126 126 32 123 32 46 10'
+zz=:zz,'6 32 125 13 10 98 110 108 32 32 32 32 78 66 46 108 105 115 116 32 1'
+zz=:zz,'11 98 106 101 99 116 115 32 105 110 32 112 117 116 32 100 105 99 11'
+zz=:zz,'6 105 111 110 97 114 121 32 100 97 116 97 98 97 115 101 32 98 97 99'
+zz=:zz,' 107 117 112 32 102 105 108 101 115 32 32 13 10 100 101 108 32 32 3'
+zz=:zz,'2 32 78 66 46 100 101 108 101 116 101 115 32 111 98 106 101 99 116 '
+zz=:zz,'115 32 105 110 32 100 105 99 116 105 111 110 97 114 121 32 100 97 1'
+zz=:zz,'16 97 98 97 115 101 32 102 105 108 101 115 32 32 32 32 32 32 32 32 '
+zz=:zz,'32 32 13 10 100 105 100 32 32 32 32 78 66 46 100 105 99 116 105 111'
+zz=:zz,' 110 97 114 121 32 105 100 101 110 116 105 102 105 99 97 116 105 11'
+zz=:zz,'1 110 32 97 110 100 32 115 116 97 116 105 115 116 105 99 115 32 32 '
+zz=:zz,'32 32 32 32 32 32 32 32 32 32 32 32 13 10 100 110 108 32 32 32 32 7'
+zz=:zz,'8 66 46 108 105 115 116 32 111 98 106 101 99 116 115 32 105 110 32 '
+zz=:zz,'100 105 99 116 105 111 110 97 114 121 32 100 97 116 97 98 97 115 10'
+zz=:zz,'1 32 102 105 108 101 115 32 32 32 32 32 32 32 32 32 32 32 32 32 13 '
+zz=:zz,'10 100 112 115 101 116 32 32 78 66 46 115 101 116 32 100 105 99 116'
+zz=:zz,' 105 111 110 97 114 121 32 112 97 114 97 109 101 116 101 114 115 32'
+zz=:zz,' 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 '
+zz=:zz,'32 32 32 32 32 32 13 10 103 100 101 112 115 32 32 78 66 46 103 114 '
+zz=:zz,'111 117 112 32 97 110 100 32 115 117 105 116 101 32 100 101 112 101'
+zz=:zz,' 110 100 101 110 116 115 32 32 32 32 32 32 32 32 32 32 32 32 32 32 '
+zz=:zz,'32 32 32 32 32 32 32 32 32 32 32 32 32 32 13 10 103 101 116 32 32 3'
+zz=:zz,'2 32 78 66 46 114 101 116 114 105 101 118 101 115 32 111 98 106 101'
+zz=:zz,' 99 116 115 32 102 114 111 109 32 100 105 99 116 105 111 110 97 114'
+zz=:zz,' 121 32 100 97 116 97 98 97 115 101 32 102 105 108 101 115 32 32 32'
+zz=:zz,' 32 32 32 13 10 103 108 111 98 115 32 32 78 66 46 97 110 97 108 121'
+zz=:zz,' 122 101 44 32 114 101 112 111 114 116 32 97 110 100 32 115 116 111'
+zz=:zz,' 114 101 32 103 108 111 98 97 108 32 110 97 109 101 115 32 32 32 32'
+zz=:zz,' 32 32 32 32 32 32 32 32 32 32 32 32 13 10 103 114 112 32 32 32 32 '
+zz=:zz,'78 66 46 99 114 101 97 116 101 32 97 110 100 32 109 111 100 105 102'
+zz=:zz,' 121 32 103 114 111 117 112 115 32 32 32 32 32 32 32 32 32 32 32 32'
+zz=:zz,' 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 13 10 109 97'
+zz=:zz,' 107 101 32 32 32 78 66 46 109 97 107 101 115 32 74 32 115 99 114 1'
+zz=:zz,'05 112 116 115 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 3'
+zz=:zz,'2 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 13'
+zz=:zz,' 10 110 101 119 100 32 32 32 78 66 46 99 114 101 97 116 101 115 32 '
+zz=:zz,'97 32 110 101 119 32 100 105 99 116 105 111 110 97 114 121 32 32 32'
+zz=:zz,' 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 '
+zz=:zz,'32 32 32 32 32 13 10 111 100 32 32 32 32 32 78 66 46 111 112 101 11'
+zz=:zz,'0 115 32 97 110 100 32 99 108 111 115 101 115 32 100 105 99 116 105'
+zz=:zz,' 111 110 97 114 105 101 115 32 32 32 32 32 32 32 32 32 32 32 32 32 '
+zz=:zz,'32 32 32 32 32 32 32 32 32 32 32 32 13 10 112 97 99 107 100 32 32 7'
+zz=:zz,'8 66 46 98 97 99 107 115 32 117 112 32 97 110 100 32 114 101 99 111'
+zz=:zz,' 118 101 114 115 32 119 97 115 116 101 100 32 115 112 97 99 101 32 '
+zz=:zz,'105 110 32 100 105 99 116 105 111 110 97 114 121 32 102 105 108 101'
+zz=:zz,' 115 13 10 112 117 116 32 32 32 32 78 66 46 115 116 111 114 101 115'
+zz=:zz,' 32 111 98 106 101 99 116 115 32 105 110 32 100 105 99 116 105 111 '
+zz=:zz,'110 97 114 121 32 100 97 116 97 98 97 115 101 32 102 105 108 101 11'
+zz=:zz,'5 32 32 32 32 32 32 32 32 32 32 32 13 10 114 101 103 100 32 32 32 7'
+zz=:zz,'8 66 46 114 101 103 105 115 116 101 114 32 97 110 100 32 117 110 11'
+zz=:zz,'4 101 103 105 115 116 101 114 32 74 79 68 32 100 105 99 116 105 111'
+zz=:zz,' 110 97 114 105 101 115 32 32 32 32 32 32 32 32 32 32 32 32 32 32 1'
+zz=:zz,'3 10 114 101 115 116 100 32 32 78 66 46 114 101 115 116 111 114 101'
+zz=:zz,' 115 32 116 104 101 32 109 111 115 116 32 114 101 99 101 110 116 32'
+zz=:zz,' 98 97 99 107 117 112 32 99 114 101 97 116 101 100 32 98 121 32 40 '
+zz=:zz,'112 97 99 107 100 41 32 32 32 32 13 10 117 115 101 115 32 32 32 78 '
+zz=:zz,'66 46 114 101 116 117 114 110 115 32 119 111 114 100 32 114 101 102'
+zz=:zz,' 101 114 101 110 99 101 115 32 32 32 32 32 13 10 126 126 126 126 13'
+zz=:zz,' 10 13 10 13 10 32 13 10 13 10 13 10 13 10 13 10 13 10 13 10 13 10 '
+zz=:zz,'13 10 13 10 13 10 13 10 13 10 13 10 13 10 13 10 124 106 111 100 108'
+zz=:zz,' 105 116 101 114 97 116 101 124 96 106 111 100 108 105 116 101 114 '
+zz=:zz,'97 116 101 96 32 105 115 32 97 32 74 32 117 116 105 108 105 116 121'
+zz=:zz,' 32 115 99 114 105 112 116 32 116 104 97 116 32 103 101 110 101 114'
+zz=:zz,' 97 116 101 115 32 42 108 105 116 101 114 97 116 101 42 32 13 10 10'
+zz=:zz,'0 111 99 117 109 101 110 116 115 32 100 105 114 101 99 116 108 121 '
+zz=:zz,'32 102 114 111 109 32 74 79 68 32 100 105 99 116 105 111 110 97 114'
+zz=:zz,' 121 32 103 114 111 117 112 115 46 13 10 13 10 92 115 117 98 115 10'
+zz=:zz,'1 99 116 105 111 110 123 92 116 101 120 116 116 116 123 106 111 100'
+zz=:zz,' 108 105 116 101 114 97 116 101 125 32 73 110 116 101 114 102 97 99'
+zz=:zz,' 101 125 13 10 13 10 126 126 126 126 32 123 32 46 106 32 125 13 10 '
+zz=:zz,'103 114 112 108 105 116 32 32 32 32 32 32 32 32 32 32 78 66 46 32 1'
+zz=:zz,'09 97 107 101 32 108 97 116 101 120 32 102 111 114 32 103 114 111 1'
+zz=:zz,'17 112 32 40 121 41 13 10 115 101 116 106 111 100 108 105 116 101 1'
+zz=:zz,'14 97 116 101 32 32 78 66 46 32 112 114 101 112 97 114 101 32 102 1'
+zz=:zz,'11 114 32 112 114 111 99 101 115 115 105 110 103 13 10 126 126 126 '
+zz=:zz,'126 13 10 13 10 92 115 117 98 115 101 99 116 105 111 110 123 92 116'
+zz=:zz,' 101 120 116 116 116 123 106 111 100 108 105 116 101 114 97 116 101'
+zz=:zz,' 125 32 97 110 100 32 74 79 68 125 13 10 13 10 96 106 111 100 108 1'
+zz=:zz,'05 116 101 114 97 116 101 96 32 109 97 107 101 115 32 115 111 109 1'
+zz=:zz,'01 32 97 115 115 117 109 112 116 105 111 110 115 32 97 98 111 117 1'
+zz=:zz,'16 32 116 104 101 32 74 32 99 111 100 101 32 97 110 100 32 100 111 '
+zz=:zz,'99 117 109 101 110 116 13 10 116 101 120 116 32 105 116 32 112 114 '
+zz=:zz,'111 99 101 115 115 101 115 46 32 73 116 32 97 115 115 117 109 101 1'
+zz=:zz,'15 58 13 10 13 10 49 46 32 65 108 108 32 115 111 117 114 99 101 32 '
+zz=:zz,'99 111 100 101 32 105 115 32 115 116 111 114 101 100 32 105 110 32 '
+zz=:zz,'74 79 68 32 100 105 99 116 105 111 110 97 114 105 101 115 46 13 10 '
+zz=:zz,'13 10 50 46 32 74 79 68 32 103 114 111 117 112 32 100 111 99 117 10'
+zz=:zz,'9 101 110 116 115 32 96 50 32 57 32 100 105 115 112 32 39 103 114 1'
+zz=:zz,'11 117 112 110 97 109 101 39 96 32 97 114 101 32 91 112 97 110 100 '
+zz=:zz,'111 99 13 10 32 32 32 99 111 109 112 97 116 105 98 108 101 32 109 9'
+zz=:zz,'7 114 107 100 111 119 110 93 40 104 116 116 112 58 47 47 106 111 10'
+zz=:zz,'4 110 109 97 99 102 97 114 108 97 110 101 46 110 101 116 47 112 97 '
+zz=:zz,'110 100 111 99 47 82 69 65 68 77 69 46 104 116 109 108 35 112 97 11'
+zz=:zz,'0 100 111 99 115 45 109 97 114 107 100 111 119 110 41 32 13 10 32 3'
+zz=:zz,'2 32 116 101 120 116 32 102 114 97 103 109 101 110 116 115 46 32 42'
+zz=:zz,' 84 104 105 115 32 105 115 32 116 104 101 32 109 111 115 116 32 115'
+zz=:zz,' 101 114 105 111 117 115 32 108 105 109 105 116 97 116 105 111 110 '
+zz=:zz,'32 111 102 32 96 106 111 100 108 105 116 101 114 97 116 101 96 46 4'
+zz=:zz,'2 13 10 32 32 32 77 111 115 116 32 111 102 32 109 121 32 103 114 11'
+zz=:zz,'1 117 112 32 100 111 99 117 109 101 110 116 115 32 97 114 101 32 11'
+zz=:zz,'0 111 116 32 109 97 114 107 100 111 119 110 46 32 73 32 97 109 32 1'
+zz=:zz,'15 108 111 119 108 121 13 10 32 32 32 99 111 110 118 101 114 116 10'
+zz=:zz,'5 110 103 32 116 104 101 109 46 32 73 102 32 121 111 117 32 99 111 '
+zz=:zz,'109 112 111 115 101 32 103 114 111 117 112 32 100 111 99 117 109 10'
+zz=:zz,'1 110 116 115 32 117 115 101 32 13 10 32 32 32 112 97 110 100 111 9'
+zz=:zz,'9 32 109 97 114 107 100 111 119 110 32 97 110 100 32 96 106 111 100'
+zz=:zz,' 108 105 116 101 114 97 116 101 96 32 119 105 108 108 32 98 101 32 '
+zz=:zz,'97 32 108 111 116 32 109 111 114 101 32 117 115 101 102 117 108 46 '
+zz=:zz,'13 10 13 10 51 46 32 65 110 121 32 103 114 111 117 112 32 99 108 97'
+zz=:zz,' 115 115 91 94 52 93 32 105 110 116 101 114 102 97 99 101 32 105 11'
+zz=:zz,'5 32 97 32 115 105 109 112 108 101 32 74 32 118 101 114 98 97 116 1'
+zz=:zz,'05 109 32 98 108 111 99 107 32 116 104 97 116 13 10 32 32 32 105 11'
+zz=:zz,'5 32 109 97 114 107 101 100 32 119 105 116 104 32 97 32 92 76 97 84'
+zz=:zz,' 101 88 92 32 115 101 99 116 105 111 110 32 99 111 109 109 97 110 1'
+zz=:zz,'00 46 32 69 120 97 109 105 110 101 13 10 32 32 32 116 104 105 115 3'
+zz=:zz,'2 103 114 111 117 112 39 115 32 100 111 99 117 109 101 110 116 32 9'
+zz=:zz,'6 50 32 57 32 100 105 115 112 32 39 106 111 100 108 105 116 101 114'
+zz=:zz,' 97 116 101 39 96 32 102 111 114 32 97 110 13 10 32 32 32 101 120 9'
+zz=:zz,'7 109 112 108 101 46 13 10 32 32 32 13 10 32 32 32 32 32 32 32 32 3'
+zz=:zz,'7 32 108 97 116 101 120 32 115 101 99 116 105 111 110 32 13 10 32 3'
+zz=:zz,'2 32 32 32 32 32 32 92 115 117 98 115 101 99 116 105 111 110 123 92'
+zz=:zz,' 116 101 120 116 116 116 123 103 114 111 117 112 110 97 109 101 125'
+zz=:zz,' 32 73 110 116 101 114 102 97 99 101 125 13 10 13 10 32 32 32 32 32'
+zz=:zz,' 32 32 32 126 126 126 126 32 123 32 46 106 125 13 10 32 32 32 32 32'
+zz=:zz,' 32 32 32 103 114 112 108 105 116 32 32 32 32 32 32 32 32 32 32 78 '
+zz=:zz,'66 46 32 109 97 107 101 32 108 97 116 101 120 32 102 111 114 32 103'
+zz=:zz,' 114 111 117 112 32 40 121 41 13 10 32 32 32 32 32 32 32 32 115 101'
+zz=:zz,' 116 106 111 100 108 105 116 101 114 97 116 101 32 32 78 66 46 32 1'
+zz=:zz,'12 114 101 112 97 114 101 32 102 111 114 32 112 114 111 99 101 115 '
+zz=:zz,'115 105 110 103 13 10 32 32 32 32 32 32 32 32 126 126 126 126 126 3'
+zz=:zz,'2 32 13 10 13 10 53 46 32 78 111 110 45 74 32 99 111 100 101 32 105'
+zz=:zz,' 115 32 99 111 110 102 105 110 101 100 32 116 111 32 116 104 101 32'
+zz=:zz,' 74 79 68 32 103 114 111 117 112 32 104 101 97 100 101 114 91 94 51'
+zz=:zz,' 93 32 97 110 100 32 105 115 13 10 32 32 32 109 97 114 107 101 100 '
+zz=:zz,'32 119 105 116 104 32 112 115 101 117 100 111 45 112 97 110 100 111'
+zz=:zz,' 99 32 100 101 108 105 109 105 116 101 114 115 46 32 69 118 101 114'
+zz=:zz,' 121 116 104 105 110 103 32 105 110 32 99 117 114 108 121 32 96 123'
+zz=:zz,' 125 96 13 10 32 32 32 98 114 97 99 107 101 116 115 32 102 111 108 '
+zz=:zz,'108 111 119 115 32 112 97 110 100 111 99 32 115 111 117 114 99 101 '
+zz=:zz,'32 99 111 100 101 32 104 105 103 104 108 105 103 104 116 105 110 10'
+zz=:zz,'3 32 99 111 110 118 101 110 116 105 111 110 115 46 13 10 32 32 32 9'
+zz=:zz,'6 106 111 100 108 105 116 101 114 97 116 101 96 39 115 32 104 101 9'
+zz=:zz,'7 100 101 114 32 99 111 110 116 97 105 110 115 32 92 76 97 84 101 8'
+zz=:zz,'8 92 32 99 111 100 101 32 116 104 97 116 32 105 115 32 109 97 114 1'
+zz=:zz,'07 101 100 32 13 10 32 32 32 108 105 107 101 32 116 104 105 115 46 '
+zz=:zz,'32 13 10 13 10 32 32 32 32 32 32 32 32 78 66 46 60 60 126 126 126 1'
+zz=:zz,'26 32 123 32 46 108 97 116 101 120 32 110 117 109 98 101 114 76 105'
+zz=:zz,' 110 101 115 32 115 116 97 114 116 70 114 111 109 61 34 49 34 32 12'
+zz=:zz,'5 13 10 32 32 32 32 32 32 32 32 78 66 46 62 62 126 126 126 126 32 1'
+zz=:zz,'3 10 13 10 92 115 117 98 115 101 99 116 105 111 110 123 82 117 110 '
+zz=:zz,'110 105 110 103 32 92 116 101 120 116 116 116 123 106 111 100 108 1'
+zz=:zz,'05 116 101 114 97 116 101 125 125 13 10 13 10 96 106 111 100 108 10'
+zz=:zz,'5 116 101 114 97 116 101 96 32 114 117 110 115 32 111 110 32 87 105'
+zz=:zz,' 110 100 111 119 115 44 32 76 105 110 117 120 32 97 110 100 32 77 9'
+zz=:zz,'7 99 32 118 101 114 115 105 111 110 115 32 111 102 32 74 46 91 94 4'
+zz=:zz,'9 93 13 10 13 10 84 111 32 117 115 101 32 96 106 111 100 108 105 11'
+zz=:zz,'6 101 114 97 116 101 96 32 121 111 117 32 109 117 115 116 58 13 10 '
+zz=:zz,'13 10 49 46 32 73 110 115 116 97 108 108 32 74 79 68 46 32 91 74 79'
+zz=:zz,' 68 93 40 104 116 116 112 58 47 47 119 119 119 46 106 115 111 102 1'
+zz=:zz,'16 119 97 114 101 46 99 111 109 47 106 119 105 107 105 47 65 100 10'
+zz=:zz,'0 111 110 115 47 103 101 110 101 114 97 108 47 106 111 100 41 32 10'
+zz=:zz,'5 115 32 97 32 74 32 97 100 100 111 110 46 13 10 32 32 32 73 116 32'
+zz=:zz,' 105 115 32 117 115 117 97 108 108 121 32 105 110 115 116 97 108 10'
+zz=:zz,'8 101 100 32 119 105 116 104 32 91 74 65 76 93 40 104 116 116 112 5'
+zz=:zz,'8 47 47 119 119 119 46 106 115 111 102 116 119 97 114 101 46 99 111'
+zz=:zz,' 109 47 106 119 105 107 105 47 74 65 76 41 46 13 10 32 32 32 13 10 '
+zz=:zz,'50 46 32 73 110 115 116 97 108 108 32 74 79 68 83 79 85 82 67 69 46'
+zz=:zz,' 32 91 74 79 68 83 79 85 82 67 69 93 40 104 116 116 112 58 47 47 11'
+zz=:zz,'9 119 119 46 106 115 111 102 116 119 97 114 101 46 99 111 109 47 10'
+zz=:zz,'6 119 105 107 105 47 65 100 100 111 110 115 47 103 101 110 101 114 '
+zz=:zz,'97 108 47 106 111 100 115 111 117 114 99 101 41 13 10 32 32 32 105 '
+zz=:zz,'115 32 97 108 115 111 32 97 32 74 32 97 100 100 111 110 46 32 73 11'
+zz=:zz,'0 115 116 97 108 108 32 105 116 32 119 105 116 104 32 74 65 76 46 9'
+zz=:zz,'1 94 50 93 32 73 116 32 99 111 110 116 97 105 110 115 32 116 104 10'
+zz=:zz,'1 32 13 10 32 32 32 74 79 68 32 100 105 99 116 105 111 110 97 114 1'
+zz=:zz,'05 101 115 32 114 101 113 117 105 114 101 100 32 116 111 32 98 117 '
+zz=:zz,'105 108 100 32 74 79 68 46 32 74 79 68 83 79 85 82 67 69 32 97 108 '
+zz=:zz,'115 111 32 99 111 110 116 97 105 110 115 13 10 32 32 32 96 106 111 '
+zz=:zz,'100 108 105 116 101 114 97 116 101 46 96 13 10 32 32 32 13 10 51 46'
+zz=:zz,' 32 83 101 116 117 112 32 97 32 118 101 114 115 105 111 110 32 111 '
+zz=:zz,'102 32 91 112 97 110 100 111 99 93 40 104 116 116 112 58 47 47 106 '
+zz=:zz,'111 104 110 109 97 99 102 97 114 108 97 110 101 46 110 101 116 47 1'
+zz=:zz,'12 97 110 100 111 99 47 41 13 10 32 32 32 116 104 97 116 32 115 117'
+zz=:zz,' 112 112 111 114 116 115 32 74 32 115 121 110 116 97 120 32 104 105'
+zz=:zz,' 103 104 108 105 103 104 116 105 110 103 46 32 83 101 101 32 116 10'
+zz=:zz,'4 101 32 98 108 111 103 32 112 111 115 116 32 13 10 32 32 32 91 80 '
+zz=:zz,'97 110 100 111 99 32 98 97 115 101 100 32 74 32 83 121 110 116 97 1'
+zz=:zz,'20 32 72 105 103 104 108 105 103 104 116 105 110 103 93 40 104 116 '
+zz=:zz,'116 112 58 47 47 98 97 107 101 114 106 100 57 57 46 119 111 114 100'
+zz=:zz,' 112 114 101 115 115 46 99 111 109 47 50 48 49 50 47 48 57 47 50 48'
+zz=:zz,' 47 112 97 110 100 111 99 45 98 97 115 101 100 45 106 45 115 121 11'
+zz=:zz,'0 116 97 120 45 104 105 103 104 108 105 103 104 116 105 110 103 47 '
+zz=:zz,'41 32 13 10 32 32 32 102 111 114 32 100 101 116 97 105 108 115 46 1'
+zz=:zz,'3 10 32 32 32 13 10 52 46 32 66 117 105 108 100 32 96 106 111 100 1'
+zz=:zz,'08 105 116 101 114 97 116 101 46 96 32 32 96 106 111 100 108 105 11'
+zz=:zz,'6 101 114 97 116 101 96 32 105 115 32 97 32 74 32 103 114 111 117 1'
+zz=:zz,'12 46 32 74 79 68 32 109 97 107 101 115 13 10 32 32 32 74 32 115 99'
+zz=:zz,' 114 105 112 116 115 32 102 114 111 109 32 103 114 111 117 112 115 '
+zz=:zz,'46 32 84 111 32 109 97 107 101 32 96 106 111 100 108 105 116 101 11'
+zz=:zz,'4 97 116 101 96 32 100 111 58 13 10 32 32 32 32 32 32 32 32 13 10 3'
+zz=:zz,'2 32 32 32 32 32 32 32 114 101 113 117 105 114 101 32 39 103 101 11'
+zz=:zz,'0 101 114 97 108 47 106 111 100 39 13 10 32 32 32 32 32 32 32 32 11'
+zz=:zz,'1 100 32 59 58 39 106 111 100 100 101 118 32 106 111 100 32 117 116'
+zz=:zz,' 105 108 115 39 32 91 32 51 32 111 100 32 39 39 13 10 32 32 32 32 3'
+zz=:zz,'2 32 32 32 109 108 115 32 39 106 111 100 108 105 116 101 114 97 116'
+zz=:zz,' 101 39 13 10 32 32 13 10 53 46 32 79 112 101 110 32 116 104 101 32'
+zz=:zz,' 74 79 68 32 100 105 99 116 105 111 110 97 114 105 101 115 32 99 11'
+zz=:zz,'1 110 116 97 105 110 105 110 103 32 116 104 101 32 103 114 111 117 '
+zz=:zz,'112 32 121 111 117 32 119 97 110 116 32 116 111 32 100 111 99 117 1'
+zz=:zz,'09 101 110 116 46 13 10 13 10 32 32 32 32 32 32 32 32 111 100 32 59'
+zz=:zz,' 58 39 106 111 100 100 101 118 32 106 111 100 32 117 116 105 108 11'
+zz=:zz,'5 39 32 91 32 51 32 111 100 32 39 39 13 10 32 32 13 10 54 46 32 76 '
+zz=:zz,'111 97 100 32 96 106 111 100 108 105 116 101 114 97 116 101 46 96 3'
+zz=:zz,'2 65 102 116 101 114 32 109 97 107 105 110 103 32 96 106 111 100 10'
+zz=:zz,'8 105 116 101 114 97 116 101 96 32 105 116 32 99 97 110 32 98 101 3'
+zz=:zz,'2 108 111 97 100 101 100 32 108 105 107 101 13 10 32 32 32 97 110 1'
+zz=:zz,'21 32 74 32 115 99 114 105 112 116 46 13 10 32 32 32 13 10 32 32 32'
+zz=:zz,' 32 32 32 32 32 108 111 97 100 32 39 106 111 100 108 105 116 101 11'
+zz=:zz,'4 97 116 101 39 13 10 32 32 13 10 55 46 32 83 101 116 32 97 32 119 '
+zz=:zz,'111 114 107 105 110 103 32 100 105 114 101 99 116 111 114 121 46 32'
+zz=:zz,' 96 106 111 100 108 105 116 101 114 97 116 101 96 32 103 101 110 10'
+zz=:zz,'1 114 97 116 101 115 32 109 97 114 107 100 111 119 110 32 97 110 10'
+zz=:zz,'0 32 92 76 97 84 101 88 92 32 102 105 108 101 115 46 13 10 32 32 32'
+zz=:zz,' 65 108 108 32 115 117 99 104 32 102 105 108 101 115 32 97 114 101 '
+zz=:zz,'32 119 114 105 116 116 101 110 32 116 111 32 116 104 101 32 100 105'
+zz=:zz,' 114 101 99 116 111 114 121 32 115 112 101 99 105 102 105 101 100 3'
+zz=:zz,'2 98 121 32 96 115 101 116 106 111 100 108 105 116 101 114 97 116 1'
+zz=:zz,'01 46 96 13 10 32 32 32 13 10 32 32 32 32 32 32 32 32 115 101 116 1'
+zz=:zz,'06 111 100 108 105 116 101 114 97 116 101 32 39 99 58 92 116 101 10'
+zz=:zz,'9 112 39 32 32 32 32 32 32 32 32 32 32 78 66 46 32 119 105 110 100 '
+zz=:zz,'111 119 115 13 10 32 32 32 32 32 32 32 32 115 101 116 106 111 100 1'
+zz=:zz,'08 105 116 101 114 97 116 101 32 39 47 104 111 109 101 47 106 111 1'
+zz=:zz,'04 110 47 116 101 109 112 39 32 32 78 66 46 32 108 105 110 117 120 '
+zz=:zz,'13 10 32 32 13 10 56 46 32 82 117 110 32 96 103 114 112 108 105 116'
+zz=:zz,' 96 32 111 110 32 116 104 101 32 103 114 111 117 112 32 121 111 117'
+zz=:zz,' 32 119 97 110 116 32 116 111 32 100 111 99 117 109 101 110 116 46 '
+zz=:zz,'13 10 32 32 32 96 103 114 112 108 105 116 96 32 103 101 110 101 114'
+zz=:zz,' 97 116 101 115 32 92 76 97 84 101 88 92 32 102 105 108 101 115 32 '
+zz=:zz,'105 110 32 116 104 101 32 119 111 114 107 105 110 103 32 100 105 11'
+zz=:zz,'4 101 99 116 111 114 121 46 32 84 104 101 32 114 111 111 116 13 10 '
+zz=:zz,'32 32 32 92 76 97 84 101 88 92 32 102 105 108 101 32 105 115 32 103'
+zz=:zz,' 105 118 101 110 32 116 104 101 32 103 114 111 117 112 32 110 97 10'
+zz=:zz,'9 101 46 13 10 32 32 32 13 10 32 32 32 32 32 32 32 32 103 114 112 1'
+zz=:zz,'08 105 116 32 39 106 111 100 108 105 116 101 114 97 116 101 39 32 7'
+zz=:zz,'8 66 46 32 109 97 107 101 115 32 106 111 100 108 105 116 101 114 97'
+zz=:zz,' 116 101 46 116 101 120 32 13 10 32 32 13 10 57 46 32 85 115 101 32'
+zz=:zz,' 92 76 97 84 101 88 92 32 116 111 32 99 111 109 112 105 108 101 32 '
+zz=:zz,'116 104 101 32 102 105 108 101 115 32 103 101 110 101 114 97 116 10'
+zz=:zz,'1 100 32 98 121 32 96 103 114 112 108 105 116 46 96 32 13 10 32 32 '
+zz=:zz,'32 70 105 108 101 115 32 109 97 121 32 98 101 32 112 114 111 99 101'
+zz=:zz,' 115 115 101 100 32 119 105 116 104 32 96 112 100 102 108 97 116 10'
+zz=:zz,'1 120 96 44 32 96 120 101 108 97 116 101 120 96 32 111 114 32 96 10'
+zz=:zz,'8 117 97 108 97 116 101 120 96 46 13 10 32 32 32 89 111 117 114 32 '
+zz=:zz,'99 104 111 105 99 101 32 119 105 108 108 32 98 101 32 100 105 99 11'
+zz=:zz,'6 97 116 101 100 32 98 121 32 116 104 101 32 112 114 101 115 101 11'
+zz=:zz,'0 99 101 32 111 102 32 85 110 105 99 111 100 101 32 99 104 97 114 9'
+zz=:zz,'7 99 116 101 114 115 46 13 10 32 32 32 70 111 114 32 109 111 114 10'
+zz=:zz,'1 32 100 101 116 97 105 108 115 32 115 101 101 32 116 104 101 32 11'
+zz=:zz,'2 114 101 97 109 98 108 101 32 102 105 108 101 32 96 74 79 68 76 10'
+zz=:zz,'5 116 101 114 97 116 101 80 114 101 97 109 98 108 101 46 116 101 12'
+zz=:zz,'0 96 13 10 32 32 32 105 110 32 116 104 101 32 119 111 114 107 105 1'
+zz=:zz,'10 103 32 100 105 114 101 99 116 111 114 121 46 13 10 32 32 32 13 1'
+zz=:zz,'0 84 104 101 114 101 32 97 114 101 32 115 111 109 101 32 92 76 97 8'
+zz=:zz,'4 101 88 92 32 115 101 116 116 105 110 103 115 32 121 111 117 32 10'
+zz=:zz,'9 97 121 32 119 97 110 116 32 116 111 32 97 100 106 117 115 116 46 '
+zz=:zz,'13 10 13 10 49 46 32 69 100 105 116 32 96 74 79 68 76 105 116 101 1'
+zz=:zz,'14 97 116 101 80 114 101 97 109 98 108 101 46 116 101 120 96 32 116'
+zz=:zz,' 111 13 10 32 32 32 99 104 97 110 103 101 32 116 104 101 32 110 117'
+zz=:zz,' 109 98 101 114 32 111 102 32 105 110 100 101 120 32 99 111 108 117'
+zz=:zz,' 109 110 115 46 13 10 32 32 32 84 104 101 32 100 101 102 97 117 108'
+zz=:zz,' 116 32 105 115 32 102 111 117 114 32 98 117 116 32 116 104 105 115'
+zz=:zz,' 32 109 97 121 32 114 101 115 117 108 116 32 13 10 32 32 32 105 110'
+zz=:zz,' 32 108 111 110 103 32 110 97 109 101 115 32 114 117 110 110 105 11'
+zz=:zz,'0 103 32 116 111 103 101 116 104 101 114 46 32 13 10 32 32 32 84 11'
+zz=:zz,'1 32 100 101 99 114 101 97 115 101 32 111 114 32 105 110 99 114 101'
+zz=:zz,' 97 115 101 32 105 110 100 101 120 32 99 111 108 117 109 110 115 32'
+zz=:zz,' 99 104 97 110 103 101 58 13 10 32 32 32 13 10 32 32 32 32 32 32 32'
+zz=:zz,' 32 92 98 101 103 105 110 123 109 117 108 116 105 99 111 108 115 12'
+zz=:zz,'5 123 52 125 91 92 115 101 99 116 105 111 110 42 123 92 105 110 100'
+zz=:zz,' 101 120 110 97 109 101 125 93 13 10 32 32 32 32 32 32 32 32 13 10 '
+zz=:zz,'50 46 32 96 106 111 100 108 105 116 101 114 97 116 101 96 32 119 11'
+zz=:zz,'4 97 112 115 32 108 111 110 103 32 115 111 117 114 99 101 32 99 111'
+zz=:zz,' 100 101 32 108 105 110 101 115 46 32 87 114 97 112 112 105 110 103'
+zz=:zz,' 32 105 115 32 99 111 110 116 114 111 108 108 101 100 13 10 32 32 3'
+zz=:zz,'2 98 121 32 96 87 82 65 80 76 73 77 73 84 96 46 32 84 104 101 32 10'
+zz=:zz,'0 101 102 97 117 108 116 32 105 115 32 49 49 48 32 99 104 97 114 97'
+zz=:zz,' 99 116 101 114 115 46 32 67 104 97 110 103 101 32 116 104 105 115 '
+zz=:zz,'32 118 97 108 117 101 32 13 10 32 32 32 105 102 32 121 111 117 32 9'
+zz=:zz,'9 104 97 110 103 101 32 102 111 110 116 32 111 114 32 112 97 103 10'
+zz=:zz,'1 32 115 105 122 101 46 32 87 114 97 112 112 101 100 32 108 105 110'
+zz=:zz,' 101 115 32 97 114 101 32 112 114 101 99 101 101 100 101 100 13 10 '
+zz=:zz,'32 32 32 119 105 116 104 32 116 104 101 32 115 116 114 105 110 103 '
+zz=:zz,'32 96 87 82 65 80 76 69 65 68 96 32 119 105 116 104 32 100 101 102 '
+zz=:zz,'97 117 108 116 32 92 65 108 101 114 116 84 111 107 123 92 116 101 1'
+zz=:zz,'20 116 116 116 123 62 46 46 46 62 125 125 46 13 10 32 32 32 32 13 1'
+zz=:zz,'0 13 10 91 94 49 93 58 32 96 106 111 100 108 105 116 101 114 97 116'
+zz=:zz,' 101 96 32 119 105 108 108 32 114 117 110 32 111 110 32 87 105 110 '
+zz=:zz,'100 111 119 115 32 118 101 114 115 105 111 110 115 32 111 102 32 74'
+zz=:zz,' 32 54 46 48 50 32 97 110 100 32 98 101 121 111 110 100 46 13 10 32'
+zz=:zz,' 32 32 32 32 32 84 104 101 32 76 105 110 117 120 32 97 110 100 32 7'
+zz=:zz,'7 97 99 32 118 101 114 115 105 111 110 115 32 111 102 32 96 106 111'
+zz=:zz,' 100 108 105 116 101 114 97 116 101 96 32 114 101 113 117 105 114 1'
+zz=:zz,'01 32 74 32 55 46 48 49 32 97 110 100 32 98 101 121 111 110 100 46 '
+zz=:zz,'32 32 13 10 32 32 32 13 10 91 94 50 93 58 32 79 110 32 54 52 32 98 '
+zz=:zz,'105 116 32 118 101 114 115 105 111 110 115 32 111 102 32 74 32 116 '
+zz=:zz,'104 101 32 115 116 97 110 100 97 114 100 32 74 65 76 32 105 110 115'
+zz=:zz,' 116 97 108 108 32 111 102 32 74 79 68 83 79 85 82 67 69 32 109 97 '
+zz=:zz,'121 32 102 97 105 108 46 13 10 32 32 32 32 32 32 83 101 101 32 91 8'
+zz=:zz,'4 104 101 32 74 111 100 32 80 97 103 101 93 40 104 116 116 112 58 4'
+zz=:zz,'7 47 98 97 107 101 114 106 100 57 57 46 119 111 114 100 112 114 101'
+zz=:zz,' 115 115 46 99 111 109 47 116 104 101 45 106 111 100 45 112 97 103 '
+zz=:zz,'101 47 35 99 111 109 109 101 110 116 45 50 49 48 41 13 10 32 32 32 '
+zz=:zz,'32 32 32 102 111 114 32 97 110 32 97 108 116 101 114 110 97 116 101'
+zz=:zz,' 32 105 110 115 116 97 108 108 32 109 101 116 104 111 100 46 32 32 '
+zz=:zz,'13 10 13 10 91 94 51 93 58 32 84 104 105 115 32 108 105 109 105 116'
+zz=:zz,' 97 116 105 111 110 32 109 97 121 32 98 101 32 101 97 115 101 100 3'
+zz=:zz,'2 105 102 32 105 116 32 98 101 99 111 109 101 115 32 97 32 104 105 '
+zz=:zz,'110 100 114 97 110 99 101 46 32 13 10 13 10 91 94 52 93 58 32 65 32'
+zz=:zz,' 42 103 114 111 117 112 32 99 108 97 115 115 42 32 105 115 32 97 32'
+zz=:zz,' 74 79 68 32 103 114 111 117 112 32 119 105 116 104 32 97 32 100 10'
+zz=:zz,'1 99 108 97 114 101 100 32 108 105 115 116 32 111 102 32 105 110 11'
+zz=:zz,'6 101 114 102 97 99 101 13 10 32 32 32 32 32 32 97 110 100 32 114 1'
+zz=:zz,'11 111 116 32 119 111 114 100 115 58 32 96 73 70 65 67 69 87 79 82 '
+zz=:zz,'68 83 96 42 103 114 111 117 112 110 97 109 101 42 32 97 110 100 32 '
+zz=:zz,'96 82 79 79 84 87 79 82 68 83 96 42 103 114 111 117 112 110 97 109 '
+zz=:zz,'101 42 46 13 10 32 32 32 32 32 32 82 111 111 116 32 119 111 114 100'
+zz=:zz,' 115 32 97 108 108 111 119 32 96 97 108 108 114 101 102 115 96 32 1'
+zz=:zz,'16 111 32 102 105 110 100 32 97 108 108 32 116 104 101 32 119 111 1'
+zz=:zz,'14 100 115 32 116 104 97 116 32 98 101 108 111 110 103 32 116 111 1'
+zz=:zz,'3 10 32 32 32 32 32 32 116 104 101 32 103 114 111 117 112 46 32 67 '
+zz=:zz,'108 97 115 115 32 103 114 111 117 112 115 32 116 121 112 105 99 97 '
+zz=:zz,'108 108 121 32 108 111 97 100 32 105 110 116 111 32 108 111 99 97 1'
+zz=:zz,'08 101 115 46 32 96 106 111 100 108 105 116 101 114 97 116 101 46 1'
+zz=:zz,'05 106 115 96 13 10 32 32 32 32 32 32 105 115 32 97 110 32 101 120 '
+zz=:zz,'97 109 112 108 101 32 111 102 32 97 32 99 108 97 115 115 32 103 114'
+zz=:zz,' 111 117 112 46 13 10 32 13 10 13 10 13 10 13 10 13 10 13 10 13 10 '
+zz=:zz,'13 10 13 10 13 10 13 10 13 10 13 10 13 10 13 10 13 10 13 10 13 10{a'
+zz=:zz,'.                                                                  '
+zz=:23250{.zz
 showpass 2 9 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
 
 cocurrent SO__JODobj NB.{*JOD*}
-zz=:dec85__MK__JODobj 0 : 0
-3?U%!1*A7n3Ai[/De*BiFs&@Z8l%htA7]pqCi=90ASuT!$9^O84Ztqk4Ztqk4Ztqk4Ztqk4Ztqk
-4Uh`-$=IUeA7T7p?m'0)+EV:.+A,Et+Co&,ASc:(D.RU,+=_>QF<G+.@ruF'DIIR2/h1(30jP4q
-8TZ(hF!,R<AKYT!EcZ=FA8,OqBl@ltEd8dGDBO%7AKYr#FD)e8Afs]A6k'K5De*E%A8,OqBl@lt
-EbT*+/e&-s$6UH6+<VdL+<VdLA8,Qs0H_JI$6UH6+<VdL+=f#o/M/P+/M/J)/M/J)/M/P+.h)h.
-+<VdL+<VeS0mm_SA7T7pHtmS1I!'OFCiat5$6UH6+<VdL+=f#o/M/P+/M/J)/M/J)/M/P+.h)gp
-$<1\QF!,F1FD)e2F!,RME+rfjC`mY.+A,Et+Co&,ASc:(D.RU,/g*o#G9C=3A.8lhDerj(Bl%?'
-@rGmh+DGm>F*)>@ARlotDBN@1.WBNP+Co&,.Ni89@ruF'DIIR2/e&.^DfTD3F*(i"Ch4`1H#n(=
-D'3>,A7ZltF!,(5F`(_4Bl5%;A7]=kATAt;@<,jkBm*p$+:SZgBk)7!Df0!(Bk;?.@;]TuAnc-k
-Ci"A>@rH4$Df-\1ASu("Bk&9.FD5Q*FD5<-%172gEc#N.@<?''FD,5.E+*j%/e&-s$<1\QF!+n3
-Ea`iuASl!rF<G%5Bl7R)+DkP)Gp$R-DImEoFE9&W8S0)jDfm16A8-,p$=P'$DfTA2FD,*)+DGm>
-A7]@eDIm?$A7]=kATAo3DBO%7AKYr#FD)e=BOr:q$?'s!B5)6lC`mq?Eb$;,F!,L7FCAm$ARlo5
-F`(]&@;]^hA1f>S7!3?cF"AFC$=[FRCNXT;+CT.u+ED$FEb/ioEb0,uBl7Q+DfB9.@<?4%DK?q/
-Eb-A1F^o)-Amob&ATA4e@<3Q5BOuH3@<,p%GAhM;Bl7Q+GA2/4+DbV1F!,=.FCfK,@;IP=6#L3a
-+DGF1%17B!FWba:F<G".C`m20F<G[=AKYr7F<G+.@ruF'DIIR2+CJ)95t"LD9NbaS+F.mJ%17&p
-AThX&F<G"%@qfIbDKK<'+Cf(nDJ*O%+EVNEF*(i"Ch4`!De*E3%13OO%16<G0jQg_<+ohcAnc:,
-F<G+.@ruF'DIIR2+E)-?@3A0<6m-GWFD)e2F!+t$Ci!Zn+:SZ#+<VdL+EV:.+=_>QF<G+.@ruF'
-DIIR2/h-                                                                  ~>
-)
+zz=:''
+zz=:zz,',:<;.(_1) 47 47 106 111 100 100 101 118 32 45 32 74 79 68 32 100 10'
+zz=:zz,'1 118 101 108 111 112 109 101 110 116 13 10 61 61 61 61 61 61 61 61'
+zz=:zz,' 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 13 10 13 10 96 106'
+zz=:zz,' 111 100 100 101 118 96 32 105 115 32 116 104 101 32 74 79 68 32 10'
+zz=:zz,'0 101 118 101 108 111 112 109 101 110 116 32 42 112 117 116 32 100 '
+zz=:zz,'105 99 116 105 111 110 97 114 121 46 42 91 94 49 93 13 10 73 116 32'
+zz=:zz,' 105 115 32 116 104 101 32 102 105 114 115 116 32 100 105 99 116 10'
+zz=:zz,'5 111 110 97 114 121 32 111 110 32 116 104 101 32 112 97 116 104 32'
+zz=:zz,' 111 102 32 74 79 68 13 10 99 111 100 101 32 100 105 99 116 105 111'
+zz=:zz,' 110 97 114 105 101 115 46 13 10 13 10 32 32 32 32 32 32 32 32 32 3'
+zz=:zz,'2 32 100 105 100 32 48 32 32 13 10 32 32 32 32 32 32 32 32 43 45 43'
+zz=:zz,' 45 45 45 45 45 45 43 45 45 45 43 45 45 45 45 45 43 13 10 32 32 32 '
+zz=:zz,'32 32 32 32 32 124 49 124 106 111 100 100 101 118 124 106 111 100 1'
+zz=:zz,'24 117 116 105 108 115 124 13 10 32 32 32 32 32 32 32 32 43 45 43 4'
+zz=:zz,'5 45 45 45 45 45 43 45 45 45 43 45 45 45 45 45 43 13 10 13 10 84 10'
+zz=:zz,'4 105 115 32 112 97 116 104 32 105 115 32 116 121 112 105 99 97 108'
+zz=:zz,' 32 111 102 32 74 79 68 32 100 101 118 101 108 111 112 109 101 110 '
+zz=:zz,'116 46 32 78 101 119 32 97 110 100 13 10 118 111 108 97 116 105 108'
+zz=:zz,' 101 32 99 111 100 101 32 105 115 32 115 116 111 114 101 100 32 105'
+zz=:zz,' 110 32 97 32 42 112 117 116 32 100 101 118 42 32 100 105 99 116 10'
+zz=:zz,'5 111 110 97 114 121 46 13 10 77 111 114 101 32 115 116 97 98 108 1'
+zz=:zz,'01 32 115 121 115 116 101 109 32 99 111 100 101 32 105 115 32 102 1'
+zz=:zz,'11 117 110 100 32 105 110 32 34 100 101 101 112 101 114 34 32 97 11'
+zz=:zz,'4 99 104 105 118 97 108 32 13 10 100 105 99 116 105 111 110 97 114 '
+zz=:zz,'105 101 115 32 97 110 100 32 102 105 110 97 108 108 121 32 99 111 1'
+zz=:zz,'09 109 111 110 32 103 101 110 101 114 105 99 32 117 116 105 108 105'
+zz=:zz,' 116 105 101 115 13 10 116 101 114 109 105 110 97 116 101 32 116 10'
+zz=:zz,'4 101 32 112 97 116 104 46 13 10 13 10 84 104 105 115 32 97 114 114'
+zz=:zz,' 97 110 103 101 109 101 110 116 32 98 114 105 110 103 115 32 109 97'
+zz=:zz,' 110 121 32 98 101 110 101 102 105 116 115 46 32 73 102 32 121 111 '
+zz=:zz,'117 32 101 100 105 116 13 10 97 32 119 111 114 100 32 116 104 97 11'
+zz=:zz,'6 32 105 115 32 100 101 102 105 110 101 100 32 100 101 101 112 101 '
+zz=:zz,'114 32 111 110 32 116 104 101 32 112 97 116 104 32 116 104 101 32 1'
+zz=:zz,'3 10 111 114 105 103 105 110 97 108 32 119 111 114 100 32 105 115 3'
+zz=:zz,'2 114 101 116 97 105 110 101 100 32 42 117 110 99 104 97 110 103 10'
+zz=:zz,'1 100 46 42 32 68 117 109 112 115 44 32 13 10 98 97 99 107 117 112 '
+zz=:zz,'115 32 97 110 100 32 114 101 45 114 101 102 101 114 101 110 99 105 '
+zz=:zz,'110 103 32 111 112 101 114 97 116 105 111 110 115 32 97 114 101 32 '
+zz=:zz,'109 117 99 104 32 102 97 115 116 101 114 13 10 97 115 32 116 104 10'
+zz=:zz,'1 121 32 97 114 101 32 119 111 114 107 105 110 103 32 119 105 116 1'
+zz=:zz,'04 32 108 101 115 115 32 109 97 116 101 114 105 97 108 46 32 65 110'
+zz=:zz,' 100 44 32 105 102 32 13 10 121 111 117 32 115 101 116 32 97 108 10'
+zz=:zz,'8 32 98 117 116 32 116 104 101 32 112 117 116 32 100 105 99 116 105'
+zz=:zz,' 111 110 97 114 121 32 96 82 69 65 68 79 78 76 89 96 44 32 121 111 '
+zz=:zz,'117 13 10 112 114 101 118 101 110 116 32 97 99 99 105 100 101 110 1'
+zz=:zz,'16 97 108 32 99 104 97 110 103 101 115 32 116 111 32 115 116 97 98 '
+zz=:zz,'108 101 32 99 111 100 101 46 13 10 13 10 13 10 91 94 49 93 58 32 84'
+zz=:zz,' 104 101 32 102 105 114 115 116 32 100 105 99 116 105 111 110 97 11'
+zz=:zz,'4 121 32 111 110 32 97 32 74 79 68 32 112 97 116 104 32 105 115 32 '
+zz=:zz,'99 97 108 108 101 100 32 13 10 32 32 32 32 32 32 116 104 101 32 42 '
+zz=:zz,'112 117 116 32 100 105 99 116 105 111 110 97 114 121 46 42{a.      '
+zz=:3411{.zz
 showpass 5 put >1{,".".'zz_',SOLOCALE,'_' [ cocurrent 'base'  NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
