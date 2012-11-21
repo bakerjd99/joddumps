@@ -1,10 +1,10 @@
-NB. JOD dictionary dump: 15 Nov 2012 01:06:52
-NB. Generated with JOD version; 0.9.90; 15; 3 Nov 2012 15:32:48
+NB. JOD dictionary dump: 16 Nov 2012 23:37:22
+NB. Generated with JOD version; 0.9.90; 21; 16 Nov 2012 23:04:32
 NB.
 NB. Names & DidNums on current path
-NB. +-----+-------------------------------------+
-NB. |mwecc|4122760148766630843845336771964851015|
-NB. +-----+-------------------------------------+
+NB. +-----+--------------------------------------+
+NB. |mwecc|11084218849564137687585789117183520528|
+NB. +-----+--------------------------------------+
 
 9!:41 [ 1 NB.{*JOD*}
 cocurrent 'base' NB.{*JOD*}
