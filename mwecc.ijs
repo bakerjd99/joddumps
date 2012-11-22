@@ -1,5 +1,4 @@
-
-NB. JOD dictionary dump: 20 Nov 2012 17:08:22
+NB. JOD dictionary dump: 21 Nov 2012 16:48:48
 NB. Generated with JOD version; 0.9.90; 22; 19 Nov 2012 11:09:06
 NB.
 NB. Names & DidNums on current path
@@ -2125,6 +2124,48 @@ bytebits2=:1 = (8$2) #: a. i. ]
 
 create=:'jhs - create page stub'"_
 
+cwfregression=:3 : 0
+
+NB.*cwfregression v-- bcamaint country wide frequency regression.
+NB.
+NB. monad:  bl?? =. cwfregression bl??
+
+'a b f'=. y  NB. x y v -- renamed APL 
+
+n1=. x1=. f#a [ y1=. f#b [ f=. -.f
+
+bvkeep=. (+/f)$0
+params=. 0 0
+
+if. n1 > 2 do.
+
+  NB. remove influential points
+  p=. x1 ,. n1$1
+  params=. (ln y1) %. p
+  
+  NB. HAT statistics
+  h=. 1 1 |: (p +/ . * %. (|:p) +/ . * p) +/ . * |:p  
+ 
+  yf1=. p +/ . * params   NB. fitted y-values 
+  se=. (yf1 - ln y1) ^ 2  NB. squared residuals
+  s2=. % (+/se) % n1 - 2  NB. inverse variance of estimate
+  sse=. +/se              NB. sum of squared errors
+  
+  NB. T-statistic
+  tx=. ((se * n1 - 3) % (sse * 1 - h) - se) ^ 0.5
+  bvkeep=. (|tx) < (<n1-2;2){pvalue 0
+  n2=. {.$ x2=. bvkeep#x1 [ y2=. bvkeep#y1 
+  
+  if. n2 > 2 do.
+    p=. x1 ,. n1$1
+    params=. (ln y1) %. p
+  end.
+  
+end.
+
+params ; f #^:_1 bvkeep
+)
+
 d6=:3 : 0
 
 NB.*d6 v-- convert 7 column integer array timestamps to 6 bytes.
@@ -3059,16 +3100,18 @@ NB. monad:  pa =. isu8 uu
 if. isint y=. ,y do. *./((<./ , >./) y) e. i. 256 else. 0 end.
 )
 
-ivt=:, ,.~ ([: {: $) | [: i. [: */ $
-
 showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 
 
+ivt=:, ,.~ ([: {: $) | [: i. [: */ $
+
 iwrite=:1!:12 ::(_1:)
 
 jev_get=:create
+
+ln=:] ((_1000000 * ]) + [: ^. +) 0 >: ]
 
 lrpColumns=:4 : 0
 
@@ -3134,6 +3177,125 @@ NB.
 NB. monad:  il =. primarytriidx baObj
 
 TotalColCnt__y + i. ToiLosses__y
+)
+
+pvalue=:3 : 0
+
+NB.*pvalue v-- construct the T-table for P Value = 0.5%
+NB.
+NB. monad:  ft=. pvalue uuIgnore
+
+r=. 1 2$  1 63.6572395519288
+r=. r,    2  9.9248037648321776
+r=. r,    3  5.8409256089325936
+r=. r,    4  4.604084475660784
+r=. r,    5  4.0321509072782648
+r=. r,    6  3.7074214101412512
+r=. r,    7  3.4994891068890864
+r=. r,    8  3.3553820565975912
+r=. r,    9  3.2498404344623852
+r=. r,   10  3.1692680644446228
+r=. r,   11  3.1058109035475356
+r=. r,   12  3.0545353762681772
+r=. r,   13  3.012279908227356
+r=. r,   14  2.9768387822223304
+r=. r,   15  2.94671673535413
+r=. r,   16  2.9207778549862268
+r=. r,   17  2.8982342135386716
+r=. r,   18  2.878436841765506
+r=. r,   19  2.8609381804817532
+r=. r,   20  2.8453361846295592
+r=. r,   21  2.8313630378652304
+r=. r,   22  2.8187526194778912
+r=. r,   23  2.807339087357832
+r=. r,   24  2.7969361322284384
+r=. r,   25  2.7874391550103608
+r=. r,   26  2.7787112185869772
+r=. r,   27  2.7706862465820448
+r=. r,   28  2.7632591889960168
+r=. r,   29  2.756389148951712
+r=. r,   30  2.749992426728568
+r=. r,   31  2.7440451264374132
+r=. r,   32  2.73847829186343
+r=. r,   33  2.733279815871356
+r=. r,   34  2.728391207052482
+r=. r,   35  2.7238087341502252
+r=. r,   36  2.7194814979266084
+r=. r,   37  2.715411840861634
+r=. r,   38  2.7115544937369124
+r=. r,   39  2.707916280862264
+r=. r,   40  2.7044561800248628
+r=. r,   41  2.701184379428014
+r=. r,   42  2.698063118466962
+r=. r,   43  2.6951051367177568
+r=. r,   44  2.692275214863912
+r=. r,   45  2.6895880603951808
+r=. r,   46  2.6870104579247708
+r=. r,   47  2.6845586449016992
+r=. r,   48  2.6822010064897768
+r=. r,   49  2.6799549859533728
+r=. r,   50  2.6777902635913052
+r=. r,   51  2.675725233490084
+r=. r,   52  2.6737306362592788
+r=. r,   53  2.6718256237618336
+r=. r,   54  2.6699818125161984
+r=. r,   55  2.6682189652165108
+r=. r,   56  2.666509424463584
+r=. r,   57  2.6648734499722196
+r=. r,   58  2.6632839908525056
+r=. r,   59  2.661761710198334
+r=. r,   60  2.660280074309412
+r=. r,   61  2.6588600761861016
+r=. r,   62  2.6574756186419108
+r=. r,   63  2.6561479669580876
+r=. r,   64  2.654851398514438
+r=. r,   65  2.6536074033319892
+r=. r,   66  2.652390584375098
+r=. r,   67  2.6512226117447428
+r=. r,   68  2.650078375092562
+r=. r,   69  2.6489796943460532
+r=. r,   70  2.6479017055062288
+r=. r,   71  2.6468663581581496
+r=. r,   72  2.6458490015174904
+r=. r,   73  2.6448716903360036
+r=. r,   74  2.6439099654344316
+r=. r,   75  2.6429859694435436
+r=. r,   76  2.6420754131795548
+r=. r,   77  2.6412005084239352
+r=. r,   78  2.6403371201413392
+r=. r,   79  2.6395075191794604
+r=. r,   80  2.6386877059230756
+r=. r,   81  2.6379000002016256
+r=. r,   82  2.6371205248542536
+r=. r,   83  2.63637164004831
+r=. r,   84  2.635629576670908
+r=. r,   85  2.6349167309053884
+r=. r,   86  2.6342094316023576
+r=. r,   87  2.6335301037579484
+r=. r,   88  2.6328551655424236
+r=. r,   89  2.6322070621208696
+r=. r,   90  2.6315622966612864
+r=. r,   91  2.6309433301757964
+r=. r,   92  2.6303267421862984
+r=. r,   93  2.6297350081113108
+r=. r,   94  2.629144776623434
+r=. r,   95  2.6285785303443844
+r=. r,   96  2.628012984216184
+r=. r,   97  2.6274706309450268
+r=. r,   98  2.6269282402172392
+r=. r,   99  2.6264083105015744
+r=. r,  100  2.6258876691099432
+r=. r,  110  2.621261704738572
+r=. r,  120  2.617418317411648
+r=. r,  130  2.6141744191227188
+r=. r,  140  2.6113999013869032
+r=. r,  150  2.6089997626659168
+r=. r,  160  2.6069030197650136
+r=. r,  170  2.60505556802309
+r=. r,  180  2.6034154416083764
+r=. r,  190  2.6019495965701936
+r=. r,  200  2.6006316576786048
+    r,    0  2.596
 )
 
 secondarytriidx=:3 : 0
@@ -3397,7 +3559,7 @@ showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:''
-zz=:zz,'173 2$<;._1 ''|APL385Unicode|Adrian Smith APL385 Unicode font encodi'
+zz=:zz,'176 2$<;._1 ''|APL385Unicode|Adrian Smith APL385 Unicode font encodi'
 zz=:zz,'ng|APL385UnicodeTest|generates UTF8 encoded APL test text|AceDbi|db'
 zz=:zz,'i files accessed by ACE|AddTOILossFDFFields|adds two new test field'
 zz=:zz,'s to FDF files|AlertAgeHistSQL|CTE SQLServer query that computes fu'
@@ -3486,51 +3648,53 @@ zz=:zz,'nd policy periods|ablpycls|factors to current benefits levels for s'
 zz=:zz,'tate from ultimate Z losses|bytebits|8 bit patterns for bytes - int'
 zz=:zz,'ernal rep must be boolean|bytebits2|8 bit patterns for bytes - inte'
 zz=:zz,'rnal rep must be boolean|create|jhs - create page verb - overridden'
-zz=:zz,' in header|d6|convert 7 column integer array timestamps to 6 bytes|'
-zz=:zz,'dbicheckdata|tests field name/data table|dbicnvfield|converts field'
-zz=:zz,' bytes to J datatype|dbicreate|create dbi file|dbifieldtypes|field '
-zz=:zz,'types from metadata|dbiheader|format dbi metadata header|dbimetadat'
-zz=:zz,'a|extracts dbi file metadata|dbinamecheck|check dbi table and field'
-zz=:zz,' names|dbioffsets|compute byte offsets to fields and total dbi byte'
-zz=:zz,'s|dbiparseheader|parses dbi file header|dbiparsetypes|checks and pa'
-zz=:zz,'rses field types|dbiread|read dbi file|dbireplace|replace some dbi '
-zz=:zz,'fields|dbirepsnc|replace special APL name characters|dbitemplate|(x'
-zz=:zz,') argument for (dbicreate) from dbi file|dbitestnrf|test record cou'
-zz=:zz,'nt against field lengths and return correct value|dbiwrite|write fi'
-zz=:zz,'eld data to dbi file|dbiwriteall|rewrite all dbi fields|dbiwritefie'
-zz=:zz,'lds|write dbi fields|div|divide with zero denominators 0 = x%0 for '
-zz=:zz,'all x|f64|convert floating array to double 64 bit binary|fch|ddfch '
-zz=:zz,'sql data|fet|ddfet sql data|fetch|ddfch sql data|fresize|resize fil'
-zz=:zz,'e|i16|convert integer array to sets of 2 bytes|i32|convert integer '
-zz=:zz,'array to sets of 4 bytes|insqlfrtd|table insert sql from btcl|iread'
-zz=:zz,'|indexed file read - returns cl bytes if successful _1 otherwise|is'
-zz=:zz,'cfield|basic type test for character field|isd6|1 if (y) is represe'
-zz=:zz,'ntable as a 6 byte timestamps 0 otherwise|isf64|1 if (y) is f64 rep'
-zz=:zz,'resentable 0 otherwise|isi16|1 if (y) is (signed) i16 representable'
-zz=:zz,' 0 otherwise|isi32|1 if (y) is (signed) i32 representable 0 otherwi'
-zz=:zz,'se|isu1|1 if (u) is u1 representable 0 otherwise|isu4|1 if (y) is u'
-zz=:zz,'4 representable 0 otherwise|isu8|1 if (y) is u8 representable 0 oth'
-zz=:zz,'erwise|iwrite|indexed file write|lrpColumns|returns table columns f'
-zz=:zz,'or SQLServer lrp tables|lrpSpSQL|an example of an lrpCommon quote s'
-zz=:zz,'tored procedure SQL|policyperiods|YYYYMMYYYYMM policy period intege'
-zz=:zz,'rs to (YYYYMMStart ,"0 YYYYMMEnd) table|portalcsv|reads and parses '
-zz=:zz,'the *.csv files saved by the portal|primarytriidx|primary triangle '
-zz=:zz,'index|secondarytriidx|secondary triangle index|skin|scattered key i'
-zz=:zz,'nsert|skin2|scattered key insert|spcrep|form special character repl'
-zz=:zz,'acements|spunquote|unquotes lrp sql stored procedure text|sqlitetsm'
-zz=:zz,'p|format timestamp for SQLite inserts|sqrquote|enclose in square []'
-zz=:zz,' brackets|stafrstc|state abbreviations from state codes|stcblevels|'
-zz=:zz,'1 if state has benefit levels 0 otherwise|stcfrstn|state codes from'
-zz=:zz,' blcl of state names|t7stmp|format 7 integer item timestamp yr mn d'
-zz=:zz,'y hr mn ss mss|tddny|@date / YYYYMMDD day constants|ts6Frts7|6 byte'
-zz=:zz,' representation from 7 integer column timestamp|ts7Frts6|7 integer '
-zz=:zz,'column timestamp from 6 byte representation|u1|convert boolean arra'
-zz=:zz,'y to u1 character|u4|convert integer array to 4 bit unsigned intege'
-zz=:zz,'rs|u8|convert integer array to 8 bit unsigned integers|writecsv|wri'
-zz=:zz,'te btcl as CRLF delimited comma separated file|yearbump|bumps dates'
-zz=:zz,' in @DATE format up one year|ymdfrsqld|YYYYMMDD dates from SQLServe'
-zz=:zz,'r ddfch dates''                                                     '
-zz=:8858{.zz
+zz=:zz,' in header|cwfregression|bcamaint country wide frequency regression'
+zz=:zz,'|d6|convert 7 column integer array timestamps to 6 bytes|dbicheckda'
+zz=:zz,'ta|tests field name/data table|dbicnvfield|converts field bytes to '
+zz=:zz,'J datatype|dbicreate|create dbi file|dbifieldtypes|field types from'
+zz=:zz,' metadata|dbiheader|format dbi metadata header|dbimetadata|extracts'
+zz=:zz,' dbi file metadata|dbinamecheck|check dbi table and field names|dbi'
+zz=:zz,'offsets|compute byte offsets to fields and total dbi bytes|dbiparse'
+zz=:zz,'header|parses dbi file header|dbiparsetypes|checks and parses field'
+zz=:zz,' types|dbiread|read dbi file|dbireplace|replace some dbi fields|dbi'
+zz=:zz,'repsnc|replace special APL name characters|dbitemplate|(x) argument'
+zz=:zz,' for (dbicreate) from dbi file|dbitestnrf|test record count against'
+zz=:zz,' field lengths and return correct value|dbiwrite|write field data t'
+zz=:zz,'o dbi file|dbiwriteall|rewrite all dbi fields|dbiwritefields|write '
+zz=:zz,'dbi fields|div|divide with zero denominators 0 = x%0 for all x|f64|'
+zz=:zz,'convert floating array to double 64 bit binary|fch|ddfch sql data|f'
+zz=:zz,'et|ddfet sql data|fetch|ddfch sql data|fresize|resize file|i16|conv'
+zz=:zz,'ert integer array to sets of 2 bytes|i32|convert integer array to s'
+zz=:zz,'ets of 4 bytes|insqlfrtd|table insert sql from btcl|iread|indexed f'
+zz=:zz,'ile read - returns cl bytes if successful _1 otherwise|iscfield|bas'
+zz=:zz,'ic type test for character field|isd6|1 if (y) is representable as '
+zz=:zz,'a 6 byte timestamps 0 otherwise|isf64|1 if (y) is f64 representable'
+zz=:zz,' 0 otherwise|isi16|1 if (y) is (signed) i16 representable 0 otherwi'
+zz=:zz,'se|isi32|1 if (y) is (signed) i32 representable 0 otherwise|isu1|1 '
+zz=:zz,'if (u) is u1 representable 0 otherwise|isu4|1 if (y) is u4 represen'
+zz=:zz,'table 0 otherwise|isu8|1 if (y) is u8 representable 0 otherwise|iwr'
+zz=:zz,'ite|indexed file write|ln|natural logs - replace 0''''s with _1e6|lrp'
+zz=:zz,'Columns|returns table columns for SQLServer lrp tables|lrpSpSQL|an '
+zz=:zz,'example of an lrpCommon quote stored procedure SQL|policyperiods|YY'
+zz=:zz,'YYMMYYYYMM policy period integers to (YYYYMMStart ,"0 YYYYMMEnd) ta'
+zz=:zz,'ble|portalcsv|reads and parses the *.csv files saved by the portal|'
+zz=:zz,'primarytriidx|primary triangle index|pvalue|construct the T-table f'
+zz=:zz,'or P Value = 0|secondarytriidx|secondary triangle index|skin|scatte'
+zz=:zz,'red key insert|skin2|scattered key insert|spcrep|form special chara'
+zz=:zz,'cter replacements|spunquote|unquotes lrp sql stored procedure text|'
+zz=:zz,'sqlitetsmp|format timestamp for SQLite inserts|sqrquote|enclose in '
+zz=:zz,'square [] brackets|stafrstc|state abbreviations from state codes|st'
+zz=:zz,'cblevels|1 if state has benefit levels 0 otherwise|stcfrstn|state c'
+zz=:zz,'odes from blcl of state names|t7stmp|format 7 integer item timestam'
+zz=:zz,'p yr mn dy hr mn ss mss|tddny|@date / YYYYMMDD day constants|ts6Frt'
+zz=:zz,'s7|6 byte representation from 7 integer column timestamp|ts7Frts6|7'
+zz=:zz,' integer column timestamp from 6 byte representation|u1|convert boo'
+zz=:zz,'lean array to u1 character|u4|convert integer array to 4 bit unsign'
+zz=:zz,'ed integers|u8|convert integer array to 8 bit unsigned integers|wri'
+zz=:zz,'tecsv|write btcl as CRLF delimited comma separated file|yearbump|bu'
+zz=:zz,'mps dates in @DATE format up one year|ymdfrsqld|YYYYMMDD dates from'
+zz=:zz,' SQLServer ddfch dates''                                            '
+zz=:9001{.zz
 showpass 0 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
@@ -4332,46 +4496,46 @@ zz=:zz,'dQtSchedZ BCAmaintTestPath ClassesSQL ExclassesSQL IFACEWORDSRecode'
 zz=:zz,'SchedZ InjuryColumn MaintReadAZHdr NewCodeDensity ROOTWORDSRecodeSc'
 zz=:zz,'hedZ RecodeRtr RecodeSchedZ SchedZEncode SchedZFile SchedZSQL Selec'
 zz=:zz,'tStateCodeSQL StatesSQL ValidNewTOICodes ValidOldTOICodes WriteReco'
-zz=:zz,'deSchedZFiles writecsv''),(<(<''CountryWide''),<0$a:),(<<;._1 '' FuzzyA'
-zz=:zz,'lerts AlertAgeHistSQL AlertAgeHistTpaSQL AlertAgeHistogram AlertAge'
-zz=:zz,'SQL AlertTpaSQL DayAgeIntervals FuzzyAlertSummary FuzzyAlertSummary'
-zz=:zz,'2 FuzzyAlertTPA FuzzyAlertTPA2 IFACEWORDSFuzzyAlerts ROOTWORDSFuzzy'
-zz=:zz,'Alerts assert changestr dayage fch fet histogram histogram2 rebtbco'
-zz=:zz,'l today todayno ymdfrsqld''),(<<;._1 '' ICD ICD10cmTable ICD9cmTable '
-zz=:zz,'ICD9diagSql alltrim beforestr betweenstrs geteletext read readtd2 t'
-zz=:zz,'ags''),(<<;._1 '' RecodeSchedZ AddTOILossFDFFields CR CRLF IFACEWORDS'
-zz=:zz,'RecodeSchedZ InjuryColumn NewCodeDensity ROOTWORDSRecodeSchedZ Reco'
-zz=:zz,'deRtr RecodeSchedZ SchedZEncode ValidNewTOICodes ValidOldTOICodes W'
-zz=:zz,'riteRecodeSchedZFiles assert ctl erase read readcsv toCRLF toHOST t'
-zz=:zz,'oJ write writecsv''),(<<;._1 '' UltimateLosses BCAMaintCss BCAMaintHt'
-zz=:zz,'ml BCAcommonMagic CSS CSSCORE CalcFCBLCls CalcFCBLSW CalcUltLxCls C'
-zz=:zz,'reateUltCl Data3Files HBS IFACEWORDSUltimateLosses InitClass InitSt'
-zz=:zz,'ate JS MakeTriCls NDM ROOTWORDSUltimateLosses ReadRTRBmkSW ReadSche'
-zz=:zz,'dAZHeader ReadSchedZ ReadUltLx SetBCAMaintEnv TD5toTD8 TD8toTD5 TOI'
-zz=:zz,'Off WriteUltLxCls ablpy ablpycls alltrim assert boxopen create eras'
-zz=:zz,'e fboxname ferase fexist leap nob policyperiods primarytriidx rebc '
-zz=:zz,'secondarytriidx skin2 stafrstc stcfrstn tddny tolower yearbump''),(<'
-zz=:zz,'<;._1 '' dbi DBIBASETYPES DBISPECIAL DBIVERSION IFACEWORDSdbi ROOTWO'
-zz=:zz,'RDSdbi apply assert boxopen bytebits changestr d6 dbicheckdata dbic'
-zz=:zz,'reate dbifieldtypes dbiheader dbimetadata dbinamecheck dbioffsets d'
-zz=:zz,'biparseheader dbiparsetypes dbiread dbirepsnc dbitemplate dbitestnr'
-zz=:zz,'f dbiwrite dbiwritefields dfb f64 fboxname fc fexist fresize fsize '
-zz=:zz,'fwrite hfd i16 i32 ic iread isboxed iscfield ischar isd6 isf64 isi1'
-zz=:zz,'6 isi32 isint isu1 isu4 isu8 iwrite justext mode2 rtrim spcrep t7st'
-zz=:zz,'mp tolower toupper ts6Frts7 ts7Frts6 u1 u4 u8 utf8 valdate''),(<<;._'
-zz=:zz,'1 '' dbicreate dbimetadata dbiread dbitemplate dbiwrite''),(<<;._1 '' '
-zz=:zz,'dbimodelsample AceDbi DbiModelStates LoadDbiModel LoadLxcostFrDbi'')'
-zz=:zz,',(<<;._1 '' dbisqlite AceDbi CR CRLF CreateSQLite DBIDEL DBIPKEY DBI'
-zz=:zz,'SFX DbMk DbStates DbiFormatImportData DbiImportData DbiLoadFiles Db'
-zz=:zz,'iModelLoadPath DbiModelStates DbiPath InsertToiColumn LF LoadAvgaad'
-zz=:zz,'FrDbi LoadBlcFrDbi LoadClassesFrDbi LoadDbiModel LoadLxcostFrDbi Lo'
-zz=:zz,'adLxcppdFrDbi LoadStatesFrDbi NewVersion ROOTWORDSdbisqlite SQLiteF'
-zz=:zz,'rDbi SQLiteTypes StateFrPath ToiCodes afterlaststr alltrim beforela'
-zz=:zz,'ststr beforestr ctl fappend ferase fuserows quote read rebc showpas'
-zz=:zz,'s sqlitetsmp tlf toCRLF toHOST toJ tslash write''),(<<;._1 '' dbitest'
-zz=:zz,'er valdate yeardates''),<<;._1 '' ijfFrsf BCAijfFrsf boxopen fboxname'
-zz=:zz,' ferase fexist smoutput tslash''                                    '
-zz=:2912{.zz
+zz=:zz,'deSchedZFiles writecsv''),(<<;._1 '' CountryWide cwfregression pvalue'
+zz=:zz,'''),(<<;._1 '' FuzzyAlerts AlertAgeHistSQL AlertAgeHistTpaSQL AlertAg'
+zz=:zz,'eHistogram AlertAgeSQL AlertTpaSQL DayAgeIntervals FuzzyAlertSummar'
+zz=:zz,'y FuzzyAlertSummary2 FuzzyAlertTPA FuzzyAlertTPA2 IFACEWORDSFuzzyAl'
+zz=:zz,'erts ROOTWORDSFuzzyAlerts assert changestr dayage fch fet histogram'
+zz=:zz,' histogram2 rebtbcol today todayno ymdfrsqld''),(<<;._1 '' ICD ICD10c'
+zz=:zz,'mTable ICD9cmTable ICD9diagSql alltrim beforestr betweenstrs getele'
+zz=:zz,'text read readtd2 tags''),(<<;._1 '' RecodeSchedZ AddTOILossFDFFields'
+zz=:zz,' CR CRLF IFACEWORDSRecodeSchedZ InjuryColumn NewCodeDensity ROOTWOR'
+zz=:zz,'DSRecodeSchedZ RecodeRtr RecodeSchedZ SchedZEncode ValidNewTOICodes'
+zz=:zz,' ValidOldTOICodes WriteRecodeSchedZFiles assert ctl erase read read'
+zz=:zz,'csv toCRLF toHOST toJ write writecsv''),(<<;._1 '' UltimateLosses BCA'
+zz=:zz,'MaintCss BCAMaintHtml BCAcommonMagic CSS CSSCORE CalcFCBLCls CalcFC'
+zz=:zz,'BLSW CalcUltLxCls CreateUltCl Data3Files HBS IFACEWORDSUltimateLoss'
+zz=:zz,'es InitClass InitState JS MakeTriCls NDM ROOTWORDSUltimateLosses Re'
+zz=:zz,'adRTRBmkSW ReadSchedAZHeader ReadSchedZ ReadUltLx SetBCAMaintEnv TD'
+zz=:zz,'5toTD8 TD8toTD5 TOIOff WriteUltLxCls ablpy ablpycls alltrim assert '
+zz=:zz,'boxopen create erase fboxname ferase fexist leap nob policyperiods '
+zz=:zz,'primarytriidx rebc secondarytriidx skin2 stafrstc stcfrstn tddny to'
+zz=:zz,'lower yearbump''),(<<;._1 '' dbi DBIBASETYPES DBISPECIAL DBIVERSION I'
+zz=:zz,'FACEWORDSdbi ROOTWORDSdbi apply assert boxopen bytebits changestr d'
+zz=:zz,'6 dbicheckdata dbicreate dbifieldtypes dbiheader dbimetadata dbinam'
+zz=:zz,'echeck dbioffsets dbiparseheader dbiparsetypes dbiread dbirepsnc db'
+zz=:zz,'itemplate dbitestnrf dbiwrite dbiwritefields dfb f64 fboxname fc fe'
+zz=:zz,'xist fresize fsize fwrite hfd i16 i32 ic iread isboxed iscfield isc'
+zz=:zz,'har isd6 isf64 isi16 isi32 isint isu1 isu4 isu8 iwrite justext mode'
+zz=:zz,'2 rtrim spcrep t7stmp tolower toupper ts6Frts7 ts7Frts6 u1 u4 u8 ut'
+zz=:zz,'f8 valdate''),(<<;._1 '' dbicreate dbimetadata dbiread dbitemplate db'
+zz=:zz,'iwrite''),(<<;._1 '' dbimodelsample AceDbi DbiModelStates LoadDbiMode'
+zz=:zz,'l LoadLxcostFrDbi''),(<<;._1 '' dbisqlite AceDbi CR CRLF CreateSQLite'
+zz=:zz,' DBIDEL DBIPKEY DBISFX DbMk DbStates DbiFormatImportData DbiImportD'
+zz=:zz,'ata DbiLoadFiles DbiModelLoadPath DbiModelStates DbiPath InsertToiC'
+zz=:zz,'olumn LF LoadAvgaadFrDbi LoadBlcFrDbi LoadClassesFrDbi LoadDbiModel'
+zz=:zz,' LoadLxcostFrDbi LoadLxcppdFrDbi LoadStatesFrDbi NewVersion ROOTWOR'
+zz=:zz,'DSdbisqlite SQLiteFrDbi SQLiteTypes StateFrPath ToiCodes afterlasts'
+zz=:zz,'tr alltrim beforelaststr beforestr ctl fappend ferase fuserows quot'
+zz=:zz,'e read rebc showpass sqlitetsmp tlf toCRLF toHOST toJ tslash write'''
+zz=:zz,'),(<<;._1 '' dbitester valdate yeardates''),<<;._1 '' ijfFrsf BCAijfFr'
+zz=:zz,'sf boxopen fboxname ferase fexist smoutput tslash''                 '
+zz=:2931{.zz
 showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
