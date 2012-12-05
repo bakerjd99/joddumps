@@ -1,4 +1,4 @@
-NB. JOD dictionary dump:  5 Dec 2012 12:00:57
+NB. JOD dictionary dump:  5 Dec 2012 17:20:33
 NB. Generated with JOD version; 0.9.90; 22; 19 Nov 2012 11:09:06
 NB.
 NB. Names & DidNums on current path
@@ -2962,6 +2962,28 @@ else.
 end.
 )
 
+dcascii2apl=:3 : 0
+
+NB.*dcascii2apl v-- decomment APL code in the Weigang ASCII2APL format.
+NB.
+NB. monad:  dcascii2apl 
+NB. dyad:  ?? dcascii2apl ??
+                                                                                                                                 
+1 dcascii2apl y                                                      
+:
+NB. mask of unquoted comment starts                              
+c=. ($y)$'@' E. ,y                                           
+c=. +./\"1 c > ~:/\"1 y e. ''''                                 
+y=. ,y                                                         
+                                                                 
+NB. blank out comments                                      
+y=. ' ' (I. ,c)} y                                     
+y=. y $~ $c                                                    
+                                                                 
+NB. remove blank lines - default                                 
+if. x do. y #~ y +./ . ~: ' ' end.                            
+)
+
 dhjsonfrbtcl=:3 : 0
 
 NB.*dhjsonfrbtcl v-- DHTMLX json from btcl.
@@ -3195,12 +3217,12 @@ NB. dyda:  clSql =. clTable insqlfrtd btcl
 sql=. 'INSERT INTO ',(alltrim x),' (',(}.; ',' ,&.> sqrquote alltrim&.> 0{y),')',LF,'VALUES'
 )
 
-iread=:1!:11 ::(_1:)
-
 showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 
+
+iread=:1!:11 ::(_1:)
 
 iscfield=:3 : 0
 
@@ -3797,7 +3819,7 @@ showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:''
-zz=:zz,'194 2$<;._1 ''|APL385Unicode|Adrian Smith APL385 Unicode font encodi'
+zz=:zz,'195 2$<;._1 ''|APL385Unicode|Adrian Smith APL385 Unicode font encodi'
 zz=:zz,'ng|APL385UnicodeTest|generates UTF8 encoded APL test text|AceDbi|db'
 zz=:zz,'i files accessed by ACE|AddTOILossFDFFields|adds two new test field'
 zz=:zz,'s to FDF files|AlertAgeHistSQL|CTE SQLServer query that computes fu'
@@ -3904,48 +3926,49 @@ zz=:zz,'ce some dbi fields|dbirepsnc|replace special APL name characters|db'
 zz=:zz,'itemplate|(x) argument for (dbicreate) from dbi file|dbitestnrf|tes'
 zz=:zz,'t record count against field lengths and return correct value|dbiwr'
 zz=:zz,'ite|write field data to dbi file|dbiwriteall|rewrite all dbi fields'
-zz=:zz,'|dbiwritefields|write dbi fields|dhjsonfrbtcl|DHTMLX json from btcl'
-zz=:zz,'|dhjsonfrnt2|DHTMLX json from numeric table|div|divide with zero de'
-zz=:zz,'nominators 0 = x%0 for all x|djaxmath|MathJax LaTeX display math|f6'
-zz=:zz,'4|convert floating array to double 64 bit binary|fch|ddfch sql data'
-zz=:zz,'|fet|ddfet sql data|fetch|ddfch sql data|fresize|resize file|gridda'
-zz=:zz,'terr|form error JASEP result|griddatfrtd|format grid data from TAB '
-zz=:zz,'delimited text file for JHS & DHTMLX|i16|convert integer array to s'
-zz=:zz,'ets of 2 bytes|i32|convert integer array to sets of 4 bytes|insqlfr'
-zz=:zz,'td|table insert sql from btcl|iread|indexed file read - returns cl '
-zz=:zz,'bytes if successful _1 otherwise|iscfield|basic type test for chara'
-zz=:zz,'cter field|isd6|1 if (y) is representable as a 6 byte timestamps 0 '
-zz=:zz,'otherwise|isf64|1 if (y) is f64 representable 0 otherwise|isi16|1 i'
-zz=:zz,'f (y) is (signed) i16 representable 0 otherwise|isi32|1 if (y) is ('
-zz=:zz,'signed) i32 representable 0 otherwise|isu1|1 if (u) is u1 represent'
-zz=:zz,'able 0 otherwise|isu4|1 if (y) is u4 representable 0 otherwise|isu8'
-zz=:zz,'|1 if (y) is u8 representable 0 otherwise|iwrite|indexed file write'
-zz=:zz,'|ln|natural logs - replace 0''''s with _1e6|lrpColumns|returns table '
-zz=:zz,'columns for SQLServer lrp tables|lrpSpSQL|an example of an lrpCommo'
-zz=:zz,'n quote stored procedure SQL|makeGridDemoTestFiles|generate test TA'
-zz=:zz,'B delimited files for GridDemo|navul|page navigation links - overri'
-zz=:zz,'de in header|oltypeset|generate ordered list of typeset buttons|pol'
-zz=:zz,'icyperiods|YYYYMMYYYYMM policy period integers to (YYYYMMStart ,"0 '
-zz=:zz,'YYYYMMEnd) table|portalcsv|reads and parses the *.csv files saved b'
-zz=:zz,'y the portal|primarytriidx|primary triangle index|pvalue|construct '
-zz=:zz,'the T-table for P Value = 0|randomtstamps|valid random time stamps|'
-zz=:zz,'secondarytriidx|secondary triangle index|skin|scattered key insert|'
-zz=:zz,'skin2|scattered key insert|spcrep|form special character replacemen'
-zz=:zz,'ts|spunquote|unquotes lrp sql stored procedure text|sqlitetsmp|form'
-zz=:zz,'at timestamp for SQLite inserts|sqrquote|enclose in square [] brack'
-zz=:zz,'ets|stafrstc|state abbreviations from state codes|stcblevels|1 if s'
-zz=:zz,'tate has benefit levels 0 otherwise|stcfrstn|state codes from blcl '
-zz=:zz,'of state names|t7stmp|format 7 integer item timestamp yr mn dy hr m'
-zz=:zz,'n ss mss|tabledesc|random table description text|tddny|@date / YYYY'
-zz=:zz,'MMDD day constants|tmjx|suppress default style of (thh)|ts6Frts7|6 '
-zz=:zz,'byte representation from 7 integer column timestamp|ts7Frts6|7 inte'
-zz=:zz,'ger column timestamp from 6 byte representation|u1|convert boolean '
-zz=:zz,'array to u1 character|u4|convert integer array to 4 bit unsigned in'
-zz=:zz,'tegers|u8|convert integer array to 8 bit unsigned integers|writecsv'
-zz=:zz,'|write btcl as CRLF delimited comma separated file|yearbump|bumps d'
-zz=:zz,'ates in @DATE format up one year|ymdfrsqld|YYYYMMDD dates from SQLS'
-zz=:zz,'erver ddfch dates''                                                 '
-zz=:9867{.zz
+zz=:zz,'|dbiwritefields|write dbi fields|dcascii2apl|decomment APL code in '
+zz=:zz,'the Weigang ASCII2APL format|dhjsonfrbtcl|DHTMLX json from btcl|dhj'
+zz=:zz,'sonfrnt2|DHTMLX json from numeric table|div|divide with zero denomi'
+zz=:zz,'nators 0 = x%0 for all x|djaxmath|MathJax LaTeX display math|f64|co'
+zz=:zz,'nvert floating array to double 64 bit binary|fch|ddfch sql data|fet'
+zz=:zz,'|ddfet sql data|fetch|ddfch sql data|fresize|resize file|griddaterr'
+zz=:zz,'|form error JASEP result|griddatfrtd|format grid data from TAB deli'
+zz=:zz,'mited text file for JHS & DHTMLX|i16|convert integer array to sets '
+zz=:zz,'of 2 bytes|i32|convert integer array to sets of 4 bytes|insqlfrtd|t'
+zz=:zz,'able insert sql from btcl|iread|indexed file read - returns cl byte'
+zz=:zz,'s if successful _1 otherwise|iscfield|basic type test for character'
+zz=:zz,' field|isd6|1 if (y) is representable as a 6 byte timestamps 0 othe'
+zz=:zz,'rwise|isf64|1 if (y) is f64 representable 0 otherwise|isi16|1 if (y'
+zz=:zz,') is (signed) i16 representable 0 otherwise|isi32|1 if (y) is (sign'
+zz=:zz,'ed) i32 representable 0 otherwise|isu1|1 if (u) is u1 representable'
+zz=:zz,' 0 otherwise|isu4|1 if (y) is u4 representable 0 otherwise|isu8|1 i'
+zz=:zz,'f (y) is u8 representable 0 otherwise|iwrite|indexed file write|ln|'
+zz=:zz,'natural logs - replace 0''''s with _1e6|lrpColumns|returns table colu'
+zz=:zz,'mns for SQLServer lrp tables|lrpSpSQL|an example of an lrpCommon qu'
+zz=:zz,'ote stored procedure SQL|makeGridDemoTestFiles|generate test TAB de'
+zz=:zz,'limited files for GridDemo|navul|page navigation links - override i'
+zz=:zz,'n header|oltypeset|generate ordered list of typeset buttons|policyp'
+zz=:zz,'eriods|YYYYMMYYYYMM policy period integers to (YYYYMMStart ,"0 YYYY'
+zz=:zz,'MMEnd) table|portalcsv|reads and parses the *.csv files saved by th'
+zz=:zz,'e portal|primarytriidx|primary triangle index|pvalue|construct the '
+zz=:zz,'T-table for P Value = 0|randomtstamps|valid random time stamps|seco'
+zz=:zz,'ndarytriidx|secondary triangle index|skin|scattered key insert|skin'
+zz=:zz,'2|scattered key insert|spcrep|form special character replacements|s'
+zz=:zz,'punquote|unquotes lrp sql stored procedure text|sqlitetsmp|format t'
+zz=:zz,'imestamp for SQLite inserts|sqrquote|enclose in square [] brackets|'
+zz=:zz,'stafrstc|state abbreviations from state codes|stcblevels|1 if state'
+zz=:zz,' has benefit levels 0 otherwise|stcfrstn|state codes from blcl of s'
+zz=:zz,'tate names|t7stmp|format 7 integer item timestamp yr mn dy hr mn ss'
+zz=:zz,' mss|tabledesc|random table description text|tddny|@date / YYYYMMDD'
+zz=:zz,' day constants|tmjx|suppress default style of (thh)|ts6Frts7|6 byte'
+zz=:zz,' representation from 7 integer column timestamp|ts7Frts6|7 integer '
+zz=:zz,'column timestamp from 6 byte representation|u1|convert boolean arra'
+zz=:zz,'y to u1 character|u4|convert integer array to 4 bit unsigned intege'
+zz=:zz,'rs|u8|convert integer array to 8 bit unsigned integers|writecsv|wri'
+zz=:zz,'te btcl as CRLF delimited comma separated file|yearbump|bumps dates'
+zz=:zz,' in @DATE format up one year|ymdfrsqld|YYYYMMDD dates from SQLServe'
+zz=:zz,'r ddfch dates''                                                     '
+zz=:9930{.zz
 showpass 0 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
