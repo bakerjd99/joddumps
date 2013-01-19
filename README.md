@@ -17,7 +17,8 @@ The following example shows hold to restore JOD dictionaries from repository dum
 		git remote add joddumps https://github.com/bakerjd99/joddumps.git
 		git pull joddumps master
 		
-2. [Start J](http://www.jsoftware.com/), load JOD[^jd1] and create dictionaries:
+2. [Start J](http://www.jsoftware.com/), load JOD and create dictionaries.
+   [JOD](http://www.jsoftware.com/jwiki/Addons/general/jod) is a J addon use [JAL](http://www.jsoftware.com/jwiki/JAL) to install it.
 
         load 'general/jod'
 		
@@ -45,4 +46,3 @@ The following example shows hold to restore JOD dictionaries from repository dum
 John Baker
 January 19, 2013
 
-[^jd1]: JOD is a J addon. Use [JAL](http://www.jsoftware.com/jwiki/JAL) to install JOD.
