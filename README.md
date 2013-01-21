@@ -1,5 +1,5 @@
 joddumps README
-===========
+===============
 
 This repository holds [JOD](http://bakerjd99.wordpress.com/the-jod-page/) dictionary dump scripts. 
 
