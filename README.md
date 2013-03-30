@@ -6,10 +6,10 @@ This repository holds [JOD](http://bakerjd99.wordpress.com/the-jod-page/) dictio
 A JOD 
 [dump script](https://docs.google.com/document/d/1lk6Ua6qqcphlL7PYXeYeAsEsax31kCn2C0Do87vzc1M/edit?hl=en_US&pli=1) 
 is a serialized ASCII script that may be used to create, update or archive
-a JOD dictionary database. This repository contains holds current versions of my working
+a JOD dictionary database. This repository contains current versions of my working
 JOD dictionaries. For more about JOD see the [The JOD Page](http://bakerjd99.wordpress.com/the-jod-page/).
 
-The following example shows hold to restore JOD dictionaries from repository dump scripts.
+The following example shows how to restore JOD dictionaries from repository dump scripts.
 
 1. Use Git to pull scripts to a local `joddumps` directory.
 
