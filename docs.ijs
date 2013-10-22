@@ -1,5 +1,5 @@
-NB. JOD dictionary dump: 31 Dec 2012 14:47:45
-NB. Generated with JOD version; 0.9.90; 22; 19 Nov 2012 11:09:06
+NB. JOD dictionary dump: 22 Oct 2013 14:05:47
+NB. Generated with JOD version; 0.9.92; 4; 28 Jan 2013 15:35:16
 NB.
 NB. Names & DidNums on current path
 NB. +----+---------------------------------------+
@@ -29,7 +29,7 @@ BESOURCEDELS=:<;._1 '|[sourcecode |[/sourcecode]'
 
 BESOURCEPREDELS=:<;._1 '|<pre class="sourceCode|</pre>'
 
-CLifeExpectancy=:80.719999999999999
+CLifeExpectancy=:81.180000000000007
 
 DudDiaryStart=:2009 7 14
 
