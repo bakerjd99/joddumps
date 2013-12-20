@@ -1,5 +1,5 @@
-NB. JOD dictionary dump: 15 Nov 2012 15:12:03
-NB. Generated with JOD version; 0.9.85; 16; 13 Oct 2012 14:40:36
+NB. JOD dictionary dump: 20 Dec 2013 15:31:02
+NB. Generated with JOD version; 0.9.93; 3; 23 Nov 2013 11:12:19
 NB.
 NB. Names & DidNums on current path
 NB. +-------+---------------------------------------+
@@ -2238,6 +2238,10 @@ SmugDupsFrMD5=:3 : 0
 
 NB.*SmugDupsFrMD5 v-- duplicate SmugMug images from MD5.
 NB.
+NB. verbatim:
+NB.
+NB. http://bakerjd99.wordpress.com/2010/02/05/smugmug-duplicate-image-hunting/
+NB.
 NB. monad:  btct =. SmugDupsFrMD5 uuIgnore
 NB.
 NB.   SmugDupsFrMD5 0
@@ -2272,7 +2276,7 @@ if. #images=. (-.pid e. dup)#images do.
   images=. >&.>@:(<"1@|:) &> images
 
   NB. order MD5 groups by galleries in groups
-  NB. this results in a good order for editing 
+  NB. this results in a good order for editing
   NB. out the duplicates on SmugMug
   images=. (\:&.> 1 {"1 images) {&.> images
   (\: 0 {&> 1 {"1 images){images
