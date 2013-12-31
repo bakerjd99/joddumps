@@ -1,4 +1,4 @@
-﻿![](jodtinycube.png) [joddumps README](http://bakerjd99.wordpress.com/the-jod-page/)
+﻿![](jodtinycube.png) [`joddumps` README](http://bakerjd99.wordpress.com/the-jod-page/)
 ====================================================================================
 
 This repository holds [JOD](http://bakerjd99.wordpress.com/the-jod-page/) dictionary dump scripts. 
@@ -61,5 +61,5 @@ After the dump scripts are loaded into dictionaries they can be opened and used 
         └─┴────────────────────────────────────────────────────────────────┘
      
 John Baker
-January 19, 2013
+December 31, 2013
 
