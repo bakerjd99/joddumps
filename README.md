@@ -1,5 +1,5 @@
-﻿joddumps README
-===============
+﻿![](jodtinycube.png) [joddumps README](http://bakerjd99.wordpress.com/the-jod-page/)
+====================================================================================
 
 This repository holds [JOD](http://bakerjd99.wordpress.com/the-jod-page/) dictionary dump scripts. 
 
