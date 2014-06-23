@@ -1,10 +1,10 @@
-NB. JOD dictionary dump: 22 Jun 2014 18:11:07
+NB. JOD dictionary dump: 23 Jun 2014 16:28:25
 NB. Generated with JOD version; 0.9.94; 7; 14 Jun 2014 12:50:17
 NB.
 NB. Names & DidNums on current path
-NB. +-----+---------------------------------------+
-NB. |bitjd|231946941940867855249824712027398708332|
-NB. +-----+---------------------------------------+
+NB. +-----+--------------------------------------+
+NB. |bitjd|16954541203725931937674789829407175055|
+NB. +-----+--------------------------------------+
 
 9!:41 [ 1 NB.{*JOD*}
 cocurrent 'base' NB.{*JOD*}
@@ -22,36 +22,40 @@ BitJDSetup=:3 : 0
 NB.*BitJDSetup v-- define various bitcoin/jd nouns.
 NB.
 NB. verbatim: see the blog post:
-NB. 
+NB.
 NB. Bitcoin: 285 bytes that changed the world
 NB. http://james.lab6.com/2012/01/12/bitcoin-285-bytes-that-changed-the-world/
 NB.
 NB. monad:  BitJDSetup uuRun
 NB.
-NB.   BitJDSetup 0  NB. default 
+NB.   BitJDSetup 0  NB. default
 NB.   BitJDSetup 1  NB. load test block data
 
-NB. !(*)=. bcp gb d mn lb bfv pbh mrt uets tb rbn
+NB. !(*)=. jpath bcp gb d mn lb bfv pbh mrt uets tb rbn vlen tcnt trvno
+NB. !(*)=. cntinp offset hitr inptrx repsclen repscrpt
 
-bcp=: 'c:\bitjddata\blocks\'  NB. local bitcoin block directory
-gb=:   bcp,'blk00000.dat'       NB. bitcoin genesis block file
+NB. local bitcoin block directory - needs configured BitJDData folder
+bcp=: jtslash jpath '~BitJDData'
 
-if. 0 -: y do. return. end.  
+NB. bitcoin genesis block file - has no predecessors
+gb=: bcp,'blk00000.dat'
+
+if. 0 -: y do. return. end.
 
 d=: read gb   NB. fetch genesis block data
 
 NB. first 4 bytes are "sort of" block delimiters
-mn=: (i. 4) { d 
-'block delimiter mismatch' assert 'F9BEB4D9' -: ,hfd a. i. mn   
+mn=: (i. 4) { d
+'block delimiter mismatch' assert 'F9BEB4D9' -: ,hfd a. i. mn
 
 NB. next 4 bytes gives following block length
 lb=: _2 ic (4 + i. 4) { d
-'genesis block length mismatch' assert 285 = lb 
+'genesis block length mismatch' assert 285 = lb
 
-NB. next 4 bytes block format version - has changed 
+NB. next 4 bytes block format version - has changed
 bfv=: _2 ic (8 + i. 4) { d
 
-NB. next 32 bytes is previous blocks hash - genesis block 
+NB. next 32 bytes is previous blocks hash - genesis block
 NB. has no previous hash and all bytes are set to 0
 pbh=: (12 + i. 32) { d
 'genesis block previous hash mismatch' assert (32#0) -: a. i. pbh
@@ -76,13 +80,70 @@ rbn=: (84 + i. 4) { d
 
 NB. next 1 to 9 bytes is the transaction count stored as a variable length integer
 NB. see:  https://en.bitcoin.it/wiki/Protocol_specification#Variable_length_integer
+'vlen tcnt'=: vint (88 + i. 9) { d
+'genesis block transaction count mismatch' assert tcnt = 1
+
+NB. next 4 bytes transaction version number
+offset=: 88 + vlen
+trvno=: _2 ic (offset + i.4) { d
+'genesis block transaction version number mismatch' assert 1 = trvno
+
+NB. next 1 to 9 bytes is the number of transaction inputs
+offset=: offset + 4
+'vlen cntinp'=: vint (offset + i. 9) { d
+
+NB. next 32 bytes is the hash of the input transaction
+offset=: offset + vlen
+hitr=: (offset + i. 32) { d
+'genesis block input transaction hash mismatch' assert (32#0) -: a. i. hitr
+
+NB. next 4 bytes in the input transaction index
+offset=: offset + 32
+inptrx=: _2 ic (offset + i. 4) { d
+'genesis block input transaction index mismatch' assert _1 = inptrx
+
+NB. response script length is next
+offset=: offset + 4
+'vlen repsclen'=: vint (offset + i. 9) { d
+'genesis block response script length mismatch' assert 77 = repsclen
+
+NB. response script
+offset=: offset + vlen
+repscrpt=: (offset + i. repsclen) { d
+)
+
+i1=:>:@i.
+
+vint=:3 : 0
+
+NB.*vint v-- variable length integer byte count and value.
+NB.
+NB. Decodes Bitcoin variable length integers and returns the byte
+NB. count and value.
+NB.
+NB. verbatim: for more see
+NB.
+NB. https://en.bitcoin.it/wiki/Protocol_specification#Variable_length_integer
+NB.
+NB. monad:  il =. vint cl9bytes
+
+iv=. a. i. 0 { y
+
+if.     iv < 253 do. 1, iv
+elseif. iv = 253 do. 3, _1 ic (i1 2) { y
+elseif. iv = 254 do. 5, _2 ic (i1 4) { y
+elseif. iv = 255 do. 9, _3 ic (i1 8) { y  NB. 64 bit only
+elseif.do. 'invalid variable length integer' assert 0
+end.
 )
 
 showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:dec85__MK__JODobj 0 : 0
-3?U%!1*A;*+>Y`=Blls8;e:&nE+ENlBl7K)G%#E*Dfp+D@VKpoDeX)BC1JH)Dfor=~>
+0f^@4+>P&o0H`/++>P&o3?U.$1c.O5F@nr"ATW'6A7]@eDIjr6@<-(#F`S[7Blmj'Bl5S=A0>c.
+F`)870kkN9AU#>9EbT0#DBNk8AKY\>G%ki9G%#E*@:F%a+DbV,B67f0Bl8$(B4Z*+@X3',+Cf>4
+DKI"0DIal5@;L't                                                           ~>
 )
 showpass 0 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
@@ -105,7 +166,7 @@ showpass 1 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:dec85__MK__JODobj 0 : 0
-0eje*+>Y-"+>P&t3&besC-lWV8jkEh:-pQ_E,o\[Blls8+EK+d+@9da8jje@Ec5](@rri7ATW'6
+0eje*+>Y-"+>P&u0K*ljC-lWV8jkEh:-pQ_E,o\[Blls8+EK+d+@9da8jje@Ec5](@rri7ATW'6
 +EM%5BlJ/H%15is/g(T1:-pQU:i^,d@<,duBl@m1+D,P4+A*bKF_l=G1,LR<2(Tk*0JPC,@rH6s
 ATD@"@q?d%Eb0<'DKK</Bl@lA%15is/e&._67sB\F(oN)+EV:.+A,$EA79Rg@UX=h+CSekDf-\>
 D]iJ+@;L48AKX<RFCT6'DBND)De!Q*A79Rg/e&._67r]S:-pQUG%G]'@<?4#3XlEk67sAi$;No?
@@ -113,10 +174,11 @@ D]iJ+@;L48AKX<RFCT6'DBND)De!Q*A79Rg/e&._67r]S:-pQUG%G]'@<?4#3XlEk67sAi$;No?
 /g+SFFD,T53ZoP;DeO#26nTTK@;BFp%15is/g+YEART[lA3(hg0JPD!F`&ri%15is/g+Y;@;]^h
 F#kEq/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+%15is
 /g)l*C3=DL1*CX[@<-H4GAhM;+E)-?E,oN2ASuTuFD5Z2%13OO%15is/g,">CLo/1G\(B-FCcS9
-ATW'6%16igA7o7`C2[Wi+?_b.-UMNh8jlThFEMOM%16oa+DPh*B+527Blls8;e:&nE$-hD$4R>;
-67sBiBlmj'Bl5&&Ci<g!+C]A&@;BFp+D5_5F`7csC2[Wq?YO7nA7$HB3Zoe:Blls86>URMCI3&Q
-@;BFp-OgCl$;No?+C]&,@rH(!+A,$EB6%p5E"*.L67sBqDe*KfBkhQs?Q_Km+=BKiF@nqK%13OO
-%17/nDfp/@F`\`R6>:OODeX)B8jje@Eb0<'DKK</Bl@l3E,ol3ARfg)F(KH9E%WL          ~>
+ATW'6%16igA7o7`C2[Wi+?_b.-UMNh8jlThFEMOM%17/nDfp/@F`\aBB-:r-A7o7`C2[Wi%15F9
+F@nr"ATW'6+>=63%15is/g+V;FCT6'DBND)De!Q*@WH$gCLqN/B6%p5E"*.L67sBqDe*KfBkhQs
+?Q_Km+=BKiF@nqfCi<g!6?6XGCLqN6%13OO:-pQU@VKpoDeX)38jje7Ec6)>%15is/g+nIA7o7`
+C2[Wi+?_b.-UMNh8jk$9$4R=O$?L'&F`_SFF<DqtBlmj'Bl5Rr6m-GhATMF#FCB9*Df-\:Ec5](
+@rri7ATW'6/gg                                                             ~>
 )
 showpass 4 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
@@ -124,8 +186,9 @@ showpass 4 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:''
 zz=:zz,'(<(<''BitJD''),<0$a:),(<(<''BitJDBlockBreaker''),<0$a:),<<;._1 '' BitJDS'
-zz=:zz,'etup BitJDSetup assert hfd ic read todate tsfrunixsecs''            '
-zz=:122{.zz
+zz=:zz,'etup BitJDSetup assert hfd i1 ic jtslash read todate tsfrunixsecs v'
+zz=:zz,'int''                                                               '
+zz=:138{.zz
 showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
