@@ -1,4 +1,4 @@
-NB. JOD dictionary dump: 23 Jun 2014 16:28:25
+NB. JOD dictionary dump: 24 Jun 2014 12:56:16
 NB. Generated with JOD version; 0.9.94; 7; 14 Jun 2014 12:50:17
 NB.
 NB. Names & DidNums on current path
@@ -17,6 +17,13 @@ soclear_z_=: '0 0 $ clearso__MK__JODobj 0' NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 
 
+GenesisBlockChallengeScript=:'4104678AFDB0FE5548271967F1A67130B7105CD6A828E03909A67962E0EA1F61DEB649F6BC3F4CEF38C4F35504E51EC112DE5C384DF7BA0B8D578A4C702B6BF11D5FAC'
+
+showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
+".soclear NB.{*JOD*}
+cocurrent SO__JODobj NB.{*JOD*}
+
+
 BitJDSetup=:3 : 0
 
 NB.*BitJDSetup v-- define various bitcoin/jd nouns.
@@ -32,7 +39,8 @@ NB.   BitJDSetup 0  NB. default
 NB.   BitJDSetup 1  NB. load test block data
 
 NB. !(*)=. jpath bcp gb d mn lb bfv pbh mrt uets tb rbn vlen tcnt trvno
-NB. !(*)=. cntinp offset hitr inptrx repsclen repscrpt
+NB. !(*)=. cntinp offset hitr inptrx repsclen repscrpt seqno outpcnt 
+NB. !(*)=. outsval chalen chalscpt lockt
 
 NB. local bitcoin block directory - needs configured BitJDData folder
 bcp=: jtslash jpath '~BitJDData'
@@ -110,6 +118,37 @@ offset=: offset + 4
 NB. response script
 offset=: offset + vlen
 repscrpt=: (offset + i. repsclen) { d
+
+NB. sequence number 4 bytes - not used Jan 2012
+offset=: offset + repsclen
+seqno=: ,hfd a. i. (offset + i. 4) { d
+'genesis block sequence number mismatch' assert 'FFFFFFFF' -: seqno
+
+NB. output count 1 to 9 bytes
+offset=: offset + 4
+'vlen outpcnt'=: vint (offset + i.9) { d
+
+NB. output value - number of satoshis sent
+offset=: offset + vlen
+outsval=: (offset + i.8) { d  NB. 64 bit unsigned integer
+'genesis block satoshi output value mismatch' assert '00F2052A01000000' -: ,hfd a. i. outsval 
+
+NB. challenge script length
+offset=: offset + 8
+'vlen chalen'=: vint (offset + i.9) { d
+'genesis block challenge script length mismatch' assert 67 = chalen
+
+NB. challenge script - contains elliptic curve signatures
+offset=: offset + vlen
+chalscpt=: (offset + i. chalen) { d
+'genesis block challenge script mismatch' assert GenesisBlockChallengeScript -: ,hfd a. i. chalscpt
+
+NB. last 4 bytes lock time - not used yet Jan 2012
+offset=: offset + chalen
+lockt=: (offset + i.4) { d
+'genesis block lock time mismatch' assert 0 0 0 0 -: a. i. lockt
+
+'Genesis block parsed'
 )
 
 i1=:>:@i.
@@ -141,9 +180,10 @@ showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:dec85__MK__JODobj 0 : 0
-0f^@4+>P&o0H`/++>P&o3?U.$1c.O5F@nr"ATW'6A7]@eDIjr6@<-(#F`S[7Blmj'Bl5S=A0>c.
-F`)870kkN9AU#>9EbT0#DBNk8AKY\>G%ki9G%#E*@:F%a+DbV,B67f0Bl8$(B4Z*+@X3',+Cf>4
-DKI"0DIal5@;L't                                                           ~>
+1,U12+>P&o0H`/++>Pku2)l^6+>Gl!1a"V36>:O66rRZ=F`:l&Anc-o+Eh16BlA-8+C]&,@rH(!
+05>#?DJsZ8F%9eZATMR,6>URMCI;cDCi![#B4Y"OEbTK7Anc:,F<EnaFCT6'DBNG&@;KakDJ*N'
+F(96)E-*3S+Cf>-FCAm$F!*n=6rQAoE-5W+Bk&9$AU.uEBl7HmGT^pFBkM-t+E)./+DEHOBl8$9
+@<-'j@VfTuCh7KsFD)e2DKKH&ATAo&H$!U?@rHL-F<G"0A0?&(Cis:                    ~>
 )
 showpass 0 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
@@ -186,10 +226,21 @@ showpass 4 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:''
 zz=:zz,'(<(<''BitJD''),<0$a:),(<(<''BitJDBlockBreaker''),<0$a:),<<;._1 '' BitJDS'
-zz=:zz,'etup BitJDSetup assert hfd i1 ic jtslash read todate tsfrunixsecs v'
-zz=:zz,'int''                                                               '
-zz=:138{.zz
+zz=:zz,'etup BitJDSetup GenesisBlockChallengeScript assert hfd i1 ic jtslas'
+zz=:zz,'h read todate tsfrunixsecs vint''                                   '
+zz=:166{.zz
 showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
+".soclear NB.{*JOD*}
+
+cocurrent SO__JODobj NB.{*JOD*}
+zz=:dec85__MK__JODobj 0 : 0
+0ea_)+>P&o0H`,,3'q>$8jlThFEMOt67s`SBlls8;e:&nE$03R/Kf+GFEMOFGAhM;Bl7Q+ASu[*
+Ec5i4ASuT4AoD]46>:OODeX)B8jje@Ec5](@rs=4$;No?%15is/g)8G$;No?+CTD7BQ%oP+<X9p
+BPnq\/g*JhCLqMq$;No?+CfG'@<?'k3Zp130f3WfDDF$X$;No?+Cf(nDJ*O%3Zp"+/M/P+/M/P+
+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/O`$;No?+>G]fF`&rk+D5_5
+F`8IAEbAfuBmO?$+:SYe$4R=O$3                                               ~>
+)
+showpass 2 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
