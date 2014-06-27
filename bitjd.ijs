@@ -1,5 +1,5 @@
-NB. JOD dictionary dump: 24 Jun 2014 12:56:16
-NB. Generated with JOD version; 0.9.94; 7; 14 Jun 2014 12:50:17
+NB. JOD dictionary dump: 27 Jun 2014 16:15:45
+NB. Generated with JOD version; 0.9.95; 13; 26 Jun 2014 11:06:22
 NB.
 NB. Names & DidNums on current path
 NB. +-----+--------------------------------------+
@@ -16,6 +16,10 @@ soclear_z_=: '0 0 $ clearso__MK__JODobj 0' NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
 
+
+AdndAddress=:'17MfYvFqSyeZcy7nKMbFrStFmmvaJ143fA'
+
+BASE58=:'123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz'
 
 GenesisBlockChallengeScript=:'4104678AFDB0FE5548271967F1A67130B7105CD6A828E03909A67962E0EA1F61DEB649F6BC3F4CEF38C4F35504E51EC112DE5C384DF7BA0B8D578A4C702B6BF11D5FAC'
 
@@ -151,6 +155,10 @@ lockt=: (offset + i.4) { d
 'Genesis block parsed'
 )
 
+b58fd=:'123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz' {~ 58x #.^:_1 ]
+
+dfb58=:58x #. '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz' i. ]
+
 i1=:>:@i.
 
 vint=:3 : 0
@@ -180,12 +188,45 @@ showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:dec85__MK__JODobj 0 : 0
-1,U12+>P&o0H`/++>Pku2)l^6+>Gl!1a"V36>:O66rRZ=F`:l&Anc-o+Eh16BlA-8+C]&,@rH(!
-05>#?DJsZ8F%9eZATMR,6>URMCI;cDCi![#B4Y"OEbTK7Anc:,F<EnaFCT6'DBNG&@;KakDJ*N'
-F(96)E-*3S+Cf>-FCAm$F!*n=6rQAoE-5W+Bk&9$AU.uEBl7HmGT^pFBkM-t+E)./+DEHOBl8$9
-@<-'j@VfTuCh7KsFD)e2DKKH&ATAo&H$!U?@rHL-F<G"0A0?&(Cis:                    ~>
+1c?I9+>P&o0d&>.+>t>t1a"M,+>Y_p1,g=53$:($2)cX8+>Yr!1*A;3+>b2t1dPYiA3ja:Eb0<5
+6>:OODeX)3@:WnhATMo8AoD]46#L+IH$X$EFD,5.6t(1G+Du+>+EV:.+@L6aG%GJV5uU303'q>$
+@rH(!+C\c#AKWii+CT)*BOP@]F@'\`8jlThFEMP5AS,XoAKZ/)EbTH7F!+q+FCT6'DD,a8+Du+?
+DKA<ZDImm'F$a\]@r"GF@;KakDJ*NZ@rc:&FCo6-F*&NkBlmj'Bl5&'BOP^nASu-l+EM%5BlJ/:
+/KePADKK<$DK?ph6UXj=+E2I4Ch[B%CLqd#2)o2Y6>:OODeX)3@UX=h+>l,$Ao_g,+D#e>ASu$i
+A0>Do@qfdgC`k;PF(Jo*Ci=3(+CoD#F_t]-FC\um2)o/lFCf?#ARlooARfFk@;I&uEc5e;6>:OO
+DeX)3@UX=h+>l,m0kkN9AU#>9EbT0#DBNk8AKY\>G%ki9G%#E*@:F%a+DbV,B67f0Bl8$(B4Z*+
+@X3',+Cf>4DKI"0DIal5@;L't                                                 ~>
 )
 showpass 0 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
+".soclear NB.{*JOD*}
+
+cocurrent SO__JODobj NB.{*JOD*}
+zz=:dec85__MK__JODobj 0 : 0
+0ea_)+>P&s+>GZ-1h&=%An3B#2)o2Y+Ef=g+@9da@rH(!+C\c#AKWii+D,Y4D'3D7FCf?#ARloo
+ARfFk@;IP*$4R>ABOr;q@<6!&2)l^iDI[TqBl7Q+F`V,)+DG^96>:OODeX)3BOPs)+EMI<AKW1=
+Bk(piGp$R7De42<%16]Y@<?X4ATJt:FD,*)+<YT?AKW+:BQ&$0A0<"(AKW+(G@>N'+<YT7/g+,3
++<YN0CLnV26>:OODeX(u$=RIUEb0<5ATJt:D/XH++<Y]9@:WeUCh4_3FD,5.AoDL%Dg,o5B-8=5
+ATW$*EcW?GBOQ'q+<Y-)ASqqaDf'31FCeu*Ao_g,+EV:.+CT)*BOP@]F?1Nl0IItc.!fHFD^d4[
+-Vl*4+=L`.E+sE&C`mXF/0H<3-OgD2@ps=jFCAu.Bdk05DIak;CaU>RCi=N/EZek#F(HIf.4u&:
+%16'JBlbD6ARTIt+EV:*F<D]JBOr;1H=_,8+s:T;+C\c#AKWii+<YQED.7'sF!)T>F!)hb-S?Ma
+7W3;V$>"HjD/a<&+EV:.+Eq71Ch7]2@:WnhATMo8De:,/Gp$R4DeC2,F#ja;%14gK9kIOO7WD@P
+AQiSh2f;8_@RbB:F@L+aG%!ut1c&`0%13OO<+ohcCh7$cBl7Q++=Alk+<Y?/Eb-@9BlbC>AT;j,
+G%#2uDKI!DFDi:<ART+`DJ((7H=_,8F!)T>D@Hq`ARfFk@;L!-+Dbb-AKWZ\0etO;+<X?h@:X(i
+B-;M3Ec6"A+=JrlF"&4S@<,p%+CoM2E,]B!+<Y-=%14Lm2)o2Y.4u`BBPDN1+DGm>DJsV>@3BN0
+DdmNoD'4%9ASrW6Bk;L&DJ()$@<6!&+>l,$F*)G:DJ+#"$=Ruu+Du==@V'S$+C]J8+<YB?+<YB>
++<Y)8@VKHtE,ol+Ch7H++EqL1DBL'DBOr<-FE2)5B-:o0+CP]d6>:OODeX)3@:WnhATMoF+A??T
+A8,po+F7U>Df[%<@<?U&EZet4EZcJkBlmj'Bl5&%A7T^lF)to6+UncXBOr;uBm:b7F!,RFBm+3!
+C`mY>ATDm$CLnVsDIal/@:UL)Bln#2-SZu$%13OO8TZ>$+CT)-D]ib2E,Tc=@;^00FDi9EDJsW.
++EV:*F<D\mBlmj'Bl5&%A7T^lF)rI?ASu.&BHUenD@Hqr@<-WG+<XWsAKZ#%DJ*N'BlbCP2D$^A
++<Y0-@<,ddFCfK6/g*l,F*&O5A7T^lF)to6+<Y*5AKWcc%16TY@<,ddFCfK6+CT.u+A!\bASc'l
+G%De)Cht58FCB33+EqOABHSZW-S>i8%16rjDII':+<Y,N3+c\D=EP&[%144#@:X7d4Y@j)0fMg=
+=a!8S;gDqX@sL"N92/kbE`7'LD/FH)8hi.YAjIdR$6UH#$6UHd67sBsART+`DJ()<ATD^#F!,+,
+F<G+7DfBZ,A.8kg+Co(n2)l^eA8Yoe$6UI%An!VW+=Alu0ekC1/7E(,A.8kT$6UI"A8Yp#/NP"&
+/L+\7DIb1=HS-Ho-SZtk@Pp,WA0>Dp@Pp+f@:X7d+<XEG/g+k=ASuU(FEn<&%144#:-pQU@<-Bs
+Gp$O9B6A'&DKKq/$6UI4+?_>"A7f:.3$<T$+CSeuA.8kT$6UI#2)o2Y+>GPm,Tq.;$4R=b+C[2f
+An3#>+>Y,q+=&(N%13OO%13OO%13                                              ~>
+)
+showpass 0 9 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
