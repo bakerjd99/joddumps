@@ -1,10 +1,10 @@
-NB. JOD dictionary dump: 29 Jun 2014 18:19:58
-NB. Generated with JOD version; 0.9.95; 10; 25 Jun 2014 23:24:58
+NB. JOD dictionary dump: 30 Jun 2014 15:43:49
+NB. Generated with JOD version; 0.9.95; 13; 26 Jun 2014 11:06:22
 NB.
 NB. Names & DidNums on current path
-NB. +-----+---------------------------------------+
-NB. |bitjd|231946941940867855249824712027398708332|
-NB. +-----+---------------------------------------+
+NB. +-----+--------------------------------------+
+NB. |bitjd|16954541203725931937674789829407175055|
+NB. +-----+--------------------------------------+
 
 9!:41 [ 1 NB.{*JOD*}
 cocurrent 'base' NB.{*JOD*}
@@ -34,14 +34,7 @@ showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 
 
-Base58Check=:3 : 0
-
-NB.*Base58Check v-- convert bytes to Bitcoin base 58 format.
-NB.
-NB. monad:  clB58 =. Base58Check clBytes
-
-('1' #~ +/y = 0{a.),b58fd 256x #. a. i. y
-)
+Base58Check=:('1' #~ [: +/ (0{a.) = ]) , [: b58fd 256x #. a. i. ]
 
 Base58CheckModel=:3 : 0
 
@@ -242,11 +235,8 @@ NB.   s256 'dont hash with me'
 NB.
 NB.   s256 10000 $ 'hash it up cowboy'
 
-NB. require 'dll' !(*)=. IF64
-'SHA1 hash requires 64 bit host' assert IF64
-output=. (32) # ' '
-sslsha256 (y);(# y);output
-output
+sslsha256 (y);(# y);hash=. 32#' '
+hash
 )
 
 s512=:3 : 0
@@ -259,11 +249,8 @@ NB.   s512 'my what big hashes you have'
 NB.
 NB.   s512 10000 $ 'collisions are rare'
 
-NB. require 'dll' !(*)=. IF64
-'SHA512 hash requires 64 bit host' assert IF64
-output=. (64) # ' '
-sslsha512 (y);(# y);output
-output
+sslsha512 (y);(# y);hash=. 64#' '
+hash
 )
 
 sha1=:3 : 0
@@ -276,11 +263,8 @@ NB.   sha1 'this is a fine mess'
 NB.
 NB.   sha1 10000 $ 'a bigger mess '
 
-NB. require 'dll' !(*)=. IF64
-'SHA1 hash requires 64 bit host' assert IF64
-output=. (20) # ' '
-sslsha1 (y);(# y);output
-output
+sslsha1 (y);(# y);hash=. 20#' '
+hash
 )
 
 sr160=:3 : 0
@@ -293,11 +277,8 @@ NB.   sr160 'go ahead hash my day - result is 20 byte hash'
 NB.
 NB.   sr160 30000 $ 'yada yada yada et cetera byte me '
 
-NB. require 'dll' !(*)=. IF64
-'RIPEMD-160 hash requires 64 bit host' assert IF64
-output=. (20) # ' '
-sslRIPEMD160 (y);(# y);output
-output
+sslRIPEMD160 (y);(# y);hash=. 20#' '
+hash
 )
 
 sslRIPEMD160=:'c:/j64/j64-802/bin/libeay32.dll  RIPEMD160 i *c l *c'&cd
@@ -494,38 +475,41 @@ zz=:zz,'(<(<''BitJD''),<0$a:),(<(<''BitJDBlockBreaker''),<0$a:),(<<;._1 '' BitJD
 zz=:zz,'Setup BASE58 Base58Check Base58CheckModel BitJDSetup GenesisBlockCh'
 zz=:zz,'allengeScript assert b58checkFrbytes b58fd dfb58 dfh hfd i1 ic jtsl'
 zz=:zz,'ash read todate tsfrunixsecs vint''),<<;._1 '' sslhash IFACEWORDSsslh'
-zz=:zz,'ash OPENSSL ROOTWORDSsslhash assert cd s256 s512 sha1 sr160 sslRIPE'
-zz=:zz,'MD160 sslsha1 sslsha256 sslsha512''                                 '
-zz=:369{.zz
+zz=:zz,'ash OPENSSL ROOTWORDSsslhash cd s256 s512 sha1 sr160 sslRIPEMD160 s'
+zz=:zz,'slsha1 sslsha256 sslsha512''                                        '
+zz=:362{.zz
 showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:dec85__MK__JODobj 0 : 0
-0fL41+>P&o0H`,,3$:.&0ekO?6>:O66rRZ=F`:)B/h02%F@nr"ATW'6+EK+d+EM+9F`8IIDfTW-
+0fL41+>P&o0H`,,3$:.&0f(RD6>:O66rRZ=F`:)B/h02%F@nr"ATW'6+EK+d+EM+9F`8IIDfTW-
 DJ()'DK]`7Df0E'DKI"5DfQseBlmj'Bl5Rr6m-GhDe`inF=n"0:-pQB$;No?+<V+#:-pQU@<H[*
 DfRl]+A-QcDBM>"+@9LPATA4e:-pQU@rc-hFCeuD+>PW*1hq/N1,KFI:-pQU@q]:gB4Z-F+>#/s
 /M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M.D=:-pQU0f3Wf
 DDF$kB6%p5E$0(>B45[lH=^V0%13OO%13OOF)u/2@<6*W67sa/F)5MuF(c\;/M/)Y@<6*)@;KRp
-EbTW/D0$h3Ec5e;:N0l_;c?@B%15is/e&._67sBT@;BFq+<Yi9EbTH7F!)T=@<6*)+CT)!DfTQ6
-BPhf5+CTG%Bl%3eCh4_3Bl5%9FD,5.+AZrfDGsJ-%15is/g+V;DIIR"ATJu.DKBo.Ci!Zn+EqOA
-BHToE<$3;lG%#*$@:F%a/g*W(Df$V*DBNk<BkM-t@;I&sASl>p$;No?+EM%5BlJ/:@X0(m@<5pe
-C`l>YF)>W//e&._67r]S:-pQUG%G]'@<?4#3ZrKTAKYZ.FDs8o06_Va/oP]?DKBl8/oPcC0+A7`
-67r]S:-pQUBl8$(Eb8`iAKZ28Eb$S>.67nF:-pQB$;No?+<Y_\2)ZR"/Kdt_5r(;U+D>2)BHUo-
-Df$UmE+Noc;bRW-:-pQU+EKCp1*@\k+B(fs2)-j/BOPsq+D,Y4D'2VnAStFF9FV>(67sB'F(eu:
-+<W6Y;b02/+D>2)BHUo-Df$UmE+Noc;bRW-:-pQU+EMQX2D?7*+Atd-7860%0fC^.BOPsq+D,Y4
-D'2VnAStFF9FV>(67r]S:-pQU@rc-hFCeuD+>PW*1eMn.1,o^M:-pQU@q]:gB4Z-F+>#/s/M/P+
-/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M.D=%16T`@r,RpF!)iO
-F)5MuF(cp1$4R>;67s`uAT23uA7]Y#Et&Hc$;No?+E2@>Anc'm+=84OAT;j,Eb-A;DfTB0+<`-_
-.6T:+8Oc9I;]nY$=%Q.0<DGhS73H>a@<?/l$4R>;67sC"@<?0*BlbD6@:NtbDIkJBH#n(=D'3n=
-ARfFdBk&8;+CT>4F_t]2+A,L1+DGm>Bl8!6@;KakA.8leF)5eY/g*5I7TW/V+F>4Y06M>V05P?3
-0./hrE+*j%+=DVIBl5RO%15m-78?c[9KbEZF)u/:+=nWs-qQm":K&Ad+=K<4-Wb#"+A?KeFa,#p
-DIdd+Bk/>S@<-R+DC6kUBeCMj<DGhS74B@++=Cu>@V&tn1GURnCht4A4!5q,+=&'l-Z!L+F)u.M
-F)N0K.6AY#1*@hb4==rZ@WQU,/nB6DBjr24.1HUn$;No?+CehrC`m8)C^g_]A3Dt.2'G"7%13OO
-F)u/=BONYR2Ea)D+<VdT:JaJT;c?@4/0H;_;b0202)ZRk+=^kDC`k3;-RgBPA.8leF)5o2@5Tbp
-4ZX].+<W(.:dn,X;bS;b+=A:183o*f1*C9R.UsT;+=^kK.4/P8%17/tCia8u0g.Q?+<VdL+=L#^
-78?c[9HYl/-Ql>Y5qsKr+=^kDC`k3;-RgBPA.8leF)4`G:dn)H0fC^K3ZohH:dn,X;bS;b+=A:0
-8PhiM6npSR+DDrJ@j#S1.UshT-=^Qq$4R>;67sa!DId9hE+NotASuU2%13                ~>
+EbTW/D0$h3Ec5e;:N0l_;c?@B$;No?$;No?+AH9[ATJt:G%#E*Dfp+D+D>2)BHSF+ChI[,Bln$*
+F!)T6G%#*$@:F%a+<YB9+<Yc>AKW*kE+Noc;bRNn67sBiBl7@"Bk;?.Bl8!6@;KakA0?)1FD)e3
+EHE<_/hhMm@<Q'nCggdhAM,)pEc5e;@;[21DfTQ)Bl7?q$;No?+Co&#D]j+2EbTK7+C]U=:gnET
+@;I&Y@<6:"DBO.;FD)e*A867.FDYT,FE8R6Gp#FfCht4f@;RV(:-pQ?:-pQUG%G]'@<?4#3ZrKT
+AKYZ.FDs8o06_Va/oP]?DKBl8/oPcC0+(H@/db??/g+kGFCfK)@:NjkGAhM4.!$gu$;No?$;No?
++<Y_\2)ZR"/Kdt_5r(;U+D>2)BHUo-Df$UmE+Noc;bRNn67sB'F#>[-+<W6Y;b0230eskb@<6*)
+Ao_g,+AZrfDGsJ-$;No?+<Y`=@5/lI/Kdt_5qsKq@<6*)Ao_g,+AZrfDGsJ-$;No?+<Y`G0fC^.
+/Kdq_:dn)H/MT.;+D>2)BHUo-Df$UmE+Noc;bRNn67rU?67sBjEb/[$ARmhE1,(F>8p,#,3!rDI
+/g+Y;@;]^hF#kEq/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
+/M/P+$;No?+>G]fF`&uh+Cf(nDJ*Nk+EVNEEcl7BDf-[R1*C%?F<GXMF*(u1Es`7aDe!TlF)rHO
+F)u/2@<6*0$49Np/h1CCE+NotASuU2$49Np/g,+RDe<^"AKW<BEb065Bl[c-GAhM4F!)VS.OdM5
++A#$o:K&B-7TW/V+A#$\1a#dn5tscjC2dU'BF5)A67sBkChtbGD]j"-FD)e2F!,=.@q]RoAM7tC
++EML5@qfOh@j!?G@<6L4D.Rc2C2n><3%cm?+DGm>Bl8!6@;KakA.!C!CiDNi+?N.a=%Q.0HQX[h
+F`VRVCh[?3-Tc'^@<?0*-[oN=DD*@E:JaJT;c?@Q3ZrKbCiCLJ+?LuC7S-BS+=eQ_4$"`jBl5%e
+Bl8'<+@0mUEc5Z&+@KXYGA1qB.3N=W+?WY!5tscs+F>4YCh[?i@<jXa/nAd7+=B5n-o)nj+?V#f
+Bju.)CbBdI+=AU"+=Juf,To2sCh[@"F)3I>H#.2(+=ATF$;No?+CehrC`m8)C^OZ_4ZY;T+Z_:a
+$?L9)F(eu;2)[TY+<VdL-r3Z.:/b(b+=nWs8ObTpHRBq783o!g2BY1+.j0'Z.UsTG+=^kK4!u.L
+83o!g2BZ]V.UsT;+=^kK.4/P8$?L9)F(eu>0etmQ+<VdL-r3Z.:/b(b+=nWs8ObTpHRBq783o*f
+1*Ab'.j0'Z.UsTG+=^kK4!u.L83o*f1*C9R.UsT;+=^kK.4/P8$?L9)F(eu:4ZX].+<VdL-r3Z.
+:/b(b+=nWs8ObTpHRBq783nsQ4s2?uGT\JG+F#"Y@ja>c+B(fs0d(0Q.UsT;+=^kK.4/P8$?L9)
+;Fs\R9gg]o0KhH>-r3Z.:/b(b+=nWs8ObTpHRBq68PhiM6npSR+?gnu+F#"Y@j$"=.Ushf-Ql;Y
+:dn)H0fC^.Bcnm8+D`/M@j`]P@q5oR:-pQ_ASu$hAT23uA7]Y#Es_                     ~>
 )
 showpass 2 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
