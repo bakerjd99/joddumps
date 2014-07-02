@@ -1,5 +1,5 @@
-NB. JOD dictionary dump: 24 Jun 2014 10:20:27
-NB. Generated with JOD version; 0.9.94; 7; 14 Jun 2014 12:50:17
+NB. JOD dictionary dump:  2 Jul 2014 10:10:32
+NB. Generated with JOD version; 0.9.95; 13; 26 Jun 2014 11:06:22
 NB.
 NB. Names & DidNums on current path
 NB. +-----+---------------------------------------+
@@ -380,7 +380,7 @@ boxxopen=:<^:(L. < *@#)
 
 bye=:2!:55
 
-bytebits=:_8 {."1 [: 2&#.@(0 1&i.)^:_1 a. i. ]
+bytebits=:(8$2) #: a. i. ]
 
 calendar=:3 : 0
 
