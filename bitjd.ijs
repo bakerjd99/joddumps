@@ -1,4 +1,4 @@
-NB. JOD dictionary dump:  3 Jul 2014 12:58:52
+NB. JOD dictionary dump:  3 Jul 2014 14:17:56
 NB. Generated with JOD version; 0.9.95; 13; 26 Jun 2014 11:06:22
 NB.
 NB. Names & DidNums on current path
@@ -217,7 +217,8 @@ ParseGenesisBlock=:3 : 0
 
 NB.*ParseGenesisBlock v-- parse and check Bitcoin genesis block.
 NB.
-NB. This verb parses and checks the raw binary data of the first or genesis Bitcoin block.
+NB. This verb parses  and checks the raw binary data of the first
+NB. or genesis Bitcoin block.
 NB.
 NB. verbatim: see the blog posts:
 NB.
@@ -226,7 +227,7 @@ NB. http://codesuppository.blogspot.com/2014/01/how-to-parse-bitcoin-blockchain.
 NB.
 NB. Bitcoin: 285 bytes that changed the world
 NB. http://james.lab6.com/2012/01/12/bitcoin-285-bytes-that-changed-the-world/
-NB. 
+NB.
 NB. monad:  paRc =. ParseGenesisBlock clBlockFile
 NB.
 NB.   NB. local Bitcoin full client directory
@@ -234,18 +235,18 @@ NB.   file=. (jpath '~BitJDData'),'/blk00000.dat'
 NB.
 NB.   ParseGenesisBlock file
 
-NB. j profile nouns !(*)=. IF64 
+NB. j profile nouns !(*)=. IF64
 
-NB. object nouns set by this verb 
-NB. !(*)=. BlockLength ChallengeScript ChallengeScriptLength InputScript              
-NB. !(*)=. InputScriptLength MagicID MerkleRoot Nonce                                 
-NB. !(*)=. OutputAddress OutputCount OutputSatoshis PreviousBlockHash                 
-NB. !(*)=. SequenceNumber TargetDifficulty TimeStamp TransactionCount                 
+NB. object nouns set by this verb
+NB. !(*)=. BlockLength ChallengeScript ChallengeScriptLength InputScript
+NB. !(*)=. InputScriptLength MagicID MerkleRoot Nonce
+NB. !(*)=. OutputAddress OutputCount OutputSatoshis PreviousBlockHash
+NB. !(*)=. SequenceNumber TargetDifficulty TimeStamp TransactionCount
 NB. !(*)=. TransactionHash TransactionIndex TransactionInputNumber TransactionLockTime
-NB. !(*)=. TransactionVersionNumber VersionNumber                                     
-   
+NB. !(*)=. TransactionVersionNumber VersionNumber
+
 NB. fetch genesis block data
-dat=. read y 
+dat=. read y
 
 NB. first 4 bytes are "sort of" block delimiters
 MagicID=: (i. offset=. 4) { dat
@@ -281,9 +282,9 @@ NB. next 4 bytes is a random number nonce
 offset=. offset + 4 [ Nonce=: (offset + i. 4) { dat
 'Nonce mismatch' assert '1DAC2B7C' -: ,hfd a. i. Nonce
 
-NB. next 1 to 9 bytes is the transaction count stored as a variable length integer 
+NB. next 1 to 9 bytes is the transaction count stored as a variable length integer
 NB. see:  https://en.bitcoin.it/wiki/Protocol_specification#Variable_length_integer
-offset=. offset + vlen [ 'vlen TransactionCount'=: vint (offset + i. 9) { dat  
+offset=. offset + vlen [ 'vlen TransactionCount'=: vint (offset + i. 9) { dat
 'TransactionCount mismatch' assert TransactionCount = 1  NB. (*)=. vlen
 
 NB. next 4 bytes transaction version number
