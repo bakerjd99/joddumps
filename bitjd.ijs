@@ -1,4 +1,4 @@
-NB. JOD dictionary dump:  2 Jul 2014 09:52:29
+NB. JOD dictionary dump:  3 Jul 2014 12:58:52
 NB. Generated with JOD version; 0.9.95; 13; 26 Jun 2014 11:06:22
 NB.
 NB. Names & DidNums on current path
@@ -215,7 +215,7 @@ lockt=: (offset + i.4) { d
 
 ParseGenesisBlock=:3 : 0
 
-NB.*BitJDSetup v-- parse Bitcoin genesis block.
+NB.*ParseGenesisBlock v-- parse and check Bitcoin genesis block.
 NB.
 NB. This verb parses and checks the raw binary data of the first or genesis Bitcoin block.
 NB.
@@ -683,15 +683,15 @@ showpass 4 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:''
 zz=:zz,'(<(<''BitJD''),<0$a:),(<(<''BitJDBlockBreaker''),<0$a:),(<<;._1 '' BitJD'
-zz=:zz,'Setup BASE58 Base58Check Base58CheckModel BitJDSetup GenesisBlockCh'
-zz=:zz,'allengeScript assert b58checkFrbytes b58fd dfb58 dfh hfd i1 ic jtsl'
-zz=:zz,'ash read todate tsfrunixsecs vint''),(<<;._1 '' ParseGenesisBlock Bas'
-zz=:zz,'e58Check Base58frKey65 GenesisBlockChallengeScript GenesisBlockOutp'
-zz=:zz,'utAddress ParseGenesisBlock assert b58fd hfd i1 ic read todate tsfr'
-zz=:zz,'unixsecs vint''),<<;._1 '' sslhash IFACEWORDSsslhash OPENSSL ROOTWORD'
-zz=:zz,'Ssslhash cd s256 s512 sha1 sr160 sslRIPEMD160 sslsha1 sslsha256 ssl'
-zz=:zz,'sha512''                                                            '
-zz=:543{.zz
+zz=:zz,'Setup AdndAddress BASE58 Base58Check Base58CheckModel BitJDSetup Ge'
+zz=:zz,'nesisBlockChallengeScript assert b58checkFrbytes b58fd dfb58 dfh hf'
+zz=:zz,'d i1 ic jtslash read todate tsfrunixsecs vint''),(<<;._1 '' ParseGene'
+zz=:zz,'sisBlock Base58Check Base58frKey65 GenesisBlockChallengeScript Gene'
+zz=:zz,'sisBlockOutputAddress ParseGenesisBlock assert b58fd hfd i1 ic read'
+zz=:zz,' todate tsfrunixsecs vint''),<<;._1 '' sslhash IFACEWORDSsslhash OPEN'
+zz=:zz,'SSL ROOTWORDSsslhash cd s256 s512 sha1 sr160 sslRIPEMD160 sslsha1 s'
+zz=:zz,'slsha256 sslsha512''                                                '
+zz=:555{.zz
 showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
