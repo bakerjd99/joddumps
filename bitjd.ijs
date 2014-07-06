@@ -1,10 +1,10 @@
-NB. JOD dictionary dump:  3 Jul 2014 14:17:56
-NB. Generated with JOD version; 0.9.95; 13; 26 Jun 2014 11:06:22
+NB. JOD dictionary dump:  6 Jul 2014 03:17:36
+NB. Generated with JOD version; 0.9.95; 10; 25 Jun 2014 23:24:58
 NB.
 NB. Names & DidNums on current path
-NB. +-----+--------------------------------------+
-NB. |bitjd|16954541203725931937674789829407175055|
-NB. +-----+--------------------------------------+
+NB. +-----+---------------------------------------+
+NB. |bitjd|231946941940867855249824712027398708332|
+NB. +-----+---------------------------------------+
 
 9!:41 [ 1 NB.{*JOD*}
 cocurrent 'base' NB.{*JOD*}
@@ -21,20 +21,73 @@ AdndAddress=:'17MfYvFqSyeZcy7nKMbFrStFmmvaJ143fA'
 
 BASE58=:'123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz'
 
+DIGITS=:'0123456789'
+
+EXPORTCSVDIRECTORY=:'c:/bitjddata/blockparser/export/'
+
 GenesisBlockChallengeScript=:'4104678AFDB0FE5548271967F1A67130B7105CD6A828E03909A67962E0EA1F61DEB649F6BC3F4CEF38C4F35504E51EC112DE5C384DF7BA0B8D578A4C702B6BF11D5FAC'
 
 GenesisBlockOutputAddress=:'1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa'
 
 IFACEWORDSsslhash=:<;._1 ' sr160 sha1 s256 s512'
 
+INAFTERCOLUMNS=:<;._1 ' InputHash OutputKey'
+
+INPUTCOLUMNS=:<;._1 ' InputAmount InputHash TransactionHash InputKey InputSequenceNumber InputSigFormat InputSigLength InputTransactionIndex'
+
+INPUTSFILE=:'c:/bitjddata/jdcsv/inputs.csv'
+
+JDCSVDIRECTORY=:'c:/bitjddata/jdcsv/'
+
 OPENSSL=:'c:/j64/j64-802/bin/libeay32.dll '
 
+OUTPUTCOLUMNS=:<;._1 ' OutputKey TransactionHash OutputKeyFormat OutputScriptLength OutputValue'
+
+OUTPUTSFILE=:'c:/bitjddata/jdcsv/outputs.csv'
+
 ROOTWORDSsslhash=:<;._1 ' IFACEWORDSsslhash OPENSSL ROOTWORDSsslhash s256 s512 sha1 sr160'
+
+TRANSACTIONCOLUMNS=:<;._1 ' BlockNumber BlockTime TransactionHash TransactionSize TransactionVersionNumber InputCount OutputCount'
+
+TRANSACTIONSFILE=:'c:/bitjddata/jdcsv/transactions.csv'
+
+TSEGPREFIX=:'### BlockNumber,'
 
 showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 
+
+AttachTransactionHashes=:4 : 0
+
+NB.*AttachTransactionHashes   v--  attach  transaction  hash   to
+NB. individual inputs/ouputs.
+NB.
+NB. When inputs and  outputs  are  normalized it's  necessary  to
+NB. insert the  (TransactionHash) of the transaction inwhich they
+NB. occur so the input and output  tables can be joined  with the
+NB. transactions table.
+NB.
+NB. dyad:  blbt =. btcl AttachTransactionHashes blbt
+
+NB. insert lists
+bm=. (0&{"1 &.> y) e.&.> <INAFTERCOLUMNS
+rp=. >:&.> bm
+
+NB. hash rows
+rh=. I.@lastones&.> rp #&.> bm
+
+NB. expand io tables for hash insertions
+iot=. rp #&.> y
+bm=. ;(#&> iot) {.&.> <1
+
+NB. replicate hashes
+ths=. (#&> rh) # x
+
+NB. merge hashes and repartition
+iot=. ths (;rh +&.> <"0 +/\ 0, }: #&> iot)} ;iot
+bm <;.1 iot
+)
 
 Base58Check=:('1' #~ [: +/ (0{a.) = ]) , [: b58fd 256x #. a. i. ]
 
@@ -97,121 +150,140 @@ NB.
 NB. monad:  BitJDSetup uuRun
 NB.
 NB.   BitJDSetup 0  NB. default
-NB.   BitJDSetup 1  NB. load test block data
 
-NB. !(*)=. IF64 jpath bcp gb d mn lb bfv pbh mrt uets tb rbn vlen tcnt trvno
-NB. !(*)=. cntinp offset hitr inptrx repsclen repscrpt seqno outpcnt 
-NB. !(*)=. outsval chalen chalscpt lockt
+NB. !(*)=. jpath
 
 NB. local bitcoin block directory - needs configured BitJDData folder
-bcp=: jtslash jpath '~BitJDData'
+root=.  jtslash jpath '~BitJDData'
 
-NB. bitcoin genesis block file - has no predecessors
-gb=: bcp,'blk00000.dat'
-
-if. 0 -: y do. return. end.
-
-d=: read gb   NB. fetch genesis block data
-
-NB. first 4 bytes are "sort of" block delimiters
-mn=: (i. 4) { d
-'block delimiter mismatch' assert 'F9BEB4D9' -: ,hfd a. i. mn
-
-NB. next 4 bytes gives following block length
-lb=: _2 ic (4 + i. 4) { d
-'genesis block length mismatch' assert 285 = lb
-
-NB. next 4 bytes block format version - has changed
-bfv=: _2 ic (8 + i. 4) { d
-
-NB. next 32 bytes is previous blocks hash - genesis block
-NB. has no previous hash and all bytes are set to 0
-pbh=: (12 + i. 32) { d
-'genesis block previous hash mismatch' assert (32#0) -: a. i. pbh
-
-NB. next 32 bytes is the Merkle tree root hash
-mrt=: (44 + i. 32) { d
-grh=. '3BA3EDFD7A7B12B27AC72C3E67768F617FC81BC3888A51323A9FB8AA4B1E5E4A'
-'genesis block merkle root mismatch' assert grh -: ,hfd a. i. mrt
-
-NB. next 4 bytes is a UNIX epoch timestamp - rolls over 7th feb 2106
-NB. there is no timezone information - it is interpreted as UTC
-uets=: _2 ic (76 + i. 4) { d
-'genesis block time stamp mismatch' assert 2009 1 3 18 15 5 -: ,tsfrunixsecs uets
-
-NB. next 4 bytes represents block target
-tb=: _2 ic (80 + i.4) { d
-'genesis block target mismatch' assert 486604799 = tb
-
-NB. next 4 bytes is nounce random number
-rbn=: (84 + i. 4) { d
-'genesis block nonce mismatch' assert '1DAC2B7C' -: ,hfd a. i. rbn
-
-NB. next 1 to 9 bytes is the transaction count stored as a variable length integer
-NB. see:  https://en.bitcoin.it/wiki/Protocol_specification#Variable_length_integer
-'vlen tcnt'=: vint (88 + i. 9) { d
-'genesis block transaction count mismatch' assert tcnt = 1
-
-NB. next 4 bytes transaction version number
-offset=: 88 + vlen
-trvno=: _2 ic (offset + i.4) { d
-'genesis block transaction version number mismatch' assert 1 = trvno
-
-NB. next 1 to 9 bytes is the number of transaction inputs
-offset=: offset + 4
-'vlen cntinp'=: vint (offset + i. 9) { d
-
-NB. next 32 bytes is the hash of the input transaction
-offset=: offset + vlen
-hitr=: (offset + i. 32) { d
-'genesis block input transaction hash mismatch' assert (32#0) -: a. i. hitr
-
-NB. next 4 bytes in the input transaction index
-offset=: offset + 32
-inptrx=: _2 ic (offset + i. 4) { d
-'genesis block input transaction index mismatch' assert _1 = inptrx
-
-NB. response script length is next
-offset=: offset + 4
-'vlen repsclen'=: vint (offset + i. 9) { d
-'genesis block response script length mismatch' assert 77 = repsclen
-
-NB. response script
-offset=: offset + vlen
-repscrpt=: (offset + i. repsclen) { d
-
-NB. sequence number 4 bytes - not used Jan 2012
-offset=: offset + repsclen
-seqno=: ,hfd a. i. (offset + i. 4) { d
-'genesis block sequence number mismatch' assert 'FFFFFFFF' -: seqno
-
-NB. output count 1 to 9 bytes
-offset=: offset + 4
-'vlen outpcnt'=: vint (offset + i.9) { d
-
-NB. output value - number of satoshis sent
-offset=: offset + vlen
-outsval=: (offset + i.8) { d  NB. 64 bit unsigned integer
-'genesis block satoshi output value mismatch' assert '00F2052A01000000' -: ,hfd a. i. outsval 
-outsval=: ]`(_3&ic)@.IF64 outsval
-
-NB. challenge script length
-offset=: offset + 8
-'vlen chalen'=: vint (offset + i.9) { d
-'genesis block challenge script length mismatch' assert 67 = chalen
-
-NB. challenge script - contains elliptic curve signatures
-offset=: offset + vlen
-chalscpt=: (offset + i. chalen) { d
-'genesis block challenge script mismatch' assert GenesisBlockChallengeScript -: ,hfd a. i. chalscpt
-
-NB. last 4 bytes lock time - not used yet Jan 2012
-offset=: offset + chalen
-lockt=: (offset + i.4) { d
-'genesis block lock time mismatch' assert 0 0 0 0 -: a. i. lockt
-
-'Genesis block parsed'
+NB. working directories
+bcp_ijod_=: root , 'blocks/'
+dcsv_ijod_=: root , 'blockparser/export/'
 )
+
+CheckEmbeddedCommas=:3 : 0
+
+NB.*CheckEmbeddedCommas  v-- 1 if there  are no ',' characters in
+NB. "--" quoted strings 0 otherwise.
+NB.
+NB. monad:  pa =. CheckEmbeddedCommas blclSegments
+
+dc=. ;y
+(+/',' = dc) = +/ ','= dc {~ I. -. ~:/\ '"' e.~ dc
+)
+
+CutTransactionSegments=:3 : 0
+
+NB.*CutTransactionSegments v-- cuts CSV file data into segments.
+NB.
+NB. monad:  blcl =. CutTransactionSegments clCsv
+NB.
+NB.   file=. read EXPORTCSVDIRECTORY,'EXPORT_2011_05_31.csv'
+NB.   dc=. CutTransactionSegments file
+
+dat=. y -. CR
+dat=. 4&}.&.> (TSEGPREFIX E. dat) <;.1 dat
+)
+
+DenumberIO=:((<'0123456789') -.&.>~ 0 {"1 ]) ,. 1 {"1 ]
+
+InvertSegments=:3 : 0
+
+NB.*InvertSegments v-- invert data in csv segments.
+NB.
+NB. This verb parses and inverts data in csv segments and appends
+NB. to   three    JD   oriented   TAB   delimited    text   files
+NB. (transactions.csv), (inputs.csv) and (outputs.csv)
+NB.
+NB. monad:  ilOutlines =. InvertSegments blclSegments
+NB.
+NB.   csv=. read EXPORTCSVDIRECTORY,'EXPORT_2011_05_31.csv'
+NB.   segs=. CutTransactionSegments csv
+NB.
+NB.   1 SetNormalizedCSVFiles JDCSVDIRECTORY
+NB.   InvertSegments segs
+NB.
+NB.
+NB. dyad:  ?? InvertSegments ??
+
+NB. test for embedded ',' characters in " quoted text.
+NB. I believe (blockchain64.exe) does not embed ','s
+'embedded , characters in "..." strings' assert CheckEmbeddedCommas y
+sgs=. y -.&.> '"'
+
+ntr=. #TRANSACTIONCOLUMNS
+
+NB. get longest segment header
+head=. SegmentHeader sgs
+iohead=. <ntr }. head
+
+NB. cut lines drop headers
+sgs=. }.&.> <;._2 &.> sgs
+
+NB. lines out: transactions, inputs, outputs
+lout=. 0 0 0
+
+for_sg. sgs do.
+  st=. <;._1 @  (','&,) &.> ;sg
+
+  NB. first (ntr) positions to (transactions.csv)
+  tr=. ntr {. &> st
+  tr=. tr #~ 0 < #&> 0 {"1 tr
+  (csvfrtab tr) fappend TRANSACTIONSFILE
+  lout=. ((0{lout) + #tr) 0} lout
+
+  NB. remaining positions to (inputs.csv) and (outputs.csv)
+  st=. ntr }.&.> st
+  t=. ((#&> st) {.&.> iohead) ,.&.> st
+  t=. t #~ 0 < #&> t
+
+  'transaction input/output mismatch' assert (#t) = #tr
+
+  NB. NIMP: WONKY: some input/output blocks are questionable remove them for now
+  'iname ikey'=. <"1 |: {:&> t
+  mask=. ((,:'Input') (+./"1)@E. > iname) *. 0 = #&> ikey
+  t=. mask # t
+
+  NB. HARDCODE: transaction hash column 2
+  tr=. (<'TransactionHash') ,. mask # 2 {"1 tr
+
+  NB. remove dangling empty inputs, sort and denumber
+  t=. }:&.> t
+  t=. (DenumberIO&.> t) {&.>~ (/:@:(0&{"1)) &.> t
+
+  t=. tr AttachTransactionHashes t
+
+  NB. split into inputs, outputs
+  osplit=. OutputStart&> t
+  ipt=. ;osplit {.&.> t
+  imsk=. (<'InputAmount') = 0 {"1 ipt
+  opt=. ;osplit }.&.> t
+  omsk=. (<'OutputKey') = 0 {"1 opt
+
+  NB. insure complete io rows are formed
+  'input rows incomplete' assert -. 0 e. (<INPUTCOLUMNS) = imsk <;.1 [ 0 {"1 ipt
+  'output rows incomplete' assert -. 0 e. (<OUTPUTCOLUMNS) = omsk <;.1 [ 0 {"1 opt
+
+  ipt=. imsk <;.1 [ 1 {"1 ipt
+  opt=. omsk <;.1 [ 1 {"1 opt
+
+  NB. HARDCODE: remove inputs with nulls in select positions
+  ipt=. >ipt
+  ipt=. ipt #~ -. *./"1 [ 0 = 0 3 4 5 6 7 {"1 #&> ipt
+  (csvfrtab ipt) fappend INPUTSFILE
+  lout=. ((1{lout) + #ipt) 1} lout
+
+  NB. HARDCODE: remove outputs with nulls in select positions
+  opt=. >opt
+  opt=. opt #~ -. *./"1 [ 0 = 0 2 3 4 {"1 #&> opt
+  (csvfrtab opt) fappend OUTPUTSFILE
+  lout=. ((2{lout) + #opt) 2} lout
+end.
+
+lout
+)
+
+OutputStart=:1 i.~ 'Output' -:"1 [: [ 6 {.&> 0 {"1 ]
 
 ParseGenesisBlock=:3 : 0
 
@@ -228,16 +300,14 @@ NB.
 NB. Bitcoin: 285 bytes that changed the world
 NB. http://james.lab6.com/2012/01/12/bitcoin-285-bytes-that-changed-the-world/
 NB.
-NB. monad:  paRc =. ParseGenesisBlock clBlockFile
+NB. monad:  clMsg =. ParseGenesisBlock clBlockFile
 NB.
-NB.   NB. local Bitcoin full client directory
-NB.   file=. (jpath '~BitJDData'),'/blk00000.dat'
-NB.
+NB.   file=. 'c:/bitjddata/blocks/blk00000.dat'
 NB.   ParseGenesisBlock file
 
 NB. j profile nouns !(*)=. IF64
 
-NB. object nouns set by this verb
+NB. nouns set by this verb
 NB. !(*)=. BlockLength ChallengeScript ChallengeScriptLength InputScript
 NB. !(*)=. InputScriptLength MagicID MerkleRoot Nonce
 NB. !(*)=. OutputAddress OutputCount OutputSatoshis PreviousBlockHash
@@ -274,7 +344,7 @@ NB. there is no timezone information - it is interpreted as utc
 offset=. offset + 4 [ TimeStamp=: _2 ic (offset + i. 4) { dat
 'TimeStamp mismatch' assert 2009 1 3 18 15 5 -: ,tsfrunixsecs TimeStamp
 
-NB. next 4 bytes represents block target
+NB. next 4 bytes represents block target difficulty
 offset=. offset + 4 [ TargetDifficulty=: _2 ic (offset + i. 4) { dat
 'TargetDifficulty mismatch' assert 486604799 = TargetDifficulty
 
@@ -298,7 +368,7 @@ NB. next 32 bytes is the hash of the input transaction
 offset=. offset + 32 [ TransactionHash=: (offset + i. 32) { dat
 'TransactionHash mismatch' assert (32#0) -: a. i. TransactionHash
 
-NB. next 4 bytes in the input transaction index
+NB. next 4 bytes is the input transaction index
 offset=. offset + 4 [ TransactionIndex=: _2 ic (offset + i. 4) { dat
 'TransactionIndex mismatch' assert _1 = TransactionIndex
 
@@ -309,7 +379,7 @@ offset=. offset + vlen [ 'vlen InputScriptLength'=: vint (offset + i. 9) { dat
 NB. script data
 offset=. offset + InputScriptLength [ InputScript=: (offset + i. InputScriptLength) { dat
 
-NB. sequence number 4 bytes - not used Jan 2012
+NB. sequence number 4 bytes
 offset=. offset + 4 [ SequenceNumber=: ,hfd a. i. (offset + i. 4) { dat
 'SequenceNumber mismatch' assert 'FFFFFFFF' -: SequenceNumber
 
@@ -335,11 +405,64 @@ NB. http://blockexplorer.com/block/000000000019d6689c085ae165831e934ff763ae46a2a
 OutputAddress=: Base58frKey65 }. }: ChallengeScript
 'Genesis Block address mismatch' assert GenesisBlockOutputAddress -: OutputAddress
 
-NB. last 4 bytes lock time - not used yet Jan 2012
+NB. last 4 bytes lock time
 TransactionLockTime=: (offset + i.4) { dat
 'TransactionLockTime mismatch' assert 0 0 0 0 -: a. i. TransactionLockTime
 
 'Genesis Block Parsed and Checked'
+)
+
+SegmentHeader=:3 : 0
+
+NB.*SegmentHeader v-- forms denormalized segment header.
+NB.
+NB. monad:  blclHeader =. SegmentHeader blclSegments
+NB.
+NB.   file=. read EXPORTCSVDIRECTORY,'EXPORT_2011_05_31.csv'
+NB.   SegmentHeader CutTransactionSegments file
+
+heads=. (y i.&> LF) {.&.> y
+
+NB. segments headers are usually the same
+if. 1 = #@~. heads do. heads=. ;0{heads
+else.
+  NB. use longest header
+  heads=. ;heads {~ heads <:@i. >./ #&> heads
+end.
+
+<;._1 ',',heads
+)
+
+SetNormalizedCSVFiles=:3 : 0
+
+NB.*SetNormalizedCSVFiles  v--  sets  fully qualified  normalized
+NB. output files.
+NB.
+NB. monad:  paRc =. SetNormalizedCSVFiles clPath
+NB.
+NB.   SetNormalizedCSVFiles JDCSVDIRECTORY
+NB.
+NB. dyad:  paRc =. paReset SetNormalizedCSVFiles clPath
+NB.
+NB.   1 SetNormalizedCSVFiles JDCSVDIRECTORY
+
+0 SetNormalizedCSVFiles y
+:
+TRANSACTIONSFILE=: (jtslash y),'transactions.csv'
+INPUTSFILE=: (jtslash y),'inputs.csv'
+OUTPUTSFILE=: (jtslash y),'outputs.csv'
+
+NB. dyad clears files
+if. x -: 1 do.
+  ferase TRANSACTIONSFILE
+  (csvfrtab ,:TRANSACTIONCOLUMNS) fappend TRANSACTIONSFILE
+  ferase INPUTSFILE
+  (csvfrtab ,:INPUTCOLUMNS) fappend INPUTSFILE
+  ferase OUTPUTSFILE
+  (csvfrtab ,:OUTPUTCOLUMNS) fappend OUTPUTSFILE
+end.
+
+1
 )
 
 b58checkFrbytes=:3 : 0
@@ -362,6 +485,8 @@ Base58Check ekey , csum     NB. wallet format bytes
 b58fd=:'123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz' {~ 58x #.^:_1 ]
 
 bfh=:a. {~ [: dfh _2 ]\ ]
+
+csvfrtab=:[: ; (<10{a.) ,.~ ] ,&.>"1~ '' ; (<9{a.) #~ [: <: [: {: $
 
 dfb58=:58x #. '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz' i. ]
 
@@ -464,30 +589,48 @@ showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:dec85__MK__JODobj 0 : 0
-0f:j31,pC3+>GSn2)-43+>Pbr0eje,0H`).+>P\p0f'q00H`)(+>Y_p1,g=53$9t6+>Ynu0fL43
-0d&Ct1c-=02]sk7+>Gbs1Gp:02'=\1+>k9!2]sn!1GL"0+>Yr!1E\M6+>Y,r2BXat0f^@5+>Pbr
-1a"P1+>b2r1*AFs1,pC21*AA2+?(E!0d&J!1G^.6+>Yer1a"V36"FkD6"FMHATMoZBlmj'Bl5&%
-A7T^lF)rI9DfQsdDII@,H=\4@BOr;S@<>p#DJsV>FD,5.6um!bASa\!;aiQ'6>:OODeX)3@UX=h
-+>l,$@;Kmr@:Eei6=FqH2)ms:ARfLBBlmj'Bl5&&@<6!&2)l^eA7T^lF)rI9DfT]'F@'DWAMlG7
-BOt[h9lFQRCi+*$AS`JU@<6!;3(%@j@r!31ATD6H@<6!;3+d2(AU-0k2DlUdH$!U?E-5W+Bk&8P
-Blmj'Bl5&/AU,D-H$!V=+EVNE@UX=h+>l,$AoD^,@<=hMF@nr"ATW'6A7]@eDIjr6@<-(#F`S[7
-Blmj'Bl5S=A0>c.F`)7jASu(#BlcUWDe!QMBOP^nASu-l;e'i^E-,]+EcZ=F6>:OODeX)3@q]:e
-Ch7KsAKZ&(EbTK7+>"^GDf0Z*Bl7u7770IA5p1,h@Vfag+DYP67qHRLF(o\^Ci<g!:N^buF`]o[
-A9)7&F(T-,F*&NkBlmj'Bl5&&@<6!&2)l^sF`_SFF<G"&A9)7&F%Jhe6Ub'P;FFH)F)5MuF(f9*
-FCfK)@:NjkGAhM4F!)l&7R9C1=&2^^;fd"rBOPsq.3N8DDfp"p:dn,X;bTu+AStFF9H[h`D/a3*
-ARlomBl7@"Gp$^5Ch5XMA8H'5+EMHP+Cob6BjsnIEcYe^ASu(#BlcUWDe!R%@<-F#+@9da@rH(!
-+D58'ATMR,+C]/*@r"t<:K1Ck;FFH)F)5MuF(fT4Dfd+GDfTB0+=L,`:K1Ck;FFH)F)5MuF(d!F
-B6%p5E+1[a@q]F`CIW>RH$!V=6>:OODeX)3@UX=h+>l,$@q]F`CER50Df$V+H$!V=@Pp,WA3t!P
-@rH(!+C\c#AKWii+D,Y4D'3D7FCf?#ARlooARfFk@;I&<+EM+*+Dbt6B-:`'@s)X"DKK?"BOZ7/
-ATJu+Ec5e;BOuEL+Cf414Y@jdAnW;sCe/,^A7f:.3+[>VASu$iA0>Do@qfdgC`m>1Df$U`Blmj'
-Bl5&&@<6!&2)o,YBOk[aBl.9p+D,Y4D'3M'GT\R\F*2G@DfTr@+E_XBATAo%DIal+Dg,c5+Cei$
-AS>[bBOuE2Ao_g,+C]V<ATKmT@r+\IGT].%+D>@r+Cf4SH$!V=Bea=>A7^!.DfTQ)Bl5&3DIjr)
-/ord*2H*.41,Us4BOPsq+D,Y4D'2VnAStFF9QN'G1/g_02)-j/BOPsq+D,Y4D'2VnAStFF9QOlU
-0iLV/0d(.<F(c\.Ec5e;:N0l_;c?A2E\TI+;Fs\R9ggQf2D?7e@<6*)Ao_g,+AZrfDGsJ-F)u.q
-8PhiM6npSR-t?d:+CehrC`mY.+AZrfDGsJ-+Atd-7860%0fC^.BOPsqF)u/=BONVD@q7#2@ps1i
-+E(j7:N0l_;c?@4;b02+0d(.<F(fW9Cia8u1,Us<@q7#2@ps1i+E(j7:N0l_;c?@4;b02+1,Us4
-BOPsqF)u/=BONbQ1+6XC.3N,/Cht54AfslgAStFF9H[8)5qOrK1*C7=F(f`2DKL&1EbSrkCh4`*
-ASu.&BHV#,FCf)rEZeh:FCcS)Dfor>+CT.u+Eh10F_(                               ~>
+1,_-81cHO4+>GSn2)-4/1E\P0+>t>t1a"M-+>Y\o0fC.01*A;-+>khq0ea_+0d&22+>u/$1,9t.
+1*A;*+>c#"0fU:53?U(9+>l,$1,U112BX_5+>beq0f1"11a"M.+>Ghu0ea_+0H`),+>Pku0f1"0
+1a"_"1c-=01E\D4+>GSn1GBq+0d&8/+>Get1,g=12BXe5+>GYp1G^./0d&;0+>Ghu1,U1/2BXb2
++>GPm1,^702'=\1+>k9!2]sn!1GL"3+>Ynu2'=\6+>Y,s3$:""1H$@2+>Gl!1a"P1+>b2r1a"Ut
+1,9t0+>Po!0esk-2BXq$1GL"4+>Yer3?U+6+>b2t1dPYiA3ja:Eb0<56>:OODeX)3@:WnhATMo8
+AoD]46#L+IH$X$EFD,5.6t(1G+Du+>+EV:.+@L6aG%GJUFECr$BN0"\DKB5rFD5Z287?RQATM:%
+FCAZm+EVX4DKB5rFD5Z2+D>2)BHVD8+DG_(Bm+3$F^])/Bl7m4FE9*RF`;JFF$`/k75[%kBlmj'
+Bl5&&@<6!&2)l^eCiF&r@V'XJ@<6!;3(%@j@r"DFFCT6'DBNCsF(HIO3$;X?A9)7&F!,(5Ec#6,
+6=FqH2)ms:ARfLMDe*EqD/WrrC`l&QF(I3g6YL%@CERe3Eah@DF(I3gAo^OUGr@N<2'?@RFCcS6
+F^f0$@j"*PFCT6'DBN_+Gp$RAFCfM9FDi:2@<6!&2)l^jDfT]'F@'\`8jlThFEMP5AS,XoAKZ/)
+EbTH7F!+q+FCT6'DD,a8+Du+?DKA0YARfLED.7'eA7]:=Df'?"F"neOAfu2/ATD?)@<,p%DJpXF
+/12QMBOPpi@ru:&F!,17+<iBh+s:lJDffQ$+EMXFBl7R)+>=pVFD,6+GA2,06ZmKMEa`j,@:OCn
+Df/KbB5M3tFE:r7FE8Ql;cY#QBl%?'A79Rg+DG_8D]j+4B5M3tFE9i]DKTf*ATC@<Eb0*+G%De6
+F_t]1@;L!-Ao_g,+DG_4F`]9TF`_SFF<GX9@ruF'DBNh*D.RcW=AVdk<'sSb6qL9F6W?iZ=_)5e
+ARfh#Ed8d@DerruDJ()%F*8[<Bl%@%+D58'ATD4$ARlomGp"MECi<g!@q]:bDDj=(AU%c87qHRL
+F(o\^Ci<g!6YKnECh7KsAQ*)ZBlJ0+Bl\9:+@9da@rH(!+Cf(nCi![#B4W3,@rc:&F<E.X@rH7,
+@;0V#+@SXc;aDOFF^f0$@j#PuGt2F`ATMR,6>URMCJT(pE-67gA7T^lF)tr-EcZ=F6>:OODeX)3
+@UX=h+>l,$Dfp/@F`\a7A7T^lF)soB5sn(B:JsSZF)u/2@<6*rDKKH1Amo1\+EqaEA9/kA8Oc!5
+79<8_6rS/JChR6uBIP':Ec6)>8PVQ@<(0\P:J=b_:/c7T@;^-p@ruF'DBNV$F(f-++CTA6@:Nt^
+A0>;mFCfJ8Bl7m4F>%QTFDuAE+Cf>+F_u#;8PW)^<'sGT<D?4eBl7m4F<G(3CisT4+DtV)ATLF<
+:fUIn7S-9BDJsQ4@;KY(ARlp*Ea`j,@:OCnDf0V=Bl7m4FE:#kG%G]9;e9TYASuU2Bl8**Ec`F7
+@<>p#Bl5&'F*8[IAS5jkDKKql6pjmR6qL9F6W?iZ=_M_iA9/l-DK]T3FCeu*8jje2Ci<g!@q]:b
+DBNG1Fs(L:E-67FAnc'mF&,V$:/b(b:N0l_;c?@4@rH4'Bl%?k+C]&&@<-W9Anc'm3ZqsLCb-]M
+D_*#AH#.2(:K:@j<E)=]9N=e^;f?f#E-67F@rH1+D/LJ6@;TRs:K:@j<E)md8PDQjDfT]'Ch\3,
+A0>u7@;^-p@ruF'DBNk?FDuAEF&-q#E-68$FCB33F*(i2F<GL6+E)CEE-68D+DG^9Bl7m4FE9*R
+F`_SFFE:8eEcYe^ASu(#BlcUWDe!R%@<-F#+@9da@rH(!+D58'ATMR,+C]/*@r"t<:K1Ck;FFH)
+F)5MuF(fT4Dfd+GDfTB0+=L,`:K1Ck;FFH)F)5MuF(d!FB6%p5E)U=\D.RU,87c4?ATDC$Ec#k?
+A7]XsEc#6$BmO?$+EM+,D.RU,+D>=pA7]d[ATU[cEc#6$BmO?$6W7#TBl%@%F(KH7+D,b4Cj@.C
+F^]*#Anbge+Du+<D..6pH=^V0Dfp/@F`\a<Bl%@%<)Q"W;aEcM8P`)K:J=b_:/c7T@;^-p@ruF'
+DK?q1DesQ5DBNh*D.Rcf;F+&V5snUC:JOhX8PDQjDfT]'Ch\3,A0>u7@;^-p@ruF'DKAcU77U0P
+77KjNFE1f-F(&R#Bl@l3F(K!$ASuT4E,oN%Bm=)E3+HW5@r"PS@X3',F$aS_@rH(!+C\c#AKWii
++Cf(r@r!3!Ec5e;@X3',F(.!dAn45BFCT6'DBNCsF(HIO3$;gRDf$V.G][M7A7]9oA7]7bD..6'
+/Kf+GAKYf-DJ()&De!p,ASuU!AnYY!FCfM9Ao_g,+D>>23ZqpK+?_>"@V09r@r+\IG[kf<Ao`!%
+@UjJ&+Cf41Ao_g,+C]G&C`k;PF(Jo*Ci=3(+CoD#F_t]-FC\um2)o/lFCf?#ARlooARfFk@;I&u
+Ec5e;6>:OODeX)3@UX=h+>l,hAnY^d@qfdgC`m>1Df$V1AU#=L+EM[EE,Tc=F!,UEE+O&4@;]Tu
+Ci=N/EZek#F(K#s@VB=t+D,Y4D'3;5FCfMS+Cf4YAU#=\/g+h>@N]/s6@!ZaF(m@CDId='+E):7
+B5)6+Df0,/BeFH^2)\B(5r(;U+D>2)BHUo-Df$UmE+Noc;bV6i0euZu5rCAP+D>2)BHUo-Df$Um
+E+Noc;bV7G@51\O5qsKq@<6*)Ao_g,+AZrfDGsJ-F)iun0N(J=7860%0fC^.BOPsq+D,Y4D'2Vn
+AStFF9QP8k;Fs\R9gg]o0IUFA.3N,/Cht54AfslgAStFF9H[5):dn)H/MT.;+D>2)BQJ62F(eu:
+-t?d:+CehrC`mY.+AZrfDGsJ-+B(fs/MSA]@<6+'F)5o2@59\u-t?d:+CehrC`mY.+AZrfDGsJ-
++B(fs/M]1A+D>2)BQJ62F(eu>0et.eA18X2@;Ka&De:+fE+Noc;bS<483ngb0eskb@<6+*Bl8$9
+@<-'j@VfTuCh7KsFD)e2DKKH&ATAo&H$!U?@rHL-F<G"0A0?&(Cis:                    ~>
 )
 showpass 0 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
@@ -524,16 +667,27 @@ showpass 0 9 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:dec85__MK__JODobj 0 : 0
-3?U%!1*AP!2)d73ATMs7FEM%f67sa7IT1cE+EK+d+EM%5BlJ/:F*)P6/e&._67r]S:-pQU<+oue
-+>,9!/hS8YDfT]'FED))+EV1>F:ARP67r]S:-pQUG%G]'@<?4#3XlEk67sAi$;No?+<VdL+>,9!
-/g,:SAoD^,@<?'k+EV1>F:ARP67sB'%15is/g+SFFD,T53ZoP;DeO#26nTTK@;BFp%15is/g+YE
-ART[lA3(i[IRJX5%15is/g+Y;@;]^hF#kEq/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
-/M/P+/M/P+/M/P+/M/P+/M/P+%13OO@rGk"EcP`/F<Dr?@<6!-%17,eEHPu9AKW@8De*s$F*(u6
--OgCl$;No?+EqaECER>/+Cf5!@<*K"@<6!&DfQtBEaa$&+Dbt+@;KKa$;No?+Cf5!@<*J<-OgCl
-$=e!aCghC++EVI>Ci<fj5s[eYEaa$&3B9*,4ZX]55s[eYEaa$&3B9)I+BosuDe3rtF(HIV-UC$a
-FE1f2BK8(5-OgDmDeX*1ATDl8-Y[=6A1%fn%172gF*(u2G%ku8DJ`s&F<DrDDf9/64"!Wr6miEN
-:-pQU/ULGc;cFl<<'aD]I4Ym8%13OO%15is/g)`m<(0_b+B)9-6UapP7TE-1/I`%uEb00.ASrVE
-%13OO@rGk"EcP`/F<Dr?@<6!-%16T`ATD4#AKX*WD/a<0@p_Mf6$.-UF(dQo3F;           ~>
+0fC.0+>P&o2BXn42]t(&2)d6]DK]T3FAla`D.RU,F"f:C67s`ZDK]T3FAla`D.RU,F"f9jF=f'e
+@UX=l@j"?\G%G]9;e9TYASuU2+EV19F=n"0:-pQB$;No?+CfG'@<?'k3Zp130f3WfCbRaV$;No?
++Cf(nDJ*O%3Zp"+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
+/M/O`$4R>PDe!p1Eb0-1+=CW,F(H^.$4R>;67sBpDK]T3F<G!7An?0/Anc'mEt&Hc$8EZ%ATU[c
+Ec#6$BmO?$6W7#TBl%@%+A,$h;cZ:X;FNrP:Jt=)$4R>PF*9]-+ED%%A0=<C:estg6W7#R8Q%uE
+<)6Cp/13kg:estg?SX;i0jcUl?SaDh@rlf@%17/fB6-3s+@C9n<,uDbF(&R#Bl@lfAS5jkDKKqB
+@rlf9%14d34<S]YDg-//F)rHqDK]T3FAla`D.RU,F!,O8B6+Lh%16TdG!.l/Eb/Zi+@TC/:Jt.Z
+;cZ:X;FNrP:Jt=H-Uh-6:Jt/!1,(F:?SFEG1,LUnF*8o?$?KckF$2Q,6ZmKMEa`j,@:OCnDf/Kb
+B5M3tFE8R7F*8Z8$8<Sb+EM47GApu3F!+%lG%G]9;e9TYASuU2+EM+,Et&Hc$=e.#4ZX^+ART*l
+79EA^;H-"^<^]MW771$M;HYOu79EA^;H.!Y0JP:h0K!2m3A+f_Fsd_+F(K!*4ZX]QF`^T'@;^-p
+@ruF'DGt+ZD.RU,F!+t6Fs%5$0H`J#F(fK9E+*g/+A$HoATDlkAS5jkDKKqBF(K!*FCfN8F*)P6
+:-pQ_H[\qCI3<S_/Kf+EEbTK7+EMXI@P/)s:-pQB$;No?+B3#gF!*(f/hSb!AoD^,@<?U&A0>u*
+G]XB%:-pQB$;No?+Eh=:@UX@mD)r+5:-pQU%15is/g)8Z+<W9h/hS8hDJ!g-D..NtA0>u*G]XB%
+:-pQU+:SZQ67sBhF`_;8E]P<c8oJB\+@Ih)6=FY@EX`@N67sBjEb/[$ARmhEH[\A3I16NY67sBj
+BOPdkATKmT/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
+/I`$r$=e!aF`MM6DKI!K@UX=h-OgE'AT;j,Eb-@@C2[X)ATMs)E[M;'%15is/g,@VEbce3DBNG*
+ARTU%@UX=h+E)9CFE1f2BHV,0@ps1b%15is/g+Y?ARTU%-RT?1%16T`@r,RpF!,RAE,9H&?U6tD
+FE1f2BK8(5?TgFm-UC$aFE1f2BK8(5-QlV9@rGq!@<6!&4=<E\6$.-UF(dQo3@>7C@rH(!F(KB6
++=Cl<De(4)$4R>aATMs)DK]`7Df0E'DKI!KB5_^!-T`\J:IHQ>$;No?+>%q>78m/.;cH%\<.->-
+$4R=O$4R>;67sB4HW3F4<$5+>6UO:@;asb\I4Ym8ATD@#E+No00F\?u$=e!aF`MM6DKI!K@UX=h
+-OgDmDe3rtF(HIVFDYu5De!-?5s]U5@<6*B3B:F                                   ~>
 )
 showpass 1 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
@@ -541,7 +695,7 @@ showpass 1 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:dec85__MK__JODobj 0 : 0
 2E;m=+>Y,p1E\Fq2E!?61,L+/+>Gf62BXb0+>P&o3&3010esk,+>Pr3+>Get1*A;10Jjn-0H`+n
-0ebF?+?1K!+?(u46=FqH2)ms:ARfLC;_g3`0-EV,+D,b6@ruF'DBNP3Df$V1FEDJC3\N.!BleAK
+0ebF?+?1K!+?)5>6=FqH2)ms:ARfLC;_g3`0-EV,+D,b6@ruF'DBNP3Df$V1FEDJC3\N.!BleAK
 B5)I$F^ct5Df%-pDe*F#8T$n/@;g3?1GLgG3B&Z%$84%A$84%TF(fK9Bl7Q+BQ&);FDi:3Df0`0
 Ec`FGD]hATF(I3g6YL%@CER5-Ec#6,%13OO%17&s@Vfag+EMX5FD55-F*)G:DJ((\DI[TqALM#5
 FCeZ^+Cno&@4;WmHOU<)%13Cp0-EYo@rGmh+C]V<AQrF_FDi9gBkL"TFCf)rEX`?^6>:((DKKH&
@@ -672,11 +826,12 @@ FC?d2$;No?%15is/g,=KEaiI!Bl,m?$;No?+:SZQ67sB'+>G!ZD'13FEb[pTF@nqK+Bot,A0<rp
 -Xpe3C1JH0FD5Q4-QlV91E^UH+=ANG$;No?+<V+#:-pQU@<H[*DfRl]+A-QcDBM>"+@9LPATA4e
 :-pQU@rc-hFCeuD+>PW*1hq/N1,9:G:-pQU@q]:gB4Z-F+>#/s/M/P+/M/P+/M/P+/M/P+/M/P+
 /M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M.D=:-pQU0f3WfDDEsiF*(i2F<GdGEbce9DBNn=
-ATMF#FCB9*Df-!k%13OO:-pQUD..3k04fB>@s)m)+EM+9F`7csC2[Wq?YO7nA7$HB3Zoe:Blls8
-;e:&nE$l)%F)>i<FDuAE+Db[5C2[Wq?YO7nA7#cQ6>:O66rRZ=F`8HW%13OO:-pQU@VKpoDeX)3
-@VfsmCER),ART@cEZf"8Dfp".$;No?+DPh*B4#@fDe*2t4ZX]56>:O66pb^.@r"DOART@cE[M;'
-%15is/g+V;FCT6'DBMP>+D5_5F`7cs:-pQUC2[Wq?YO7nA7$HB3Zoe:Blls8-OgCl$4R>`D/XQ=
-E-67F-UMNh@rH(!01nVTE,oN2ASuTuFD5Z2+E2@>C1Ums+EM+9F`8r\                   ~>
+ATMF#FCB9*Df-!k%13OO:-pQUD..3k04fB>@s)m)+EM+9F`7cs:-pQUC2[Wq?YO7nA7$HB3Zoe:
+Blls8;e:&nE$l)%F)>i<FDuAE+Db[5-UMNh8jlThFEMOM%15F9F@nr"ATW'6+>=63%15is/g+V;
+FCT6'DBND)De!Q*@WH$gCLqN/B6%p5E"*.L67sBqDe*KfBkhQs?Q_Km+=BKiF@nqfCi<g!6?6XG
+CLqN6%13OO:-pQU@VKpoDeX)38jje7Ec6)>%15is/g+nIA7o7`C2[Wi+?_b.-UMNh8jk$9$4R>;
+67sBkF_u(?Anc'm+Du+<D..6pH=_++$>OKiB4#@fDe*3<3ZoeFDfT]'Ch\3,6>URMCI;cDBl6::
+<[S=`%13OOF)>i<FDuAE+=BKiFCT6'DD+UM+E2@4F(K62@<?4%DBNn=De`inF<GX9FEMOT-N  ~>
 )
 showpass 4 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
@@ -686,50 +841,66 @@ zz=:''
 zz=:zz,'(<(<''BitJD''),<0$a:),(<(<''BitJDBlockBreaker''),<0$a:),(<<;._1 '' BitJD'
 zz=:zz,'Setup AdndAddress BASE58 Base58Check Base58CheckModel BitJDSetup Ge'
 zz=:zz,'nesisBlockChallengeScript assert b58checkFrbytes b58fd dfb58 dfh hf'
-zz=:zz,'d i1 ic jtslash read todate tsfrunixsecs vint''),(<<;._1 '' ParseGene'
-zz=:zz,'sisBlock Base58Check Base58frKey65 GenesisBlockChallengeScript Gene'
-zz=:zz,'sisBlockOutputAddress ParseGenesisBlock assert b58fd hfd i1 ic read'
-zz=:zz,' todate tsfrunixsecs vint''),<<;._1 '' sslhash IFACEWORDSsslhash OPEN'
-zz=:zz,'SSL ROOTWORDSsslhash cd s256 s512 sha1 sr160 sslRIPEMD160 sslsha1 s'
-zz=:zz,'slsha256 sslsha512''                                                '
-zz=:555{.zz
+zz=:zz,'d i1 ic jtslash read todate tsfrunixsecs vint''),(<<;._1 '' Normalize'
+zz=:zz,'BlockChainCSV AttachTransactionHashes CR CheckEmbeddedCommas CutTra'
+zz=:zz,'nsactionSegments DenumberIO EXPORTCSVDIRECTORY INAFTERCOLUMNS INPUT'
+zz=:zz,'COLUMNS INPUTSFILE InvertSegments JDCSVDIRECTORY LF OUTPUTCOLUMNS O'
+zz=:zz,'UTPUTSFILE OutputStart SegmentHeader SetNormalizedCSVFiles TAB TRAN'
+zz=:zz,'SACTIONCOLUMNS TRANSACTIONSFILE TSEGPREFIX assert boxopen csvfrtab '
+zz=:zz,'fappend fboxname ferase jtslash lastones read smoutput''),(<<;._1 '' '
+zz=:zz,'ParseGenesisBlock Base58Check Base58frKey65 GenesisBlockChallengeSc'
+zz=:zz,'ript GenesisBlockOutputAddress ParseGenesisBlock assert b58fd bfh d'
+zz=:zz,'fh hfd i1 ic read todate tsfrunixsecs vint''),<<;._1 '' sslhash IFACE'
+zz=:zz,'WORDSsslhash OPENSSL ROOTWORDSsslhash cd s256 s512 sha1 sr160 sslRI'
+zz=:zz,'PEMD160 sslsha1 sslsha256 sslsha512''                               '
+zz=:974{.zz
 showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:dec85__MK__JODobj 0 : 0
-1,L+0+>P&o0H`,22'=V4+>P]/+?(Dt1GUmUBlls8;e:&nE)&_P.RIik8jlThFEMOFF"JsdF(KH9
-E$0@CEbfB,B-:c'G%ku8DJ`s&F<G16EZd\_FCT6'DD+UM+E2@>C1Ums/e&._67r]S:-pQU+:SZQ
-67sBhF`_;8E]P<c8oJB\+@Ih)6=FY@EX`@N67sBjEb/[$ARmhE1,(F>C3=DL1^sde67sBjBOPdk
-ATKmT/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/I`%^
-67sB81hq/N1,L+dEc6)>+E):5@;]e*ARlnm$;No?+>G]fF_i`d+D>2)BHVJ0Eaj)4@:Wn[A0<:A
-F)5MuF(d!3$4R>_AT;j,Eb-@@F)u/2@<6*0%13OO:gnBcAOg<LATMR,6>URMCJI2K.SsPoF(IjQ
-DImm'F$a\]@r!3./M/)3Blmj'Bl5&+ASu(#BlbD+Ci<g!+Cf(r@r!2qDIal/@<-F#+D#e+D/a<&
-/e&._67sB'%15is/g+SFFD,T53ZoP;DeO#26nTTK@;BFp%15is/g+YEART[lA3(hg0JPD!F_i`d
-%15is/g+Y;@;]^hF#kEq/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
-/M/P+/M/P+%13OOEb065Bl[c--Za?FBOPsq-OgCl$?L9)BOPsq:-pQ_F)u/2@<6*)F"JsdBOPsq
-+CT)!DfTQ6BPhf5Ao_g,+AZrfDGsJ-/db??/db??/g*ksCLqQ0+Eh16BlA-8+<Y?+F(c[=@;KRp
-EbTW/D0$gB@<Q'nCggdhAKW+0DBL'DBOr;/:N0l_;c??s:-pQU@VK^gEbT*++DG_7FCB!%ARlp-
-Bln#2C2n><3%cn0+CTG%Bl%3eCh54A7WNEa+CT.1+E):7B5)6lC^Np(/g+\9D/UP<@rc:&F<G%<
-+AcKf@ps0r8mudXBl5&;Bln#2@:X+qF*)81DKKqB@X0(_Bl%T.9OVcj$;No?$;No?+Eh=:@UX@m
-D)re\ARuutFEDI_0/%NnG:mfQASuR1CbBXHB.jTe67rU?67sBpDKKH1Amo1\+EqaEA12LJ3XSVK
-/db??/g)9X1,Us4+>"^783o!g2BZ[AF(c\.Ec5e;:N0l_;c??s:-pQU+EKCp1*@\k+B(fs2)-j/
-BOPsq+D,Y4D'2VnAStFF9F=N]/g)9XBONV<+>"^783nsQBOPsq+D,Y4D'2VnAStFF9F=N]/g)9X
-E\TI++>"^68PhiM6nL,O0Hb%;F(c\.Ec5e;:N0l_;c??s:-pQ?:-pQU@rc-hFCeuD+>PW*1eMn.
-1,oV967sBjBOPdkATKmT/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
-/M/P+/M/P+/IG6>/g)l*C3=DM0Hak=@;]^hA0>u4+EDUB+E)-?1GU(^BlkJ=H#n(=D0$$k@rGjn
-@<6K4-Za?FBOPsq-OL2U67s`uAT23uA7]Y#Es`7L67sC"Ec5Q(Ch4_9+ED%5F_Pl-+EqaEA9/k:
--n6Z//g*_T8P`8-8OccQ:*<+t2DcOV:-hTC+DPk(FD)!g:-pQUA8H'8F)N1?@<?0*BlbD6@:Ntb
-DIkJ>F!,OCARfFdBk&8;+CT>4F_t]2+DPn<+?1u-1*C:P+DG_7FCB!%ARl-hF)5eY/g*5I7TW/V
-+F>4Y06M>V05P?30./hrE+*j%+=DVIBl5RO$;XJe:/b(b4ZX^,F)5e</0I#&8Oc9I;]mS5-p'I;
-=(uOp9PJBeGT]:iA9)U&A0=9KEd)58-Rg0P/g*8V:-hTC.3Ns[-Z!L+ARTj?1+m*RC`k)e+=Juf
-,To2sCh[@"F)3IMD]gDV4!5q,+=&'l-Z!L+F)u.MA9i!*@N[$I$49Np/g+Y4Cht5)ChsGgA3Dt.
-2'G"7$4:iqCia8u1,UsQ3ZoOf+=L#^78?c[9HYl/4%Vn"1j^Sm;b0202)ZR@+=eRZ+=^kDGT\JG
--T`[u;b0202)ZRk+=^kDC`k3;-RgBPA.!C!Cia8u2)-jL3ZoOf+=L#^78?c[9HYl/4%Vn"1j^Sm
-;b0230esk8+=eRZ+=^kDGT\JG-T`[u;b0230eskc+=^kDC`k3;-RgBPA.!C!Cia8u0g.Q?+<VdL
-+=L#^78?c[9HYl/4%Vn"1j^Sm;b02/+?gnu+F#"Y@j$"=.Ushf-Ql>Y5qsKr+=^kDC`k3;-RgBP
-A.!C!Cf3i$7860)2D@9T+=L#^78?c[9HYl/4%Vn"1j^Sm;Fs\R9gg]o0H`P%.j0'Z.UsTG+=^kK
-4!u.K8PhiM6npSR+DDrJ@j#S1.UshT-=^Qn$;No?.V3L.A7]^kDId<rFE7c               ~>
+1GL"/+>P&o0H`,22'=Y0+>Y`2+>Get1,^p22]sh40JYt/F@nr"ATW'6:-pQ_6>:O66rRZ=F`8IE
+/M/)dATW'6+EqaECM@[!+D#G6Bl\-0D.RU,+D,P4+@9da@rH(!01nVTE,ol3ARfg7%15is/e&._
+67sB'%15is/g+SFFD,T53ZoP;DeO#26nTTK@;BFp%15is/g+YEART[lA3(hg0JPD!F`&rk%15is
+/g+Y;@;]^hF#kEq/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
+/M/P+%15is/g)l*C3=DL1a$FODfp"ADfTK!DJ=E.A0;<g:-pQU0f3WfCbRRdBOPsq+Eh=:@WNZ#
+A7T7^+=M;PChR6uBIOAt%17,eEHPu9AKW@AF)5MuF(cp1$4R>;DfT]'Ch\3,6>URMCI;cDBl6::
+<_bt6.Sao&D..6pH=]EZDe!QMBOPUm6W7#.F"JsdDJsQ4@;KY(AKX?=<ZkjfDe!QmBOPUm+D,>(
+ATKI2:-pQ?:-pQU<+oue+EM%5BlJ/:DJsQ4@;KY(ATJu9BOr;qCi<g!@q]:bDBL'4@<>p#Bl5&8
+BOr;9/n8sG+CoV3E!f?,/g+b?Ch7Z1B4YslEaa'$A0>?,+D>k=E-"&n04Sp2AM.V6DeElt/n8g:
+05rRRCi<g!@q]:bDD*UL:-pQ?:-pQU@<H[*DfRl]+A-QcDBM>"+@9LPATA,Q67sBjEb/[$ARmhE
+1,(F>C3=>H2%!)F/g+Y;@;]^hF#kEq/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
+/M/P+/M/P+/M/P+/M/P+$49U<EcYe^ASu(#BlcUWDe!QX67s`a@<-F#7qHRLF(o\^Ci<g!+EK+d
++@9da@rH(!+D58'ATMR,+C]/*@r!2sBOt[h+CT.u+E1b0F(HJ*G[YH.Ch54.$;No?+<V+#:-pQU
+@<H[*DfRl]+A-QcDBM>"+@9LPATA4e:-pQU@rc-hFCeuD+>PW*1hq/L0JO"D:-pQU@q]:gB4Z-F
++>#/s/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M.D=:-pQU
+0f3WfCbRXf@:Wn[A0>u4+DP=pCNCV=AT2R/Bln96Gmt)i$?B]tF_Pl-+=D5OChR6uBI=5r%17/t
+ChR6uBMLlH.W]ZIBOPsq+EK+d+D>2)BHU`"B5_g)FD,N4+D,Y4D'2VnAStFF9J-b]:-pQB$;No?
++AH9[ATJt:G%#E*Dfp+D+D>2)BHSF+ChI[,Bln$*F!)T6G%#*$@:F%a+<YB9+<Yc>AKW*kE+Noc
+;bRW-:-pQU@VK^gEbT*++DG_7FCB!%ARlp-Bln#2C2n><3%cn0+CTG%Bl%3eCh54A7WNEa+CT.1
++E):7B5)6lC^g_H67sBkASl?.F(96)E-*43Gp#plF(8Wp+A-'`D/!l1GA2/4+CSeqF`VYAASuU2
++C]U=6>:7P+A?3\/e&._67r]S:-pQUG%G]'@<?4#3ZrKTAKYZ.FDs8o06_Va/oP]?DKBl8/oPcC
+0+A7`67sAi$;No?+D>k=E&oX*GB\6`C3+<*FE_/6AM.J2D(fXJBkqE9:gnET@;JPEF)>W/02kD-
+,r.//,r.h61,(I01,*-SA0iub9ggib1,*<YE[<IpGA1r*Dg-73$;No?%15is/g+kGFCfK)@:Njk
+GAhM4.!$gu%15is/e&._67sB'F##U2+<W6Y;b0202)ZRj@<6*)Ao_g,+AZrfDGsJ-%15is/g)9X
+2)-j/+>"^783o*f1*C7=F(c\.Ec5e;:N0l_;c?@!$;No?+<Y`=@5/lI/Kdt_5qsKq@<6*)Ao_g,
++AZrfDGsJ-%15is/g)9XE\TI++>"^68PhiM6nL,O0Hb%;F(c\.Ec5e;:N0l_;c?@!$;No?%15is
+/g+YEART[lA3(hg0JPCVF`&ro%15is/g+Y;@;]^hF#kEq/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+%15is/g)l*C3=DM0Hak=@;]^hA0>u4+EDUB+E)-?
+1GU(^BlkJ=H#n(=D0$-n:-pQU0f3WfCbRXf@:Wn[A0>u4+DP=pCNCV=AT2R/Bln96Gmt)i$=e!a
+CghC++=D5OChR6uBI=5r%15is/h1CCE+NotASuU2%13OO:-pQUE,ol/Bl%?'-6R>?EHPu9AKZ28
+Eb'56+Xefh4Y@jK7S-BS+A#%(8PUC"7Q*(G<DGhS73H>a@<?/l$4R>;67sBkChtbGD]j"-FD)e2
+F!,=.@q]RoAM7tC+EML5@qfOh@j!?G@<6L4D.Rc2C2n><3%cm?+DGm>Bl8!6@;KakA.8leF)5eY
+/g*5I7TW/V+F>4Y06M>V05P?30./hrE+*j%+=DVIBl5RO%15m-78?c[9KbEZF)u/:+=nWs-qQm"
+:K&Ad+=K<4-Wb#"+A?KeFa,#pDIdd+Bk/>S@<-R+DC6kUBeCMj<DGhS74B@++=Cu>@V&tn1GURn
+Cht4A4!5q,+=&'l-Z!L+F)u.MF)N0K.6AY#1*@hb4==rZ@WQU,/nB6DBjr24.1HUn$;No?+Cehr
+C`m8)C^g_]A3Dt.2'G"7%13OOF)u/=BONYR2Ea)D+<VdT:JaJT;c?@4/0I#G7Q*)M-Ql>Y5r(;U
++?gnu+F#"Y@j$"=.Ushf-Ql>Y5r(;U+DDrJ@j#S1.UshT-=^Qq$?L9)F(eu>0etmQ+<VdL-r3Z.
+:/b(b+=nWs8ObTpHRBq783o*f1*Ab'.j0'Z.UsTG+=^kK4!u.L83o*f1*C9R.UsT;+=^kK.4/P8
+%17/tCia8u0g.Q?+<VdL+=L#^78?c[9HYl/4%Vn"1j^Sm;b02/+?gnu+F#"Y@j$"=.Ushf-Ql>Y
+5qsKr+=^kDC`k3;-RgBPA.8leF)4`G:dn)H0fC^K3ZohH:dn,X;bS;b+?N.a2Dfb.+Atd-7860)
+2D?7;+=eRZ+=^kDGT\JG-T`[u;Fs\R9gg]o0Hb'P.UsT;+=^kK.4/P8%13OO:-pQ_ASu$hAT23u
+A7]Y#Et&H                                                                 ~>
 )
 showpass 2 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
