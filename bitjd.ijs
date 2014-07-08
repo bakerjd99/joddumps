@@ -1,10 +1,10 @@
-NB. JOD dictionary dump:  7 Jul 2014 11:07:14
-NB. Generated with JOD version; 0.9.95; 13; 26 Jun 2014 11:06:22
+NB. JOD dictionary dump:  8 Jul 2014 01:04:19
+NB. Generated with JOD version; 0.9.95; 10; 25 Jun 2014 23:24:58
 NB.
 NB. Names & DidNums on current path
-NB. +-----+--------------------------------------+
-NB. |bitjd|16954541203725931937674789829407175055|
-NB. +-----+--------------------------------------+
+NB. +-----+---------------------------------------+
+NB. |bitjd|231946941940867855249824712027398708332|
+NB. +-----+---------------------------------------+
 
 9!:41 [ 1 NB.{*JOD*}
 cocurrent 'base' NB.{*JOD*}
@@ -35,7 +35,7 @@ IFACEWORDSsslhash=:<;._1 ' sr160 sha1 s256 s512'
 
 INAFTERCOLUMNS=:<;._1 ' InputHash OutputKey'
 
-INPUTCOLUMNS=:<;._1 ' InputAmount InputHash TransactionHash InputKey InputSequenceNumber InputSigFormat InputSigLength InputTransactionIndex'
+INPUTCOLUMNS=:<;._1 ' InputAmount InputHash TransactionHash TransactionFkey InputKey InputSequenceNumber InputSigFormat InputSigLength InputTransactionIndex'
 
 INPUTSFILE=:'c:/bitjddata/jdcsv/inputs.csv'
 
@@ -43,7 +43,7 @@ JDCSVDIRECTORY=:'c:/bitjddata/jdcsv/'
 
 OPENSSL=:'c:/j64/j64-802/bin/libeay32.dll '
 
-OUTPUTCOLUMNS=:<;._1 ' OutputKey TransactionHash OutputKeyFormat OutputScriptLength OutputValue'
+OUTPUTCOLUMNS=:<;._1 ' OutputKey TransactionHash TransactionFkey OutputKeyFormat OutputScriptLength OutputValue'
 
 OUTPUTSFILE=:'c:/bitjddata/jdcsv/outputs.csv'
 
@@ -51,7 +51,7 @@ ROOTWORDSNormalizeBlockChainCSV=:<;._1 ' IFACEWORDSNormalizeBlockChainCSV Normal
 
 ROOTWORDSsslhash=:<;._1 ' IFACEWORDSsslhash OPENSSL ROOTWORDSsslhash s256 s512 sha1 sr160'
 
-TRANSACTIONCOLUMNS=:<;._1 ' BlockNumber BlockTime TransactionHash TransactionSize TransactionVersionNumber InputCount OutputCount'
+TRANSACTIONCOLUMNS=:<;._1 ' BlockNumber BlockTime TransactionHash TransactionSize TransactionVersionNumber InputCount OutputCount TransactionFkey'
 
 TRANSACTIONSFILE=:'c:/bitjddata/jdcsv/transactions.csv'
 
@@ -64,29 +64,30 @@ cocurrent SO__JODobj NB.{*JOD*}
 
 AttachTransactionHashes=:4 : 0
 
-NB.*AttachTransactionHashes   v--  attach  transaction  hash   to
+NB.*AttachTransactionHashes   v--  attach  transaction  hash/key   to
 NB. individual inputs/ouputs.
 NB.
 NB. When inputs and  outputs  are  normalized it's  necessary  to
 NB. insert the  (TransactionHash) of the transaction inwhich they
 NB. occur so the input and output  tables can be joined  with the
-NB. transactions table.
+NB. transactions table. An additional integer (TransactionFkey)
+NB. is inserted to provide an efficient JD reference for joins.
 NB.
-NB. dyad:  blbt =. btcl AttachTransactionHashes blbt
+NB. dyad:  blbt =. b[3]cl AttachTransactionHashes blbt
 
 NB. insert lists
 bm=. (0&{"1 &.> y) e.&.> <INAFTERCOLUMNS
-rp=. >:&.> bm
+rp=. (>:@:(2&*)) &.> bm
 
-NB. hash rows
-rh=. I.@lastones&.> rp #&.> bm
+NB. hash/key rows
+rh=. (I. -. I.@firstone)&.> rp #&.>bm
 
-NB. expand io tables for hash insertions
+NB. expand io tables for hash/key insertions
 iot=. rp #&.> y
 bm=. ;(#&> iot) {.&.> <1
 
-NB. replicate hashes
-ths=. (#&> rh) # x
+NB. replicate hash/key 
+ths=. ,/ (-:@#&> rh) # x
 
 NB. merge hashes and repartition
 iot=. ths (;rh +&.> <"0 +/\ 0, }: #&> iot)} ;iot
@@ -191,7 +192,7 @@ dat=. 4&}.&.> (TSEGPREFIX E. dat) <;.1 dat
 
 DenumberIO=:((<'0123456789') -.&.>~ 0 {"1 ]) ,. 1 {"1 ]
 
-InvertSegments=:3 : 0
+InvertSegments=:4 : 0
 
 NB.*InvertSegments v-- invert data in csv segments.
 NB.
@@ -199,13 +200,16 @@ NB. This verb parses and inverts data in csv segments and appends
 NB. to   three    JD   oriented   TAB   delimited    text   files
 NB. (transactions.csv), (inputs.csv) and (outputs.csv)
 NB.
-NB. monad:  ilOutlines =. InvertSegments blclSegments
+NB. dyad:  ilOutnew =. ilOutlines InvertSegments blclSegments
 NB.
 NB.   csv=. read EXPORTCSVDIRECTORY,'EXPORT_2011_05_31.csv'
 NB.   segs=. CutTransactionSegments csv
 NB.
-NB.   1 SetNormalizedCSVFiles JDCSVDIRECTORY
-NB.   InvertSegments segs
+NB.   offset=. 1 SetNormalizedCSVFiles JDCSVDIRECTORY
+NB.   (offset,0 0 0) InvertSegments segs
+
+NB. offset & output lines appended
+'offset otrn oipt oopt'=. x
 
 NB. test for embedded ',' characters in " quoted text.
 NB. I believe (blockchain64.exe) does not embed ','s
@@ -213,7 +217,19 @@ NB. I believe (blockchain64.exe) does not embed ','s
 sgs=. y -.&.> '"'
 
 NB. expected column counts
-ntr=.  #TRANSACTIONCOLUMNS [ nipt=. #INPUTCOLUMNS [ nopt=. #OUTPUTCOLUMNS
+ntro=.  #TRANSACTIONCOLUMNS [ nipt=. #INPUTCOLUMNS [ nopt=. #OUTPUTCOLUMNS
+ntr=. <:ntro
+
+NB. column indexes as unique local nouns
+('I' ,&.> INPUTCOLUMNS)=. i. #INPUTCOLUMNS
+('O' ,&.> OUTPUTCOLUMNS)=. i. #OUTPUTCOLUMNS
+('T' ,&.> TRANSACTIONCOLUMNS)=. i. #TRANSACTIONCOLUMNS
+
+NB. null check columns 
+NB.  (*)=. IInputAmount IInputKey IInputSequenceNumber IInputSigFormat IInputSigLength IInputTransactionIndex
+iptnulls=. IInputAmount,IInputKey,IInputSequenceNumber,IInputSigFormat,IInputSigLength,IInputTransactionIndex
+NB.  (*)=. OOutputKey OOutputKeyFormat OOutputScriptLength OOutputValue
+optnulls=. OOutputKey,OOutputKeyFormat,OOutputScriptLength,OOutputValue
 
 NB. get longest segment header
 head=. SegmentHeader sgs
@@ -221,9 +237,6 @@ iohead=. <ntr }. head
 
 NB. cut lines drop headers
 sgs=. }.&.> <;._2 &.> sgs
-
-NB. lines out: transactions, inputs, outputs
-lout=. 0 0 0
 
 for_sg. sgs do.
   st=. <;._1 @  (','&,) &.> ;sg
@@ -233,9 +246,13 @@ for_sg. sgs do.
 
   NB. if there are no transactions any inputs/outputs are orphans
   if. 0 = #tr=. tr #~ 0 < #&> 0 {"1 tr do. continue. end.
-  'transaction column count mismatch' assert ntr = {:$tr
+
+  NB. add integer key column and append 
+  tr=. tr ,. <"1 ": ,. offset + i.#tr
+  offset=. offset + #tr
+  'transaction column count mismatch' assert ntro = {:$tr
   (csvfrtab tr) fappend TRANSACTIONSFILE
-  lout=. ((0{lout) + #tr) 0} lout
+  otrn=. otrn + #tr
 
   NB. remaining positions to (inputs.csv) and (outputs.csv)
   st=. ntr }.&.> st
@@ -250,9 +267,11 @@ for_sg. sgs do.
   'iname ikey'=. <"1 |: {:&> t
   mask=. ((,:'Input') (+./"1)@E. > iname) *. 0 = #&> ikey
   t=. mask # t
+  tr=. mask # tr
 
-  NB. HARDCODE: transaction hash column 2
-  tr=. (<'TransactionHash') ,. mask # 2 {"1 tr
+  NB. hashes/keys for inputs/outputs (*)=. TTransactionHash TTransactionFkey
+  tr=. (;:'TransactionHash TransactionFkey') ,"1 (TTransactionHash,TTransactionFkey) {"1 tr
+  tr=. 2 2&$"1 [ 0 2 1 3 {"1 tr
 
   NB. remove dangling empty inputs, sort and denumber
   t=. }:&.> t
@@ -274,24 +293,24 @@ for_sg. sgs do.
   ipt=. imsk <;.1 [ 1 {"1 ipt
   opt=. omsk <;.1 [ 1 {"1 opt
 
-  NB. HARDCODE: remove inputs with nulls in select positions
+  NB. remove inputs with all nulls in select positions
   ipt=. >ipt
-  if. 0 < #ipt=. ipt #~ -. *./"1 [ 0 = 0 3 4 5 6 7 {"1 #&> ipt do.
+  if. 0 < #ipt=. ipt #~ -. *./"1 [ 0 = iptnulls {"1 #&> ipt do.
     'input column count mismatch' assert  nipt = {:$ipt
     (csvfrtab ipt) fappend INPUTSFILE
-    lout=. ((1{lout) + #ipt) 1} lout
+    oipt=. oipt + #ipt
   end.
 
-  NB. HARDCODE: remove outputs with nulls in select positions
+  NB. remove outputs with all nulls in select positions
   opt=. >opt
-  if. 0 < #opt=. opt #~ -. *./"1 [ 0 = 0 2 3 4 {"1 #&> opt do.
+  if. 0 < #opt=. opt #~ -. *./"1 [ 0 = optnulls {"1 #&> opt do.
     'output column count mismatch' assert nopt = {:$opt
     (csvfrtab opt) fappend OUTPUTSFILE
-    lout=. ((2{lout) + #opt) 2} lout
+    oopt=. oopt + #opt
   end.
 end.
 
-lout
+offset,otrn,oipt,oopt
 )
 
 NormalizeExportCSVFiles=:3 : 0
@@ -312,18 +331,16 @@ NB.   1 NormalizeExportCSVFiles 'export*'
 NB. profile !(*)=. dir
 if. #files=. 1 dir EXPORTCSVDIRECTORY,y,'.csv' do.
 
-  x SetNormalizedCSVFiles JDCSVDIRECTORY
-  lout=. 0 0 0
+  lout=. (x SetNormalizedCSVFiles JDCSVDIRECTORY),0 0 0
 
   for_csv. files do.
     smoutput ;csv
     dat=. read ;csv
     dat=. CutTransactionSegments dat
-    smoutput lnew=. InvertSegments dat
-    lout=. lout + lnew
+    smoutput lout=. lout InvertSegments dat
   end.
 
-  'lines appended: transactions, inputs, outputs -> ',":lout
+  'offset, transactions, inputs, outputs -> ',":lout
 
 else.
   'no files matching pattern: ',y
@@ -485,11 +502,11 @@ SetNormalizedCSVFiles=:3 : 0
 NB.*SetNormalizedCSVFiles  v--  sets  fully qualified  normalized
 NB. output files.
 NB.
-NB. monad:  paRc =. SetNormalizedCSVFiles clPath
+NB. monad:  iaOffset =. SetNormalizedCSVFiles clPath
 NB.
 NB.   SetNormalizedCSVFiles JDCSVDIRECTORY
 NB.
-NB. dyad:  paRc =. paReset SetNormalizedCSVFiles clPath
+NB. dyad:  iaOffset =. paReset SetNormalizedCSVFiles clPath
 NB.
 NB.   1 SetNormalizedCSVFiles JDCSVDIRECTORY
 
@@ -508,9 +525,26 @@ if. x -: 1 do.
   ferase OUTPUTSFILE
   (csvfrtab ,:OUTPUTCOLUMNS) fappend OUTPUTSFILE
   smoutput 'csv output files reset'
+  offset=. 0
+else.
+  offset=. TransactionOffset TRANSACTIONSFILE
 end.
 
-1
+offset
+)
+
+TransactionOffset=:3 : 0
+
+NB.*TransactionOffset v-- returns transaction offset number.
+NB.
+NB. Reads  the  end  of (transactions.csv) and finds the  highest
+NB. (TransactionKey).  One beyond this  value is  the of the next
+NB. range of keys to be appended.
+NB.
+NB. monad:  iaOffset =. TransactionOffset clFile
+
+NB. NIMP: max value of dumps for now
+662088
 )
 
 b58checkFrbytes=:3 : 0
@@ -904,14 +938,15 @@ zz=:zz,'nsactionSegments DenumberIO EXPORTCSVDIRECTORY IFACEWORDSNormalizeB'
 zz=:zz,'lockChainCSV INAFTERCOLUMNS INPUTCOLUMNS INPUTSFILE InvertSegments '
 zz=:zz,'JDCSVDIRECTORY LF NormalizeExportCSVFiles OUTPUTCOLUMNS OUTPUTSFILE'
 zz=:zz,' OutputStart ROOTWORDSNormalizeBlockChainCSV SegmentHeader SetNorma'
-zz=:zz,'lizedCSVFiles TAB TRANSACTIONCOLUMNS TRANSACTIONSFILE TSEGPREFIX as'
-zz=:zz,'sert boxopen csvfrtab fappend fboxname ferase jtslash lastones read'
-zz=:zz,' smoutput''),(<<;._1 '' ParseGenesisBlock Base58Check Base58frKey65 G'
-zz=:zz,'enesisBlockChallengeScript GenesisBlockOutputAddress ParseGenesisBl'
-zz=:zz,'ock assert b58fd bfh dfh hfd i1 ic read todate tsfrunixsecs vint''),'
-zz=:zz,'<<;._1 '' sslhash IFACEWORDSsslhash OPENSSL ROOTWORDSsslhash cd s256'
-zz=:zz,' s512 sha1 sr160 sslRIPEMD160 sslsha1 sslsha256 sslsha512''         '
-zz=:1063{.zz
+zz=:zz,'lizedCSVFiles TAB TRANSACTIONCOLUMNS TRANSACTIONSFILE TSEGPREFIX Tr'
+zz=:zz,'ansactionOffset assert boxopen csvfrtab fappend fboxname ferase fir'
+zz=:zz,'stone jtslash lastones read smoutput''),(<<;._1 '' ParseGenesisBlock '
+zz=:zz,'Base58Check Base58frKey65 GenesisBlockChallengeScript GenesisBlockO'
+zz=:zz,'utputAddress ParseGenesisBlock assert b58fd bfh dfh hfd i1 ic read '
+zz=:zz,'todate tsfrunixsecs vint''),<<;._1 '' sslhash IFACEWORDSsslhash OPENS'
+zz=:zz,'SL ROOTWORDSsslhash cd s256 s512 sha1 sr160 sslRIPEMD160 sslsha1 ss'
+zz=:zz,'lsha256 sslsha512''                                                 '
+zz=:1090{.zz
 showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
