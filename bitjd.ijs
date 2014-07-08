@@ -1,4 +1,4 @@
-NB. JOD dictionary dump:  8 Jul 2014 01:04:19
+NB. JOD dictionary dump:  8 Jul 2014 01:24:23
 NB. Generated with JOD version; 0.9.95; 10; 25 Jun 2014 23:24:58
 NB.
 NB. Names & DidNums on current path
@@ -47,7 +47,7 @@ OUTPUTCOLUMNS=:<;._1 ' OutputKey TransactionHash TransactionFkey OutputKeyFormat
 
 OUTPUTSFILE=:'c:/bitjddata/jdcsv/outputs.csv'
 
-ROOTWORDSNormalizeBlockChainCSV=:<;._1 ' IFACEWORDSNormalizeBlockChainCSV NormalizeExportCSVFiles ROOTWORDSNormalizeBlockChainCSV TAB'
+ROOTWORDSNormalizeBlockChainCSV=:<;._1 ' IFACEWORDSNormalizeBlockChainCSV NormalizeExportCSVFiles ROOTWORDSNormalizeBlockChainCSV'
 
 ROOTWORDSsslhash=:<;._1 ' IFACEWORDSsslhash OPENSSL ROOTWORDSsslhash s256 s512 sha1 sr160'
 
@@ -64,13 +64,13 @@ cocurrent SO__JODobj NB.{*JOD*}
 
 AttachTransactionHashes=:4 : 0
 
-NB.*AttachTransactionHashes   v--  attach  transaction  hash/key   to
+NB.*AttachTransactionHashes  v--  attach transaction hash/key  to
 NB. individual inputs/ouputs.
 NB.
 NB. When inputs and  outputs  are  normalized it's  necessary  to
 NB. insert the  (TransactionHash) of the transaction inwhich they
 NB. occur so the input and output  tables can be joined  with the
-NB. transactions table. An additional integer (TransactionFkey)
+NB. transactions  table. An additional integer  (TransactionFkey)
 NB. is inserted to provide an efficient JD reference for joins.
 NB.
 NB. dyad:  blbt =. b[3]cl AttachTransactionHashes blbt
@@ -86,7 +86,7 @@ NB. expand io tables for hash/key insertions
 iot=. rp #&.> y
 bm=. ;(#&> iot) {.&.> <1
 
-NB. replicate hash/key 
+NB. replicate hash/key
 ths=. ,/ (-:@#&> rh) # x
 
 NB. merge hashes and repartition
@@ -168,7 +168,7 @@ dcsv_ijod_=: root , 'blockparser/export/'
 
 CheckEmbeddedCommas=:3 : 0
 
-NB.*CheckEmbeddedCommas  v-- 1 if there  are no ',' characters in
+NB.*CheckEmbeddedCommas v-- 1 if there  are no ','  characters in
 NB. "--" quoted strings 0 otherwise.
 NB.
 NB. monad:  pa =. CheckEmbeddedCommas blclSegments
@@ -197,7 +197,7 @@ InvertSegments=:4 : 0
 NB.*InvertSegments v-- invert data in csv segments.
 NB.
 NB. This verb parses and inverts data in csv segments and appends
-NB. to   three    JD   oriented   TAB   delimited    text   files
+NB. to    three   JD   oriented   TAB   delimited   text    files
 NB. (transactions.csv), (inputs.csv) and (outputs.csv)
 NB.
 NB. dyad:  ilOutnew =. ilOutlines InvertSegments blclSegments
@@ -225,7 +225,7 @@ NB. column indexes as unique local nouns
 ('O' ,&.> OUTPUTCOLUMNS)=. i. #OUTPUTCOLUMNS
 ('T' ,&.> TRANSACTIONCOLUMNS)=. i. #TRANSACTIONCOLUMNS
 
-NB. null check columns 
+NB. null check columns
 NB.  (*)=. IInputAmount IInputKey IInputSequenceNumber IInputSigFormat IInputSigLength IInputTransactionIndex
 iptnulls=. IInputAmount,IInputKey,IInputSequenceNumber,IInputSigFormat,IInputSigLength,IInputTransactionIndex
 NB.  (*)=. OOutputKey OOutputKeyFormat OOutputScriptLength OOutputValue
@@ -247,7 +247,7 @@ for_sg. sgs do.
   NB. if there are no transactions any inputs/outputs are orphans
   if. 0 = #tr=. tr #~ 0 < #&> 0 {"1 tr do. continue. end.
 
-  NB. add integer key column and append 
+  NB. add integer key column and append
   tr=. tr ,. <"1 ": ,. offset + i.#tr
   offset=. offset + #tr
   'transaction column count mismatch' assert ntro = {:$tr
@@ -258,7 +258,7 @@ for_sg. sgs do.
   st=. ntr }.&.> st
   t=. ((#&> st) {.&.> iohead) ,.&.> st
 
-  NB. there should always be inputs/outputs 
+  NB. there should always be inputs/outputs
   if. 0 = #t=. t #~ 0 < #&> t do. continue. end.
 
   'transaction input/output mismatch' assert (#t) = #tr
@@ -499,7 +499,7 @@ end.
 
 SetNormalizedCSVFiles=:3 : 0
 
-NB.*SetNormalizedCSVFiles  v--  sets  fully qualified  normalized
+NB.*SetNormalizedCSVFiles  v--  sets fully  qualified  normalized
 NB. output files.
 NB.
 NB. monad:  iaOffset =. SetNormalizedCSVFiles clPath
@@ -537,9 +537,9 @@ TransactionOffset=:3 : 0
 
 NB.*TransactionOffset v-- returns transaction offset number.
 NB.
-NB. Reads  the  end  of (transactions.csv) and finds the  highest
-NB. (TransactionKey).  One beyond this  value is  the of the next
-NB. range of keys to be appended.
+NB. Reads  the end of  (transactions.csv)  and  finds the highest
+NB. (TransactionFkey). One  beyond this value is the start of the
+NB. next range of keys to be appended.
 NB.
 NB. monad:  iaOffset =. TransactionOffset clFile
 
@@ -671,52 +671,53 @@ showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:dec85__MK__JODobj 0 : 0
-1,q382)$..+>GSn2)-4/1E\P0+>t>t1a"M-+>Y\o0fC.01*A;-+>khq0ea_+0d&22+>u/$1,9t.
+1-%-52)-4/+>GSn2)-4/1E\P0+>t>t1a"M-+>Y\o0fC.01*A;-+>khq0ea_+0d&22+>u/$1,9t.
 1*A;*+>c#"0fU:53?U(9+>l,$1,U112BXe2+>l&"0fL430d&2-+>ktu0esk+3$9q0+>Y\o0f1".
 2]sh3+>bnt1,C%.2]t%%1c-=01E\D4+>GSn1GBq+0d&8/+>Get1,g=30d&>3+>Gbs1Gp:01E\J0
-+>PYo1c-=03$9t6+>Gbs1,C%-0H`,/+>G_r1GU(1+>l)#1E\J.+?1K"2BXk"1H-F4+>c&#1E\J3
-+>P&o3?U.$1,L+1+>Pbr1a"P/+>k8s3$9q2+>Ynu2]sn2+?:Q#1E\\#1G^.1+>bo@A8YpDA7T^l
-F)sZ^FCT6'DBN@uA9)7&F!,(5EZdYc@;L48AKZ).AKXBLFC?;0Dfd+DBOr;SEbT].CdE/b@:NtM
-Ea`j,@:OCnDf/*SF(f-+@<?U"@q[!,Ea`j,@:OCnDf-\2@<6*)FDi:9DIdI)Bk2?pC`mG0E-68D
-05kuPF`_[k5uU303'q>$@rH(!+C\c#AKWii+CT)*BOP@]F@'DWAMlG7BOt[h6>:OODeX)3@UX=h
-+>l,$@:WnhATMo8AoD^,@<=hEF(I3g6YL%@CJA_XASc4%A7]R"6=FqH2)ms:ARfKuG%G]'6=FqH
-2)o2g94`B,2)[<7@X3',+E2I4Ch[B%6>:OODeX)3CLqc6@X3',F!,RC+C\c#AKWii+D,P4D..NQ
-Blls8;e:&nE+ENlBl7K)G%#E*Dfp+D@VKpoDeX)BC1JH)Dfor=6YL%@CIN)LARo=_A4(9PD..K?
-+DGF1FD,6+AKYE%AKYl/+=A]f+Cf(nEa`I"ATDi7Bl5%;/M/.hEHQ2AARlp)FE2)5B6,1L+E)@8
-ATE!/F(I^]FB!9hDKB5rFD5Z2;e9TYASuU2@s)m7+@B(.+D,>(AKYMlFC?;+DKKe>F(K!$ASuU2
-6tL7YD.7's8PaA<D/XT/+Du==ATD3qF!,(8Df$V2DK'`?05kuTE-67FF(Jj'Bl@l3DIIBnF%'2-
-:Jt.Z;cZ:X;FNrP:Jt>+Bl[cpFDl2F+D>\0A8,po+CfJ9+D,>(ATJu,ASu("@<?'k+C]U=-t7"2
-@r#Rf@;0U;1bN?aALU,\DImm'F$a\]@r"GF@;KakDJ*NZ@rc:&FCo6-F*&NkBlmj'Bl5&'BOP^n
-ASu-l+EM%5BlJ/:/KePADKK<$DK?ph6UXj=+E2I4Ch[B%CLqc]ASu(#BlcUWDe!QYF`_SFF?sGJ
-Eb0<5Anc:,F<EnaFCT6'DBNCsF(HIO3$<-^FDuAE+CSekEb0<58Oc!579<8_6rQj!Ec#6$BmO>W
-Ci<g!6YKnBDF7?'Bl8$(Eb8`iAKZ28Eb'56-qQlo6Ub'P;FFGYDfT]'Ch\3,6>URMCI;cDBl6::
-<[f/(Ec6)>8Oc!579<8_6rS/JChR6uBPD@+ATDBk@q?d,DfTB0+=KfN5sn(B:JsSZF)u/2@<6*2
-+D5_5F`9oI5t4gB;F=5R<D?4eFE1f-F(&R#Bl@l3BOPsqATJu&FECr$BOt]s@:jUmEZf(6E-67U
-Dfp/@F`\a9DesQ5DKABE:fUI^:J=b_:/bkEE-67F@rH1+D/LJ6@;TRs8PW)^<)Z7X9LWi;Ec#6$
-BmO?$+EVX4DKB5rFD5Z2F!,17E-68D8T&]_Ecb5kB5M3tFE;/6G%G]9+Cno&@3B9%+CfJ9+EM+,
-D.RU,F%Shf;cZ:X;FNrP:Jt>/Ders*+DG_:ATDm(A0=K4+C]/*@r#Rf@;0U%@rlf9Bl7m4F<G10
-Ch7Z_DfT]'Ch\3,7<iciEcaZI<^pe>ATMa-Ec#6$BmO?3+@B(.+D#e:DfTqBAnc'mF&,V$:/b(b
-:N0l_;c?@4@rH4'Bl%?k+C]&&@<-W9Anc'm3ZqsLCb-]MD_*#AH#.2(:K:@j<E)=]9N=e^;f?f#
-E-67F@rH1+D/LJ6@;TRs:K:@j<E)md8PDQjDfT]'Ch\3,A0>u7@;^-p@ruF'DBNk?FDuAEF&-q#
-E-68$FCB33F*(i2F<GL6+E)CEE-68D+DG^9Bl7m4FE9*RF`_SFFE:8eEcYe^ASu(#BlcUWDe!R%
-@<-F#+@9da@rH(!+D58'ATMR,+C]/*@r"t<:K1Ck;FFGYDfT]'Ch\3,6>URMCI;cDBl6::<cW+s
-F<GdGEb'56-rNi:<*)jn6rQj!Ec#6$BmO>WCi<g!6YKnBDF7?'.3N8DDfp"A+<VdL+Au!2<*)jn
-6rS/JChR6uBQA$0F<GdGEb'56-rNi:<*)jn6rS/JChR6uBIP':Ec6)>;e9TYASuT\ART+\Eb961
-D0$h1ASuF,D..6pH=^V0F(K!$ASuT4BOtU_ATC^\FA?apD..6pH=^VS;cZA%Ch7[/ATVu9Ap%p+
-Gp%*L@;KXiBk:ftDJsQ4@;KY(ARlp%F`_SFF<G10Ch7Ze;F+&V5snUC:JO8Q9N=e^;fm%gDKB5r
-FD5Z2F!+t2CisT4+DtV)ATLgK5u(?E6W?WQ:/aVR9LWi;Ec#6$BmO?$+EVX4DKB5rFD5Z2F&Z(,
-7o3)P7S-^(Ea`j,@:OCnDf-\=AS5jkDKI"?Eb/isG[`Ni@q]F`CIW>RH$!V=6>:OODeX)3@UX=h
-+>l,$@q]F`CER50Df$V+H$!V=@Pp,WA3t!P@rH(!+C\c#AKWii+D,Y4D'3D7FCf?#ARlooARfFk
-@;I&<+EM+*+Dbt6B-:`'@s)X"DKK?"BOZ7/ATJu+Ec5e;BOuEL+Cf414Y@jdAnW;sCe/,^@rlg*
-Ecb`!@rlf9@r*9"Ec5e;@WZ*r+>"^WAS!!#Df021A8bt#D.RU,A7f:.3+[>VASu$iA0>Do@qfdg
-C`m>1Df$U`Blmj'Bl5&&@<6!&2)o,YBOk[aBl.9p+D,Y4D'3M'GT\R\F*2G@DfTr@+E_XBATAo%
-DIal+Dg,c5+Cei$AS>[bBOuE2Ao_g,+C]V<ATKmT@r+\IGT].%+D>@r+Cf4SH$!V=Bea=>A7^!.
-DfTQ)Bl5&3DIjr)/ord*2H*.41,Us4BOPsq+D,Y4D'2VnAStFF9QN'G1/g_02)-j/BOPsq+D,Y4
-D'2VnAStFF9QOlU0iLV/0d(.<F(c\.Ec5e;:N0l_;c?A2E\TI+;Fs\R9ggQf2D?7e@<6*)Ao_g,
-+AZrfDGsJ-F)u.q8PhiM6npSR-t?d:+CehrC`mY.+AZrfDGsJ-+Atd-7860%0fC^.BOPsqF)u/=
-BONVD@q7#2@ps1i+E(j7:N0l_;c?@4;b02+0d(.<F(fW9Cia8u1,Us<@q7#2@ps1i+E(j7:N0l_
-;c?@4;b02+1,Us4BOPsqF)u/=BONbQ1+6XC.3N,/Cht54AfslgAStFF9H[8)5qOrK1*C7=F(f`2
-DKL&1EbSrkCh4`*ASu.&BHV#,FCf)rEZeh:FCcS)Dfor>+CT.u+Eh10F_(                ~>
++>PYo1c-=03$9t6+>Gbs1,C%-0H`,/+>Get1G^..2'=\1+>k9!2]sn!1GL"3+>Ynu2'=\6+>Y,s
+3$:""1H$@2+>Gl!1a"P1+>b2r1a"Ut1,9t0+>Po!0esk-2BXq$1GL"4+>Yer3?U+6+>b2t1dPYi
+A3ja:Eb0<56>:OODeX)3@:WnhATMo8AoD]46#L+IH$X$EFD,5.6t(1G+Du+>+EV:.+@L6aG%GJU
+FECr$BN0"\DKB5rFD5Z287?RQATM:%FCAZm+EVX4DKB5rFD5Z2+D>2)BHVD8+DG_(Bm+3$F^])/
+Bl7m4FE9*RF`;JFF$`/k75[%kBlmj'Bl5&&@<6!&2)l^eCiF&r@V'XJ@<6!;3(%@j@r"DFFCT6'
+DBNCsF(HIO3$;X?A9)7&F!,(5Ec#6,6=FqH2)ms:ARfLMDe*EqD/WrrC`l&QF(I3g6YL%@CERe3
+Eah@DF(I3gAo^OUGr@N<2'?@RFCcS6F^f0$@j"*PFCT6'DBN_+Gp$RAFCfM9FDi:2@<6!&2)l^j
+DfT]'F@'\`8jlThFEMP5AS,XoAKZ/)EbTH7F!+q+FCT6'DD,a8+Du+?DKA0YARfLED.7'eA7]:=
+Df'?"F"neOAfu2/ATD?)@<,p%DJpXF/12QMBOPpi@ru:&F!,17+<iBh+s:lJDffQ$+EMXFBl7R)
++>=pVFD,6+GA2,06ZmKMEa`j,@:OCnDf/KbB5M3tFE:r7FE8Ql;cY#QBl%?'A79Rg+DG_8D]j+4
+B5M3tFE9i]DKTf*ATC@<Eb0*+G%De6F_t]1@;L!-Ao_g,+DG_4F`]9TF`_SFF<GX9@ruF'DBNh*
+D.RcW=AVdk<'sSb6qL9F6W?iZ=_)5eARfh#Ed8d@DerruDJ()%F*8[<Bl%@%+D58'ATD4$ARlom
+Gp"MECi<g!@q]:bDDj=(AU%c87qHRLF(o\^Ci<g!6YKnECh7KsAQ*)ZBlJ0+Bl\9:+@9da@rH(!
++Cf(nCi![#B4W3,@rc:&F<E.X@rH7,@;0V#+@SXc;aDOFF^f0$@j#PuGt2F`ATMR,6>URMCJT(p
+E-67gA7T^lF)tr-EcZ=F6>:OODeX)3@UX=h+>l,$Dfp/@F`\a7A7T^lF)soB5sn(B:JsSZ:2b/i
+@;KY(AO:3O@r"GF@;0UH;c[UMFCfK)@:NjkGAhM4F!)l&7R9C1=&2^^;bh7OD..6pH=]EZDe!QM
+BOPUm6W7#7+D5_5F`9oA5sn(B:JsSZF)u/2@<6*rDKKH1Amo1\+EqaEA9/kA8Oc!579<8_6rS/J
+ChR6uBIP':Ec6)>8PVQ@<(0\P:J=b_:/c7T@;^-p@ruF'DBNV$F(f-++CTA6@:Nt^A0>;mFCfJ8
+Bl7m4F>%QTFDuAE+Cf>+F_u#;8PW)^<'sGT<D?4eBl7m4F<G(3CisT4+DtV)ATLF<:fUIn7S-9B
+DJsQ4@;KY(ARlp*Ea`j,@:OCnDf0V=Bl7m4FE:#kG%G]9;e9TYASuU2Bl8**Ec`F7@<>p#Bl5&'
+F*8[IAS5jkDKKql6pjmR6qL9F6W?iZ=_M_iA9/l-DK]T3FCeu*8jje2Ci<g!@q]:bDBNG1Fs(L:
+E-67FAnc'mF&$XoD..6pH=]NiE,Tc=6W7#TBl%@%DJsQ4@;KY(ATJt];cY#PG]7SAF<G10Ch7Z`
+:dn,X;bTu+AStFF9H[h`D/a3*ARlomBl7@"Gp$^5Ch5XMA8H'5+EMHP+Cob6Bjsk<<)?Ro6VgBU
+9hnW*F`_SFF<G(3CisT4+DtV)ATLXI<)?Ro;as>P7;d$aD..6pH=^V0FE1f-F(&R#Bl@l3Dfp/@
+F`_\#F`_SFFAm9iEccAE@<-H4De:,1F`_SFFE8R=DBNY2E-68D05kuTE-68D:gnBcAOg<LATMR,
+6>URMCN*^&F(HI\Blmj'Bl5&+ASu(#BlbD+Ci<g!;GU(f=&2^^;bh7OD..6pH=]EZDe!QMBOPUm
+6W7$+Df9_?GAhM4F!)l/:JXqk:JsSZ:2b/i@;KY(AO:3O@r"GF@;0UH;cY=iB6%p5E$-8G+<Ve)
+:JXqk:JsSZF)u/2@<6+&Df9_?GAhM4F!)l/:JXqk:JsSZF)u/2@<6*2+D5_5F`:8jB5M3tF@]tO
+A7]dnDfT]9+Co&$DfT]'Ch\3,A0>r)B5M3tF<G7.@:Wqi;e:&GDfT]'Ch\3,A4'9r7VQ[MF)to7
+F!,(;Ci"A>EHP]+BkD'jA0>c.Ec#6$BmO?$+E)CEE-67FAnc'mF&Z%':/aGG<(Tk\6VgBU9hnW/
+Ea`j,@:OCnDf0V=@rH1+D/LJ6@;TRs<)Q"W;aEcM8P`)[7S-9BDJsQ4@;KY(ARlp*Ea`j,@:OCn
+Df0Vq;aj2Q;FO&H=EJRlDKB5rFD5Z2+EM+,D.RU,+E2@4AncKhEa`j,@:OCnDf/?_AohO*Eb0?8
+Ec,q@FE1f-F(&R#Bl@l3De<U&ATT&4F_tT!Eagmc@q]F`CIW>RH$!V=6>:OODeX)3@UX=h+>l,$
+@q]F`CER50Df$V+H$!V=@Pp,WA3t!P@rH(!+C\c#AKWii+D,Y4D'3D7FCf?#ARlooARfFk@;I&<
++EM+*+Dbt6B-:`'@s)X"DKK?"BOZ7/ATJu+Ec5e;BOuEL+Cf414Y@jdAnW;sCe/,^@rlg*Ecb`!
+@rlf9@r*9"Ec5e;@WZ*r+>"^WAS!!#Df021A8bt#D.RU,A7f:.3+[>VASu$iA0>Do@qfdgC`m>1
+Df$U`Blmj'Bl5&&@<6!&2)o,YBOk[aBl.9p+D,Y4D'3M'GT\R\F*2G@DfTr@+E_XBATAo%DIal+
+Dg,c5+Cei$AS>[bBOuE2Ao_g,+C]V<ATKmT@r+\IGT].%+D>@r+Cf4SH$!V=Bea=>A7^!.DfTQ)
+Bl5&3DIjr)/ord*2H*.41,Us4BOPsq+D,Y4D'2VnAStFF9QN'G1/g_02)-j/BOPsq+D,Y4D'2Vn
+AStFF9QOlU0iLV/0d(.<F(c\.Ec5e;:N0l_;c?A2E\TI+;Fs\R9ggQf2D?7e@<6*)Ao_g,+AZrf
+DGsJ-F)u.q8PhiM6npSR-t?d:+CehrC`mY.+AZrfDGsJ-+Atd-7860%0fC^.BOPsqF)u/=BONVD
+@q7#2@ps1i+E(j7:N0l_;c?@4;b02+0d(.<F(fW9Cia8u1,Us<@q7#2@ps1i+E(j7:N0l_;c?@4
+;b02+1,Us4BOPsqF)u/=BONbQ1+6XC.3N,/Cht54AfslgAStFF9H[8)5qOrK1*C7=F(f`2DKL&1
+EbSrkCh4`*ASu.&BHV#,FCf)rEZeh:FCcS)Dfor>+CT.u+Eh10F_(                     ~>
 )
 showpass 0 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
@@ -938,21 +939,21 @@ zz=:zz,'nsactionSegments DenumberIO EXPORTCSVDIRECTORY IFACEWORDSNormalizeB'
 zz=:zz,'lockChainCSV INAFTERCOLUMNS INPUTCOLUMNS INPUTSFILE InvertSegments '
 zz=:zz,'JDCSVDIRECTORY LF NormalizeExportCSVFiles OUTPUTCOLUMNS OUTPUTSFILE'
 zz=:zz,' OutputStart ROOTWORDSNormalizeBlockChainCSV SegmentHeader SetNorma'
-zz=:zz,'lizedCSVFiles TAB TRANSACTIONCOLUMNS TRANSACTIONSFILE TSEGPREFIX Tr'
-zz=:zz,'ansactionOffset assert boxopen csvfrtab fappend fboxname ferase fir'
-zz=:zz,'stone jtslash lastones read smoutput''),(<<;._1 '' ParseGenesisBlock '
-zz=:zz,'Base58Check Base58frKey65 GenesisBlockChallengeScript GenesisBlockO'
-zz=:zz,'utputAddress ParseGenesisBlock assert b58fd bfh dfh hfd i1 ic read '
-zz=:zz,'todate tsfrunixsecs vint''),<<;._1 '' sslhash IFACEWORDSsslhash OPENS'
-zz=:zz,'SL ROOTWORDSsslhash cd s256 s512 sha1 sr160 sslRIPEMD160 sslsha1 ss'
-zz=:zz,'lsha256 sslsha512''                                                 '
-zz=:1090{.zz
+zz=:zz,'lizedCSVFiles TRANSACTIONCOLUMNS TRANSACTIONSFILE TSEGPREFIX Transa'
+zz=:zz,'ctionOffset assert boxopen csvfrtab fappend fboxname ferase firston'
+zz=:zz,'e jtslash read smoutput''),(<<;._1 '' ParseGenesisBlock Base58Check B'
+zz=:zz,'ase58frKey65 GenesisBlockChallengeScript GenesisBlockOutputAddress '
+zz=:zz,'ParseGenesisBlock assert b58fd bfh dfh hfd i1 ic read todate tsfrun'
+zz=:zz,'ixsecs vint''),<<;._1 '' sslhash IFACEWORDSsslhash OPENSSL ROOTWORDSs'
+zz=:zz,'slhash cd s256 s512 sha1 sr160 sslRIPEMD160 sslsha1 sslsha256 sslsh'
+zz=:zz,'a512''                                                              '
+zz=:1077{.zz
 showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:dec85__MK__JODobj 0 : 0
-1GL"/+>P&o0H`,22'=Y0+?)#8+>Get1,^p22]sh22`O-<F@nr"ATW'6:-pQ_6>:O66rRZ=F`8IE
+1GL"/+>P&o0H`,22'=Y0+?)5:+>Get1,^p22]sh22`O-<F@nr"ATW'6:-pQ_6>:O66rRZ=F`8IE
 /M/)dATW'6+EqaECM@[!+D#G6Bl\-0D.RU,+D,P4+@9da@rH(!01nVTE,ol3ARfg7%15is/e&._
 67sB'%15is/g+SFFD,T53ZoP;DeO#26nTTK@;BFp%15is/g+YEART[lA3(hg0JPD!F`&rk%15is
 /g+Y;@;]^hF#kEq/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
@@ -969,35 +970,36 @@ F<Du@Ci<g!@q]:bDDj=(AU%c8+EM+*%15is/e&._67sB'+D>k=E-"&n04Sp2AM.V6DeElt/n8g:
 7<iciEcaZI<^pe>ATJtG+Du+<D..6pH=_.?6W7#.AU&04Ec`F9Bl%@%%15is/e&._67sBhF`_;8
 E]P<c8oJB\+@Ih)6=FY@EX`@N67sBjEb/[$ARmhE1,(F>C3=>H2%9mf67sBjBOPdkATKmT/M/P+
 /M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/I`%^67sB81hq/L
-0K(%`Df0`0Ecbl'+Cf4rF)rI:Ec6)>%13OO@rGjn@<6K4-VeT#D..6pH=]EZDe!QMBOPUm6W7#5
-:gnBcAOg<LATMR,6>URMCJI2K.SsPoF(IjQDImm'F$a\]@r!3./M/)3Blmj'Bl5&+ASu(#BlbD+
-Ci<g!+Cf(r@r!2qDIal/@<-F#+D#e+D/a<&/e&._67sB'%15is/g+SFFD,T53ZoP;DeO#26nTTK
-@;BFp%15is/g+YEART[lA3(hg0JPD!F_i`d%15is/g+Y;@;]^hF#kEq/M/P+/M/P+/M/P+/M/P+
-/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+%15is/g)l*C3=>H1E^+:A7]9oFDi::
-@:O(o+ED%4Df]W7DfU+4$4R>_AT;j,Eb-@@F)u/2@<6*0%13OOF)u/2@<6*W67sa/F)5MuF(c\;
-/M/)Y@<6*)@;KRpEbTW/D0$h3Ec5e;:N0l_;c?@B%15is/e&._67sBT@;BFq+<Yi9EbTH7F!)T=
-@<6*)+CT)!DfTQ6BPhf5+CTG%Bl%3eCh4_3Bl5%9FD,5.+AZrfDGsJ-%15is/g+V;DIIR"ATJu.
-DKBo.Ci!Zn+EqOABHV&0F<EOq0R+^KG%#*$@:F%a/g*W(Df$V*DBL'?EbT0#DII>j$;No?+Co&#
-D]j+2EbTK7+C]U=:gnET@;I&Y@<6:"DBO.;FD)e*A867.FDYT,FE8R6Gp#FfCht4f@;RV+$;No?
-%15is/g,=KEaiI!Bl,mRF(Jo*BQS?83\N.1GBYZXE+Np.F)3IIEb@$7$;No?+:SZQ67sBoFEDI_
-0/%NnG:mWODe=*8@<,p3@rH3;C3OB-BeN:kF(8Wp8mudXBl5S&83nOW0JOk/6R=KA1*n\0@;]U%
-1,)Ej2'k"3AoD]91,*odDId[0Et&IO67r]S:-pQUBl8$(Eb8`iAKZ28Eb$S>.67nF:-pQB$;No?
-+<Y_\2)ZR"/Kdt_5r(;U+D>2)BHUo-Df$UmE+Noc;bRW-:-pQU+EKCp1*@\k+B(fs2)-j/BOPsq
-+D,Y4D'2VnAStFF9FV>(67sB'F(eu:+<W6Y;b02/+D>2)BHUo-Df$UmE+Noc;bRW-:-pQU+EMQX
-2D?7*+Atd-7860%0fC^.BOPsq+D,Y4D'2VnAStFF9FV>(67r]S:-pQU@rc-hFCeuD+>PW*1eMn.
-1,o^M:-pQU@q]:gB4Z-F+>#/s/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
-/M/P+/M/P+/M.D=:-pQU0f3WfDDNsh@q]:gB4YTrFDi:BF`&=?DBL_j+C]&,+EMgLFCf<1%15is
-/g)l*C3=>H1E^+:A7]9oFDi::@:O(o+ED%4Df]W7DfU+4$;No?+>G]fF_i`j+Co;)+E2@>FDl8H
-E+O)5@:X+qF*(u(+D,P4+E27>FCAWmCh\!:%13OO@rGjn@<6K4-Za?FBOPsq-OgCl$;No?.V*+0
-ASu$iDKKq/$4R>;67sC"Ec5Q(Ch4_9+ED%5F_Pl-+EqaEA9/k:-n6Z//g*_T8P`8-<DGhS71BS5
-$;No?+Co;)06;%SBlbD6@:NtbDIkJ>F!,OCARfFdBk&8;+CT>4F_t]2+DPn<+?1u-1*C:P+DG_7
-FCB!%ARl5W:JaJT;c?@Q3ZpL48Oc9I;]mS5-p'I;=(uOp9PJBeGT]:iA9)U&A0=9KEd)58-Rg0P
-/g*8V:-hTC.3Ns[-Z!L+ARTj?1+m*RC`k)e+=Juf,To2sCh[@"F)3IMD]gDV4!5q,+=&'l-Z!L+
-F)u.MA9i!*@N[$I%13OO:-pQU@ps1i+Co;)%16TU4ZY;T+Z_:d$4R>`F)5o2@59\u4ZX].+<W(.
-:dn,X;bS;b+=A:183o!g2BY1+.j0'Z.UsTG+=^kK.4/P8%17/tCia8u2)-jL3ZoOf+=L#^78?c[
-9HYl/-Ql>Y5rCAP+?gnu+F#"Y@j$"=.UshT-=^Qq$?L9)F(eu:4ZX].+<VdL-r3Z.:/b(b+=nW_
-+B(fs0d&Y&.j0'Z.UsTG+=^kK.4/P8%17/tCf3i$7860)2D@9T+=L#^78?c[9HYl/-Ql;Y:dn)H
-0fC^.4s2?uGT\JG+F#"Y@j`]P@q6#U%15is/h1FMA7T7jASu$iDKKq/$3                 ~>
+0K(%`Df0`0Ecbl'+Cf4rF)rI:Ec6)>%15is/g)l*C3=>H3$;X?A7]9o-rb4qDKB5rFD5Z27VcR\
+.3N5@EZdtB+ED%*ATD@"@qfgn%13OO@rGjn@<6K4-VeT#D..6pH=]EZDe!QMBOPUm6W7#5:gnBc
+AOg<LATMR,6>URMCJI2K.SsPoF(IjQDImm'F$a\]@r!3./M/)3Blmj'Bl5&+ASu(#BlbD+Ci<g!
++Cf(r@r!2qDIal/@<-F#+D#e+D/a<&/e&._67sB'%15is/g+SFFD,T53ZoP;DeO#26nTTK@;BFp
+%15is/g+YEART[lA3(hg0JPD!F_i`d%15is/g+Y;@;]^hF#kEq/M/P+/M/P+/M/P+/M/P+/M/P+
+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+%15is/g)l*C3=>H1E^+:A7]9oFDi::@:O(o
++ED%4Df]W7DfU+4$4R>_AT;j,Eb-@@F)u/2@<6*0%13OOF)u/2@<6*W67sa/F)5MuF(c\;/M/)Y
+@<6*)@;KRpEbTW/D0$h3Ec5e;:N0l_;c?@B%15is/e&._67sBT@;BFq+<Yi9EbTH7F!)T=@<6*)
++CT)!DfTQ6BPhf5+CTG%Bl%3eCh4_3Bl5%9FD,5.+AZrfDGsJ-%15is/g+V;DIIR"ATJu.DKBo.
+Ci!Zn+EqOABHV&0F<EOq0R+^KG%#*$@:F%a/g*W(Df$V*DBL'?EbT0#DII>j$;No?+Co&#D]j+2
+EbTK7+C]U=:gnET@;I&Y@<6:"DBO.;FD)e*A867.FDYT,FE8R6Gp#FfCht4f@;RV+$;No?%15is
+/g,=KEaiI!Bl,mRF(Jo*BQS?83\N.1GBYZXE+Np.F)3IIEb@$7$;No?+:SZQ67sBoFEDI_0/%Nn
+G:mWODe=*8@<,p3@rH3;C3OB-BeN:kF(8Wp8mudXBl5S&83nOW0JOk/6R=KA1*n\0@;]U%1,)Ej
+2'k"3AoD]91,*odDId[0Et&IO67r]S:-pQUBl8$(Eb8`iAKZ28Eb$S>.67nF:-pQB$;No?+<Y_\
+2)ZR"/Kdt_5r(;U+D>2)BHUo-Df$UmE+Noc;bRW-:-pQU+EKCp1*@\k+B(fs2)-j/BOPsq+D,Y4
+D'2VnAStFF9FV>(67sB'F(eu:+<W6Y;b02/+D>2)BHUo-Df$UmE+Noc;bRW-:-pQU+EMQX2D?7*
++Atd-7860%0fC^.BOPsq+D,Y4D'2VnAStFF9FV>(67r]S:-pQU@rc-hFCeuD+>PW*1eMn.1,o^M
+:-pQU@q]:gB4Z-F+>#/s/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
+/M/P+/M.D=:-pQU0f3WfDDNsh@q]:gB4YTrFDi:BF`&=?DBL_j+C]&,+EMgLFCf<1%15is/g)l*
+C3=>H1E^+:A7]9oFDi::@:O(o+ED%4Df]W7DfU+4$;No?+>G]fF_i`j+Co;)+E2@>FDl8HE+O)5
+@:X+qF*(u(+D,P4+E27>FCAWmCh\!:%13OO@rGjn@<6K4-Za?FBOPsq-OgCl$;No?.V*+0ASu$i
+DKKq/$4R>;67sC"Ec5Q(Ch4_9+ED%5F_Pl-+EqaEA9/k:-n6Z//g*_T8P`8-<DGhS71BS5$;No?
++Co;)06;%SBlbD6@:NtbDIkJ>F!,OCARfFdBk&8;+CT>4F_t]2+DPn<+?1u-1*C:P+DG_7FCB!%
+ARl5W:JaJT;c?@Q3ZpL48Oc9I;]mS5-p'I;=(uOp9PJBeGT]:iA9)U&A0=9KEd)58-Rg0P/g*8V
+:-hTC.3Ns[-Z!L+ARTj?1+m*RC`k)e+=Juf,To2sCh[@"F)3IMD]gDV4!5q,+=&'l-Z!L+F)u.M
+A9i!*@N[$I%13OO:-pQU@ps1i+Co;)%16TU4ZY;T+Z_:d$4R>`F)5o2@59\u4ZX].+<W(.:dn,X
+;bS;b+=A:183o!g2BY1+.j0'Z.UsTG+=^kK.4/P8%17/tCia8u2)-jL3ZoOf+=L#^78?c[9HYl/
+-Ql>Y5rCAP+?gnu+F#"Y@j$"=.UshT-=^Qq$?L9)F(eu:4ZX].+<VdL-r3Z.:/b(b+=nW_+B(fs
+0d&Y&.j0'Z.UsTG+=^kK.4/P8%17/tCf3i$7860)2D@9T+=L#^78?c[9HYl/-Ql;Y:dn)H0fC^.
+4s2?uGT\JG+F#"Y@j`]P@q6#U%15is/h1FMA7T7jASu$iDKKq/$3                      ~>
 )
 showpass 2 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
