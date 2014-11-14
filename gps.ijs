@@ -1,11 +1,10 @@
-NB. JOD dictionary dump: 21 Jul 2011 08:22:27
-NB. Generated with JOD version; 0.9.4; 3; 14 Jun 2011 09:38:23
-
+NB. JOD dictionary dump: 14 Nov 2014 10:44:17
+NB. Generated with JOD version; 0.9.94; 7; 14 Jun 2014 12:50:17
 NB.
 NB. Names & DidNums on current path
-NB. +---+--------------------------------------+
-NB. |gps|86803630452558533257642159418054873536|
-NB. +---+--------------------------------------+
+NB. +---+---------------------------------------+
+NB. |gps|183395981381963944903941083117461203766|
+NB. +---+---------------------------------------+
 
 9!:41 [ 1 NB.{*JOD*}
 cocurrent 'base' NB.{*JOD*}
@@ -872,5 +871,7 @@ CF9Gr@rGjn@<6K4-[0!EE,TH.FE8f:                                            ~>
 )
 showpass 2 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
+
 cocurrent 'base' NB.{*JOD*}
+0 0$(4!:55);:'sonl_z_ SOLOCALE_z_ soput_z_ soclear_z_' NB.{*JOD*}
 showpass 'NB. end-of-JOD-dump-file regenerate cross references with:  0 globs&> }. revo '''' ' NB.{*JOD*}
