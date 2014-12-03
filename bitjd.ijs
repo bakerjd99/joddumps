@@ -1,5 +1,5 @@
-NB. JOD dictionary dump: 14 Nov 2014 10:43:12
-NB. Generated with JOD version; 0.9.94; 7; 14 Jun 2014 12:50:17
+NB. JOD dictionary dump:  1 Dec 2014 10:19:04
+NB. Generated with JOD version; 0.9.96; 4; 14 Nov 2014 11:31:03
 NB.
 NB. Names & DidNums on current path
 NB. +-----+---------------------------------------+
@@ -40,6 +40,8 @@ INPUTCOLUMNS=:<;._1 ' InputAmount InputHash TransactionHash TransactionFkey Inpu
 INPUTSFILE=:'c:/bitjddata/jdcsv/inputs.csv'
 
 JDCSVDIRECTORY=:'c:/bitjddata/jdcsv/'
+
+MonthHits=:7 13$'year';'jan';'feb';'mar';'apr';'may';'jun';'jul';'aug';'sep';'oct';'nov';'dec';2009;0;0;0;0;0;0;0;0;126;194;59;52;2010;63;215;82;164;319;267;316;1088;445;276;432;653;2011;638;676;407;334;257;475;469;412;349;339;556;718;2012;671;587;676;593;1008;1457;845;800;947;956;1085;1334;2013;1121;969;1188;1023;861;729;588;975;798;899;811;1057;2014;1080;799;854;1144;878;843;1247;1115;1039;998;943;4
 
 OPENSSL=:'c:/j64/j64-802/bin/libeay32.dll '
 

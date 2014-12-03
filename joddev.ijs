@@ -1,4 +1,4 @@
-NB. JOD dictionary dump: 14 Nov 2014 11:33:42
+NB. JOD dictionary dump:  2 Dec 2014 10:32:24
 NB. Generated with JOD version; 0.9.96; 4; 14 Nov 2014 11:31:03
 NB.
 NB. Names & DidNums on current path
@@ -24,6 +24,8 @@ BEGINJODHEADER=:'\begin{JODGroupHeader}'
 BEGINJODPOSTP=:'\begin{JODPostProcessor}'
 
 BEGINNOTJ=:'NB.<<~~~~'
+
+DPLIMIT=:32
 
 ENDINDEX=:'\CharTok{=.=.}'
 
