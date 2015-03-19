@@ -165,5 +165,6 @@ pip-log.txt
 =======
 ## joddumps files to ignore
 *_SYNCAPP/
+jodfit.ijs
 tags
 >>>>>>> cc777d29fda33bc634f26bdbc40fc85886f69267
