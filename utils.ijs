@@ -1,10 +1,10 @@
-NB. JOD dictionary dump: 24 Jun 2015 15:44:52
+NB. JOD dictionary dump: 24 Jun 2015 16:46:59
 NB. Generated with JOD version; 0.9.973; 1; 19 Jun 2015 10:24:23
 NB.
 NB. Names & DidNums on current path
-NB. +-----+--------------------------------------+
-NB. |utils|43906746076998202922392318757595751232|
-NB. +-----+--------------------------------------+
+NB. +-----+---------------------------------------+
+NB. |utils|120915817263228354452137406440734108143|
+NB. +-----+---------------------------------------+
 
 9!:41 [ 1 NB.{*JOD*}
 cocurrent 'base' NB.{*JOD*}
@@ -1681,12 +1681,12 @@ postit=:]`,.@.(1&>:@(#@$))^:2
 
 pwf=:3 : 0
 
-NB.*pwf v-- write put dictionary words as script files.
+NB.*pwf v-- write path dictionary words as script files.
 NB.
 NB. monad:  pwf clPattern
 NB.
-NB.   pwf 're'  NB. write put dictionary words with prefix 're'
-NB.   pwf ''    NB. write all put dictionary words
+NB.   pwf 're'  NB. write path dictionary words with prefix 're'
+NB.   pwf ''    NB. write all path dictionary words
 NB.
 NB. dyad:   clPath pwf clPattern
 NB.
@@ -1698,25 +1698,23 @@ NB. JOD references !(*)=. dnl get badrc_ajod_ ok_ajod_
 NB. !(*)=. isempty_ajod_ jpathsep_ajod_ makedir_ajod_ write_ajod_
 pk=.  >@{                        
 tsl=. ] , ('\'"_ = {:) }. '\'"_  
-if.     badrc_ajod_ ws=. 0 _1 dnl y        do. ws return.
-elseif. badrc_ajod_ ws=. 0 10 get 1 pk ws  do. ws return.
+if. badrc_ajod_ ws=. 0 _1 dnl y        do. ws return. end.
+if. badrc_ajod_ ws=. 0 10 get 1 pk ws  do. ws return. end.
 NB. individual word scripts using short description text for tacits
-elseif. badrc_ajod_ ws=. 0 0 1 wttext__MK__JODobj 1 pk ws  do. ws return.
-elseif.do.
-  try.
-    NB. if (x) path is empty use put dictionary directory (alien\words)
-    if. isempty_ajod_ x do.
-      DL=. {:{.DPATH__ST__JODobj NB. !(*)=. DL
-      NB. insure subdirectory when (x) is empty
-      NB. when (x) is nonempty assume it exists
-      makedir_ajod_ <jpathsep_ajod_ tsl x=. ALI__DL,'words'
-    end.
-    NB. write individual word files
-    ws=. 1 pk ws
-    wpf=. (<jpathsep_ajod_ tsl x) ,&.> (0 {"1 ws) ,&.> <'.ijs'
-    ok_ajod_ wpf [ (toHOST&.> 1 {"1 ws) write_ajod_&.> wpf
-  catchd. jderr_ajod_ 'unable to write all word file(s)'
+if. badrc_ajod_ ws=. 0 0 1 wttext__MK__JODobj 1 pk ws  do. ws return. end.
+try.
+  NB. if (x) path is empty use put dictionary directory (alien\words)
+  if. isempty_ajod_ x do.
+    DL=. {:{.DPATH__ST__JODobj NB. !(*)=. DL
+    NB. insure subdirectory when (x) is empty
+    NB. when (x) is nonempty assume it exists
+    makedir_ajod_ <jpathsep_ajod_ tsl x=. ALI__DL,'words'
   end.
+  NB. write individual word files
+  ws=. 1 pk ws
+  wpf=. (<jpathsep_ajod_ tsl x) ,&.> (0 {"1 ws) ,&.> <'.ijs'
+  ok_ajod_ wpf [ (toHOST&.> 1 {"1 ws) write_ajod_&.> wpf
+catchd. jderr_ajod_ 'unable to write all word file(s)'
 end.
 )
 
