@@ -1,9 +1,9 @@
-NB. JOD dictionary dump: 30 Jun 2015 23:27:40
-NB. Generated with JOD version; 0.9.973; 42; 30 Jun 2015 23:09:30
+NB. JOD dictionary dump:  1 Jul 2015 16:08:42
+NB. Generated with JOD version; 0.9.973; 44; 1 Jul 2015 13:21:49
 NB.
 NB. Names & DidNums on current path
 NB. +-----+---------------------------------------+
-NB. |utils|327869431914797941508105498637921839074|
+NB. |utils|120915817263228354452137406440734108143|
 NB. +-----+---------------------------------------+
 
 9!:41 [ 1 NB.{*JOD*}
@@ -4141,10 +4141,21 @@ Bl@l3G\q8>FD5Q4-RgSp4>8$7.4cl04?G0&0d%hd:et"h?YFOuFD,T5DBMbO;cI+FF`)&7Df-[o
 2_d$B1G1OE3B8uT1,h*61E\G,0f:XC1GCF@3&EKO2D[?R+>Fuo0JGF?0etO;2)mTV2Dm6K2BX^s
 1,(F?0K(^@/iYgI2)dEL3B83:.4cl02BXb#1,(F?0K([C/iP[F1bgsL2Du[6+>PW*2)$pD2_HsC
 1c@-L0KC71+>PW*2)$pD1bL^F1c-pH3&WZ;1E\G,0f:XC1GCF@3&EKO2`NWR+>Y,q0JPF=2DR3D
-2)7!H1H7'K+>Fuo0JPF=2D[$>3&i`P2`E]Q3$:"+/1<V7,VUYu-p01/0I\P$4>n<;,Vh&.2)$pD
-1bL^F1c-pI0JtX/1a"P-0f:XC1,ggC1,LmF3&*<G+>Fuo0JPF=2DR*A2`<KL0f^pF1E\Ls1,(F?
-0K(^@/iYgI2)dKN3AM^6+>PW*2)$pD2_HsC1c@-L0fCa/0d&5*0f:XC1GCF@3&EKO3&<QM+>bMu
--p045/1<V8.4cl00I\P$4>8384>?                                              ~>
+2)7!H1H7'K+>Fuo0JPF=2D[$>3&i`P2`E]Q3$:"+/1<V9+>Gf#1,(F?0K([C/iG[K0JbLA0f'q-
+0JPF=2DR*A2E3ZM1G^jB1E\G,0f:XC1,LUA3&iTJ1GggB+>PW*2)$pD1bL[G3&!-E1bgd/1,(F?
+0K([C/iG[K0JbLB3B83;0JPF=2DR*A2E3ZM1G^mK3?U(20f:XC1,LUA3&iTJ1Gq0Q+>PW*2)$pD
+1bL[G3&!-E2*!Z>1,(F?0K([C/iG[K0JbLB3B83;0JPF=2DR*A2E3ZM1G^sK1a"P-0f:XC1,LUA
+3&iTJ1H.6L+>PW*2)$pD1bL[G3&!-E2`EQ91,(F?0K([C/iG[K0JbLD2`)X40JPF=2DR*A2E3ZM
+1G^sK1a"P-0f:XC1,LUA3&iTJ1H.6L+>PW*2)$pD1bL[G3&!-E3Ai`<1,(F?0K([C/iG[K0JbLF
+2)cX50JPF=2_Zs=1c$sE0KD$L2'=Y.0f:XD0JP1:1GgmA3ArcQ+>PW*2)$sC0eP:=1c$j?1H6L4
+0JPF=2_Zs=1c$sE0ebCC+>PW*2)$sC0eP:=1c$j?1H6L40JPF=2_Zs=1c$sE0ebIC2]sk00f:XD
+0JP1:1GgmB0JtaI+>PW*2)$sC0eP:=1c$j?2)[B91,(F?0K1[?/i5@@1GLR@2E)a60JPF=2_Zs=
+1c$sE0ebIC2]sk00f:XD0JP1:1GgmB0JtaI+>PW*2)$sC0eP:=1c$j?2)[B91,(F?0K1[?/i5@@
+1GLU>3&Vm70JPF=2_Zs=1c$sE0ekFC2BXb/0f:XD0JP1:1GgmB0et^H+>PW*2)$sC0eP:=1c$j@
+1c@<91,(F?0K1[?/i5@@1GLU@2E3-:-p01/0I\P$4>n<;,Vh&.2)$pD1bL^F1c-pI0JtX/1a"P-
+0f:XC1,ggC1,LmF3&*<G+>Fuo0JPF=2DR*A2`<KL0f^pF1E\Ls1,(F?0K(^@/iYgI2)dKN3AM^6
++>PW*2)$pD2_HsC1c@-L0fCa/0d&5*0f:XC1GCF@3&EKO3&<QM+>bMu-p045/1<V8.4cl00I\P$
+4>8384>?                                                                  ~>
 )
 showpass putallts__MK__JODobj ".".'zz_',SOLOCALE,'_' [ cocurrent 'base'  NB.{*JOD*}
 ".soclear NB.{*JOD*}
