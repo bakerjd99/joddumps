@@ -1,9 +1,9 @@
-NB. JOD dictionary dump:  1 Jul 2015 16:08:24
-NB. Generated with JOD version; 0.9.973; 44; 1 Jul 2015 13:21:49
+NB. JOD dictionary dump:  1 Jul 2015 22:09:01
+NB. Generated with JOD version; 0.9.973; 49; 1 Jul 2015 22:03:48
 NB.
 NB. Names & DidNums on current path
 NB. +---+---------------------------------------+
-NB. |jod|180088257650421289020591099395020912288|
+NB. |jod|150437487969232305338530111782486348726|
 NB. +---+---------------------------------------+
 
 9!:41 [ 1 NB.{*JOD*}
@@ -13880,7 +13880,9 @@ DfTE2AU#>?E,'<%2D?m6.4cl01-%061*eV/0f:XC1GCF@3B0#S0fLjE+>Fuo0JGF?0etO;2)mTV
 3B0#S2)d3J+>P&p0JPF=2DR3D2)7'D1,q*F1E\Cp1,(F?0K(^@/iYjN3ANHN0K1+4.4cl00e"Y%
 4>A99-p045/1<V8.4dS9                                                      ~>
 )
-showpass putallts__MK__JODobj ".".'zz_',SOLOCALE,'_' [ cocurrent 'base'  NB.{*JOD*}
+cocurrent 'base'  NB.{*JOD*}
+puttstamps_ijod_=: (((1;'upgrade JOD')"_)`putallts__MK__JODobj)@.(3 = (4!:0)<'putallts__MK__JODobj') NB.{*JOD*}
+showpass puttstamps ".".'zz_',SOLOCALE,'_' [ cocurrent 'base'  NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
 
