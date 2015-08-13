@@ -1,9 +1,9 @@
-NB. JOD dictionary dump:  1 May 2015 09:22:15
-NB. Generated with JOD version; 0.9.972; 4; 5 Apr 2015 13:06:21
+NB. JOD dictionary dump: 13 Aug 2015 09:08:34
+NB. Generated with JOD version; 0.9.99; 3; 12 Aug 2015 14:48:19
 NB.
 NB. Names & DidNums on current path
 NB. +----+---------------------------------------+
-NB. |play|146966528478554805297917125804617909562|
+NB. |play|194946597397555360220909025439407510467|
 NB. +----+---------------------------------------+
 
 9!:41 [ 1 NB.{*JOD*}
@@ -471,9 +471,9 @@ booksperyear=:3 : 0
 
 NB.*booksperyear v-- books per year from tab delimited books file.
 NB.
-NB. monad:  booksperyear clFile
+NB. monad:  it =. booksperyear clFile
 NB.
-NB.   d=. booksperyear 'c:/pd/books/books.txt' 
+NB.   d=. booksperyear 'c:/fit/bk/books.txt' 
 NB.   0.01 dstat 1{d  
 
 d=. readtd2 y
@@ -1897,6 +1897,42 @@ zz=:dec85__MK__JODobj 0 : 0
 FD5W*+EV:2DJ+"                                                            ~>
 )
 showpass 5 put >1{,".".'zz_',SOLOCALE,'_' [ cocurrent 'base'  NB.{*JOD*}
+".soclear NB.{*JOD*}
+
+
+cocurrent SO__JODobj NB.{*JOD*}
+zz=:fromascii85__MK__JODobj 0 : 0
+1E\P#-p0UR/mg=U-Qk]R:dm`N;F+8R:K&B&Ci<rbFCB94+@B%&;c?Lj:IJ2M<)c:g+@C'iDKKoE
+6Z6LH=E7tb+@C'iDKKoE7WN'O7riNjE-!-hDfor>Ed:,pAS"eMDfTE1+@L?_6tp(MGuJfnEc`El
+F_"NaEcYr5DBMAb@;0OVF_56"GT]IeCh6"K@<-WlFCB33+@]pYAQEA_F(oQ1+@^3i=)^lPDKKP_
+BlnD=7WN3R@<jR`FD,_<7rN3S@UWb[+@opYDeU=bATDL,@:s.IEb@-]0eskBATDL,@:s.IEb@-]
+0euX8DJN3[@VfTu8Oc!579<8_6rR,tEcYr5DF8>bDKKH1F!+%lF(KB67!3$@ATDj+Df-[hDKBB0
+FA6sj@q/PNEcYr5DBMY>=B@pb9LVfX79C[,Df0Z18830e+AI&k@q.o@@<-WlFCB33+AI&k@q/PN
+EcYr5DBM\@6VV-&@;JnO@VfTu:Mb;nE+rfYDes-0Bk(Rf:18!NF!+:K=@>SO+Ac3Z=_JpS@<-F#
+:-q<BARo4c<+06PAKXiM5t"U:<(TGU:J=_V=<LL-9gMNS8jQ3O79C[1:JXqk:JsSZ<b6;mBl@lV
+Dfor>ATDi7<-!,'BMDoQ@:s.gASuT4@<69.@<69pH$!V=+CT>.A7]@eDIjr!F)>T%GT^F9D/<p(
+ATJu'Df0,qEbT&sAKYH#DejE-ASbsgDf&s)+C]8-CNFH+Ed;5)EZeh0G]IqEF!+t&A0>B#DJ!Tq
+C12?0@s)m.F)Pr/EbT&p@<<W&0d(!^+Cno&Ao_X-Df03.Bk/>sAmulnBPMU,DJ!ouFCT,0A8#_!
+Df00-DKIWVA85OtD..O"+D,=1Anb]sAoi*3+D5_/A7T+jATDf6B6%]sA79RlEcbh7Be_;OA0>S@
+1Ljr<D..3k7ri<S6tL4R<+U,m7VQ[MF!,@/G'.UDDesN@E+O*%F<GO9BcqG)DId[&FE;P4D/aP=
+Eb034DJ=36+ED%4F`(o8F#"kYAT2d0BlnDP+ED%4F`(o8F#5"\@q6^'E+s?$Cb[&RF_r7BF_srq
+Ddso3@:F%aA7]gl+EVI8GT_-=A0?#4AoDKr+Eh=:F(oQ1H#7aQ.4cl04?G0&0d%hd@WcC$A5-KS
+BM)]X6tL4R+ED%0@:EeaG@>c9DeX*2F$a;VBk&hN0deD$-p0UR/mg=U-Qkg"A5m,B:i^,dEc5H!
+F)rHlF_"NaEcYr5DBMD[Ch6XYEcYr5DBMDiD*rAf:gnBcATAn`EbT&PASl?.9jr-W8mus4ASl?.
+9m:/Y@oR#A:i^,dEc5H!F)rHuG@b8o<b6;mBl@l3:Mb;nE+rfVARo4c;IOHYF!+LpEcYr5DF8>b
+DKKH1F!+P&Eb&!eATMo`BlnD=@<69.@q]F`CNFW8F!+t5ARo^%D/XH9AKZ,5AoDKr+F7U/CLqBo
+DfTG;.4cl00I/>$/1<VC4"akp+=A:"F_"NaEcYr5DBMbO;cI*lF_"NaEcYr5DBMbO;cI*nASbpY
+ATDj+Df-[o:K(5"9m:/Y@od/]F(oQ1+Abj4<*r[;EcYr5DF8>bDKKH1F!+q7Bl%<MEbT&PASl?.
+@WcC$A7opsA0>H$BkM9k+DO_dDf0,QCi<rTG[YH.Ch4`*De!3l?Y!_[F!,@CD.7'sGAhM4F!,FB
+ARf:mF!,FBC2I]oGT_'L@<-I4E*mHjFD,DtG[tB&DdR6mF!iCf-p0:.1*eV/0f:XD0K1UA2)$pE
+3AWQN+>GT0+>PW*2)%!E1G1IB1cI-G3&*640d&5*0f:XD0K1UA2)$pE3A`WS+>Yo)/1<V90JPF=
+2_[0C2)R'G1H@BS1Flff0JPF=2_[$?2)R'G1H@BS1Fd)k0d&5#/1<V90JPF=2_[0C2)R'G1b^XE
+2Ci,i0JPF=2E*EE2)R'G1b^XE2C`Dn0d&5#/1<V7,VUYu-p07=0f:XD0K1UA2)$pE3B9&X.pk%c
+0f:XC2`WKJ2)$pE3B9&X.VULi+>PAs-p045/1<V8.4cl00e"Y%4>8384>?                ~>
+)
+cocurrent 'base'  NB.{*JOD*}
+puttstamps_ijod_=: (((1;'upgrade JOD')"_)`putallts__MK__JODobj)@.(3 = (4!:0)<'putallts__MK__JODobj') NB.{*JOD*}
+showpass puttstamps ".".'zz_',SOLOCALE,'_' [ cocurrent 'base'  NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
 
