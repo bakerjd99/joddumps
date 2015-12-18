@@ -1,4 +1,4 @@
-NB. JOD dictionary dump: 16 Dec 2015 09:57:29
+NB. JOD dictionary dump: 18 Dec 2015 10:27:54
 NB. Generated with JOD version; 0.9.99; 6; 5 Oct 2015 14:12:09
 NB.
 NB. Names & DidNums on current path
@@ -3807,18 +3807,18 @@ zz=:zz,'SAUTHOR LF alltrim changestr ctl fgr fuserows ifc ngc quote timesta'
 zz=:zz,'mp''),(<<;._1 '' htmthorn IFACEWORDShtmthorn ROOTWORDShtmthorn''),(<<;'
 zz=:zz,'._1 '' odbcREF ddcheck ddcnm ddcol ddcon dddis dderr ddfch ddfet dds'
 zz=:zz,'el ddsql ddsrc ddtblx''),(<<;._1 '' remdots alltrim read remdotargs w'
-zz=:zz,'rite''),(<<;._1 '' rwtabd readtd writetd''),(<<;._1 '' socketsREF sdche'
-zz=:zz,'ck sdclose sdconnect sdgethostbyname sdrecv sdsend sdsocket''),(<<;.'
-zz=:zz,'_1 '' sunmoon IFACEWORDSsunmoon NORISESET ROOTWORDSsunmoon arctan ca'
-zz=:zz,'lmoons cos fromjulian moons round sin sunriseset0 sunriseset1 tabit'
-zz=:zz,' tan today yeardates''),(<<;._1 '' trig arccos arccosh arcsin arcsinh'
-zz=:zz,' arctan arctanh cos cosd cosh dfr pi rfd sin sind sinh tan tand tan'
-zz=:zz,'h''),(<<;._1 '' unicode ucpfrncrd ucpfrutf8 utf8frncrd''),(<<;._1 '' wo'
-zz=:zz,'rdformation wfl''),<<;._1 '' xmlutils afterstr alltrim atags attrvalu'
-zz=:zz,'e beforestr belongstrs betweenidx betweenstrs eletags getele getele'
-zz=:zz,'attr geteleattrtext geteletext geteletextidx read splitstrs tags wr'
-zz=:zz,'ite''                                                               '
-zz=:1545{.zz
+zz=:zz,'rite''),(<<;._1 '' rwtabd fmttd readtd2 writetd2''),(<<;._1 '' socketsR'
+zz=:zz,'EF sdcheck sdclose sdconnect sdgethostbyname sdrecv sdsend sdsocket'
+zz=:zz,'''),(<<;._1 '' sunmoon IFACEWORDSsunmoon NORISESET ROOTWORDSsunmoon a'
+zz=:zz,'rctan calmoons cos fromjulian moons round sin sunriseset0 sunrisese'
+zz=:zz,'t1 tabit tan today yeardates''),(<<;._1 '' trig arccos arccosh arcsin'
+zz=:zz,' arcsinh arctan arctanh cos cosd cosh dfr pi rfd sin sind sinh tan '
+zz=:zz,'tand tanh''),(<<;._1 '' unicode ucpfrncrd ucpfrutf8 utf8frncrd''),(<<;'
+zz=:zz,'._1 '' wordformation wfl''),<<;._1 '' xmlutils afterstr alltrim atags '
+zz=:zz,'attrvalue beforestr belongstrs betweenidx betweenstrs eletags getel'
+zz=:zz,'e geteleattr geteleattrtext geteletext geteletextidx read splitstrs'
+zz=:zz,' tags write''                                                       '
+zz=:1553{.zz
 showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
@@ -4301,12 +4301,12 @@ Ci^_1@<-I'A8-+,@;]RdF!,+9E+<]mF)uJGBl%i5BQS*5BQ%p/+E(e"@o>`b+ED%1A8cR2+ED[J
 2E!E81,(F?0K1[?/i5@@1GCgI2DlU40JPF=2DR3D2)7!H1H7-L3$9t10f:XC1,ggC1,LmF3&3HQ
 +>PW*2)-j@2D-g@1,UdA1b^j21,(F?0K([F/i>C@2D[<J3&i$90JPF=2_Zs=1c$sE0ebIC2]sk0
 0f:XC1,ggC1,LmF3&3HQ+>PW*2)-d>2(g^E1H7<J2E*T<1,(F?0K1[?/i5@@1GLR@2E)a60JPF=
-2DR3D2)7!H1H7-L3$9t10f:XC1,ggC1,LmF3&3HQ+>PW*2)$sC0eP:=1c$j?2)[B91,(F?0K([F
-/i>C@2D[<J3&i$90JPF=2DR3D2)7!H1H7-L3$9t10f:XC1,ggC1,LmF3&3HQ+>PW*2)$sC0eP:=
-1c$j@1,q071,(F?0K([F/i>C@2D[<J3&i$90JPF=2DR3D2)7!H1H7-L3%6C,4>8$7.4cl02BXb#
-1,(F?0K([C/iP[F1bh!E2)?@3+>PW*2)$pD2_HsC1c@-L0fCa/0d&5*0f:XC1,LUB2Dd6F3A<<H
-+>b2r0JPF=2D[$>3&i`P2`NTR1*ACr1,(F?0KCjI/i5LG3&!$F0Jst-+>PW*2)$pE0J5=E1c73O
-1H@351ast(4>A99-p014/1<V7.4cl00I\P80`                                     ~>
+2DR3D2)7!H1H7-L3$9t10f:XC1,ggC1,LmF3&3HQ+>PW*2)-j@3%d$D1H@6N0KC720JPF=2DR3D
+2)7!H1H7-L3$9t10f:XC1,ggC1,LmF3&3HQ+>PW*2)$pD2_HsC1c@-L1,q691,(F?0K1[?/i5@@
+1GLU>3&Vm70JPF=2DR3D2)7!H1H7-L3$9t10f:XC1,ggC1,LmF3&3HQ.4cl00I/>$/1<V=+>P2t
+0JPF=2DR*A2`<KL0f^pF1E\Ls1,(F?0K([F/i>C@2D[<I2DH=/+>PW*2)$pD1bL^F1c-pI0JtX/
+1a"P-0f:XC1GCF@3&EKO3&<QM+>b2r0JPF=3AEKG1cI?Q0JGF>2'=Ur1,(F?0K(^@/iYgI2)dKN
+3AM^6.4cl00e"Y%4>838-p014/1<V7.4dS9                                       ~>
 )
 cocurrent 'base'  NB.{*JOD*}
 puttstamps_ijod_=: (((1;'upgrade JOD')"_)`putallts__MK__JODobj)@.(3 = (4!:0)<'putallts__MK__JODobj') NB.{*JOD*}
