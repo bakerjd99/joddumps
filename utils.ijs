@@ -1,5 +1,5 @@
-NB. JOD dictionary dump:  3 Jan 2016 12:57:06
-NB. Generated with JOD version; 0.9.99; 7; 5 Oct 2015 17:48:17
+NB. JOD dictionary dump: 10 Jan 2016 13:45:42
+NB. Generated with JOD version; 0.9.986; 2; 10 Aug 2015 18:22:32
 NB.
 NB. Names & DidNums on current path
 NB. +-----+---------------------------------------+
@@ -129,7 +129,6 @@ NB.   psy  =  level payment necessary to amortize the loan
 NB.   osb  =  outstanding balance before each payment
 NB.   ip   =  interest portion of each payment
 NB.   pp   =  principal portion of each payment
-NB.
 NB.
 NB. monad:  nt =. amort nl
 NB.
@@ -1551,7 +1550,7 @@ NB.
 NB.   monthdates~  1999 2000 2001   NB. useful idiom
 
 NB. generate all first of month dates in years
-days =. ,/ (,y) ,"0 1/ ,/ (>: i. 12) ,"0/ ,1
+days=. ,/ (,y) ,"0 1/ ,/ (>: i. 12) ,"0/ ,1
 :
 NB. convert to YYYYMM01 format
 0 100 100 #. monthdates y
@@ -4254,7 +4253,7 @@ DBMbO;cI+FF`)&7Df-[o:K(5"FD,T5DBNJ(Df[%3F_u):F`\a>Bk1dbDf0W7Ch4`'<,uDbF(T!(
 1bL^F1c-pH0f(^10d&5*0f:XC1GCF@3&EKO1,La/2'=Y.0K1^@1,CO?3&ruW2)7*K+>P&p0JPF=
 2D[$>3&i`P2_m3F+>b2r0JGF?0etO;2)mTV2Dm6K2BX^s1,(F?0K(^@/iYgI2)d<G1cHO3+>PW)
 2_d$B1G1OE3B8uT1,h*61*A>+0f:XC1GCF@3&EKO1GL^F+>Y,q0JGF?0etO;2)mTV2Dm6K2BXat
-1,(F?0K(^@/iYgI2)d9I1*A@q1,(C@0ekF>/i>UK3Ar`M2`;d;+>PW*2)-d>1+kIF2E*KR1c.$3
+1,(F?0K(^@/iYgI2)d9I1*A@q1,(C@0ekF>/i>UK3Ar`M2`;d;+>PW*2D?j?0J54@0K1^G0f(d3
 0d&5*0K1^@1,CO?3&ruW2)7*K+>Fuo0JPF=2D[$>3&i`P2`!0F2]sju1,(C@0ekF>/i>UK3Ar`M
 2`;d:+>PW*2)$pE0J5=E1c73J0f1g31E\G,0K1^@1,CO?3&ruW2)7*K+>Fuo0JPF=2D[$>3&i`P
 2`!0F2]sgt1,(C@0ekF>/i>UK3Ar`M2`;d6+>PW*2)$pE0J5=E1c73J0f1g31*A>+0K1^@1,CO?
@@ -4283,7 +4282,7 @@ DBMbO;cI+FF`)&7Df-[o:K(5"FD,T5DBNJ(Df[%3F_u):F`\a>Bk1dbDf0W7Ch4`'<,uDbF(T!(
 2BXat1,(F?0K(^@/iYgI2)dBI1-$I6+>PW)2_d$B1G1OE3B8uT1,h*60d&5*0f:XC1GCF@3&EKO
 2)-jH+>Fuo0JGF?0etO;2)mTV2Dm6K2BX^s1,(F?0K(^@/iYgI2)dBI1-$I3+>PW)2_d$B1G1OE
 3B8uT1,h*61*A>+0fC^?0JY7>1,CUE2DmHQ+>Fuo0JPF=2D[$>3&i`P2`3<F3?U.$1,(C@0ekF>
-/i>UK3Ar`M2`;d6+>PW*2)-d=0eP:=3AE6E1c?I2+>PW*2)$pE0J5=E1c73L0eta30d&5*0K1^@
+/i>UK3Ar`M2`;d6+>PW*2D?j?0J54A1GUsN2_cF0+>PW*2)$pE0J5=E1c73L0eta30d&5*0K1^@
 1,CO?3&ruW2)7*K+>Fuo0JPF=2D[$>3&i`P2`3<F3?U%!1,(C@0ekF>/i>UK3Ar`M2`;d7+>PW*
 2)$pE0J5=E1c73L0eta31a"P-0K1^@1,CO?3&ruW2)7*K+>Fuo0JPF=2D[$>3&i`P2`3<F3?U1%
 1,(C@0ekF>/i>UK3Ar`M2`;d6+>PW*2)$pE0J5=E1c73L1c[K;1*A>+0K1^@1,CO?3&ruW2)7*K
