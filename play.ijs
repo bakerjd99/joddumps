@@ -1,4 +1,4 @@
-NB. JOD dictionary dump: 26 Feb 2016 15:28:12
+NB. JOD dictionary dump:  3 Mar 2016 10:20:59
 NB. Generated with JOD version; 0.9.99; 7; 10 Feb 2016 14:13:55
 NB.
 NB. Names & DidNums on current path
@@ -972,7 +972,7 @@ showpass 0 9 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:dec85__MK__JODobj 0 : 0
-0fL41+>P&u+>Pc11*AS"0f(^HF)Yi6@;IYfEc5e;@3B)pF(9?6F(oQ1+E)-?F)Pl<Bl7Q+7<NEX
+0fL41+>P&u+>Pc11*AS"0f1jHF)Yi6@;IYfEc5e;@3B)pF(9?6F(oQ1+E)-?F)Pl<Bl7Q+7<NEX
 EZe2!DdmNoD'1Sn/d_qaAS!!-ATD6gFD5SQ$4:HgFDs8o06_Va/o#HGAor6*Eb-k5Df%.HBlIX(
 D..-p05trMB6%EtD/!m#0/>482_@F/@qBLdATBFX0KCg@3A+ueD/9OdBQS?83\N.1GBYZSF)PZ4
 G@>N'/n8g:05>]FCM>G#@rc:&FE9*7@:O"n<,Y3ME,95uBlj[h$;YO^6tKjN1FsY(0JGF.0fh*M
@@ -1031,12 +1031,14 @@ BPD:!+D,Fj%13OO+<Ve+4Y@ja0ea_W2'=Rq2'=V-+>G_r1,'h+2'=\/+>Ykt1b]@G+<Ve-4Y@j2
 ATD9pF(HId%13OO+<Ve%67sBlG\(o*Bldi.E-ZP=Df-!k+<VeN@m)jq0H`D!0F\A'D/aE6F<GF/
 FD)*jAoD]4F<G:8+ECn.B4WJC0eb.82(UU63XlE=+<Ve=DfQtD+DG^9Ea`iuALK5`1c6gA.67nF
 +<VdL+<VdLG@MaY+=K$'/iPU0.j-Mu2DR!E+=\LU.3L2b-o3_52`2^-+=MC_.PNJ02CU't.j-5o
-/i5=B2'=@kF<E%U.!@'i0J5(<.4G]5+<VdL+<VdLE,oZ1F=;5^Ft@iI.1HV5%13OO+<Ve%67sBl
-G\(B-FCcS6H$!_<DBO"1EbTK7+:SZ#+<W(SDb*Z&<$6Bp.3NhTBlmo/GAqUd/g)NO3a?c<D/`a(
-@kM_G-OgD*+<YlI4Y@jrGp%<MEt&I!+<YlI4Y@j*,^3uP+=&(V3[-:$>9I953@5q&4"akq+EVF3
-+EqcI/M8/5;@NsB$6UH6:-pQU@rH4'@<,p%8g%P[A0>i:FD,T1+Co1uAn?!oDI[7!+>"^ECht4J
-F!,%=E+NO$ARlnm$6UH60J5%50JG170JO\jDfor.+EqQC/Kf7V%144#+:SYe$4R=O$4R=O$4R=O
-$4R=O$3                                                                   ~>
+/i5=B2'=@kF<E%U.!@'i0J5(<.4G]5+<VdL+<VdLE,oZ1F=;5^Ft@iI.1HV5%13OO+<Ve%67sBm
+ATVEq+ED%5F_Pl-A0?)7Eb'56AoD]4AoDL%Dg,o5B-7Wj+<Ve%67sBnATVs;+?MV3E-WRHDfor.
++EVF3+Eqj?FCcgB>9Iip+?MV3E,8s.+E_d?Ci^sH>9G^EDe't<-OgCl$6UH6:-pQUAU%crF`_1;
+E-ZP=Df-\=@rc:&F<D#"+<VdTFDj]G;cFl`@jrOEEbTW,+EqdG4Y@j)@ldk:ASlBkG@N7EGpa%.
++<VeNE'5frE-WRME,uHq+<VeNE'5fr-mX"O.3KlYHTE?*+Bosq3B8E1/it[m1*C[TAfu;:+>#2g
+6W+@#%144#+AP6U+Cf>,E+*cu+A*bbDIal/H$!_<DBNJ(AnGUpASu!hF!*%W@;Ka&0QS@JG]75(
+FCeu*%144#+>>E%0JG170JG4(Ec6)<A0?)2+>"^[E"*-s+<V+#%13OO%13OO%13OO%13OO%13OO
+%13                                                                       ~>
 )
 showpass 0 9 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
