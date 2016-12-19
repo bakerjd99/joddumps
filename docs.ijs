@@ -1,4 +1,4 @@
-NB. JOD dictionary dump: 18 Dec 2016 17:30:35
+NB. JOD dictionary dump: 18 Dec 2016 18:12:47
 NB. Generated with JOD version; 0.9.987; 5; 20 Mar 2016 11:51:07
 NB.
 NB. Names & DidNums on current path
@@ -2312,7 +2312,7 @@ showpass 1 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:dec85__MK__JODobj 0 : 0
-2)cX9+>Y,q1E\Fq1bpmC+>P_q1*A;.1,0n+2'=Xs2)-d-0ea_*+>l&6+?(Du+>GT2+?:Q"+>bf5
+2)cX9+>Y,q1E\Fq1bpmC+>P_q1*A;.1,0n+2'=Xs2)-d-0ea_*+>u#2+?(Du+>GT2+?:Q"+>bf5
 89A]b1/)+uAU%*aE,8rmAM>iG<*3*T2'lpXD/:=HA0>Q-D/:=;+<VjP+<VjP%14CpFDYh:/S#u;
 ART*l+<VdN+s8!P+q4l*BQS*-+>%+HFD5i5AKW*<+sJ-P+sII'-"qC;C`k<?+C]8"Gp"4P+>%ML
 +<i!P+<i!=$70A-D/:=HA0>;kA9)7&F!)YN+<VjP%14CpFDYh:/S#u;0d%S]+<VdYCb[%VHX'fL
@@ -2418,24 +2418,26 @@ GA\O8Bl%@%+DG^9@3BDqF*(u6+D,>(AISuA67sB'9jr'XA8c[07WM12FCf\>+<XEG/g+YBDK]T3
 FE8R9A8--sA0=QS<+T/SE,Tf>+D,>(ATJu9D]ib2@:s-oAo_Ho+DkP-CLh@-D@Hq%%13OO;e:&M
 AQWPb=)`D$Cf"P^BQG:M%13OO@rGk"EcP`/F<Dr?@<6!-%16T`Bl8!'Ec`EH-WFYZAo^slG\q7E
 :et"h?WUfMCND6c:-pR0:K(5"=(PrYF!,F?F*&ODEc5H!F)u8?+:SYe$?L'&F`_SFF<E7[3Zp*c
-$;No?+@L?_=(PrY+<VdL+<VdL:-pQUB4YslEaa'$F!,[<ASWDuDfor>ATAo,ART+\EZet4EZdbm
-A0>Ds@<-W&$;No?+@]j_=(PrY+<VdL+<VdL:-pQUB4YslEaa'$F!,[<ASWDuDfor>ATAo,ART+\
-EZet4EZdh=<$5^c@<-W&$;No?+AH9\BgcN@FD+'NFCcR;:-pQU9jqjP-Z^D@ART[o+Cno&AKYGj
-F(Jl)Df-\!Des$+@;R,qG%G]&B4W2qDf0*"FD5Z2@;I'&BkCp!AU&0*@ru-s@sJLj:-pQU9k@C;
-ASWD2+<VdL+<Ve%67sBtGp%<BASWDuDfor>ATA4e:-pQU9m:/Y@om5QCEO`B+<Ve%67sBnASu("
-@<?(%+EqC.CER,*F`);4EZf%,@:Wqi+D,P4+AI&k@q-WlBjl%-%15is/g*l66tKeKBLH9NAKW*<
-+AP6U+DlBHA7]1kBHUhoFCcS(@<6!j+E)-?=)VneEa`f-@<Q4&@:s-o@rH6qBln'-DII?(Ch[Km
-+D#e:ARfgjDI[r$$;No?+AI,_AS#Xu9P%gX+<VdL:-pQUD0[7EASkjiDJ=!$+EqC.CNBpl.1HUn
-$=e!aF`MM6DKI!K@UX=h-OgDmDeX*1ATDl8+=C6%ASZ?7@r,^bEar`;0ht%f.V!:+@<,jj+EK+d
-+Cf5!@<*K#F`MM6DKI"2CghC++D5_5F`8rB$4R>PDe!p1Eb0-1+=CW,F(H^.$7I<4DfB-,BHS[3
-@<6!-.3L2p+?XCWA7m>6@rH<pFD)dE@UX=h-OgDmDe3rtF(HIVC2[WqE,o];E&)NHGVV!K67sa,
-Eb]f;13@)P+EK+d+EM+9+E_WG=)W+i:i^,gF!,RC+A?3CAQU'oEc5](@rs=4$;No?+:SZQ67sBj
-Eb/[$ARmhE1,(F<An>F+1^sde67sB4/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
-/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/I`%^67sB811k*,0f:(iDdd0j
-DJ()6Df9H5%13OO@rGk"EcP`/F<Dr?@<6!-%17,eEHPu9AKW@B@<633%17,eEHPu9AKW@5ASu("
-@;IT3De(4)$4R>\A0<rp-Y..*F!,UIBl%i<+BosE+E(d5-RT?1%15is/g,4HF<GdGEbfB,B-:i-
-Dfp"A/KekJ@:UL&Df9H5%16igA7o7`C2[Wi4ZX]5<+T0DE`[4)D/:R/$7BP&De(4<B4Z1*GT](/
--Y@"3+DGFt-OgCl$?L'&F`_SFF<Dr1AQWPb=)`D$C`m\;De`inF<GX9FEMOM%13OO%13      ~>
+$;No?+@9RP=(PrY+<VdL+<VdL:-pQUB4YslEaa'$F!,[<ASWDuDfor>ATAo,ART+\EZet4EZd\9
+8K_PX@<-W&$;No?+@L?_=(PrY+<VdL+<VdL:-pQUB4YslEaa'$F!,[<ASWDuDfor>ATAo,ART+\
+EZet4EZdbmA0>Ds@<-W&$;No?+@]j_=(PrY+<VdL+<VdL:-pQUB4YslEaa'$F!,[<ASWDuDfor>
+ATAo,ART+\EZet4EZdh=<$5^c@<-W&$;No?+AH9\BgcN@FD+'NFCcR;:-pQU9jqjP-Z^D@ART[o
++Cno&AKYGjF(Jl)Df-\!Des$+@;R,qG%G]&B4W2qDf0*"FD5Z2@;I'&BkCp!AU&0*@ru-s@sJLj
+:-pQU9k@C;ASWD2+<VdL+<Ve%67sBtGp%<BASWDuDfor>ATA4e:-pQU9m:/Y@om5QCEO`B+<Ve%
+67sBnASu("@<?(%+EqC.CER,*F`);4EZf%,@:Wqi+D,P4+AI&k@q-WlBjl%-%15is/g*l66tKeK
+BLH9NAKW*<+AP6U+DlBHA7]1kBHUhoFCcS(@<6!j+E)-?=)VneEa`f-@<Q4&@:s-o@rH6qBln'-
+DII?(Ch[Km+D#e:ARfgjDI[r$$;No?+AI,_AS#Xu9P%gX+<VdL:-pQUD0[7EASkjiDJ=!$+EqC.
+CNBpl.1HUn$=e!aF`MM6DKI!K@UX=h-OgDmDeX*1ATDl8+=C6%ASZ?7@r,^bEar`;0ht%f.V!:+
+@<,jj+EK+d+Cf5!@<*K#F`MM6DKI"2CghC++D5_5F`8rB$4R>PDe!p1Eb0-1+=CW,F(H^.$7I<4
+DfB-,BHS[3@<6!-.3L2p+?XCWA7m>6@rH<pFD)dE@UX=h-OgDmDe3rtF(HIVC2[WqE,o];E&)NH
+GVV!K67sa,Eb]f;13@)P+EK+d+EM+9+E_WG=)W+i:i^,gF!,RC+A?3CAQU'oEc5](@rs=4$;No?
++:SZQ67sBjEb/[$ARmhE1,(F<An>F+1^sde67sB4/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/I`%^67sB811k*,
+0f:(iDdd0jDJ()6Df9H5%13OO@rGk"EcP`/F<Dr?@<6!-%17,eEHPu9AKW@B@<633%17,eEHPu9
+AKW@5ASu("@;IT3De(4)$4R>\A0<rp-Y..*F!,UIBl%i<+BosE+E(d5-RT?1%15is/g,4HF<GdG
+EbfB,B-:i-Dfp"A/KekJ@:UL&Df9H5%16igA7o7`C2[Wi4ZX]5<+T0DE`[4)D/:R/$7BP&De(4<
+B4Z1*GT](/-Y@"3+DGFt-OgCl$?L'&F`_SFF<Dr1AQWPb=)`D$C`m\;De`inF<GX9FEMOM%13OO
+%13                                                                       ~>
 )
 showpass 4 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
