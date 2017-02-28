@@ -1,5 +1,5 @@
-NB. JOD dictionary dump: 25 Feb 2017 10:46:25
-NB. Generated with JOD version; 0.9.99; 3; 9 Jan 2017 21:30:06
+NB. JOD dictionary dump: 27 Feb 2017 21:11:35
+NB. Generated with JOD version; 0.9.990; 15; 27 Feb 2017 20:51:37
 NB.
 NB. Names & DidNums on current path
 NB. +-----+---------------------------------------+
@@ -822,8 +822,10 @@ NB.   0 decomm jcr 'decomm'  NB. retain all blank lines
 :
 NB. mask of unquoted comment starts                              
 c=. ($y)$'NB.' E. ,y                                           
-c=. +./\"1 c > ~:/\"1 y e. ''''                                 
-y=. ,y                                                         
+c=. +./\"1 c > ~:/\"1 y e. ''''     
+
+NB. ,, work around for j8.05 bug - remove when fixed                           
+y=. ,,y                                                     
                                                                  
 NB. blank out comments                                           
 y=. ' ' (I. ,c)} y                                     
@@ -4245,7 +4247,7 @@ Blmp$F(96)E-*45Ci"69Bl%i5ARTV$BOkguFCB&sATJu,Ec>N)@<6L4FD5Q4+D>k6FD,T5DBNh>
 D/s3,+E(e"@o>`b+ED%1A8cR2+ED[J@:EaiF)PQ(ATVuk77JD@F`)&7Df-\>EbT//F`(o'De*E%
 GAhM4AoD^,@<?4%DBO1@Cisi6Ci^sQ/1<V7,VUYu-p0UR/mg=U-Ql5];cI+;FDZ,5DfT_<:et"h
 ?ZU@-D/X?1+Abj4<*s`\DfT_<A8,t'+CoV3E,]rA+D>J"ARfXrF)Pl++DFeq@;^-uATAo7@rc:&
-FE;PH@N]`*Dg,]0DKB`4ALAoX-p04C0d&4s1,(F?0K([C/iP[F1bgmH3ADX6+>PW)2_d$B1G1OE
+FE;PH@N]`*Dg,]0DKB`4ALAoX-p04C1E\Fu1,(F?0K([C/iP[F1bgmH3ADX6+>PW)2_d$B1G1OE
 3B8uT1,h*61*A>+0f:XC1,LUB2Dd6F2E!QM+>b2r0JGF?0etO;2)mTV2Dm6K2BX^s1,(F?0K([C
 /iP[F1bgpG0fL40+>PW)2_d$B1G1OE3B8uT1,h*61*A>+0f:XC1,LUB2Dd6F2`*6J+>Fuo0JPI>
 1,:a?2DR$C1c.$F1E\Cp1,(F?0K([C/iP[F1bgpG0fL41+>PW)2_d$B1G1OE3B8uT1,h*61*A>+
@@ -4305,17 +4307,18 @@ FE;PH@N]`*Dg,]0DKB`4ALAoX-p04C0d&4s1,(F?0K([C/iP[F1bgmH3ADX6+>PW)2_d$B1G1OE
 1c-pH0f(^10d&5*0K1^@1,CO?3&ruW2)7*K+>Y,q0JPF=2DR*A2`<KL0fUmD2BX^s1,(F?0ekC:
 /i5:C1,:O=3ADX2+>PW)2_d$B1G1OE3B8uT1,h*60d&5*0f:XC1,LUB2Dd6F3&*3I+>Fuo0JPI>
 1bq$C3&!3F2_m?L2]st5+>PW*2_[!B1+kOF0JYXC0eje*+>PW*2_[!B1+kOF0JkUE2Dd960d&5*
-0fC^B1,pmG0JtUE1,q*L+>Y]..4cl02'=Y"1,(F?0K([C/iP[F1bgsL2Du[6+>PW*2)$pD2_HsC
-1c@-L0KC71+>PW*2)$pD1bL^F1c-pH3&WZ;1E\G,0fLdA1,U[@1c@9M1,CmH+>Fuo0JPI>1bq$C
-3&!3F2`*?M3?U4//1<V82'=Y"1,(F?0K([C/iG[K0JbLA0f'q-+>PW*2)$pD2_HsC1c@-L1,q69
-1*A>+0f:[@0fCX@0etI;1H%0P+>Fuo0JPF=2DR3D2)7!H1H7-L3$9pu1,(F?0K([C/iG[K0JbLB
-3B83:+>PW*2)$pD2_HsC1c@-L1,q690d&5*0f:[>0f:R?2`!6L2D[0H+>Fuo0JPF=2DR*A2E3ZM
-1G^mK3?U%!1,(F@0JYC@/i5LD1c[KK0f'q,+>PW*2)$pD2_HsC1c@-L1,q691*A>+0f:XC1,LUA
-3&iTJ1H.6L+>Fuo0JPF=2DR3D2)7!H1H7-L3$:""1,(F?0K([C/iG[K0JbLD2`)X3+>PW*2)$pD
-2_HsC1c@-L1,q691*A>+0fC^B1,pmG0JtUE1c@3J+>PW"/1<V7,VUYu-p0C11*eV/0f:XC1,LUB
-2Dd6F3A<<H+>b2r0JPF=2DR3D2)7!H1H7*I0d&1n1,(F?0K([C/iP[F1bh!E2)?@3+>PW*2D?sC
-3%d0E2)7*I2Dm<61a"P-0fLdA1,U[@1c%!C0f(aH+>Fuo0JPI>1bq$C3&!3F2`*EM1a"V(/1<V8
-.4cl00e"Y%4>A99-p014/3GW                                                  ~>
+0fC^B1,pmG0JtUE1,q*L+>kkr1,(FA0JYCB/iYaD2)[9H0esk++>PW*2D?sC3%d0E2)7*G3&EQ:
+1,Ug9/1<V<+>P2t0JPF=2DR*A2`<KL0fV-N2BXdu1,(F?0K([F/i>C@2D[<H3?U%!1,(F?0K([C
+/iP[F1bgsL2Du[6+>PW*2_[!B2(g^B2E*KK1H7360d&5*0fC^B1,pmG0JtUE1c.-O+>tZ"-p04A
++>P2t0JPF=2DR*A2E3ZM1G^jB1E\Fq1,(F?0K([F/i>C@2D[<J3&i$9+>PW*2)-j@2D-g@1,1I=
+2E*W=0d&5*0f:XC1,ggC1,LmF3&3HQ+>Fuo0JPF=2DR*A2E3ZM1G^mK3?U%!1,(F?0K([F/i>C@
+2D[<J3&i$8+>PW*2)-d>2(g^E1G_!K1Ggp20d&5*0f:XC1,LUA3&iTJ1Gq0Q+>Fuo0JPI>1,:^>
+1cI6J3B&WH1E\Cp1,(F?0K([F/i>C@2D[<J3&i$9+>PW*2)$pD1bL[G3&!-E2`EQ90d&5*0f:XC
+1,ggC1,LmF3&3HQ+>Y,q0JPF=2DR*A2E3ZM1G^sK1a"Lq1,(F?0K([F/i>C@2D[<J3&i$9+>PW*
+2D?sC3%d0E2)7*I2Dm<61,(..-p01/0I\P$4>n<;,Vh&.2)$pD1bL^F1c-pI0JtX/1a"P-0f:XC
+1,ggC1,LmF3&*<G+>Fuo0JPF=2DR*A2`<KL0f^pF1E\Ls1,(F@0JkOE/iYOB1,h$J2)HF4+>PW*
+2_[!B2(g^B1Gpj@1H.370d&5*0fC^B1,pmG0JtUE1c@3J+>bMu-p045/1<V8.4cl00e"Y%4>838
+4>?                                                                       ~>
 )
 cocurrent 'base'  NB.{*JOD*}
 puttstamps_ijod_=: (((1;'upgrade JOD')"_)`putallts__MK__JODobj)@.(3 = (4!:0)<'putallts__MK__JODobj') NB.{*JOD*}
