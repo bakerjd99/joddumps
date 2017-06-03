@@ -1,5 +1,5 @@
-NB. JOD dictionary dump: 23 May 2017 18:19:04
-NB. Generated with JOD version; 0.9.992 - dev; 29; 16 May 2017 18:48:43
+NB. JOD dictionary dump:  3 Jun 2017 12:51:36
+NB. Generated with JOD version; 0.9.992 - dev; 30; 3 Jun 2017 12:46:38
 NB.
 NB. Names & DidNums on current path
 NB. +-----+---------------------------------------+
@@ -2672,6 +2672,7 @@ if. 0 e. $y do. '' return. end.
 NB. y=. citemize y
 NB. nms=. toupper&.> {."1 y
 y=. (,:^:(2 > #@$)) y
+NB. override mixed assignments (<:)=: 
 nms=. {."1 y
 NB. target locale
 if. #x=. ,x do. nms=. nms ,&.> <'_',(x-.' '),'_' end.
@@ -4264,7 +4265,7 @@ Blmp$F(96)E-*45Ci"69Bl%i5ARTV$BOkguFCB&sATJu,Ec>N)@<6L4FD5Q4+D>k6FD,T5DBNh>
 D/s3,+E(e"@o>`b+ED%1A8cR2+ED[J@:EaiF)PQ(ATVuk77JD@F`)&7Df-\>EbT//F`(o'De*E%
 GAhM4AoD^,@<?4%DBO1@Cisi6Ci^sQ/1<V7,VUYu-p0UR/mg=U-Ql5];cI+;FDZ,5DfT_<:et"h
 ?ZU@-D/X?1+Abj4<*s`\DfT_<@r,^bEc?/C+Co2)F!,"9D/aH:F<G72A7]7hDKB`4AKY\dEa`j,
-An?!*F(96)E--/CF^cJ7BQ&*)Df0W7Ch4tC/1<V82_uR3,Vh&.2)$pD1bL^F1c-pF2E<K72'=Y.
+An?!*F(96)E--/CF^cJ7BQ&*)Df0W7Ch4tC/1<V82`2^5,Vh&.2)$pD1bL^F1c-pF2E<K72'=Y.
 0K1^@1,CO?3&ruW2)7*K+>P&p0JPF=2DR*A2`<KL0fCpM0d&:q1,(C@0ekF>/i>UK3Ar`M2`;d5
 +>PW*2)$pD1bL^F1c-pG1bgp30d&5*0K1^@1,CO?3&ruW2)7*K+>P&p0JPF=2DR*A2`<KL0fLpD
 2]sgt1,(F@0JYCA/iGI?1,LgE1G^..+>PW*2)$pD1bL^F1c-pG1bgp31*A>+0K1^@1,CO?3&ruW
@@ -4325,18 +4326,19 @@ An?!*F(96)E--/CF^cJ7BQ&*)Df0W7Ch4tC/1<V82_uR3,Vh&.2)$pD1bL^F1c-pF2E<K72'=Y.
 +>PW*2)-g?0J51:3AN?D1-%'30d&5*0K1^@1,CO?3&ruW2)7*K+>Fuo0JPF=2DR*A2`<KL0fUmD
 2BX^s1,(F@0JkOE/iYOB1,gsJ1cHO71*A>+0fLdA1,:IA2_[!I0ekC*0d&5*0fLdA1,:IA2_['F
 2E!BL+>Fuo0JPI>1bq$C3&!3F2_m?L2]st4+>PW*2_[!B2_I'J0f:jG1,1O,0d&5*0fC^B1,pmG
-0JtUE1,q*L+>Pf0.4cl02'=Y"1,(F?0K([C/iP[F1bgsL2Du[6+>PW*2)$pD2_HsC1c@-L0KC71
-+>PW*2)$pD1bL^F1c-pH3&WZ;1E\G,0fLdA1,U[@1c@9M1,CmH+>Fuo0JPI>1bq$C3&!3F2`*?M
-3?U4//1<V82'=Y"1,(F?0K([C/iG[K0JbLA0f'q-+>PW*2)$pD2_HsC1c@-L1,q691*A>+0f:[@
-0fCX@0etI;1H%0P+>Fuo0JPF=2DR3D2)7!H1H7-L3$9pu1,(F?0K([C/iG[K0JbLB3B83:+>PW*
-2)$pD2_HsC1c@-L1,q690d&5*0f:[>0f:R?2`!6L2D[0H+>Fuo0JPF=2DR*A2E3ZM1G^mK3?U%!
-1,(F@0JYC@/i5LD1c[KK0f'q,+>PW*2)$pD2_HsC1c@-L1,q691*A>+0f:XC1,LUA3&iTJ1H.6L
-+>Fuo0JPF=2DR3D2)7!H1H7-L3$:""1,(F?0K([C/iG[K0JbLD2`)X3+>PW*2)$pD2_HsC1c@-L
-1,q691*A>+0fC^B1,pmG0JtUE1c@3J+>PW"/1<V7,VUYu-p04<+>P2t0JPF=2DR*A2`<KL0f^pF
-1E\Ir1,(FA0JtUA/iP[D2_d'B0K(%.+>PW*2)$pD1bL^F1c-pI0JtX/0d&5*0f:XC1,ggC1,LmF
-3&*<G+>Fuo0JPF=2DR*A2`<KL0f^pF1E\Ls1,(F@0JkOE/iYOB1,h$J2)HF3+>PW*2_[*E1G1UE
-1,gpC0ebL.0d&5*0fC^B1,pmG0JtUE1c@3J+>Fuo0JPL?1GL^=3AN?E2_[!G3$9pu1,(F@0JkOE
-/iYOB1,h$J2)HF4.4cl00e"Y%4>A99-p045/1<V7.4dS9                             ~>
+0JtUE1,q*L+>P]4+>PW*2_[-D1G1O@2)[-F0ebR00d&5*0fC^B1,pmG0JtUE1,q*L+>P]$/1<V<
++>P2t0JPF=2DR*A2`<KL0fV-N2BXdu1,(F?0K([F/i>C@2D[<H3?U%!1,(F?0K([C/iP[F1bgsL
+2Du[6+>PW*2_[!B2(g^B2E*KK1H7360d&5*0fC^B1,pmG0JtUE1c.-O+>tZ"-p04A+>P2t0JPF=
+2DR*A2E3ZM1G^jB1E\Fq1,(F?0K([F/i>C@2D[<J3&i$9+>PW*2)-j@2D-g@1,1I=2E*W=0d&5*
+0f:XC1,ggC1,LmF3&3HQ+>Fuo0JPF=2DR*A2E3ZM1G^mK3?U%!1,(F?0K([F/i>C@2D[<J3&i$8
++>PW*2)-d>2(g^E1G_!K1Ggp20d&5*0f:XC1,LUA3&iTJ1Gq0Q+>Fuo0JPI>1,:^>1cI6J3B&WH
+1E\Cp1,(F?0K([F/i>C@2D[<J3&i$9+>PW*2)$pD1bL[G3&!-E2`EQ90d&5*0f:XC1,ggC1,LmF
+3&3HQ+>Y,q0JPF=2DR*A2E3ZM1G^sK1a"Lq1,(F?0K([F/i>C@2D[<J3&i$9+>PW*2D?sC3%d0E
+2)7*I2Dm<61,(..-p01/0I\P$4>AN41*eV/0f:XC1,LUB2Dd6F3A<<H+>Y,q0JPL?2)6s?2`<EM
+0etI;2BX^s1,(F?0K([C/iP[F1bh!E2)?@0+>PW*2)$pD2_HsC1c@-L0fCa/0d&5*0f:XC1,LUB
+2Dd6F3A<<H+>b2r0JPI>1bq$C3&!3F2`*EM1a"Rs1,(FA0JtUA/iP[D2_d'B0K(%.+>PW*2D?sC
+3%d0E2)7*I2Dm<60d&5*0fLdB0f1LC1,:RC0JYRH+>Fuo0JPI>1bq$C3&!3F2`*EM1a"V(/1<V8
+.4cl00e"Y%4>A99-p014/3GW                                                  ~>
 )
 cocurrent 'base'  NB.{*JOD*}
 puttstamps_ijod_=: (((1;'upgrade JOD')"_)`putallts__MK__JODobj)@.(3 = (4!:0)<'putallts__MK__JODobj') NB.{*JOD*}
