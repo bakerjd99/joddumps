@@ -1,5 +1,5 @@
-NB. JOD dictionary dump: 20 Jun 2017 18:38:09
-NB. Generated with JOD version; 0.9.992 - dev; 30; 3 Jun 2017 12:46:38
+NB. JOD dictionary dump: 28 Jun 2017 20:24:41
+NB. Generated with JOD version; 0.9.992 - dev; 31; 28 Jun 2017 20:14:42
 NB.
 NB. Names & DidNums on current path
 NB. +-----+---------------------------------------+
@@ -4000,17 +4000,17 @@ zz=:zz,'cnm ddcol ddcon dddis dderr ddfch ddfet ddsel ddsql ddsrc ddtblx''),'
 zz=:zz,'(<<;._1 '' putters assert boxopen fboxname fexist justext justfile n'
 zz=:zz,'c putmd putsql puttex puttxt putxml read tolower winpathsep''),(<<;.'
 zz=:zz,'_1 '' remdots alltrim read remdotargs write''),(<<;._1 '' rwtabd fmttd'
-zz=:zz,' readtd2 writetd2''),(<<;._1 '' socketsREF sdcheck sdclose sdconnect '
-zz=:zz,'sdgethostbyname sdrecv sdsend sdsocket''),(<<;._1 '' sunmoon IFACEWOR'
-zz=:zz,'DSsunmoon NORISESET ROOTWORDSsunmoon arctan calmoons cos fromjulian'
-zz=:zz,' moons round sin sunriseset0 sunriseset1 tabit tan today yeardates'''
-zz=:zz,'),(<<;._1 '' trig arccos arccosh arcsin arcsinh arctan arctanh cos c'
-zz=:zz,'osd cosh dfr pi rfd sin sind sinh tan tand tanh''),(<<;._1 '' unicode'
-zz=:zz,' ucpfrncrd ucpfrutf8 utf8frncrd''),(<<;._1 '' wordformation wfl''),<<;'
-zz=:zz,'._1 '' xmlutils afterstr alltrim atags attrvalue beforestr belongstr'
-zz=:zz,'s betweenidx betweenstrs eletags getele geteleattr geteleattrtext g'
-zz=:zz,'eteletext geteletextidx read splitstrs tags write''                 '
-zz=:1725{.zz
+zz=:zz,' parsetd readtd2 writetd2''),(<<;._1 '' socketsREF sdcheck sdclose sd'
+zz=:zz,'connect sdgethostbyname sdrecv sdsend sdsocket''),(<<;._1 '' sunmoon '
+zz=:zz,'IFACEWORDSsunmoon NORISESET ROOTWORDSsunmoon arctan calmoons cos fr'
+zz=:zz,'omjulian moons round sin sunriseset0 sunriseset1 tabit tan today ye'
+zz=:zz,'ardates''),(<<;._1 '' trig arccos arccosh arcsin arcsinh arctan arcta'
+zz=:zz,'nh cos cosd cosh dfr pi rfd sin sind sinh tan tand tanh''),(<<;._1 '''
+zz=:zz,' unicode ucpfrncrd ucpfrutf8 utf8frncrd''),(<<;._1 '' wordformation w'
+zz=:zz,'fl''),<<;._1 '' xmlutils afterstr alltrim atags attrvalue beforestr b'
+zz=:zz,'elongstrs betweenidx betweenstrs eletags getele geteleattr geteleat'
+zz=:zz,'trtext geteletext geteletextidx read splitstrs tags write''         '
+zz=:1733{.zz
 showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
@@ -4441,18 +4441,19 @@ G@PQ/F)Pl+-RgSp4>AcT+>P2t0JPF=2DR*A2`<KL0fCpM0d&=r1,(C@0ekF>/i>UK3Ar`M2`;d6
 2_I'J0f:jG1,1O,0d&5*0fC^B1,pmG0JtUE1,q*L+>GZ3+>PW*2_[-F0J5:C0f:XA0JkL,2'=Y.
 0fC^B1,pmG0JtUE1,q*L+?;/!1,(FA0K(U@/i>FB2D?sB0K:10+>PW*2D?sC3%d0E2)7*G3&EQ:
 1,::0-p0@01*eV/0f:XC1,LUB2Dd6F3&ifS+>Y,q0JPF=2DR3D2)7!H1H7'K+>Fuo0JPF=2DR*A
-2`<KL0fV-N2BXdu1,(FA0JYC@/i5CC2`3?H3&Da4+>PW*2D?sC3%d0E2)7*I1cIE;2CU1*4>Ai=
+2`<KL0fV-N2BXdu1,(FA0JYC@/i5CC2`3?H3&Da4+>PW*2D?sC3%d0E2)7*I1cIE;2CU1*4>JW6
 1*eV/0f:XC1,LUA3&iTJ1GggB+>P&p0JPF=2DR3D2)7!H1H7-L3$9t!1,(F?0etIA/i5:<0ebCA
 2`W!8+>PW*2)$pD2_HsC1c@-L1,q690d&5*0f:XC1,LUA3&iTJ1Gq0Q+>Fuo0JPF=2DR3D2)7!H
 1H7-L3$9pu1,(F?0eb=>/i5LC1H79K1c-=0+>PW*2)$pD1bL[G3&!-E2*!Z>0d&5*0fC^@1,U[@
 2`*?O2_ZsB+>Fuo0JPF=2DR3D2)7!H1H7-L3$9pu1,(FA0K([?/iP^D2DI!H3&Da4+>PW*2)$pD
 2_HsC1c@-L1,q690d&5*0f:XC1,LUA3&iTJ1H.6L+>Fuo0JPF=2DR3D2)7!H1H7-L3$:""1,(F?
 0K([C/iG[K0JbLD2`)X3+>PW*2)$pD2_HsC1c@-L1,q691*A>+0fC^B1,pmG0JtUE1c@3J+>GVo
-1,(FA0K([?/iP^F0f_'H3B83:+>PW*2D?sC3%d0E2)7*I2Dm<63%6C,4>8$7.4cl00ea_*,Vh&.
-2)$pD1bL^F1c-pI0JtX/1E\G,0fLdD1,COA2DR3G1,1I@+>Fuo0JPF=2DR*A2`<KL0f^pF1E\Cp
-1,(F?0K([F/i>C@2D[<I2DH=/+>PW*2)$pD1bL^F1c-pI0JtX/1a"P-0fC^B1,pmG0JtUE1c@3J
-+>Y,q0JPL?2)6s?2`<EM0etI;2BX^s1,(F@0JkOE/iYOB1,h$J2)HF1+>PW*2_[$B1bLdD1,1^A
-1,h080d&5*0fC^B1,pmG0JtUE1c@3J+>bMu-p045/1<V8.4cl00e"Y%4>8384>?           ~>
+1,(FA0K([?/iP^F0f_'H3B83:+>PW*2D?sC3%d0E2)7*I2Dm<60d&5*0fLdE1,pmG2)$gC0fLmI
++>Fuo0JPI>1bq$C3&!3F2`*EM1a"\*/1<V7,VUYu-p04<+>P2t0JPF=2DR*A2`<KL0f^pF1E\Ir
+1,(FA0JtUA/iP[D2_d'B0K(%.+>PW*2)$pD1bL^F1c-pI0JtX/0d&5*0f:XC1,ggC1,LmF3&*<G
++>Fuo0JPF=2DR*A2`<KL0f^pF1E\Ls1,(F@0JkOE/iYOB1,h$J2)HF3+>PW*2_[*E1G1UE1,gpC
+0ebL.0d&5*0fC^B1,pmG0JtUE1c@3J+>Fuo0JPL?1GL^=3AN?E2_[!G3$9pu1,(F@0JkOE/iYOB
+1,h$J2)HF4.4cl00e"Y%4>A99-p045/1<V7.4dS9                                  ~>
 )
 cocurrent 'base'  NB.{*JOD*}
 puttstamps_ijod_=: (((1;'upgrade JOD')"_)`putallts__MK__JODobj)@.(3 = (4!:0)<'putallts__MK__JODobj') NB.{*JOD*}
