@@ -1,5 +1,6 @@
-NB. JOD dictionary dump:  4 Jan 2018 18:38:12
-NB. Generated with JOD version; 0.9.990; 15; 27 Feb 2017 20:51:37
+NB. JOD dictionary dump:  5 Jan 2018 18:50:07
+NB. Generated with JOD version; 0.9.992 - dev; 33; 5 Jan 2018 18:20:50
+NB. J version: j806/j64/windows/release/commercial/www.jsoftware.com/2017-11-06T10:03:54
 NB.
 NB. Names & DidNums on current path
 NB. +---------+---------------------------------------+
@@ -25,6 +26,25 @@ showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 
+
+dpiarearatio=:3 : 0
+
+NB.*dpiarearatio v-- print area and aspect ratio for image dimensions at given DPI.
+NB.
+NB. monad:  fa =. dpiarearatio ilWidthHeight
+NB.
+NB.   dpiarearatio 2000 3000
+NB.   dpiarearatio |: 10 # ,: 4888,3256
+NB. 
+NB. dyad:  fa =. faAspectDP1 dpiarearatio ilWidthHeight
+NB.
+NB.   0.0005 0.05 500 dpiarearatio 2000 3000
+
+(SMUGASPECTROUND,SMUGAREAROUND,SMUGPRINTDPI) dpiarearatio y
+:
+'aspect area dpi'=. x
+(area round (*/y) % *: dpi) ,: aspect round (<./y) % >./y
+)
 
 printsizestable=:3 : 0
 
@@ -88,11 +108,9 @@ pst=. SMUGASPECTROUND printsizestable SMUGPRINTSIZES
 NB. image dimensions short x long
 idims=. _1&".&> (imhead i. ;:'OriginalWidth OriginalHeight') {"1 images
 'invalid image dimensions' assert -. _1 e. idims
-idims=. (/:"1 idims) {"1 idims
 
 NB. aspect ratio and print area (square inches)
-ratios=. SMUGASPECTROUND round %/"1 idims
-areas=.  SMUGAREAROUND round (*/"1 idims) % *: x
+'areas ratios'=. (SMUGASPECTROUND,SMUGAREAROUND,x) dpiarearatio |: idims
 
 NB. mask table selecting images with ratio
 masks=. (;0 {"1 pst) =/ ratios
@@ -144,13 +162,14 @@ showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:fromascii85__MK__JODobj 0 : 0
-1E\P#-p0UR/mg=U-Ql>^<C]k`8PW5Q:e;d.9iX\[;FsV_;b:.];]p%"Bl8$6BmO?3FCAWpAKZ&2
-F_>Z6Bl8$6BmO?3+EMIAFDu87DKKr6H=_.F.4cl00I/>$/1<V34=>2eF_>Z=FCfJ?.4cl00I/>$
-/1<V7,VUYu-p07-2'aq20fUjA0Jb=?2D[*E0f_!E+>PW*3&!'@1G1UH3AWBK1,q$31,(FB0JP7<
-/iP[H2`*KR1GL"-0JPO@0ebC92`<ZR3&E<L2]sk00fUjA0JkC@2D['G2`*?G+>PW*3&!'@1G1UE
-1GUa@3AN?41,(FB0JP7</iP[F2)I9L1H$@20JPO@0ebF:2`<TP2_d-H2]sk00fUjA0JkC@2`!EM
-2_d'J+>PW*3&!'@1bL^F1GLdH1c-p9/1<V7,VUYu-p07=0fUjA0Jb=?2`*3E1H73G.kiS00JG7?
-2D[?J2`NTR2)7*F1GCO5BeD.`0e"Y%4>8$7.4cl00I/>$/1<V7.4cl00I\P$4>838-p014/3GT~>
+1E\P#-p0UR/mg=U-Ql>^<C]k`8PW5Q:e;d.9iX\[;FsV_;b:.];]oUiBjl$n@<,duBl>,5EbTE5
+F(or3F*(i"Ch4`1D09K1EbTE5F(or3F!,OBEcc8@Bl8$6BmO?3-RgSp4>8$7.4cl0/3G;$D09K1
+H$!V<-RgSp4>8$7.4cl00I/>$/1<V9+>tK#0JPO@0ebC92`<HI1GLmF1*A>+0fUjA0Jb=?3B8lM
+2_m?J+>PW*3&!'@2(ggG2E<]U0JP:)1,(FB0JP7</iP[H2`*KR1GL"-0JPO@0ebC92`<ZR3&E<L
+2]sk00fUjA0JkC@2D['G2`*?G+>PW*3&!'@1G1UE1GUa@3AN?41,(FB0JP7</iP[F2)I9L1H$@2
+0JPO@0ebI;2`EZT2)R*B2BXb/0fUjA0JkC@2E*KP0f1aH+>PW*3&!'@2(ggI1H%0I0K(X.1,(FB
+0JP7</iP[E0fCsI1bgF1-p01/0I\P$4>JTF3&!'@1G1UF1b^^A3&E??0J5%50JYOE1H@0K3&<QP
+1,gpD0JP%k/i"P(.4cl00I/>$/1<V7,VUYu-p014/1<V7.4cl00I\P$4>8384>6           ~>
 )
 cocurrent 'base'  NB.{*JOD*}
 puttstamps_ijod_=: (((1;'upgrade JOD')"_)`putallts__MK__JODobj)@.(3 = (4!:0)<'putallts__MK__JODobj') NB.{*JOD*}
