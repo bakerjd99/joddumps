@@ -1,4 +1,4 @@
-NB. JOD dictionary dump: 11 Jan 2018 22:59:29
+NB. JOD dictionary dump: 12 Jan 2018 00:25:12
 NB. Generated with JOD version; 0.9.992 - dev; 33; 5 Jan 2018 18:20:50
 NB. J version: j806/j64/windows/release/commercial/www.jsoftware.com/2017-11-06T10:03:54
 NB.
@@ -25,6 +25,8 @@ NORATIOKEY=:'0z1'
 SMUGPRINTDPI=:360
 
 SMUGPRINTSIZES=:<;._1 ' 3.5x5 4x5 4x5.3 4x6 4x8 5x5 5x6.7 5x7 5x10 5x30 7x10 8x8 8x10 8x10.6 8x12 8x16 8x20 8.5x11 9x12 10x10 10x13 10x15 10x16 10x20 10x30 11x14 11x16 11x28 12x12 12x18 12x20 12x24 12x30 16x20 16x24 18x24 20x20 20x24 20x30'
+
+SMUGPYTERSIZES=:<;._1 ' 3.5x5 7x10 4x5 8x10 4x5.3 8x10.6 4x6 8x12 4x8 5x10 8x16 5x5 8x8 10x10 5x6.7 5x7 5x30 8x20 8.5x11 9x12 10x13'
 
 printsizekey_basictestdata=:16 3$<;._1 ' ImageKey OriginalHeight OriginalWidth 4wqd5Hr 3021 2014 K7JKbs8 2036 3122 nFRxBh2 2665 3731 xCdD7V8 2585 1736 sTXnpLm 2192 3289 VG2s4WG 3659 2613 kNRs3X8 1694 2543 Qjs2hr6 3848 2559 qbXqVgC 2633 3949 ZdzNXm3 1162 2506 vF4Bwpg 2531 3542 7WbqpMj 3211 2566 2cCVDMK 1846 2398 36kBgrv 2396 1991 2FzVqjP 1887 2398'
 
@@ -71,11 +73,11 @@ SMUGPRINTDPI printsizekey y
 :
 NB. image keys and dimensions 
 d=. y {"1~ (0{y) i. ;:'ImageKey OriginalHeight OriginalWidth'
-d=. |: _1&".&> 1 2 {"1 }. d
-'invalid image dimensions' assert 0 < ,d
+f=. |: _1&".&> d=. 1 2 {"1 }. d
+'invalid image dimensions' assert 0 < ,f
 
 NB. default print size keys
-'area ratio'=. (SMUGASPECTROUND,SMUGAREAROUND,x) dpiarearatio d 
+'area ratio'=. (SMUGASPECTROUND,SMUGAREAROUND,x) dpiarearatio f 
 keys=. (#ratio) # s: <NORATIOKEY
 
 NB. print sizes for image ratios
@@ -95,9 +97,9 @@ NB. largest print sizes for enough pixels
 sizes=. ,(I.@lastones&.> m2#m1) {&> 2 {"1 m2#pst
 keys=. sizes(I. m0 #^:_1 m2)} keys
 
-NB. image and print size kyes
+NB. image keysm print size keys, pixels
 NB. smoutput (<"0  m0 # keys) ,. area ,. pst 
-(s: }.0 {"1 y) ,: keys
+(s: }.0 {"1 y) , keys , |: s: d 
 )
 
 printsizestable=:3 : 0
@@ -260,18 +262,19 @@ showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:fromascii85__MK__JODobj 0 : 0
 1E\P#-p0UR/mg=U-Ql/[:e=bX9N+SQ=WgI8;F+8R:J4,Z+B)!77o3)T:/jVX8K^r+<C]k`8PW5`
-8QnP]+CoG*@<,pfEaa'(D]j">Bl8$6BmO?+AU,D;EbTE5F(or3CLqcu@UX=l@ru:'FC\g%@3BN0
-Bl8$6BmO?3FCAWpAKZ&2F_>Z6Bl8$6BmO?3+EMIAFDu87DKKr6H=_.F.4cl0/3G;!EbTE5F(or3
-CLqcu@UX=l@k]Sa.4cl0/3G;$D09K1H$!V<-RgSp4>8$7.4cl00I/>$/1<V9+>GPq1,(FB0JP:9
-/iPXD2*!QQ2E)a60JPO@0ek@72`3BL3&<9L2'=Y.0fUjA0Jb=?2D[*E0f_!E+>PW*3&!'@1G1UH
-3AWBK1,q$31,(FB0JP7=/iP[H3B&oO0eje+0JPO@0ek@72`3BF2)@6J1*A>+0fUjA0eb4=2_d$D
-3&3BK+>PW*3&!'@1bL^F2E*HP3&<931,(FB0JP7;/iP[K2)mEH3B&'90JPO@0ebF:2`<HH2E*HL
-0d&5*0fUjA0eb4=2)@*M2E!HP+>PW*3&!'A0J5:A1H%3K0f_*61,(FB0JP7;/iP[E1,CXF1,9t-
-0JPO@0ebF:2`<KM1cR<J2BXb/0fUjA0JtIA2`E]R2)-dC+>PW*3&!'A0ePID0f:pG1c7*41,(FB
-0JP:9/iP^D0f1jF2DcO30JPO@0ebF:2`<TP2_d-H2]sk00fUjA0JtIA3&<HO1,(U@+>PW*3&!'@
-1bL^F1GLdH1c-p9/1<V90JPO@0ek@72`E`O1c.0N1+P(30JGLI3&r`M2)R6F0fCmE.VULj+>G;r
--p07=0fUjA0Jb=?2`*3E1H73G.kiS00JG7?2D[?J2`NTR2)7*F1GCO5BeD.`0e"Y%4>8$7.4cl0
-0I/>$/1<V7.4cl00I\P$4>838-p014/3GT                                        ~>
+8QnP]+B)!77o3>f78d&U>")@4A8l6kEb/["@<?4%+E2@8DKKr6H=^l'Gp%'HBl8$6BmO?+AU.Wl
+@<6-mFCfN8A79Rg+E2@8DKKr6H=_/>@:F%a+EMCBB5hm*DKKr6H=_.?F)Q)@E,oZ1FE;/BATK4J
+/1<V34=>)gBl8$6BmO?+AU.Wl@<6-m0JFk'/1<V34=>2eF_>Z=FCfJ?.4cl00I/>$/1<V7,VUYu
+-p07-0ejq/0JPO@0ek@72`3BK3ArcR2]sk00fUjA0eb4=2)@-M1GLmI+>PW*3&!'@1G1UE1GUa@
+3AN?41,(FB0JP7;/iPdN1GLgD3&2U30JPO@0ekC83B&rY2)-dF3?U(20fUjA0JtIA2E!QS3&!'A
++>PW*3&!'A0J5:A1GC[B3AN?41,(FB0JP:9/iP^D0f1jF2DcO30JPO@0ebF:2`<QQ1cRHN0d&5*
+0fUjA0Jb=?2E<WS1b^pK+>PW*3&!'@1bL^F1GLdH1c-p01,(FB0JP:9/iPXD2*!QQ2E)a60JPO@
+0ek@72`3BL3&<9L2'=Y.0fUjA0Jb=?2D[*E0f_!E+>PW*3&!'@1bL^F1c7*L1c%$41,(FB0JP::
+/ibjN3AiNF3B83;0JPO@0ebI;2`EZT2)R*B2BXb/0fUjA0ek:@3&WTR1H@HP+>PW*3&!'A0J5:C
+0ekLE1,^s31,(FB0JP7</iP[I2)d6H2)cX50JPO@0ebI;2`NTO2_m'F0d&5*0fUjA0JkC@2D['G
+2`*?G.4cl01,(FB0JP:9/iP^L0f1^H2_lm</het>3B0#S1Gq$I0JPIC1+Huj1*A;#/1<V90JPO@
+0ebC92`EQI1G_!I0e4q10JG192E!?O0fM'J3AiQN0f(L<.VULj+>G;r-p01/0I\P$4>8$7.4cl0
+0I\P$4>838-p014/1<V7.4dS8                                                 ~>
 )
 cocurrent 'base'  NB.{*JOD*}
 puttstamps_ijod_=: (((1;'upgrade JOD')"_)`putallts__MK__JODobj)@.(3 = (4!:0)<'putallts__MK__JODobj') NB.{*JOD*}
