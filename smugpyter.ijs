@@ -1,4 +1,4 @@
-NB. JOD dictionary dump:  5 Jan 2018 18:50:07
+NB. JOD dictionary dump: 11 Jan 2018 22:59:29
 NB. Generated with JOD version; 0.9.992 - dev; 33; 5 Jan 2018 18:20:50
 NB. J version: j806/j64/windows/release/commercial/www.jsoftware.com/2017-11-06T10:03:54
 NB.
@@ -18,9 +18,15 @@ soclear_z_=: '0 0 $ clearso__MK__JODobj 0' NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 
 
+NOPIXELSKEY=:'0z0'
+
+NORATIOKEY=:'0z1'
+
 SMUGPRINTDPI=:360
 
 SMUGPRINTSIZES=:<;._1 ' 3.5x5 4x5 4x5.3 4x6 4x8 5x5 5x6.7 5x7 5x10 5x30 7x10 8x8 8x10 8x10.6 8x12 8x16 8x20 8.5x11 9x12 10x10 10x13 10x15 10x16 10x20 10x30 11x14 11x16 11x28 12x12 12x18 12x20 12x24 12x30 16x20 16x24 18x24 20x20 20x24 20x30'
+
+printsizekey_basictestdata=:16 3$<;._1 ' ImageKey OriginalHeight OriginalWidth 4wqd5Hr 3021 2014 K7JKbs8 2036 3122 nFRxBh2 2665 3731 xCdD7V8 2585 1736 sTXnpLm 2192 3289 VG2s4WG 3659 2613 kNRs3X8 1694 2543 Qjs2hr6 3848 2559 qbXqVgC 2633 3949 ZdzNXm3 1162 2506 vF4Bwpg 2531 3542 7WbqpMj 3211 2566 2cCVDMK 1846 2398 36kBgrv 2396 1991 2FzVqjP 1887 2398'
 
 showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
@@ -44,6 +50,54 @@ NB.   0.0005 0.05 500 dpiarearatio 2000 3000
 :
 'aspect area dpi'=. x
 (area round (*/y) % *: dpi) ,: aspect round (<./y) % >./y
+)
+
+printsizekey=:3 : 0
+
+NB.*printsizekey v-- j version of python (print_size_key).
+NB.
+NB. monad:  st =. printsizekey btclManifest
+NB.
+NB.   mf0=. readtd2 'C:\SmugMirror\Places\Overseas\Ghana1970s\manifest-Ghana1970s-Kng6tg.txt'
+NB.   mf1=. readtd2 'C:\SmugMirror\Themes\Diaries\CellPhoningItIn\manifest-CellPhoningItIn-PfCsJz.txt'
+NB.   printsizekey mf0
+NB.   printsizekey mf1
+NB.
+NB. dyad:  st =. iaDpi printsizekey btclManifest
+NB.
+NB.   720 printsizekey mf1
+
+SMUGPRINTDPI printsizekey y
+:
+NB. image keys and dimensions 
+d=. y {"1~ (0{y) i. ;:'ImageKey OriginalHeight OriginalWidth'
+d=. |: _1&".&> 1 2 {"1 }. d
+'invalid image dimensions' assert 0 < ,d
+
+NB. default print size keys
+'area ratio'=. (SMUGASPECTROUND,SMUGAREAROUND,x) dpiarearatio d 
+keys=. (#ratio) # s: <NORATIOKEY
+
+NB. print sizes for image ratios
+pst=.  SMUGASPECTROUND printsizestable SMUGPRINTSIZES
+ast=.  ;0{"1 pst
+m0=.   ratio e. ast
+idx=.  (ast i. ratio) -. #ast
+pst=.  idx { pst
+
+NB. images without enough pixels
+area=. <"0 m0 # area
+m1=.   (1 {"1 pst) <&.> area
+m2=.   +./&> m1
+keys=. (s: <NOPIXELSKEY) (I. m0 #^:_1 -. m2)} keys
+
+NB. largest print sizes for enough pixels
+sizes=. ,(I.@lastones&.> m2#m1) {&> 2 {"1 m2#pst
+keys=. sizes(I. m0 #^:_1 m2)} keys
+
+NB. image and print size kyes
+NB. smoutput (<"0  m0 # keys) ,. area ,. pst 
+(s: }.0 {"1 y) ,: keys
 )
 
 printsizestable=:3 : 0
@@ -142,14 +196,57 @@ showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:dec85__MK__JODobj 0 : 0
-1G^.2+>P&o1*AG4+>G\q1cHO32'=Y4+>G\q1b^%,1a"Y0;b^7^:f9k[<('PSA7]@]F_l.BE,oZ1
-F<EtJ8K]T-F(KG9FDi:$BQ\0$F&6[qF!,=.@rcK1G%#30AKYo'+>Yo0;b^7^:f9k[<)Z@l78m]4
-+E(j7;eU)iF<GfN9Q+f]+=LrA@q]Fp.3MQ+F_=EkB-;/6Bl8#8F(or3F)Z/6DKKr6H=_/>@:F%a
-@rH4'F`_29+E2@8DKI"BBmO?3+EV%$Ch7[)F_>Z6Bl8$6BmO?3@rH4'F`_1;Cgh?sATMr9E,oZ1
-F<GX=H=\42DfQt5Bm+'*+CoG*F)Q)@E,oZ1FE;/BATMp2Ec`FCEbTE5+EM7CATJu&F!+n4@qBOg
-Bl7Q+F`(o5F_)[oBQ%p5+F##&Df02=                                            ~>
+2DcO20H`+n0eje/0H`)(+?2%t0esk/2BX_2+>c#"0esk00d&2++>Ynu1,^713$9q5+>Pht0f1"0
+0H`),+>kiJ:JaVb78-WQ79OD;H$=1IA0>T(A8,O^FD5W*+DG\$B4W2rBl.F!F(oQ1F!,RC+EMC.
+Cht5+DfQt>EbTE5+EM7CATLUB;F+8R:J4,ZCLqd8DfTA2Bl7Hq@psInDJ()+D..'g+Co2'ASuR'
+Df-\.D]iq9F<GF/FCSu,E,oZ1F<GX=H=_.?/KeqLDKBo.DId0rA0>r,@;oe!;b^7^:f9k[<('PS
+A7]@]F_l.BE,oZ1F<EtJ8K]T-F(KG9FDi:$BQ\0$F&6[qF!,=.@rcK1G%#30AKYo'+>Yo0;b^7^
+:f9k[<)Z@l78m]4+E(j7;eU)iF<GfN9Q+f]+=LrA@q]Fp.3MQ+F_=EkB-;/6Bl8#8F(or3F(B6(
+@<,pfEaa'(DfB`2DKI"0Eb/Z%@;]Tu@<6C!@rri6@<?4%+D,P4+DG\$B4W2rBl.F!F(oQ1F!+n5
++D5D3ASrVY:e>VHBl8$6BmO?+AU/#5G%G]8Bl@l3De:,2H$!_<DBL?HEbTE5?ZTq-ARB4aGq!]Q
+Bl8$6BmO?+AU.Wl@<6-mFCfN8A79RgFCfN8+Cno&@3B0#EZccLEbTE5F(or3CLqc?E,oZ1FE;/B
+ATMs%@VfUcDf'H9FCfM9E,oZ1F<GX=H=_.?FCAWpATM^2B5hm*DKKr6H=_/-Df'H9FCcS2@<-!l
+F*&ODEbTE5+EM7CAKYT'EZf"/G%GP6A8l7(DfTr=EbTE5F(or3F)u8?F<GOCBl8#8F(or3F!+n4
++CT>$ASu$mDJ()7DJ=*5AKXobDfTqBGT][uDJ(L                                   ~>
 )
 showpass 0 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
+".soclear NB.{*JOD*}
+
+cocurrent SO__JODobj NB.{*JOD*}
+zz=:dec85__MK__JODobj 0 : 0
+0eje*+>P&p0H`)+1GWoiBl8$6BmO?+AU.Wl@<6-m0JH6g/h1g\Bl8$6BmO?+AU.Wl@<6-m0JFVj
+/M/)S@<6-m+EV19FE8R:DfQsKE,oZ1FE;/BASYk&.4u&::-pQB$;No?+Eh=:@UX@mD)reJF)uJ@
+ATJtBE,oZ1FE;/BASYk&.3N&:A0>DoE+NotASuU2+Dbt)A7]9oBl8$2+C\c#AKYf-@ps1b/e&._
+67r]S:-pQU+<Y<.FE2UK4$"a.EbTE5F(or3CLqc6E,oZ1FE;/BASYk&?XdGbBk)6rF*(r$FC?O>
+%15is/e&._67sBjEb/[$ARmhE1,(FBC12!70F\@a67sB4/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/I`$r$;No?
++DG_:@;KXg+DG\$B4W2rBl.F!F(oQ1Et&IqF*'Q++E2@8DKKr6H=^l'H!b#hF(o-+ATMs(@<>oe
+$4R>;67sB7+E2%>AS`K"Bl.F!F(oQ1Et&IqF*'*!3Zoh5-SQns+=K?#I4f4d+<tiHF=B:++>PBo
++E2CD%13OO:-pQUFD,]5GB4m8F)to5FD5Z2%14M&EbTE5F(or3CLqc63]\B<3[l1jF*')F$4R>;
+67sBuAS5FnBm+&1E+sQ.C`m8&D.RU+Bl@m1%17&qF>,j=+=K?"/Mf(..3L$$."*^^/g)BXF*&im
+0d&5#I3<KMF:AQd$;No?+EV:;Dg-7F@<6L$Ecc#6D@Hq$E,oZ1FE;/BASYk&+?DP+0fga+E-$+T
+%13OO:-pQUDJsV>ASuF/B4rE,Bm=3*Et&IqF*'*!3Zoh5-S[;&.3L$$."*^^/g)BXF*&im0d&5#
+I3<KMF:AR*F#lEY:JaVb78-WQ79M&^4WlI%HQ[9JBl8$6BmO?+AU,D;F*')F$4R>;67sC$@<?4%
+F!,@=F<G:8+E2@8DKI"BBmO>5FCAWpAISucF*'*!3Zoh5-SdA00IJ:l-p/o+/nlp\,B.^G.6B75
+I3<KMF:ARrF*'*!3Zoh5-T<_50IJ:l-p/o+/nlp\,B.^G.6B:6I3<KMF>+.2.!%F3:/=bR<(TkY
+79M&^4WlI%HQ[9JBl8$6BmO?+AU,D;F*')F$4R>;67sC$ATW'8DBNe)G\M#;D'3n6H=\42DfQt/
+Cht57@<?4%Et&IO67sC)BOu'(D/XH++EV:*DBNM.Dfo]++E2%>AScDs$?L914ZX^43[-:$;b^7^
+5uUTK6W?rZ<DGq)E,oZ1FE;/BATMs%@VfTu;b^7^:f9k[<)Z@l78jX&Bl.BpD0%j$+<iin/j:C?
++tt-'/i#+70Ie8!-9`f%+=ALGBOPq&F^c[M4s2^*F#kFj/g`b)F)uF4$7I-<F*&iR4<Pk_D.I?t
+Et&IjD.I?tF$2Q,-p0O8E-$+M+F>^`Bl.BpD0$-n@VKIrBmO?34ZX].-p0O8E-$+M+F>^`HTEK;
++EMUG%13OO:-pQUCi<`m+DbJ,B4W3"D..'g+Co2'ASuR'Df0V*$?1'.0KhH>-nlcj+u(3SD.I?t
+F"&4[4=GV1BeCMQE-$+M4#&14+E2CD%17&qF>,j=+=JreHQk0eBl.BpD0%-K-p/o+/nlp\,B.^G
+.6B:6I3<KMF>+.2@VKIrBmO?3+?^i%+F>5MEbTE5F(or3CLqc6E-$+T%13                ~>
+)
+showpass 1 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
+".soclear NB.{*JOD*}
+
+cocurrent SO__JODobj NB.{*JOD*}
+zz=:dec85__MK__JODobj 0 : 0
+3?U%!1*A>++>Y]jEbTE5F(or3CLqcu@UX=l@k]TG@<6-m+EV19FE8R:DfQsKE,oZ1FE;/BASYk&
+.0                                                                        ~>
+)
+showpass 1 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
@@ -162,14 +259,19 @@ showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:fromascii85__MK__JODobj 0 : 0
-1E\P#-p0UR/mg=U-Ql>^<C]k`8PW5Q:e;d.9iX\[;FsV_;b:.];]oUiBjl$n@<,duBl>,5EbTE5
-F(or3F*(i"Ch4`1D09K1EbTE5F(or3F!,OBEcc8@Bl8$6BmO?3-RgSp4>8$7.4cl0/3G;$D09K1
-H$!V<-RgSp4>8$7.4cl00I/>$/1<V9+>tK#0JPO@0ebC92`<HI1GLmF1*A>+0fUjA0Jb=?3B8lM
-2_m?J+>PW*3&!'@2(ggG2E<]U0JP:)1,(FB0JP7</iP[H2`*KR1GL"-0JPO@0ebC92`<ZR3&E<L
-2]sk00fUjA0JkC@2D['G2`*?G+>PW*3&!'@1G1UE1GUa@3AN?41,(FB0JP7</iP[F2)I9L1H$@2
-0JPO@0ebI;2`EZT2)R*B2BXb/0fUjA0JkC@2E*KP0f1aH+>PW*3&!'@2(ggI1H%0I0K(X.1,(FB
-0JP7</iP[E0fCsI1bgF1-p01/0I\P$4>JTF3&!'@1G1UF1b^^A3&E??0J5%50JYOE1H@0K3&<QP
-1,gpD0JP%k/i"P(.4cl00I/>$/1<V7,VUYu-p014/1<V7.4cl00I\P$4>8384>6           ~>
+1E\P#-p0UR/mg=U-Ql/[:e=bX9N+SQ=WgI8;F+8R:J4,Z+B)!77o3)T:/jVX8K^r+<C]k`8PW5`
+8QnP]+CoG*@<,pfEaa'(D]j">Bl8$6BmO?+AU,D;EbTE5F(or3CLqcu@UX=l@ru:'FC\g%@3BN0
+Bl8$6BmO?3FCAWpAKZ&2F_>Z6Bl8$6BmO?3+EMIAFDu87DKKr6H=_.F.4cl0/3G;!EbTE5F(or3
+CLqcu@UX=l@k]Sa.4cl0/3G;$D09K1H$!V<-RgSp4>8$7.4cl00I/>$/1<V9+>GPq1,(FB0JP:9
+/iPXD2*!QQ2E)a60JPO@0ek@72`3BL3&<9L2'=Y.0fUjA0Jb=?2D[*E0f_!E+>PW*3&!'@1G1UH
+3AWBK1,q$31,(FB0JP7=/iP[H3B&oO0eje+0JPO@0ek@72`3BF2)@6J1*A>+0fUjA0eb4=2_d$D
+3&3BK+>PW*3&!'@1bL^F2E*HP3&<931,(FB0JP7;/iP[K2)mEH3B&'90JPO@0ebF:2`<HH2E*HL
+0d&5*0fUjA0eb4=2)@*M2E!HP+>PW*3&!'A0J5:A1H%3K0f_*61,(FB0JP7;/iP[E1,CXF1,9t-
+0JPO@0ebF:2`<KM1cR<J2BXb/0fUjA0JtIA2`E]R2)-dC+>PW*3&!'A0ePID0f:pG1c7*41,(FB
+0JP:9/iP^D0f1jF2DcO30JPO@0ebF:2`<TP2_d-H2]sk00fUjA0JtIA3&<HO1,(U@+>PW*3&!'@
+1bL^F1GLdH1c-p9/1<V90JPO@0ek@72`E`O1c.0N1+P(30JGLI3&r`M2)R6F0fCmE.VULj+>G;r
+-p07=0fUjA0Jb=?2`*3E1H73G.kiS00JG7?2D[?J2`NTR2)7*F1GCO5BeD.`0e"Y%4>8$7.4cl0
+0I/>$/1<V7.4cl00I\P$4>838-p014/3GT                                        ~>
 )
 cocurrent 'base'  NB.{*JOD*}
 puttstamps_ijod_=: (((1;'upgrade JOD')"_)`putallts__MK__JODobj)@.(3 = (4!:0)<'putallts__MK__JODobj') NB.{*JOD*}
