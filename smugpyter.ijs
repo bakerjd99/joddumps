@@ -1,5 +1,5 @@
-NB. JOD dictionary dump: 14 Jan 2018 16:39:41
-NB. Generated with JOD version; 0.9.992 - dev; 33; 5 Jan 2018 18:20:50
+NB. JOD dictionary dump: 30 Jan 2018 20:36:00
+NB. Generated with JOD version; 0.9.993 - dev; 3; 27 Jan 2018 12:39:04
 NB. J version: j806/j64/windows/release/commercial/www.jsoftware.com/2017-11-06T10:03:54
 NB.
 NB. Names & DidNums on current path
@@ -34,6 +34,140 @@ showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 
+
+MirrorImages=:3 : 0
+
+NB.*MirrorImages v-- scans all manifest/changes files and returns image keys as symbols.
+NB.
+NB. monad:  sl =. MirrorImages clRoot
+NB. 
+NB.   k=. MirrorImages'c:/SmugMirror'
+NB.
+NB.   NB. first ten images occurring in more than one gallery
+NB.   10 ,.@{.&.> ofreq k
+NB.
+NB. dyad:  sl = (clPat ; caDel) MirrorImages clRoot
+NB.
+NB.   ('changes-*.txt';';') MirrorImages 'c:/SmugMirror' 
+
+('manifest-*.txt';';') MirrorImages y
+:
+'pat delim'=. x
+NB. z locale !(*)=. dirtree
+kw=. 0$s:<''
+if. #files=. dirtree (tslash2 y),pat do.
+  NB. all files have same layout get position of images
+  head=. 0{readtd2 ;0{0{files
+  keypos=. head i. <'ImageKey'
+  'no (ImageKey) column' assert keypos < #head
+  NB. define key extraction verb
+  kdv=. }.@(keypos&{"1@readtd2)
+  s: ;kdv&.> 0 {"1 files 
+else.
+  kw
+end.
+)
+
+MirrorKeywords=:3 : 0
+
+NB.*MirrorKeywords v-- scans all manifest/changes files and returns keywords as symbols.
+NB.
+NB. monad:  sl =. MirrorKeywords clRoot
+NB. 
+NB.   k=. MirrorKeywords 'c:/SmugMirror'
+NB.
+NB.   NB. top 25 keywords
+NB.   25 ,.@{.&.> ofreq k
+NB.
+NB. dyad:  sl = (clPat ; caDel) MirrorKeywords clRoot
+NB.
+NB.   ('changes-*.txt';';') MirrorKeywords 'c:/SmugMirror' 
+
+('manifest-*.txt';';') MirrorKeywords y
+:
+'pat delim'=. x
+NB. z locale !(*)=. dirtree
+kw=. 0$s:<''
+if. #files=. dirtree (tslash2 y),pat do.
+  NB. all files have same layout get position of keywords
+  head=. 0{readtd2 ;0{0{files
+  keypos=. head i. <'Keywords'
+  'no (Keyword) column' assert keypos < #head
+  NB. define key extraction verb
+  kdv=. }.@(keypos&{"1@readtd2) 
+  keys=. ;kdv&.> 0 {"1 files
+  keys=. (;delim ,&.> keys) -. ' '
+  if. #keys=. <;._1 keys do. kw=. kw, s: keys end.
+else.
+  kw
+end.
+)
+
+MirrorMD5=:3 : 0
+
+NB.*MirrorMD5 v-- scans all manifest/changes files and returns image MD5s as symbols.
+NB.
+NB. monad:  sl =. MirrorMD5 clRoot
+NB. 
+NB.   k=. MirrorMD5'c:/SmugMirror'
+NB.
+NB.   NB. first ten images occurring in more than one gallery
+NB.   10 ,.@{.&.> ofreq k
+NB.
+NB. dyad:  sl = (clPat ; caDel) MirrorMD5 clRoot
+NB.
+NB.   ('changes-*.txt';';') MirrorMD5 'c:/SmugMirror' 
+
+('manifest-*.txt';';') MirrorMD5 y
+:
+'pat delim'=. x
+NB. z locale !(*)=. dirtree
+kw=. 0$s:<''
+if. #files=. dirtree (tslash2 y),pat do.
+  NB. all files have same layout get position of MD5s
+  head=. 0{readtd2 ;0{0{files
+  keypos=. head i. <'ArchivedMD5'
+  'no (ArchivedMD5) column' assert keypos < #head
+  NB. define key extraction verb
+  kdv=. }.@(keypos&{"1@readtd2)
+  s: ;kdv&.> 0 {"1 files 
+else.
+  kw
+end.
+)
+
+MirrorMD5s=:3 : 0
+
+NB.*MirrorMD5s v-- scans all manifest/changes files and returns image MD5s as symbols.
+NB.
+NB. monad:  sl =. MirrorMD5s clRoot
+NB. 
+NB.   k=. MirrorMD5s 'c:/SmugMirror'
+NB.
+NB.   NB. first ten images occurring in more than one gallery
+NB.   10 ,.@{.&.> ofreq k
+NB.
+NB. dyad:  sl = (clPat ; caDel) MirrorMD5s clRoot
+NB.
+NB.   ('changes-*.txt';';') MirrorMD5s' c:/SmugMirror' 
+
+('manifest-*.txt';';') MirrorMD5s y
+:
+'pat delim'=. x
+NB. z locale !(*)=. dirtree
+kw=. 0$s:<''
+if. #files=. dirtree (tslash2 y),pat do.
+  NB. all files have same layout get position of MD5s
+  head=. 0{readtd2 ;0{0{files
+  keypos=. head i. <'ArchivedMD5'
+  'no (ArchivedMD5) column' assert keypos < #head
+  NB. define key extraction verb
+  kdv=. }.@(keypos&{"1@readtd2)
+  s: ;kdv&.> 0 {"1 files 
+else.
+  kw
+end.
+)
 
 dpiarearatio=:3 : 0
 
@@ -198,19 +332,24 @@ showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:dec85__MK__JODobj 0 : 0
-2_Z@/0d&4o0eje/0H`)(+?2%t0esk/2BX_2+>c#"0f1"23$9q2+>tqs0esk-2BXb5+>Po!0f:(/
-2BX_2+>bbp0f1"10MYD?8Q\DT;bKP^CLqd8DfTA2Bl7Hq@psInDJ()+D..'g+Co2'ASuR'Df0V=
-FDi:CD..6s+D,P4+E2@8DKI"BBmO?3:/=bR<(TkY79OD;H$=1IA0>T(A8,O^FD5W*+DG\$B4W2r
-Bl.F!F(oQ1+CoC5DJsV>D..NrBHV87Bl8#8F(or3F!*%WDJsE6FCB&t@<,m$F(f!$ATLdE<C]k`
-8PW5Q:e>2/AmoguF<GOCBl8#86r6Gt/Kf+GF<G[D+B3#sD.7Q_CiseAD.-ppD]j43Cis;3De:+J
-2DA'(<C]k`8PW5`8QnP]@r*9+Aft#cDfTqBGT][uDJ((?Bl7EoATK:C;f-Yi9m((kE,oZ1F<GX=
-H=_.r9iX\[=]@gf;b:.];fHbkDKI"BBmO?3+EV:*F<GF/FCSu,G%#30AKY])+A-cqH$!V<+Du+>
-AR]RrCNCV,DIakdH$!_<DBO"1EbTK7F(B6(@<,pfEaa'(DfB`2DKI"0Eb/Z%@;]Tu@<6C!@rri6
-@<?4%+D,P4+DG\$B4W2rBl.F!F(oQ1F!+n5+D5D3ASrVY:e>VHBl8$6BmO?+AU/#5G%G]8Bl@l3
-De:,2H$!_<DBL?HEbTE5?ZTq-ARB4aGq!]QBl8$6BmO?+AU.Wl@<6-mFCfN8A79RgFCfN8+Cno&
-@3B0#EZccLEbTE5F(or3CLqc?E,oZ1FE;/BATMs%@VfUcDf'H9FCfM9E,oZ1F<GX=H=_.?FCAWp
-ATM^2B5hm*DKKr6H=_/-Df'H9FCcS2@<-!lF*&ODEbTE5+EM7CAKYT'EZf"/G%GP6A8l7(DfTr=
-EbTE5F(or3F)u8?F<GOCBl8#8F(or3F!+n4+CT>$ASu$mDJ()7DJ=*5AKXobDfTqBGT][uDJ(L~>
+3&i$81a"Or0esk02BX_2+>u&!0ea_.2BX_/+>tnr0ea_00H`)*+>l&"0f1"02]sh3+>u2%0esk0
+0d&2++>Ynu1,^713$9q5+>Pht0f1"00H`),+>kiIBl\64E_1+VB4Z.*@ps7r+CT)&+DkP)BkCpt
+F>%-;@;]^hF!,(/Ch7Z1@;]TuEb0?8Ec,q@Bl.9kAKYc"H#k*:F!,OLD.7F"F%p@hEc5tkAU/K<
+Eb'64@ps7r+CT)&+DkP)BkCptF>%-;@;]^hF!,(/Ch7Z1@;]TuEb0?8Ec,q@CLqd8DfTB0+CT=6
+F*VV3DesJhBl\64E_SqZF)ti"DK?q/Cht52@;]dkATMrH@q]:gB4Z-,Anc'mF!+n/A0>o(FEMVA
+F!,16@:s-o9ggj[+CT=6F*VV3DesJi:JaVb78-WQ79OD;H$=1IA0>T(A8,O^FD5W*+DG\$B4W2r
+Bl.F!F(oQ1F!,RC+EMC.Cht5+DfQt>EbTE5+EM7CATLUB;F+8R:J4,ZCLqd8DfTA2Bl7Hq@psIn
+DJ()+D..'g+Co2'ASuR'Df-\.D]iq9F<GF/FCSu,E,oZ1F<GX=H=_.?/KeqLDKBo.DId0rA0>r,
+@;oe!;b^7^:f9k[<('PSA7]@]F_l.BE,oZ1F<EtJ8K]T-F(KG9FDi:$BQ\0$F&6[qF!,=.@rcK1
+G%#30AKYo'+>Yo0;b^7^:f9k[<)Z@l78m]4+E(j7;eU)iF<GfN9Q+f]+=LrA@q]Fp.3MQ+F_=Ek
+B-;/6Bl8#8F(or3F&Pe57o3>f78d&U>")A/EbTE5+EM7CATJu9BOQ!*D..NrBHVJ,Cis;3Bl5%c
+F`;VJATAo2DffQ"Df9E4+CT.u+Ad?*BQ%c2F(96)E--/3E+ra$ARTUfFD5Z4EbTE5+CT;%@3Aur
+A0><%E+NO$+ECn4Bl>,+DfQt7D..'g+Co2'ASuR'Df0V=@<<W)Bm+'*+@K$tE,oZ1FE;/BASYk&
+C*7\2EcYr5DBNk0+E2UJBQ%c2-ua3@DKK6,BmO>tCLqc?E,oZ1FE;/BASYk&?XdGbBk)6rF*(r$
+FCB9&F*&O8@<>p#AoD]4-ua3@DKKr6H=^l'Gq!]QBl8$6BmO?3FCAWpARfXqE-686F!,FBBl8#8
+F(or3F!,R5@VfUsD09K1EbTE5F(or3F(9-*E-686+DbJ,B4Z.++E2@8DKI"BBmO>5AoD]4B5)O#
+DBNJ/Ble35FDu87DKKr6H=_/=DfTqBE,oZ1F<GX=H=_.?@<3Q"F(8d!A8,po+E_R9EHPh8;eU)i
+F<GfN9Q+f]/-                                                              ~>
 )
 showpass 0 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
@@ -286,33 +425,38 @@ showpass 4 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:''
-zz=:zz,'(<<;._1 '' SmugPyter NOPIXELSKEY NORATIOKEY SMUGAREAROUND SMUGASPECT'
-zz=:zz,'ROUND SMUGPRINTDPI SMUGPRINTSIZES SMUGPYTERSIZES assert charsub dpi'
-zz=:zz,'arearatio lastones printsizekey printsizestable round sortprintsize'
-zz=:zz,'s''),<<;._1 '' smugpyter SMUGAREAROUND SMUGASPECTROUND SMUGPRINTDPI S'
-zz=:zz,'MUGPRINTSIZES assert charsub printsizestable round smugprintsizes'' '
-zz=:334{.zz
+zz=:zz,'(<<;._1 '' SmugPyter MirrorImages MirrorKeywords MirrorMD5s NOPIXELS'
+zz=:zz,'KEY NORATIOKEY SMUGAREAROUND SMUGASPECTROUND SMUGPRINTDPI SMUGPRINT'
+zz=:zz,'SIZES SMUGPYTERSIZES assert charsub dpiarearatio lastones printsize'
+zz=:zz,'key printsizestable readtd2 round sortprintsizes tslash2''),<<;._1 '''
+zz=:zz,' smugpyter SMUGAREAROUND SMUGASPECTROUND SMUGPRINTDPI SMUGPRINTSIZE'
+zz=:zz,'S assert charsub printsizestable round smugprintsizes''             '
+zz=:389{.zz
 showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:fromascii85__MK__JODobj 0 : 0
-1E\P#-p0UR/mg=U-Ql/[:e=bX9N+SQ=WgI8;F+8R:J4,Z+B)!77o3)T:/jVX8K^r+<C]k`8PW5`
-8QnP]+B)!77o3>f78d&U>")@4A8l6kEb/["@<?4%+E2@8DKKr6H=^l'Gp%'HBl8$6BmO?+AU.Wl
-@<6-mFCfN8A79Rg+E2@8DKKr6H=_/>@:F%a+EMCBB5hm*DKKr6H=_.?F)Q)@E,oZ1FE;/BATK4J
-/1<V34=>)gBl8$6BmO?+AU.Wl@<6-m0JFk'/1<VC4"akp+=A:1D09JfH$!V<+EMCBB5i-<ATB.I
-/1<V7,VUYu-p0UR/mg=U-QmAKC3+67B5i-<ATAo7D09K1H$!V<<HD_l94`Bi-RgSp4>J$60dJM.
-0fUjA0eb4=2)@*M2E!HP+>PW*3&!'A0J5:A1H%3K0f_*61,(FB0JP7;/iP[E1,CXF1,9t-0JPO@
-0ebC92`WlS0fLjI1*A>+0fUjA0ek:@2`WlU0ebUJ+>PW*3&!'@2(ggG2E<]U0JP:)1,(FB0JP:9
-/iPXD0JtXH1,9t-0JPO@0ek@72`EHG1cR6K1a"P-0fUjA0JkC@2E!KN3&i]K+>PW*3&!'@1G1UE
-3AicQ0KD'71,(FB0JP7</iP[E0fCsI1bg+.0JPO@0ek@72`3BK3ArcR2]sk00fUjA0eb4=2)@-M
-1GLmI+>PW*3&!'@1G1UE1GUa@3AN?41,(FB0JP7</iP[F2)I9L1H$@20JPO@0ekL;2DQsA1bgjC
-2]sk00fUjA0JtIA2`E]R2)-dC+>PW*3&!'A1bL[B2_d0E1,^710JPO@0ek@72`EHG1cR6K1a"P-
-0fUjA0f1L@1GC[B0ekC*1,(FB0JP7=/iPaG2E*BF2DH=00JPO@0ebF:2`<HH2E*HL0e"Y%4>JTF
-3&!'A0J5:C3AE?I3&`TC1G1[B1cIBM0JGIB3ArcN2)Qjt/i"P(.4cl01*A=t1,(FB0JP:</i5C?
-1H@-F+>PW*3&!'@1G1UF1b^^A3&E?41,(FB0JP:=/iGCC0etOD2_lL20JPO@0ebC92`EQL0JG7<
-1FXk'4>8$7.4cl01*A=t1,(FB0JP:</i5@@0f1^@1H?R50JPO@0ekI:1c7!E1bq'I3$9t10fUjA
-0f(F=2Dd3E2E3K81,(FB0JP:</i5FE0JkUC2)Zm7-p014/1<V7.4cl00I\P$4>8384>6      ~>
+1E\P#-p0UR/mg=U-Ql,tEcQ)=8SqmKATJtgBl\64E_BthGAhM4F!+1kEcQ)=9ggi]9keWgDfSQ?
+200m8:JaVb78-WQ79La.:JsJX8P_uJ=WgX;<C]k`8PW5Q:e;d.9iX\[;FsV_;b:.];]o"5<C]kg
+<(0\`8QnP]+CoG*@<,pfEaa'(D]j">Bl8$6BmO?+AU,D;EbTE5F(or3CLqcu@UX=l@ru:'FC\g%
+@3BN0Bl8$6BmO?3FCAWpAKZ&2F_>Z6Bl8$6BmO?3+EMIAFDu87DKKr6H=_.F.4cl0/3G;!EbTE5
+F(or3CLqcu@UX=l@k]Sa.4cl04?G0&0d%hd;f-Yi:jI.oEZfF?F_>Z=FCfJ?.4cl00I/>$/1<VC
+4"akp+=A:NEb]Z4F_>Z=FCfJ8F)?&4E-ZP:E`I0lE_BthF!iCf-p07-0f:430JPO@0f(L93&E?M
+0JtXD3?U(20fUjA1GCF@0eb:<3AWBL+>PW*3&!'C0J5=B0f:sK0f:^/1,(FB0JP@;/iY^E3A<9G
+2)6:00JPO@0ek@72`3BK3ArcR2]sk00fUjA0eb4=2)@-M1GLmI+>PW*3&!'@1G1UE1GUa@3AN?4
+1,(FB0JP7;/iPdN1GLgD3&2U30JPO@0ekC83B&rY2)-dF3?U(20fUjA0JtIA2E!QS3&!'A+>PW*
+3&!'A0J5:A1GC[B3AN?41,(FB0JP:9/iP^D0f1jF2DcO30JPO@0ebF:2`<QQ1cRHN0d&5*0fUjA
+0Jb=?2E<WS1b^pK+>PW*3&!'@1bL^F1GLdH1c-p01,(FB0JP@;/iY[H2)I!C3&2U30JPO@0f(L9
+3&ETR3B0#T1a"P-0fUjA1GCF@2)-sK2)-sD+>PW*3&!'C0J5=B1H@-G1Gpp11,(FB0JP:9/iPXD
+2*!QQ2E)a60JPO@0ek@72`3BL3&<9L2'=Y.0fUjA0Jb=?2D[*E0f_!E+>PW*3&!'@1bL^F1c7*L
+1c%$41,(FB0JP:=/iGI=1,L^C1,g=20JPO@0ebI;2`EZT2)R*B2BXb/0fUjA0f1L@1H.$G0etX0
+1,(FB0JP:9/iP^D0f1jF2DcO30JPO@0ekL;2D[$E1GLU=+>PW*3&!'@2(ggI1H%0I0K(X.1,(FB
+0JP7</iP[E0fCsI1bgF1-p07=0fUjA0eb4=2`WTL1cREL.l/e<0f1gK1GCLB1H@?O1,Up=BeD.`
+0e"Y%4>J$7,Vh&.3&!'A1G1L@1,CpE1E\G,0fUjA0Jb=?2`*3E1H73G+>PW*3&!'C0J5=B2`EWK
+3&3321,(FB0JP7;/iP^G1GCL<1G^I2-p01/0I\P$4>J$7,Vh&.3&!'A1G1L?1bggD0Jb^31,(FB
+0JP:</i5F?1c-sJ1H6L40JPO@0ekI:1c@0H0fD!I+>PW*3&!'A1G1LA2_['F1c70?/1<V7.4cl0
+0I\P$4>838-p014/3GT                                                       ~>
 )
 cocurrent 'base'  NB.{*JOD*}
 puttstamps_ijod_=: (((1;'upgrade JOD')"_)`putallts__MK__JODobj)@.(3 = (4!:0)<'putallts__MK__JODobj') NB.{*JOD*}
