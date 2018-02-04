@@ -1,4 +1,4 @@
-NB. JOD dictionary dump: 30 Jan 2018 20:36:00
+NB. JOD dictionary dump:  3 Feb 2018 10:38:57
 NB. Generated with JOD version; 0.9.993 - dev; 3; 27 Jan 2018 12:39:04
 NB. J version: j806/j64/windows/release/commercial/www.jsoftware.com/2017-11-06T10:03:54
 NB.
@@ -18,15 +18,25 @@ soclear_z_=: '0 0 $ clearso__MK__JODobj 0' NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 
 
+AlbumXref=:,:<;._1 ' albumid mirpathid albumsize albumname'
+
+ExtXref=:13 3$<;._1 '|ext|extlong|extdesc|apf|afphoto|affinity photo layer file|psd||photoshop layer file|jpg||jpeg file|tif||tagged image format file|png||portable network graphic file|pdf||portable document format file|gif||graphic image file|nef||nikon raw file|eps||encapsulated postscript|ps||postscript|jp2||jpeg 2000 file|dng||digital negative'
+
+MirrorXref=:,:<;._1 ' orgvolid orgpathid orgext orgimagehash mirvolid mirpathid mirext albumid mirimageid orgfile mirfile'
+
 NOPIXELSKEY=:'0z0'
 
 NORATIOKEY=:'0z1'
+
+PathXref=:,:<;._1 ' pathid pathdesc pathtype path'
 
 SMUGPRINTDPI=:360
 
 SMUGPRINTSIZES=:<;._1 ' 3.5x5 4x5 4x5.3 4x6 4x8 5x5 5x6.7 5x7 5x10 5x30 7x10 8x8 8x10 8x10.6 8x12 8x16 8x20 8.5x11 9x12 10x10 10x13 10x15 10x16 10x20 10x30 11x14 11x16 11x28 12x12 12x18 12x20 12x24 12x30 16x20 16x24 18x24 20x20 20x24 20x30'
 
 SMUGPYTERSIZES=:<;._1 ' 3.5x5 7x10 4x5 8x10 4x5.3 8x10.6 4x6 8x12 4x8 5x10 8x16 5x5 8x8 10x10 5x6.7 5x7 5x30 8x20 8.5x11 9x12 10x13'
+
+VolumeXref=:3 3$<;._1 '|volid|volume|voldesc|0|c:\|c drive on local machine|1|d:\|usb drive(s) (usually mounts on d)'
 
 printsizekey_basictestdata=:16 3$<;._1 ' ImageKey OriginalHeight OriginalWidth 4wqd5Hr 3021 2014 K7JKbs8 2036 3122 nFRxBh2 2665 3731 xCdD7V8 2585 1736 sTXnpLm 2192 3289 VG2s4WG 3659 2613 kNRs3X8 1694 2543 Qjs2hr6 3848 2559 qbXqVgC 2633 3949 ZdzNXm3 1162 2506 vF4Bwpg 2531 3542 7WbqpMj 3211 2566 2cCVDMK 1846 2398 36kBgrv 2396 1991 2FzVqjP 1887 2398'
 
@@ -425,38 +435,43 @@ showpass 4 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:''
-zz=:zz,'(<<;._1 '' SmugPyter MirrorImages MirrorKeywords MirrorMD5s NOPIXELS'
-zz=:zz,'KEY NORATIOKEY SMUGAREAROUND SMUGASPECTROUND SMUGPRINTDPI SMUGPRINT'
-zz=:zz,'SIZES SMUGPYTERSIZES assert charsub dpiarearatio lastones printsize'
-zz=:zz,'key printsizestable readtd2 round sortprintsizes tslash2''),<<;._1 '''
-zz=:zz,' smugpyter SMUGAREAROUND SMUGASPECTROUND SMUGPRINTDPI SMUGPRINTSIZE'
-zz=:zz,'S assert charsub printsizestable round smugprintsizes''             '
-zz=:389{.zz
+zz=:zz,'(<<;._1 '' MirrorXref AlbumXref ExtXref MirrorXref PathXref VolumeXr'
+zz=:zz,'ef''),(<<;._1 '' SmugPyter MirrorImages MirrorKeywords MirrorMD5s NOP'
+zz=:zz,'IXELSKEY NORATIOKEY SMUGAREAROUND SMUGASPECTROUND SMUGPRINTDPI SMUG'
+zz=:zz,'PRINTSIZES SMUGPYTERSIZES assert charsub dpiarearatio lastones prin'
+zz=:zz,'tsizekey printsizestable readtd2 round sortprintsizes tslash2''),<<;'
+zz=:zz,'._1 '' smugpyter SMUGAREAROUND SMUGASPECTROUND SMUGPRINTDPI SMUGPRIN'
+zz=:zz,'TSIZES assert charsub printsizestable round smugprintsizes''        '
+zz=:461{.zz
 showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:fromascii85__MK__JODobj 0 : 0
-1E\P#-p0UR/mg=U-Ql,tEcQ)=8SqmKATJtgBl\64E_BthGAhM4F!+1kEcQ)=9ggi]9keWgDfSQ?
-200m8:JaVb78-WQ79La.:JsJX8P_uJ=WgX;<C]k`8PW5Q:e;d.9iX\[;FsV_;b:.];]o"5<C]kg
-<(0\`8QnP]+CoG*@<,pfEaa'(D]j">Bl8$6BmO?+AU,D;EbTE5F(or3CLqcu@UX=l@ru:'FC\g%
-@3BN0Bl8$6BmO?3FCAWpAKZ&2F_>Z6Bl8$6BmO?3+EMIAFDu87DKKr6H=_.F.4cl0/3G;!EbTE5
-F(or3CLqcu@UX=l@k]Sa.4cl04?G0&0d%hd;f-Yi:jI.oEZfF?F_>Z=FCfJ?.4cl00I/>$/1<VC
-4"akp+=A:NEb]Z4F_>Z=FCfJ8F)?&4E-ZP:E`I0lE_BthF!iCf-p07-0f:430JPO@0f(L93&E?M
-0JtXD3?U(20fUjA1GCF@0eb:<3AWBL+>PW*3&!'C0J5=B0f:sK0f:^/1,(FB0JP@;/iY^E3A<9G
-2)6:00JPO@0ek@72`3BK3ArcR2]sk00fUjA0eb4=2)@-M1GLmI+>PW*3&!'@1G1UE1GUa@3AN?4
-1,(FB0JP7;/iPdN1GLgD3&2U30JPO@0ekC83B&rY2)-dF3?U(20fUjA0JtIA2E!QS3&!'A+>PW*
-3&!'A0J5:A1GC[B3AN?41,(FB0JP:9/iP^D0f1jF2DcO30JPO@0ebF:2`<QQ1cRHN0d&5*0fUjA
-0Jb=?2E<WS1b^pK+>PW*3&!'@1bL^F1GLdH1c-p01,(FB0JP@;/iY[H2)I!C3&2U30JPO@0f(L9
-3&ETR3B0#T1a"P-0fUjA1GCF@2)-sK2)-sD+>PW*3&!'C0J5=B1H@-G1Gpp11,(FB0JP:9/iPXD
-2*!QQ2E)a60JPO@0ek@72`3BL3&<9L2'=Y.0fUjA0Jb=?2D[*E0f_!E+>PW*3&!'@1bL^F1c7*L
-1c%$41,(FB0JP:=/iGI=1,L^C1,g=20JPO@0ebI;2`EZT2)R*B2BXb/0fUjA0f1L@1H.$G0etX0
+1E\P#-p0UR/mg=U-Qk]k@WcNiEb/i*7<ioVEb/i*9keWgDfSEd@:s.m+AHQjEc5tkAU/K<Eb'56
+9keWgDfSQ?2'>V-EcQ)=9ggj[+AHQjEc5u#Eb/i*:/=\X=@Gn^91;u+:/=bR<(TkY79La0@<?0b
+Eb/i*;b^7^:f9k[<('PS+B)!77o3)T:/k.`>")@4;b^7^:g$ad;H$.j78k=0DesQ5AQWtaAftW'
+Bjl$n@<,duBl>,5EbTE5F(or3CLqc6E,oZ1FE;/BASYk&?XdGbBk)6rF*(r$FC?;2EbTE5F(or3
+F*(i"Ch4`1D09K1EbTE5F(or3F!,OBEcc8@Bl8$6BmO?3-RgSp4=iTBE,oZ1FE;/BASYk&?XdGb
+Bk&hN-RgSp4?P\X?SNZN+AHQjEc5u#Eb/i*;f-Yi:jI.oEZfF?F_>Z=FCfJ?.4cl00I/>$/1<VC
+4"akp+=A:NEb]Z4F_>Z=FCfJ8F)?&4E-ZP:E`I0lE_BthF!iCf-p07-1,'t/0JPO@1,(L:1c-mC
+0K;$J+>PW*3&!*A1G1L@0JkIC3&;[40JPO@0f(L93&E?M0JtXD3?U(20fUjA1GCF@0eb:<3AWBL
++>PW*3&!'C0J5=B0f:sK0f:^/1,(FB0JP@;/iY^E3A<9G2)6:00JPO@1,(L:1c-mC0K;$J+>PW*
+3&!'A0J5:A1Gq0N2E!K:1,(FB0JP:9/iPXD2E3KI3Ahp70JPO@1,(L:1c-mC0K;$J+>PW*3&!'@
+1G1UE1GUa@3AN?41,(FB0JP7;/iPdN1GLgD3&2U30JPO@0ekC83B&rY2)-dF3?U(20fUjB0Jb=<
+1b^a?3&i]:1,(FB0JP7=/iP[H3B&oO0eje+0JPO@0ek@72`3BF2)@6J1*A>+0fUjA0eb4=2_d$D
+3&3BK+>PW*3&!'@1bL^F2E*HP3&<931,(FB0JP7;/iP[K2)mEH3B&'90JPO@0ebF:2`<HH2E*HL
+0d&5*0fUjB0Jb=<1b^a?3&i]:1,(FB0JY=</i5C=1b^mK1E\G,0fUjA1GCF@1cI9K0Jb[D+>PW*
+3&!'C0J5=A3&`iW3AWK71,(FB0JP@;/iY^C2*!NK2)6:00JPO@0f(L93&NKP0JkRC1*A>+0fUjB
+0Jb=<1b^a?3&i]:1,(FB0JP:9/iPXD2*!QQ2E)a60JPO@0ek@72`3BL3&<9L2'=Y.0fUjB0Jb=<
+1b^a?3&i]:1,(FB0JP7;/iP[E1,CXF1,9t-0JPO@0ebF:2`<KM1cR<J2BXb/0fUjA0f1L@1,(I?
+0f:^F+>PW*3&!*A1G1L@0JkIC3&;[40JPO@0ebI;2`EZT2)R*B2BXb/0fUjA0f1L@1H.$G0etX0
 1,(FB0JP:9/iP^D0f1jF2DcO30JPO@0ekL;2D[$E1GLU=+>PW*3&!'@2(ggI1H%0I0K(X.1,(FB
 0JP7</iP[E0fCsI1bgF1-p07=0fUjA0eb4=2`WTL1cREL.l/e<0f1gK1GCLB1H@?O1,Up=BeD.`
-0e"Y%4>J$7,Vh&.3&!'A1G1L@1,CpE1E\G,0fUjA0Jb=?2`*3E1H73G+>PW*3&!'C0J5=B2`EWK
-3&3321,(FB0JP7;/iP^G1GCL<1G^I2-p01/0I\P$4>J$7,Vh&.3&!'A1G1L?1bggD0Jb^31,(FB
-0JP:</i5F?1c-sJ1H6L40JPO@0ekI:1c@0H0fD!I+>PW*3&!'A1G1LA2_['F1c70?/1<V7.4cl0
-0I\P$4>838-p014/3GT                                                       ~>
+0e"Y%4>J$8,Vh&.3&!*A1G1L@0ebC?2)cX50JPO@0ekI:1c-sD3A<631,(FB0JP7;/iP^G0JbLE
+1bg+.0JPO@1,(L:1c-p@1GgsJ+>PW*3&!'C0J5=B2`EWK3&3321,(FB0JP7;/iP^G1GCL<1G^I2
+-p01/0I\P$4>J$7,Vh&.3&!'A1G1L?1bggD0Jb^31,(FB0JP:</i5F?1c-sJ1H6L40JPO@0ekI:
+1c@0H0fD!I+>PW*3&!'A1G1LA2_['F1c70?/1<V7.4cl00I\P$4>838-p014/3GT          ~>
 )
 cocurrent 'base'  NB.{*JOD*}
 puttstamps_ijod_=: (((1;'upgrade JOD')"_)`putallts__MK__JODobj)@.(3 = (4!:0)<'putallts__MK__JODobj') NB.{*JOD*}
