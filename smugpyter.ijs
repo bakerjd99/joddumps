@@ -1,4 +1,4 @@
-NB. JOD dictionary dump:  6 Feb 2018 22:15:02
+NB. JOD dictionary dump:  8 Feb 2018 17:59:07
 NB. Generated with JOD version; 0.9.993 - dev; 3; 27 Jan 2018 12:39:04
 NB. J version: j806/j64/windows/release/commercial/www.jsoftware.com/2017-11-06T10:03:54
 NB.
@@ -107,7 +107,7 @@ if. #files=. dirtree (tslash2 y),pat do.
   kdv=. }.@(keypos&{"1@readtd2) 
   keys=. ;kdv&.> 0 {"1 files
   keys=. (;delim ,&.> keys) -. ' '
-  if. #keys=. <;._1 keys do. kw=. kw, s: keys end.
+  if. #keys=. <;._1 keys do. s: keys else. kw end.
 else.
   kw
 end.
@@ -546,7 +546,7 @@ AU/>E.4cl01*A>.,Vh&.3&!*A1G1L@0JkIC3&;[40JPO@1,(L:1c-mC0K;$J+>PW*3&!'C0J5=A
 /iP[H3B&oO0eje+0JPO@1,(U=3A<BH1H@3K+>PW*3&!'A0J5:A1GC[B3AN?41,(FB0JP:9/iP^D
 0f1jF2DcO30JPO@0ebF:2`<QQ1cRHN0d&5*0fUjB0K(OD0K1^B3ANK81,(FB0JP7;/iP[K2)mEH
 3B&'90JPO@0ebF:2`<HH2E*HL0d&5*0fUjB0Jb=<1b^a?3&i]:1,(FB0JY=</i5C=1b^mK1E\G,
-0fUjA1GCF@1cI9K0Jb[D+>PW*3&!'C0J5=A3&`iW3AWK71,(FB0JP@;/iY^C2*!NK2)6:00JPO@
+0fUjA1GCF@1cI9K0Jb[D+>PW*3&!*A3%d-H3&ruS1c$m01,(FB0JP@;/iY^C2*!NK2)6:00JPO@
 0f(L93&NKP0JkRC1*A>+0fUjB0Jb=<1b^a?3&i]:1,(FB0JP:9/iPXD2*!QQ2E)a60JPO@0ek@7
 2`3BL3&<9L2'=Y.0fUjB0Jb=<1b^a?3&i]:1,(FB0JP7;/iP[E1,CXF1,9t-0JPO@0ebF:2`<KM
 1cR<J2BXb/0fUjA0f1L@1,(I?0f:^F+>PW*3&!*A1G1L@0JkIC3&;[40JPO@1,(U=3ANKJ2)@$D
