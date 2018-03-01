@@ -10,6 +10,14 @@ a JOD dictionary database. This repository contains current versions of my worki
 JOD dictionaries. For more about JOD see the [The JOD Page](http://bakerjd99.wordpress.com/the-jod-page/).
 
 The following example shows how to restore JOD dictionaries from repository dump scripts.
+You can get JOD dictionary dump scripts in two ways. You can use Git to pull the scripts 
+into a local repository (item 1), or you can use GitHub's Zip download feature (item 0), to grab the
+current version of the scripts. For simple testing and exploration the Zip download is
+simpler.
+
+0. Use GitHub's Zip download to get the current scripts in one Zip file.
+   Extract the files in the Zip file to a local directory like `/jod/joddumps` 
+   and proceed to step 2.
 
 1. Use Git to pull scripts to a local `joddumps` directory.
 
@@ -61,5 +69,5 @@ After the dump scripts are loaded into dictionaries they can be opened and used 
         └─┴────────────────────────────────────────────────────────────────┘
      
 John Baker
-December 31, 2013
+March 1, 2018
 
