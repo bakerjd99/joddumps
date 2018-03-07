@@ -1,5 +1,5 @@
-NB. JOD dictionary dump:  1 Mar 2018 16:05:25
-NB. Generated with JOD version; 0.9.993 - dev; 5; 28 Jan 2018 15:09:28
+NB. JOD dictionary dump:  7 Mar 2018 15:52:03
+NB. Generated with JOD version; 0.9.993 - dev; 7; 5 Mar 2018 15:55:28
 NB. J version: j806/j64/windows/release/commercial/www.jsoftware.com/2017-11-06T10:03:54
 NB.
 NB. Names & DidNums on current path
@@ -18,155 +18,31 @@ soclear_z_=: '0 0 $ clearso__MK__JODobj 0' NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 
 
-tagtodo=:3 : 0
+CSS_Colors=:141 3$'ColorName';'HexValue';'RGBValue';'aliceblue';'#F0F8FF';240 248 255;'antiquewhite';'#FAEBD7';250 235 215;'aqua';'#00FFFF';0 255 255;'aquamarine';'#7FFFD4';127 255 212;'azure';'#F0FFFF';240 255 255;'beige';'#F5F5DC';245 245 220;'bisque';'#FFE4C4';255 228 196;'black';'#000000';0 0 0;'blanchedalmond';'#FFEBCD';255 235 205;'blue';'#0000FF';0 0 255;'blueviolet';'#8A2BE2';138 43 226;'brown';'#A52A2A';165 42 42;'burlywood';'#DEB887';222 184 135;'cadetblue';'#5F9EA0';95 158 160;'chartreuse';'#7FFF00';127 255 0;'chocolate';'#D2691E';210 105 30;'coral';'#FF7F50';255 127 80;'cornflowerblue';'#6495ED';100 149 237;'cornsilk';'#FFF8DC';255 248 220;'crimson';'#DC143C';220 20 60;'cyan';'#00FFFF';0 255 255;'darkblue';'#00008B';0 0 139;'darkcyan';'#008B8B';0 139 139;'darkgoldenrod';'#B8860B';184 134 11;'darkgray';'#A9A9A9';169 169 169;'darkgreen';'#006400';0 100 0;'darkkhaki';'#BDB76B';189 183 107;'darkmagenta';'#8B008B';139 0 139;'darkolivegreen';'#556B2F';85 107 47;'darkorange';'#FF8C00';255 140 0;'darkorchid';'#9932CC';153 50 204;'darkred';'#8B0000';139 0 0;'darksalmon';'#E9967A';233 150 122;'darkseagreen';'#8FBC8F';143 188 143;'darkslateblue';'#483D8B';72 61 139;'darkslategray';'#2F4F4F';47 79 79;'darkturquoise';'#00CED1';0 206 209;'darkviolet';'#9400D3';148 0 211;'deeppink';'#FF1493';255 20 147;'deepskyblue';'#00BFFF';0 191 255;'dimgray';'#696969';105 105 105;'dodgerblue';'#1E90FF';30 144 255;'firebrick';'#B22222';178 34 34;'floralwhite';'#FFFAF0';255 250 240;'forestgreen';'#228B22';34 139 34;'fuchsia';'#FF00FF';255 0 255;'gainsboro';'#DCDCDC';220 220 220;'ghostwhite';'#F8F8FF';248 248 255;'gold';'#FFD700';255 215 0;'goldenrod';'#DAA520';218 165 32;'gray';'#808080';128 128 128;'green';'#008000';0 128 0;'greenyellow';'#ADFF2F';173 255 47;'honeydew';'#F0FFF0';240 255 240;'hotpink';'#FF69B4';255 105 180;'indianred';'#CD5C5C';205 92 92;'indigo';'#4B0082';75 0 130;'ivory';'#FFFFF0';255 255 240;'khaki';'#F0E68C';240 230 140;'lavender';'#E6E6FA';230 230 250;'lavenderblush';'#FFF0F5';255 240 245;'lawngreen';'#7CFC00';124 252 0;'lemonchiffon';'#FFFACD';255 250 205;'lightblue';'#ADD8E6';173 216 230;'lightcoral';'#F08080';240 128 128;'lightcyan';'#E0FFFF';224 255 255;'lightgoldenrodyellow';'#FAFAD2';250 250 210;'lightgreen';'#90EE90';144 238 144;'lightgrey';'#D3D3D3';211 211 211;'lightpink';'#FFB6C1';255 182 193;'lightsalmon';'#FFA07A';255 160 122;'lightseagreen';'#20B2AA';32 178 170;'lightskyblue';'#87CEFA';135 206 250;'lightslategray';'#778899';119 136 153;'lightsteelblue';'#B0C4DE';176 196 222;'lightyellow';'#FFFFE0';255 255 224;'lime';'#00FF00';0 255 0;'limegreen';'#32CD32';50 205 50;'linen';'#FAF0E6';250 240 230;'magenta';'#FF00FF';255 0 255;'maroon';'#800000';128 0 0;'mediumaquamarine';'#66CDAA';102 205 170;'mediumblue';'#0000CD';0 0 205;'mediumorchid';'#BA55D3';186 85 211;'mediumpurple';'#9370DB';147 112 219;'mediumseagreen';'#3CB371';60 179 113;'mediumslateblue';'#7B68EE';123 104 238;'mediumspringgreen';'#00FA9A';0 250 154;'mediumturquoise';'#48D1CC';72 209 204;'mediumvioletred';'#C71585';199 21 133;'midnightblue';'#191970';25 25 112;'mintcream';'#F5FFFA';245 255 250;'mistyrose';'#FFE4E1';255 228 225;'moccasin';'#FFE4B5';255 228 181;'navajowhite';'#FFDEAD';255 222 173;'navy';'#000080';0 0 128;'oldlace';'#FDF5E6';253 245 230;'olive';'#808000';128 128 0;'olivedrab';'#6B8E23';107 142 35;'orange';'#FFA500';255 165 0;'orangered';'#FF4500';255 69 0;'orchid';'#DA70D6';218 112 214;'palegoldenrod';'#EEE8AA';238 232 170;'palegreen';'#98FB98';152 251 152;'paleturquoise';'#AFEEEE';175 238 238;'palevioletred';'#DB7093';219 112 147;'papayawhip';'#FFEFD5';255 239 213;'peachpuff';'#FFDAB9';255 218 185;'peru';'#CD853F';205 133 63;'pink';'#FFC0CB';255 192 203;'plum';'#DDA0DD';221 160 221;'powderblue';'#B0E0E6';176 224 230;'purple';'#800080';128 0 128;'red';'#FF0000';255 0 0;'rosybrown';'#BC8F8F';188 143 143;'royalblue';'#4169E1';65 105 225;'saddlebrown';'#8B4513';139 69 19;'salmon';'#FA8072';250 128 114;'sandybrown';'#F4A460';244 164 96;'seagreen';'#2E8B57';46 139 87;'seashell';'#FFF5EE';255 245 238;'sienna';'#A0522D';160 82 45;'silver';'#C0C0C0';192 192 192;'skyblue';'#87CEEB';135 206 235;'slateblue';'#6A5ACD';106 90 205;'slategray';'#708090';112 128 144;'snow';'#FFFAFA';255 250 250;'springgreen';'#00FF7F';0 255 127;'steelblue';'#4682B4';70 130 180;'tan';'#D2B48C';210 180 140;'teal';'#008080';0 128 128;'thistle';'#D8BFD8';216 191 216;'tomato';'#FF6347';255 99 71;'turquoise';'#40E0D0';64 224 208;'violet';'#EE82EE';238 130 238;'wheat';'#F5DEB3';245 222 179;'white';'#FFFFFF';255 255 255;'whitesmoke';'#F5F5F5';245 245 245;'yellow';'#FFFF00';255 255 0;'yellowgreen';'#9ACD32';154 205 50
 
-NB.*tagtodo  v-- tag items in  TODO section  with  case insentive
-NB. base 36 guids.
-NB.
-NB. This  verb  parses  the  text   between   `[begin-todo]`  and
-NB. `[end-todo]`  in  markdown  TODO  files and prefixes untagged
-NB. items with base 36 representations of GUIDs. The intent is to
-NB. produce a stable key for each task on the list.
-NB.
-NB. monad:  clTagTodoText =. tagtodo clTodoText
-NB. 
-NB.   todo=. read 'c:/mp/jupyter/smugpyter/todo.md'
-NB.   tagtodo todo
+SVG_Colors=:148 2$'ColorName';'RGBValue';'aliceblue';240 248 255;'antiquewhite';250 235 215;'aqua';0 255 255;'aquamarine';127 255 212;'azure';240 255 255;'beige';245 245 220;'bisque';255 228 196;'black';0 0 0;'blanchedalmond';255 235 205;'blue';0 0 255;'blueviolet';138 43 226;'brown';165 42 42;'burlywood';222 184 135;'cadetblue';95 158 160;'chartreuse';127 255 0;'chocolate';210 105 30;'coral';255 127 80;'cornflowerblue';100 149 237;'cornsilk';255 248 220;'crimson';220 20 60;'cyan';0 255 255;'darkblue';0 0 139;'darkcyan';0 139 139;'darkgoldenrod';184 134 11;'darkgray';169 169 169;'darkgreen';0 100 0;'darkgrey';169 169 169;'darkkhaki';189 183 107;'darkmagenta';139 0 139;'darkolivegreen';85 107 47;'darkorange';255 140 0;'darkorchid';153 50 204;'darkred';139 0 0;'darksalmon';233 150 122;'darkseagreen';143 188 143;'darkslateblue';72 61 139;'darkslategray';47 79 79;'darkslategrey';47 79 79;'darkturquoise';0 206 209;'darkviolet';148 0 211;'deeppink';255 20 147;'deepskyblue';0 191 255;'dimgray';105 105 105;'dimgrey';105 105 105;'dodgerblue';30 144 255;'firebrick';178 34 34;'floralwhite';255 250 240;'forestgreen';34 139 34;'fuchsia';255 0 255;'gainsboro';220 220 220;'ghostwhite';248 248 255;'gold';255 215 0;'goldenrod';218 165 32;'gray';128 128 128;'grey';128 128 128;'green';0 128 0;'greenyellow';173 255 47;'honeydew';240 255 240;'hotpink';255 105 180;'indianred';205 92 92;'indigo';75 0 130;'ivory';255 255 240;'khaki';240 230 140;'lavender';230 230 250;'lavenderblush';255 240 245;'lawngreen';124 252 0;'lemonchiffon';255 250 205;'lightblue';173 216 230;'lightcoral';240 128 128;'lightcyan';224 255 255;'lightgoldenrodyellow';250 250 210;'lightgray';211 211 211;'lightgreen';144 238 144;'lightgrey';211 211 211;'lightpink';255 182 193;'lightsalmon';255 160 122;'lightseagreen';32 178 170;'lightskyblue';135 206 250;'lightslategray';119 136 153;'lightslategrey';119 136 153;'lightsteelblue';176 196 222;'lightyellow';255 255 224;'lime';0 255 0;'limegreen';50 205 50;'linen';250 240 230;'magenta';255 0 255;'maroon';128 0 0;'mediumaquamarine';102 205 170;'mediumblue';0 0 205;'mediumorchid';186 85 211;'mediumpurple';147 112 219;'mediumseagreen';60 179 113;'mediumslateblue';123 104 238;'mediumspringgreen';0 250 154;'mediumturquoise';72 209 204;'mediumvioletred';199 21 133;'midnightblue';25 25 112;'mintcream';245 255 250;'mistyrose';255 228 225;'moccasin';255 228 181;'navajowhite';255 222 173;'navy';0 0 128;'oldlace';253 245 230;'olive';128 128 0;'olivedrab';107 142 35;'orange';255 165 0;'orangered';255 69 0;'orchid';218 112 214;'palegoldenrod';238 232 170;'palegreen';152 251 152;'paleturquoise';175 238 238;'palevioletred';219 112 147;'papayawhip';255 239 213;'peachpuff';255 218 185;'peru';205 133 63;'pink';255 192 203;'plum';221 160 221;'powderblue';176 224 230;'purple';128 0 128;'red';255 0 0;'rosybrown';188 143 143;'royalblue';65 105 225;'saddlebrown';139 69 19;'salmon';250 128 114;'sandybrown';244 164 96;'seagreen';46 139 87;'seashell';255 245 238;'sienna';160 82 45;'silver';192 192 192;'skyblue';135 206 235;'slateblue';106 90 205;'slategray';112 128 144;'slategrey';112 128 144;'snow';255 250 250;'springgreen';0 255 127;'steelblue';70 130 180;'tan';210 180 140;'teal';0 128 128;'thistle';216 191 216;'tomato';255 99 71;'turquoise';64 224 208;'violet';238 130 238;'wheat';245 222 179;'white';255 255 255;'whitesmoke';245 245 245;'yellow';255 255 0;'yellowgreen';154 205 50
 
-NB. preserve any preamble and suffix
-bdo=. '`[begin-todo]`' [ edo=. '`[end-todo]`'
-if. -.(+./bdo E. y) *. +./edo E. y do. y return. end.
-pam=. bdo beforestr y [ sfx=. edo afterstr y
-
-NB. extract item text
-t=. '`[end-todo]`' beforestr '`[begin-todo]`' afterstr y
-t=. ];._2 tlf t -. CR
-t=. (*./"1 ' ' = t) <;.1 t
-
-NB. all blanks
-b=. 0 = #&> (,&.> t) -.&.> ' '
-if. *./b do. y return. end.
-
-NB. strip redundant blank lines from nonblanks
-q=. I. -.b
-t=. (rebrow&.> q{t) q} t
-
-NB. guid tagged
-g=. +./&> ('`<_'&E.)@,&.> t
-b=. b +. g
-if. *./b do. y return. end.
-t=. ctl&.> t
-
-NB. collect item numbers and following text
-q=. I. -.b [ c=. '. '
-r=. c&beforestr&.> q{t [ s=. c&afterstr&.> q{t
-
-NB. should have only positive integers
-msg=. 'markdown item syntax invalid'
-msg assert 0 < #&> r;s
-msg assert 0 <: _1&".&> r
-
-NB. tag untagged nonblanks
-u=. r ,&.> (<c) ,&.> ,&.> (<"1 b36guids #s) ,&.> ' ' ,&.> s
-t=. u q} t
-
-NB. insert one blank line between items and return text
-t=. }: , t ,. <2#LF
-;(<pam),(<bdo),t,(<edo),<sfx
-)
+WEB_PyColors=:148 2$<;._1 ' ColorName HexValue aliceblue #f0f8ff antiquewhite #faebd7 aqua #00ffff aquamarine #7fffd4 azure #f0ffff beige #f5f5dc bisque #ffe4c4 black #000000 blanchedalmond #ffebcd blue #0000ff blueviolet #8a2be2 brown #a52a2a burlywood #deb887 cadetblue #5f9ea0 chartreuse #7fff00 chocolate #d2691e coral #ff7f50 cornflowerblue #6495ed cornsilk #fff8dc crimson #dc143c cyan #00ffff darkblue #00008b darkcyan #008b8b darkgoldenrod #b8860b darkgray #a9a9a9 darkgrey #a9a9a9 darkgreen #006400 darkkhaki #bdb76b darkmagenta #8b008b darkolivegreen #556b2f darkorange #ff8c00 darkorchid #9932cc darkred #8b0000 darksalmon #e9967a darkseagreen #8fbc8f darkslateblue #483d8b darkslategray #2f4f4f darkslategrey #2f4f4f darkturquoise #00ced1 darkviolet #9400d3 deeppink #ff1493 deepskyblue #00bfff dimgray #696969 dimgrey #696969 dodgerblue #1e90ff firebrick #b22222 floralwhite #fffaf0 forestgreen #228b22 fuchsia #ff00ff gainsboro #dcdcdc ghostwhite #f8f8ff gold #ffd700 goldenrod #daa520 gray #808080 grey #808080 green #008000 greenyellow #adff2f honeydew #f0fff0 hotpink #ff69b4 indianred #cd5c5c indigo #4b0082 ivory #fffff0 khaki #f0e68c lavender #e6e6fa lavenderblush #fff0f5 lawngreen #7cfc00 lemonchiffon #fffacd lightblue #add8e6 lightcoral #f08080 lightcyan #e0ffff lightgoldenrodyellow #fafad2 lightgray #d3d3d3 lightgrey #d3d3d3 lightgreen #90ee90 lightpink #ffb6c1 lightsalmon #ffa07a lightseagreen #20b2aa lightskyblue #87cefa lightslategray #778899 lightslategrey #778899 lightsteelblue #b0c4de lightyellow #ffffe0 lime #00ff00 limegreen #32cd32 linen #faf0e6 magenta #ff00ff maroon #800000 mediumaquamarine #66cdaa mediumblue #0000cd mediumorchid #ba55d3 mediumpurple #9370db mediumseagreen #3cb371 mediumslateblue #7b68ee mediumspringgreen #00fa9a mediumturquoise #48d1cc mediumvioletred #c71585 midnightblue #191970 mintcream #f5fffa mistyrose #ffe4e1 moccasin #ffe4b5 navajowhite #ffdead navy #000080 oldlace #fdf5e6 olive #808000 olivedrab #6b8e23 orange #ffa500 orangered #ff4500 orchid #da70d6 palegoldenrod #eee8aa palegreen #98fb98 paleturquoise #afeeee palevioletred #db7093 papayawhip #ffefd5 peachpuff #ffdab9 peru #cd853f pink #ffc0cb plum #dda0dd powderblue #b0e0e6 purple #800080 red #ff0000 rosybrown #bc8f8f royalblue #4169e1 saddlebrown #8b4513 salmon #fa8072 sandybrown #f4a460 seagreen #2e8b57 seashell #fff5ee sienna #a0522d silver #c0c0c0 skyblue #87ceeb slateblue #6a5acd slategray #708090 slategrey #708090 snow #fffafa springgreen #00ff7f steelblue #4682b4 tan #d2b48c teal #008080 thistle #d8bfd8 tomato #ff6347 turquoise #40e0d0 violet #ee82ee wheat #f5deb3 white #ffffff whitesmoke #f5f5f5 yellow #ffff00 yellowgreen #9acd32'
 
 showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:dec85__MK__JODobj 0 : 0
-3$9pu1*ALu2*#beB68'&DffE#+DGq/D0$h6DBMnS6r+qHARfgrDf-\ABln#2@psFi+DG_7ASuU(
-G%De*@<6!&1H$@gF_PB-                                                      ~>
+1,0n-+>P&o0H`5/+>GPm1cQU41*AM26W6oj6Z6dZEcZ>2@VfTuDe:,5FCB&t@<,m$6W6o+@rH1%
+EZf7.D.Rc>+@nq'+CT.u+At]r+Eh10F_,Vm<_$LaDes?4F*(i"Ch4`-Afu/:@;]UaEb$:k<_"9B
+Des?4+DtV)ATJu&DIakf7m\>A@;L'tF&tds?Vl#8Des?4F(9-)DfQt<@;TRs+CT.u+@nq'+Eh10
+F_,V:AU&<;@:OCjA0>K)Df$UnH$!_<DBO.7@Uj=mDfTnAD/Ws-Ch4`1Dfp)1AH            ~>
 )
 showpass 0 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
-zz=:dec85__MK__JODobj 0 : 0
-0eje*+>P&o2BXb01,X/^B68'&DdQs^F(o,k0JH6g/h1sOB68'&DdQs^F(o,k0JFVj/M/)S@<6-m
-+=M>?B68'&D^cfNATMs7/e&._67sAi$;No?+CfG'@<?'k3Zp130fWcV@PTkO$;No?+>#/s/M/P+
-/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
-/M/P+/M/P+/M/Os%13OO:-pQUASlC.Gmt*.-Qk!%+EV%)FDk].+=ANG$4R>;67sBuD]iM#B5)6+
-ASu$$FCAg'%173%F?MZ--Qm;FF<G%<+EV:.+D>1tEZf:4+DlBH@q]RoDL!@7BPD?,@q]Ro-OgE)
-G]Y&[3ZrNQB68'&D]j.HF:AQd$;No?+E).6Gp%$CAKYMpCh[a#FCfJ%$?UN74ZX]5FD,B0+DGm>
-F)N1/>@h\_/TboADd?`nGB.V>B.",qFEhmM/NP"r@:s\#A8`T4G]XB%%15is/g+\9Ch[a#FCfK6
-+CSeq@:NkdF:AS!G]Z)0+=CQ$@V'1dDCosKA8ba]?s@2[A1_nAA8ba]-OgE)G]Y&[3ZrNQB68'&
-D]j.HF:AQd$;No?+>b2m+Co&"Bl.R+ATDi7@Wcc8DJpY>AU&;+$?UN74ZX]60H`D!0I[G<%15ZL
-A8`T7BOQ!*8K_P^+C\nl@<HX&+A!\aD'4%9@<<V`+CT*r$4R>M>@M/VBl5MEDe*cl?k!GP$4R>M
->@h\_/TboADd?`[$4R>ABOu3q+CT;%+Du*?Blmp'F!,RC+EV%)%13OO.1HW+G]Y&[3ZrNQB68'&
-D]j.HF:AQd$;No?+CT)&+DGq/D0$h.CiX)qA9f;>@:s4aA.8lfG]Z)0+=Jod3Zp+*%13OO=(NL_
-Eb-A%CiX)qA9f;>@:s4aA0>;uA0>r,Dfol,+Du+>%16QU+CT).ATD?m/g(T1%16KI@V'1dDCosK
-A8ba]%13OO0eOSV4C9mi0Q^i=H"D%T0K=;7B6nf53&=uU12CW35%#KU@s)g'+Ceht@qBZi$4R=O
-$8O4V?p%dTFuaY_B6[i>GVX"mCc4"VBQRrKDfL%W?Tqj?+EqaECh+Z-ART([%13OO?s@2[A1_nA
-A8ba]%13OO6tp0SH#IgJFDl;3BHV/'59N^>FCcS:BOr;tG][t7+C].qDJLA2Bl7Jk$7QDkFEhmM
-/NP"r@:s\#A8`T4G]XB%%15is/g+\9Ch[a#FCfK6+DG^9GB.V>B-;,5A7]cj$?UN74ZX]60H`D!
-0I[G<%15ZLA8`T7BOQ!*8K_P^+C\nl@<HX&+A!\aD'4%9@<<V`+CT*r$4R>M>@h\_/TboADd?`[
-$8F.UE-626AKYr'Df0V*$4R=t/g+VGGp$R1FCT6'DK?6o?s@)OB5)68FDk].?!n*K%14Nn$?UN7
-+>#VsFCAg(De*c/FEhm:$4R>;67sBkASc'tBlmp,F!,17+EqjEDJ()1Eb&a%+>"^RD]j.5G]XB%
-FEhmj3ZoeX>@h\_/TboADd?aY>@M/VBl5MEDe*cl?mcBjFEhmM/NP"r@:s\#A8`T4G]XB%%15is
-/g,%M+C].qDJLA2Bl7L'+C\o(G@b?'+DGq/D0$-nFEhmj3Zoh)+?CW!.1HVU+CoC5GA(E,+A!\d
-D]iM#@psM$AKXPe@;R-2BOQ!*8K_GY%16KI@V'1dDCosKA8ba]%14gB+CI<=@q0[pH=_,21im\\
-F#@`E12p_]E&_lS2d\aV+ED%0ARTXk+:SZ5/g,7LAKYc/@;BFl%16KIASu$1FDk].?!n*K<+ohc
-F(Jj"DIal(FCf;3BlbD7Dfd+D@:s4aA1e;u.1HW+G]Y&[3ZrNQB68'&D]j.HF:AQd$;No?+D,b4
-Cj@.F@:s4aA0?)1FD)e7D]iM*@;]j'Ch[cuF!+q'FE_;-DBNY8ASlJt$?UN74ZX]60H`D!0I[G<
-8K_P^+EqL-F<F-tA8`T"ARf.kF(HIc+CT+0GA(E,+A!\aD%-h[>@M/VBl5MEDe*cl?k!Gt/g+Oa
-?XmShB6n-0Bf'mOG&oNVAMS472K1WrCc>]b?m'K$Ch7$rAKVEh1+j\W4C;YVF),Q$Ecc#>0P>*3
-3GreI2g/nLFCoW%5%#LTBOr<%Ea``pD@Hq\>@h\_/TboADd?`[$?Tj(F<G:=+Du+>+CT).ATD?m
-/e&.:%173%F<E.r+EV%)FDk].+EVjM%13OO:-pQUBl8*&Ch[E&DKTf*ATD?m+DGq/D0$gO+EV:;
-Dg-7F@<6L$Ecc#6D@HqpG]Z)0+=Jod3Zp+*%17B!FWb@+G%De<D]iM#+E2@>E+O'+Gp%!ID.7's
-ARlopBP7h^?s@)OB5)68FDk].?!n*KG^+Hc+E_R>F_tT!Eb/c(Blmp'%13OO2E!HG+EMHDF)N1F
-Ec5i.%16KIASu$1FDk].?!n*K.1HV4FCAg(De*c/3]\B<3[l0oFEhm:$4R>;67sBpDK]H)Bk/?(
-F_tT!Eb/c(Blmp'F!*%WFD,]5GB4m8F)to5FD5Z2%173%F?MZ--nlc)+>>5R$@-Q4+D>2,AKZ)5
-+C\n)E,ol9ATDU4+Du==@V'RkA0>GsBFP;V>@M/VBl5MEDe*cl?k!HcDJjT6@V'RkA0>T.AShk`
-F*),4C`mqBDf01s$=I(LDIb>@De*cl?k!Gl%14M*@:s\#A8`SO3Zp.<.3N_WF:AQd$4R=     ~>
-)
-showpass 1 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
-".soclear NB.{*JOD*}
-
-cocurrent SO__JODobj NB.{*JOD*}
-zz=:dec85__MK__JODobj 0 : 0
-0eje*+>Y-#+>P&o3AaQ.;cI+GDe*cA0ht%f:et"h?Z^3sD]j";F*&ODEc5H!F)u8?/g(T1%17/n
-Dfp/@F`\`[+?CW!%15is/g+kGFCfK)@:NjkGAhM4.!$gu%15is/g,7EB68'&D]g/t67sC&@:p]s
-FCf<1+DG^9<)5nX+EM+(FD5Z2+EqOABHUenF(HJ.DKBB,FD5o0+C\c#AKWce+D5h2A9/1e.1HUn
-$=e!aF`MM6DKI!K@UX=h-OgDmDeX*1ATDl8+=D8LA8`h)$4R=                         ~>
-)
-showpass 4 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
-".soclear NB.{*JOD*}
-
-cocurrent SO__JODobj NB.{*JOD*}
-zz=:''
-zz=:zz,',<<;._1 '' todo CR IFACEWORDStodo LF ROOTWORDStodo afterstr assert b'
-zz=:zz,'36fd b36guids beforestr ctl guids guidsx rebrow tagtodo tlf''       '
-zz=:127{.zz
-showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
-".soclear NB.{*JOD*}
-
-cocurrent SO__JODobj NB.{*JOD*}
-zz=:dec85__MK__JODobj 0 : 0
-3?U%!1*ACr1c7:8De*c]67sa0De*c/F"JsdF`_>6Bln'#F!,(5EZf4-F)tc&Bl7Q+D..I#A8c[0
-+B2-):EXIfF*)IU%15is/e&._67sBpDKKH1Amo1\+EqaEA12LJ3Znk=:-pQU/M/P+/M/P+/M/P+
-/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
-/M/P+/M/(f+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<Vd9$;No?+EV%)FDk].+<W6f+C].q
-BHUc#@;$c++<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<V+#:-pQU+<VdL+<VdL+<VdL
-+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL%15is/g+YEART[lA3(hg
-0JPO]@<+%V%15is/g)_t/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
-/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P++:SYe$=e!aCghC++=D8LA8`h<%13      ~>
-)
-showpass 2 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
-".soclear NB.{*JOD*}
-
-cocurrent SO__JODobj NB.{*JOD*}
 zz=:fromascii85__MK__JODobj 0 : 0
-1E\P#-p0%C-Zid0FDk].-RgSp4=iTBFCAg(De*cn@UX=l@p^oD-RgSp4=iTBFDk].-RgSp4>8$7
-.4cl0/3G:V:K(5"FDk].-RgSp4>JTF3&!-B0eP@B1c-sC1H76B?SX;i3&!*J3A*3J1c-sC1H76A
-BeD+_1+=b&4>JTF3&!-B0eP@B1cR3I2)R9B?SX;i3&!*J3A*3J1cR3I2)R9ABeD+_1+=b&4>JTF
-3&!-B0eP@B3A<0A1H.$=0J5%50eb::0K:mG2D[<K1cI<J2C`Dn1*A;#/1<V7,VUYu-p07=0fUjC
-0JP1<2E*KJ1,1LD.pk%c0fUjB3B8]M2E*KJ1,1LD.VULi+>PAs-p045/1<V8.4cl00I\P$4>838
-4>?                                                                       ~>
+1E\P#-p0UR/mg=U-QkcT;dVn1Ci=?8+B)<2?UJaJDfTnA=%,G_:jGEHCi=?8-RgSp4>8$7.4cl0
+0I/>$/1<V7,VUYu-p01/0I\P$4>J$8,Vh&.3&!-B2_I!G1,:jK0KCs41,(FB0JbCA/iGRC1H%0O
+2]sk00fUjC0K1UB2)I0M2`*6K+>PW*3&!-B2_I!G1,:jK0KCs41,(FB0JbCA/iGRC1H%0O2]sk0
+0fUjC0K1UB2)I0M2`*6K.4cl00I/>$/1<V7,VUYu-p01/0I\P$4>8$7.4cl00I\P$4>838-p014
+/1<V7.4dS8                                                                ~>
 )
 cocurrent 'base'  NB.{*JOD*}
 puttstamps_ijod_=: (((1;'upgrade JOD')"_)`putallts__MK__JODobj)@.(3 = (4!:0)<'putallts__MK__JODobj') NB.{*JOD*}
