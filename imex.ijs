@@ -1,4 +1,4 @@
-NB. JOD dictionary dump:  7 Mar 2018 15:52:03
+NB. JOD dictionary dump: 12 Mar 2018 16:47:16
 NB. Generated with JOD version; 0.9.993 - dev; 7; 5 Mar 2018 15:55:28
 NB. J version: j806/j64/windows/release/commercial/www.jsoftware.com/2017-11-06T10:03:54
 NB.
@@ -16,33 +16,121 @@ soput_z_=:SOLOCALE&put NB.{*JOD*}
 soclear_z_=: '0 0 $ clearso__MK__JODobj 0' NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
-
-
-CSS_Colors=:141 3$'ColorName';'HexValue';'RGBValue';'aliceblue';'#F0F8FF';240 248 255;'antiquewhite';'#FAEBD7';250 235 215;'aqua';'#00FFFF';0 255 255;'aquamarine';'#7FFFD4';127 255 212;'azure';'#F0FFFF';240 255 255;'beige';'#F5F5DC';245 245 220;'bisque';'#FFE4C4';255 228 196;'black';'#000000';0 0 0;'blanchedalmond';'#FFEBCD';255 235 205;'blue';'#0000FF';0 0 255;'blueviolet';'#8A2BE2';138 43 226;'brown';'#A52A2A';165 42 42;'burlywood';'#DEB887';222 184 135;'cadetblue';'#5F9EA0';95 158 160;'chartreuse';'#7FFF00';127 255 0;'chocolate';'#D2691E';210 105 30;'coral';'#FF7F50';255 127 80;'cornflowerblue';'#6495ED';100 149 237;'cornsilk';'#FFF8DC';255 248 220;'crimson';'#DC143C';220 20 60;'cyan';'#00FFFF';0 255 255;'darkblue';'#00008B';0 0 139;'darkcyan';'#008B8B';0 139 139;'darkgoldenrod';'#B8860B';184 134 11;'darkgray';'#A9A9A9';169 169 169;'darkgreen';'#006400';0 100 0;'darkkhaki';'#BDB76B';189 183 107;'darkmagenta';'#8B008B';139 0 139;'darkolivegreen';'#556B2F';85 107 47;'darkorange';'#FF8C00';255 140 0;'darkorchid';'#9932CC';153 50 204;'darkred';'#8B0000';139 0 0;'darksalmon';'#E9967A';233 150 122;'darkseagreen';'#8FBC8F';143 188 143;'darkslateblue';'#483D8B';72 61 139;'darkslategray';'#2F4F4F';47 79 79;'darkturquoise';'#00CED1';0 206 209;'darkviolet';'#9400D3';148 0 211;'deeppink';'#FF1493';255 20 147;'deepskyblue';'#00BFFF';0 191 255;'dimgray';'#696969';105 105 105;'dodgerblue';'#1E90FF';30 144 255;'firebrick';'#B22222';178 34 34;'floralwhite';'#FFFAF0';255 250 240;'forestgreen';'#228B22';34 139 34;'fuchsia';'#FF00FF';255 0 255;'gainsboro';'#DCDCDC';220 220 220;'ghostwhite';'#F8F8FF';248 248 255;'gold';'#FFD700';255 215 0;'goldenrod';'#DAA520';218 165 32;'gray';'#808080';128 128 128;'green';'#008000';0 128 0;'greenyellow';'#ADFF2F';173 255 47;'honeydew';'#F0FFF0';240 255 240;'hotpink';'#FF69B4';255 105 180;'indianred';'#CD5C5C';205 92 92;'indigo';'#4B0082';75 0 130;'ivory';'#FFFFF0';255 255 240;'khaki';'#F0E68C';240 230 140;'lavender';'#E6E6FA';230 230 250;'lavenderblush';'#FFF0F5';255 240 245;'lawngreen';'#7CFC00';124 252 0;'lemonchiffon';'#FFFACD';255 250 205;'lightblue';'#ADD8E6';173 216 230;'lightcoral';'#F08080';240 128 128;'lightcyan';'#E0FFFF';224 255 255;'lightgoldenrodyellow';'#FAFAD2';250 250 210;'lightgreen';'#90EE90';144 238 144;'lightgrey';'#D3D3D3';211 211 211;'lightpink';'#FFB6C1';255 182 193;'lightsalmon';'#FFA07A';255 160 122;'lightseagreen';'#20B2AA';32 178 170;'lightskyblue';'#87CEFA';135 206 250;'lightslategray';'#778899';119 136 153;'lightsteelblue';'#B0C4DE';176 196 222;'lightyellow';'#FFFFE0';255 255 224;'lime';'#00FF00';0 255 0;'limegreen';'#32CD32';50 205 50;'linen';'#FAF0E6';250 240 230;'magenta';'#FF00FF';255 0 255;'maroon';'#800000';128 0 0;'mediumaquamarine';'#66CDAA';102 205 170;'mediumblue';'#0000CD';0 0 205;'mediumorchid';'#BA55D3';186 85 211;'mediumpurple';'#9370DB';147 112 219;'mediumseagreen';'#3CB371';60 179 113;'mediumslateblue';'#7B68EE';123 104 238;'mediumspringgreen';'#00FA9A';0 250 154;'mediumturquoise';'#48D1CC';72 209 204;'mediumvioletred';'#C71585';199 21 133;'midnightblue';'#191970';25 25 112;'mintcream';'#F5FFFA';245 255 250;'mistyrose';'#FFE4E1';255 228 225;'moccasin';'#FFE4B5';255 228 181;'navajowhite';'#FFDEAD';255 222 173;'navy';'#000080';0 0 128;'oldlace';'#FDF5E6';253 245 230;'olive';'#808000';128 128 0;'olivedrab';'#6B8E23';107 142 35;'orange';'#FFA500';255 165 0;'orangered';'#FF4500';255 69 0;'orchid';'#DA70D6';218 112 214;'palegoldenrod';'#EEE8AA';238 232 170;'palegreen';'#98FB98';152 251 152;'paleturquoise';'#AFEEEE';175 238 238;'palevioletred';'#DB7093';219 112 147;'papayawhip';'#FFEFD5';255 239 213;'peachpuff';'#FFDAB9';255 218 185;'peru';'#CD853F';205 133 63;'pink';'#FFC0CB';255 192 203;'plum';'#DDA0DD';221 160 221;'powderblue';'#B0E0E6';176 224 230;'purple';'#800080';128 0 128;'red';'#FF0000';255 0 0;'rosybrown';'#BC8F8F';188 143 143;'royalblue';'#4169E1';65 105 225;'saddlebrown';'#8B4513';139 69 19;'salmon';'#FA8072';250 128 114;'sandybrown';'#F4A460';244 164 96;'seagreen';'#2E8B57';46 139 87;'seashell';'#FFF5EE';255 245 238;'sienna';'#A0522D';160 82 45;'silver';'#C0C0C0';192 192 192;'skyblue';'#87CEEB';135 206 235;'slateblue';'#6A5ACD';106 90 205;'slategray';'#708090';112 128 144;'snow';'#FFFAFA';255 250 250;'springgreen';'#00FF7F';0 255 127;'steelblue';'#4682B4';70 130 180;'tan';'#D2B48C';210 180 140;'teal';'#008080';0 128 128;'thistle';'#D8BFD8';216 191 216;'tomato';'#FF6347';255 99 71;'turquoise';'#40E0D0';64 224 208;'violet';'#EE82EE';238 130 238;'wheat';'#F5DEB3';245 222 179;'white';'#FFFFFF';255 255 255;'whitesmoke';'#F5F5F5';245 245 245;'yellow';'#FFFF00';255 255 0;'yellowgreen';'#9ACD32';154 205 50
-
-SVG_Colors=:148 2$'ColorName';'RGBValue';'aliceblue';240 248 255;'antiquewhite';250 235 215;'aqua';0 255 255;'aquamarine';127 255 212;'azure';240 255 255;'beige';245 245 220;'bisque';255 228 196;'black';0 0 0;'blanchedalmond';255 235 205;'blue';0 0 255;'blueviolet';138 43 226;'brown';165 42 42;'burlywood';222 184 135;'cadetblue';95 158 160;'chartreuse';127 255 0;'chocolate';210 105 30;'coral';255 127 80;'cornflowerblue';100 149 237;'cornsilk';255 248 220;'crimson';220 20 60;'cyan';0 255 255;'darkblue';0 0 139;'darkcyan';0 139 139;'darkgoldenrod';184 134 11;'darkgray';169 169 169;'darkgreen';0 100 0;'darkgrey';169 169 169;'darkkhaki';189 183 107;'darkmagenta';139 0 139;'darkolivegreen';85 107 47;'darkorange';255 140 0;'darkorchid';153 50 204;'darkred';139 0 0;'darksalmon';233 150 122;'darkseagreen';143 188 143;'darkslateblue';72 61 139;'darkslategray';47 79 79;'darkslategrey';47 79 79;'darkturquoise';0 206 209;'darkviolet';148 0 211;'deeppink';255 20 147;'deepskyblue';0 191 255;'dimgray';105 105 105;'dimgrey';105 105 105;'dodgerblue';30 144 255;'firebrick';178 34 34;'floralwhite';255 250 240;'forestgreen';34 139 34;'fuchsia';255 0 255;'gainsboro';220 220 220;'ghostwhite';248 248 255;'gold';255 215 0;'goldenrod';218 165 32;'gray';128 128 128;'grey';128 128 128;'green';0 128 0;'greenyellow';173 255 47;'honeydew';240 255 240;'hotpink';255 105 180;'indianred';205 92 92;'indigo';75 0 130;'ivory';255 255 240;'khaki';240 230 140;'lavender';230 230 250;'lavenderblush';255 240 245;'lawngreen';124 252 0;'lemonchiffon';255 250 205;'lightblue';173 216 230;'lightcoral';240 128 128;'lightcyan';224 255 255;'lightgoldenrodyellow';250 250 210;'lightgray';211 211 211;'lightgreen';144 238 144;'lightgrey';211 211 211;'lightpink';255 182 193;'lightsalmon';255 160 122;'lightseagreen';32 178 170;'lightskyblue';135 206 250;'lightslategray';119 136 153;'lightslategrey';119 136 153;'lightsteelblue';176 196 222;'lightyellow';255 255 224;'lime';0 255 0;'limegreen';50 205 50;'linen';250 240 230;'magenta';255 0 255;'maroon';128 0 0;'mediumaquamarine';102 205 170;'mediumblue';0 0 205;'mediumorchid';186 85 211;'mediumpurple';147 112 219;'mediumseagreen';60 179 113;'mediumslateblue';123 104 238;'mediumspringgreen';0 250 154;'mediumturquoise';72 209 204;'mediumvioletred';199 21 133;'midnightblue';25 25 112;'mintcream';245 255 250;'mistyrose';255 228 225;'moccasin';255 228 181;'navajowhite';255 222 173;'navy';0 0 128;'oldlace';253 245 230;'olive';128 128 0;'olivedrab';107 142 35;'orange';255 165 0;'orangered';255 69 0;'orchid';218 112 214;'palegoldenrod';238 232 170;'palegreen';152 251 152;'paleturquoise';175 238 238;'palevioletred';219 112 147;'papayawhip';255 239 213;'peachpuff';255 218 185;'peru';205 133 63;'pink';255 192 203;'plum';221 160 221;'powderblue';176 224 230;'purple';128 0 128;'red';255 0 0;'rosybrown';188 143 143;'royalblue';65 105 225;'saddlebrown';139 69 19;'salmon';250 128 114;'sandybrown';244 164 96;'seagreen';46 139 87;'seashell';255 245 238;'sienna';160 82 45;'silver';192 192 192;'skyblue';135 206 235;'slateblue';106 90 205;'slategray';112 128 144;'slategrey';112 128 144;'snow';255 250 250;'springgreen';0 255 127;'steelblue';70 130 180;'tan';210 180 140;'teal';0 128 128;'thistle';216 191 216;'tomato';255 99 71;'turquoise';64 224 208;'violet';238 130 238;'wheat';245 222 179;'white';255 255 255;'whitesmoke';245 245 245;'yellow';255 255 0;'yellowgreen';154 205 50
-
-WEB_PyColors=:148 2$<;._1 ' ColorName HexValue aliceblue #f0f8ff antiquewhite #faebd7 aqua #00ffff aquamarine #7fffd4 azure #f0ffff beige #f5f5dc bisque #ffe4c4 black #000000 blanchedalmond #ffebcd blue #0000ff blueviolet #8a2be2 brown #a52a2a burlywood #deb887 cadetblue #5f9ea0 chartreuse #7fff00 chocolate #d2691e coral #ff7f50 cornflowerblue #6495ed cornsilk #fff8dc crimson #dc143c cyan #00ffff darkblue #00008b darkcyan #008b8b darkgoldenrod #b8860b darkgray #a9a9a9 darkgrey #a9a9a9 darkgreen #006400 darkkhaki #bdb76b darkmagenta #8b008b darkolivegreen #556b2f darkorange #ff8c00 darkorchid #9932cc darkred #8b0000 darksalmon #e9967a darkseagreen #8fbc8f darkslateblue #483d8b darkslategray #2f4f4f darkslategrey #2f4f4f darkturquoise #00ced1 darkviolet #9400d3 deeppink #ff1493 deepskyblue #00bfff dimgray #696969 dimgrey #696969 dodgerblue #1e90ff firebrick #b22222 floralwhite #fffaf0 forestgreen #228b22 fuchsia #ff00ff gainsboro #dcdcdc ghostwhite #f8f8ff gold #ffd700 goldenrod #daa520 gray #808080 grey #808080 green #008000 greenyellow #adff2f honeydew #f0fff0 hotpink #ff69b4 indianred #cd5c5c indigo #4b0082 ivory #fffff0 khaki #f0e68c lavender #e6e6fa lavenderblush #fff0f5 lawngreen #7cfc00 lemonchiffon #fffacd lightblue #add8e6 lightcoral #f08080 lightcyan #e0ffff lightgoldenrodyellow #fafad2 lightgray #d3d3d3 lightgrey #d3d3d3 lightgreen #90ee90 lightpink #ffb6c1 lightsalmon #ffa07a lightseagreen #20b2aa lightskyblue #87cefa lightslategray #778899 lightslategrey #778899 lightsteelblue #b0c4de lightyellow #ffffe0 lime #00ff00 limegreen #32cd32 linen #faf0e6 magenta #ff00ff maroon #800000 mediumaquamarine #66cdaa mediumblue #0000cd mediumorchid #ba55d3 mediumpurple #9370db mediumseagreen #3cb371 mediumslateblue #7b68ee mediumspringgreen #00fa9a mediumturquoise #48d1cc mediumvioletred #c71585 midnightblue #191970 mintcream #f5fffa mistyrose #ffe4e1 moccasin #ffe4b5 navajowhite #ffdead navy #000080 oldlace #fdf5e6 olive #808000 olivedrab #6b8e23 orange #ffa500 orangered #ff4500 orchid #da70d6 palegoldenrod #eee8aa palegreen #98fb98 paleturquoise #afeeee palevioletred #db7093 papayawhip #ffefd5 peachpuff #ffdab9 peru #cd853f pink #ffc0cb plum #dda0dd powderblue #b0e0e6 purple #800080 red #ff0000 rosybrown #bc8f8f royalblue #4169e1 saddlebrown #8b4513 salmon #fa8072 sandybrown #f4a460 seagreen #2e8b57 seashell #fff5ee sienna #a0522d silver #c0c0c0 skyblue #87ceeb slateblue #6a5acd slategray #708090 slategrey #708090 snow #fffafa springgreen #00ff7f steelblue #4682b4 tan #d2b48c teal #008080 thistle #d8bfd8 tomato #ff6347 turquoise #40e0d0 violet #ee82ee wheat #f5deb3 white #ffffff whitesmoke #f5f5f5 yellow #ffff00 yellowgreen #9acd32'
-
-showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
-".soclear NB.{*JOD*}
-cocurrent SO__JODobj NB.{*JOD*}
 zz=:dec85__MK__JODobj 0 : 0
-1,0n-+>P&o0H`5/+>GPm1cQU41*AM26W6oj6Z6dZEcZ>2@VfTuDe:,5FCB&t@<,m$6W6o+@rH1%
-EZf7.D.Rc>+@nq'+CT.u+At]r+Eh10F_,Vm<_$LaDes?4F*(i"Ch4`-Afu/:@;]UaEb$:k<_"9B
-Des?4+DtV)ATJu&DIakf7m\>A@;L'tF&tds?Vl#8Des?4F(9-)DfQt<@;TRs+CT.u+@nq'+Eh10
-F_,V:AU&<;@:OCjA0>K)Df$UnH$!_<DBO.7@Uj=mDfTnAD/Ws-Ch4`1Dfp)1AH            ~>
+1,9t-+>Y,u+>P&r2)$^,0ea_*+>Gc33GEYL?Ys=/2dfC'D,>Lc+@0m`FD,6++A$`fEcZ/:+@g*`
+F*%iu4Ztqk4Ztqk4Ztqk4Ztqk4Ztqk4Ztqk4Ztqk4Uh`-$:K#WBl7Q+D0[7EARf:hF<FM!F_=Ek
+B-9K:8K_GZA0=]oFD,T1+CSf(ASuU4Eb0;78K_S^@rHL-FCfK(A.8lSDJsW1ATAnbG%G]8Df-\1
+BQ%s63Zq1?D,>L1+=]Zp+A$`fEcZ/:+D5A+F*&O=F!+n/+D#D!ARo=cDJ'CcDe:+X:eW!JBkq9&
+@<-BsGp%'HDeF*!D/F!)B-:et@<?X4ATJu.DBNh8DF%)m+DbJ(B6@WqATJu&DIa1`FDl)6F"Spb
+=`8F*GAhV?A0>>m+EM[GE,oZ6ARlolF<G78G9Cg9FCf>4FD,B0+E(b"F`MOU+BN5bF<F-t%16]]
+DIal/@<-I(@s)TrEbTeA@;U..Bl7Q+BlbD1Dg*=GBOr;rEb/[$DfTnADe:+`G%G]8Df-!kB4u4)
+FE8RDEa`['AKZ).AKYr1G@be;@;]TuASbpj@;]Rd+E(j7@<-BsGp%'HDeF*!D/F!)B.b;tDg)Wt
+@s)m8Bl7Q+A8c[0+E)-?@;Ka&FD,T6AKYW(A7T+cDBNb6DfBb?@r,RoBkD'jF!+n/A0>r-D/a3*
+Anbgt%16N[B5_g)FD,N4/g*]'G9C^5@<-7"DJ()6D]j.8Bl7]/@:F.tF<GL@ATD4$Bl7Q+Df-\/
+DKKT5AISuTEcPT6F"AGWATDj7F!,C=AKYMtDJOM?DKTf*ATAo%F<G!7FD5T'/0JPFAS#ol$?Trm
++Dkh1A1f!+BR(_7F=2,P@;Ke!F*&O5F!,1/+CT;2@<iu7Ec5T2@;TjqDJ()+F!+m6FDl)6+E(j$
+$?Ts"F_>B0/e&-s$<LnPEb-A,@<Q3)8K_\X@<,m$FD,B0+C\noDfTDR%13OO6"jp_+A!r(AKYW(
+F<G:>/0K.MASrV^+D,>.F*&O9DI[U-DKKH1ARloL:eW!?Ci+*3F<G10Aor;@H"CE)F!+n(D_;J+
+%166LF"AG*+CT+0Derr,E,ol0Ea`g%ATB=E@3B0#F)u&3/0J@DCh\',DJ()4ASc'j/g*l6+C]A"
+Bl5&-F!+m6E-68CBk.Y[E,TZ2+E(j7E-6&6Gp%'HDeF*!D/F!)B-;#!DJ+*#B4Z-:+Ad?*BQ%c2
+BlbD3F`VXIFD,5.CghEsF*&O=D@Hq]+Dbt6B5)F#+Dbb0AKYo'+DbJ(B6@WqATKIH;f?Ma+E1n1
+E,9).@rH1"ARfg)F*(i-E-!WS8K_M]Ci!ZmF<GOCDeF*!D/F!)B+52a@;]_#@:s.m/g*GtA1Sj<
+F`VXICh[Zr+EMX5D/^V-Des6$@ruX0F"AG*+D,>*A0>r3D.Oi+@;]_#@:s.m+Dl%;AKYE'FE1f"
+FD5o0+EV:*D@HqkFD,6+F"SS)DfQt3G[YH.Ch5.?8K`%b@rH!tBmO>5FD,5.F`(`$DJ<NgCh4`3
+FD5Q*FEo!IAftJK01.6??n<F4DfQt;@;^?"$?T]tCNCV?BOuH3@<,p%FD,5.Df0B:+EM+7BlA-8
++E)4@Bl@m1/0K4LF<G"5+E_a:Ap%o4@;]TuE+O'5@<6-o%16Nb+CIPi6RsZp+CT;%+EV:.Gp$d/
+G%De6AThX*+EV=-CM[Qm+DlBHAmoReGqL4=BOr<(DffE0Bl@l3BlbD>B5Di:+B`8aBFP;?+ELt*
+A0>T.3ZrKd@r!3*DBNY8+@@8jAT)O(AM,*(Bl.R#@<-10/0K%JAKZ28Ebo86F!,=<F*&O7Df'?0
+DJXS-$?^E$A0>i3DeF*!D/F!)B-;#!DJ+*#B4W2n8mumO;e'i^E-,J1BlbD.EHP]+Cj@.GB5DiG
++@0XKBl5IE?qOjN@8gZVBlJ0%%16fj+EMHDA79=m+E_a:Ap%o4FD,*)+E2@>B6%EtD.Ra/+E2IF
++E_WGGA2/4+DGq=+Du==ATD^3F!,[8Ecc@T+B*2qAISu[@<Q3)AThX&+DkOtAKYD(An?0/@Wc0r
+F!,[IBln',B-:Z%DejD:@:F.tF<G:>F!,=2B6%Q+B5_^!+E1b0FE9&D$4R>6+D>2,AKZ&.D/!fp
+EZf(6Ao(mmFDl2F+E)45DJ=$,F!+n#Dfp.EDffZ(EZfR?A7]S&+E_a:A0>\sDJ+*#B4Z-:+B3#c
++E)./%172j@<<W+F!,=.CM@[!+DlBHA79b)+Dkh6ATD3gCh4`0BkM+$+Du+A+DGm>?rKor?n<F>
+@<-I(@s)TrEbTe.$;G5EEc6#;AooDA+CJ/#;c-4r+Eh16Bjkn$/g*r-+E2IDAScW7@:aM%BPCs!
+B6%p5DIdf28K_VZDIal6ASc0*AoD^,ARlnm$=He09OJu_F_,T-ATJu1ATMo8@;p0oCi!g'B-;;0
+@;[35Dfp(C@<Q4&@:s-o?pe<EE,TH.FCfJ8An?%*+E)9C?qOjN@8gZVBlJ0%+:SZeEa`HnATT&)
+Df0`0DKKT2DD!&!DfTD3?rKor?m'0)+D,%rEbp"DASbpj@;^00@Wcc8FD,5.D.-ppD]j">DeF*!
+D/F!)B+52[ART\'Eb0;7FD,*)+D>2,AKYW+Dg-(AF`8I3Ec6)<A0>T.+CT;%+Co&&Eaa-&A1eur
++D,1rC`m8&EccRLAThX*Gp%3CD.O.`8K_GY+D,P4@qB0nFDi:EF(HJ9BOu$'GA(]#BHV#1+DQ%?
+F<G"$Dfp.EAThX*Gp%$IBOu3,A79a9%13OO6$+5kBOr;tDIal.Aftr9+E2@>B6%EtD/!m#+Cno+
++A!]"@;^00FDi:<Df9D6Df-\=Df''-BPD?s+EV:*F<G:=+C\njF`_>0F_iZ>$:u@NDf-qE+E1b0
+FD56-Cgh?uGp$U*Eb-A%@W-C2+D>\;+E_a:Ap%o4@3B&nF`(t;De:,%De*E%BlbD8EZf%6G9CaF
+@qZ;YD/X<'Gp$gC+Dkh*BQPA6@;BF*+E)9CGA(E,+EM75Cj@.>BlnH5AKYH)F(oN'F)rICEc5E'
+ASiQ(F<GXCCj'B2/g*_t%172jAKYMlD/LJ+De*E%BlbD>B5Di98K_P^DC9NKG@>B2+EVNEF(Jo*
+BlksM%13OO<+ohcEb/[#Df-\:AT)O(AKYc"AT/c4ARoLr@rHO%EbTE(+EV:.+Cf>1AKYr4Bl7F"
+Ch7Z1De:,#EcPT6+E2@>B6%EtD/!m#%172j@<<W9ATD?)@rH4'BQ@ZtASuR'G%GK8+DbJ3ARlp%
+F`\a?FD`3mG%G]8Df-qD+>Gl71*C%EDegI]+Ad)sB6%EtD/!l19OVgOF^\oo+:SZlF!,O<D/a<:
++C\nl@<H-(@<-BsGp%'HDe!@"F(oN)+DGm>@3BW5AT01C@3BW.@;Ka&F*(u4/0JAF@<iu-Ec5e;
+FD,5.F_>N9+CT.u+:SZe@:O'qFDlA3Eb'56FD,5.@V&tjFD5?0Cb?h>$4R>.DIb:@De*BpGp$[9
+Dfo]+/0K%JBlbD2F!,[?Gp#k)D,>L#BOPs)@V'+g+CQC5ATMd4DIdI!B-;8<@q0(kF!,17+EV:.
++Ad?*BQ%c2GAhM<A1e;u:jI.rDf-\3F!+m6G@bK/A0>i3DeF*!D/F!)B-;#!DJ+*#B4W\<8TZ>$
++E)./+E(j7FD,5.D..=-+ED%%F)Pr;+A!\lBkq9&BlksM6?RB$%17&pDeF*!D/F!)B-;#!DJ+*#
+B4Z-,@<,p%Ch7[/+CS_tF`\a:Bl[cpFD5W*+C]A"Bl7`uF)rI6Df'H9FCfK6+CT.u+Dl%;AKYDj
+Dfp.2$>aElAKYi(DId<h+E1n1E,9)<+@UHbEd8dHEc5T2@;TjqDJ().@;]_#@:s-o@<?U3@:OD#
++D>n7@;[2r@rH1/FCfM9FD,*)+:S[!BOPpm+EM76Bl%3u+D5V2A0>;uA0>>iA0>Po@VKq*/g*N"
+D/FE5FD5<-+EqOABHUr+De'u(@:EqmF!,[@Cht4:Ao)C.EbTT.+CT.u+EV:8F(HI'$?p3+BHUbm
+A0?)1Cht4:E+O'(F(d0K7:C4QGp#CL9H[qUBl%?k+C\nl@<6R&+E(j7BlnD=@:O4lH$!V=+D>1o
++CoM(@:WtmC`mD"@VKq*/0JbCCLoO9$4R=s/g*H#Ec5T!DI[6=+Dl%<F<GOCDeF*!D/Ej)F!,R<
+Bl7]/De:,6BOu%%AScO$F!+n4+D#G,BkM+$ASu'i+C\nrDJ+#O+Dbb6FDPM2@sMNpE\1aCA7T@^
+Et&IbCht^H5u:6&ATDi7FDl)5+EV:2F!,RC+CIl7;c$jECh[Zr+D#e>Eb0*!F"Rn/%14jC+@.,l
+ASu$iDI[r7FDi:>@<Q3u+D5,/ANCr)Dg*=@@;^?5A79=m+Co2-@s)j6Bl@m1+CS_tF`\a?DId='
++E):7B5)6+@<,p%DIm<hF)tc1Gs;`F%14mD+A$HZ@VKY#BlnVCFDi:1A8Q%&+D#S6DfRl]8TZ(s
+Df9D6DIm6sCj@.FG@bZ6GqEWBG%De4Df021H"CE)F!+q'AoD^$+@/gt+CSf!E-,Z%%16T`DKKo;
+C`me@F^oN9Eb0;7@;]TuDIIBnF)YPtATKIH;f6#XCi^_CBl%T.Eb0<2Df0).Amob&ATAo8D]i\/
+Ddm-k+Eq77D/!m#/e&-s$8a@X7<iopASl!$FE2))@;KY!D)re-Df-qE+D58-+Dk[4F*(i2FCeu*
+@:F.tF<GI>DKBo.DId0rA0><&Df'2u+Eh=+FDl2@/e&-s$;#=^G@>Q1-ZgIs:eW6X+D,b6DL!@7
+BOPpi@ru:&+EM+9+EV:*F<GOFF<GO6DfBN(+E(k(4!86Z+Eq78+@/gt-Y7=>/g(T1%15mKAKYo'
++EV:.+D5_+@<<W6BPD?sF!+n#Dfp.EFD,5.:jI.rDf-\-Df'?6DJ=3<+DGm>Blk_D+D#e:Ch[Bn
+F<G.3@WGmeAKYo'%16T`BOu3qDKI"0DIal1ART+X@VfTu@rGmh/g+,,AKYhuC2\,8:jI.rDf-\:
+Ec5o1ATVu9FD,f7A7]d(@:F.tF<G[=AKY](E,Tc=@;]Rd%17,e@:WeUCh4`!De*E%@;]TuBOQ'q
++Cf>#BkD'jA0>u-ASH0-ARoLbFE8R=DBO.7Cht57ART*l:dn2'A8bt#D.RU,F"SS&De*R"B-;8;
+@;]UaEb'5#$=Rsd+D>2(A8HN6DIn#E+A!\h@<Q3)ASu%$Eb/c(DKTf-Ec6)A+Cei%+D>>,A0>Ju
+B4uC.+CS_tF`\a9De*R"B-;8;@;]UaEb'5D+Ad)sB6%EtD.Ra/+CT;%%17/uF^efuEc*".DJim!
++ED%2FCf?3Bm+&1@rc-hFEMV8F"SS7BOuH3@ps7&F<G.<ASrW!B6%Qp+E)-?,'.^3@qB^*+Eh=:
+F*2OH,'77&F!;`>ATW$.DJ()6BOu#i$?U2/FDk_5FD,5.Ch[cu+E)-?D/XH++E2@4F)u&5B-:o0
+F*2&8+Dbb-ALnsFBQ&$0A0>f0ASu4"B-:Z(@:O(aFE8R4HXIt.Des6.G9CgA+EV:.%16TfEcP`/
+F<GLB+Dtb8F<GC6DIjr)F!+m6AoDU(F!,%7Ea`ir/g*`'+DlBHAU&0*EbT*&@q?cmDe*R"B-;8;
+@;]UaEb'56@<,p%Ch[Zr+E2@>B6%EtD.R_s$=S!sBQ%]uF"AGXAKYDtC`mD"G%De7DIkF0$4R=O
+$4R=O$4R=O$4R=O$4R=O$4R=O$4R=O$4R=O$4R=O$?0Eq@q]Fp?Ys=/2aVd4F(oK1Cj@.7H"AR:
+@;KaoDJ()6BOr<-@;Tt"AKY](@:s.m+CT.u+CSeq@:NkdF<GO2FCSuqEt&IjF=2,P@r,^bEZfI;
+@<=+2$4R=s/g+,,AKZ/)EbTH7F!+n-B5_g)FD,N4+E2%)CER/%AnGUpASuT4DIIBnA0>B#Ci=?8
+/e&-s$8O4V8TZ>$+Du+>+D#G4Bl[d$Gp$U5ARTU%GA(]#BHU`"B5_g)FD,M6BlbD9Bk(pmDJ'Cc
++<VeKBOr;1@V'V&+s:B6Ci=?8/e&.1+<V+#1G0eF@;TRd+Cf>+DfTnA@ps6t@V$['BkM<tAnba`
+DKK]?+Co1uAn?!oDKI"CBOPcf$6UH6Eaa/7@rH1%EcWiU%143e$8a@X<+ohcA8c=!DIIF)/0JkO
++Dl%<F<G19AT;j(DKK]?+E(b"F`MM:DJ(LCDIIBnA.8kg+<Y04Ci=>:D..]4DJsV>@rH6sDfT\;
+FDi:GBOQ!*.X>rT.NiqRF_kRt$6UH6E+rft+CT=6FD,5.Bl.9kALDOACLqc6@rH1%E\8Ia95S6K
+DK@9M@r-:/FCfK,DJ'Cc+<Ve8ChI[,Bln$*F!,.)G%De9F_,W9Bl@lt@VfTu.Ud@>BleB1@k&UC
+@<6O%+Unbf$8jFY7:^%B+Cf>+DfTnM+Cf>+DfTnAGA2/4+CT@7Ch7$rF<GL>AKYr+G\(\6@rH:+
+A8,piFCbmg+<VeFAfrcMDfQsU2)Qp-@<,p%De=*&DBL-4@:UQ)@q]dp@qB^6+@^9i+D#e+D/a<&
+%144#+CJYp@:O(\+DGm>Anc-qATD?m+CT=6FD,5.A8c=!DIIF)+Cf>+DfQt=EZeb(D..'g0jkFt
++<Ve.Dfol,+F.mJ+ELt:+CJYp@:O(\+DGm>FD,5.D/XK;+DG\3DfTr.DKI"2Des?4+D>>,ANpV2
++:SZZBOQ!*@ps6t@V$ZmDf0,/FDi:9D/aN6G%De<BOr<-ASbpfFCeu*A8c=!DIIF)+Cf>+DfS&O
+$<Ld]@rHL+A0>u7Gp$sBEb-A7DfBB(F*),+@<?'k+DG\$B4W2oDII@,F(o\<@;KRpEbTW/D0$-n
+@;]TuD..3k+CT.1AS,OmEc`FGD]ik7@psIj+<kN:E,Tc=@;^02+DG\$B4W3+AS5^qDK?6o@;]Tu
+Eb0<6EbT$*+Cf>+DfQtAASbpfFD5Z2F!,(8Df$V<@;TR.+B3#gF!,=.Gp$R-%17;tEcbt;E-62B
+F_P`++DGF1.Vim4@;^-9+EM+1ARfgrDf0V=E,ol?AKYE*Ap%oB%13OO7W3;iDJs_A8K`4kCht5.
+D/a<&D.RU,+CQC6Bl.g*AKYYtF`M2;FD55-FDi:1G&M)*%16ZWB4W2qDes?4F"Rn/%14gB+@C'a
+E-686+EV:.+Dk[uDBNk0+EV:.+Co2-FCB&sAKYGnFE_;-DBO%7AKZ#%G9C=3A.8kg+<YQ1D.R6#
+@rH1%E\7e.%14jC+A$/fFD,5.A8-+,@;]Rd+C\o(G@b?'+CQC1@;TRd+D#(rAKYK$Ci=>:@;]Tu
+%144#+EV:.+ECn7+Cf>+DfQt4@;Kb$+E)CEF(o/r+CQC6FCB&t@<,m$A7]pu@<?4%D@Hpq+<YT7
++EV:.+E1b2@q[!%ARTI!F(K0!@rri8BOr<'Df^"CAo_I&F_,H4Cj?Hs+<VeF@q0Y%EbTE(+Du+8
+ARoFb+DtV)ARlonDes?4/g(T1%14mD+A$/fFD,5.A8-+,@;]Rd+D,%uCi^_CBln$&DBN@1F*(i.
+A79Lh+Co&,Bjl*tDf-!k+<VeJFD56#+EqOABHVD1AKYPpB4W2qDes?4/e&-s$8a@X6#:U\/0JtF
++EV:.Eb-A%Eb-A2D]iq9DIm?kAKYK$Ci=?8+ED%8@;0U%FD,5.DfTQ)Bl7?q%144#+EM+1ARfgr
+Df.0:$6UH#$:/_U@;L.5F!,[<+EqO9C`mD"G%De<D]ik7DegJ(F<GF/DL!@GASbpfFD5Z2F!,RC
++Co&*ATDX%DIj7aBkAK3AKYl%ARlp*D]j.GART?sFD,5.F*(i.A79Lh+Co&,Bjl*tDf-\.BleB)
+DI[6h/e&.1+:SYe$6UH6%143e$6UH6                                            ~>
 )
-showpass 0 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
+showpass 4 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:fromascii85__MK__JODobj 0 : 0
-1E\P#-p0UR/mg=U-QkcT;dVn1Ci=?8+B)<2?UJaJDfTnA=%,G_:jGEHCi=?8-RgSp4>8$7.4cl0
-0I/>$/1<V7,VUYu-p01/0I\P$4>J$8,Vh&.3&!-B2_I!G1,:jK0KCs41,(FB0JbCA/iGRC1H%0O
-2]sk00fUjC0K1UB2)I0M2`*6K+>PW*3&!-B2_I!G1,:jK0KCs41,(FB0JbCA/iGRC1H%0O2]sk0
-0fUjC0K1UB2)I0M2`*6K.4cl00I/>$/1<V7,VUYu-p01/0I\P$4>8$7.4cl00I\P$4>838-p014
-/1<V7.4dS8                                                                ~>
+1E\P#-p01/0I\P$4>8$7.4cl00I/>$/1<V7,VUYu-p0UR/mg=U-Qm,HB4#Ld+E1b2@q]Fp?Ys=$
+.4cl00I/>$/1<V7,VUYu-p01/0I\P$4>8$7.4cl01*A=t1,(FB0JbF=/iG^M1c.!D3B83;0JPO@
+1GLX;2)@-G2)6jF2'=Y.0fUjC0et@>3B8oQ1GUsN+>PW*3&!-C1+kF?2DR-F0K:p=/1<V7.4cl0
+0I\P$4>838-p014/3GT                                                       ~>
 )
 cocurrent 'base'  NB.{*JOD*}
 puttstamps_ijod_=: (((1;'upgrade JOD')"_)`putallts__MK__JODobj)@.(3 = (4!:0)<'putallts__MK__JODobj') NB.{*JOD*}
