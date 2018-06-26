@@ -1,4 +1,4 @@
-NB. JOD dictionary dump: 24 Jun 2018 16:21:46
+NB. JOD dictionary dump: 25 Jun 2018 20:57:11
 NB. Generated with JOD version; 0.9.996 - dev; 19; 23 Jun 2018 11:23:19
 NB. J version: j807/j64/windows/beta-e/commercial/www.jsoftware.com/2018-05-25T12:07:57
 NB.
@@ -58,7 +58,7 @@ SMUGPYTERSIZES=:<;._1 ' 3.5x5 4x5 4x5.3 4x6 4x8 5x5 5x6.7 5x7 5x10 5x30 7x10 8x8
 
 SVG_Colors=:148 2$'ColorName';'RGBValue';'aliceblue';240 248 255;'antiquewhite';250 235 215;'aqua';0 255 255;'aquamarine';127 255 212;'azure';240 255 255;'beige';245 245 220;'bisque';255 228 196;'black';0 0 0;'blanchedalmond';255 235 205;'blue';0 0 255;'blueviolet';138 43 226;'brown';165 42 42;'burlywood';222 184 135;'cadetblue';95 158 160;'chartreuse';127 255 0;'chocolate';210 105 30;'coral';255 127 80;'cornflowerblue';100 149 237;'cornsilk';255 248 220;'crimson';220 20 60;'cyan';0 255 255;'darkblue';0 0 139;'darkcyan';0 139 139;'darkgoldenrod';184 134 11;'darkgray';169 169 169;'darkgreen';0 100 0;'darkgrey';169 169 169;'darkkhaki';189 183 107;'darkmagenta';139 0 139;'darkolivegreen';85 107 47;'darkorange';255 140 0;'darkorchid';153 50 204;'darkred';139 0 0;'darksalmon';233 150 122;'darkseagreen';143 188 143;'darkslateblue';72 61 139;'darkslategray';47 79 79;'darkslategrey';47 79 79;'darkturquoise';0 206 209;'darkviolet';148 0 211;'deeppink';255 20 147;'deepskyblue';0 191 255;'dimgray';105 105 105;'dimgrey';105 105 105;'dodgerblue';30 144 255;'firebrick';178 34 34;'floralwhite';255 250 240;'forestgreen';34 139 34;'fuchsia';255 0 255;'gainsboro';220 220 220;'ghostwhite';248 248 255;'gold';255 215 0;'goldenrod';218 165 32;'gray';128 128 128;'grey';128 128 128;'green';0 128 0;'greenyellow';173 255 47;'honeydew';240 255 240;'hotpink';255 105 180;'indianred';205 92 92;'indigo';75 0 130;'ivory';255 255 240;'khaki';240 230 140;'lavender';230 230 250;'lavenderblush';255 240 245;'lawngreen';124 252 0;'lemonchiffon';255 250 205;'lightblue';173 216 230;'lightcoral';240 128 128;'lightcyan';224 255 255;'lightgoldenrodyellow';250 250 210;'lightgray';211 211 211;'lightgreen';144 238 144;'lightgrey';211 211 211;'lightpink';255 182 193;'lightsalmon';255 160 122;'lightseagreen';32 178 170;'lightskyblue';135 206 250;'lightslategray';119 136 153;'lightslategrey';119 136 153;'lightsteelblue';176 196 222;'lightyellow';255 255 224;'lime';0 255 0;'limegreen';50 205 50;'linen';250 240 230;'magenta';255 0 255;'maroon';128 0 0;'mediumaquamarine';102 205 170;'mediumblue';0 0 205;'mediumorchid';186 85 211;'mediumpurple';147 112 219;'mediumseagreen';60 179 113;'mediumslateblue';123 104 238;'mediumspringgreen';0 250 154;'mediumturquoise';72 209 204;'mediumvioletred';199 21 133;'midnightblue';25 25 112;'mintcream';245 255 250;'mistyrose';255 228 225;'moccasin';255 228 181;'navajowhite';255 222 173;'navy';0 0 128;'oldlace';253 245 230;'olive';128 128 0;'olivedrab';107 142 35;'orange';255 165 0;'orangered';255 69 0;'orchid';218 112 214;'palegoldenrod';238 232 170;'palegreen';152 251 152;'paleturquoise';175 238 238;'palevioletred';219 112 147;'papayawhip';255 239 213;'peachpuff';255 218 185;'peru';205 133 63;'pink';255 192 203;'plum';221 160 221;'powderblue';176 224 230;'purple';128 0 128;'red';255 0 0;'rosybrown';188 143 143;'royalblue';65 105 225;'saddlebrown';139 69 19;'salmon';250 128 114;'sandybrown';244 164 96;'seagreen';46 139 87;'seashell';255 245 238;'sienna';160 82 45;'silver';192 192 192;'skyblue';135 206 235;'slateblue';106 90 205;'slategray';112 128 144;'slategrey';112 128 144;'snow';255 250 250;'springgreen';0 255 127;'steelblue';70 130 180;'tan';210 180 140;'teal';0 128 128;'thistle';216 191 216;'tomato';255 99 71;'turquoise';64 224 208;'violet';238 130 238;'wheat';245 222 179;'white';255 255 255;'whitesmoke';245 245 245;'yellow';255 255 0;'yellowgreen';154 205 50
 
-UpdateLocalPresent_sql=:'update Album set LocalPresent = 1 where AlbumKey = ?'
+UpdateLocalPresent_sql=:'update Album set LocalPresent = 1 where AlbumKey in '
 
 VolumeXref=:3 3$<;._1 '|volid|volume|voldesc|0|c:\|c drive on local machine|1|d:\|usb drive(s) (usually mounts on d)'
 
@@ -91,8 +91,7 @@ rc=. 0  NB. assume failure
 try.
 
   if. -.fexist source,'mirror.db' do.
-    1 [ smoutput 'mirror.db database missing - continue build'
-    return.
+    1 [ smoutput 'mirror.db database missing - continue build' return.
   end.
 
   NB. read (mirror.db) bytes - this copy method
@@ -100,8 +99,7 @@ try.
   NB. will remain well below that threshold.
   bindb=. read source,'mirror.db'
   if. 1e6 > #bindb do.
-    rc [ smoutput 'mirror.db to small'
-    return.
+    rc [ smoutput 'mirror.db to small' return.
   end.
 
   NB. get today's backup files !(*)=. dir
@@ -109,7 +107,9 @@ try.
     NB. increment day backup - allow 100 per day
     files=. \:~ files
     bcnt=. _1&". _2 {. '-'&beforelaststr ;0{files
-    if. (bcnt < 0) +. 100 <: bcnt do. rc return. end.
+    if. (bcnt < 0) +. 100 <: bcnt do. 
+      rc [ smoutput 'backup count invalid' return.
+    end.
     bcnt=. ,'r<0>2.0' (8!:2) >:bcnt
     bakfile=. target,tdate,'-',bcnt,'-','mirror.db'
   end.
@@ -118,10 +118,9 @@ try.
   bindb write bakfile
 
   NB. clear source
-  if. x -: 1 do. 
+  if. (x -: 1) *. fexist bakfile do. 
     if. 0 > ferase source,'mirror.db' do.
-      rc [ smoutput 'unable to erase mirror.db' 
-      return.
+      rc [ smoutput 'unable to erase mirror.db' return.
     end.
   end.
 
@@ -163,7 +162,7 @@ NB.
 NB.   CreateMirrorXrefDb 'C:/SmugMirror/Documents/XrefDb/mirrorxref.db'
 
 NB. load 'data/sqlite'
-NB. (*)=. sqlclose__db sqlcreate_psqlite_ sqlcmd__db sqltables__db
+NB. (*)=. sqlclose__db sqlcreate_psqlite_ sqlcmd__dt sqltables__dt
 
 ('database exists -> ',y) assert -.fexist y
 
@@ -171,16 +170,16 @@ NB. parse schema sql - assumes ordered create statements delimited by ';'
 sql=. reb&.> <;._1 ';', (LF,' ') charsub CreateMirror_sql -. CR
 
 NB. create new empty database
-db=. sqlcreate_psqlite_ y
+dt=. sqlcreate_psqlite_ y
 
 NB. create tables
 for_create. sql do.
   create=. ;create
-  ('unable to create table ->',create) assert 0 = sqlcmd__db create
+  ('unable to create table ->',create) assert 0 = sqlcmd__dt create
 end.
 
-tabs=. sqltables__db ''
-tabs [ sqlclose__db ''
+tabs=. sqltables__dt ''
+tabs [ sqlclose__dt ''
 )
 
 LoadAlbum=:3 : 0
@@ -420,16 +419,23 @@ NB.   db LocalFrOnline 'BFs8q4'
 
 NB. fetch album
 'invalid (AlbumKey)' assert 0 < #y
-dat=. sqlparm__x LocalFile_sql;SQLITE_TEXT_psqlite_;y
+
+NB. use of sqlparm sometimes leaves databases open
+NB. dat=. sqlparm__x LocalFile_sql;SQLITE_TEXT_psqlite_;y
+sql=. ('/?/''',y,'''') changestr LocalFile_sql
+dat=. sqldict__x sql
+
+nofiles=. 0$<''
+if. 0 e. #&> 1 {"1 dat do. nofiles return. end.
 
 NB. table columns !(*)=. ImageKey OnlineImageFile LocalPath
-(;0{dat)=. ;1{dat
+(0 {"1 dat)=. boxopen&.> 1 {"1 dat
 
 if. #ImageKey do.
   pfx=. ImageKey ,&.> '-' ,&.> (b36casemask ImageKey) ,&.> '-'
   (<MIRRORHEAD) ,&.> LocalPath ,&.> '/' ,&.> pfx ,&.> ' -'&charsub&.> OnlineImageFile
 else.
-  0$<''
+  nofiles
 end.
 )
 
@@ -495,7 +501,7 @@ NB.
 NB.   'img xref'=. MirrorImageXrTables 'c:/SmugMirror/Mirror'
 
 NB. z locale !(*)=. dirtree
-img=. 0 0$a:
+img=. 2#<0 0$a:
 if. #files=. dirtree (tslash2 y),'manifest-*.txt' do.
 
   NB. for each manifest file there is a real date file
@@ -741,7 +747,7 @@ al=. sqldict__dt 'AlbumKey, AlbumName from Album'
 (0 {"1 al)=. 1 {"1 al
 if. 0=#AlbumKey do. rc [ sqlclose__dt '' return. end.
 
-okk=. 0$<''
+bok=. 0 #~ #AlbumKey
 for_pos. i.#AlbumKey do.
   ak=. ;pos{AlbumKey
   an=. ;pos{AlbumName
@@ -752,15 +758,24 @@ for_pos. i.#AlbumKey do.
     smoutput 'missing local album sample file(s)'
     smoutput >files # -.b
   else.
-    NB. all album files present - attempt flag set
-    NB. NOTE: probably faster to scan all files and issue one update
+    NB. all album files present
+    bok=. 1 pos} bok
+
+    NB. NOTE: faster to scan all files and issue one update
     NB. WARNING: this method leaves (mirror.db) open despite
     NB. being closed in all cases - this is not a problem when
     NB. run from (buildmirror.bat) that terminates the entire 
     NB. process and closes (mirror.db).
-    rc=. sqlparm__dt UpdateLocalPresent_sql;SQLITE_TEXT_psqlite_;ak
-    if. rc ~:0 do. break. end.
+    NB. rc=. sqlparm__dt UpdateLocalPresent_sql;SQLITE_TEXT_psqlite_;ak
+    NB. if. rc ~:0 do. break. end.
+
   end.
+end.
+
+NB. issue one update
+if. 1 e. bok do.
+  sql=. UpdateLocalPresent_sql,'(',(}.;',' ,&.> quote&.> bok#AlbumKey),')'
+  rc=. sqlcmd__dt sql 
 end.
 
 rc [ sqlclose__dt ''
@@ -770,7 +785,7 @@ b36casemask=:3 : 0
 
 NB.*b36casemask v-- case mask encoded as base 36 string.
 NB.
-NB. This verb must match the python  (case_mask_encode) function.
+NB. This verb must match the python (case_mask_encode)  function.
 NB. See the macro (base36_py) for details.
 NB.
 NB. monad:  blcl =. b36casemask blclKeys
@@ -1468,23 +1483,23 @@ zz=:zz,'AlbumXr LoadImageKeywordXr LoadLocalPath LoadMirrorXrefDb LoadOnlin'
 zz=:zz,'eImage LoadOnlineKeyword LocalFile_sql LocalFrOnline MACROSMirrorXr'
 zz=:zz,'ef MIRRORHEAD MirrorImageXrTables ROOTWORDSMirrorXref RealDateFrMan'
 zz=:zz,'ifest UpdateLocalPresent UpdateLocalPresent_sql afterlaststr afters'
-zz=:zz,'tr allwhitetrim assert b36casemask b36fd beforelaststr boxopen char'
-zz=:zz,'sub fboxname ferase fexist insqltd ofreq read readtd2 reb smoutput '
-zz=:zz,'tolower tslash2 write yyyymondd''),(<<;._1 '' SmugPyter MirrorImageXr'
-zz=:zz,'efTables MirrorImages MirrorKeywords MirrorMD5s NOPIXELSKEY NORATIO'
-zz=:zz,'KEY SMUGAREAROUND SMUGASPECTROUND SMUGPRINTDPI SMUGPRINTSIZES SMUGP'
-zz=:zz,'YTERSIZES allwhitetrim assert charsub degeotag dpiarearatio geotag '
-zz=:zz,'lastones ofreq printsizekey printsizestable readtd2 rekeyword round'
-zz=:zz,' sortprintsizes tlf tslash2''),<<;._1 '' smugpyter SMUGAREAROUND SMUG'
-zz=:zz,'ASPECTROUND SMUGPRINTDPI SMUGPRINTSIZES assert charsub printsizesta'
-zz=:zz,'ble round smugprintsizes''                                          '
-zz=:1030{.zz
+zz=:zz,'tr allwhitetrim assert b36casemask b36fd beforelaststr boxopen chan'
+zz=:zz,'gestr charsub fboxname ferase fexist insqltd ofreq quote read readt'
+zz=:zz,'d2 reb smoutput tolower tslash2 write yyyymondd''),(<<;._1 '' SmugPyt'
+zz=:zz,'er MirrorImageXrefTables MirrorImages MirrorKeywords MirrorMD5s NOP'
+zz=:zz,'IXELSKEY NORATIOKEY SMUGAREAROUND SMUGASPECTROUND SMUGPRINTDPI SMUG'
+zz=:zz,'PRINTSIZES SMUGPYTERSIZES allwhitetrim assert charsub degeotag dpia'
+zz=:zz,'rearatio geotag lastones ofreq printsizekey printsizestable readtd2'
+zz=:zz,' rekeyword round sortprintsizes tlf tslash2''),<<;._1 '' smugpyter SM'
+zz=:zz,'UGAREAROUND SMUGASPECTROUND SMUGPRINTDPI SMUGPRINTSIZES assert char'
+zz=:zz,'sub printsizestable round smugprintsizes''                          '
+zz=:1046{.zz
 showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:dec85__MK__JODobj 0 : 0
-0eje*+>P&o0H`,23AaHEEcQ)==E7tb:-pQ_9keWgDfSs#AS*'+/M/)TEb/[$AKYE!A0>],@:UL%
+0eje*+>P&o0H`/*2_[s?EcQ)==E7tb:-pQ_9keWgDfSs#AS*'+/M/)TEb/[$AKYE!A0>],@:UL%
 EGT?2AKYi(EcQ)=+CfG1F)rIEAS,LoASu!h+Cno&@:EYdAM+E!:-pQB$;No?+Eh=:@UX@mD)r+5
 :-pQB$;No?+DG_8ATDBk@q?d,DfTA:F"'-m%15is/g)_t/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
 /M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P++<VdL+<VdL
@@ -1501,40 +1516,41 @@ Ci<`m+Dkh5Ec5t-$;No?%15is/g+YEART[lA3(hg0JPP%F`&lk%15is/g)_t/M/P+/M/P+/M/P+
 DKTc3.6@tG%16TcART[l+EV%$Ch4_bDJX$)AP6T[GAhM4%144#-qe,sGAhM4+EV1>F<GI>F<GID
 Cht55EbTB!Ed8dCAU,g9$6UH694`B<Eb065ASu"'+DG_8AS5Rp+Du+>+Du=<CahFT$6UH6%16Tc
 ART[l+EV%$Ch4_TCgqO(%144#-p_ZYF_sc_Gp%3?G]Y'GDfd+>F_kk:E,oZ0@<-W9CLqcB%144#
-+A?]`@;JbKFD+66+DG_8AS5Rp+Du+>+Du=<Cb-#&+<Ve#De!3l:i^,gASuT4Bl8$(B4Z*+A7]@]
-F_l.J0I\O^$6UH69OW!a<H)JWFCeu*A79Rk/.Dq/+<Wsd@WcN_@;TQuFCf]=/.Dq/+<Wsd@WcNU
-ATM@%BlJ0.Df-\>AU&;J%144#+D,P4ASGdp+DYP6-qnPh@;JbKFD+66.3NYBAn?!oDI[7!+A?]`
-@;KLO@<?029Q+ELCf"P^BLtT@.6@tG%16TcART[l+EV%$Ch4_bDJX$)AP$`IB4VMZ+<W((D..'g
-94`AkFCf]=+Du+>+Du=<C`m\;Bl.:!Gp$m6Gq9C3+<Ve&DJX$)AP$`IB4XPHCh4`2AU&;J%144#
-+AHQjEc5tiD..'g7VQ[M+EV1>F=[k.+<VdmEarcsG%G2Y6o?*/AU&;J%144#+@1$XBPDX$A5d2g
-AKY])FCf)rE\%Y,+<Ve#@<?4*F_#&+Ao)BoF=[k.+<Ve#Df03%FEM,*+D,G.@<=%0$6UH66#:XW
-FEM,*+DG_8AS5Rp/.Dq/+<XI#BkM-t@;JJGBkM+$+DG_8AS5Rp/.Dq/+<XI#BkM-t@;K"ZA9;K-
-Bl8$(B4Z*7%144#+AucZCd_]RAKYMlFCd!4$6UH6<H)bm@:Vc7FCcS*@<?'3%144#+A?3bFB*9j
-@<?'k+Cno&ALn8t+<Ve,EbQY<AU&;J%144#+B3#sD.7BkBl$diC`mh2G]YJG$6UH694`BmDfTB0
-+EV1>F=[k.+<Vdo@;p=&Df-\>AU&;G3t2N+$=e*f@<?''FCAWpAKXQ]@:s.;CgqO(=E4iX+<W((
-D..'g94`AkFCf]=+Du+>+Du=<Cb-#&+<VdmCgqO(94`AkFCf]=+Du+>+Du=<Cb-\<$6UH6E,oZ0
-@<-W9CLqc>8SqmKAP6T[/0I5p@WcN\AU,^U%144#+D,P4ASGdp+DYP6-p_ZYF_sc_GpskVAS,Lo
-ASu!hF!*bb@WcN96#:"QD+eGc.4bo8+<Ve=DfTE'B5Si-AU,[qD..'g94`At+ED%*ATD@"@qB^(
-:Msu_DIlCV@:s."8SqmKAP6T[.4I=f$4R>PEb/[$AKZ)'@VfTu8SqmKAP6T[GAhM4=E4iX+<W((
-D..'g94`AkFCf]=+Du+>+Du=<Cb-#&+<Ve"AU/K<Eb$;7AU&;>DJsV>DKTc3/.Dq/+<YWDBl.:!
-Gp$m6Gpl7$@:s.EAU,gL94`BmDfTA;/.Dq/+<Y97Eb/rtDBN_+Gpl<sH$=1IA18XAAS,LoASu!h
-F!+7rCh[cu94`BmDfTA:94`BmDfTA;/.Dq/+<Y97Eb/rtDBN_+Gpl7$@:s.EAU,^IEb/ioEb0,u
-ATJtiDJX$)AP$`IB4WJ_D..'g94`At.6@tG%16TcART[l+EV%$Ch4__De!3l8SqmKAISth+=Kp%
-@ps1FD..'g8OO\8DKKH&ATAo2Dfd+>F_kk:E,oZ0@<-W9CLqcB%144#+A?]`@;JbKFD+66+DG_8
-AS5Rp+Du+>+Du=<Cb-#&+<Ve#De!3l8SqmKAO^BMAKZ)+G]Y'GDfd+>F_kkF%144#+A$EYB4X_I
-Gp%3?G]YJG$6UH6<+pDk@WP732'@!PG]YJG$6UH6AoD^$BkM<+CLqc>9Q+ELCf"P^BLtT@+ED%*
-ATD@"@qB^(9Q+ELCh6FOFD*'rDe!3l:gnHZ8OP!V3t2NG%13OO:-pQU:/=hX3ZrNXAKY_1F)c#1
-FCcS'A7TUr+DGm>Ap&09Gp$O)Dfp.EBQ&);F)c"=BlbD/DfT]'FED))/e&._67sBYF`))2DJ()5
-FCB&t@<,m$F)c"=E,oN3FEo!JEbTE5ATDi7DfQt7DId<rFD5W*+EMO=+DG^9H#IhG%15is/g+b7
-G&MD8FCcS9FEq\6+DGm>Ch[ZrCj@.FD]j">De+!#AKYK$A7Zm*BOQ!*A8c%#DC9NKGAhM;/e&._
-67sB[ATMr9H#IhG+EMO=+D,Y&B5M3tFE8RHD]iJ3DeW`)FD,B0+<koA@r#Y$@W-0.+q4lQDe!3l
-7VQ[M?ZU4'4ZX]60H`D!0I[G<F(K0!@rrh9@4k,g@:s.EAU,gL:Msu_DIlCV@:s.@Bl%?3+A?]`
-@;JbKFD)e/Ec5e;:Msu_DIlCV@:s-o@1<QXDJj$++DPh/DBMMf@:s.;CgqO(=E5Nn+E)-?@4k,g
-@:s.EAU,C]+CZrpD..'g94`AX$>FBqATAo.DeX)36#:"QD'3=2Df-\-/jX;_F_sc_Gp#6m@P0r_
-@WcN\AU+^lBl7g"EZf+8Bl5%eDe!3l:gnHZ+ClU5DBNIB9Q+ELCf"P^BLtT74Wn5e9Q+ELCf"P^
-BLtT7%17;mATD?)@kL&`@WcN\AU,C]+?p;BDfTB"EZeh:+AZlkBl7KRD..'g7VQ[M%14Nn$4R>B
-E+EC!AP@#P@;Jb\ATMF#FC0*/Ccsg%-ZsB=@<?''6#:"QD'3n2F<F7q@ps1MEb0<'DKI!a+>G!_
-BOu3q+@0gQF_sc_Gp#6m5:6                                                   ~>
++A?]`@;JbKFD+66+DG_8AS5Rp+Du+>+Du=<Cb-#&+<Ve#De!3l:i^,gASuT4Bl8$(B4Z*+@q]F`
+CFDkp@ps1MEb0<'DKJ$)0Hb:S+A?]`@;Jb\ATMF#F?McA.4bo8+<Ve#@<6NjE+EC!ARloo@<?'3
+%144#+@0gQF_sl^D.Oi3AU&;J%144#+@0gQF_sNXF(96)E-,f4DBO%4G]YJG$6UH6AoD^$BkM<+
+CLqc>9Q+ELCf"P^BLtT@+ED%*ATD@"@qB^(9Q+ELCh6FOFD*'rDe!3l:gnHZ8OP!V3t2N+$=e*f
+@<?''FCAWpAKXcdCh[cu8SqmKAISth+=Kfu@:s.EAU,D?AU&;>DJsV>DKTc3+E2@8D..I1+DYP6
+/.Dq/+<XHtCh[cu8SqmKAO^BMAKZ)+G]YJG$6UH66#pIKBm+&u9ggi]FCf]=/.Dq/+<Wsj@q]S"
+ARn_RH=\45DKKH&ATB=2$6UH69OW$WFEM,*+D,G.@<=%0$6UH69Q+f]BlnK.AKYT$Ddd`=%144#
++@0gcBlnK.AKY])FCf)rE\%Y,+<Ve&EbT0#DII?PASGdjF<G:8FCf)rE\%Y,+<Ve&EbT0#DII?_
+Bk2=!+DG_8AS5Rp/.Dq/+<XQn@;J>?FCcS*@<?'3%144#+B<AsDdd0E@<?''A79Rk/.Dq/+<X?d
+F*(E$A79RkA0>DkFCd!4$6UH6<H;drFCf]=/.Dq/+<XWsF_tT*@;0OXEblk?AU&;J%144#+A69k
+GAhM4F!,R9G]YJG$6UH66XaqUBl@l3FCf]=.6@tG%16TcART[l+EV%$Ch4_\D..'g6#:"QD-1ff
+$6UH>8SqmKAP6T[+EV1>F<GI>F<GIDChtX3$6UH66#:"QD+eGc+EV1>F<GI>F<GIDChtXF%144#
++E2@8D..I1+DYP6-qS8aB4X_IGq:((CgqO(94`At/.Dq/+<Y97Eb/rtDBN_+Gpksp@WcN\AU,^I
+Eb/ioEb0,uATJt[CgqO(-p_ZYF_sc_Gpt9R$6UH6AoD^$BkM<+CLqc>8SqmKAP6T[.3NYBAn?!o
+DI[7!+AZlkBl7KRD..'g-qS8aB4X_IGpt1(%13OO@rc-hFCcS:@:F%a+A$EYB4X_IH$=1IA6<j]
+$6UH>8SqmKAP6T[+EV1>F<GI>F<GIDChtX3$6UH694`BmDfTA2FCf]=+Du+>+Du=<Cb-#&+<VeG
+EbTB!Ed8dCAU,[qD..'g94`B"+A69kGAhM4.4bo8+<Ve=DfTE'B5Si-AU,[sAU/K<Eb$UAEb/io
+Eb0,uATJtiDJX$)AP6T[GAhM4-qe,sGAhM4.4bo8+<Ve=DfTE'B5Si-AU,[qD..'g94`At+ED%*
+ATD@"@qB^(:Msu_DIlCV@:s."8SqmKAP6T[.4I=f$4R>PEb/[$AKZ)'@VfTu9Q+ELCe8JPB4VMZ
++<W(+De!3l8SqmKAP#94Bl8$(B4Z*+DJsV>DKTc3+E2@8D..I1+DYP6/.Dq/+<X?r@ps1M@<?0S
+6m-2]FCf)rEZf7<F<GIDChtX3$6UH69Q+ELCe8JPB4XPHCh4`2AU&;>DJsV>DKTc3/.Dq/+<X6m
+@:s.EAU,D?AU&;>DJsV>DKTc3/.Dq/+<XWsF_tT/9ggi]FCf]=/.Dq/+<Y97Eb/rtDBN_+Gpl@)
+@ps1M@<?0S6n'7!AS,LoASu!hF!+.p@ps1b:gnHZ-qnPh@;JbKFD+66.4bo8+<Ve=DfTE'B5Si-
+AU,[qD..'g94`At+ED%*ATD@"@qB^(:Msu_DIlCV@:s."8SqmKAP6T[.4I=f$4R=k%13OO:-pQU
+:/=hX3ZrNXAKY_1F)c#1FCcS'A7TUr+DGm>Ap&09Gp$O)Dfp.EBQ&);F)c"=BlbD/DfT]'FED))
+/e&._67sBYF`))2DJ()5FCB&t@<,m$F)c"=E,oN3FEo!JEbTE5ATDi7DfQt7DId<rFD5W*+EMO=
++DG^9H#IhG%15is/g+b7G&MD8FCcS9FEq\6+DGm>Ch[ZrCj@.FD]j">De+!#AKYK$A7Zm*BOQ!*
+A8c%#DC9NKGAhM;/e&._67sB[ATMr9H#IhG+EMO=+D,Y&B5M3tFE8RHD]iJ3DeW`)FD,B0+<koA
+@r#Y$@W-0.+q4lQDe!3l7VQ[M?ZU4'4ZX]60H`D!0I[G<F(K0!@rrh9@4k,g@:s.EAU,gL:Msu_
+DIlCV@:s.@Bl%?3+A?]`@;JbKFD)e/Ec5e;:Msu_DIlCV@:s-o@1<QXDJj$++DPh/DBMMf@:s.;
+CgqO(=E5Nn+E)-?@4k,g@:s.EAU,C]+CZrpD..'g94`AX$>FBqATAo.DeX)36#:"QD'3=2Df-\-
+/jX;_F_sc_Gp#6m@P0r_@WcN\AU+^lBl7g"EZf+8Bl5%eDe!3l:gnHZ+ClU5DBNIB9Q+ELCf"P^
+BLtT74Wn5e9Q+ELCf"P^BLtT7%17;mATD?)@kL&`@WcN\AU,C]+?p;BDfTB"EZeh:+AZlkBl7KR
+D..'g7VQ[M%14Nn$4R>BE+EC!AP@#P@;Jb\ATMF#FC0*/Ccsg%-ZsB=@<?''6#:"QD'3n2F<F7q
+@ps1MEb0<'DKI!a+>G!_BOu3q+@0gQF_sc_Gp$g=+=@                               ~>
 )
 showpass 2 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
@@ -1586,27 +1602,27 @@ H$!V<<HD_l94`Bi-RgSp4>J$:3@$@60fUjB0Jb=<1b^a?3&i]:1,(FB0K([C/iGF@2D@$C0f^@3
 0f1m51,(FB0JY=?/ibUE0f(gF2BXb/0fUjF0K(OB3A`ZK3&3EL+>PW*3&!6G0J5:A1-%6H3A<32
 1,(FB0JP:9/iPXD0JtXH1,9t-0JPO@0ek@72`EHG1cR6K1a"P-0fUjA0JkC@2E!KN3&i]K+>PW*
 3&!*A2D.!D2_d*K1,^710JPO@0ebC92`<ZR3&E<L2]sk00fUjA0JkC@2D['G2`*?G+>PW*3&!*A
-1G1L@0JkIC3&;[40JPO@2DR*A2DmBJ1cIBO3$9t10fUjF1,LUA1,h!J0KCpL+>PW*3&!-B2_I!G
-1,:jK0KCs41,(FB0K([B/iGF<0fLsE2`)X40JPO@2DI-C2Dm6F2`EHN2]sk00fUjC0fL^D3B/lO
+1G1L@0JkIC3&;[40JPO@2DR-B3&NKL1,LmC2]sk00fUjF1,LUA1,h!J0KCpL+>PW*3&!-B2_I!G
+1,:jK0KCs41,(FB0K([D/iY^F2*!?H3&2U30JPO@2DI-C2Dm6F2`EHN2]sk00fUjC0fL^D3B/lO
 3&EKQ+>PW*3&!*A1G1L@0JkIC3&;[40JPO@2DR'@2E!HQ1c$pI0d&5*0fUjF1,CO@0eb=@2)@-5
 1,(FB0K([B/iGF<0fLsG2BXb/0fUjF1,CO@0eb=@2)R0E+>PW*3&!6G1G1R?0JPLD2)?s01,(FB
 0K([B/iGUF2)@6N0K1+00JPO@2DR'@2DHm?2`3TL1a"P-0fUjF1,CO@0ekUB0K:dB+>PW*3&!6G
-1G1O>3AiQL3&`f>1,(FB0K([B/iGOD3&3KO3Ar!80JPO@2DR'@2)I'D0etI<2]sk00fUjF1,CO?
-3A<EH3B9#Y+>PW*3&!6F3A*9M0JtgH2DI061,(FB0K([B/iGF<0fM!E2`2^50JPO@2D@$A2`NcS
+1G1O>3AiQL3&`f>1,(FB0K([D/iYXA2`NcU0Jjn-0JPO@2DR'@2)I'D0etI<2]sk00fUjF1,CO?
+3A<EH3B9#Y+>PW*3&!6F3A*9M0JtgH2DI061,(FB0K([D/iY^G3B0#V2_lL20JPO@2D@$A2`NcS
 2E<]P1a"P-0fUjA1GCF@1cI9K0Jb[D+>PW*3&!6F2_I!B2E3TP0f(d31,(FB0JP@;/iY^C2*!NK
 2)6:00JPO@0f(L93&NKP0JkRC1*A>+0fUjB0Jb=<1b^a?3&i]:1,(FB0JP:9/iPXD2*!QQ2E)a6
 0JPO@0ek@72`3BL3&<9L2'=Y.0fUjB0Jb=<1b^a?3&i]:1,(FB0K([C/iGFC3&`iU0K1+00JPO@
 2DR'@2DHm?2`<EL1*A>+0fUjF0f(F@2`EHG1G^dA+>PW*3&!6F1G1UF2_d$C2)?s01,(FB0JP7;
 /iP[E1,CXF1,9t-0JPO@0ebF:2`<KM1cR<J2BXb/0fUjC0Jb=?0JY@@1,_'H+>PW*3&!-B2_I!G
-1G^pJ3&_s80JPO@2DR*A2E3EK1H7<K2]sk00fUjF1,CO@2E<cT2)R-E+>PW*3&!*A1G1L@0JkIC
-3&;[40JPO@1GCa?2Dm<K3&`ZK3$9t10fUjF1,CO@0eb=@2Dd3K+>PW*3&!-C3%cm@1GgjC3ANB5
+1G^pJ3&_s80JPO@2DR-B3&EQK2DI3J1a"P-0fUjF1,U[D1c.'J0K:jD+>PW*3&!*A1G1L@0JkIC
+3&;[40JPO@1GCa?2Dm<K3&`ZK3$9t10fUjF1,U[D2)-pI0f_!E+>PW*3&!-C3%cm@1GgjC3ANB5
 1,(FB0K(XE/iGUC3B&cN0fL410JPO@2D@$A3&**F2)@-I2BXb/0fUjB0K(OD1,^mF1G^dB+>PW*
 3&!'@2(ggH2`NZP0ebL.1,(FB0JbC=/iPLA3&iZK0d&5*0fUjB0K(OD0f_*F1H%3I+>PW*3&!6E
 2D-sD0fV!G2DmB81,(FB0K([B/iGF<0fM!K0f^@30JPO@0ekL;2D[9H2)-jE+>PW*3&!'A0J5:C
 0ekLE1,^s31,(FB0JP:=/iGL>2)?sA0d&5*0fUjB0K(OD0K1^B3ANK81,(FB0JP7=/iPaG2E*BF
 2DH=00JPO@0ebF:2`<HH2E*HL0e"Y%4>JTF3&!'A0J5:C3AE?I3&`TC1G1[B1cIBM0JGIB3ArcN
 2)Qjt/i"P(.4cl01*A@u1,(FB0JY=</i5C>0JbOC2]sk00fUjA0f(F=1bpjI0Jah,0JPO@0ebC9
-2`EQI1G_!I0d&5*0fUjF1,LUA0f:jI2`W`<1,(FB0K(UB/iYUG3&WTM1G^./0JPO@2DQs=2`3EJ
+2`EQI1G_!I0d&5*0fUjF1,U[D1H@HP3AWK71,(FB0K(UB/iYUG3&WTM1G^./0JPO@2DQs=2`3EJ
 2DmHP3@QL-4>8$7.4cl01*AP%1,(FB0JbFB/ibjH3AN9C0Jah,0JPO@2DI!?3&!?H1H@3J2]sk0
 0fUjF0fL^C2)$a@2DR3I+>PW*3&!6G1G1O?3&NZO3ANH71,(FB0K([@/iP[E1bh!K1c$700JPO@
 2DR!>2`<NJ0JkXG1E\G,0fUjA0f(F=1GggC1b^^G+>PW*3&!'A1G1LA0f1^B3AWW;1,(FB0JbFB
