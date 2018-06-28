@@ -1,5 +1,5 @@
-NB. JOD dictionary dump: 18 Jun 2018 19:22:32
-NB. Generated with JOD version; 0.9.996 - dev; 18; 2 Jun 2018 12:14:04
+NB. JOD dictionary dump: 27 Jun 2018 17:34:01
+NB. Generated with JOD version; 0.9.996 - dev; 21; 26 Jun 2018 18:50:16
 NB. J version: j807/j64/windows/beta-e/commercial/www.jsoftware.com/2018-05-25T12:07:57
 NB.
 NB. Names & DidNums on current path
@@ -3514,7 +3514,7 @@ EcYr5DBNh>D.7's+D5D3ASrW#F`MM6DKI!LGpskZATDj+Df-[L+EM+*+Dbt6B-:`'@s)X"DKKc/
 +D#G#De*R"B-;;)@VfTu/Kf+GAKWCACh74!DJUaECi=3(+CoD#F_t]-FDbo,EcPu-11>!@ATDZs
 FCcS4F_t]1Bk&9%BleA=Ao_g,+EDUB+DbV,B67f0ASu!rA8,po+EV%$Ch4_@+EM+*+=M,DAo_p.
 ALVM8@WZX!DKBc8F(Jl)DJsZ8+=M2;@r!M9@;KauGB5ef-np!e.6T:+0mdk&/g,%M@N]Q)+>@_G
-A8bt"@;I&uEc5e;A7]7bD..6A+E(k&+>u,9De=$$EGT?)AKWC5Eb/l4+C]J8+ED%7F_l/@+DG^9
+A8bt"@;I&uEc5e;A7]7bD..6A+E(k&+>u,9De=$$EGT?)AKWC5Eb05>+C]J8+ED%7F_l/@+DG^9
 A7]glASu$mDJ()(Eb065ASu"'De=$$EGT?1FDl21ATD?m+C]86ARlp"BleA=Ao_I&F_,H#Gp$X3
 F*)G:@Wcd,Df-[L+EM+*+Dbt6B-:`'@s)X"DKKf7ASbpqB67g'ASu.&BQG;7AftT%DKKT*Dfp+D
 Ecl8@+E(j70dh#bBl5&&BlkJ6BleB;Df00-AT;6pF*)>@A7]dmA0>c4D.Ra%@j#T%F*&O:Eb065
