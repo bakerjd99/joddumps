@@ -9,9 +9,6 @@
 *.fsproj merge=union
 *.dbproj merge=union
 
-# ignore fossil db
-_FOSSIL_
-
 # Standard to msysgit
 *.doc	 diff=astextplain
 *.DOC	 diff=astextplain
