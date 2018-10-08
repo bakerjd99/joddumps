@@ -1,5 +1,5 @@
-NB. JOD dictionary dump:  7 Sep 2018 13:39:19
-NB. Generated with JOD version; 0.9.996 - dev-k; 27; 7 Sep 2018 09:32:28
+NB. JOD dictionary dump:  8 Oct 2018 12:49:49
+NB. Generated with JOD version; 0.9.996 - dev-k; 32; 8 Oct 2018 09:15:39
 NB. J version: j807/j64/windows/beta-k/commercial/www.jsoftware.com/2018-09-05T17:19:28
 NB.
 NB. Names & DidNums on current path
@@ -56,11 +56,74 @@ t=. toHOST (pause#LF,'pause') ,~ ctl '/\' charsub >'del '&,&.> dblquote b#d
 file [ t write file
 )
 
+dnl=:3 : 0
+
+NB.*dnl v-- list objects in dictionary database files.
+NB.
+NB. monad:  dnl clStr|zlStr
+NB.
+NB.   dnl ''        NB. list all words on path
+NB.   dnl 'pfx'     NB. list all words on path begining with 'pfx'
+NB.
+NB. dyad:  ilCodes dnl clStr|zlStr
+NB.
+NB.   4 2  dnl 'ex'  NB. macros with names containing 'ex'
+NB.   0 _3 dnl 'ugh' NB. path order listing of words ending with 'ugh'
+
+WORD dnl y
+:
+if. badrc msg=.x nlargs y do. msg return. end.
+
+NB. format standard (dnl) (x) options and search
+x=.  x , (<:#x)}. 1 , DEFAULT
+if. ({. x) e. OBJECTNC do. x dnlsearch__ST y else. jderr ERR001 end.
+)
+
+mm=:3 : 0
+
+NB.*mm v-- mnl model
+NB.
+NB. monad:  mm ??
+NB. dyad:  ?? mm ??
+
+0 1 mm y 
+:
+d=. >jread (JMASTER_ajod_,IJF_ajod_);2
+if. 0 e. $d do. jderr_ajod_ 'no registered dictionaries' return. end.
+if. fex_ajod_ f=. (tslash2_ajod_&.> 2{d) ,&.> <(;(0{x){JDFILES_ajod_),IJF_ajod_ do.
+  r=. 0 2$<''
+  g=. (<: 1{x){nlpfx`nlctn`nlsfx
+  y=. ,y
+  for_i. i.#f do.
+    o=. i{f
+    n=. i{0{d
+    if. 0=#p=. >jread o;4 do. continue. end.
+    r=. r , (p (g `: 6) y) ,. n
+  end.
+  ok_ajod_ < /:~ r
+else.
+  b=. (1:@(1!:4) ::0:) f
+  (jderr_ajod_ ERR073_ajodstore_) , f #~ -. b
+end.
+)
+
+nlctn=:([: I. [: +./"1 ([: ,: ]) E. [: > [) { [
+
+nlpfx=:[ #~ ([: < [: , ]) -:&> ([: # [: , ]) {.&.> [
+
+nlsfx=:[ #~ ([: < [: , ]) -:&> ([: - [: # [: , ]) {.&.> [
+
+odom=:#: i.@:(*/)
+
 showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:dec85__MK__JODobj 0 : 0
-3$9pu1*AIt1c/`S@WH0sGB.D>AKZ&-ASc0*F(96)E-*4EBOQ!*Eb0*+G%G_;A7]4jBk\]%Bl%@%~>
+1,pC6+>P&t+>bnt2'=b5+>k9#0H`4q2)$.0+>PfbAR][oBm4T3FCcS9BOu!r+EM%5BlJ/:FD,*)
++ED%1Dg#]5+Co%mEbT51Anc'mF)Gf(FDbu)D.Rc2@rH7,@;0UnDJ()5F^fE6EbTE(3Zoh43[\EG
+FE8R6@<?Q<.3NME@ruT2-Xh*EDJX9(G\pl2@q[!(Eb/isG\(q=-uX'HBl.R1AKYT'EZf1,EbAr+
+Ch[s4F"'-m-p'I;BOr;qD]iM-@<<kG+Du"7Ap>FG@W*W3Cia35D..NrBHV2$D.Oi2F_56"G\(qW
++=K<4-[B-2@3Bi(A76U+D^QtVDJXB+GT\AE@4,u(Df'E'Df''-ATAo:ATD6@+E(e/D'1SV1E\L~>
 )
 showpass 0 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
@@ -134,13 +197,18 @@ showpass 4 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:fromascii85__MK__JODobj 0 : 0
 1E\P#-p0UR/mg=U-Qk]k@WcNZD..'g6Z7*bFC0*/C`l#[@WcN\AU-acAT;j(DI[s!F)c"=9jqpb
-6#:"QD+SSQB4Z-kF)c"=A7]4jBk\qD/1<V7,VUYu-p01/0I\P$4>8$7.4cl04?G0&0d%hd7qHU\
-@:s4aA4($A@r$-.@WcC$A8Q%$Ec5u*@UX@$CMbFJ/1<V9+>b?!0JPO@3A<BE1bpsF3&`TK2BXb/
-0fUjI0K1UA2E!BK3AiWR+>PW*3&!?H2_HpE1c@*G0JYR01,(FB0K:dE/i5@>2)m9G3AVd50JPO@
-3A<BE1bpsF3&`TK2BXb/0fUjI0K1UA2E!BK3AiWR+>PW*3&!?H2_HpE1c@*G0JYR01,(FB0K:dE
-/i5@>2)m9G3AW*8-p01/0I\P$4>8$7.4cl00I/>$/1<V9+>Y8u0JPO@3A<BE2)I$C1-%'E0d&5*
-0fUjI0JkC<3&!$D0K2!N+>PW*3&!?H2(gaD2)-sI1cI971,(FB0KCgG/i>I?1,:jE1,0n,0JPO@
-3A<9B1H7'B2)$sL2]sk00fUjI0JtI?2)R*G2`*HN.4cl00I\P$4>838-p014/1<V7.4dS8    ~>
+6#:"QD+SSQB4Z-kF)c"=A7]4jBk\]#DJUG4D'3_4@ruT2DJX9(GT^m?F(TY>De*d'-RgSp4>8$7
+.4cl00I/>$/1<V7,VUYu-p0UR/mg=U-QkojDffE#B4YU@BOt[hF!+q7Bl%<sBl\64EaN9aF<G@9
+-RgSp4>J$60I/D-0fUjI0K1U@1,^pJ2_m0I+>PW*3&!?H2_HsG2Dd6N2)I<91,(FB0KCgG/i5FB
+2DR*C1,g=20JPO@3&*9C1c$mE3&!-K1E\G,0fUmA0K:[A0K(U>2_[*31,(FB0eb:@/i5LC2)[3L
+3&)O20JPOA0JGI=1bq!L1-%<O+>PW*3&**@3%d$D0Jb^K3&3K:1,(FB0eb:@/i5@@3AWKP0K1+0
+0JPO@3ANQH1bg[>1c@9O0d&5*0fUjI0K1U@1,^pJ2_m0I+>PW*3&!?H2_HsG2Dd6N2)I<91,(FB
+0KCgG/i5FB2DR*C1,g=20JPO@3&*9C1c$mE3&!-K1E\G,0fUmA0K:[A0K(U>2_[*31,(FB0eb:@
+/i>CE3&!-H1,C%.0JPOA0JGI=1bq!L1-%<O+>PW*3&**@3%d$D0Jb^K3&3K:1,(FB0eb:@/i5@@
+3AWKP0K1+00JPO@3ANQH1bg[>1c@9O0e"Y%4>8$7.4cl00I/>$/1<V7,VUYu-p07-1F+_00fUjI
+0K1UA1bga@3AE9D+>PW*3&!?H1bLRD0JG@<2`Wf>1,(FB0KCgE/i>LD0f:mH2`2^50JPO@3A<BE
+2)I$C1-%'E0d&5*0fUjI0JkC<3&!$D0K2!N+>PW*3&!?H2(gaD2)-sI1cI9@/1<V7.4cl00I\P$
+4>838-p014/3GT                                                            ~>
 )
 cocurrent 'base'  NB.{*JOD*}
 puttstamps_ijod_=: (((1;'upgrade JOD')"_)`putallts__MK__JODobj)@.(3 = (4!:0)<'putallts__MK__JODobj') NB.{*JOD*}
