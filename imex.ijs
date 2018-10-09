@@ -1,5 +1,5 @@
-NB. JOD dictionary dump:  9 Oct 2018 10:56:53
-NB. Generated with JOD version; 0.9.996 - dev-k; 34; 9 Oct 2018 10:38:17
+NB. JOD dictionary dump:  9 Oct 2018 14:40:04
+NB. Generated with JOD version; 0.9.996 - dev-k; 36; 9 Oct 2018 14:21:06
 NB. J version: j807/j64/windows/release/commercial/www.jsoftware.com/2018-10-05T10:39:42
 NB.
 NB. Names & DidNums on current path
@@ -33,6 +33,8 @@ NB. dyad:  ilCodes mnl clStr | zlStr
 NB.
 NB.   4 2  mnl 'ex'  NB. macros with names containing 'ex' in all registered dictionaries
 NB.   2 3  mnl 'et'  NB. groups with names ending with 'et' in all registered dictionaries
+NB.   4 3 25 mnl '_sql' NB. text macros with names ending '_sql'
+NB.   0 _1 mnl 'se'  NB. duplicate words starting with 'se'
 
 WORD mnl y
 :
@@ -43,10 +45,17 @@ elseif. badil x do. jderr ERR001  NB. errmsg: invalid option(s)
 elseif. do.
 
   NB. format standard (mnl) (x) options and search
-  x=.  3 {. x , (<:#x)}. 1 , DEFAULT
+  x=. 3 {. x , (<:#x)}. 1 , DEFAULT
   
-  NB. NIMP: validate options
+  NB. validate options
+  if. -.((1{x) e. PATOPS) *. (0{x) e. OBJECTNC do. jderr ERR001 return. end.
 
+  if. MACRO = 0{x do.
+    if. -.(2{x) e. MACROTYPE,DEFAULT           do. jderr ERR001 return. end.
+  elseif. MACRO ~: 0{x do.
+    if. -.(2{x) e. (OBJECTNC,DEFAULT) -. MACRO do. jderr ERR001 return. end.
+  end.
+  
   x mnlsearch__ST y
 end.
 )
@@ -90,7 +99,7 @@ cocurrent SO__JODobj NB.{*JOD*}
 zz=:fromascii85__MK__JODobj 0 : 0
 1E\P#-p0UR/mg=U-QlrBE,K*$ATJu2DJUG4DJXB*@<,jk-RgSp4>8$7.4cl00I/>$/1<V7,VUYu
 -p01/0I\P$4>J$8,Vh&.3&**@3%d*F2)d?M3&WQ81,(FB0eb:A/i5C>1,CXF0d&5*0fUmA0KCaB
-1b^mL3&iZJ+>PW*3&**@3A*-G0ekI?3&EH71,(FB0eb:A/i5F>0JGLG3&2U30JPOA0JGL>1c7!B
+1b^mL3&iZJ+>PW*3&**@3A*-G0ekI?3&EH71,(FB0eb:A/iGF=0KD*Q1c6C20JPOA0JGL>1c7!B
 1G^sD1+=b&4>8$7.4cl00I/>$/1<V7,VUYu-p01/0I\P$4>838-p014/1<V7.4cl00I\P80E  ~>
 )
 cocurrent 'base'  NB.{*JOD*}
