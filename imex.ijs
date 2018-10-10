@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 NB. JOD dictionary dump:  8 Oct 2018 19:03:37
 NB. Generated with JOD version; 0.9.996 - dev; 32; 8 Oct 2018 18:33:10
+=======
+NB. JOD dictionary dump:  9 Oct 2018 14:40:04
+NB. Generated with JOD version; 0.9.996 - dev-k; 36; 9 Oct 2018 14:21:06
+>>>>>>> 026928634c61f920fb9d38ce158332b2c25d208a
 NB. J version: j807/j64/windows/release/commercial/www.jsoftware.com/2018-10-05T10:39:42
 NB.
 NB. Names & DidNums on current path
@@ -18,10 +23,11 @@ soclear_z_=: '0 0 $ clearso__MK__JODobj 0' NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 
 
-AlbumImageCount_sql=:115 101 108 101 99 116 32 99 111 117 110 116 40 49 41 32 97 115 32 73 109 97 103 101 67 111 117 110 116 44 32 98 46 65 108 98 117 109 78 97 109 101 32 102 114 111 109 32 73 109 97 103 101 65 108 98 117 109 88 114 32 97 32 10 105 110 110 101 114 32 106 111 105 110 32 65 108 98 117 109 32 98 32 111 110 32 97 46 65 108 98 117 109 75 101 121 32 61 32 98 46 65 108 98 117 109 75 101 121 32 32 10 103 114 111 117 112 32 98 121 32 97 46 65 108 98 117 109 75 101 121 32 10 111 114 100 101 114 32 98 121 32 99 111 117 110 116 40 49 41 32 100 101 115 99 10{a.
+dupnames=:] #~ (0 {"1 ]) e. (0 {"1 ]) #~ [: -. [: ~: 0 {"1 ]
 
-AlbumKeyFrequency_sql=:115 101 108 101 99 116 32 65 108 98 117 109 78 97 109 101 44 32 100 46 75 101 121 119 111 114 100 44 32 99 111 117 110 116 40 49 41 32 97 115 32 65 108 98 117 109 70 114 101 113 117 101 110 99 121 44 32 75 101 121 70 114 101 113 117 101 110 99 121 32 102 114 111 109 32 79 110 108 105 110 101 73 109 97 103 101 32 97 10 105 110 110 101 114 32 106 111 105 110 32 73 109 97 103 101 65 108 98 117 109 88 114 32 98 32 111 110 32 98 46 73 109 97 103 101 75 101 121 32 61 32 97 46 73 109 97 103 101 75 101 121 10 105 110 110 101 114 32 106 111 105 110 32 65 108 98 117 109 32 99 32 111 110 32 99 46 65 108 98 117 109 75 101 121 32 61 32 98 46 65 108 98 117 109 75 101 121 10 105 110 110 101 114 32 106 111 105 110 32 73 109 97 103 101 75 101 121 119 111 114 100 88 114 32 100 32 111 110 32 100 46 73 109 97 103 101 75 101 121 32 61 32 97 46 73 109 97 103 101 75 101 121 10 105 110 110 101 114 32 106 111 105 110 32 79 110 108 105 110 101 75 101 121 119 111 114 100 32 101 32 111 110 32 101 46 75 101 121 119 111 114 100 32 61 32 100 46 75 101 121 119 111 114 100 10 119 104 101 114 101 32 99 46 65 108 98 117 109 75 101 121 32 61 32 34 110 118 102 107 80 122 34 10 103 114 111 117 112 32 98 121 32 100 46 75 101 121 119 111 114 100 10 111 114 100 101 114 32 98 121 32 99 111 117 110 116 40 49 41 32 100 101 115 99 10{a.
+mnl=:3 : 0
 
+<<<<<<< HEAD
 DEBRIIBAT=:'c:/temp/debrii.bat'
 
 DEBRIIEXT=:<;._1 ' txt pdf sql'
@@ -308,54 +314,80 @@ file [ t write file
 dnl=:3 : 0
 
 NB.*dnl v-- list objects in dictionary database files.
+=======
+NB.*mnl v-- list objects in all registered dictionaries.
+>>>>>>> 026928634c61f920fb9d38ce158332b2c25d208a
 NB.
-NB. monad:  dnl clStr|zlStr
+NB. monad:  mnl clStr | zlStr
 NB.
-NB.   dnl ''        NB. list all words on path
-NB.   dnl 'pfx'     NB. list all words on path begining with 'pfx'
+NB.   mnl ''     NB. list all words in all registered dictionaries
+NB.   mnl 'pfx'  NB. list all words in all registered dictionaries starting with 'pfx'
 NB.
-NB. dyad:  ilCodes dnl clStr|zlStr
+NB. dyad:  ilCodes mnl clStr | zlStr
 NB.
-NB.   4 2  dnl 'ex'  NB. macros with names containing 'ex'
-NB.   0 _3 dnl 'ugh' NB. path order listing of words ending with 'ugh'
+NB.   4 2  mnl 'ex'  NB. macros with names containing 'ex' in all registered dictionaries
+NB.   2 3  mnl 'et'  NB. groups with names ending with 'et' in all registered dictionaries
+NB.   4 3 25 mnl '_sql' NB. text macros with names ending '_sql'
+NB.   0 _1 mnl 'se'  NB. duplicate words starting with 'se'
 
-WORD dnl y
+WORD mnl y
 :
-if. badrc msg=.x nlargs y do. msg return. end.
 
-NB. format standard (dnl) (x) options and search
-x=.  x , (<:#x)}. 1 , DEFAULT
-if. ({. x) e. OBJECTNC do. x dnlsearch__ST y else. jderr ERR001 end.
-)
+NB. (mnl) does not require open dictionaries 
+if.     badcl y do. jderr ERR010  NB. errmsg: invalid name pattern
+elseif. badil x do. jderr ERR001  NB. errmsg: invalid option(s)
+elseif. do.
 
-mm=:3 : 0
+  NB. format standard (mnl) (x) options and search
+  x=. 3 {. x , (<:#x)}. 1 , DEFAULT
+  
+  NB. validate options
+  if. -.((1{x) e. PATOPS) *. (0{x) e. OBJECTNC do. jderr ERR001 return. end.
 
-NB.*mm v-- mnl model
-NB.
-NB. monad:  mm ??
-NB. dyad:  ?? mm ??
-
-0 1 mm y 
-:
-d=. >jread (JMASTER_ajod_,IJF_ajod_);2
-if. 0 e. $d do. jderr_ajod_ 'no registered dictionaries' return. end.
-if. fex_ajod_ f=. (tslash2_ajod_&.> 2{d) ,&.> <(;(0{x){JDFILES_ajod_),IJF_ajod_ do.
-  r=. 0 2$<''
-  g=. (<: 1{x){nlpfx`nlctn`nlsfx
-  y=. ,y
-  for_i. i.#f do.
-    o=. i{f
-    n=. i{0{d
-    if. 0=#p=. >jread o;4 do. continue. end.
-    r=. r , (p (g `: 6) y) ,. n
+  if. MACRO = 0{x do.
+    if. -.(2{x) e. MACROTYPE,DEFAULT           do. jderr ERR001 return. end.
+  elseif. MACRO ~: 0{x do.
+    if. -.(2{x) e. (OBJECTNC,DEFAULT) -. MACRO do. jderr ERR001 return. end.
   end.
-  ok_ajod_ < /:~ r
-else.
-  b=. (1:@(1!:4) ::0:) f
-  (jderr_ajod_ ERR073_ajodstore_) , f #~ -. b
+  
+  x mnlsearch__ST y
 end.
 )
 
+mnlsearch=:4 : 0
+
+NB.*mnlsearch v-- mnl model
+NB.
+NB. dyad:  ?? mnlsearch ??
+
+NB. NIMP: validate reads
+
+d=. >jread (JMASTER,IJF);CNMFTAB
+if. 0 e. $d do. jderr 'no registered dictionaries' return. end.
+if. fex f=. (tslash2&.> 2{d) ,&.> <(;(0{x){JDFILES),IJF do.
+  r=. 0 2$<''
+  g=. (<: |1{x){nlpfx`nlctn`nlsfx
+  b=. DEFAULT ~: 2{x
+  y=. ,y
+  for_i. i.#f do.
+    o=. i{f [ n=. i{0{d
+    p=. >jread o;CNLIST
+    if. b do.
+      s=. >jread o;CNCLASS 
+      p=. p #~ s = 2{x
+    end.
+    if. 0=#p do. continue. end.
+    r=. r , (p (g `: 6) y) ,. n
+  end.
+  r=. /:~ r
+  if. 0 > 1{x do. ok <dupnames r else. ok <r end. 
+else.
+  b=. (1:@(1!:4) ::0:) f
+  (jderr ERR073) , f #~ -. b
+end.
+)
+
+<<<<<<< HEAD
 nlctn=:([: I. [: +./"1 ([: ,: ]) E. [: > [) { [
 
 nlpfx=:[ #~ ([: < [: , ]) -:&> ([: # [: , ]) {.&.> [
@@ -1788,6 +1820,20 @@ zz=:zz,'te writetd2 yyyymondd''),<<;._1 '' debrii DEBRIIBAT DEBRIIEXT charsub'
 zz=:zz,' ctl dblquote debrii justext toCRLF toHOST toJ tolower write''      '
 zz=:932{.zz
 showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
+=======
+showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
+".soclear NB.{*JOD*}
+cocurrent SO__JODobj NB.{*JOD*}
+zz=:fromascii85__MK__JODobj 0 : 0
+1E\P#-p0UR/mg=U-QlrBE,K*$ATJu2DJUG4DJXB*@<,jk-RgSp4>8$7.4cl00I/>$/1<V7,VUYu
+-p01/0I\P$4>J$8,Vh&.3&**@3%d*F2)d?M3&WQ81,(FB0eb:A/i5C>1,CXF0d&5*0fUmA0KCaB
+1b^mL3&iZJ+>PW*3&**@3A*-G0ekI?3&EH71,(FB0eb:A/iGF=0KD*Q1c6C20JPOA0JGL>1c7!B
+1G^sD1+=b&4>8$7.4cl00I/>$/1<V7,VUYu-p01/0I\P$4>838-p014/1<V7.4cl00I\P80E  ~>
+)
+cocurrent 'base'  NB.{*JOD*}
+puttstamps_ijod_=: (((1;'upgrade JOD')"_)`putallts__MK__JODobj)@.(3 = (4!:0)<'putallts__MK__JODobj') NB.{*JOD*}
+showpass puttstamps ".".'zz_',SOLOCALE,'_' [ cocurrent 'base'  NB.{*JOD*}
+>>>>>>> 026928634c61f920fb9d38ce158332b2c25d208a
 ".soclear NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
