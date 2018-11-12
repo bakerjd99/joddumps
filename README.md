@@ -36,7 +36,7 @@ simpler.
 
 3. Run the dump scripts:
 
-        od 'utils'
+        od 'utils' [ 3 od ''  NB. insure closed dictionaries
         0!:0 <'c:/joddumps/utils.ijs'
         0 globs&> }. revo ''  NB. rebuilds cross references
         3 od ''
