@@ -1,4 +1,4 @@
-NB. JOD dictionary dump:  4 Dec 2018 19:36:20
+NB. JOD dictionary dump: 10 Dec 2018 19:58:25
 NB. Generated with JOD version; 0.9.998 - dev; 1; 27 Oct 2018 15:26:08
 NB. J version: j807/j64/windows/release/commercial/www.jsoftware.com/2018-10-05T10:39:42
 NB.
@@ -20,7 +20,7 @@ cocurrent SO__JODobj NB.{*JOD*}
 
 AlbumXref=:,:<;._1 ' albumid mirpathid albumsize albumname'
 
-CSS_Colors=:141 3$'ColorName';'HexValue';'RGBValue';'aliceblue';'#F0F8FF';240 248 255;'antiquewhite';'#FAEBD7';250 235 215;'aqua';'#00FFFF';0 255 255;'aquamarine';'#7FFFD4';127 255 212;'azure';'#F0FFFF';240 255 255;'beige';'#F5F5DC';245 245 220;'bisque';'#FFE4C4';255 228 196;'black';'#000000';0 0 0;'blanchedalmond';'#FFEBCD';255 235 205;'blue';'#0000FF';0 0 255;'blueviolet';'#8A2BE2';138 43 226;'brown';'#A52A2A';165 42 42;'burlywood';'#DEB887';222 184 135;'cadetblue';'#5F9EA0';95 158 160;'chartreuse';'#7FFF00';127 255 0;'chocolate';'#D2691E';210 105 30;'coral';'#FF7F50';255 127 80;'cornflowerblue';'#6495ED';100 149 237;'cornsilk';'#FFF8DC';255 248 220;'crimson';'#DC143C';220 20 60;'cyan';'#00FFFF';0 255 255;'darkblue';'#00008B';0 0 139;'darkcyan';'#008B8B';0 139 139;'darkgoldenrod';'#B8860B';184 134 11;'darkgray';'#A9A9A9';169 169 169;'darkgreen';'#006400';0 100 0;'darkkhaki';'#BDB76B';189 183 107;'darkmagenta';'#8B008B';139 0 139;'darkolivegreen';'#556B2F';85 107 47;'darkorange';'#FF8C00';255 140 0;'darkorchid';'#9932CC';153 50 204;'darkred';'#8B0000';139 0 0;'darksalmon';'#E9967A';233 150 122;'darkseagreen';'#8FBC8F';143 188 143;'darkslateblue';'#483D8B';72 61 139;'darkslategray';'#2F4F4F';47 79 79;'darkturquoise';'#00CED1';0 206 209;'darkviolet';'#9400D3';148 0 211;'deeppink';'#FF1493';255 20 147;'deepskyblue';'#00BFFF';0 191 255;'dimgray';'#696969';105 105 105;'dodgerblue';'#1E90FF';30 144 255;'firebrick';'#B22222';178 34 34;'floralwhite';'#FFFAF0';255 250 240;'forestgreen';'#228B22';34 139 34;'fuchsia';'#FF00FF';255 0 255;'gainsboro';'#DCDCDC';220 220 220;'ghostwhite';'#F8F8FF';248 248 255;'gold';'#FFD700';255 215 0;'goldenrod';'#DAA520';218 165 32;'gray';'#808080';128 128 128;'green';'#008000';0 128 0;'greenyellow';'#ADFF2F';173 255 47;'honeydew';'#F0FFF0';240 255 240;'hotpink';'#FF69B4';255 105 180;'indianred';'#CD5C5C';205 92 92;'indigo';'#4B0082';75 0 130;'ivory';'#FFFFF0';255 255 240;'khaki';'#F0E68C';240 230 140;'lavender';'#E6E6FA';230 230 250;'lavenderblush';'#FFF0F5';255 240 245;'lawngreen';'#7CFC00';124 252 0;'lemonchiffon';'#FFFACD';255 250 205;'lightblue';'#ADD8E6';173 216 230;'lightcoral';'#F08080';240 128 128;'lightcyan';'#E0FFFF';224 255 255;'lightgoldenrodyellow';'#FAFAD2';250 250 210;'lightgreen';'#90EE90';144 238 144;'lightgrey';'#D3D3D3';211 211 211;'lightpink';'#FFB6C1';255 182 193;'lightsalmon';'#FFA07A';255 160 122;'lightseagreen';'#20B2AA';32 178 170;'lightskyblue';'#87CEFA';135 206 250;'lightslategray';'#778899';119 136 153;'lightsteelblue';'#B0C4DE';176 196 222;'lightyellow';'#FFFFE0';255 255 224;'lime';'#00FF00';0 255 0;'limegreen';'#32CD32';50 205 50;'linen';'#FAF0E6';250 240 230;'magenta';'#FF00FF';255 0 255;'maroon';'#800000';128 0 0;'mediumaquamarine';'#66CDAA';102 205 170;'mediumblue';'#0000CD';0 0 205;'mediumorchid';'#BA55D3';186 85 211;'mediumpurple';'#9370DB';147 112 219;'mediumseagreen';'#3CB371';60 179 113;'mediumslateblue';'#7B68EE';123 104 238;'mediumspringgreen';'#00FA9A';0 250 154;'mediumturquoise';'#48D1CC';72 209 204;'mediumvioletred';'#C71585';199 21 133;'midnightblue';'#191970';25 25 112;'mintcream';'#F5FFFA';245 255 250;'mistyrose';'#FFE4E1';255 228 225;'moccasin';'#FFE4B5';255 228 181;'navajowhite';'#FFDEAD';255 222 173;'navy';'#000080';0 0 128;'oldlace';'#FDF5E6';253 245 230;'olive';'#808000';128 128 0;'olivedrab';'#6B8E23';107 142 35;'orange';'#FFA500';255 165 0;'orangered';'#FF4500';255 69 0;'orchid';'#DA70D6';218 112 214;'palegoldenrod';'#EEE8AA';238 232 170;'palegreen';'#98FB98';152 251 152;'paleturquoise';'#AFEEEE';175 238 238;'palevioletred';'#DB7093';219 112 147;'papayawhip';'#FFEFD5';255 239 213;'peachpuff';'#FFDAB9';255 218 185;'peru';'#CD853F';205 133 63;'pink';'#FFC0CB';255 192 203;'plum';'#DDA0DD';221 160 221;'powderblue';'#B0E0E6';176 224 230;'purple';'#800080';128 0 128;'red';'#FF0000';255 0 0;'rosybrown';'#BC8F8F';188 143 143;'royalblue';'#4169E1';65 105 225;'saddlebrown';'#8B4513';139 69 19;'salmon';'#FA8072';250 128 114;'sandybrown';'#F4A460';244 164 96;'seagreen';'#2E8B57';46 139 87;'seashell';'#FFF5EE';255 245 238;'sienna';'#A0522D';160 82 45;'silver';'#C0C0C0';192 192 192;'skyblue';'#87CEEB';135 206 235;'slateblue';'#6A5ACD';106 90 205;'slategray';'#708090';112 128 144;'snow';'#FFFAFA';255 250 250;'springgreen';'#00FF7F';0 255 127;'steelblue';'#4682B4';70 130 180;'tan';'#D2B48C';210 180 140;'teal';'#008080';0 128 128;'thistle';'#D8BFD8';216 191 216;'tomato';'#FF6347';255 99 71;'turquoise';'#40E0D0';64 224 208;'violet';'#EE82EE';238 130 238;'wheat';'#F5DEB3';245 222 179;'white';'#FFFFFF';255 255 255;'whitesmoke';'#F5F5F5';245 245 245;'yellow';'#FFFF00';255 255 0;'yellowgreen';'#9ACD32';154 205 50
+CSS_Colors=:141 4$'ColorName';'HexValue';'DECValue';'RGB';'aliceblue';'#F0F8FF';15792383;240 248 255;'antiquewhite';'#FAEBD7';16444375;250 235 215;'aqua';'#00FFFF';65535;0 255 255;'aquamarine';'#7FFFD4';8388564;127 255 212;'azure';'#F0FFFF';15794175;240 255 255;'beige';'#F5F5DC';16119260;245 245 220;'bisque';'#FFE4C4';16770244;255 228 196;'black';'#000000';0;0 0 0;'blanchedalmond';'#FFEBCD';16772045;255 235 205;'blue';'#0000FF';255;0 0 255;'blueviolet';'#8A2BE2';9055202;138 43 226;'brown';'#A52A2A';10824234;165 42 42;'burlywood';'#DEB887';14596231;222 184 135;'cadetblue';'#5F9EA0';6266528;95 158 160;'chartreuse';'#7FFF00';8388352;127 255 0;'chocolate';'#D2691E';13789470;210 105 30;'coral';'#FF7F50';16744272;255 127 80;'cornflowerblue';'#6495ED';6591981;100 149 237;'cornsilk';'#FFF8DC';16775388;255 248 220;'crimson';'#DC143C';14423100;220 20 60;'cyan';'#00FFFF';65535;0 255 255;'darkblue';'#00008B';139;0 0 139;'darkcyan';'#008B8B';35723;0 139 139;'darkgoldenrod';'#B8860B';12092939;184 134 11;'darkgray';'#A9A9A9';11119017;169 169 169;'darkgreen';'#006400';25600;0 100 0;'darkkhaki';'#BDB76B';12433259;189 183 107;'darkmagenta';'#8B008B';9109643;139 0 139;'darkolivegreen';'#556B2F';5597999;85 107 47;'darkorange';'#FF8C00';16747520;255 140 0;'darkorchid';'#9932CC';10040012;153 50 204;'darkred';'#8B0000';9109504;139 0 0;'darksalmon';'#E9967A';15308410;233 150 122;'darkseagreen';'#8FBC8F';9419919;143 188 143;'darkslateblue';'#483D8B';4734347;72 61 139;'darkslategray';'#2F4F4F';3100495;47 79 79;'darkturquoise';'#00CED1';52945;0 206 209;'darkviolet';'#9400D3';9699539;148 0 211;'deeppink';'#FF1493';16716947;255 20 147;'deepskyblue';'#00BFFF';49151;0 191 255;'dimgray';'#696969';6908265;105 105 105;'dodgerblue';'#1E90FF';2003199;30 144 255;'firebrick';'#B22222';11674146;178 34 34;'floralwhite';'#FFFAF0';16775920;255 250 240;'forestgreen';'#228B22';2263842;34 139 34;'fuchsia';'#FF00FF';16711935;255 0 255;'gainsboro';'#DCDCDC';14474460;220 220 220;'ghostwhite';'#F8F8FF';16316671;248 248 255;'gold';'#FFD700';16766720;255 215 0;'goldenrod';'#DAA520';14329120;218 165 32;'gray';'#808080';8421504;128 128 128;'green';'#008000';32768;0 128 0;'greenyellow';'#ADFF2F';11403055;173 255 47;'honeydew';'#F0FFF0';15794160;240 255 240;'hotpink';'#FF69B4';16738740;255 105 180;'indianred';'#CD5C5C';13458524;205 92 92;'indigo';'#4B0082';4915330;75 0 130;'ivory';'#FFFFF0';16777200;255 255 240;'khaki';'#F0E68C';15787660;240 230 140;'lavender';'#E6E6FA';15132410;230 230 250;'lavenderblush';'#FFF0F5';16773365;255 240 245;'lawngreen';'#7CFC00';8190976;124 252 0;'lemonchiffon';'#FFFACD';16775885;255 250 205;'lightblue';'#ADD8E6';11393254;173 216 230;'lightcoral';'#F08080';15761536;240 128 128;'lightcyan';'#E0FFFF';14745599;224 255 255;'lightgoldenrodyellow';'#FAFAD2';16448210;250 250 210;'lightgreen';'#90EE90';9498256;144 238 144;'lightgrey';'#D3D3D3';13882323;211 211 211;'lightpink';'#FFB6C1';16758465;255 182 193;'lightsalmon';'#FFA07A';16752762;255 160 122;'lightseagreen';'#20B2AA';2142890;32 178 170;'lightskyblue';'#87CEFA';8900346;135 206 250;'lightslategray';'#778899';7833753;119 136 153;'lightsteelblue';'#B0C4DE';11584734;176 196 222;'lightyellow';'#FFFFE0';16777184;255 255 224;'lime';'#00FF00';65280;0 255 0;'limegreen';'#32CD32';3329330;50 205 50;'linen';'#FAF0E6';16445670;250 240 230;'magenta';'#FF00FF';16711935;255 0 255;'maroon';'#800000';8388608;128 0 0;'mediumaquamarine';'#66CDAA';6737322;102 205 170;'mediumblue';'#0000CD';205;0 0 205;'mediumorchid';'#BA55D3';12211667;186 85 211;'mediumpurple';'#9370DB';9662683;147 112 219;'mediumseagreen';'#3CB371';3978097;60 179 113;'mediumslateblue';'#7B68EE';8087790;123 104 238;'mediumspringgreen';'#00FA9A';64154;0 250 154;'mediumturquoise';'#48D1CC';4772300;72 209 204;'mediumvioletred';'#C71585';13047173;199 21 133;'midnightblue';'#191970';1644912;25 25 112;'mintcream';'#F5FFFA';16121850;245 255 250;'mistyrose';'#FFE4E1';16770273;255 228 225;'moccasin';'#FFE4B5';16770229;255 228 181;'navajowhite';'#FFDEAD';16768685;255 222 173;'navy';'#000080';128;0 0 128;'oldlace';'#FDF5E6';16643558;253 245 230;'olive';'#808000';8421376;128 128 0;'olivedrab';'#6B8E23';7048739;107 142 35;'orange';'#FFA500';16753920;255 165 0;'orangered';'#FF4500';16729344;255 69 0;'orchid';'#DA70D6';14315734;218 112 214;'palegoldenrod';'#EEE8AA';15657130;238 232 170;'palegreen';'#98FB98';10025880;152 251 152;'paleturquoise';'#AFEEEE';11529966;175 238 238;'palevioletred';'#DB7093';14381203;219 112 147;'papayawhip';'#FFEFD5';16773077;255 239 213;'peachpuff';'#FFDAB9';16767673;255 218 185;'peru';'#CD853F';13468991;205 133 63;'pink';'#FFC0CB';16761035;255 192 203;'plum';'#DDA0DD';14524637;221 160 221;'powderblue';'#B0E0E6';11591910;176 224 230;'purple';'#800080';8388736;128 0 128;'red';'#FF0000';16711680;255 0 0;'rosybrown';'#BC8F8F';12357519;188 143 143;'royalblue';'#4169E1';4286945;65 105 225;'saddlebrown';'#8B4513';9127187;139 69 19;'salmon';'#FA8072';16416882;250 128 114;'sandybrown';'#F4A460';16032864;244 164 96;'seagreen';'#2E8B57';3050327;46 139 87;'seashell';'#FFF5EE';16774638;255 245 238;'sienna';'#A0522D';10506797;160 82 45;'silver';'#C0C0C0';12632256;192 192 192;'skyblue';'#87CEEB';8900331;135 206 235;'slateblue';'#6A5ACD';6970061;106 90 205;'slategray';'#708090';7372944;112 128 144;'snow';'#FFFAFA';16775930;255 250 250;'springgreen';'#00FF7F';65407;0 255 127;'steelblue';'#4682B4';4620980;70 130 180;'tan';'#D2B48C';13808780;210 180 140;'teal';'#008080';32896;0 128 128;'thistle';'#D8BFD8';14204888;216 191 216;'tomato';'#FF6347';16737095;255 99 71;'turquoise';'#40E0D0';4251856;64 224 208;'violet';'#EE82EE';15631086;238 130 238;'wheat';'#F5DEB3';16113331;245 222 179;'white';'#FFFFFF';16777215;255 255 255;'whitesmoke';'#F5F5F5';16119285;245 245 245;'yellow';'#FFFF00';16776960;255 255 0;'yellowgreen';'#9ACD32';10145074;154 205 50
 
 CreateMirror_sql=:'sql code reference - see (MirrorXref) group header'
 
@@ -78,7 +78,9 @@ UpdateLocalPresent_sql=:'update Album set LocalPresent = 1 where AlbumKey in '
 
 VolumeXref=:3 3$<;._1 '|volid|volume|voldesc|0|c:\|c drive on local machine|1|d:\|usb drive(s) (usually mounts on d)'
 
-WEB_PyColors=:148 2$<;._1 ' ColorName HexValue aliceblue #f0f8ff antiquewhite #faebd7 aqua #00ffff aquamarine #7fffd4 azure #f0ffff beige #f5f5dc bisque #ffe4c4 black #000000 blanchedalmond #ffebcd blue #0000ff blueviolet #8a2be2 brown #a52a2a burlywood #deb887 cadetblue #5f9ea0 chartreuse #7fff00 chocolate #d2691e coral #ff7f50 cornflowerblue #6495ed cornsilk #fff8dc crimson #dc143c cyan #00ffff darkblue #00008b darkcyan #008b8b darkgoldenrod #b8860b darkgray #a9a9a9 darkgrey #a9a9a9 darkgreen #006400 darkkhaki #bdb76b darkmagenta #8b008b darkolivegreen #556b2f darkorange #ff8c00 darkorchid #9932cc darkred #8b0000 darksalmon #e9967a darkseagreen #8fbc8f darkslateblue #483d8b darkslategray #2f4f4f darkslategrey #2f4f4f darkturquoise #00ced1 darkviolet #9400d3 deeppink #ff1493 deepskyblue #00bfff dimgray #696969 dimgrey #696969 dodgerblue #1e90ff firebrick #b22222 floralwhite #fffaf0 forestgreen #228b22 fuchsia #ff00ff gainsboro #dcdcdc ghostwhite #f8f8ff gold #ffd700 goldenrod #daa520 gray #808080 grey #808080 green #008000 greenyellow #adff2f honeydew #f0fff0 hotpink #ff69b4 indianred #cd5c5c indigo #4b0082 ivory #fffff0 khaki #f0e68c lavender #e6e6fa lavenderblush #fff0f5 lawngreen #7cfc00 lemonchiffon #fffacd lightblue #add8e6 lightcoral #f08080 lightcyan #e0ffff lightgoldenrodyellow #fafad2 lightgray #d3d3d3 lightgrey #d3d3d3 lightgreen #90ee90 lightpink #ffb6c1 lightsalmon #ffa07a lightseagreen #20b2aa lightskyblue #87cefa lightslategray #778899 lightslategrey #778899 lightsteelblue #b0c4de lightyellow #ffffe0 lime #00ff00 limegreen #32cd32 linen #faf0e6 magenta #ff00ff maroon #800000 mediumaquamarine #66cdaa mediumblue #0000cd mediumorchid #ba55d3 mediumpurple #9370db mediumseagreen #3cb371 mediumslateblue #7b68ee mediumspringgreen #00fa9a mediumturquoise #48d1cc mediumvioletred #c71585 midnightblue #191970 mintcream #f5fffa mistyrose #ffe4e1 moccasin #ffe4b5 navajowhite #ffdead navy #000080 oldlace #fdf5e6 olive #808000 olivedrab #6b8e23 orange #ffa500 orangered #ff4500 orchid #da70d6 palegoldenrod #eee8aa palegreen #98fb98 paleturquoise #afeeee palevioletred #db7093 papayawhip #ffefd5 peachpuff #ffdab9 peru #cd853f pink #ffc0cb plum #dda0dd powderblue #b0e0e6 purple #800080 red #ff0000 rosybrown #bc8f8f royalblue #4169e1 saddlebrown #8b4513 salmon #fa8072 sandybrown #f4a460 seagreen #2e8b57 seashell #fff5ee sienna #a0522d silver #c0c0c0 skyblue #87ceeb slateblue #6a5acd slategray #708090 slategrey #708090 snow #fffafa springgreen #00ff7f steelblue #4682b4 tan #d2b48c teal #008080 thistle #d8bfd8 tomato #ff6347 turquoise #40e0d0 violet #ee82ee wheat #f5deb3 white #ffffff whitesmoke #f5f5f5 yellow #ffff00 yellowgreen #9acd32'
+WEB_PyColors=:148 4$'ColorName';'HexValue';'DECValue';'RGB';'aliceblue';'#f0f8ff';15792383;240 248 255;'antiquewhite';'#faebd7';16444375;250 235 215;'aqua';'#00ffff';65535;0 255 255;'aquamarine';'#7fffd4';8388564;127 255 212;'azure';'#f0ffff';15794175;240 255 255;'beige';'#f5f5dc';16119260;245 245 220;'bisque';'#ffe4c4';16770244;255 228 196;'black';'#000000';0;0 0 0;'blanchedalmond';'#ffebcd';16772045;255 235 205;'blue';'#0000ff';255;0 0 255;'blueviolet';'#8a2be2';9055202;138 43 226;'brown';'#a52a2a';10824234;165 42 42;'burlywood';'#deb887';14596231;222 184 135;'cadetblue';'#5f9ea0';6266528;95 158 160;'chartreuse';'#7fff00';8388352;127 255 0;'chocolate';'#d2691e';13789470;210 105 30;'coral';'#ff7f50';16744272;255 127 80;'cornflowerblue';'#6495ed';6591981;100 149 237;'cornsilk';'#fff8dc';16775388;255 248 220;'crimson';'#dc143c';14423100;220 20 60;'cyan';'#00ffff';65535;0 255 255;'darkblue';'#00008b';139;0 0 139;'darkcyan';'#008b8b';35723;0 139 139;'darkgoldenrod';'#b8860b';12092939;184 134 11;'darkgray';'#a9a9a9';11119017;169 169 169;'darkgrey';'#a9a9a9';11119017;169 169 169;'darkgreen';'#006400';25600;0 100 0;'darkkhaki';'#bdb76b';12433259;189 183 107;'darkmagenta';'#8b008b';9109643;139 0 139;'darkolivegreen';'#556b2f';5597999;85 107 47;'darkorange';'#ff8c00';16747520;255 140 0;'darkorchid';'#9932cc';10040012;153 50 204;'darkred';'#8b0000';9109504;139 0 0;'darksalmon';'#e9967a';15308410;233 150 122;'darkseagreen';'#8fbc8f';9419919;143 188 143;'darkslateblue';'#483d8b';4734347;72 61 139;'darkslategray';'#2f4f4f';3100495;47 79 79;'darkslategrey';'#2f4f4f';3100495;47 79 79;'darkturquoise';'#00ced1';52945;0 206 209;'darkviolet';'#9400d3';9699539;148 0 211;'deeppink';'#ff1493';16716947;255 20 147;'deepskyblue';'#00bfff';49151;0 191 255;'dimgray';'#696969';6908265;105 105 105;'dimgrey';'#696969';6908265;105 105 105;'dodgerblue';'#1e90ff';2003199;30 144 255;'firebrick';'#b22222';11674146;178 34 34;'floralwhite';'#fffaf0';16775920;255 250 240;'forestgreen';'#228b22';2263842;34 139 34;'fuchsia';'#ff00ff';16711935;255 0 255;'gainsboro';'#dcdcdc';14474460;220 220 220;'ghostwhite';'#f8f8ff';16316671;248 248 255;'gold';'#ffd700';16766720;255 215 0;'goldenrod';'#daa520';14329120;218 165 32;'gray';'#808080';8421504;128 128 128;'grey';'#808080';8421504;128 128 128;'green';'#008000';32768;0 128 0;'greenyellow';'#adff2f';11403055;173 255 47;'honeydew';'#f0fff0';15794160;240 255 240;'hotpink';'#ff69b4';16738740;255 105 180;'indianred';'#cd5c5c';13458524;205 92 92;'indigo';'#4b0082';4915330;75 0 130;'ivory';'#fffff0';16777200;255 255 240;'khaki';'#f0e68c';15787660;240 230 140;'lavender';'#e6e6fa';15132410;230 230 250;'lavenderblush';'#fff0f5';16773365;255 240 245;'lawngreen';'#7cfc00';8190976;124 252 0;'lemonchiffon';'#fffacd';16775885;255 250 205;'lightblue';'#add8e6';11393254;173 216 230;'lightcoral';'#f08080';15761536;240 128 128;'lightcyan';'#e0ffff';14745599;224 255 255;'lightgoldenrodyellow';'#fafad2';16448210;250 250 210;'lightgray';'#d3d3d3';13882323;211 211 211;'lightgrey';'#d3d3d3';13882323;211 211 211;'lightgreen';'#90ee90';9498256;144 238 144;'lightpink';'#ffb6c1';16758465;255 182 193;'lightsalmon';'#ffa07a';16752762;255 160 122;'lightseagreen';'#20b2aa';2142890;32 178 170;'lightskyblue';'#87cefa';8900346;135 206 250;'lightslategray';'#778899';7833753;119 136 153;'lightslategrey';'#778899';7833753;119 136 153;'lightsteelblue';'#b0c4de';11584734;176 196 222;'lightyellow';'#ffffe0';16777184;255 255 224;'lime';'#00ff00';65280;0 255 0;'limegreen';'#32cd32';3329330;50 205 50;'linen';'#faf0e6';16445670;250 240 230;'magenta';'#ff00ff';16711935;255 0 255;'maroon';'#800000';8388608;128 0 0;'mediumaquamarine';'#66cdaa';6737322;102 205 170;'mediumblue';'#0000cd';205;0 0 205;'mediumorchid';'#ba55d3';12211667;186 85 211;'mediumpurple';'#9370db';9662683;147 112 219;'mediumseagreen';'#3cb371';3978097;60 179 113;'mediumslateblue';'#7b68ee';8087790;123 104 238;'mediumspringgreen';'#00fa9a';64154;0 250 154;'mediumturquoise';'#48d1cc';4772300;72 209 204;'mediumvioletred';'#c71585';13047173;199 21 133;'midnightblue';'#191970';1644912;25 25 112;'mintcream';'#f5fffa';16121850;245 255 250;'mistyrose';'#ffe4e1';16770273;255 228 225;'moccasin';'#ffe4b5';16770229;255 228 181;'navajowhite';'#ffdead';16768685;255 222 173;'navy';'#000080';128;0 0 128;'oldlace';'#fdf5e6';16643558;253 245 230;'olive';'#808000';8421376;128 128 0;'olivedrab';'#6b8e23';7048739;107 142 35;'orange';'#ffa500';16753920;255 165 0;'orangered';'#ff4500';16729344;255 69 0;'orchid';'#da70d6';14315734;218 112 214;'palegoldenrod';'#eee8aa';15657130;238 232 170;'palegreen';'#98fb98';10025880;152 251 152;'paleturquoise';'#afeeee';11529966;175 238 238;'palevioletred';'#db7093';14381203;219 112 147;'papayawhip';'#ffefd5';16773077;255 239 213;'peachpuff';'#ffdab9';16767673;255 218 185;'peru';'#cd853f';13468991;205 133 63;'pink';'#ffc0cb';16761035;255 192 203;'plum';'#dda0dd';14524637;221 160 221;'powderblue';'#b0e0e6';11591910;176 224 230;'purple';'#800080';8388736;128 0 128;'red';'#ff0000';16711680;255 0 0;'rosybrown';'#bc8f8f';12357519;188 143 143;'royalblue';'#4169e1';4286945;65 105 225;'saddlebrown';'#8b4513';9127187;139 69 19;'salmon';'#fa8072';16416882;250 128 114;'sandybrown';'#f4a460';16032864;244 164 96;'seagreen';'#2e8b57';3050327;46 139 87;'seashell';'#fff5ee';16774638;255 245 238;'sienna';'#a0522d';10506797;160 82 45;'silver';'#c0c0c0';12632256;192 192 192;'skyblue';'#87ceeb';8900331;135 206 235;'slateblue';'#6a5acd';6970061;106 90 205;'slategray';'#708090';7372944;112 128 144;'slategrey';'#708090';7372944;112 128 144;'snow';'#fffafa';16775930;255 250 250;'springgreen';'#00ff7f';65407;0 255 127;'steelblue';'#4682b4';4620980;70 130 180;'tan';'#d2b48c';13808780;210 180 140;'teal';'#008080';32896;0 128 128;'thistle';'#d8bfd8';14204888;216 191 216;'tomato';'#ff6347';16737095;255 99 71;'turquoise';'#40e0d0';4251856;64 224 208;'violet';'#ee82ee';15631086;238 130 238;'wheat';'#f5deb3';16113331;245 222 179;'white';'#ffffff';16777215;255 255 255;'whitesmoke';'#f5f5f5';16119285;245 245 245;'yellow';'#ffff00';16776960;255 255 0;'yellowgreen';'#9acd32';10145074;154 205 50
+
+XKCD_Colors=:950 4$'ColorName';'HexValue';'DECValue';'RGB';'acidgreen';'#8ffe09';9436681;143 254 9;'adobe';'#bd6c48';12414024;189 108 72;'algae';'#54ac68';5549160;84 172 104;'algaegreen';'#21c36f';2212719;33 195 111;'almostblack';'#070d0d';462093;7 13 13;'amber';'#feb308';16691976;254 179 8;'amethyst';'#9b5fc0';10182592;155 95 192;'apple';'#6ecb3c';7260988;110 203 60;'applegreen';'#76cd26';7785766;118 205 38;'apricot';'#ffb16d';16757101;255 177 109;'aqua';'#13eac9';1305289;19 234 201;'aquablue';'#02d8e9';186601;2 216 233;'aquagreen';'#12e193';1237395;18 225 147;'aquamarine';'#04d8b2';317618;4 216 178;'aquamarine';'#2ee8bb';3074235;46 232 187;'armygreen';'#4b5d16';4939030;75 93 22;'asparagus';'#77ab56';7842646;119 171 86;'aubergine';'#3d0734';3999540;61 7 52;'auburn';'#9a3001';10104833;154 48 1;'avocado';'#90b134';9482548;144 177 52;'avocadogreen';'#87a922';8890658;135 169 34;'azul';'#1d5dec';1924588;29 93 236;'azure';'#069af3';432883;6 154 243;'babyblue';'#a2cffe';10670078;162 207 254;'babygreen';'#8cff9e';9240478;140 255 158;'babypink';'#ffb7ce';16758734;255 183 206;'babypoo';'#ab9004';11243524;171 144 4;'babypoop';'#937c00';9665536;147 124 0;'babypoopgreen';'#8f9805';9410565;143 152 5;'babypukegreen';'#b6c406';11977734;182 196 6;'babypurple';'#ca9bf7';13278199;202 155 247;'babyshitbrown';'#ad900d';11374605;173 144 13;'babyshitgreen';'#889717';8951575;136 151 23;'banana';'#ffff7e';16777086;255 255 126;'bananayellow';'#fafe4b';16449099;250 254 75;'barbiepink';'#fe46a5';16664229;254 70 165;'barfgreen';'#94ac02';9743362;148 172 2;'barney';'#ac1db8';11279800;172 29 184;'barneypurple';'#a00498';10486936;160 4 152;'battleshipgrey';'#6b7c85';7044229;107 124 133;'beige';'#e6daa6';15129254;230 218 166;'berry';'#990f4b';10030923;153 15 75;'bile';'#b5c306';11911942;181 195 6;'black';'#000000';0;0 0 0;'bland';'#afa88b';11511947;175 168 139;'blood';'#770001';7798785;119 0 1;'bloodorange';'#fe4b03';16665347;254 75 3;'bloodred';'#980002';9961474;152 0 2;'blue';'#0343df';213983;3 67 223;'blueberry';'#464196';4604310;70 65 150;'blueblue';'#2242c7';2245319;34 66 199;'bluegreen';'#017a79';96889;1 122 121;'bluegreen';'#0f9b8e';1022862;15 155 142;'bluegreen';'#137e6d';1277549;19 126 109;'bluegrey';'#607c8e';6323342;96 124 142;'bluegrey';'#758da3';7703971;117 141 163;'bluegrey';'#85a3b2';8758194;133 163 178;'bluepurple';'#5729ce';5712334;87 41 206;'bluepurple';'#5a06ef';5900015;90 6 239;'blueviolet';'#5d06e9';6096617;93 6 233;'bluewithahintofpurple';'#533cc6';5455046;83 60 198;'blueygreen';'#2bb179';2863481;43 177 121;'blueygrey';'#89a0b0';9019568;137 160 176;'blueypurple';'#6241c7';6439367;98 65 199;'bluish';'#2976bb';2717371;41 118 187;'bluishgreen';'#10a674';1091188;16 166 116;'bluishgrey';'#748b97';7637911;116 139 151;'bluishpurple';'#703be7';7355367;112 59 231;'blurple';'#5539cc';5585356;85 57 204;'blush';'#f29e8e';15900302;242 158 142;'blushpink';'#fe828c';16679564;254 130 140;'booger';'#9bb53c';10204476;155 181 60;'boogergreen';'#96b403';9876483;150 180 3;'bordeaux';'#7b002c';8060972;123 0 44;'boringgreen';'#63b365';6533989;99 179 101;'bottlegreen';'#044a05';281093;4 74 5;'brick';'#a03623';10499619;160 54 35;'brickorange';'#c14a09';12667401;193 74 9;'brickred';'#8f1402';9376770;143 20 2;'brightaqua';'#0bf9ea';784874;11 249 234;'brightblue';'#0165fc';91644;1 101 252;'brightcyan';'#41fdfe';4324862;65 253 254;'brightgreen';'#01ff07';130823;1 255 7;'brightlavender';'#c760ff';13066495;199 96 255;'brightlightblue';'#26f7fd';2553853;38 247 253;'brightlightgreen';'#2dfe54';3014228;45 254 84;'brightlilac';'#c95efb';13197051;201 94 251;'brightlime';'#87fd05';8912133;135 253 5;'brightlimegreen';'#65fe08';6684168;101 254 8;'brightmagenta';'#ff08e8';16713960;255 8 232;'brightolive';'#9cbb04';10271492;156 187 4;'brightorange';'#ff5b00';16734976;255 91 0;'brightpink';'#fe01b1';16646577;254 1 177;'brightpurple';'#be03fd';12452861;190 3 253;'brightred';'#ff000d';16711693;255 0 13;'brightseagreen';'#05ffa6';393126;5 255 166;'brightskyblue';'#02ccfe';183550;2 204 254;'brightteal';'#01f9c6';129478;1 249 198;'brightturquoise';'#0ffef9';1048313;15 254 249;'brightviolet';'#ad0afd';11340541;173 10 253;'brightyellow';'#fffd01';16776449;255 253 1;'brightyellowgreen';'#9dff00';10354432;157 255 0;'britishracinggreen';'#05480d';346125;5 72 13;'bronze';'#a87900';11041024;168 121 0;'brown';'#653700';6633216;101 55 0;'browngreen';'#706c11';7367697;112 108 17;'browngrey';'#8d8468';9274472;141 132 104;'brownish';'#9c6d57';10251607;156 109 87;'brownishgreen';'#6a6e09';6974985;106 110 9;'brownishgrey';'#86775f';8812383;134 119 95;'brownishorange';'#cb7723';13334307;203 119 35;'brownishpink';'#c27e79';12746361;194 126 121;'brownishpurple';'#76424e';7750222;118 66 78;'brownishred';'#9e3623';10368547;158 54 35;'brownishyellow';'#c9b003';13217795;201 176 3;'brownorange';'#b96902';12151042;185 105 2;'brownred';'#922b05';9579269;146 43 5;'brownyellow';'#b29705';11704069;178 151 5;'brownygreen';'#6f6c0a';7302154;111 108 10;'brownyorange';'#ca6b02';13265666;202 107 2;'bruise';'#7e4071';8274033;126 64 113;'bubblegum';'#ff6cb5';16739509;255 108 181;'bubblegumpink';'#fe83cc';16679884;254 131 204;'bubblegumpink';'#ff69af';16738735;255 105 175;'buff';'#fef69e';16709278;254 246 158;'burgundy';'#610023';6357027;97 0 35;'burntorange';'#c04e01';12602881;192 78 1;'burntred';'#9f2305';10429189;159 35 5;'burntsiena';'#b75203';12014083;183 82 3;'burntsienna';'#b04e0f';11554319;176 78 15;'burntumber';'#a0450e';10503438;160 69 14;'burntyellow';'#d5ab09';14002953;213 171 9;'burple';'#6832e3';6828771;104 50 227;'butter';'#ffff81';16777089;255 255 129;'butterscotch';'#fdb147';16625991;253 177 71;'butteryellow';'#fffd74';16776564;255 253 116;'cadetblue';'#4e7496';5141654;78 116 150;'camel';'#c69f59';13016921;198 159 89;'camo';'#7f8f4e';8359758;127 143 78;'camogreen';'#526525';5399845;82 101 37;'camouflagegreen';'#4b6113';4940051;75 97 19;'canary';'#fdff63';16645987;253 255 99;'canaryyellow';'#fffe40';16776768;255 254 64;'candypink';'#ff63e9';16737257;255 99 233;'caramel';'#af6f09';11497225;175 111 9;'carmine';'#9d0216';10289686;157 2 22;'carnation';'#fd798f';16611727;253 121 143;'carnationpink';'#ff7fa7';16744359;255 127 167;'carolinablue';'#8ab8fe';9091326;138 184 254;'celadon';'#befdb7';12516791;190 253 183;'celery';'#c1fd95';12713365;193 253 149;'cement';'#a5a391';10855313;165 163 145;'cerise';'#de0c62';14552162;222 12 98;'cerulean';'#0485d1';296401;4 133 209;'ceruleanblue';'#056eee';356078;5 110 238;'charcoal';'#343837';3422263;52 56 55;'charcoalgrey';'#3c4142';3948866;60 65 66;'chartreuse';'#c1f80a';12711946;193 248 10;'cherry';'#cf0234';13566516;207 2 52;'cherryred';'#f7022a';16187946;247 2 42;'chestnut';'#742802';7612418;116 40 2;'chocolate';'#3d1c02';4004866;61 28 2;'chocolatebrown';'#411900';4266240;65 25 0;'cinnamon';'#ac4f06';11292422;172 79 6;'claret';'#680018';6815768;104 0 24;'clay';'#b66a50';11954768;182 106 80;'claybrown';'#b2713d';11694397;178 113 61;'clearblue';'#247afd';2390781;36 122 253;'cloudyblue';'#acc2d9';11322073;172 194 217;'cobalt';'#1e488f';1984655;30 72 143;'cobaltblue';'#030aa7';199335;3 10 167;'cocoa';'#875f42';8871746;135 95 66;'coffee';'#a6814c';10912076;166 129 76;'coolblue';'#4984b8';4818104;73 132 184;'coolgreen';'#33b864';3389540;51 184 100;'coolgrey';'#95a3a6';9806758;149 163 166;'copper';'#b66325';11952933;182 99 37;'coral';'#fc5a50';16538192;252 90 80;'coralpink';'#ff6163';16736611;255 97 99;'cornflower';'#6a79f7';6978039;106 121 247;'cornflowerblue';'#5170d7';5337303;81 112 215;'cranberry';'#9e003a';10354746;158 0 58;'cream';'#ffffc2';16777154;255 255 194;'creme';'#ffffb6';16777142;255 255 182;'crimson';'#8c000f';9175055;140 0 15;'custard';'#fffd78';16776568;255 253 120;'cyan';'#00ffff';65535;0 255 255;'dandelion';'#fedf08';16703240;254 223 8;'dark';'#1b2431';1778737;27 36 49;'darkaqua';'#05696b';354667;5 105 107;'darkaquamarine';'#017371';95089;1 115 113;'darkbeige';'#ac9362';11309922;172 147 98;'darkblue';'#00035b';859;0 3 91;'darkblue';'#030764';198500;3 7 100;'darkbluegreen';'#005249';21065;0 82 73;'darkbluegrey';'#1f3b4d';2046797;31 59 77;'darkbrown';'#341c02';3415042;52 28 2;'darkcoral';'#cf524e';13587022;207 82 78;'darkcream';'#fff39a';16774042;255 243 154;'darkcyan';'#0a888a';690314;10 136 138;'darkforestgreen';'#002d04';11524;0 45 4;'darkfuchsia';'#9d0759';10291033;157 7 89;'darkgold';'#b59410';11899920;181 148 16;'darkgrassgreen';'#388004';3702788;56 128 4;'darkgreen';'#033500';210176;3 53 0;'darkgreen';'#054907';346375;5 73 7;'darkgreenblue';'#1f6357';2057047;31 99 87;'darkgrey';'#363737';3553079;54 55 55;'darkgreyblue';'#29465b';2704987;41 70 91;'darkhotpink';'#d90166';14221670;217 1 102;'darkindigo';'#1f0954';2034004;31 9 84;'darkishblue';'#014182';82306;1 65 130;'darkishgreen';'#287c37';2653239;40 124 55;'darkishpink';'#da467d';14304893;218 70 125;'darkishpurple';'#751973';7674227;117 25 115;'darkishred';'#a90308';11076360;169 3 8;'darkkhaki';'#9b8f55';10194773;155 143 85;'darklavender';'#856798';8742808;133 103 152;'darklilac';'#9c6da5';10251685;156 109 165;'darklime';'#84b701';8697601;132 183 1;'darklimegreen';'#7ebd01';8305921;126 189 1;'darkmagenta';'#960056';9830486;150 0 86;'darkmaroon';'#3c0008';3932168;60 0 8;'darkmauve';'#874c62';8866914;135 76 98;'darkmint';'#48c072';4767858;72 192 114;'darkmintgreen';'#20c073';2146419;32 192 115;'darkmustard';'#a88905';11045125;168 137 5;'darknavy';'#000435';1077;0 4 53;'darknavyblue';'#00022e';558;0 2 46;'darkolive';'#373e02';3620354;55 62 2;'darkolivegreen';'#3c4d03';3951875;60 77 3;'darkorange';'#c65102';12996866;198 81 2;'darkpastelgreen';'#56ae57';5680727;86 174 87;'darkpeach';'#de7e5d';14581341;222 126 93;'darkperiwinkle';'#665fd1';6709201;102 95 209;'darkpink';'#cb416b';13320555;203 65 107;'darkplum';'#3f012c';4129068;63 1 44;'darkpurple';'#35063e';3475006;53 6 62;'darkred';'#840000';8650752;132 0 0;'darkrose';'#b5485d';11880541;181 72 93;'darkroyalblue';'#02066f';132719;2 6 111;'darksage';'#598556';5866838;89 133 86;'darksalmon';'#c85a53';13130323;200 90 83;'darksand';'#a88f59';11046745;168 143 89;'darkseafoam';'#1fb57a';2078074;31 181 122;'darkseafoamgreen';'#3eaf76';4108150;62 175 118;'darkseagreen';'#11875d';1148765;17 135 93;'darkskyblue';'#448ee4';4493028;68 142 228;'darkslateblue';'#214761';2180961;33 71 97;'darktan';'#af884a';11503690;175 136 74;'darktaupe';'#7f684e';8349774;127 104 78;'darkteal';'#014d4e';85326;1 77 78;'darkturquoise';'#045c5a';285786;4 92 90;'darkviolet';'#34013f';3408191;52 1 63;'darkyellow';'#d5b60a';14005770;213 182 10;'darkyellowgreen';'#728f02';7507714;114 143 2;'deepaqua';'#08787f';555135;8 120 127;'deepblue';'#040273';262771;4 2 115;'deepbrown';'#410200';4260352;65 2 0;'deepgreen';'#02590f';153871;2 89 15;'deeplavender';'#8d5eb7';9264823;141 94 183;'deeplilac';'#966ebd';9858749;150 110 189;'deepmagenta';'#a0025c';10486364;160 2 92;'deeporange';'#dc4d01';14437633;220 77 1;'deeppink';'#cb0162';13304162;203 1 98;'deeppurple';'#36013f';3539263;54 1 63;'deepred';'#9a0200';10093056;154 2 0;'deeprose';'#c74767';13059943;199 71 103;'deepseablue';'#015482';87170;1 84 130;'deepskyblue';'#0d75f8';882168;13 117 248;'deepteal';'#00555a';21850;0 85 90;'deepturquoise';'#017374';95092;1 115 116;'deepviolet';'#490648';4785736;73 6 72;'denim';'#3b638c';3892108;59 99 140;'denimblue';'#3b5b92';3890066;59 91 146;'desert';'#ccad60';13413728;204 173 96;'diarrhea';'#9f8303';10453763;159 131 3;'dirt';'#8a6e45';9072197;138 110 69;'dirtbrown';'#836539';8611129;131 101 57;'dirtyblue';'#3f829d';4162205;63 130 157;'dirtygreen';'#667e2c';6716972;102 126 44;'dirtyorange';'#c87606';13137414;200 118 6;'dirtypink';'#ca7b80';13269888;202 123 128;'dirtypurple';'#734a65';7555685;115 74 101;'dirtyyellow';'#cdc50a';13485322;205 197 10;'dodgerblue';'#3e82fc';4096764;62 130 252;'drab';'#828344';8553284;130 131 68;'drabgreen';'#749551';7640401;116 149 81;'driedblood';'#4b0101';4915457;75 1 1;'duckeggblue';'#c3fbf4';12844020;195 251 244;'dullblue';'#49759c';4814236;73 117 156;'dullbrown';'#876e4b';8875595;135 110 75;'dullgreen';'#74a662';7644770;116 166 98;'dullorange';'#d8863b';14190139;216 134 59;'dullpink';'#d5869d';13993629;213 134 157;'dullpurple';'#84597e';8673662;132 89 126;'dullred';'#bb3f3f';12271423;187 63 63;'dullteal';'#5f9e8f';6266511;95 158 143;'dullyellow';'#eedc5b';15653979;238 220 91;'dusk';'#4e5481';5133441;78 84 129;'duskblue';'#26538d';2511757;38 83 141;'duskyblue';'#475f94';4677524;71 95 148;'duskypink';'#cc7a8b';13400715;204 122 139;'duskypurple';'#895b7b';9001851;137 91 123;'duskyrose';'#ba6873';12216435;186 104 115;'dust';'#b2996e';11704686;178 153 110;'dustyblue';'#5a86ad';5932717;90 134 173;'dustygreen';'#76a973';7776627;118 169 115;'dustylavender';'#ac86a8';11306664;172 134 168;'dustyorange';'#f0833a';15762234;240 131 58;'dustypink';'#d58a94';13994644;213 138 148;'dustypurple';'#825f87';8544135;130 95 135;'dustyred';'#b9484e';12142670;185 72 78;'dustyrose';'#c0737a';12612474;192 115 122;'dustyteal';'#4c9085';5017733;76 144 133;'earth';'#a2653e';10642750;162 101 62;'eastergreen';'#8cfd7e';9239934;140 253 126;'easterpurple';'#c071fe';12612094;192 113 254;'ecru';'#feffca';16711626;254 255 202;'eggplant';'#380835';3672117;56 8 53;'eggplantpurple';'#430541';4392257;67 5 65;'eggshell';'#fffcc4';16776388;255 252 196;'eggshell';'#ffffd4';16777172;255 255 212;'eggshellblue';'#c4fff7';12910583;196 255 247;'electricblue';'#0652ff';414463;6 82 255;'electricgreen';'#21fc0d';2227213;33 252 13;'electriclime';'#a8ff04';11075332;168 255 4;'electricpink';'#ff0490';16712848;255 4 144;'electricpurple';'#aa23ff';11150335;170 35 255;'emerald';'#01a049';106569;1 160 73;'emeraldgreen';'#028f1e';167710;2 143 30;'evergreen';'#05472a';345898;5 71 42;'fadedblue';'#658cbb';6655163;101 140 187;'fadedgreen';'#7bb274';8106612;123 178 116;'fadedorange';'#f0944d';15766605;240 148 77;'fadedpink';'#de9dac';14589356;222 157 172;'fadedpurple';'#916e99';9531033;145 110 153;'fadedred';'#d3494e';13846862;211 73 78;'fadedyellow';'#feff7f';16711551;254 255 127;'fawn';'#cfaf7b';13610875;207 175 123;'fern';'#63a950';6531408;99 169 80;'ferngreen';'#548d44';5541188;84 141 68;'fireenginered';'#fe0002';16646146;254 0 2;'flatblue';'#3c73a8';3961768;60 115 168;'flatgreen';'#699d4c';6921548;105 157 76;'fluorescentgreen';'#08ff08';589576;8 255 8;'flurogreen';'#0aff02';720642;10 255 2;'foamgreen';'#90fda9';9502121;144 253 169;'forest';'#0b5509';742665;11 85 9;'forestgreen';'#06470c';411404;6 71 12;'forrestgreen';'#154406';1393670;21 68 6;'frenchblue';'#436bad';4418477;67 107 173;'freshgreen';'#69d84f';6936655;105 216 79;'froggreen';'#58bc08';5815304;88 188 8;'fuchsia';'#ed0dd9';15535577;237 13 217;'gold';'#dbb40c';14398476;219 180 12;'golden';'#f5bf03';16105219;245 191 3;'goldenbrown';'#b27a01';11696641;178 122 1;'goldenrod';'#f9bc08';16366600;249 188 8;'goldenrod';'#fac205';16433669;250 194 5;'goldenyellow';'#fec615';16696853;254 198 21;'grape';'#6c3461';7091297;108 52 97;'grapefruit';'#fd5956';16603478;253 89 86;'grapepurple';'#5d1451';6100049;93 20 81;'grass';'#5cac2d';6073389;92 172 45;'grassgreen';'#3f9b0b';4168459;63 155 11;'grassygreen';'#419c03';4299779;65 156 3;'green';'#15b01a';1421338;21 176 26;'greenapple';'#5edc1f';6216735;94 220 31;'greenblue';'#01c08d';114829;1 192 141;'greenblue';'#06b48b';439435;6 180 139;'greenblue';'#23c48b';2344075;35 196 139;'greenbrown';'#544e03';5524995;84 78 3;'greengrey';'#77926f';7836271;119 146 111;'greenish';'#40a368';4236136;64 163 104;'greenishbeige';'#c9d179';13226361;201 209 121;'greenishblue';'#0b8b87';756615;11 139 135;'greenishbrown';'#696112';6906130;105 97 18;'greenishcyan';'#2afeb7';2817719;42 254 183;'greenishgrey';'#96ae8d';9875085;150 174 141;'greenishtan';'#bccb7a';12372858;188 203 122;'greenishteal';'#32bf84';3325828;50 191 132;'greenishturquoise';'#00fbb0';64432;0 251 176;'greenishyellow';'#cdfd02';13499650;205 253 2;'greenteal';'#0cb577';832887;12 181 119;'greenyblue';'#42b395';4371349;66 179 149;'greenybrown';'#696006';6905862;105 96 6;'greenyellow';'#b5ce08';11914760;181 206 8;'greenyellow';'#c9ff27';13238055;201 255 39;'greenygrey';'#7ea07a';8298618;126 160 122;'greenyyellow';'#c6f808';13039624;198 248 8;'grey';'#929591';9606545;146 149 145;'greyblue';'#647d8e';6585742;100 125 142;'greyblue';'#6b8ba4';7048100;107 139 164;'greyblue';'#77a1b5';7840181;119 161 181;'greybrown';'#7f7053';8351827;127 112 83;'greygreen';'#789b73';7904115;120 155 115;'greygreen';'#86a17d';8823165;134 161 125;'greyish';'#a8a495';11052181;168 164 149;'greyishblue';'#5e819d';6193565;94 129 157;'greyishbrown';'#7a6a4f';8022607;122 106 79;'greyishgreen';'#82a67d';8562301;130 166 125;'greyishpink';'#c88d94';13143444;200 141 148;'greyishpurple';'#887191';8941969;136 113 145;'greyishteal';'#719f91';7446417;113 159 145;'greypink';'#c3909b';12816539;195 144 155;'greypurple';'#826d8c';8547724;130 109 140;'greyteal';'#5e9b8a';6200202;94 155 138;'grossgreen';'#a0bf16';10534678;160 191 22;'gunmetal';'#536267';5464679;83 98 103;'hazel';'#8e7618';9336344;142 118 24;'heather';'#a484ac';10781868;164 132 172;'heliotrope';'#d94ff5';14241781;217 79 245;'highlightergreen';'#1bfc06';1833990;27 252 6;'hospitalgreen';'#9be5aa';10216874;155 229 170;'hotgreen';'#25ff29';2490153;37 255 41;'hotmagenta';'#f504c9';16057545;245 4 201;'hotpink';'#ff028d';16712333;255 2 141;'hotpurple';'#cb00f5';13304053;203 0 245;'huntergreen';'#0b4008';737288;11 64 8;'ice';'#d6fffa';14090234;214 255 250;'iceblue';'#d7fffe';14155774;215 255 254;'ickygreen';'#8fae22';9416226;143 174 34;'indianred';'#850e04';8719876;133 14 4;'indigo';'#380282';3670658;56 2 130;'indigoblue';'#3a18b1';3807409;58 24 177;'iris';'#6258c4';6445252;98 88 196;'irishgreen';'#019529';103721;1 149 41;'ivory';'#ffffcb';16777163;255 255 203;'jade';'#1fa774';2074484;31 167 116;'jadegreen';'#2baf6a';2862954;43 175 106;'junglegreen';'#048243';295491;4 130 67;'kelleygreen';'#009337';37687;0 147 55;'kellygreen';'#02ab2e';174894;2 171 46;'kermitgreen';'#5cb200';6074880;92 178 0;'keylime';'#aeff6e';11468654;174 255 110;'khaki';'#aaa662';11183714;170 166 98;'khakigreen';'#728639';7505465;114 134 57;'kiwi';'#9cef43';10284867;156 239 67;'kiwigreen';'#8ee53f';9364799;142 229 63;'lavender';'#c79fef';13082607;199 159 239;'lavenderblue';'#8b88f8';9144568;139 136 248;'lavenderpink';'#dd85d7';14517719;221 133 215;'lawngreen';'#4da409';5088265;77 164 9;'leaf';'#71aa34';7449140;113 170 52;'leafgreen';'#5ca904';6072580;92 169 4;'leafygreen';'#51b73b';5355323;81 183 59;'leather';'#ac7434';11301940;172 116 52;'lemon';'#fdff52';16645970;253 255 82;'lemongreen';'#adf802';11401218;173 248 2;'lemonlime';'#bffe28';12582440;191 254 40;'lemonyellow';'#fdff38';16645944;253 255 56;'lichen';'#8fb67b';9418363;143 182 123;'lightaqua';'#8cffdb';9240539;140 255 219;'lightaquamarine';'#7bfdc7';8125895;123 253 199;'lightbeige';'#fffeb6';16776886;255 254 182;'lightblue';'#7bc8f6';8112374;123 200 246;'lightblue';'#95d0fc';9818364;149 208 252;'lightbluegreen';'#7efbb3';8321971;126 251 179;'lightbluegrey';'#b7c9e2';12044770;183 201 226;'lightbluishgreen';'#76fda8';7798184;118 253 168;'lightbrightgreen';'#53fe5c';5504604;83 254 92;'lightbrown';'#ad8150';11370832;173 129 80;'lightburgundy';'#a8415b';11026779;168 65 91;'lightcyan';'#acfffc';11337724;172 255 252;'lighteggplant';'#894585';8996229;137 69 133;'lightergreen';'#75fd63';7732579;117 253 99;'lighterpurple';'#a55af4';10836724;165 90 244;'lightforestgreen';'#4f9153';5214547;79 145 83;'lightgold';'#fddc5c';16637020;253 220 92;'lightgrassgreen';'#9af764';10155876;154 247 100;'lightgreen';'#76ff7b';7798651;118 255 123;'lightgreen';'#96f97b';9894267;150 249 123;'lightgreenblue';'#56fca2';5700770;86 252 162;'lightgreenishblue';'#63f7b4';6551476;99 247 180;'lightgrey';'#d8dcd6';14212310;216 220 214;'lightgreyblue';'#9dbcd4';10337492;157 188 212;'lightgreygreen';'#b7e1a1';12050849;183 225 161;'lightindigo';'#6d5acf';7166671;109 90 207;'lightishblue';'#3d7afd';4029181;61 122 253;'lightishgreen';'#61e160';6414688;97 225 96;'lightishpurple';'#a552e6';10834662;165 82 230;'lightishred';'#fe2f4a';16658250;254 47 74;'lightkhaki';'#e6f2a2';15135394;230 242 162;'lightlavendar';'#efc0fe';15712510;239 192 254;'lightlavender';'#dfc5fe';14665214;223 197 254;'lightlightblue';'#cafffb';13303803;202 255 251;'lightlightgreen';'#c8ffb0';13172656;200 255 176;'lightlilac';'#edc8ff';15583487;237 200 255;'lightlime';'#aefd6c';11468140;174 253 108;'lightlimegreen';'#b9ff66';12189542;185 255 102;'lightmagenta';'#fa5ff7';16408567;250 95 247;'lightmaroon';'#a24857';10635351;162 72 87;'lightmauve';'#c292a1';12751521;194 146 161;'lightmint';'#b6ffbb';11993019;182 255 187;'lightmintgreen';'#a6fbb2';10943410;166 251 178;'lightmossgreen';'#a6c875';10930293;166 200 117;'lightmustard';'#f7d560';16242016;247 213 96;'lightnavy';'#155084';1396868;21 80 132;'lightnavyblue';'#2e5a88';3037832;46 90 136;'lightneongreen';'#4efd54';5176660;78 253 84;'lightolive';'#acbf69';11321193;172 191 105;'lightolivegreen';'#a4be5c';10796636;164 190 92;'lightorange';'#fdaa48';16624200;253 170 72;'lightpastelgreen';'#b2fba5';11729829;178 251 165;'lightpeach';'#ffd8b1';16767153;255 216 177;'lightpeagreen';'#c4fe82';12910210;196 254 130;'lightperiwinkle';'#c1c6fc';12699388;193 198 252;'lightpink';'#ffd1df';16765407;255 209 223;'lightplum';'#9d5783';10311555;157 87 131;'lightpurple';'#bf77f6';12548086;191 119 246;'lightred';'#ff474c';16729932;255 71 76;'lightrose';'#ffc5cb';16762315;255 197 203;'lightroyalblue';'#3a2efe';3813118;58 46 254;'lightsage';'#bcecac';12381356;188 236 172;'lightsalmon';'#fea993';16689555;254 169 147;'lightseafoam';'#a0febf';10550975;160 254 191;'lightseafoamgreen';'#a7ffb5';11009973;167 255 181;'lightseagreen';'#98f6b0';10024624;152 246 176;'lightskyblue';'#c6fcff';13040895;198 252 255;'lighttan';'#fbeeac';16510636;251 238 172;'lightteal';'#90e4c1';9495745;144 228 193;'lightturquoise';'#7ef4cc';8320204;126 244 204;'lighturple';'#b36ff6';11759606;179 111 246;'lightviolet';'#d6b4fc';14071036;214 180 252;'lightyellow';'#fffe7a';16776826;255 254 122;'lightyellowgreen';'#ccfd7f';13434239;204 253 127;'lightyellowishgreen';'#c2ff89';12779401;194 255 137;'lilac';'#cea2fd';13542141;206 162 253;'liliac';'#c48efd';12881661;196 142 253;'lime';'#aaff32';11206450;170 255 50;'limegreen';'#89fe05';9043461;137 254 5;'limeyellow';'#d0fe1d';13696541;208 254 29;'lipstick';'#d5174e';13965134;213 23 78;'lipstickred';'#c0022f';12583471;192 2 47;'macaroniandcheese';'#efb435';15709237;239 180 53;'magenta';'#c20078';12714104;194 0 120;'mahogany';'#4a0100';4849920;74 1 0;'maize';'#f4d054';16044116;244 208 84;'mango';'#ffa62b';16754219;255 166 43;'manilla';'#fffa86';16775814;255 250 134;'marigold';'#fcc006';16564230;252 192 6;'marine';'#042e60';274016;4 46 96;'marineblue';'#01386a';79978;1 56 106;'maroon';'#650021';6619169;101 0 33;'mauve';'#ae7181';11432321;174 113 129;'mediumblue';'#2c6fbb';2912187;44 111 187;'mediumbrown';'#7f5112';8343826;127 81 18;'mediumgreen';'#39ad48';3779912;57 173 72;'mediumgrey';'#7d7f7c';8224636;125 127 124;'mediumpink';'#f36196';15950230;243 97 150;'mediumpurple';'#9e43a2';10372002;158 67 162;'melon';'#ff7855';16742485;255 120 85;'merlot';'#730039';7536697;115 0 57;'metallicblue';'#4f738e';5206926;79 115 142;'midblue';'#276ab3';2583219;39 106 179;'midgreen';'#50a747';5285703;80 167 71;'midnight';'#03012d';196909;3 1 45;'midnightblue';'#020035';131125;2 0 53;'midnightpurple';'#280137';2621751;40 1 55;'militarygreen';'#667c3e';6716478;102 124 62;'milkchocolate';'#7f4e1e';8343070;127 78 30;'mint';'#9ffeb0';10485424;159 254 176;'mintgreen';'#8fff9f';9437087;143 255 159;'mintygreen';'#0bf77d';784253;11 247 125;'mocha';'#9d7651';10319441;157 118 81;'moss';'#769958';7772504;118 153 88;'mossgreen';'#658b38';6654776;101 139 56;'mossygreen';'#638b27';6523687;99 139 39;'mud';'#735c12';7560210;115 92 18;'mudbrown';'#60460f';6309391;96 70 15;'muddybrown';'#886806';8939526;136 104 6;'muddygreen';'#657432';6648882;101 116 50;'muddyyellow';'#bfac05';12561413;191 172 5;'mudgreen';'#606602';6317570;96 102 2;'mulberry';'#920a4e';9570894;146 10 78;'murkygreen';'#6c7a0e';7109134;108 122 14;'mushroom';'#ba9e88';12230280;186 158 136;'mustard';'#ceb301';13546241;206 179 1;'mustardbrown';'#ac7e04';11304452;172 126 4;'mustardgreen';'#a8b504';11056388;168 181 4;'mustardyellow';'#d2bd0a';13810954;210 189 10;'mutedblue';'#3b719f';3895711;59 113 159;'mutedgreen';'#5fa052';6266962;95 160 82;'mutedpink';'#d1768f';13727375;209 118 143;'mutedpurple';'#805b87';8412039;128 91 135;'nastygreen';'#70b23f';7385663;112 178 63;'navy';'#01153e';70974;1 21 62;'navyblue';'#001146';4422;0 17 70;'navygreen';'#35530a';3494666;53 83 10;'neonblue';'#04d9ff';317951;4 217 255;'neongreen';'#0cff0c';851724;12 255 12;'neonpink';'#fe019a';16646554;254 1 154;'neonpurple';'#bc13fe';12325886;188 19 254;'neonred';'#ff073a';16713530;255 7 58;'neonyellow';'#cfff04';13631236;207 255 4;'niceblue';'#107ab0';1079984;16 122 176;'nightblue';'#040348';262984;4 3 72;'ocean';'#017b92';97170;1 123 146;'oceanblue';'#03719c';225692;3 113 156;'oceangreen';'#3d9973';4036979;61 153 115;'ocher';'#bf9b0c';12557068;191 155 12;'ochre';'#bf9005';12554245;191 144 5;'ocre';'#c69c04';13016068;198 156 4;'offblue';'#5684ae';5670062;86 132 174;'offgreen';'#6ba353';7054163;107 163 83;'offwhite';'#ffffe4';16777188;255 255 228;'offyellow';'#f1f33f';15856447;241 243 63;'oldpink';'#c77986';13072774;199 121 134;'oldrose';'#c87f89';13139849;200 127 137;'olive';'#6e750e';7238926;110 117 14;'olivebrown';'#645403';6575107;100 84 3;'olivedrab';'#6f7632';7304754;111 118 50;'olivegreen';'#677a04';6781444;103 122 4;'oliveyellow';'#c2b709';12760841;194 183 9;'orange';'#f97306';16347910;249 115 6;'orangebrown';'#be6400';12477440;190 100 0;'orangeish';'#fd8d49';16616777;253 141 73;'orangepink';'#ff6f52';16740178;255 111 82;'orangered';'#fd411e';16597278;253 65 30;'orangered';'#fe420f';16663055;254 66 15;'orangeybrown';'#b16002';11624450;177 96 2;'orangeyellow';'#ffad01';16755969;255 173 1;'orangeyred';'#fa4224';16400932;250 66 36;'orangeyyellow';'#fdb915';16627989;253 185 21;'orangish';'#fc824a';16548426;252 130 74;'orangishbrown';'#b25f03';11689731;178 95 3;'orangishred';'#f43605';16004613;244 54 5;'orchid';'#c875c4';13137348;200 117 196;'pale';'#fff9d0';16775632;255 249 208;'paleaqua';'#b8ffeb';12124139;184 255 235;'paleblue';'#d0fefe';13696766;208 254 254;'palebrown';'#b1916e';11637102;177 145 110;'palecyan';'#b7fffa';12058618;183 255 250;'palegold';'#fdde6c';16637548;253 222 108;'palegreen';'#c7fdb5';13106613;199 253 181;'palegrey';'#fdfdfe';16645630;253 253 254;'palelavender';'#eecffe';15650814;238 207 254;'palelightgreen';'#b1fc99';11664537;177 252 153;'palelilac';'#e4cbff';14994431;228 203 255;'palelime';'#befd73';12516723;190 253 115;'palelimegreen';'#b1ff65';11665253;177 255 101;'palemagenta';'#d767ad';14116781;215 103 173;'palemauve';'#fed0fc';16699644;254 208 252;'paleolive';'#b9cc81';12176513;185 204 129;'paleolivegreen';'#b1d27b';11653755;177 210 123;'paleorange';'#ffa756';16754518;255 167 86;'palepeach';'#ffe5ad';16770477;255 229 173;'palepink';'#ffcfdc';16764892;255 207 220;'palepurple';'#b790d4';12030164;183 144 212;'palered';'#d9544d';14242893;217 84 77;'palerose';'#fdc1c5';16630213;253 193 197;'palesalmon';'#ffb19a';16757146;255 177 154;'paleskyblue';'#bdf6fe';12449534;189 246 254;'paleteal';'#82cbb2';8571826;130 203 178;'paleturquoise';'#a5fbd5';10877909;165 251 213;'paleviolet';'#ceaefa';13545210;206 174 250;'paleyellow';'#ffff84';16777092;255 255 132;'parchment';'#fefcaf';16710831;254 252 175;'pastelblue';'#a2bffe';10665982;162 191 254;'pastelgreen';'#b0ff9d';11599773;176 255 157;'pastelorange';'#ff964f';16750159;255 150 79;'pastelpink';'#ffbacd';16759501;255 186 205;'pastelpurple';'#caa0ff';13279487;202 160 255;'pastelred';'#db5856';14374998;219 88 86;'pastelyellow';'#fffe71';16776817;255 254 113;'pea';'#a4bf20';10796832;164 191 32;'peach';'#ffb07c';16756860;255 176 124;'peachypink';'#ff9a8a';16751242;255 154 138;'peacockblue';'#016795';92053;1 103 149;'peagreen';'#8eab12';9349906;142 171 18;'pear';'#cbf85f';13367391;203 248 95;'peasoup';'#929901';9607425;146 153 1;'peasoupgreen';'#94a617';9741847;148 166 23;'periwinkle';'#8e82fe';9339646;142 130 254;'periwinkleblue';'#8f99fb';9411067;143 153 251;'perrywinkle';'#8f8ce7';9407719;143 140 231;'petrol';'#005f6a';24426;0 95 106;'pigpink';'#e78ea5';15175333;231 142 165;'pine';'#2b5d34';2841908;43 93 52;'pinegreen';'#0a481e';673822;10 72 30;'pink';'#ff81c0';16744896;255 129 192;'pinkish';'#d46a7e';13920894;212 106 126;'pinkishbrown';'#b17261';11629153;177 114 97;'pinkishgrey';'#c8aca9';13151401;200 172 169;'pinkishorange';'#ff724c';16740940;255 114 76;'pinkishpurple';'#d648d7';14043351;214 72 215;'pinkishred';'#f10c45';15797317;241 12 69;'pinkishtan';'#d99b82';14261122;217 155 130;'pinkpurple';'#db4bda';14371802;219 75 218;'pinkpurple';'#ef1de7';15670759;239 29 231;'pinkred';'#f5054f';16057679;245 5 79;'pinky';'#fc86aa';16549546;252 134 170;'pinkypurple';'#c94cbe';13192382;201 76 190;'pinkyred';'#fc2647';16524871;252 38 71;'pissyellow';'#ddd618';14538264;221 214 24;'pistachio';'#c0fa8b';12647051;192 250 139;'plum';'#580f41';5771073;88 15 65;'plumpurple';'#4e0550';5113168;78 5 80;'poisongreen';'#40fd14';4259092;64 253 20;'poo';'#8f7303';9401091;143 115 3;'poobrown';'#885f01';8937217;136 95 1;'poop';'#7f5e00';8347136;127 94 0;'poopbrown';'#7a5901';8018177;122 89 1;'poopgreen';'#6f7c00';7306240;111 124 0;'powderblue';'#b1d1fc';11653628;177 209 252;'powderpink';'#ffb2d0';16757456;255 178 208;'primaryblue';'#0804f9';525561;8 4 249;'prussianblue';'#004577';17783;0 69 119;'puce';'#a57e52';10845778;165 126 82;'puke';'#a5a502';10855682;165 165 2;'pukebrown';'#947706';9729798;148 119 6;'pukegreen';'#9aae07';10137095;154 174 7;'pukeyellow';'#c2be0e';12762638;194 190 14;'pumpkin';'#e17701';14776065;225 119 1;'pumpkinorange';'#fb7d07';16481543;251 125 7;'pureblue';'#0203e2';132066;2 3 226;'purple';'#7e1e9c';8265372;126 30 156;'purpleblue';'#5d21d0';6103504;93 33 208;'purpleblue';'#632de9';6499817;99 45 233;'purplebrown';'#673a3f';6765119;103 58 63;'purplegrey';'#866f85';8810373;134 111 133;'purpleish';'#98568d';9983629;152 86 141;'purpleishblue';'#6140ef';6373615;97 64 239;'purpleishpink';'#df4ec8';14634696;223 78 200;'purplepink';'#d725de';14099934;215 37 222;'purplepink';'#e03fd8';14696408;224 63 216;'purplered';'#990147';10027335;153 1 71;'purpley';'#8756e4';8869604;135 86 228;'purpleyblue';'#5f34e7';6239463;95 52 231;'purpleygrey';'#947e94';9731732;148 126 148;'purpleypink';'#c83cb9';13122745;200 60 185;'purplish';'#94568c';9721484;148 86 140;'purplishblue';'#601ef9';6299385;96 30 249;'purplishbrown';'#6b4247';7029319;107 66 71;'purplishgrey';'#7a687f';8022143;122 104 127;'purplishpink';'#ce5dae';13524398;206 93 174;'purplishred';'#b0054b';11535691;176 5 75;'purply';'#983fb2';9977778;152 63 178;'purplyblue';'#661aee';6691566;102 26 238;'purplypink';'#f075e6';15758822;240 117 230;'putty';'#beae8a';12496522;190 174 138;'racinggreen';'#014600';83456;1 70 0;'radioactivegreen';'#2cfa1f';2947615;44 250 31;'raspberry';'#b00149';11534665;176 1 73;'rawsienna';'#9a6200';10117632;154 98 0;'rawumber';'#a75e09';10968585;167 94 9;'reallylightblue';'#d4ffff';13959167;212 255 255;'red';'#e50000';15007744;229 0 0;'redbrown';'#8b2e16';9121302;139 46 22;'reddish';'#c44240';12862016;196 66 64;'reddishbrown';'#7f2b0a';8334090;127 43 10;'reddishgrey';'#997570';10057072;153 117 112;'reddishorange';'#f8481c';16271388;248 72 28;'reddishpink';'#fe2c54';16657492;254 44 84;'reddishpurple';'#910951';9505105;145 9 81;'reddybrown';'#6e1005';7213061;110 16 5;'redorange';'#fd3c06';16595974;253 60 6;'redpink';'#fa2a55';16394837;250 42 85;'redpurple';'#820747';8521543;130 7 71;'redviolet';'#9e0168';10355048;158 1 104;'redwine';'#8c0034';9175092;140 0 52;'richblue';'#021bf9';138233;2 27 249;'richpurple';'#720058';7471192;114 0 88;'robin';'#6dedfd';7204349;109 237 253;'robin';'#98eff9';10022905;152 239 249;'robineggblue';'#8af1fe';9105918;138 241 254;'rosa';'#fe86a4';16680612;254 134 164;'rose';'#cf6275';13591157;207 98 117;'rosepink';'#f7879a';16222106;247 135 154;'rosered';'#be013c';12452156;190 1 60;'rosypink';'#f6688e';16148622;246 104 142;'rouge';'#ab1239';11211321;171 18 57;'royal';'#0c1793';792467;12 23 147;'royalblue';'#0504aa';328874;5 4 170;'royalpurple';'#4b006e';4915310;75 0 110;'ruby';'#ca0147';13238599;202 1 71;'russet';'#a13905';10565893;161 57 5;'rust';'#a83c09';11025417;168 60 9;'rustbrown';'#8b3103';9122051;139 49 3;'rustorange';'#c45508';12866824;196 85 8;'rustred';'#aa2704';11151108;170 39 4;'rustyorange';'#cd5909';13457673;205 89 9;'rustyred';'#af2f0d';11480845;175 47 13;'saffron';'#feb209';16691721;254 178 9;'sage';'#87ae73';8892019;135 174 115;'sagegreen';'#88b378';8958840;136 179 120;'salmon';'#ff796c';16742764;255 121 108;'salmonpink';'#fe7b7c';16677756;254 123 124;'sand';'#e2ca76';14862966;226 202 118;'sandbrown';'#cba560';13346144;203 165 96;'sandstone';'#c9ae74';13217396;201 174 116;'sandy';'#f1da7a';15850106;241 218 122;'sandybrown';'#c4a661';12887649;196 166 97;'sandyellow';'#fce166';16572774;252 225 102;'sandyyellow';'#fdee73';16641651;253 238 115;'sapgreen';'#5c8b15';6064917;92 139 21;'sapphire';'#2138ab';2177195;33 56 171;'scarlet';'#be0119';12452121;190 1 25;'sea';'#3c9992';3971474;60 153 146;'seablue';'#047495';291989;4 116 149;'seafoam';'#80f9ad';8452525;128 249 173;'seafoamblue';'#78d1b6';7918006;120 209 182;'seafoamgreen';'#7af9ab';8059307;122 249 171;'seagreen';'#53fca1';5504161;83 252 161;'seaweed';'#18d17b';1626491;24 209 123;'seaweedgreen';'#35ad6b';3517803;53 173 107;'sepia';'#985e2b';9985579;152 94 43;'shamrock';'#01b44c';111692;1 180 76;'shamrockgreen';'#02c14d';180557;2 193 77;'shit';'#7f5f00';8347392;127 95 0;'shitbrown';'#7b5804';8083460;123 88 4;'shitgreen';'#758000';7700480;117 128 0;'shockingpink';'#fe02a2';16646818;254 2 162;'sickgreen';'#9db92c';10336556;157 185 44;'sicklygreen';'#94b21c';9744924;148 178 28;'sicklyyellow';'#d0e429';13689897;208 228 41;'sienna';'#a9561e';11097630;169 86 30;'silver';'#c5c9c7';12962247;197 201 199;'sky';'#82cafc';8571644;130 202 252;'skyblue';'#75bbfd';7715837;117 187 253;'slate';'#516572';5334386;81 101 114;'slateblue';'#5b7c99';5995673;91 124 153;'slategreen';'#658d6d';6655341;101 141 109;'slategrey';'#59656d';5858669;89 101 109;'slimegreen';'#99cc04';10079236;153 204 4;'snot';'#acbb0d';11320077;172 187 13;'snotgreen';'#9dc100';10338560;157 193 0;'softblue';'#6488ea';6588650;100 136 234;'softgreen';'#6fc276';7324278;111 194 118;'softpink';'#fdb0c0';16625856;253 176 192;'softpurple';'#a66fb5';10907573;166 111 181;'spearmint';'#1ef876';2029686;30 248 118;'springgreen';'#a9f971';11139441;169 249 113;'spruce';'#0a5f38';679736;10 95 56;'squash';'#f2ab15';15903509;242 171 21;'steel';'#738595';7570837;115 133 149;'steelblue';'#5a7d9a';5930394;90 125 154;'steelgrey';'#6f828a';7307914;111 130 138;'stone';'#ada587';11380103;173 165 135;'stormyblue';'#507b9c';5274524;80 123 156;'straw';'#fcf679';16578169;252 246 121;'strawberry';'#fb2943';16460099;251 41 67;'strongblue';'#0c06f7';788215;12 6 247;'strongpink';'#ff0789';16713609;255 7 137;'sunflower';'#ffc512';16762130;255 197 18;'sunfloweryellow';'#ffda03';16767491;255 218 3;'sunnyyellow';'#fff917';16775447;255 249 23;'sunshineyellow';'#fffd37';16776503;255 253 55;'sunyellow';'#ffdf22';16768802;255 223 34;'swamp';'#698339';6914873;105 131 57;'swampgreen';'#748500';7636224;116 133 0;'tan';'#d1b26f';13742703;209 178 111;'tanbrown';'#ab7e4c';11238988;171 126 76;'tangerine';'#ff9408';16749576;255 148 8;'tangreen';'#a9be70';11124336;169 190 112;'taupe';'#b9a281';12165761;185 162 129;'tea';'#65ab7c';6663036;101 171 124;'teagreen';'#bdf8a3';12449955;189 248 163;'teal';'#029386';168838;2 147 134;'tealblue';'#01889f';100511;1 136 159;'tealgreen';'#25a36f';2466671;37 163 111;'tealish';'#24bca8';2407592;36 188 168;'tealishgreen';'#0cdc73';842867;12 220 115;'terracota';'#cb6843';13330499;203 104 67;'terracotta';'#c9643b';13198395;201 100 59;'terracotta';'#ca6641';13264449;202 102 65;'tiffanyblue';'#7bf2da';8123098;123 242 218;'tomato';'#ef4026';15679526;239 64 38;'tomatored';'#ec2d01';15478017;236 45 1;'topaz';'#13bbaf';1293231;19 187 175;'toupe';'#c7ac7d';13085821;199 172 125;'toxicgreen';'#61de2a';6413866;97 222 42;'treegreen';'#2a7e19';2784793;42 126 25;'trueblue';'#010fcc';69580;1 15 204;'truegreen';'#089404';562180;8 148 4;'turquoise';'#06c2ac';443052;6 194 172;'turquoiseblue';'#06b1c4';438724;6 177 196;'turquoisegreen';'#04f489';324745;4 244 137;'turtlegreen';'#75b84f';7714895;117 184 79;'twilight';'#4e518b';5132683;78 81 139;'twilightblue';'#0a437a';672634;10 67 122;'uglyblue';'#31668a';3237514;49 102 138;'uglybrown';'#7d7103';8220931;125 113 3;'uglygreen';'#7a9703';8034051;122 151 3;'uglypink';'#cd7584';13464964;205 117 132;'uglypurple';'#a442a0';10764960;164 66 160;'uglyyellow';'#d0c101';13680897;208 193 1;'ultramarine';'#2000b1';2097329;32 0 177;'ultramarineblue';'#1805db';1574363;24 5 219;'umber';'#b26400';11691008;178 100 0;'velvet';'#750851';7669841;117 8 81;'vermillion';'#f4320c';16003596;244 50 12;'verydarkblue';'#000133';307;0 1 51;'verydarkbrown';'#1d0200';1901056;29 2 0;'verydarkgreen';'#062e03';404995;6 46 3;'verydarkpurple';'#2a0134';2752820;42 1 52;'verylightblue';'#d5ffff';14024703;213 255 255;'verylightbrown';'#d3b683';13874819;211 182 131;'verylightgreen';'#d1ffbd';13762493;209 255 189;'verylightpink';'#fff4f2';16774386;255 244 242;'verylightpurple';'#f6cefc';16174844;246 206 252;'verypaleblue';'#d6fffe';14090238;214 255 254;'verypalegreen';'#cffdbc';13630908;207 253 188;'vibrantblue';'#0339f8';211448;3 57 248;'vibrantgreen';'#0add08';711944;10 221 8;'vibrantpurple';'#ad03de';11338718;173 3 222;'violet';'#9a0eea';10096362;154 14 234;'violetblue';'#510ac9';5311177;81 10 201;'violetpink';'#fb5ffc';16474108;251 95 252;'violetred';'#a50055';10813525;165 0 85;'viridian';'#1e9167';2003303;30 145 103;'vividblue';'#152eff';1388287;21 46 255;'vividgreen';'#2fef10';3141392;47 239 16;'vividpurple';'#9900fa';10027258;153 0 250;'vomit';'#a2a415';10658837;162 164 21;'vomitgreen';'#89a203';9019907;137 162 3;'vomityellow';'#c7c10c';13091084;199 193 12;'warmblue';'#4b57db';4937691;75 87 219;'warmbrown';'#964e02';9850370;150 78 2;'warmgrey';'#978a84';9931396;151 138 132;'warmpink';'#fb5581';16471425;251 85 129;'warmpurple';'#952e8f';9776783;149 46 143;'washedoutgreen';'#bcf5a6';12383654;188 245 166;'waterblue';'#0e87cc';952268;14 135 204;'watermelon';'#fd4659';16598617;253 70 89;'weirdgreen';'#3ae57f';3859839;58 229 127;'wheat';'#fbdd7e';16506238;251 221 126;'white';'#ffffff';16777215;255 255 255;'windowsblue';'#3778bf';3635391;55 120 191;'wine';'#80013f';8388927;128 1 63;'winered';'#7b0323';8061731;123 3 35;'wintergreen';'#20f986';2161030;32 249 134;'wisteria';'#a87dc2';11042242;168 125 194;'yellow';'#ffff14';16776980;255 255 20;'yellowbrown';'#b79400';12030976;183 148 0;'yellowgreen';'#bbf90f';12318991;187 249 15;'yellowgreen';'#c0fb2d';12647213;192 251 45;'yellowgreen';'#c8fd3d';13172029;200 253 61;'yellowish';'#faee66';16445030;250 238 102;'yellowishbrown';'#9b7a01';10189313;155 122 1;'yellowishgreen';'#b0dd16';11590934;176 221 22;'yellowishorange';'#ffab0f';16755471;255 171 15;'yellowishtan';'#fcfc81';16579713;252 252 129;'yellowochre';'#cb9d06';13344006;203 157 6;'yelloworange';'#fcb001';16560129;252 176 1;'yellowtan';'#ffe36e';16769902;255 227 110;'yellowybrown';'#ae8b0c';11438860;174 139 12;'yellowygreen';'#bff128';12579112;191 241 40
 
 imageSchema_sql=:'create table image ( ImageKey text, AlbumKey text, FileName text, ArchivedMD5 text, ArchivedSize integer, Latitude float, Longitude float, Altitude integer, OriginalHeight integer, OriginalWidth integer, UploadDate date, LastUpdated date, Uri text, ThumbnailUrl text, Keywords text, Caption text) '
 
@@ -1194,6 +1196,29 @@ db=. y
 sqlcreate__db imageSchema_sql
 )
 
+ctabdups=:] #~ (0 {"1 ]) e. [: ~. (0 {"1 ]) #~ [: -. [: ~: 0 {"1 ]
+
+ctabfrxkcd=:3 : 0
+
+NB.*ctabfrxkcd v-- convert xkcd_colors_txt to sorted python dictionary format.
+NB.
+NB. monad:  btcl =. ctabfrxkcd clXKCD
+NB. 
+NB.   ctabfrxkcd read jpath '~temp/xkcd_colors.txt'
+
+NB. sorted list with blanks and control characters removed
+t=. /:~ (}. <;._2 tlf y -. CR) -.&.> <' ',CR,LF,TAB,'/'
+
+NB. color names to python dictionary key format
+c=. 'u' ,&.> (quote&.> '#'&beforestr&.> t) ,&.> <': '
+
+NB. hex values to python dictionary format
+h=. 'u' ,&.> (quote&.> '#' ,&.> '#'&afterstr&.> t) ,&.> ','
+
+NB. XKCD color table - names are not unique
+c ,. h
+)
+
 debrii=:3 : 0
 
 NB.*debrii v-- write shell script that removes debrii files.
@@ -1401,7 +1426,108 @@ NB. columns: ratio, areas, print sizes
 (<"0 x round ~.ratios) ,. (aspect {&.> <areas) ,. s:&.> aspect {&.> <sizes
 )
 
+pydictfrctab=:3 : 0
+
+NB.*pydictfrctab v-- python dictionary format from color table.
+NB.
+NB. monad:  clpy =. pydictfrctab blclColors
+NB.
+NB.   path=. jpath '~temp/'
+NB.
+NB.   py=. pydictfrctab ctabfrxkcd read path,'xkcd_colors.txt'
+NB.   (toHOST py) write path,'xkcd_colors.py'
+
+NB. XKCD color names are not unique take the first value
+d=. ctl '    ' ,"1 ;"1 y #~ ~: 0 {"1 y
+'XKCD_NAMES_TO_HEX = {',LF,d,LF,'}'
+)
+
 rekeyword=:[: 2&}.@;&.> [: '; '&,L:0 ([: <;._1&.> ';' ,&.> ' ' -.&.>~ ]) -.&.> [: < [: < [
+
+rgbfrdec=:3 : 0
+
+NB.*rgbfrdec v-- RGB triples from decimal.
+NB.
+NB. monad:  itRGB =. rgbfrhex iu
+NB.
+NB.   NB. compare CSS color table to (rgbfrhex) identity
+NB.   (|: rgbfrhex }."1 >}. 1 {"1 CSS_Colors) -: > }. 2 {"1 CSS_Colors
+NB.
+NB.   RGB=. rgbfrhex }."1 > }.1 {"1 WEB_PyColors
+
+NB. channel masks
+NB. amask=. dfh 'ff000000'
+rmask=. dfh 'ff0000'
+gmask=. dfh 'ff00'
+bmask=. dfh 'ff'
+
+NB. bit level operations
+SHIFT=. (33 b.)
+AND=. $:/ :(17 b.)
+
+NB. split colors
+b=. ,256%~ y AND bmask
+g=. ,(2^16)%~ 8 SHIFT (_8 SHIFT y) AND bmask
+r=. ,(2^24)%~ 16 SHIFT (_16 SHIFT y) AND bmask
+
+NB. normalize to integer
+|: <. 256 * r,.g,.b
+)
+
+rgbfrhex=:3 : 0
+
+NB.*rgbfrhex v-- RGB triples from hexidecimal.
+NB.
+NB. monad:  itRGB =. rgbfrhex ctHex
+NB.
+NB.   RGB=. rgbfrhex }."1 > }.1 {"1 WEB_PyColors
+
+rgbfrdec dfh y
+)
+
+rulethirdsq=:4 : 0
+
+NB.*rulethirdsq v--  rule  of  thirds  square regions - see  long
+NB. document.
+NB.
+NB. This verb  returns  lists of ravel  index encoded coordinates
+NB. for square pixel patches  rougly centered  on the the primary
+NB. rule-of-thirds composition points of rectangular regions. The
+NB. (y) argument defines the pixel  dimenions and the (x) defines
+NB. the patch width.
+NB.
+NB. There are five  main composition  points: UL (upper left), LL
+NB. (lower  left), UR  (upper  right),  LR  (lower  right) and  C
+NB. (center).
+NB.
+NB. dyad:  blil =. iaR rulethirdsq ilWh
+NB.
+NB.   s=. 25 rulethirdsq 400 600
+NB.   require 'viewmat'
+NB.   ul=. (>0{s) $ 1 (;1{s) } , (>0{s)$0
+NB.   c=.  (>0{s) $ 1 (;5{s) } , (>0{s)$0
+NB.
+NB.   viewmat ul [ viewmat c
+NB.   viewmat ul +. c
+
+NB. UL (upper left) width coordinates
+a=. (i: x) + w3=. <. (0{y) % 3
+
+NB. UL height coordinates
+b=. (i: x) + h3=. <. (1{y) % 3
+
+NB. other patches are offsets of UL
+NB. UL    LL       UR       LR         C
+o=. 0 0 , (w3,0) , (0,h3) , (w3,h3) ,: (<. -: y) - w3,h3
+
+r=. i.0
+for_p. o do.
+  r=. r , <I. , 1 ({(a+0{p);b+1{p) } y $ 0
+end.
+
+NB. prefix pixel dimensions needed to decode coordinates
+(<y) , r
+)
 
 sizekey=:3 : 0
 
@@ -1510,82 +1636,106 @@ NB.   sortprintsizes <;.1 ' ',reb '10x10 20x30   3x2 2x3 12x8  8x12 10x10   '
 (~. ' x'&charsub&.> ":&.> /:~ (/:~)&.> ".&.> 'x '&charsub&.> y) -.&.> ' '
 )
 
+xkcdcolorfreq=:3 : 0
+
+NB.*xkcdcolorfreq v-- XKCD color key frequencies from TAB delimited file.
+NB.
+NB. monad:  xkcdcolorfreq clXKCDfile
+NB.
+NB.   xkcdcolorfreq 'c:/temp/xkcd_dominant.txt'
+
+d=. readtd2 y
+'k f'=. ofreq s: 0 {"1 }. d
+c=. 100 * +/\ f % +/ f
+
+NB. frequency summary
+s=. ,.&.> (>: i. #k);k;f;(100 * f % +/f);c;+/\. f
+(<;._1 ';count;color key;frequency;percent;cummulative;reverse') ,: s
+)
+
 showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:dec85__MK__JODobj 0 : 0
-1H7-42DlU4+>G\q2)-4.3$:%7+>GSn1,U1/0H`5/+>Ghu1c?I22BXb3+?:Q%1a"e$1cHO32BXb8
+1c%'52`2^5+>G\q2)-4.3$:%7+>GSn1,U1/0H`).+>Ghu1c?I22BXb3+?:Q%1a"e$1cHO32BXb8
 +>PYo1H?R50H`2/+?1K"1E\Y"1bp16+>Ghu0fC.02'=V5+>Pku0f'q-1*A;0+>beq0f:(/1a"M3
 +>Pht0f'q-1a"M/+>c#"0f^@72BX_4+>c#"0eje/0d&Fu1GU(-0H`,1+>GSn1cZ[52BXe5+>PYo
 2)?@02BXh:+>Gl!2_lL20d&A0+>GVo2Du[41a"\5+>GPm2Du[43?U(9+>PYo2)QL20d&A.+>GPm
 3%uI03?U+;+>Ghu1Gp:01E\M6+>G_r2`2^41*AG4+>G\q1cHO31a"\9+>GPm1cQU43$:+5+>P\p
-2)QL21*AM2+>GSn1Gp:01*AD6+>t?!1a"b#2_lL11*AJ0+>t?#2]t%%1Gp:4+>c#"0esk-2BXb5
-+>Po!0f:(/2BY"&2DH=/1a"V/+>G\q2)%=4@WcNa@<?0^@:F%a@rH4'Ch7^"+Dbt+@;I'*@<?0*
-FCAWpAKYT*Df$V*CgqO(+E1b0ASuT4AoDKrATDiY@:O(QE(t%eEc5u#Eb/iN@U`bUCNXS=D/"$2
-DfQt2@<>pe@<6!&@;]TuATD4#AKY]!+=MI`+DGm>0g^"sCh-7SEcQ)=@UWb^F`9!DEb/[$AM7k<
-@:UKtBl\64E^Nc(?UJaJDfTo@@:F%a+E(j7F*(i.A79Lh+@B(++Cf>+DfQt<@;TRs/0IJP=<M$i
-A0=c?66LG[Cis<16ZQaHFCe0\EcQ)==E7tb6t0YHART[lF!,ODCh\!&+Dkh5Ec5t@@rcL/F!,L7
-An?!oDI[6#A79Rg@UX=h6ZQaHFCe0\EcQ)=?ZU4';FO&D;FO>J762Q4EGT?2AKYi(EcQ)=6q'F?
-8P)67<+^8hCj@.CF^]*#Anbge+C\c$@q[N:BOu!r+EM%5BlJ/:GB.D>FCf>4@X0(EA7]4jBk]"a
-77'mD8OZ`\@VfOj+E(j7@psFi+DG_7ASuU(G%DdEA7]4jBk]"=Anc'm+D#e>ASuR'Df0VaDf'3+
-@;^0SDes?4:hFrkEb/isGT^p:+CoD-Bl7?sF<G(3Ci=>:CLqd47!3?c9Q+ELCe8JPB4XhHFEMV4
-Ch.[*E$-Q&De!3l8SqmKALSa1F!+FJ66KfMCh[a#FCeu*FCf]=8Oc!579<8_6rQfoEcQ)==E7tb
-Bl8$(Eb8`iAKZ28Eb'56-qQlo6Ub'P;FFGXBl\64E`d?nAgnj8Ec6)>9M\#O9hA8^DIIBn+E(j7
-D/"'4Bl7Q+Ci<flC`mG/@:s.m+D,>(AP>le:KUL`7W)XOAKYo'+E).6Bl7K)Ci<flC`m5.Df]tB
-Eb/ioEb0,uAKZ)'@VfULDdd0BCgqO(Ci<`m+=KNl@WcN:+EV%$Ch6:Y@:VrH@:s.;CgqO(=E84r
-@:UK/8SqmKAO1-AF_t6$.3N_@@VfULDdd0JD..'g94`BmDfTAjEboZ&A0<9lD..'g94`BmDfTAj
-E[`,Q@:F%a9Q+?M9Q+ELCf"P^BP_TqA0<9oDe!3l:gnHZ.3N_@@VfULDdd0NBl\64E`d?nAjg*E
-Ddd0t+Dtb7+Dkh5Ec5t@@rcL/F!,L7An?!oDI[6#A79Rg@UX=h9Q+?M:Msu_DIlCV@:s.fDdd0!
--r4_sBl7KRD..'g.3N_@@VfULDdd0PDJX$)AP6T[GAhM4Ci<`m+=L$'Ch[cu94`BmDfTA;+EV%$
-Ch6:Y@ps1CBl%?fF)c"o77K^D78?3=3ZrK`Ch\!&+Dkh5Ec5tlDe!3l7WM:BCh[cuCi<flC`m>(
-Ch4`,@;TRs+D,Y4D'3b7Ch[cu+DYP6F!+n/A0>JuCh7KmD.Rc^De!3l:Msu_DIl:OCh6spEGSNA
-7R^3D:.%H2+Dbt+@;I')DJX$)AKYT!Ch4`+@<?!m+E;O8Ed8cZ+EM+*+=KruEcQ)==E7tb.3N;8
-@:Wqi9gM-E:K'u%EcQ)==E7tbD.-ppDf[%0F)u80Bjl*pA0?)1FD)dF9gM-E:K'u%EcQ)==E7tb
-.3N8DDfp"n5u(*L6Vgf^77M0'D.Oi.Afu#0Ch[cu+Dbt+@;I''@;^3rC`m5+EcP`$FD5Z2F!+t5
-Df]tBEb/ioEb0,uAKZ)'@VfUM8Q&G^;FEimEGT?2AKYi(EcQ)=+Cno&@:EYdAKYT!Ch4`,@;TRM
-8Q&G^;Fj5B6tg.?A0>f&+E1b2BHSlL@q]:gB4W2tDfQt=F%p(b@q\SFDKTB(Bl8!'Ec`F@@;^3r
-C`mY6Ch[cu+Dbt+@;I'#D..'g+E1b'EZek1EcP`$FD5Z2F%p(b@q\YUCh[cu9Q+ELCi*U&@q[!'
-DJX$)AKYT!Ch7Z1GA2/4+Dbt+@;I&uBl%@%9jr-RBMWM^Bl7KWDaJJQ@r#XtF)>?-@q[!'DJX$)
-AKYT!Ch7Z1GA2/4+Dbt+@;I&uBl%@%+EqOABQ&$8+Br+oF*2),Bm<?dEcQ)=8SqmKAQ3)ICh7Zt
-@;[2rCht52@;]dkATMr9Anc'mF!+n/A0>o(FEMVA+CT.1Bl.9kAKZ)'@VfUMBl\64E_1+VB4Y1c
-<+06PATMp&@;[3)@;]dkATMrHEb/ZqA79Rk+D,>(ATJu&DIal1ATW'8DBNY1@:s-o@;]TuBl.9k
-ARTCaF_r7GEb/i*FCAWpATLR[EcQ)=8SqmKAQWtaAlN2JCh7[/@ps6t@;Ka&D..<rAn?%*+D,>(
-ATJu&DIal1ATW'8DBNY1@:s-o@;]Tu@;KCqD'4(DAS*',@:F%aF%p@hEc5tiD..'gF)ti"DK?q/
-Cht52@;]dkATMrH@q]:gB4Z-,Anc'mF!+n/A0>o(FEMVAF!,16@:s-oCLqd4+CT=6F*VV3DesJh
-Bl\64E_BthGAhM4F)ti"DK?q/Cht52@;]dkATMrH@q]:gB4Z-,Anc'mF!+n/A0>o(FEMVAF!,70
-H$=1IA9/l%F!,OLD.7F"F%p@hEc5tm6oB%,@ps7r+CT)&+DkP)BkCptF>%-;@;]^hF!,(/Ch7Z1
-@;]TuEb0?8Ec,q@Bl.9kAKX]8200mKF!,OLD.7F"F%p@iF(oN)8SqmKATLa\E,Tc=D/"'4Bl7Q+
-Ci<flC`mG/@:s.m+ED%4DfTqoBle?0DJ)X]@ps1CBl%@%?ZU4';FO&D;FO>J762Q4EGQb-De*E%
-Eb/ioEb0,uAKWQIF(Jo*-r"DrEc5u#Eb/i3+D>=pA7]dV:JaVb78-WQ79OD;H$=1IA0>T(A8,O^
-FD5W*+DG\$B4W2rBl.F!F(oQ1F!,RC+EMC.Cht5+DfQt>EbTE5+EM7CATLUB;F+8R:J4,ZCLqd8
-DfTA2Bl7Hq@psInDJ()+D..'g+Co2'ASuR'Df-\.D]iq9F<GF/FCSu,E,oZ1F<GX=H=_.?/KeqL
-DKBo.DId0rA0>r,@;oe!;GU(f=&2^^;b^tHEc5u#Eb/j'Df9_?GAhM4F!)l/:JXqk:JsSZ9keWg
-DfSs#AS*A6B6%p5E)L7UCd_]RAO^]7@;]dkATMs6ARTBtA79Rk+D,>(ATJu+Ec5e;D..<rAn?%*
-+D,>(ATLdE<C]>Q76sgI<DGr&Dfor.+E(k(+D,P4+E2@8DKI"BF`M)&@q?ckEb/Z%.!'BN@<,p%
-Bl7EoATK;!9iX\L;c#nM<)QLl:.0,@F`(_4De<T(AoD]4;f-Yi9m((k@<6C!@rri6@<?4%F!*%W
-E,oN"Ble!,DBNe=F*&O8BleB1DJ+*+F(c\)Cht57@<?4%F&Pe57o3)T:/jVX8RuCE@<HC.+E2@8
-DKI!h:e;c]+EM+9+EVNE<+pDk@WP@^F`S[B@:O=r+Eh10F_)\6Afrlf0N1\G7o3)T:/k.`>")A"
-C`mY.+B)rlEc`FK+A?]kB-8U:DI[?kF"&51D09JcF_;h9EbTE5+EM7CATLdE<C]kg<(0\`8QnP]
-E,oZ1F<GX=H=_.?FD,*)+DkP/@q[!.@;L't+DG^98p,)uFCfJ8DJsW.@W-1#F!+n/A0=]oFD,T1
-+EM%5BlJ08;cZCq6Z6dZEcZ>2@VfTuDe:,5FCB&t@<,m$;cZC2@rH1%EZf7.D.Rc2@;]Tu;Fa%r
-G%#30ATLjjA79Rk9Q+ELCf#.`F(K62F(KG9-qnPh@;Jb\ATMF#F=A>HDBL>nCgqO(.3N_N+>G!Q
-AftMuC`mP4@ps0rBl.9kATJu*G\M5@<H)JWFCe-a@ps1MEb0<'DKK6,EGSNA7R^3D:.%H2+EMO=
-+Cf>#AKZ#)An?!oDI[6#/Kf+GAKWBqBl\64E`d?nAgnj9ART+\E`Y[r?Vl#8Des?4F(9-)DfQt<
-@;TRs+CT.u+@nq'+Eh10F_,V:AU&<;@:OCjA0>K)Df$UnH$!_<DBO.7@Uj=mDfTnAD/Ws-Ch4`1
-Dfp)1AR[GR@psFiD..L$@psFi+DkP.CER2+@rGmhA0><%+C\c#AKWce+EMXFBl7QnDes?4CLqd'
-Eb06#Des?4+DYP6+D,Y*EHPi1@qfLq+D,Y4D'3>%@;]^hF"_B=DJ<]oF*&O:Bl%@%A7]4jBk_d3
-Blmo/F(f-$C`me/EbTK7+EV:*F<GU8D/XT/F!,")@WH0s+D,>(ATMBnB4Z"'@:sUlD/XT/+D58(
-FCAfpARlp!AU/K<Eb$;)Ec5e;Bl.9kATJu<Bln#2DJsE=ATD]3CghF"FEM,*+CT.u+Dbt6B5)I1
-A7]:jBjl$n@<,duBl@s2Bl8#8@<,pf+CT.u+CT>1ARfg)Eaa'(D]iY1EZf(5@:s-oA8,mlDKBN1
-DK?q/F<G41G%GP66r6HfAT)[!B45=]+D58(FCAfpARlp!AU/K<Eb$;7D]ib2@:s.m+EqOABHV22
-DL,l7D]ik)FD5i>A7ZllDIal+Df03%FEM,*Bl8!3Cij3%DKBB0F<G%7@r*90@:F%a+DG_8D]j+@
-Ch\!&+EV%$Ch7NsEb06,Bkq9&-t[L2E@E#>F`\aHATN!1FE8R=DBNJ$F(8d!A8,po+D,Y*EHPi1
-@sN$6Bl8$6BmO?+AU/#5G%G]8Bl@l3De:,2H$!_<DBL?HEbTE5?ZTq-ARB4aGq!]QBl8$6BmO?+
-AU.Wl@<6-mFCfN8A79RgFCfN8+Cno&@3B0#EZccLEbTE5F(or3CLqc?E,oZ1FE;/BATMs%@VfUc
-Df'H9FCfM9E,oZ1F<GX=H=_.?FCAWpATD?tAU/K<Eb'3%D/XT/+DYP6GAhM4+D,Y4D'3;(@r*9'
-AU/K<Eb$;6FE2)5B6,1I+EM+*+Dbt6B-:`'@s)X"DKILPD09K1EbTE5F(or3F(9-*E-686+DbJ,
-B4Z.++E2@8DKI"BBmO>5AoD]4B5)O#DBNJ/Ble35FDu87DKKr6H=_/=DfTqBE,oZ1F<GX=H=_.?
-@<3Q"F(8d!A8,po+E_R9EHPh8;eU)iF<GfN9Q+f]/-                                ~>
+2)QL21*AA0+>GSn1Gp:00d&80+>GVo1cZ[<+>Pht0ea_-3$:+%1c-=7+?)%u0esk00d&Ct0fL45
++>u/$2]sn6+>k8u2]sh1+>Ynu1,^713$9q5+>Pht0esk.0d&J!2DH=6+>Pbr3$9t9+>GSn1cZ[;
++>Y\o0f1"00H`),+>khq0f'q00L9MaF_sr`FD+W^@VfUcDf'H0ATVK+Ci<flC`m\*FD)e=@:F%a
++D,Y4D'38'@WcN1E+*cuDKI"5DerrqEcXQU@r#(`9keWgDfSs#AS+>>@UWb^F`8I?Bl\64EZen$
+FCAWeF(HJ&DIal$Eaa$#+DGF1.!R0`BlbCO6?R!YA5-cYEc5u-@:O(qE%b^AART[l05PQ8A0>`'
+EcQ)=6W6oj6Z6dZEcXTH;_oP+Des?4+EV%$Ch5tSART[l9keWgDfSs#AS+>>@rc-hFCfM9F)c#1
+FCcS3Bl\64EZek4Df]tBEb/ioEb0,uAKYMlFCAWeF(I^ZART[l9keWgDfT3+EGSNA7R^3D:.%H2
++EMO=Blmo/D/"$2DfS676;gBH6:"R_F_kl>+E;O4Ch[KqARlom@<?!m06:f<Cht58@rc:&F<GdJ
+BlnH.DBND6+=Lc3@WH0s.7?Tk;FsGK=B&aG@r*9+AftSlF(HJ.DKBB,FD5o0+=Lc3@WH0s.3N5:
+Ch4`#G][M7F(oQ1F$sq`Bl7?sF@0t_DfSZdG]7\7AncK4De:,&Df'3+@;^00@rH1%EZf./H#lAr
+D/`0e@ps1FD..'g:186eEa`cpF_u(?-qnPh@;JMP@:s.#+CT=6<'`hnA7]RkD/"*'A0>u*G]ZMH
+5sn(B:JsSZ9keWgDfSs#AS,XoFCfK)@:NjkGAhM4F!)l&7R9C1=&2^^;b^tHEc5u#Eb/i3+D5_5
+F`:#M6VgEJ;c@RBD.Oi.Aftr)F)u&5B-;#/@ps0rBl.9kATJu+Bl%?S:I@o[;FO&m@;TQuDe:,1
+DJX$)AKYf-@ps0r@rcL/F!,L7An?!oDI[6#FCAWpAP@#NA3k$@F_tr5@:UK/6#:"QD(-TL@:F%a
+9Q+?M8SqmKAO1-AF_t6$Ci<`m+=Kfu@:s.;CgqO(=E5i5FCAWpAP@#NA4^WHB4X_IH$=1IA6<kg
+Ddd0!-qS8aB4X_IH$=1IA6<k$+EV%$Ch6:Y@:W&M@ps1M@<?1!Ddd0!-qnPh@;JbKFD**GFCAWp
+AP@#NA5-cYEc5u#Eb/iN@VfskA9/l2ATo86Bl\64EZek4Df]tBEb/ioEb0,uAKYMlFCAWeF(J$`
+@:W/OCh[cu8SqmKASc9nA0<9rDJX$)AP$`IB4WM7FCAWpAP@#NA5@)ZBl7KTAU/K<Eb'!)@:UK/
+:Msu_DIlIPH$=1IA18XC@:F%a9Q+ELCdr,TARBLuCf3\k78cQL6Ua$YF)c#1FCcS3Bl\64E_LC]
+@;JDR:Msu_DImX&@ps0rAnc'm+DtV)ATJu+Ec5e;Df0B*DIjr+AU/>>@;]TuAnc'mDIIBnF%gL^
+@;J_WCh[cu7VQ[M?ZU4';FO&D;FO>J762Q-De!3l+E).6Bl7K)Anc'm+DkP/@q[!)F_,T=+>"^W
+ARuu49keWgDfSs#AS*A6BOtU_ATCL26W-]Y9keWgDfSs#AS,df@rcL/+CT>4De!KiFCeu*GA2/4
++=KrM6W-]Y9keWgDfSs#AS*A6B6%p5E(rVn9M\#O=AhRWDIIBn+E(j7Df0B*DIjr,De!3l+DkP)
+F^])/@rHC.ARfgrDf0V=@rcL/F!,L7An?!oDI[6#FCAWpAPG`o;GU1Y6?@-_Blmo/D/"$2DfQt2
+@<>pe@<6!&Anc'm+DtV)APG`o;GU1]76s=TART*lDe:,2@<?0*/KeP:@;]^h+D,P4+E)<q@<?!m
+9jqp^@;KXqF(KB6+DkP)F^])/Df0B*DIjr,De!3l+DG\$B4W3)@;0a)@rHC.ARfgrDf0Vj@<?!m
+:Msu_DIlL[@ps1j@<?!m+E).6Bl7K)Anc'mF!,[@FD)e5De!3l+D,>(ATLRSFCSu[DJX$)APR/1
+Ea`HnATW!1@<?!m+E).6Bl7K)Anc'mF!,[@FD)e5De!3l+D,>(ATJu<Bln$,F`\a1>p+32AnGb%
+9keWgDfSEd@:s.N@:F%aF(8Wr+CT)&+DkP)BkCptF<G10Ch7Z1@;]TuEb0?8Ec*".DBNY1@:s-o
+FCAWpAPHlZEc5tiD..'g=E7AL@VfUsF(8Wr+DkP)BkCptF>%ZG@;KI_FCcS,Bl%@%+CT.u+ED%8
+F`M@BBl.9kAKYE!A0>T'@:s.[CgqO(+F%p<Afu2(@VfUs9keWgDfSEd@:s.REb/i^@:F%aF)ti"
+DBNA(C`mS'DJ<]oF*&O:Bl%@%+CT.u+ED%8F`M@BBl.9kAKYE!A0>;s@WcN1G]IA-+EV%$Ch7Z^
+Bl\64E_1+VB4Z.*@ps7r+CT)&+DkP)BkCptF>%-;@;]^hF!,(/Ch7Z1@;]TuEb0?8Ec,q@Bl.9k
+AKYc"H#k*:F!,OLD.7F"F%p@hEc5tkAU/K<Eb'64@ps7r+CT)&+DkP)BkCptF>%-;@;]^hF!,(/
+Ch7Z1@;]TuEb0?8Ec,q@CLqd8DfTB0+CT=6F*VV3DesJhBl\64E_SqZF)ti"DK?q/Cht52@;]dk
+ATMrH@q]:gB4Z-,Anc'mF!+n/A0>o(FEMVAF!,16@:s-o9ggj[+CT=6F*VV3DesJhBle?0DJ)OX
+@:s.m;IsfcEcc/4F)u&5B-;#/@ps0rBl.9kATJu7AT2R.FA6IjF(oN)9Q+ELCdr,TATM4"EGSNA
+7R^3D:.%H2+EMO=+Cf>#AKZ#)An?!oDI[6#/Kf+GAKWBqBl\64E`d?nAgnj9ART+\E_]D,8Q\DT
+;bKP^CLqd8DfTA2Bl7Hq@psInDJ()+D..'g+Co2'ASuR'Df0V=FDi:CD..6s+D,P4+E2@8DKI"B
+BmO?3:/=bR<(TkY79OD;H$=1IA0>T(A8,O^FD5W*+DG\$B4W2rBl.F!F(oQ1+CoC5DJsV>D..Nr
+BHV87Bl8#8F(or3F!*%WDJsE6FCB&t@<,m$F(f!$ATLaF:K1Ck;FFGXBl\64E`d?nAo_g.F<GdG
+Eb'56-rNi:<*)jn6rQfoEcQ)==E7tb.3N8DDfp"sARTCC@<?'ME_Tt[BkCptFE1r$C`m7sFCcS,
+Bl%@%+D,Y4D'3\(DJ<]oF*&O:Bl%@%;b^7^5uL-;;GU:f6um3gDIal.AnE/tDfQt>EbTE5+EM[G
+Amo1\+CT;%@3?t>EHP]1AKY])@q]Fp.8rr@7mU'M771$P:K:.XEc6)<A0>f&Aft](EZe:tF_=Ek
+B-:W(E+NO$+ECn4BlA&8/Kf"QARfFqBl@l3D09oA+Co2-FD5W*F_Po1+CT)&+ECn4BlA&k9iX\[
+;FsV_6r6HcAS,@nCige=EbTE5+@K$t+>"^WATT&:D]i"mF_tT/:i(8q+DkOsEc3(D@;L't+E(j7
+1H$pc9iX\[;FsV_;b:.];e'VdDe:+jBQ%p5+F##&Df021-u!R/BOu66+B*-"B2*M]+E2@8DKI"B
+BmO?3;b^7^:g$ad;H$.j78n/GBl8#8F(or3F!,R<@<<W/@<?!m+Eh10F_)\0DBMPoE-ZP:EZf7<
+FCep"DejD:@;]Tu:jI.rDf-\=@rc:&FE:A]7peW%Ci=?8FCAWpAKYo'+EMX5DId0rA0=fO7j);[
+Ci=>:DIIBnF!+n/A0=c?66LG[Cis<1<H)JWFCe-a@ps1MEb0<'DKKr2F<Du*De!3l:i^,gASuT=
++DG^9-p_ZYF_rQMFDi9V+DGF1@;Ka&Ci<flC`mG/@:s.m+D#e3F*(E$A79Rk9Q+ELCf#.`F(K62
+?ZU4';FO&D;FO>J762Q4EGQb-De*E%Eb/ioEb0,uAKWQIF(Jo*-r"DrEc5u#Eb/i3+D>=pA7]d_
+77(?XGscLdDfTo#ARZclDes?4+EV%$Ch4_@+Cf>#ATJu3Dfd+EDJ=*5AQVSm6si<"Ci=?8=A)"L
++Cf>+DfQtB@:F%a+>"^R@;TRs+Du+>+E_R9EHPi%1H&`OF(K2sF),8oF(HJ2@<63,ASu!rA7]9o
+@<3Q#@<6!&1H$@sFE2)5B4GjrDfTW)H"M).EFWp'DfQt9AU,D1Eb065ASu!lATJu+Ec5e;@q]:g
+B4Z-;D..<rAn?%*+D,>(ATM@'@:EbiE-#,S6UW&-F`;/2@psIj+Cf>+DfQt<@;TRs@ru-gAo`-3
+@q9(fDK]T3F<GgD@q8qVDes?4F'j$6F<G[D+EMIAFCeu*E-ZP=Df-\.Bk)7!Df0!(Gp$^;Ec#6,
+A7]4jBk_d3Blmo/F(f-$C`me/EbTK7+EV:*F<GU8D/XT/F!,")@WH0s+D,>(ATMBnB4Z"'@:sUl
+D/XT/+D58(FCAfpARlp!AU/K<Eb$;)Ec5e;Bl.9kATJu<Bln#2DJsE=ATD]3CghF"FEM,*+CT.u
++Dbt6B5)I1A7]:jBjl$n@<,duBl@s2Bl8#8@<,pf+CT.u+CT>1ARfg)Eaa'(D]iY1EZf(5@:s-o
+A8,mlDKBN1DK?q/F<G41G%GP66r6HeD00Q)H#mS9Ec#6,+E2@8DKI":AU/?0AT)[!B45=]+D58(
+FCAfpARlp!AU/K<Eb$;7D]ib2@:s.m+EqOABHV22DL,l7D]ik)FD5i>A7ZllDIal+Df03%FEM,*
+Bl8!3Cij3%DKBB0F<G%7@r*90@:F%a+DG_8D]j+@Ch\!&+EV%$Ch7NsEb06,Bkq9&-t[L2E@E#>
+F`\aHATN!1FE8R=DBNJ$F(8d!A8,po+D,Y*EHPi1@sN$6Bl8$6BmO?+AU/#5G%G]8Bl@l3De:,2
+H$!_<DBL?HEbTE5?ZTq-ARB4aGq!]QBl8$6BmO?+AU.Wl@<6-mFCfN8A79RgFCfN8+Cno&@3B0#
+EZccLEbTE5F(or3CLqc?E,oZ1FE;/BATMs%@VfUcDf'H9FCfM9E,oZ1F<GX=H=_.?FCAWpAT2p*
+Bk)6sEas3"@W6U7BQ%c2A8,OqBl@ltEd8d>DfT]'F<G19Df$V,Des?4+EV%$Ch7WuCLqd8DfTB/
+ASl@/AKYc"H$=1IA0>K)Df$V+Ch%9(CLqd8DfTA2F*)G:DJ+#5/Kf+GAKYf-DJ()&De!p,ASuTB
+EbAinEb&`k;Fa%rFE2)7Ch7Z1Ao_g,+Co%nBl.9pEbAinEbK$/;Fa%rFE2)7Ch7Z1Ao_g,+D>>2
+Bk1dbBl.9pEcl20FD,B/A92a2F_kV3De:,6BPDKtF!,ODF^]<%+ED%+Bl@m1+>"^WAS!!#Df021
+A8bt#D.RU,F(or3CLqd4BmO>5CLqc6Ao_g,+DG\$B4W2rBl.F!F(oQ1F)u2@B5hm*DKKr6H=_/-
+Df'H9FCcS2@<-!lF*&ODEbTE5+EM7CAKYT'EZf"/G%GP6A8l7(DfTr=EbTE5F(or3F)u8?F<GOC
+Bl8#8F(or3F!+n4+CT>$ASu$mDJ()7DJ=*5AKXobDfTqBGT][uDJ(MFCL^mbDes?4Ao_I&=A)"L
++Cf>+DfQt9AU,D1Eb065ASu!lATJu+Ec5e;<'`hnA7]RkD/"*'A0>JuCh3                ~>
 )
 showpass 0 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
@@ -1926,12 +2076,13 @@ zz=:zz,'ageXrefTables MirrorImages MirrorKeywords MirrorMD5s NOPIXELSKEY NO'
 zz=:zz,'RATIOKEY SMUGAREAROUND SMUGASPECTROUND SMUGPRINTDPI SMUGPRINTSIZES '
 zz=:zz,'SMUGPYTERSIZES allwhitetrim assert charsub degeotag dpiarearatio ge'
 zz=:zz,'otag lastones ofreq printsizekey printsizestable readtd2 rekeyword '
-zz=:zz,'round sortprintsizes tlf tslash2''),(<<;._1 '' debrii DEBRIIBAT DEBRI'
-zz=:zz,'IEXT charsub ctl dblquote debrii justext toCRLF toHOST toJ tolower '
-zz=:zz,'write''),<<;._1 '' smugpyter SMUGAREAROUND SMUGASPECTROUND SMUGPRINTD'
-zz=:zz,'PI SMUGPRINTSIZES assert charsub printsizestable round smugprintsiz'
-zz=:zz,'es''                                                                '
-zz=:1410{.zz
+zz=:zz,'round sortprintsizes tlf tslash2''),(<<;._1 '' XKCDcolors CR LF TAB a'
+zz=:zz,'fterstr beforestr ctabdups ctabfrxkcd ctl ofreq pydictfrctab quote '
+zz=:zz,'readtd2 tlf xkcdcolorfreq''),(<<;._1 '' debrii DEBRIIBAT DEBRIIEXT ch'
+zz=:zz,'arsub ctl dblquote debrii justext toCRLF toHOST toJ tolower write'')'
+zz=:zz,',<<;._1 '' smugpyter SMUGAREAROUND SMUGASPECTROUND SMUGPRINTDPI SMUG'
+zz=:zz,'PRINTSIZES assert charsub printsizestable round smugprintsizes''    '
+zz=:1537{.zz
 showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
@@ -2037,72 +2188,80 @@ F!+1kEcQ)=8SqmKAQ3)ICh4_`Bl\64E_1+VB4Y1c<+06PATJtgBl\64E_1+VB4Y1cAS+nM@VfUs
 8P_uJ=WgOLFD+csAS*&_:JXqk:JsSZ9keWgDfSs#AS*&_ARTCC@<?'ME_Tt[BkCptF<FLV<C]>Q
 76sgI<DGq);b^7^5uUTK6W?rZ<DGq);b^7^:f9k[<('PS+B)!77o3)T:/k.`>")@4;b^7^:g$ad
 ;H$.j78k=-<_$LaDes?4F!+J%A79Rk9Q+ELCf#.`F(K62+B<Ak@<?'SDe!3l:i^,gASuTsF)c"=
-<c;esD.QgiAS*&d77(?XGscLdDfTnA@P]oP@<6!s@<63,@rH1%Ebf63Ao_I&+CfG'@<?'TBl\64
-E`d?nAjg)N@rc-hFCe0\EcQ)==E7tb<+06PATJu)AR][oBcpqtB4Z"'@:p]nE+ra$ARTUfFD5Y9
-Ao2X*AU/>>B4Z"'@:p]sD..'g;e'KPD.-dmEGQb3DKBf6FCZM4Ao_I&+E2@8DKKr6H=^l'Gp%'H
-Bl8$6BmO?+AU.Wl@<6-mFCfN8A79Rg+E2@8DKKr6H=_/>@:F%a+ED%/AU/K<Eb$;6BmO?+AU,D>
-D09K1EbTE5F(or3F!,OBEcc8@Bl8$6BmO?3-RgSp4?P\X?SNZN+C]J-Ch.BsEcQ)=+E2@8DKKr6
-H=^l'H!b#hF(o,<0IJ;#-p0UR/mg=U-Ql,tEcQ)==E7tb+B*-"B2EkqATAo(AR][oBcqJ6F_>Z=
-FCfJ?.4cl00I/>$/1<VC4"akp+=A9tA867.F@:%aBl7?sF@0t_DfTo+FEhmM6ZQaHFCe0\EcQ)=
-?ZU4'+Abj4<*r@6EcQ)==E7tb+C\c#AMZ5OE-WRCBl\64E`I0lE_BthF!,FBC2I[*Ec5t@E,o]7
-D09K1H$!V<+EMCBB5i-<ATCdlATCFTH#k>^/1<V9+?)2(1,(FB0ekFD/i5IF1cI9N1GL"-0JPO@
-1,(L:1c-mC0K;$J+>PW*3&!6G1bL[@1c@$G0JPR11,(FB0K([B/iGUF1c@0I2`W!90JPO@1GCa?
-2Dm6F3B&WP1a"P-0fUjF0fL^C2D[0D3AiTQ+>PW*3&!6F2_I!G1,:dI0fV*71,(FB0K:dB/i>XG
-2`WZO0fL410JPO@3&*0@2*!KP3AWNI2]sk00fUjC0fL^D3B/lO3&EKQ+>PW*3&!6G2_I'D1H@BS
-2)mB71,(FB0JY=</i5C=1b^mK1E\G,0fUjF0fL^C2)$a@2)@!D+>PW*3&!9H1G1UC1GgmG1G^g0
-1,(FB0K([F/iYdL1,(^G1H?R50JPO@2DI-C2)$pI0fCmD2BXb/0fUjF0f^jG3A`WR1,1OD+>PW*
-3&!6G0ePFC1H$pB2)7$31,(FB0K(XE/i5L@2E3BM1c-=10JPO@2DI-C2E3WN2`NcT2]sk00fUjF
-0f^jG3A`HL3&<6K+>PW*3&!6F2_I!B2DQs?1GLU,1,(FB0K([A/iG[F1cI6M0esk,0JPO@2DR$?
-2E3KH1cIEP+>PW*3&!6G2D-sJ1,1RA1c.!21,(FB0K([B/i>I@1,1O=0fL410JPO@2_d*@3&39K
-3&iWQ2BXb/0fUjF1,ggF0Jb^J3A`EL+>PW*3&!6G1G1OF0K:aH3B&r@1,(FB0K1^H/iP^C3&NKJ
-1G^./0JPO@2DR0C3&3?N1H%'I2]sk00fUjG0et@@0JPRA0f(RF+>PW*3&!6F3%d0H3&!?I2Dd03
-1,(FB0K(XA/iYXA1,(CA1c?I30JPO@2D@!@3&3HP1,psE1E\G,0fUjA1GCF@1bh!E2)@*M+>PW*
-3&!'C0J5=>0JG=D1GLj31,(FB0JP@;/iY^C2*!NK2)6:00JPO@0f(L93&NKP0JkRC1*A>+0fUjB
-0Jb=<1b^a?3&i]:1,(FB0K1^F/iYdF0JG4<2)l^60JPO@2_d!=2`E]V0JG:>3$9t10fUjA0eb4=
-2)@*M2E!HP+>PW*3&!'A0J5:A1H%3K0f_*61,(FB0JY=</i5C=1b^mK1E\G,0fUjF0fL^C2)$a@
-2)@!D+>PW*3&!6F1G1XC0KD$J0JtR-1,(FB0K(XA/iP^J0ekI?1,9t-0JPO@2DI!?2`EZM0f([C
-0d&5*0fUjA0Jb=?2D[*E0f_!E+>PW*3&!'@1G1UH3AWBK1,q$31,(FB0JP::/ibjN3AiNF3B83;
-0JPO@1GCa?2Dm9H2E*TS+>PW*3&!6G1G1R>1H@9O2)$s31,(FB0K([B/iGUJ3AiZO1,9t-0JPO@
-1,(L:1c-mC0K;$J+>PW*3&!-B2_I!G1c76O1bgs41,(FB0K([B/i>OI1cI9J1cZ[60JPO@1GLg@
-2`NcR1G^gF3?U(20fUjF0K(OC0JY@=3&WNJ+>PW*3&!6E2D-sD0K(dE2Dd<71,(FB0K:dB/i>XG
-3B&WN0K1+00JPO@1,(U=3A<BH1H@3K+>PW*3&!'@2(ggG2E<]U0JP:)1,(FB0JbC=/iPL@3AiTI
-1cZ[60JPO@1,(U=3A<BH1H@3K+>PW*3&!6E2D-pK1cI*J1,h$41,(FB0K([?/iPXC3ArQO0JXb+
-0JPO@2DR3D3&!-K2`W`T1E\G,0fUjA0eb4=2)?pD1H@3G+>PW*3&!'A0J5:C0ekLE1,^s31,(FB
-0JP7</iP[H2`*KR1GL"-0JPO@1,(U=3A<BH1H@3K+>PW*3&!9H1G1UE1GCaJ3&ic<1,(FB0JP7;
-/iP[K2)mEH3B&'90JPO@0ebF:2`<HH2E*HL0d&5*0fUmB1-$sD3&*-C2*!TO+>PW*3&!*A1G1L@
-0JkIC3&;[40JPO@2_d<F2`EHG1cR0J3$9t10fUjG1,COA1c$sK2`Mp80JPO@1GCa?2Dm6F3B&WP
-1a"P-0fUjF1,ggF0Jb^J3AicP+>PW*3&!6F2_I!G1,:dI0fV*71,(FB0K:dB/i>XG3AE6J3B83;
-0JPO@3&*0@2`3<M1Gh!K2]sk00fUjC0fL^D3B/lO3&EKQ+>PW*3&!9H1G1UC1,UjA3&W]<1,(FB
-0JY=</i5C=1b^mK1E\G,0fUjF1,CO@2E!NO1G_!F+>PW*3&!9H1G1UC1GgmG1G^g01,(FB0K([F
-/iYdL1,(^G1H?R50JPOA1,(O;3&!-H2)mQP1E\G,0fUjF1,CO@0eb=@2)@-51,(FB0K([F/iYO@
-3B&rU3&;[40JPO@2DR3D3&!-K2`W`T1E\G,0fUjG0f^jF2`*6C2DQsD+>PW*3&!6G1G1R?0JPLD
-3A<941,(FB0K([F/iYO@3B&rU3&;[40JPO@2DR'@2).*K1,V$M3$9t10fUjF1,U[D1GLgJ3&`NJ
-+>PW*3&!6G2D-sJ1H.*J3B&o?1,(FB0K([B/i>I@1,1O=0fL410JPO@2_d*@3&39K3&iWQ2BXb/
-0fUjF1,ggF0Jb^J3A`EL+>PW*3&!6G1G1OF0K:aH3B&r@1,(FB0K1^H/iPdL0eb=:3AM^40JPO@
-2_d'?3&<KN0ebI?1*A>+0fUjG0et@@1Gh'M2E3BK+>PW*3&!6F3A*9M0JtgH2DI061,(FB0K1^F
-/iY^J1Gh'G1Gp:10JPO@2D@$A2`NcS2E<]P1a"P-0fUjA1GCF@1cI9K0Jb[D+>PW*3&!6F2_I!B
-2E3TP0f(d31,(FB0JP@;/iY^C2*!NK2)6:00JPO@0f(L93&NKP0JkRC1*A>+0fUjB0Jb=<1b^a?
-3&i]:1,(FB0K1^H/iP^D0f1dH1G^./0JPO@2_d!=2`E]V0JG:>3$9t10fUjA0eb4=2)@*M2E!HP
-+>PW*3&!'A0J5:A1H%3K0f_*61,(FB0JY=</i5C=1b^mK1E\G,0fUjG0et@@2)R3I1H.'J+>PW*
-3&!6G1G1R?0JPLE1,^m11,(FB0K(XA/iP^J0ekI?1,9t-0JPO@2DI!?2`EZM0f([C0d&5*0fUjA
-0Jb=?2D[*E0f_!E+>PW*3&!'@1bL^F1c7*L1c%$41,(FB0JbC=/iPI>0fCdF2_lL20JPO@1GCa?
-2Dm9H2E*TS+>PW*3&!6G2_I'D1H@BS2)mB71,(FB0K([D/iY[E2)[-J1GU(.0JPO@1,(L:1c-mC
-0K;$J+>PW*3&!-B2_I!G1c76O1bgs41,(FB0K([D/iY^C1cR3M1,9t-0JPO@1GLjA0JbLA1,CpG
-1E\G,0fUjF0fL^C2DR9O1c$jF+>PW*3&!6E2D-sD0K(dE2Dd<71,(FB0K:dB/i>XG3B&WN0K1+0
-0JPO@1,(U=3ANKJ2)@$D1E\G,0fUjA0JtIA2`E]R2)-dC+>PW*3&!-B1G1U@1cRHM1,0n,0JPO@
-1,(U=3AENO0JbUH0d&5*0fUjF0K(OC0ekXE1H%*K+>PW*3&!6G2_I'D1H@BS2)mB71,(FB0K([F
-/iYO@3B&rU3&;[40JPO@0ekL;2D[9H2)-jE+>PW*3&!'A0J5:C0ekLE1,^s31,(FB0JP:=/iGL>
-2)?sA0d&5*0fUjB0K(OD0K1^B3ANK81,(FB0K1aC/iP[E0K2!O3&Mg60JPO@0ebI;2`NTO2_m'F
-0d&5*0fUjA0JkC@2D['G2`*?G.4cl01*A=t1,(FB0K1^A/iY^B0JbC;3&Da50JPO@0ek@72`E`O
-1c.0N1*A>+0fUjG0et@@2)$^?0JPOD+>PW*3&!'A1bL[H1H@3L3&i?<-p07-1aFh10fUjB0Jb=<
-1bg[?1c7371,(FB0JP:</i5C?1H@-F+>PW*3&!<H1+kFE2*!?G0fV'61,(FB0JP7;/iP^G0JbLE
-1bg+.0JPOA1,(F82E3ZS1H.!E3$9t10fUjF0JtIB1,q6O1c.!E+>PW*3&!<H1+kFE2D@*E2_m?8
-1,(FB0K([?/iPXE1H%*M2E<3;-p01/0I\P$4>J$=,Vh&.3&!-C2_I*L1H@3E0ebC+1,(FB0K(XA
-/iYOF0Jb^E2)cX50JPO@2DI-C2Dm0C1H%!I1E\G,0fUjF1,CO?1,q-N1H@3J+>PW*3&!6G0ePCC
-1GggH2Dd341,(FB0K([@/iP[G0ebFA2_uR30JPO@0ekI:1c$sC1c-mB3?U(20fUjA0f(F=2)-pE
-1-%-M+>PW*3&!-C2_I*L1H@3E0ebC+1,(FB0K([F/iYO@3B&rW2E;m80JPO@2DR3D3&!-K2`WfT
-3?U(20fUjF1,CO?1H@<M1bgd/1,(FB0K1^H/iYO?2DI3N3AVd50JPO@2_d<F3&!3E1,(I@2BXb/
-0fUjF1,1C?2)m?K0ebC+1,(FB0JP:</i5FE0JkUC2)Zm7-p014/1<V7.4cl00I\P$4>8384>6 ~>
+<c;esD.QgiAS*&d77(?XGscLdDfTnA=A)"L?UJaJDfTnA@P]oP@<6!s@<63,@rH1%Ebf63Ao_I&
++CfG'@<?'TBl\64E`d?nAjg)N@rc-hFCe0\EcQ)==E7tb<+06PATJu(FCAWhF`;CE@ru-gAo`-3
+@q6]mAR][oBcpqtB4Z"'@:p]nE+ra$ARTUfFD5Y9Ao2X*AU/>>B4Z"'@:p]sD..'g;e'KPD.-dm
+EGQb3DKBf6FCZM4Ao_I&+E2@8DKKr6H=^l'Gp%'HBl8$6BmO?+AU.Wl@<6-mFCfN8A79Rg+E2@8
+DKKr6H=_/>@:F%a+E2U:Bk)6sEas3"@N]]&CLqd8DfTA2EbAinEb&`k+ED+(Ao_QrGT_$LCh7^%
+Bl[a*E?K=:H=^l'Gp%0FF_>Z6Bl8$6BmO?3+EMIAFDu87DKKr6H=_.?G\^f"@rH1%Eb9?'E@31d
+-p0UR/mg=U-Qll@Bl%<sBl\64EZf=ABl8$6BmO?+AU.Wl@<6-m0JFk'/1<VC4"akp+=A:+Bl\64
+E`d?nAft#hF_=NrFCfJ8=A)"L@rH1%EcW@6AR][oBcqJ6F_>Z=FCfJ?.4cl00I/>$/1<VC4"akp
++=A9tA867.F@:%aBl7?sF@0t_DfTo+FEhmM6ZQaHFCe0\EcQ)=?ZU4'+Abj4<*r@6EcQ)==E7tb
++C\c#AMZ5OE-WRCBl\64E`I0lE_BthF!,FBC2I[*Ec5t@E,o]7D09K1H$!V<+EMCBB5i-<ATCdl
+ATCFTH#k>^/1<V9+?22'1,(FB0ekFD/i5IF1cI9N1GL"-0JPO@1,(L:1c-mC0K;$J+>PW*3&!6G
+1bL[@1c@$G0JPR11,(FB0K([B/iGUF1c@0I2`W!90JPO@1GCa?2Dm6F3B&WP1a"P-0fUjF0fL^C
+2D[0D3AiTQ+>PW*3&!6F2_I!G1,:dI0fV*71,(FB0K:dB/i>XG2`WZO0fL410JPO@3&*0@2*!KP
+3AWNI2]sk00fUjC0fL^D3B/lO3&EKQ+>PW*3&!6G2_I'D1H@BS2)mB71,(FB0JY=</i5C=1b^mK
+1E\G,0fUjF0fL^C2)$a@2)@!D+>PW*3&!9H1G1UC1GgmG1G^g01,(FB0K([F/iYdL1,(^G1H?R5
+0JPO@2DI-C2)$pI0fCmD2BXb/0fUjF0f^jG3A`WR1,1OD+>PW*3&!6G0ePFC1H$pB2)7$31,(FB
+0K(XE/i5L@2E3BM1c-=10JPO@2DI-C2E3WN2`NcT2]sk00fUjF0f^jG3A`HL3&<6K+>PW*3&!6F
+2_I!B2DQs?1GLU,1,(FB0K([A/iG[F1cI6M0esk,0JPO@2DR$?2E3KH1cIEP+>PW*3&!6G2D-sJ
+1,1RA1c.!21,(FB0K([B/i>I@1,1O=0fL410JPO@2_d*@3&39K3&iWQ2BXb/0fUjF1,ggF0Jb^J
+3A`EL+>PW*3&!6G1G1OF0K:aH3B&r@1,(FB0K1^H/iP^C3&NKJ1G^./0JPO@2DR0C3&3?N1H%'I
+2]sk00fUjG0et@@0JPRA0f(RF+>PW*3&!6F3%d0H3&!?I2Dd031,(FB0K(XA/iYXA1,(CA1c?I3
+0JPO@2D@!@3&3HP1,psE1E\G,0fUjA1GCF@1bh!E2)@*M+>PW*3&!'C0J5=>0JG=D1GLj31,(FB
+0JP@;/iY^C2*!NK2)6:00JPO@0f(L93&NKP0JkRC1*A>+0fUjB0Jb=<1b^a?3&i]:1,(FB0K1^F
+/iYdF0JG4<2)l^60JPO@2_d!=2`E]V0JG:>3$9t10fUjA0eb4=2)@*M2E!HP+>PW*3&!'A0J5:A
+1H%3K0f_*61,(FB0JY=</i5C=1b^mK1E\G,0fUjF0fL^C2)$a@2)@!D+>PW*3&!6F1G1XC0KD$J
+0JtR-1,(FB0K(XA/iP^J0ekI?1,9t-0JPO@2DI!?2`EZM0f([C0d&5*0fUjA0Jb=?2D[*E0f_!E
++>PW*3&!'@1G1UH3AWBK1,q$31,(FB0JP::/ibjN3AiNF3B83;0JPO@1GCa?2Dm9H2E*TS+>PW*
+3&!6G1G1R>1H@9O2)$s31,(FB0K([B/iGUJ3AiZO1,9t-0JPO@1,(L:1c-mC0K;$J+>PW*3&!-B
+2_I!G1c76O1bgs41,(FB0etI;/iYX@3&!'F3&i$90JPO@2DR'@2)[HO2`3BJ3?U(20fUjC0fL^D
+3&i`N1G^pL+>PW*3&!6E2D-sC1,1RE2DR'21,(FB0K(UC/iYR>2Dm9K1c?I30JPOA1,([?1c.!G
+2)@!D3?U(20fUmC0K1UC0JtRC2)[6K+>PW*3&!<H1+kFE1c[KK2_[051,(FB0JY=?/ibUE0f(gF
+2BXb/0fUjA0JtIA2E!QS3&!'A+>PW*3&!-B1G1U@1H@<K0f1m51,(FB0JY=?/ibUE0f(gF2BXb/
+0fUjF0K(OB3A`ZK3&3EL+>PW*3&!6G0J5:A1-%6H3A<321,(FB0K([F/iYO@3B&rU3&;[40JPO@
+0ek@72`3BF2)@6J1*A>+0fUjA0eb4=2_d$D3&3BK+>PW*3&!'@1bL^F2E*HP3&<931,(FB0etFB
+/iGI=3&NEK2)QL30JPO@1,(U=3A<BH1H@3K+>PW*3&*0C0J5:E2`NNJ2DR*31,(FB0etI;/iPdL
+2`EQO1c$700JPOA1,(X>2_[*D1,q3K2]sk00fUjG1,COA2D[$G3B/uU+>PW*3&!'@1G1UE3AicQ
+0KD'71,(FB0JP7</iP[E0fCsI1bg+.0JPOA1,(^@2E3HP1c.'K1E\G,0fUmB1-$sD3&*-C2*!TO
++>PW*3&!*A1G1L@0JkIC3&;[40JPO@2_d<F2`EHG1cR0J3$9t10fUjG1,COA1c$sK2`Mp80JPOA
+1,1I83&3?G1b^pD2'=Y.0fUjF1,ggF0Jb^J3AicP+>PW*3&!6F2_I!G1,:dI0fV*71,(FB0K:dB
+/i>XG3AE6J3B83;0JPO@3&*0@2`3<M1Gh!K2]sk00fUjC0fL^D3B/lO3&EKQ+>PW*3&!9H1G1UC
+1,UjA3&W]<1,(FB0JY=</i5C=1b^mK1E\G,0fUjF1,CO@2E!NO1G_!F+>PW*3&!9H1G1UC1GgmG
+1G^g01,(FB0K([F/iYdL1,(^G1H?R50JPOA1,(O;3&!-H2)mQP1E\G,0fUjF1,CO@0eb=@2)@-5
+1,(FB0K([F/iYO@3B&rU3&;[40JPO@2DR3D3&!-K2`W`T1E\G,0fUjG0f^jF2`*6C2DQsD+>PW*
+3&!6G1G1R?0JPLD3A<941,(FB0K([F/iYO@3B&rU3&;[40JPO@2DR'@2).*K1,V$M3$9t10fUjF
+1,U[D1GLgJ3&`NJ+>PW*3&!6G2D-sJ1H.*J3B&o?1,(FB0K([B/i>I@1,1O=0fL410JPO@2_d*@
+3&39K3&iWQ2BXb/0fUjF1,ggF0Jb^J3A`EL+>PW*3&!6G1G1OF0K:aH3B&r@1,(FB0K1^H/iPdL
+0eb=:3AM^40JPO@2_d'?3&<KN0ebI?1*A>+0fUjG0et@@1Gh'M2E3BK+>PW*3&!6F3A*9M0JtgH
+2DI061,(FB0K1^F/iY^J1Gh'G1Gp:10JPO@2D@$A2`NcS2E<]P1a"P-0fUjA1GCF@1cI9K0Jb[D
++>PW*3&!6F2_I!B2E3TP0f(d31,(FB0JP@;/iY^C2*!NK2)6:00JPO@0f(L93&NKP0JkRC1*A>+
+0fUjB0Jb=<1b^a?3&i]:1,(FB0K1^H/iP^D0f1dH1G^./0JPO@2_d!=2`E]V0JG:>3$9t10fUjA
+0eb4=2)@*M2E!HP+>PW*3&!'A0J5:A1H%3K0f_*61,(FB0JY=</i5C=1b^mK1E\G,0fUjG0et@@
+2)R3I1H.'J+>PW*3&!6G1G1R?0JPLE1,^m11,(FB0K(XA/iP^J0ekI?1,9t-0JPO@2DI!?2`EZM
+0f([C0d&5*0fUjA0Jb=?2D[*E0f_!E+>PW*3&!'@1bL^F1c7*L1c%$41,(FB0JbC=/iPI>0fCdF
+2_lL20JPO@1GCa?2Dm9H2E*TS+>PW*3&!6G2_I'D1H@BS2)mB71,(FB0K([D/iY[E2)[-J1GU(.
+0JPO@1,(L:1c-mC0K;$J+>PW*3&*0C0J5=>2E3EL3B0#A1,(FB0etI;/iYX@3&!'F3&i$90JPO@
+2DR-B3&NEI3&*EK1*A>+0fUjC0fUd>1G^jC1H@3H+>PW*3&!6F2_I!H1-%9M1GLg21,(FB0K(UC
+/iYR>2Dm9K1c?I30JPOA1,([?1c.!G2)@!D3?U(20fUmC0K:[A1H@6H1c70H+>PW*3&!<H1+kFE
+1c[KK2_[051,(FB0JY=?/ib[F1,UjD1,C%.0JPO@0ebI;2`EZT2)R*B2BXb/0fUjC0Jb=?0f1jL
+1,:R,1,(FB0JY=?/ibXH2)$gE3&)O20JPO@2D@$A3&*-I1c%$I2BXb/0fUjF1,ggF0Jb^J3AicP
++>PW*3&!6G2_I'D1H@BS2)mB71,(FB0JP:=/iGLE0f:[@2BXb/0fUjA0eb4=2_d$D3&3BK+>PW*
+3&!'A1bL[B0JtX@0eje+0JPOA1,([?2D[*J1H%'L+>PW*3&!*A2D.!D2_d*K1,^710JPOA1,1I8
+2`WfV0f(^C1a"P-0fUmC0eb4=3B&oS2_[0I+>PW*3&*0B2_I$C2)-jG2`!B81,(FB0K1aC/iP[E
+0K2!O3&Mg60JPO@0ebI;2`NTO2_m'F0d&5*0fUjA0JkC@2D['G2`*?G+>PW*3&*0B3A*3L2)-mD
+2`<WE/1<V9+>P2t0JPO@2_d'?3&NBD1GCOC1a"P-0fUjA0eb4=2`WTL1cREL+>PW*3&!9G1+kOD
+0JG::0fV!41,(FB0JP:=/iG^G3ANNQ3%6C,4>J$:,Vh&.3&!*A1G1L@0ebC?2)cX50JPO@0ekI:
+1c-sD3A<631,(FB0etFB/i5CB0eb:?1a"P-0fUjH0et@=3AifN1,1aH+>PW*3&!'@1G1UF1b^^A
+3&E?41,(FB0etF;/iG[K2D[9G1cQU50JPO@2D@!@3&3HQ2Dd6H1E\G,0fUmC0eb4>0JP7?2)-pJ
++>PW*3&!<H1+kFE2D@*E2_m?81,(FB0K([?/iPXE1H%*M2E<3;-p01/0I\P$4>J$=,Vh&.3&!-C
+2_I*L1H@3E0ebC+1,(FB0K(XA/iYOF0Jb^E2)cX50JPO@2DI-C2Dm0C1H%!I1E\G,0fUjF1,CO?
+1,q-N1H@3J+>PW*3&!6G0ePCC1GggH2Dd341,(FB0K([@/iP[G0ebFA2_uR30JPO@0ekI:1c$sC
+1c-mB3?U(20fUjA0f(F=2)-pE1-%-M+>PW*3&!-C2_I*L1H@3E0ebC+1,(FB0K([F/iYO@3B&rW
+2E;m80JPO@2DR3D3&!-K2`WfT3?U(20fUjF1,CO?1H@<M1bgd/1,(FB0K1^H/iYO?2DI3N3AVd5
+0JPO@2_d<F3&!3E1,(I@2BXb/0fUjF1,1C?2)m?K0ebC+1,(FB0JP:</i5FE0JkUC2)Zm7-p014
+/1<V7.4cl00I\P$4>8384>6                                                   ~>
 )
 cocurrent 'base'  NB.{*JOD*}
 puttstamps_ijod_=: (((1;'upgrade JOD')"_)`putallts__MK__JODobj)@.(3 = (4!:0)<'putallts__MK__JODobj') NB.{*JOD*}
