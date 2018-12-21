@@ -1,4 +1,4 @@
-NB. JOD dictionary dump: 17 Dec 2018 16:50:27
+NB. JOD dictionary dump: 21 Dec 2018 08:58:52
 NB. Generated with JOD version; 0.9.998 - dev; 2; 6 Nov 2018 13:44:39
 NB. J version: j807/j64/windows/release/commercial/www.jsoftware.com/2018-10-05T10:39:42
 NB.
@@ -745,24 +745,29 @@ hms=.  hmsfrdds (?y#86400) + (?y#1000)%999
 isotimestamp days ,. hms
 )
 
-randwalk2d=:3 : 0
+randwalk2d=:0 0&$: :(4 : 0)
 
 NB.*randwalk2d v-- random two dimensional walk.
 NB.
-NB. Simulates a random  walk  on an  integer grid starting at the
-NB. origin. At coordinate (x,y) the next coordinate is one of the
-NB. four with equal probability. Expression tacitly compiles.
+NB. Simulates a  random  walk of  (y) steps  on an  integer  grid
+NB. starting  at coordinate (x). At (a,b)  the next coordinate is
+NB. one of the  four  with equal  probability. Expression tacitly
+NB. compiles.
 NB.
 NB.  verbatim:
 NB.
-NB.    ((x+1),y) , ((x-1),y) , (x,(y+1)) , (x,(y-1))
+NB.    ((a+1),b) , ((a-1),b) , (a,(b+1)) , (a,(b-1))
 NB.
 NB. monad:  itXY =. randwalk2d iaSteps
 NB.
 NB.   require 'plot'
 NB.   plot <"1 randwalk2d 10000
+NB.
+NB. dyad:  itXY =. ilXY randwalk2d iaSteps
+NB.
+NB.   plot <"1 ] 30 40 randwalk2d 10000
 
-+/\"1 ] 0 0 ,. |:(?2 #~ #s) |."0 1 (s=. _1 1 {~ ? y # 2) ,. 0
+|: +/\ x , (? y # 4) { 4 2 $ 1 0 0 1 _1 0 0 _1
 )
 
 repunits=:3 : 0
@@ -1975,7 +1980,7 @@ Ea`irG@><'11VMJAT2d0BlnD=Eb034DJ=361*CUKE-6&4FE95\Eb034DJ=361a$jLA0>r4Bl[Wu
 F`);4EcW@4F_PZ&7ri<S6tL4R+C]J-Ch.1!Bk/>tDJ<a#@3B;]BQ%d"6>URQ7<i6XE,9).Ci<fl
 CgU^aAof)4F_tT!Ed)GBA9/l4Eb/`lF)rICEb]H+@<`o9FCB33F`:])@<?0t@<c<oD/WcrBQGOM
 /1<V<+>P2t0JPOA0ebI;2)@0I1bpdE2BXn7+>PW*3&*0C2_I!K2DR!G1,:[/0d&5*0fUmB0JtI?
-1H.*H1,CgD+?)8&1,(FB0etIB/iPI=2)I6H1bp1.+>PW*3&*-A2(gaB2`!9G1H%!20f1=1-p07=
+1H.*H1,CgD+?)8&1,(FB0etL=/i,FB2)I!E2DlU3+>PW*3&*-A2(gaB2`!9G1H%!20f1=1-p07=
 0fUmB0JtI?1H.*H1,h-P.pk%c0fUmB0JP1;1H.*H1,h-P.VULi+>PAs-p07=0fUmB0JtI?1H.*H
 1H%3I.pk%c0fUmA2_cpB1H.*H1H%3I.VULi+>PAs-p01/0I\P$4>JTF3&*-A2(gaB2`!9H0f(a=
 ?SX;i3&**G2_HsD2`!9H0f(a<BeD+_1+=b&4>A99-p045/1<V8.4cl00I\P80`            ~>
