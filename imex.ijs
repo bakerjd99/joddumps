@@ -1,4 +1,4 @@
-NB. JOD dictionary dump: 26 Dec 2018 11:28:37
+NB. JOD dictionary dump: 28 Dec 2018 11:01:50
 NB. Generated with JOD version; 0.9.998 - dev; 2; 6 Nov 2018 13:44:39
 NB. J version: j807/j64/windows/release/commercial/www.jsoftware.com/2018-10-05T10:39:42
 NB.
@@ -127,8 +127,10 @@ showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:dec85__MK__JODobj 0 : 0
-0f1".+>P&o0H`/-+?:Q#3+QT1Des?4FCAg&ASl@/AKYK$Ci=>:CLqd8DfTB0+D,Y4D'3P0@:s.m
-A7]grH=_2,B6%R#Dg#\7E,oZ1F<GX=H=\47AU/K<Eb'56Ao_g,+DG\$B4Z,               ~>
+0f^@4+>P&o0H`/-+?1K&1*AS"1H8oV@rH1%Ecb`&Eb0*+G%De+Des?4+DYP6GAhM4F!,(8Df$V2
+D..'gF(AipAT)[!B6%R#Dg#\7B4Z"'@:s4aA0>Z!H$=1IA0>K)Df$V2D..'gF!,[@FD)e7Df0l4
+Ec3(:@<?4*F_#&+@;]TuCi=3(BlnK.ARo@nBmO?4@:sUlD/XT/+E2@8DKI"BBmO>5CLqd8DfTB0
++D,Y4D'3P0@:s.m                                                           ~>
 )
 showpass 0 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
