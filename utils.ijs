@@ -1,10 +1,10 @@
-NB. JOD dictionary dump:  8 Feb 2019 15:29:55
-NB. Generated with JOD version; 0.9.998 - dev; 12; 29 Jan 2019 18:54:14
-NB. J version: j807/j64/windows/release-b/commercial/www.jsoftware.com/2019-01-22T18:51:16
+NB. JOD dictionary dump:  9 Mar 2019 12:56:23
+NB. Generated with JOD version; 0.9.998; 22; 14 Feb 2019 22:32:19
+NB. J version: j807/j64/windows/release-c/commercial/www.jsoftware.com/2019-02-24T11:18:30
 NB.
 NB. Names & DidNums on current path
 NB. +-----+---------------------------------------+
-NB. |utils|339670243492445956762339912834331341485|
+NB. |utils|327869431914797941508105498637921839074|
 NB. +-----+---------------------------------------+
 
 9!:41 [ 1 NB.{*JOD*}
