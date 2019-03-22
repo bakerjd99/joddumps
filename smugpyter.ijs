@@ -1,6 +1,6 @@
-NB. JOD dictionary dump: 14 Mar 2019 18:56:31
-NB. Generated with JOD version; 1.0.0 - dev; 5; 14 Mar 2019 18:38:11
-NB. J version: j807/j64/windows/release-c/commercial/www.jsoftware.com/2019-02-24T11:18:30
+NB. JOD dictionary dump: 20 Mar 2019 18:58:47
+NB. Generated with JOD version; 1.0.0 - dev; 13; 19 Mar 2019 18:39:54
+NB. J version: j807/j64/windows/release-d/commercial/www.jsoftware.com/2019-03-18T13:21:35
 NB.
 NB. Names & DidNums on current path
 NB. +---------+---------------------------------------+
@@ -24,6 +24,8 @@ BADCOUNTS=:'badgalcnts.txt'
 
 BADGALCNTS=:'badgalcnts.txt'
 
+CHECKVMD=:'0.9.0';3;'20 Mar 2019 18:57:21'
+
 CSS_Colors=:141 4$'ColorName';'HexValue';'DECValue';'RGB';'aliceblue';'#F0F8FF';15792383;240 248 255;'antiquewhite';'#FAEBD7';16444375;250 235 215;'aqua';'#00FFFF';65535;0 255 255;'aquamarine';'#7FFFD4';8388564;127 255 212;'azure';'#F0FFFF';15794175;240 255 255;'beige';'#F5F5DC';16119260;245 245 220;'bisque';'#FFE4C4';16770244;255 228 196;'black';'#000000';0;0 0 0;'blanchedalmond';'#FFEBCD';16772045;255 235 205;'blue';'#0000FF';255;0 0 255;'blueviolet';'#8A2BE2';9055202;138 43 226;'brown';'#A52A2A';10824234;165 42 42;'burlywood';'#DEB887';14596231;222 184 135;'cadetblue';'#5F9EA0';6266528;95 158 160;'chartreuse';'#7FFF00';8388352;127 255 0;'chocolate';'#D2691E';13789470;210 105 30;'coral';'#FF7F50';16744272;255 127 80;'cornflowerblue';'#6495ED';6591981;100 149 237;'cornsilk';'#FFF8DC';16775388;255 248 220;'crimson';'#DC143C';14423100;220 20 60;'cyan';'#00FFFF';65535;0 255 255;'darkblue';'#00008B';139;0 0 139;'darkcyan';'#008B8B';35723;0 139 139;'darkgoldenrod';'#B8860B';12092939;184 134 11;'darkgray';'#A9A9A9';11119017;169 169 169;'darkgreen';'#006400';25600;0 100 0;'darkkhaki';'#BDB76B';12433259;189 183 107;'darkmagenta';'#8B008B';9109643;139 0 139;'darkolivegreen';'#556B2F';5597999;85 107 47;'darkorange';'#FF8C00';16747520;255 140 0;'darkorchid';'#9932CC';10040012;153 50 204;'darkred';'#8B0000';9109504;139 0 0;'darksalmon';'#E9967A';15308410;233 150 122;'darkseagreen';'#8FBC8F';9419919;143 188 143;'darkslateblue';'#483D8B';4734347;72 61 139;'darkslategray';'#2F4F4F';3100495;47 79 79;'darkturquoise';'#00CED1';52945;0 206 209;'darkviolet';'#9400D3';9699539;148 0 211;'deeppink';'#FF1493';16716947;255 20 147;'deepskyblue';'#00BFFF';49151;0 191 255;'dimgray';'#696969';6908265;105 105 105;'dodgerblue';'#1E90FF';2003199;30 144 255;'firebrick';'#B22222';11674146;178 34 34;'floralwhite';'#FFFAF0';16775920;255 250 240;'forestgreen';'#228B22';2263842;34 139 34;'fuchsia';'#FF00FF';16711935;255 0 255;'gainsboro';'#DCDCDC';14474460;220 220 220;'ghostwhite';'#F8F8FF';16316671;248 248 255;'gold';'#FFD700';16766720;255 215 0;'goldenrod';'#DAA520';14329120;218 165 32;'gray';'#808080';8421504;128 128 128;'green';'#008000';32768;0 128 0;'greenyellow';'#ADFF2F';11403055;173 255 47;'honeydew';'#F0FFF0';15794160;240 255 240;'hotpink';'#FF69B4';16738740;255 105 180;'indianred';'#CD5C5C';13458524;205 92 92;'indigo';'#4B0082';4915330;75 0 130;'ivory';'#FFFFF0';16777200;255 255 240;'khaki';'#F0E68C';15787660;240 230 140;'lavender';'#E6E6FA';15132410;230 230 250;'lavenderblush';'#FFF0F5';16773365;255 240 245;'lawngreen';'#7CFC00';8190976;124 252 0;'lemonchiffon';'#FFFACD';16775885;255 250 205;'lightblue';'#ADD8E6';11393254;173 216 230;'lightcoral';'#F08080';15761536;240 128 128;'lightcyan';'#E0FFFF';14745599;224 255 255;'lightgoldenrodyellow';'#FAFAD2';16448210;250 250 210;'lightgreen';'#90EE90';9498256;144 238 144;'lightgrey';'#D3D3D3';13882323;211 211 211;'lightpink';'#FFB6C1';16758465;255 182 193;'lightsalmon';'#FFA07A';16752762;255 160 122;'lightseagreen';'#20B2AA';2142890;32 178 170;'lightskyblue';'#87CEFA';8900346;135 206 250;'lightslategray';'#778899';7833753;119 136 153;'lightsteelblue';'#B0C4DE';11584734;176 196 222;'lightyellow';'#FFFFE0';16777184;255 255 224;'lime';'#00FF00';65280;0 255 0;'limegreen';'#32CD32';3329330;50 205 50;'linen';'#FAF0E6';16445670;250 240 230;'magenta';'#FF00FF';16711935;255 0 255;'maroon';'#800000';8388608;128 0 0;'mediumaquamarine';'#66CDAA';6737322;102 205 170;'mediumblue';'#0000CD';205;0 0 205;'mediumorchid';'#BA55D3';12211667;186 85 211;'mediumpurple';'#9370DB';9662683;147 112 219;'mediumseagreen';'#3CB371';3978097;60 179 113;'mediumslateblue';'#7B68EE';8087790;123 104 238;'mediumspringgreen';'#00FA9A';64154;0 250 154;'mediumturquoise';'#48D1CC';4772300;72 209 204;'mediumvioletred';'#C71585';13047173;199 21 133;'midnightblue';'#191970';1644912;25 25 112;'mintcream';'#F5FFFA';16121850;245 255 250;'mistyrose';'#FFE4E1';16770273;255 228 225;'moccasin';'#FFE4B5';16770229;255 228 181;'navajowhite';'#FFDEAD';16768685;255 222 173;'navy';'#000080';128;0 0 128;'oldlace';'#FDF5E6';16643558;253 245 230;'olive';'#808000';8421376;128 128 0;'olivedrab';'#6B8E23';7048739;107 142 35;'orange';'#FFA500';16753920;255 165 0;'orangered';'#FF4500';16729344;255 69 0;'orchid';'#DA70D6';14315734;218 112 214;'palegoldenrod';'#EEE8AA';15657130;238 232 170;'palegreen';'#98FB98';10025880;152 251 152;'paleturquoise';'#AFEEEE';11529966;175 238 238;'palevioletred';'#DB7093';14381203;219 112 147;'papayawhip';'#FFEFD5';16773077;255 239 213;'peachpuff';'#FFDAB9';16767673;255 218 185;'peru';'#CD853F';13468991;205 133 63;'pink';'#FFC0CB';16761035;255 192 203;'plum';'#DDA0DD';14524637;221 160 221;'powderblue';'#B0E0E6';11591910;176 224 230;'purple';'#800080';8388736;128 0 128;'red';'#FF0000';16711680;255 0 0;'rosybrown';'#BC8F8F';12357519;188 143 143;'royalblue';'#4169E1';4286945;65 105 225;'saddlebrown';'#8B4513';9127187;139 69 19;'salmon';'#FA8072';16416882;250 128 114;'sandybrown';'#F4A460';16032864;244 164 96;'seagreen';'#2E8B57';3050327;46 139 87;'seashell';'#FFF5EE';16774638;255 245 238;'sienna';'#A0522D';10506797;160 82 45;'silver';'#C0C0C0';12632256;192 192 192;'skyblue';'#87CEEB';8900331;135 206 235;'slateblue';'#6A5ACD';6970061;106 90 205;'slategray';'#708090';7372944;112 128 144;'snow';'#FFFAFA';16775930;255 250 250;'springgreen';'#00FF7F';65407;0 255 127;'steelblue';'#4682B4';4620980;70 130 180;'tan';'#D2B48C';13808780;210 180 140;'teal';'#008080';32896;0 128 128;'thistle';'#D8BFD8';14204888;216 191 216;'tomato';'#FF6347';16737095;255 99 71;'turquoise';'#40E0D0';4251856;64 224 208;'violet';'#EE82EE';15631086;238 130 238;'wheat';'#F5DEB3';16113331;245 222 179;'white';'#FFFFFF';16777215;255 255 255;'whitesmoke';'#F5F5F5';16119285;245 245 245;'yellow';'#FFFF00';16776960;255 255 0;'yellowgreen';'#9ACD32';10145074;154 205 50
 
 CreateMirror_sql=:'sql code reference - see (MirrorXref) group header'
@@ -42,7 +44,7 @@ DominantColorPfx=:'0_'
 
 ExtXref=:13 3$<;._1 '|ext|extlong|extdesc|apf|afphoto|affinity photo layer file|psd||photoshop layer file|jpg||jpeg file|tif||tagged image format file|png||portable network graphic file|pdf||portable document format file|gif||graphic image file|nef||nikon raw file|eps||encapsulated postscript|ps||postscript|jp2||jpeg 2000 file|dng||digital negative'
 
-IFACEWORDSMirrorXref=:,<'BuildMirror'
+IFACEWORDSMirrorXref=:<;._1 ' BuildMirror LocalFromDir'
 
 IFACEWORDSOnlineUploadCheck=:<'OnlineUploadCheck'
 
@@ -74,7 +76,7 @@ MIRRORHEAD=:'c:/'
 
 MIRRORPATH=:'c:/smugmirror/mirror'
 
-MIRRORVMD=:'0.8.0';9;'13 Mar 2019 18:44:57'
+MIRRORVMD=:'0.9.0';14;'20 Mar 2019 18:58:29'
 
 MirrorXref=:,:<;._1 ' orgvolid orgpathid orgext orgimagehash mirvolid mirpathid mirext albumid mirimageid orgfile mirfile'
 
@@ -84,7 +86,7 @@ NOPIXELSKEY=:'0z0'
 
 NORATIOKEY=:'0z1'
 
-ONLINEUPLOADPATH=:'C:/Users/jbaker/Pictures/Saved Pictures'
+ONLINEUPLOADPATH=:'c:/pictures/00 online upload'
 
 OVER_Dominant=:<;._1 ' darkslategrey black dimgrey darkgrey grey darkolivegreen silver'
 
@@ -96,7 +98,7 @@ PathXref=:,:<;._1 ' pathid pathdesc pathtype path'
 
 ROOTWORDSMirrorXref=:<;._1 ' BuildMirror CreateMirror_sql IFACEWORDSMirrorXref LocalFile_sql LocalFromDir LocalOnlineFile_sql MACROSMirrorXref MIRRORVMD MissingLocalFiles_sql ROOTWORDSMirrorXref UpdateLocalPresent_sql'
 
-ROOTWORDSOnlineUploadCheck=:<;._1 ' IFACEWORDSOnlineUploadCheck OnlineUploadCheck ROOTWORDSOnlineUploadCheck'
+ROOTWORDSOnlineUploadCheck=:<;._1 ' CHECKVMD IFACEWORDSOnlineUploadCheck MIRRORPATH OnlineUploadCheck ROOTWORDSOnlineUploadCheck'
 
 ROOTWORDSThumbsMirror=:<;._1 ' BuildThumbs IFACEWORDSThumbsMirror LoadedGalleryCount_sql LocalThumbId_sql ROOTWORDSThumbsMirror THUMBSVMD'
 
@@ -114,14 +116,14 @@ SUSPECTPAIRS=:'suspects.txt'
 
 SVG_Colors=:148 2$'ColorName';'RGBValue';'aliceblue';240 248 255;'antiquewhite';250 235 215;'aqua';0 255 255;'aquamarine';127 255 212;'azure';240 255 255;'beige';245 245 220;'bisque';255 228 196;'black';0 0 0;'blanchedalmond';255 235 205;'blue';0 0 255;'blueviolet';138 43 226;'brown';165 42 42;'burlywood';222 184 135;'cadetblue';95 158 160;'chartreuse';127 255 0;'chocolate';210 105 30;'coral';255 127 80;'cornflowerblue';100 149 237;'cornsilk';255 248 220;'crimson';220 20 60;'cyan';0 255 255;'darkblue';0 0 139;'darkcyan';0 139 139;'darkgoldenrod';184 134 11;'darkgray';169 169 169;'darkgreen';0 100 0;'darkgrey';169 169 169;'darkkhaki';189 183 107;'darkmagenta';139 0 139;'darkolivegreen';85 107 47;'darkorange';255 140 0;'darkorchid';153 50 204;'darkred';139 0 0;'darksalmon';233 150 122;'darkseagreen';143 188 143;'darkslateblue';72 61 139;'darkslategray';47 79 79;'darkslategrey';47 79 79;'darkturquoise';0 206 209;'darkviolet';148 0 211;'deeppink';255 20 147;'deepskyblue';0 191 255;'dimgray';105 105 105;'dimgrey';105 105 105;'dodgerblue';30 144 255;'firebrick';178 34 34;'floralwhite';255 250 240;'forestgreen';34 139 34;'fuchsia';255 0 255;'gainsboro';220 220 220;'ghostwhite';248 248 255;'gold';255 215 0;'goldenrod';218 165 32;'gray';128 128 128;'grey';128 128 128;'green';0 128 0;'greenyellow';173 255 47;'honeydew';240 255 240;'hotpink';255 105 180;'indianred';205 92 92;'indigo';75 0 130;'ivory';255 255 240;'khaki';240 230 140;'lavender';230 230 250;'lavenderblush';255 240 245;'lawngreen';124 252 0;'lemonchiffon';255 250 205;'lightblue';173 216 230;'lightcoral';240 128 128;'lightcyan';224 255 255;'lightgoldenrodyellow';250 250 210;'lightgray';211 211 211;'lightgreen';144 238 144;'lightgrey';211 211 211;'lightpink';255 182 193;'lightsalmon';255 160 122;'lightseagreen';32 178 170;'lightskyblue';135 206 250;'lightslategray';119 136 153;'lightslategrey';119 136 153;'lightsteelblue';176 196 222;'lightyellow';255 255 224;'lime';0 255 0;'limegreen';50 205 50;'linen';250 240 230;'magenta';255 0 255;'maroon';128 0 0;'mediumaquamarine';102 205 170;'mediumblue';0 0 205;'mediumorchid';186 85 211;'mediumpurple';147 112 219;'mediumseagreen';60 179 113;'mediumslateblue';123 104 238;'mediumspringgreen';0 250 154;'mediumturquoise';72 209 204;'mediumvioletred';199 21 133;'midnightblue';25 25 112;'mintcream';245 255 250;'mistyrose';255 228 225;'moccasin';255 228 181;'navajowhite';255 222 173;'navy';0 0 128;'oldlace';253 245 230;'olive';128 128 0;'olivedrab';107 142 35;'orange';255 165 0;'orangered';255 69 0;'orchid';218 112 214;'palegoldenrod';238 232 170;'palegreen';152 251 152;'paleturquoise';175 238 238;'palevioletred';219 112 147;'papayawhip';255 239 213;'peachpuff';255 218 185;'peru';205 133 63;'pink';255 192 203;'plum';221 160 221;'powderblue';176 224 230;'purple';128 0 128;'red';255 0 0;'rosybrown';188 143 143;'royalblue';65 105 225;'saddlebrown';139 69 19;'salmon';250 128 114;'sandybrown';244 164 96;'seagreen';46 139 87;'seashell';255 245 238;'sienna';160 82 45;'silver';192 192 192;'skyblue';135 206 235;'slateblue';106 90 205;'slategray';112 128 144;'slategrey';112 128 144;'snow';255 250 250;'springgreen';0 255 127;'steelblue';70 130 180;'tan';210 180 140;'teal';0 128 128;'thistle';216 191 216;'tomato';255 99 71;'turquoise';64 224 208;'violet';238 130 238;'wheat';245 222 179;'white';255 255 255;'whitesmoke';245 245 245;'yellow';255 255 0;'yellowgreen';154 205 50
 
-THUMBSVMD=:'0.8.0';4;'13 Mar 2019 18:44:51'
-
-UNIFIED_Colors=:971 4$'ColorName';'HexValue';'DECValue';'RGB';'acidgreen';'#8ffe09';9436681;143 254 9;'adobe';'#bd6c48';12414024;189 108 72;'algae';'#54ac68';5549160;84 172 104;'algaegreen';'#21c36f';2212719;33 195 111;'aliceblue';'#f0f8ff';15792383;240 248 255;'almostblack';'#070d0d';462093;7 13 13;'amber';'#feb308';16691976;254 179 8;'amethyst';'#9b5fc0';10182592;155 95 192;'antiquewhite';'#faebd7';16444375;250 235 215;'apple';'#6ecb3c';7260988;110 203 60;'applegreen';'#76cd26';7785766;118 205 38;'apricot';'#ffb16d';16757101;255 177 109;'aqua';'#00ffff';65535;0 255 255;'aquablue';'#02d8e9';186601;2 216 233;'aquagreen';'#12e193';1237395;18 225 147;'aquamarine';'#7fffd4';8388564;127 255 212;'armygreen';'#4b5d16';4939030;75 93 22;'asparagus';'#77ab56';7842646;119 171 86;'aubergine';'#3d0734';3999540;61 7 52;'auburn';'#9a3001';10104833;154 48 1;'avocado';'#90b134';9482548;144 177 52;'avocadogreen';'#87a922';8890658;135 169 34;'azul';'#1d5dec';1924588;29 93 236;'azure';'#f0ffff';15794175;240 255 255;'babyblue';'#a2cffe';10670078;162 207 254;'babygreen';'#8cff9e';9240478;140 255 158;'babypink';'#ffb7ce';16758734;255 183 206;'babypoo';'#ab9004';11243524;171 144 4;'babypoop';'#937c00';9665536;147 124 0;'babypoopgreen';'#8f9805';9410565;143 152 5;'babypukegreen';'#b6c406';11977734;182 196 6;'babypurple';'#ca9bf7';13278199;202 155 247;'babyshitbrown';'#ad900d';11374605;173 144 13;'babyshitgreen';'#889717';8951575;136 151 23;'banana';'#ffff7e';16777086;255 255 126;'bananayellow';'#fafe4b';16449099;250 254 75;'barbiepink';'#fe46a5';16664229;254 70 165;'barfgreen';'#94ac02';9743362;148 172 2;'barney';'#ac1db8';11279800;172 29 184;'barneypurple';'#a00498';10486936;160 4 152;'battleshipgrey';'#6b7c85';7044229;107 124 133;'beige';'#f5f5dc';16119260;245 245 220;'berry';'#990f4b';10030923;153 15 75;'bile';'#b5c306';11911942;181 195 6;'bisque';'#ffe4c4';16770244;255 228 196;'black';'#000000';0;0 0 0;'blanchedalmond';'#ffebcd';16772045;255 235 205;'bland';'#afa88b';11511947;175 168 139;'blood';'#770001';7798785;119 0 1;'bloodorange';'#fe4b03';16665347;254 75 3;'bloodred';'#980002';9961474;152 0 2;'blue';'#0000ff';255;0 0 255;'blueberry';'#464196';4604310;70 65 150;'blueblue';'#2242c7';2245319;34 66 199;'bluegreen';'#017a79';96889;1 122 121;'bluegrey';'#607c8e';6323342;96 124 142;'bluepurple';'#5729ce';5712334;87 41 206;'blueviolet';'#8a2be2';9055202;138 43 226;'bluewithahintofpurple';'#533cc6';5455046;83 60 198;'blueygreen';'#2bb179';2863481;43 177 121;'blueygrey';'#89a0b0';9019568;137 160 176;'blueypurple';'#6241c7';6439367;98 65 199;'bluish';'#2976bb';2717371;41 118 187;'bluishgreen';'#10a674';1091188;16 166 116;'bluishgrey';'#748b97';7637911;116 139 151;'bluishpurple';'#703be7';7355367;112 59 231;'blurple';'#5539cc';5585356;85 57 204;'blush';'#f29e8e';15900302;242 158 142;'blushpink';'#fe828c';16679564;254 130 140;'booger';'#9bb53c';10204476;155 181 60;'boogergreen';'#96b403';9876483;150 180 3;'bordeaux';'#7b002c';8060972;123 0 44;'boringgreen';'#63b365';6533989;99 179 101;'bottlegreen';'#044a05';281093;4 74 5;'brick';'#a03623';10499619;160 54 35;'brickorange';'#c14a09';12667401;193 74 9;'brickred';'#8f1402';9376770;143 20 2;'brightaqua';'#0bf9ea';784874;11 249 234;'brightblue';'#0165fc';91644;1 101 252;'brightcyan';'#41fdfe';4324862;65 253 254;'brightgreen';'#01ff07';130823;1 255 7;'brightlavender';'#c760ff';13066495;199 96 255;'brightlightblue';'#26f7fd';2553853;38 247 253;'brightlightgreen';'#2dfe54';3014228;45 254 84;'brightlilac';'#c95efb';13197051;201 94 251;'brightlime';'#87fd05';8912133;135 253 5;'brightlimegreen';'#65fe08';6684168;101 254 8;'brightmagenta';'#ff08e8';16713960;255 8 232;'brightolive';'#9cbb04';10271492;156 187 4;'brightorange';'#ff5b00';16734976;255 91 0;'brightpink';'#fe01b1';16646577;254 1 177;'brightpurple';'#be03fd';12452861;190 3 253;'brightred';'#ff000d';16711693;255 0 13;'brightseagreen';'#05ffa6';393126;5 255 166;'brightskyblue';'#02ccfe';183550;2 204 254;'brightteal';'#01f9c6';129478;1 249 198;'brightturquoise';'#0ffef9';1048313;15 254 249;'brightviolet';'#ad0afd';11340541;173 10 253;'brightyellow';'#fffd01';16776449;255 253 1;'brightyellowgreen';'#9dff00';10354432;157 255 0;'britishracinggreen';'#05480d';346125;5 72 13;'bronze';'#a87900';11041024;168 121 0;'brown';'#a52a2a';10824234;165 42 42;'browngreen';'#706c11';7367697;112 108 17;'browngrey';'#8d8468';9274472;141 132 104;'brownish';'#9c6d57';10251607;156 109 87;'brownishgreen';'#6a6e09';6974985;106 110 9;'brownishgrey';'#86775f';8812383;134 119 95;'brownishorange';'#cb7723';13334307;203 119 35;'brownishpink';'#c27e79';12746361;194 126 121;'brownishpurple';'#76424e';7750222;118 66 78;'brownishred';'#9e3623';10368547;158 54 35;'brownishyellow';'#c9b003';13217795;201 176 3;'brownorange';'#b96902';12151042;185 105 2;'brownred';'#922b05';9579269;146 43 5;'brownyellow';'#b29705';11704069;178 151 5;'brownygreen';'#6f6c0a';7302154;111 108 10;'brownyorange';'#ca6b02';13265666;202 107 2;'bruise';'#7e4071';8274033;126 64 113;'bubblegum';'#ff6cb5';16739509;255 108 181;'bubblegumpink';'#fe83cc';16679884;254 131 204;'buff';'#fef69e';16709278;254 246 158;'burgundy';'#610023';6357027;97 0 35;'burlywood';'#deb887';14596231;222 184 135;'burntorange';'#c04e01';12602881;192 78 1;'burntred';'#9f2305';10429189;159 35 5;'burntsiena';'#b75203';12014083;183 82 3;'burntsienna';'#b04e0f';11554319;176 78 15;'burntumber';'#a0450e';10503438;160 69 14;'burntyellow';'#d5ab09';14002953;213 171 9;'burple';'#6832e3';6828771;104 50 227;'butter';'#ffff81';16777089;255 255 129;'butterscotch';'#fdb147';16625991;253 177 71;'butteryellow';'#fffd74';16776564;255 253 116;'cadetblue';'#5f9ea0';6266528;95 158 160;'camel';'#c69f59';13016921;198 159 89;'camo';'#7f8f4e';8359758;127 143 78;'camogreen';'#526525';5399845;82 101 37;'camouflagegreen';'#4b6113';4940051;75 97 19;'canary';'#fdff63';16645987;253 255 99;'canaryyellow';'#fffe40';16776768;255 254 64;'candypink';'#ff63e9';16737257;255 99 233;'caramel';'#af6f09';11497225;175 111 9;'carmine';'#9d0216';10289686;157 2 22;'carnation';'#fd798f';16611727;253 121 143;'carnationpink';'#ff7fa7';16744359;255 127 167;'carolinablue';'#8ab8fe';9091326;138 184 254;'celadon';'#befdb7';12516791;190 253 183;'celery';'#c1fd95';12713365;193 253 149;'cement';'#a5a391';10855313;165 163 145;'cerise';'#de0c62';14552162;222 12 98;'cerulean';'#0485d1';296401;4 133 209;'ceruleanblue';'#056eee';356078;5 110 238;'charcoal';'#343837';3422263;52 56 55;'charcoalgrey';'#3c4142';3948866;60 65 66;'chartreuse';'#7fff00';8388352;127 255 0;'cherry';'#cf0234';13566516;207 2 52;'cherryred';'#f7022a';16187946;247 2 42;'chestnut';'#742802';7612418;116 40 2;'chocolate';'#d2691e';13789470;210 105 30;'chocolatebrown';'#411900';4266240;65 25 0;'cinnamon';'#ac4f06';11292422;172 79 6;'claret';'#680018';6815768;104 0 24;'clay';'#b66a50';11954768;182 106 80;'claybrown';'#b2713d';11694397;178 113 61;'clearblue';'#247afd';2390781;36 122 253;'cloudyblue';'#acc2d9';11322073;172 194 217;'cobalt';'#1e488f';1984655;30 72 143;'cobaltblue';'#030aa7';199335;3 10 167;'cocoa';'#875f42';8871746;135 95 66;'coffee';'#a6814c';10912076;166 129 76;'coolblue';'#4984b8';4818104;73 132 184;'coolgreen';'#33b864';3389540;51 184 100;'coolgrey';'#95a3a6';9806758;149 163 166;'copper';'#b66325';11952933;182 99 37;'coral';'#ff7f50';16744272;255 127 80;'coralpink';'#ff6163';16736611;255 97 99;'cornflower';'#6a79f7';6978039;106 121 247;'cornflowerblue';'#6495ed';6591981;100 149 237;'cornsilk';'#fff8dc';16775388;255 248 220;'cranberry';'#9e003a';10354746;158 0 58;'cream';'#ffffc2';16777154;255 255 194;'creme';'#ffffb6';16777142;255 255 182;'crimson';'#dc143c';14423100;220 20 60;'custard';'#fffd78';16776568;255 253 120;'dandelion';'#fedf08';16703240;254 223 8;'dark';'#1b2431';1778737;27 36 49;'darkaqua';'#05696b';354667;5 105 107;'darkaquamarine';'#017371';95089;1 115 113;'darkbeige';'#ac9362';11309922;172 147 98;'darkblue';'#00008b';139;0 0 139;'darkbluegreen';'#005249';21065;0 82 73;'darkbluegrey';'#1f3b4d';2046797;31 59 77;'darkbrown';'#341c02';3415042;52 28 2;'darkcoral';'#cf524e';13587022;207 82 78;'darkcream';'#fff39a';16774042;255 243 154;'darkcyan';'#008b8b';35723;0 139 139;'darkforestgreen';'#002d04';11524;0 45 4;'darkfuchsia';'#9d0759';10291033;157 7 89;'darkgold';'#b59410';11899920;181 148 16;'darkgoldenrod';'#b8860b';12092939;184 134 11;'darkgrassgreen';'#388004';3702788;56 128 4;'darkgray';'#a9a9a9';11119017;169 169 169;'darkgreen';'#006400';25600;0 100 0;'darkgreenblue';'#1f6357';2057047;31 99 87;'darkgrey';'#363737';3553079;54 55 55;'darkgreyblue';'#29465b';2704987;41 70 91;'darkhotpink';'#d90166';14221670;217 1 102;'darkindigo';'#1f0954';2034004;31 9 84;'darkishblue';'#014182';82306;1 65 130;'darkishgreen';'#287c37';2653239;40 124 55;'darkishpink';'#da467d';14304893;218 70 125;'darkishpurple';'#751973';7674227;117 25 115;'darkishred';'#a90308';11076360;169 3 8;'darkkhaki';'#bdb76b';12433259;189 183 107;'darklavender';'#856798';8742808;133 103 152;'darklilac';'#9c6da5';10251685;156 109 165;'darklime';'#84b701';8697601;132 183 1;'darklimegreen';'#7ebd01';8305921;126 189 1;'darkmagenta';'#8b008b';9109643;139 0 139;'darkmaroon';'#3c0008';3932168;60 0 8;'darkmauve';'#874c62';8866914;135 76 98;'darkmint';'#48c072';4767858;72 192 114;'darkmintgreen';'#20c073';2146419;32 192 115;'darkmustard';'#a88905';11045125;168 137 5;'darknavy';'#000435';1077;0 4 53;'darknavyblue';'#00022e';558;0 2 46;'darkolive';'#373e02';3620354;55 62 2;'darkolivegreen';'#556b2f';5597999;85 107 47;'darkorange';'#ff8c00';16747520;255 140 0;'darkorchid';'#9932cc';10040012;153 50 204;'darkpastelgreen';'#56ae57';5680727;86 174 87;'darkpeach';'#de7e5d';14581341;222 126 93;'darkperiwinkle';'#665fd1';6709201;102 95 209;'darkpink';'#cb416b';13320555;203 65 107;'darkplum';'#3f012c';4129068;63 1 44;'darkpurple';'#35063e';3475006;53 6 62;'darkred';'#8b0000';9109504;139 0 0;'darkrose';'#b5485d';11880541;181 72 93;'darkroyalblue';'#02066f';132719;2 6 111;'darksage';'#598556';5866838;89 133 86;'darksalmon';'#e9967a';15308410;233 150 122;'darksand';'#a88f59';11046745;168 143 89;'darkseafoam';'#1fb57a';2078074;31 181 122;'darkseafoamgreen';'#3eaf76';4108150;62 175 118;'darkseagreen';'#8fbc8f';9419919;143 188 143;'darkskyblue';'#448ee4';4493028;68 142 228;'darkslateblue';'#483d8b';4734347;72 61 139;'darkslategray';'#2f4f4f';3100495;47 79 79;'darktan';'#af884a';11503690;175 136 74;'darktaupe';'#7f684e';8349774;127 104 78;'darkteal';'#014d4e';85326;1 77 78;'darkturquoise';'#00ced1';52945;0 206 209;'darkviolet';'#9400d3';9699539;148 0 211;'darkyellow';'#d5b60a';14005770;213 182 10;'darkyellowgreen';'#728f02';7507714;114 143 2;'deepaqua';'#08787f';555135;8 120 127;'deepblue';'#040273';262771;4 2 115;'deepbrown';'#410200';4260352;65 2 0;'deepgreen';'#02590f';153871;2 89 15;'deeplavender';'#8d5eb7';9264823;141 94 183;'deeplilac';'#966ebd';9858749;150 110 189;'deepmagenta';'#a0025c';10486364;160 2 92;'deeporange';'#dc4d01';14437633;220 77 1;'deeppink';'#ff1493';16716947;255 20 147;'deeppurple';'#36013f';3539263;54 1 63;'deepred';'#9a0200';10093056;154 2 0;'deeprose';'#c74767';13059943;199 71 103;'deepseablue';'#015482';87170;1 84 130;'deepskyblue';'#00bfff';49151;0 191 255;'deepteal';'#00555a';21850;0 85 90;'deepturquoise';'#017374';95092;1 115 116;'deepviolet';'#490648';4785736;73 6 72;'denim';'#3b638c';3892108;59 99 140;'denimblue';'#3b5b92';3890066;59 91 146;'desert';'#ccad60';13413728;204 173 96;'diarrhea';'#9f8303';10453763;159 131 3;'dimgray';'#696969';6908265;105 105 105;'dirt';'#8a6e45';9072197;138 110 69;'dirtbrown';'#836539';8611129;131 101 57;'dirtyblue';'#3f829d';4162205;63 130 157;'dirtygreen';'#667e2c';6716972;102 126 44;'dirtyorange';'#c87606';13137414;200 118 6;'dirtypink';'#ca7b80';13269888;202 123 128;'dirtypurple';'#734a65';7555685;115 74 101;'dirtyyellow';'#cdc50a';13485322;205 197 10;'dodgerblue';'#1e90ff';2003199;30 144 255;'drab';'#828344';8553284;130 131 68;'drabgreen';'#749551';7640401;116 149 81;'driedblood';'#4b0101';4915457;75 1 1;'duckeggblue';'#c3fbf4';12844020;195 251 244;'dullblue';'#49759c';4814236;73 117 156;'dullbrown';'#876e4b';8875595;135 110 75;'dullgreen';'#74a662';7644770;116 166 98;'dullorange';'#d8863b';14190139;216 134 59;'dullpink';'#d5869d';13993629;213 134 157;'dullpurple';'#84597e';8673662;132 89 126;'dullred';'#bb3f3f';12271423;187 63 63;'dullteal';'#5f9e8f';6266511;95 158 143;'dullyellow';'#eedc5b';15653979;238 220 91;'dusk';'#4e5481';5133441;78 84 129;'duskblue';'#26538d';2511757;38 83 141;'duskyblue';'#475f94';4677524;71 95 148;'duskypink';'#cc7a8b';13400715;204 122 139;'duskypurple';'#895b7b';9001851;137 91 123;'duskyrose';'#ba6873';12216435;186 104 115;'dust';'#b2996e';11704686;178 153 110;'dustyblue';'#5a86ad';5932717;90 134 173;'dustygreen';'#76a973';7776627;118 169 115;'dustylavender';'#ac86a8';11306664;172 134 168;'dustyorange';'#f0833a';15762234;240 131 58;'dustypink';'#d58a94';13994644;213 138 148;'dustypurple';'#825f87';8544135;130 95 135;'dustyred';'#b9484e';12142670;185 72 78;'dustyrose';'#c0737a';12612474;192 115 122;'dustyteal';'#4c9085';5017733;76 144 133;'earth';'#a2653e';10642750;162 101 62;'eastergreen';'#8cfd7e';9239934;140 253 126;'easterpurple';'#c071fe';12612094;192 113 254;'ecru';'#feffca';16711626;254 255 202;'eggplant';'#380835';3672117;56 8 53;'eggplantpurple';'#430541';4392257;67 5 65;'eggshell';'#fffcc4';16776388;255 252 196;'eggshellblue';'#c4fff7';12910583;196 255 247;'electricblue';'#0652ff';414463;6 82 255;'electricgreen';'#21fc0d';2227213;33 252 13;'electriclime';'#a8ff04';11075332;168 255 4;'electricpink';'#ff0490';16712848;255 4 144;'electricpurple';'#aa23ff';11150335;170 35 255;'emerald';'#01a049';106569;1 160 73;'emeraldgreen';'#028f1e';167710;2 143 30;'evergreen';'#05472a';345898;5 71 42;'fadedblue';'#658cbb';6655163;101 140 187;'fadedgreen';'#7bb274';8106612;123 178 116;'fadedorange';'#f0944d';15766605;240 148 77;'fadedpink';'#de9dac';14589356;222 157 172;'fadedpurple';'#916e99';9531033;145 110 153;'fadedred';'#d3494e';13846862;211 73 78;'fadedyellow';'#feff7f';16711551;254 255 127;'fawn';'#cfaf7b';13610875;207 175 123;'fern';'#63a950';6531408;99 169 80;'ferngreen';'#548d44';5541188;84 141 68;'firebrick';'#b22222';11674146;178 34 34;'fireenginered';'#fe0002';16646146;254 0 2;'flatblue';'#3c73a8';3961768;60 115 168;'flatgreen';'#699d4c';6921548;105 157 76;'floralwhite';'#fffaf0';16775920;255 250 240;'fluorescentgreen';'#08ff08';589576;8 255 8;'flurogreen';'#0aff02';720642;10 255 2;'foamgreen';'#90fda9';9502121;144 253 169;'forest';'#0b5509';742665;11 85 9;'forestgreen';'#228b22';2263842;34 139 34;'forrestgreen';'#154406';1393670;21 68 6;'frenchblue';'#436bad';4418477;67 107 173;'freshgreen';'#69d84f';6936655;105 216 79;'froggreen';'#58bc08';5815304;88 188 8;'fuchsia';'#ff00ff';16711935;255 0 255;'gainsboro';'#dcdcdc';14474460;220 220 220;'ghostwhite';'#f8f8ff';16316671;248 248 255;'gold';'#ffd700';16766720;255 215 0;'golden';'#f5bf03';16105219;245 191 3;'goldenbrown';'#b27a01';11696641;178 122 1;'goldenrod';'#daa520';14329120;218 165 32;'goldenyellow';'#fec615';16696853;254 198 21;'grape';'#6c3461';7091297;108 52 97;'grapefruit';'#fd5956';16603478;253 89 86;'grapepurple';'#5d1451';6100049;93 20 81;'grass';'#5cac2d';6073389;92 172 45;'grassgreen';'#3f9b0b';4168459;63 155 11;'grassygreen';'#419c03';4299779;65 156 3;'gray';'#808080';8421504;128 128 128;'green';'#008000';32768;0 128 0;'greenapple';'#5edc1f';6216735;94 220 31;'greenblue';'#01c08d';114829;1 192 141;'greenbrown';'#544e03';5524995;84 78 3;'greengrey';'#77926f';7836271;119 146 111;'greenish';'#40a368';4236136;64 163 104;'greenishbeige';'#c9d179';13226361;201 209 121;'greenishblue';'#0b8b87';756615;11 139 135;'greenishbrown';'#696112';6906130;105 97 18;'greenishcyan';'#2afeb7';2817719;42 254 183;'greenishgrey';'#96ae8d';9875085;150 174 141;'greenishtan';'#bccb7a';12372858;188 203 122;'greenishteal';'#32bf84';3325828;50 191 132;'greenishturquoise';'#00fbb0';64432;0 251 176;'greenishyellow';'#cdfd02';13499650;205 253 2;'greenteal';'#0cb577';832887;12 181 119;'greenyblue';'#42b395';4371349;66 179 149;'greenybrown';'#696006';6905862;105 96 6;'greenyellow';'#adff2f';11403055;173 255 47;'greenygrey';'#7ea07a';8298618;126 160 122;'greenyyellow';'#c6f808';13039624;198 248 8;'grey';'#929591';9606545;146 149 145;'greyblue';'#647d8e';6585742;100 125 142;'greybrown';'#7f7053';8351827;127 112 83;'greygreen';'#789b73';7904115;120 155 115;'greyish';'#a8a495';11052181;168 164 149;'greyishblue';'#5e819d';6193565;94 129 157;'greyishbrown';'#7a6a4f';8022607;122 106 79;'greyishgreen';'#82a67d';8562301;130 166 125;'greyishpink';'#c88d94';13143444;200 141 148;'greyishpurple';'#887191';8941969;136 113 145;'greyishteal';'#719f91';7446417;113 159 145;'greypink';'#c3909b';12816539;195 144 155;'greypurple';'#826d8c';8547724;130 109 140;'greyteal';'#5e9b8a';6200202;94 155 138;'grossgreen';'#a0bf16';10534678;160 191 22;'gunmetal';'#536267';5464679;83 98 103;'hazel';'#8e7618';9336344;142 118 24;'heather';'#a484ac';10781868;164 132 172;'heliotrope';'#d94ff5';14241781;217 79 245;'highlightergreen';'#1bfc06';1833990;27 252 6;'honeydew';'#f0fff0';15794160;240 255 240;'hospitalgreen';'#9be5aa';10216874;155 229 170;'hotgreen';'#25ff29';2490153;37 255 41;'hotmagenta';'#f504c9';16057545;245 4 201;'hotpink';'#ff69b4';16738740;255 105 180;'hotpurple';'#cb00f5';13304053;203 0 245;'huntergreen';'#0b4008';737288;11 64 8;'ice';'#d6fffa';14090234;214 255 250;'iceblue';'#d7fffe';14155774;215 255 254;'ickygreen';'#8fae22';9416226;143 174 34;'indianred';'#cd5c5c';13458524;205 92 92;'indigo';'#4b0082';4915330;75 0 130;'indigoblue';'#3a18b1';3807409;58 24 177;'iris';'#6258c4';6445252;98 88 196;'irishgreen';'#019529';103721;1 149 41;'ivory';'#fffff0';16777200;255 255 240;'jade';'#1fa774';2074484;31 167 116;'jadegreen';'#2baf6a';2862954;43 175 106;'junglegreen';'#048243';295491;4 130 67;'kelleygreen';'#009337';37687;0 147 55;'kellygreen';'#02ab2e';174894;2 171 46;'kermitgreen';'#5cb200';6074880;92 178 0;'keylime';'#aeff6e';11468654;174 255 110;'khaki';'#f0e68c';15787660;240 230 140;'khakigreen';'#728639';7505465;114 134 57;'kiwi';'#9cef43';10284867;156 239 67;'kiwigreen';'#8ee53f';9364799;142 229 63;'lavender';'#e6e6fa';15132410;230 230 250;'lavenderblue';'#8b88f8';9144568;139 136 248;'lavenderblush';'#fff0f5';16773365;255 240 245;'lavenderpink';'#dd85d7';14517719;221 133 215;'lawngreen';'#7cfc00';8190976;124 252 0;'leaf';'#71aa34';7449140;113 170 52;'leafgreen';'#5ca904';6072580;92 169 4;'leafygreen';'#51b73b';5355323;81 183 59;'leather';'#ac7434';11301940;172 116 52;'lemon';'#fdff52';16645970;253 255 82;'lemonchiffon';'#fffacd';16775885;255 250 205;'lemongreen';'#adf802';11401218;173 248 2;'lemonlime';'#bffe28';12582440;191 254 40;'lemonyellow';'#fdff38';16645944;253 255 56;'lichen';'#8fb67b';9418363;143 182 123;'lightaqua';'#8cffdb';9240539;140 255 219;'lightaquamarine';'#7bfdc7';8125895;123 253 199;'lightbeige';'#fffeb6';16776886;255 254 182;'lightblue';'#add8e6';11393254;173 216 230;'lightbluegreen';'#7efbb3';8321971;126 251 179;'lightbluegrey';'#b7c9e2';12044770;183 201 226;'lightbluishgreen';'#76fda8';7798184;118 253 168;'lightbrightgreen';'#53fe5c';5504604;83 254 92;'lightbrown';'#ad8150';11370832;173 129 80;'lightburgundy';'#a8415b';11026779;168 65 91;'lightcoral';'#f08080';15761536;240 128 128;'lightcyan';'#e0ffff';14745599;224 255 255;'lighteggplant';'#894585';8996229;137 69 133;'lightergreen';'#75fd63';7732579;117 253 99;'lighterpurple';'#a55af4';10836724;165 90 244;'lightforestgreen';'#4f9153';5214547;79 145 83;'lightgold';'#fddc5c';16637020;253 220 92;'lightgoldenrodyellow';'#fafad2';16448210;250 250 210;'lightgrassgreen';'#9af764';10155876;154 247 100;'lightgray';'#d3d3d3';13882323;211 211 211;'lightgreen';'#90ee90';9498256;144 238 144;'lightgreenblue';'#56fca2';5700770;86 252 162;'lightgreenishblue';'#63f7b4';6551476;99 247 180;'lightgrey';'#d8dcd6';14212310;216 220 214;'lightgreyblue';'#9dbcd4';10337492;157 188 212;'lightgreygreen';'#b7e1a1';12050849;183 225 161;'lightindigo';'#6d5acf';7166671;109 90 207;'lightishblue';'#3d7afd';4029181;61 122 253;'lightishgreen';'#61e160';6414688;97 225 96;'lightishpurple';'#a552e6';10834662;165 82 230;'lightishred';'#fe2f4a';16658250;254 47 74;'lightkhaki';'#e6f2a2';15135394;230 242 162;'lightlavendar';'#efc0fe';15712510;239 192 254;'lightlavender';'#dfc5fe';14665214;223 197 254;'lightlightblue';'#cafffb';13303803;202 255 251;'lightlightgreen';'#c8ffb0';13172656;200 255 176;'lightlilac';'#edc8ff';15583487;237 200 255;'lightlime';'#aefd6c';11468140;174 253 108;'lightlimegreen';'#b9ff66';12189542;185 255 102;'lightmagenta';'#fa5ff7';16408567;250 95 247;'lightmaroon';'#a24857';10635351;162 72 87;'lightmauve';'#c292a1';12751521;194 146 161;'lightmint';'#b6ffbb';11993019;182 255 187;'lightmintgreen';'#a6fbb2';10943410;166 251 178;'lightmossgreen';'#a6c875';10930293;166 200 117;'lightmustard';'#f7d560';16242016;247 213 96;'lightnavy';'#155084';1396868;21 80 132;'lightnavyblue';'#2e5a88';3037832;46 90 136;'lightneongreen';'#4efd54';5176660;78 253 84;'lightolive';'#acbf69';11321193;172 191 105;'lightolivegreen';'#a4be5c';10796636;164 190 92;'lightorange';'#fdaa48';16624200;253 170 72;'lightpastelgreen';'#b2fba5';11729829;178 251 165;'lightpeach';'#ffd8b1';16767153;255 216 177;'lightpeagreen';'#c4fe82';12910210;196 254 130;'lightperiwinkle';'#c1c6fc';12699388;193 198 252;'lightpink';'#ffb6c1';16758465;255 182 193;'lightplum';'#9d5783';10311555;157 87 131;'lightpurple';'#bf77f6';12548086;191 119 246;'lightred';'#ff474c';16729932;255 71 76;'lightrose';'#ffc5cb';16762315;255 197 203;'lightroyalblue';'#3a2efe';3813118;58 46 254;'lightsage';'#bcecac';12381356;188 236 172;'lightsalmon';'#ffa07a';16752762;255 160 122;'lightseafoam';'#a0febf';10550975;160 254 191;'lightseafoamgreen';'#a7ffb5';11009973;167 255 181;'lightseagreen';'#20b2aa';2142890;32 178 170;'lightskyblue';'#87cefa';8900346;135 206 250;'lightslategray';'#778899';7833753;119 136 153;'lightsteelblue';'#b0c4de';11584734;176 196 222;'lighttan';'#fbeeac';16510636;251 238 172;'lightteal';'#90e4c1';9495745;144 228 193;'lightturquoise';'#7ef4cc';8320204;126 244 204;'lighturple';'#b36ff6';11759606;179 111 246;'lightviolet';'#d6b4fc';14071036;214 180 252;'lightyellow';'#ffffe0';16777184;255 255 224;'lightyellowgreen';'#ccfd7f';13434239;204 253 127;'lightyellowishgreen';'#c2ff89';12779401;194 255 137;'lilac';'#cea2fd';13542141;206 162 253;'liliac';'#c48efd';12881661;196 142 253;'lime';'#00ff00';65280;0 255 0;'limegreen';'#32cd32';3329330;50 205 50;'limeyellow';'#d0fe1d';13696541;208 254 29;'linen';'#faf0e6';16445670;250 240 230;'lipstick';'#d5174e';13965134;213 23 78;'lipstickred';'#c0022f';12583471;192 2 47;'macaroniandcheese';'#efb435';15709237;239 180 53;'magenta';'#c20078';12714104;194 0 120;'mahogany';'#4a0100';4849920;74 1 0;'maize';'#f4d054';16044116;244 208 84;'mango';'#ffa62b';16754219;255 166 43;'manilla';'#fffa86';16775814;255 250 134;'marigold';'#fcc006';16564230;252 192 6;'marine';'#042e60';274016;4 46 96;'marineblue';'#01386a';79978;1 56 106;'maroon';'#800000';8388608;128 0 0;'mauve';'#ae7181';11432321;174 113 129;'mediumaquamarine';'#66cdaa';6737322;102 205 170;'mediumblue';'#0000cd';205;0 0 205;'mediumbrown';'#7f5112';8343826;127 81 18;'mediumgreen';'#39ad48';3779912;57 173 72;'mediumgrey';'#7d7f7c';8224636;125 127 124;'mediumorchid';'#ba55d3';12211667;186 85 211;'mediumpink';'#f36196';15950230;243 97 150;'mediumpurple';'#9370db';9662683;147 112 219;'mediumseagreen';'#3cb371';3978097;60 179 113;'mediumslateblue';'#7b68ee';8087790;123 104 238;'mediumspringgreen';'#00fa9a';64154;0 250 154;'mediumturquoise';'#48d1cc';4772300;72 209 204;'mediumvioletred';'#c71585';13047173;199 21 133;'melon';'#ff7855';16742485;255 120 85;'merlot';'#730039';7536697;115 0 57;'metallicblue';'#4f738e';5206926;79 115 142;'midblue';'#276ab3';2583219;39 106 179;'midgreen';'#50a747';5285703;80 167 71;'midnight';'#03012d';196909;3 1 45;'midnightblue';'#191970';1644912;25 25 112;'midnightpurple';'#280137';2621751;40 1 55;'militarygreen';'#667c3e';6716478;102 124 62;'milkchocolate';'#7f4e1e';8343070;127 78 30;'mint';'#9ffeb0';10485424;159 254 176;'mintcream';'#f5fffa';16121850;245 255 250;'mintgreen';'#8fff9f';9437087;143 255 159;'mintygreen';'#0bf77d';784253;11 247 125;'mistyrose';'#ffe4e1';16770273;255 228 225;'moccasin';'#ffe4b5';16770229;255 228 181;'mocha';'#9d7651';10319441;157 118 81;'moss';'#769958';7772504;118 153 88;'mossgreen';'#658b38';6654776;101 139 56;'mossygreen';'#638b27';6523687;99 139 39;'mud';'#735c12';7560210;115 92 18;'mudbrown';'#60460f';6309391;96 70 15;'muddybrown';'#886806';8939526;136 104 6;'muddygreen';'#657432';6648882;101 116 50;'muddyyellow';'#bfac05';12561413;191 172 5;'mudgreen';'#606602';6317570;96 102 2;'mulberry';'#920a4e';9570894;146 10 78;'murkygreen';'#6c7a0e';7109134;108 122 14;'mushroom';'#ba9e88';12230280;186 158 136;'mustard';'#ceb301';13546241;206 179 1;'mustardbrown';'#ac7e04';11304452;172 126 4;'mustardgreen';'#a8b504';11056388;168 181 4;'mustardyellow';'#d2bd0a';13810954;210 189 10;'mutedblue';'#3b719f';3895711;59 113 159;'mutedgreen';'#5fa052';6266962;95 160 82;'mutedpink';'#d1768f';13727375;209 118 143;'mutedpurple';'#805b87';8412039;128 91 135;'nastygreen';'#70b23f';7385663;112 178 63;'navajowhite';'#ffdead';16768685;255 222 173;'navy';'#000080';128;0 0 128;'navyblue';'#001146';4422;0 17 70;'navygreen';'#35530a';3494666;53 83 10;'neonblue';'#04d9ff';317951;4 217 255;'neongreen';'#0cff0c';851724;12 255 12;'neonpink';'#fe019a';16646554;254 1 154;'neonpurple';'#bc13fe';12325886;188 19 254;'neonred';'#ff073a';16713530;255 7 58;'neonyellow';'#cfff04';13631236;207 255 4;'niceblue';'#107ab0';1079984;16 122 176;'nightblue';'#040348';262984;4 3 72;'ocean';'#017b92';97170;1 123 146;'oceanblue';'#03719c';225692;3 113 156;'oceangreen';'#3d9973';4036979;61 153 115;'ocher';'#bf9b0c';12557068;191 155 12;'ochre';'#bf9005';12554245;191 144 5;'ocre';'#c69c04';13016068;198 156 4;'offblue';'#5684ae';5670062;86 132 174;'offgreen';'#6ba353';7054163;107 163 83;'offwhite';'#ffffe4';16777188;255 255 228;'offyellow';'#f1f33f';15856447;241 243 63;'oldlace';'#fdf5e6';16643558;253 245 230;'oldpink';'#c77986';13072774;199 121 134;'oldrose';'#c87f89';13139849;200 127 137;'olive';'#808000';8421376;128 128 0;'olivebrown';'#645403';6575107;100 84 3;'olivedrab';'#6b8e23';7048739;107 142 35;'olivegreen';'#677a04';6781444;103 122 4;'oliveyellow';'#c2b709';12760841;194 183 9;'orange';'#ffa500';16753920;255 165 0;'orangebrown';'#be6400';12477440;190 100 0;'orangeish';'#fd8d49';16616777;253 141 73;'orangepink';'#ff6f52';16740178;255 111 82;'orangered';'#ff4500';16729344;255 69 0;'orangeybrown';'#b16002';11624450;177 96 2;'orangeyellow';'#ffad01';16755969;255 173 1;'orangeyred';'#fa4224';16400932;250 66 36;'orangeyyellow';'#fdb915';16627989;253 185 21;'orangish';'#fc824a';16548426;252 130 74;'orangishbrown';'#b25f03';11689731;178 95 3;'orangishred';'#f43605';16004613;244 54 5;'orchid';'#da70d6';14315734;218 112 214;'pale';'#fff9d0';16775632;255 249 208;'paleaqua';'#b8ffeb';12124139;184 255 235;'paleblue';'#d0fefe';13696766;208 254 254;'palebrown';'#b1916e';11637102;177 145 110;'palecyan';'#b7fffa';12058618;183 255 250;'palegold';'#fdde6c';16637548;253 222 108;'palegoldenrod';'#eee8aa';15657130;238 232 170;'palegreen';'#98fb98';10025880;152 251 152;'palegrey';'#fdfdfe';16645630;253 253 254;'palelavender';'#eecffe';15650814;238 207 254;'palelightgreen';'#b1fc99';11664537;177 252 153;'palelilac';'#e4cbff';14994431;228 203 255;'palelime';'#befd73';12516723;190 253 115;'palelimegreen';'#b1ff65';11665253;177 255 101;'palemagenta';'#d767ad';14116781;215 103 173;'palemauve';'#fed0fc';16699644;254 208 252;'paleolive';'#b9cc81';12176513;185 204 129;'paleolivegreen';'#b1d27b';11653755;177 210 123;'paleorange';'#ffa756';16754518;255 167 86;'palepeach';'#ffe5ad';16770477;255 229 173;'palepink';'#ffcfdc';16764892;255 207 220;'palepurple';'#b790d4';12030164;183 144 212;'palered';'#d9544d';14242893;217 84 77;'palerose';'#fdc1c5';16630213;253 193 197;'palesalmon';'#ffb19a';16757146;255 177 154;'paleskyblue';'#bdf6fe';12449534;189 246 254;'paleteal';'#82cbb2';8571826;130 203 178;'paleturquoise';'#afeeee';11529966;175 238 238;'paleviolet';'#ceaefa';13545210;206 174 250;'palevioletred';'#db7093';14381203;219 112 147;'paleyellow';'#ffff84';16777092;255 255 132;'papayawhip';'#ffefd5';16773077;255 239 213;'parchment';'#fefcaf';16710831;254 252 175;'pastelblue';'#a2bffe';10665982;162 191 254;'pastelgreen';'#b0ff9d';11599773;176 255 157;'pastelorange';'#ff964f';16750159;255 150 79;'pastelpink';'#ffbacd';16759501;255 186 205;'pastelpurple';'#caa0ff';13279487;202 160 255;'pastelred';'#db5856';14374998;219 88 86;'pastelyellow';'#fffe71';16776817;255 254 113;'pea';'#a4bf20';10796832;164 191 32;'peach';'#ffb07c';16756860;255 176 124;'peachpuff';'#ffdab9';16767673;255 218 185;'peachypink';'#ff9a8a';16751242;255 154 138;'peacockblue';'#016795';92053;1 103 149;'peagreen';'#8eab12';9349906;142 171 18;'pear';'#cbf85f';13367391;203 248 95;'peasoup';'#929901';9607425;146 153 1;'peasoupgreen';'#94a617';9741847;148 166 23;'periwinkle';'#8e82fe';9339646;142 130 254;'periwinkleblue';'#8f99fb';9411067;143 153 251;'perrywinkle';'#8f8ce7';9407719;143 140 231;'peru';'#cd853f';13468991;205 133 63;'petrol';'#005f6a';24426;0 95 106;'pigpink';'#e78ea5';15175333;231 142 165;'pine';'#2b5d34';2841908;43 93 52;'pinegreen';'#0a481e';673822;10 72 30;'pink';'#ffc0cb';16761035;255 192 203;'pinkish';'#d46a7e';13920894;212 106 126;'pinkishbrown';'#b17261';11629153;177 114 97;'pinkishgrey';'#c8aca9';13151401;200 172 169;'pinkishorange';'#ff724c';16740940;255 114 76;'pinkishpurple';'#d648d7';14043351;214 72 215;'pinkishred';'#f10c45';15797317;241 12 69;'pinkishtan';'#d99b82';14261122;217 155 130;'pinkpurple';'#db4bda';14371802;219 75 218;'pinkred';'#f5054f';16057679;245 5 79;'pinky';'#fc86aa';16549546;252 134 170;'pinkypurple';'#c94cbe';13192382;201 76 190;'pinkyred';'#fc2647';16524871;252 38 71;'pissyellow';'#ddd618';14538264;221 214 24;'pistachio';'#c0fa8b';12647051;192 250 139;'plum';'#dda0dd';14524637;221 160 221;'plumpurple';'#4e0550';5113168;78 5 80;'poisongreen';'#40fd14';4259092;64 253 20;'poo';'#8f7303';9401091;143 115 3;'poobrown';'#885f01';8937217;136 95 1;'poop';'#7f5e00';8347136;127 94 0;'poopbrown';'#7a5901';8018177;122 89 1;'poopgreen';'#6f7c00';7306240;111 124 0;'powderblue';'#b0e0e6';11591910;176 224 230;'powderpink';'#ffb2d0';16757456;255 178 208;'primaryblue';'#0804f9';525561;8 4 249;'prussianblue';'#004577';17783;0 69 119;'puce';'#a57e52';10845778;165 126 82;'puke';'#a5a502';10855682;165 165 2;'pukebrown';'#947706';9729798;148 119 6;'pukegreen';'#9aae07';10137095;154 174 7;'pukeyellow';'#c2be0e';12762638;194 190 14;'pumpkin';'#e17701';14776065;225 119 1;'pumpkinorange';'#fb7d07';16481543;251 125 7;'pureblue';'#0203e2';132066;2 3 226;'purple';'#800080';8388736;128 0 128;'purpleblue';'#5d21d0';6103504;93 33 208;'purplebrown';'#673a3f';6765119;103 58 63;'purplegrey';'#866f85';8810373;134 111 133;'purpleish';'#98568d';9983629;152 86 141;'purpleishblue';'#6140ef';6373615;97 64 239;'purpleishpink';'#df4ec8';14634696;223 78 200;'purplepink';'#d725de';14099934;215 37 222;'purplered';'#990147';10027335;153 1 71;'purpley';'#8756e4';8869604;135 86 228;'purpleyblue';'#5f34e7';6239463;95 52 231;'purpleygrey';'#947e94';9731732;148 126 148;'purpleypink';'#c83cb9';13122745;200 60 185;'purplish';'#94568c';9721484;148 86 140;'purplishblue';'#601ef9';6299385;96 30 249;'purplishbrown';'#6b4247';7029319;107 66 71;'purplishgrey';'#7a687f';8022143;122 104 127;'purplishpink';'#ce5dae';13524398;206 93 174;'purplishred';'#b0054b';11535691;176 5 75;'purply';'#983fb2';9977778;152 63 178;'purplyblue';'#661aee';6691566;102 26 238;'purplypink';'#f075e6';15758822;240 117 230;'putty';'#beae8a';12496522;190 174 138;'racinggreen';'#014600';83456;1 70 0;'radioactivegreen';'#2cfa1f';2947615;44 250 31;'raspberry';'#b00149';11534665;176 1 73;'rawsienna';'#9a6200';10117632;154 98 0;'rawumber';'#a75e09';10968585;167 94 9;'reallylightblue';'#d4ffff';13959167;212 255 255;'red';'#ff0000';16711680;255 0 0;'redbrown';'#8b2e16';9121302;139 46 22;'reddish';'#c44240';12862016;196 66 64;'reddishbrown';'#7f2b0a';8334090;127 43 10;'reddishgrey';'#997570';10057072;153 117 112;'reddishorange';'#f8481c';16271388;248 72 28;'reddishpink';'#fe2c54';16657492;254 44 84;'reddishpurple';'#910951';9505105;145 9 81;'reddybrown';'#6e1005';7213061;110 16 5;'redorange';'#fd3c06';16595974;253 60 6;'redpink';'#fa2a55';16394837;250 42 85;'redpurple';'#820747';8521543;130 7 71;'redviolet';'#9e0168';10355048;158 1 104;'redwine';'#8c0034';9175092;140 0 52;'richblue';'#021bf9';138233;2 27 249;'richpurple';'#720058';7471192;114 0 88;'robin';'#6dedfd';7204349;109 237 253;'robineggblue';'#8af1fe';9105918;138 241 254;'rosa';'#fe86a4';16680612;254 134 164;'rose';'#cf6275';13591157;207 98 117;'rosepink';'#f7879a';16222106;247 135 154;'rosered';'#be013c';12452156;190 1 60;'rosybrown';'#bc8f8f';12357519;188 143 143;'rosypink';'#f6688e';16148622;246 104 142;'rouge';'#ab1239';11211321;171 18 57;'royal';'#0c1793';792467;12 23 147;'royalblue';'#4169e1';4286945;65 105 225;'royalpurple';'#4b006e';4915310;75 0 110;'ruby';'#ca0147';13238599;202 1 71;'russet';'#a13905';10565893;161 57 5;'rust';'#a83c09';11025417;168 60 9;'rustbrown';'#8b3103';9122051;139 49 3;'rustorange';'#c45508';12866824;196 85 8;'rustred';'#aa2704';11151108;170 39 4;'rustyorange';'#cd5909';13457673;205 89 9;'rustyred';'#af2f0d';11480845;175 47 13;'saddlebrown';'#8b4513';9127187;139 69 19;'saffron';'#feb209';16691721;254 178 9;'sage';'#87ae73';8892019;135 174 115;'sagegreen';'#88b378';8958840;136 179 120;'salmon';'#fa8072';16416882;250 128 114;'salmonpink';'#fe7b7c';16677756;254 123 124;'sand';'#e2ca76';14862966;226 202 118;'sandbrown';'#cba560';13346144;203 165 96;'sandstone';'#c9ae74';13217396;201 174 116;'sandy';'#f1da7a';15850106;241 218 122;'sandybrown';'#f4a460';16032864;244 164 96;'sandyellow';'#fce166';16572774;252 225 102;'sandyyellow';'#fdee73';16641651;253 238 115;'sapgreen';'#5c8b15';6064917;92 139 21;'sapphire';'#2138ab';2177195;33 56 171;'scarlet';'#be0119';12452121;190 1 25;'sea';'#3c9992';3971474;60 153 146;'seablue';'#047495';291989;4 116 149;'seafoam';'#80f9ad';8452525;128 249 173;'seafoamblue';'#78d1b6';7918006;120 209 182;'seafoamgreen';'#7af9ab';8059307;122 249 171;'seagreen';'#2e8b57';3050327;46 139 87;'seashell';'#fff5ee';16774638;255 245 238;'seaweed';'#18d17b';1626491;24 209 123;'seaweedgreen';'#35ad6b';3517803;53 173 107;'sepia';'#985e2b';9985579;152 94 43;'shamrock';'#01b44c';111692;1 180 76;'shamrockgreen';'#02c14d';180557;2 193 77;'shit';'#7f5f00';8347392;127 95 0;'shitbrown';'#7b5804';8083460;123 88 4;'shitgreen';'#758000';7700480;117 128 0;'shockingpink';'#fe02a2';16646818;254 2 162;'sickgreen';'#9db92c';10336556;157 185 44;'sicklygreen';'#94b21c';9744924;148 178 28;'sicklyyellow';'#d0e429';13689897;208 228 41;'sienna';'#a0522d';10506797;160 82 45;'silver';'#c0c0c0';12632256;192 192 192;'sky';'#82cafc';8571644;130 202 252;'skyblue';'#87ceeb';8900331;135 206 235;'slate';'#516572';5334386;81 101 114;'slateblue';'#6a5acd';6970061;106 90 205;'slategray';'#708090';7372944;112 128 144;'slategreen';'#658d6d';6655341;101 141 109;'slategrey';'#59656d';5858669;89 101 109;'slimegreen';'#99cc04';10079236;153 204 4;'snot';'#acbb0d';11320077;172 187 13;'snotgreen';'#9dc100';10338560;157 193 0;'snow';'#fffafa';16775930;255 250 250;'softblue';'#6488ea';6588650;100 136 234;'softgreen';'#6fc276';7324278;111 194 118;'softpink';'#fdb0c0';16625856;253 176 192;'softpurple';'#a66fb5';10907573;166 111 181;'spearmint';'#1ef876';2029686;30 248 118;'springgreen';'#00ff7f';65407;0 255 127;'spruce';'#0a5f38';679736;10 95 56;'squash';'#f2ab15';15903509;242 171 21;'steel';'#738595';7570837;115 133 149;'steelblue';'#4682b4';4620980;70 130 180;'steelgrey';'#6f828a';7307914;111 130 138;'stone';'#ada587';11380103;173 165 135;'stormyblue';'#507b9c';5274524;80 123 156;'straw';'#fcf679';16578169;252 246 121;'strawberry';'#fb2943';16460099;251 41 67;'strongblue';'#0c06f7';788215;12 6 247;'strongpink';'#ff0789';16713609;255 7 137;'sunflower';'#ffc512';16762130;255 197 18;'sunfloweryellow';'#ffda03';16767491;255 218 3;'sunnyyellow';'#fff917';16775447;255 249 23;'sunshineyellow';'#fffd37';16776503;255 253 55;'sunyellow';'#ffdf22';16768802;255 223 34;'swamp';'#698339';6914873;105 131 57;'swampgreen';'#748500';7636224;116 133 0;'tan';'#d2b48c';13808780;210 180 140;'tanbrown';'#ab7e4c';11238988;171 126 76;'tangerine';'#ff9408';16749576;255 148 8;'tangreen';'#a9be70';11124336;169 190 112;'taupe';'#b9a281';12165761;185 162 129;'tea';'#65ab7c';6663036;101 171 124;'teagreen';'#bdf8a3';12449955;189 248 163;'teal';'#008080';32896;0 128 128;'tealblue';'#01889f';100511;1 136 159;'tealgreen';'#25a36f';2466671;37 163 111;'tealish';'#24bca8';2407592;36 188 168;'tealishgreen';'#0cdc73';842867;12 220 115;'terracota';'#cb6843';13330499;203 104 67;'terracotta';'#c9643b';13198395;201 100 59;'thistle';'#d8bfd8';14204888;216 191 216;'tiffanyblue';'#7bf2da';8123098;123 242 218;'tomato';'#ff6347';16737095;255 99 71;'tomatored';'#ec2d01';15478017;236 45 1;'topaz';'#13bbaf';1293231;19 187 175;'toupe';'#c7ac7d';13085821;199 172 125;'toxicgreen';'#61de2a';6413866;97 222 42;'treegreen';'#2a7e19';2784793;42 126 25;'trueblue';'#010fcc';69580;1 15 204;'truegreen';'#089404';562180;8 148 4;'turquoise';'#40e0d0';4251856;64 224 208;'turquoiseblue';'#06b1c4';438724;6 177 196;'turquoisegreen';'#04f489';324745;4 244 137;'turtlegreen';'#75b84f';7714895;117 184 79;'twilight';'#4e518b';5132683;78 81 139;'twilightblue';'#0a437a';672634;10 67 122;'uglyblue';'#31668a';3237514;49 102 138;'uglybrown';'#7d7103';8220931;125 113 3;'uglygreen';'#7a9703';8034051;122 151 3;'uglypink';'#cd7584';13464964;205 117 132;'uglypurple';'#a442a0';10764960;164 66 160;'uglyyellow';'#d0c101';13680897;208 193 1;'ultramarine';'#2000b1';2097329;32 0 177;'ultramarineblue';'#1805db';1574363;24 5 219;'umber';'#b26400';11691008;178 100 0;'velvet';'#750851';7669841;117 8 81;'vermillion';'#f4320c';16003596;244 50 12;'verydarkblue';'#000133';307;0 1 51;'verydarkbrown';'#1d0200';1901056;29 2 0;'verydarkgreen';'#062e03';404995;6 46 3;'verydarkpurple';'#2a0134';2752820;42 1 52;'verylightblue';'#d5ffff';14024703;213 255 255;'verylightbrown';'#d3b683';13874819;211 182 131;'verylightgreen';'#d1ffbd';13762493;209 255 189;'verylightpink';'#fff4f2';16774386;255 244 242;'verylightpurple';'#f6cefc';16174844;246 206 252;'verypaleblue';'#d6fffe';14090238;214 255 254;'verypalegreen';'#cffdbc';13630908;207 253 188;'vibrantblue';'#0339f8';211448;3 57 248;'vibrantgreen';'#0add08';711944;10 221 8;'vibrantpurple';'#ad03de';11338718;173 3 222;'violet';'#ee82ee';15631086;238 130 238;'violetblue';'#510ac9';5311177;81 10 201;'violetpink';'#fb5ffc';16474108;251 95 252;'violetred';'#a50055';10813525;165 0 85;'viridian';'#1e9167';2003303;30 145 103;'vividblue';'#152eff';1388287;21 46 255;'vividgreen';'#2fef10';3141392;47 239 16;'vividpurple';'#9900fa';10027258;153 0 250;'vomit';'#a2a415';10658837;162 164 21;'vomitgreen';'#89a203';9019907;137 162 3;'vomityellow';'#c7c10c';13091084;199 193 12;'warmblue';'#4b57db';4937691;75 87 219;'warmbrown';'#964e02';9850370;150 78 2;'warmgrey';'#978a84';9931396;151 138 132;'warmpink';'#fb5581';16471425;251 85 129;'warmpurple';'#952e8f';9776783;149 46 143;'washedoutgreen';'#bcf5a6';12383654;188 245 166;'waterblue';'#0e87cc';952268;14 135 204;'watermelon';'#fd4659';16598617;253 70 89;'weirdgreen';'#3ae57f';3859839;58 229 127;'wheat';'#f5deb3';16113331;245 222 179;'white';'#ffffff';16777215;255 255 255;'whitesmoke';'#f5f5f5';16119285;245 245 245;'windowsblue';'#3778bf';3635391;55 120 191;'wine';'#80013f';8388927;128 1 63;'winered';'#7b0323';8061731;123 3 35;'wintergreen';'#20f986';2161030;32 249 134;'wisteria';'#a87dc2';11042242;168 125 194;'yellow';'#ffff00';16776960;255 255 0;'yellowbrown';'#b79400';12030976;183 148 0;'yellowgreen';'#9acd32';10145074;154 205 50;'yellowish';'#faee66';16445030;250 238 102;'yellowishbrown';'#9b7a01';10189313;155 122 1;'yellowishgreen';'#b0dd16';11590934;176 221 22;'yellowishorange';'#ffab0f';16755471;255 171 15;'yellowishtan';'#fcfc81';16579713;252 252 129;'yellowochre';'#cb9d06';13344006;203 157 6;'yelloworange';'#fcb001';16560129;252 176 1;'yellowtan';'#ffe36e';16769902;255 227 110;'yellowybrown';'#ae8b0c';11438860;174 139 12;'yellowygreen';'#bff128';12579112;191 241 40
+THUMBSVMD=:'0.8.0';6;'20 Mar 2019 18:58:05'
 
 showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 
+
+UNIFIED_Colors=:971 4$'ColorName';'HexValue';'DECValue';'RGB';'acidgreen';'#8ffe09';9436681;143 254 9;'adobe';'#bd6c48';12414024;189 108 72;'algae';'#54ac68';5549160;84 172 104;'algaegreen';'#21c36f';2212719;33 195 111;'aliceblue';'#f0f8ff';15792383;240 248 255;'almostblack';'#070d0d';462093;7 13 13;'amber';'#feb308';16691976;254 179 8;'amethyst';'#9b5fc0';10182592;155 95 192;'antiquewhite';'#faebd7';16444375;250 235 215;'apple';'#6ecb3c';7260988;110 203 60;'applegreen';'#76cd26';7785766;118 205 38;'apricot';'#ffb16d';16757101;255 177 109;'aqua';'#00ffff';65535;0 255 255;'aquablue';'#02d8e9';186601;2 216 233;'aquagreen';'#12e193';1237395;18 225 147;'aquamarine';'#7fffd4';8388564;127 255 212;'armygreen';'#4b5d16';4939030;75 93 22;'asparagus';'#77ab56';7842646;119 171 86;'aubergine';'#3d0734';3999540;61 7 52;'auburn';'#9a3001';10104833;154 48 1;'avocado';'#90b134';9482548;144 177 52;'avocadogreen';'#87a922';8890658;135 169 34;'azul';'#1d5dec';1924588;29 93 236;'azure';'#f0ffff';15794175;240 255 255;'babyblue';'#a2cffe';10670078;162 207 254;'babygreen';'#8cff9e';9240478;140 255 158;'babypink';'#ffb7ce';16758734;255 183 206;'babypoo';'#ab9004';11243524;171 144 4;'babypoop';'#937c00';9665536;147 124 0;'babypoopgreen';'#8f9805';9410565;143 152 5;'babypukegreen';'#b6c406';11977734;182 196 6;'babypurple';'#ca9bf7';13278199;202 155 247;'babyshitbrown';'#ad900d';11374605;173 144 13;'babyshitgreen';'#889717';8951575;136 151 23;'banana';'#ffff7e';16777086;255 255 126;'bananayellow';'#fafe4b';16449099;250 254 75;'barbiepink';'#fe46a5';16664229;254 70 165;'barfgreen';'#94ac02';9743362;148 172 2;'barney';'#ac1db8';11279800;172 29 184;'barneypurple';'#a00498';10486936;160 4 152;'battleshipgrey';'#6b7c85';7044229;107 124 133;'beige';'#f5f5dc';16119260;245 245 220;'berry';'#990f4b';10030923;153 15 75;'bile';'#b5c306';11911942;181 195 6;'bisque';'#ffe4c4';16770244;255 228 196;'black';'#000000';0;0 0 0;'blanchedalmond';'#ffebcd';16772045;255 235 205;'bland';'#afa88b';11511947;175 168 139;'blood';'#770001';7798785;119 0 1;'bloodorange';'#fe4b03';16665347;254 75 3;'bloodred';'#980002';9961474;152 0 2;'blue';'#0000ff';255;0 0 255;'blueberry';'#464196';4604310;70 65 150;'blueblue';'#2242c7';2245319;34 66 199;'bluegreen';'#017a79';96889;1 122 121;'bluegrey';'#607c8e';6323342;96 124 142;'bluepurple';'#5729ce';5712334;87 41 206;'blueviolet';'#8a2be2';9055202;138 43 226;'bluewithahintofpurple';'#533cc6';5455046;83 60 198;'blueygreen';'#2bb179';2863481;43 177 121;'blueygrey';'#89a0b0';9019568;137 160 176;'blueypurple';'#6241c7';6439367;98 65 199;'bluish';'#2976bb';2717371;41 118 187;'bluishgreen';'#10a674';1091188;16 166 116;'bluishgrey';'#748b97';7637911;116 139 151;'bluishpurple';'#703be7';7355367;112 59 231;'blurple';'#5539cc';5585356;85 57 204;'blush';'#f29e8e';15900302;242 158 142;'blushpink';'#fe828c';16679564;254 130 140;'booger';'#9bb53c';10204476;155 181 60;'boogergreen';'#96b403';9876483;150 180 3;'bordeaux';'#7b002c';8060972;123 0 44;'boringgreen';'#63b365';6533989;99 179 101;'bottlegreen';'#044a05';281093;4 74 5;'brick';'#a03623';10499619;160 54 35;'brickorange';'#c14a09';12667401;193 74 9;'brickred';'#8f1402';9376770;143 20 2;'brightaqua';'#0bf9ea';784874;11 249 234;'brightblue';'#0165fc';91644;1 101 252;'brightcyan';'#41fdfe';4324862;65 253 254;'brightgreen';'#01ff07';130823;1 255 7;'brightlavender';'#c760ff';13066495;199 96 255;'brightlightblue';'#26f7fd';2553853;38 247 253;'brightlightgreen';'#2dfe54';3014228;45 254 84;'brightlilac';'#c95efb';13197051;201 94 251;'brightlime';'#87fd05';8912133;135 253 5;'brightlimegreen';'#65fe08';6684168;101 254 8;'brightmagenta';'#ff08e8';16713960;255 8 232;'brightolive';'#9cbb04';10271492;156 187 4;'brightorange';'#ff5b00';16734976;255 91 0;'brightpink';'#fe01b1';16646577;254 1 177;'brightpurple';'#be03fd';12452861;190 3 253;'brightred';'#ff000d';16711693;255 0 13;'brightseagreen';'#05ffa6';393126;5 255 166;'brightskyblue';'#02ccfe';183550;2 204 254;'brightteal';'#01f9c6';129478;1 249 198;'brightturquoise';'#0ffef9';1048313;15 254 249;'brightviolet';'#ad0afd';11340541;173 10 253;'brightyellow';'#fffd01';16776449;255 253 1;'brightyellowgreen';'#9dff00';10354432;157 255 0;'britishracinggreen';'#05480d';346125;5 72 13;'bronze';'#a87900';11041024;168 121 0;'brown';'#a52a2a';10824234;165 42 42;'browngreen';'#706c11';7367697;112 108 17;'browngrey';'#8d8468';9274472;141 132 104;'brownish';'#9c6d57';10251607;156 109 87;'brownishgreen';'#6a6e09';6974985;106 110 9;'brownishgrey';'#86775f';8812383;134 119 95;'brownishorange';'#cb7723';13334307;203 119 35;'brownishpink';'#c27e79';12746361;194 126 121;'brownishpurple';'#76424e';7750222;118 66 78;'brownishred';'#9e3623';10368547;158 54 35;'brownishyellow';'#c9b003';13217795;201 176 3;'brownorange';'#b96902';12151042;185 105 2;'brownred';'#922b05';9579269;146 43 5;'brownyellow';'#b29705';11704069;178 151 5;'brownygreen';'#6f6c0a';7302154;111 108 10;'brownyorange';'#ca6b02';13265666;202 107 2;'bruise';'#7e4071';8274033;126 64 113;'bubblegum';'#ff6cb5';16739509;255 108 181;'bubblegumpink';'#fe83cc';16679884;254 131 204;'buff';'#fef69e';16709278;254 246 158;'burgundy';'#610023';6357027;97 0 35;'burlywood';'#deb887';14596231;222 184 135;'burntorange';'#c04e01';12602881;192 78 1;'burntred';'#9f2305';10429189;159 35 5;'burntsiena';'#b75203';12014083;183 82 3;'burntsienna';'#b04e0f';11554319;176 78 15;'burntumber';'#a0450e';10503438;160 69 14;'burntyellow';'#d5ab09';14002953;213 171 9;'burple';'#6832e3';6828771;104 50 227;'butter';'#ffff81';16777089;255 255 129;'butterscotch';'#fdb147';16625991;253 177 71;'butteryellow';'#fffd74';16776564;255 253 116;'cadetblue';'#5f9ea0';6266528;95 158 160;'camel';'#c69f59';13016921;198 159 89;'camo';'#7f8f4e';8359758;127 143 78;'camogreen';'#526525';5399845;82 101 37;'camouflagegreen';'#4b6113';4940051;75 97 19;'canary';'#fdff63';16645987;253 255 99;'canaryyellow';'#fffe40';16776768;255 254 64;'candypink';'#ff63e9';16737257;255 99 233;'caramel';'#af6f09';11497225;175 111 9;'carmine';'#9d0216';10289686;157 2 22;'carnation';'#fd798f';16611727;253 121 143;'carnationpink';'#ff7fa7';16744359;255 127 167;'carolinablue';'#8ab8fe';9091326;138 184 254;'celadon';'#befdb7';12516791;190 253 183;'celery';'#c1fd95';12713365;193 253 149;'cement';'#a5a391';10855313;165 163 145;'cerise';'#de0c62';14552162;222 12 98;'cerulean';'#0485d1';296401;4 133 209;'ceruleanblue';'#056eee';356078;5 110 238;'charcoal';'#343837';3422263;52 56 55;'charcoalgrey';'#3c4142';3948866;60 65 66;'chartreuse';'#7fff00';8388352;127 255 0;'cherry';'#cf0234';13566516;207 2 52;'cherryred';'#f7022a';16187946;247 2 42;'chestnut';'#742802';7612418;116 40 2;'chocolate';'#d2691e';13789470;210 105 30;'chocolatebrown';'#411900';4266240;65 25 0;'cinnamon';'#ac4f06';11292422;172 79 6;'claret';'#680018';6815768;104 0 24;'clay';'#b66a50';11954768;182 106 80;'claybrown';'#b2713d';11694397;178 113 61;'clearblue';'#247afd';2390781;36 122 253;'cloudyblue';'#acc2d9';11322073;172 194 217;'cobalt';'#1e488f';1984655;30 72 143;'cobaltblue';'#030aa7';199335;3 10 167;'cocoa';'#875f42';8871746;135 95 66;'coffee';'#a6814c';10912076;166 129 76;'coolblue';'#4984b8';4818104;73 132 184;'coolgreen';'#33b864';3389540;51 184 100;'coolgrey';'#95a3a6';9806758;149 163 166;'copper';'#b66325';11952933;182 99 37;'coral';'#ff7f50';16744272;255 127 80;'coralpink';'#ff6163';16736611;255 97 99;'cornflower';'#6a79f7';6978039;106 121 247;'cornflowerblue';'#6495ed';6591981;100 149 237;'cornsilk';'#fff8dc';16775388;255 248 220;'cranberry';'#9e003a';10354746;158 0 58;'cream';'#ffffc2';16777154;255 255 194;'creme';'#ffffb6';16777142;255 255 182;'crimson';'#dc143c';14423100;220 20 60;'custard';'#fffd78';16776568;255 253 120;'dandelion';'#fedf08';16703240;254 223 8;'dark';'#1b2431';1778737;27 36 49;'darkaqua';'#05696b';354667;5 105 107;'darkaquamarine';'#017371';95089;1 115 113;'darkbeige';'#ac9362';11309922;172 147 98;'darkblue';'#00008b';139;0 0 139;'darkbluegreen';'#005249';21065;0 82 73;'darkbluegrey';'#1f3b4d';2046797;31 59 77;'darkbrown';'#341c02';3415042;52 28 2;'darkcoral';'#cf524e';13587022;207 82 78;'darkcream';'#fff39a';16774042;255 243 154;'darkcyan';'#008b8b';35723;0 139 139;'darkforestgreen';'#002d04';11524;0 45 4;'darkfuchsia';'#9d0759';10291033;157 7 89;'darkgold';'#b59410';11899920;181 148 16;'darkgoldenrod';'#b8860b';12092939;184 134 11;'darkgrassgreen';'#388004';3702788;56 128 4;'darkgray';'#a9a9a9';11119017;169 169 169;'darkgreen';'#006400';25600;0 100 0;'darkgreenblue';'#1f6357';2057047;31 99 87;'darkgrey';'#363737';3553079;54 55 55;'darkgreyblue';'#29465b';2704987;41 70 91;'darkhotpink';'#d90166';14221670;217 1 102;'darkindigo';'#1f0954';2034004;31 9 84;'darkishblue';'#014182';82306;1 65 130;'darkishgreen';'#287c37';2653239;40 124 55;'darkishpink';'#da467d';14304893;218 70 125;'darkishpurple';'#751973';7674227;117 25 115;'darkishred';'#a90308';11076360;169 3 8;'darkkhaki';'#bdb76b';12433259;189 183 107;'darklavender';'#856798';8742808;133 103 152;'darklilac';'#9c6da5';10251685;156 109 165;'darklime';'#84b701';8697601;132 183 1;'darklimegreen';'#7ebd01';8305921;126 189 1;'darkmagenta';'#8b008b';9109643;139 0 139;'darkmaroon';'#3c0008';3932168;60 0 8;'darkmauve';'#874c62';8866914;135 76 98;'darkmint';'#48c072';4767858;72 192 114;'darkmintgreen';'#20c073';2146419;32 192 115;'darkmustard';'#a88905';11045125;168 137 5;'darknavy';'#000435';1077;0 4 53;'darknavyblue';'#00022e';558;0 2 46;'darkolive';'#373e02';3620354;55 62 2;'darkolivegreen';'#556b2f';5597999;85 107 47;'darkorange';'#ff8c00';16747520;255 140 0;'darkorchid';'#9932cc';10040012;153 50 204;'darkpastelgreen';'#56ae57';5680727;86 174 87;'darkpeach';'#de7e5d';14581341;222 126 93;'darkperiwinkle';'#665fd1';6709201;102 95 209;'darkpink';'#cb416b';13320555;203 65 107;'darkplum';'#3f012c';4129068;63 1 44;'darkpurple';'#35063e';3475006;53 6 62;'darkred';'#8b0000';9109504;139 0 0;'darkrose';'#b5485d';11880541;181 72 93;'darkroyalblue';'#02066f';132719;2 6 111;'darksage';'#598556';5866838;89 133 86;'darksalmon';'#e9967a';15308410;233 150 122;'darksand';'#a88f59';11046745;168 143 89;'darkseafoam';'#1fb57a';2078074;31 181 122;'darkseafoamgreen';'#3eaf76';4108150;62 175 118;'darkseagreen';'#8fbc8f';9419919;143 188 143;'darkskyblue';'#448ee4';4493028;68 142 228;'darkslateblue';'#483d8b';4734347;72 61 139;'darkslategray';'#2f4f4f';3100495;47 79 79;'darktan';'#af884a';11503690;175 136 74;'darktaupe';'#7f684e';8349774;127 104 78;'darkteal';'#014d4e';85326;1 77 78;'darkturquoise';'#00ced1';52945;0 206 209;'darkviolet';'#9400d3';9699539;148 0 211;'darkyellow';'#d5b60a';14005770;213 182 10;'darkyellowgreen';'#728f02';7507714;114 143 2;'deepaqua';'#08787f';555135;8 120 127;'deepblue';'#040273';262771;4 2 115;'deepbrown';'#410200';4260352;65 2 0;'deepgreen';'#02590f';153871;2 89 15;'deeplavender';'#8d5eb7';9264823;141 94 183;'deeplilac';'#966ebd';9858749;150 110 189;'deepmagenta';'#a0025c';10486364;160 2 92;'deeporange';'#dc4d01';14437633;220 77 1;'deeppink';'#ff1493';16716947;255 20 147;'deeppurple';'#36013f';3539263;54 1 63;'deepred';'#9a0200';10093056;154 2 0;'deeprose';'#c74767';13059943;199 71 103;'deepseablue';'#015482';87170;1 84 130;'deepskyblue';'#00bfff';49151;0 191 255;'deepteal';'#00555a';21850;0 85 90;'deepturquoise';'#017374';95092;1 115 116;'deepviolet';'#490648';4785736;73 6 72;'denim';'#3b638c';3892108;59 99 140;'denimblue';'#3b5b92';3890066;59 91 146;'desert';'#ccad60';13413728;204 173 96;'diarrhea';'#9f8303';10453763;159 131 3;'dimgray';'#696969';6908265;105 105 105;'dirt';'#8a6e45';9072197;138 110 69;'dirtbrown';'#836539';8611129;131 101 57;'dirtyblue';'#3f829d';4162205;63 130 157;'dirtygreen';'#667e2c';6716972;102 126 44;'dirtyorange';'#c87606';13137414;200 118 6;'dirtypink';'#ca7b80';13269888;202 123 128;'dirtypurple';'#734a65';7555685;115 74 101;'dirtyyellow';'#cdc50a';13485322;205 197 10;'dodgerblue';'#1e90ff';2003199;30 144 255;'drab';'#828344';8553284;130 131 68;'drabgreen';'#749551';7640401;116 149 81;'driedblood';'#4b0101';4915457;75 1 1;'duckeggblue';'#c3fbf4';12844020;195 251 244;'dullblue';'#49759c';4814236;73 117 156;'dullbrown';'#876e4b';8875595;135 110 75;'dullgreen';'#74a662';7644770;116 166 98;'dullorange';'#d8863b';14190139;216 134 59;'dullpink';'#d5869d';13993629;213 134 157;'dullpurple';'#84597e';8673662;132 89 126;'dullred';'#bb3f3f';12271423;187 63 63;'dullteal';'#5f9e8f';6266511;95 158 143;'dullyellow';'#eedc5b';15653979;238 220 91;'dusk';'#4e5481';5133441;78 84 129;'duskblue';'#26538d';2511757;38 83 141;'duskyblue';'#475f94';4677524;71 95 148;'duskypink';'#cc7a8b';13400715;204 122 139;'duskypurple';'#895b7b';9001851;137 91 123;'duskyrose';'#ba6873';12216435;186 104 115;'dust';'#b2996e';11704686;178 153 110;'dustyblue';'#5a86ad';5932717;90 134 173;'dustygreen';'#76a973';7776627;118 169 115;'dustylavender';'#ac86a8';11306664;172 134 168;'dustyorange';'#f0833a';15762234;240 131 58;'dustypink';'#d58a94';13994644;213 138 148;'dustypurple';'#825f87';8544135;130 95 135;'dustyred';'#b9484e';12142670;185 72 78;'dustyrose';'#c0737a';12612474;192 115 122;'dustyteal';'#4c9085';5017733;76 144 133;'earth';'#a2653e';10642750;162 101 62;'eastergreen';'#8cfd7e';9239934;140 253 126;'easterpurple';'#c071fe';12612094;192 113 254;'ecru';'#feffca';16711626;254 255 202;'eggplant';'#380835';3672117;56 8 53;'eggplantpurple';'#430541';4392257;67 5 65;'eggshell';'#fffcc4';16776388;255 252 196;'eggshellblue';'#c4fff7';12910583;196 255 247;'electricblue';'#0652ff';414463;6 82 255;'electricgreen';'#21fc0d';2227213;33 252 13;'electriclime';'#a8ff04';11075332;168 255 4;'electricpink';'#ff0490';16712848;255 4 144;'electricpurple';'#aa23ff';11150335;170 35 255;'emerald';'#01a049';106569;1 160 73;'emeraldgreen';'#028f1e';167710;2 143 30;'evergreen';'#05472a';345898;5 71 42;'fadedblue';'#658cbb';6655163;101 140 187;'fadedgreen';'#7bb274';8106612;123 178 116;'fadedorange';'#f0944d';15766605;240 148 77;'fadedpink';'#de9dac';14589356;222 157 172;'fadedpurple';'#916e99';9531033;145 110 153;'fadedred';'#d3494e';13846862;211 73 78;'fadedyellow';'#feff7f';16711551;254 255 127;'fawn';'#cfaf7b';13610875;207 175 123;'fern';'#63a950';6531408;99 169 80;'ferngreen';'#548d44';5541188;84 141 68;'firebrick';'#b22222';11674146;178 34 34;'fireenginered';'#fe0002';16646146;254 0 2;'flatblue';'#3c73a8';3961768;60 115 168;'flatgreen';'#699d4c';6921548;105 157 76;'floralwhite';'#fffaf0';16775920;255 250 240;'fluorescentgreen';'#08ff08';589576;8 255 8;'flurogreen';'#0aff02';720642;10 255 2;'foamgreen';'#90fda9';9502121;144 253 169;'forest';'#0b5509';742665;11 85 9;'forestgreen';'#228b22';2263842;34 139 34;'forrestgreen';'#154406';1393670;21 68 6;'frenchblue';'#436bad';4418477;67 107 173;'freshgreen';'#69d84f';6936655;105 216 79;'froggreen';'#58bc08';5815304;88 188 8;'fuchsia';'#ff00ff';16711935;255 0 255;'gainsboro';'#dcdcdc';14474460;220 220 220;'ghostwhite';'#f8f8ff';16316671;248 248 255;'gold';'#ffd700';16766720;255 215 0;'golden';'#f5bf03';16105219;245 191 3;'goldenbrown';'#b27a01';11696641;178 122 1;'goldenrod';'#daa520';14329120;218 165 32;'goldenyellow';'#fec615';16696853;254 198 21;'grape';'#6c3461';7091297;108 52 97;'grapefruit';'#fd5956';16603478;253 89 86;'grapepurple';'#5d1451';6100049;93 20 81;'grass';'#5cac2d';6073389;92 172 45;'grassgreen';'#3f9b0b';4168459;63 155 11;'grassygreen';'#419c03';4299779;65 156 3;'gray';'#808080';8421504;128 128 128;'green';'#008000';32768;0 128 0;'greenapple';'#5edc1f';6216735;94 220 31;'greenblue';'#01c08d';114829;1 192 141;'greenbrown';'#544e03';5524995;84 78 3;'greengrey';'#77926f';7836271;119 146 111;'greenish';'#40a368';4236136;64 163 104;'greenishbeige';'#c9d179';13226361;201 209 121;'greenishblue';'#0b8b87';756615;11 139 135;'greenishbrown';'#696112';6906130;105 97 18;'greenishcyan';'#2afeb7';2817719;42 254 183;'greenishgrey';'#96ae8d';9875085;150 174 141;'greenishtan';'#bccb7a';12372858;188 203 122;'greenishteal';'#32bf84';3325828;50 191 132;'greenishturquoise';'#00fbb0';64432;0 251 176;'greenishyellow';'#cdfd02';13499650;205 253 2;'greenteal';'#0cb577';832887;12 181 119;'greenyblue';'#42b395';4371349;66 179 149;'greenybrown';'#696006';6905862;105 96 6;'greenyellow';'#adff2f';11403055;173 255 47;'greenygrey';'#7ea07a';8298618;126 160 122;'greenyyellow';'#c6f808';13039624;198 248 8;'grey';'#929591';9606545;146 149 145;'greyblue';'#647d8e';6585742;100 125 142;'greybrown';'#7f7053';8351827;127 112 83;'greygreen';'#789b73';7904115;120 155 115;'greyish';'#a8a495';11052181;168 164 149;'greyishblue';'#5e819d';6193565;94 129 157;'greyishbrown';'#7a6a4f';8022607;122 106 79;'greyishgreen';'#82a67d';8562301;130 166 125;'greyishpink';'#c88d94';13143444;200 141 148;'greyishpurple';'#887191';8941969;136 113 145;'greyishteal';'#719f91';7446417;113 159 145;'greypink';'#c3909b';12816539;195 144 155;'greypurple';'#826d8c';8547724;130 109 140;'greyteal';'#5e9b8a';6200202;94 155 138;'grossgreen';'#a0bf16';10534678;160 191 22;'gunmetal';'#536267';5464679;83 98 103;'hazel';'#8e7618';9336344;142 118 24;'heather';'#a484ac';10781868;164 132 172;'heliotrope';'#d94ff5';14241781;217 79 245;'highlightergreen';'#1bfc06';1833990;27 252 6;'honeydew';'#f0fff0';15794160;240 255 240;'hospitalgreen';'#9be5aa';10216874;155 229 170;'hotgreen';'#25ff29';2490153;37 255 41;'hotmagenta';'#f504c9';16057545;245 4 201;'hotpink';'#ff69b4';16738740;255 105 180;'hotpurple';'#cb00f5';13304053;203 0 245;'huntergreen';'#0b4008';737288;11 64 8;'ice';'#d6fffa';14090234;214 255 250;'iceblue';'#d7fffe';14155774;215 255 254;'ickygreen';'#8fae22';9416226;143 174 34;'indianred';'#cd5c5c';13458524;205 92 92;'indigo';'#4b0082';4915330;75 0 130;'indigoblue';'#3a18b1';3807409;58 24 177;'iris';'#6258c4';6445252;98 88 196;'irishgreen';'#019529';103721;1 149 41;'ivory';'#fffff0';16777200;255 255 240;'jade';'#1fa774';2074484;31 167 116;'jadegreen';'#2baf6a';2862954;43 175 106;'junglegreen';'#048243';295491;4 130 67;'kelleygreen';'#009337';37687;0 147 55;'kellygreen';'#02ab2e';174894;2 171 46;'kermitgreen';'#5cb200';6074880;92 178 0;'keylime';'#aeff6e';11468654;174 255 110;'khaki';'#f0e68c';15787660;240 230 140;'khakigreen';'#728639';7505465;114 134 57;'kiwi';'#9cef43';10284867;156 239 67;'kiwigreen';'#8ee53f';9364799;142 229 63;'lavender';'#e6e6fa';15132410;230 230 250;'lavenderblue';'#8b88f8';9144568;139 136 248;'lavenderblush';'#fff0f5';16773365;255 240 245;'lavenderpink';'#dd85d7';14517719;221 133 215;'lawngreen';'#7cfc00';8190976;124 252 0;'leaf';'#71aa34';7449140;113 170 52;'leafgreen';'#5ca904';6072580;92 169 4;'leafygreen';'#51b73b';5355323;81 183 59;'leather';'#ac7434';11301940;172 116 52;'lemon';'#fdff52';16645970;253 255 82;'lemonchiffon';'#fffacd';16775885;255 250 205;'lemongreen';'#adf802';11401218;173 248 2;'lemonlime';'#bffe28';12582440;191 254 40;'lemonyellow';'#fdff38';16645944;253 255 56;'lichen';'#8fb67b';9418363;143 182 123;'lightaqua';'#8cffdb';9240539;140 255 219;'lightaquamarine';'#7bfdc7';8125895;123 253 199;'lightbeige';'#fffeb6';16776886;255 254 182;'lightblue';'#add8e6';11393254;173 216 230;'lightbluegreen';'#7efbb3';8321971;126 251 179;'lightbluegrey';'#b7c9e2';12044770;183 201 226;'lightbluishgreen';'#76fda8';7798184;118 253 168;'lightbrightgreen';'#53fe5c';5504604;83 254 92;'lightbrown';'#ad8150';11370832;173 129 80;'lightburgundy';'#a8415b';11026779;168 65 91;'lightcoral';'#f08080';15761536;240 128 128;'lightcyan';'#e0ffff';14745599;224 255 255;'lighteggplant';'#894585';8996229;137 69 133;'lightergreen';'#75fd63';7732579;117 253 99;'lighterpurple';'#a55af4';10836724;165 90 244;'lightforestgreen';'#4f9153';5214547;79 145 83;'lightgold';'#fddc5c';16637020;253 220 92;'lightgoldenrodyellow';'#fafad2';16448210;250 250 210;'lightgrassgreen';'#9af764';10155876;154 247 100;'lightgray';'#d3d3d3';13882323;211 211 211;'lightgreen';'#90ee90';9498256;144 238 144;'lightgreenblue';'#56fca2';5700770;86 252 162;'lightgreenishblue';'#63f7b4';6551476;99 247 180;'lightgrey';'#d8dcd6';14212310;216 220 214;'lightgreyblue';'#9dbcd4';10337492;157 188 212;'lightgreygreen';'#b7e1a1';12050849;183 225 161;'lightindigo';'#6d5acf';7166671;109 90 207;'lightishblue';'#3d7afd';4029181;61 122 253;'lightishgreen';'#61e160';6414688;97 225 96;'lightishpurple';'#a552e6';10834662;165 82 230;'lightishred';'#fe2f4a';16658250;254 47 74;'lightkhaki';'#e6f2a2';15135394;230 242 162;'lightlavendar';'#efc0fe';15712510;239 192 254;'lightlavender';'#dfc5fe';14665214;223 197 254;'lightlightblue';'#cafffb';13303803;202 255 251;'lightlightgreen';'#c8ffb0';13172656;200 255 176;'lightlilac';'#edc8ff';15583487;237 200 255;'lightlime';'#aefd6c';11468140;174 253 108;'lightlimegreen';'#b9ff66';12189542;185 255 102;'lightmagenta';'#fa5ff7';16408567;250 95 247;'lightmaroon';'#a24857';10635351;162 72 87;'lightmauve';'#c292a1';12751521;194 146 161;'lightmint';'#b6ffbb';11993019;182 255 187;'lightmintgreen';'#a6fbb2';10943410;166 251 178;'lightmossgreen';'#a6c875';10930293;166 200 117;'lightmustard';'#f7d560';16242016;247 213 96;'lightnavy';'#155084';1396868;21 80 132;'lightnavyblue';'#2e5a88';3037832;46 90 136;'lightneongreen';'#4efd54';5176660;78 253 84;'lightolive';'#acbf69';11321193;172 191 105;'lightolivegreen';'#a4be5c';10796636;164 190 92;'lightorange';'#fdaa48';16624200;253 170 72;'lightpastelgreen';'#b2fba5';11729829;178 251 165;'lightpeach';'#ffd8b1';16767153;255 216 177;'lightpeagreen';'#c4fe82';12910210;196 254 130;'lightperiwinkle';'#c1c6fc';12699388;193 198 252;'lightpink';'#ffb6c1';16758465;255 182 193;'lightplum';'#9d5783';10311555;157 87 131;'lightpurple';'#bf77f6';12548086;191 119 246;'lightred';'#ff474c';16729932;255 71 76;'lightrose';'#ffc5cb';16762315;255 197 203;'lightroyalblue';'#3a2efe';3813118;58 46 254;'lightsage';'#bcecac';12381356;188 236 172;'lightsalmon';'#ffa07a';16752762;255 160 122;'lightseafoam';'#a0febf';10550975;160 254 191;'lightseafoamgreen';'#a7ffb5';11009973;167 255 181;'lightseagreen';'#20b2aa';2142890;32 178 170;'lightskyblue';'#87cefa';8900346;135 206 250;'lightslategray';'#778899';7833753;119 136 153;'lightsteelblue';'#b0c4de';11584734;176 196 222;'lighttan';'#fbeeac';16510636;251 238 172;'lightteal';'#90e4c1';9495745;144 228 193;'lightturquoise';'#7ef4cc';8320204;126 244 204;'lighturple';'#b36ff6';11759606;179 111 246;'lightviolet';'#d6b4fc';14071036;214 180 252;'lightyellow';'#ffffe0';16777184;255 255 224;'lightyellowgreen';'#ccfd7f';13434239;204 253 127;'lightyellowishgreen';'#c2ff89';12779401;194 255 137;'lilac';'#cea2fd';13542141;206 162 253;'liliac';'#c48efd';12881661;196 142 253;'lime';'#00ff00';65280;0 255 0;'limegreen';'#32cd32';3329330;50 205 50;'limeyellow';'#d0fe1d';13696541;208 254 29;'linen';'#faf0e6';16445670;250 240 230;'lipstick';'#d5174e';13965134;213 23 78;'lipstickred';'#c0022f';12583471;192 2 47;'macaroniandcheese';'#efb435';15709237;239 180 53;'magenta';'#c20078';12714104;194 0 120;'mahogany';'#4a0100';4849920;74 1 0;'maize';'#f4d054';16044116;244 208 84;'mango';'#ffa62b';16754219;255 166 43;'manilla';'#fffa86';16775814;255 250 134;'marigold';'#fcc006';16564230;252 192 6;'marine';'#042e60';274016;4 46 96;'marineblue';'#01386a';79978;1 56 106;'maroon';'#800000';8388608;128 0 0;'mauve';'#ae7181';11432321;174 113 129;'mediumaquamarine';'#66cdaa';6737322;102 205 170;'mediumblue';'#0000cd';205;0 0 205;'mediumbrown';'#7f5112';8343826;127 81 18;'mediumgreen';'#39ad48';3779912;57 173 72;'mediumgrey';'#7d7f7c';8224636;125 127 124;'mediumorchid';'#ba55d3';12211667;186 85 211;'mediumpink';'#f36196';15950230;243 97 150;'mediumpurple';'#9370db';9662683;147 112 219;'mediumseagreen';'#3cb371';3978097;60 179 113;'mediumslateblue';'#7b68ee';8087790;123 104 238;'mediumspringgreen';'#00fa9a';64154;0 250 154;'mediumturquoise';'#48d1cc';4772300;72 209 204;'mediumvioletred';'#c71585';13047173;199 21 133;'melon';'#ff7855';16742485;255 120 85;'merlot';'#730039';7536697;115 0 57;'metallicblue';'#4f738e';5206926;79 115 142;'midblue';'#276ab3';2583219;39 106 179;'midgreen';'#50a747';5285703;80 167 71;'midnight';'#03012d';196909;3 1 45;'midnightblue';'#191970';1644912;25 25 112;'midnightpurple';'#280137';2621751;40 1 55;'militarygreen';'#667c3e';6716478;102 124 62;'milkchocolate';'#7f4e1e';8343070;127 78 30;'mint';'#9ffeb0';10485424;159 254 176;'mintcream';'#f5fffa';16121850;245 255 250;'mintgreen';'#8fff9f';9437087;143 255 159;'mintygreen';'#0bf77d';784253;11 247 125;'mistyrose';'#ffe4e1';16770273;255 228 225;'moccasin';'#ffe4b5';16770229;255 228 181;'mocha';'#9d7651';10319441;157 118 81;'moss';'#769958';7772504;118 153 88;'mossgreen';'#658b38';6654776;101 139 56;'mossygreen';'#638b27';6523687;99 139 39;'mud';'#735c12';7560210;115 92 18;'mudbrown';'#60460f';6309391;96 70 15;'muddybrown';'#886806';8939526;136 104 6;'muddygreen';'#657432';6648882;101 116 50;'muddyyellow';'#bfac05';12561413;191 172 5;'mudgreen';'#606602';6317570;96 102 2;'mulberry';'#920a4e';9570894;146 10 78;'murkygreen';'#6c7a0e';7109134;108 122 14;'mushroom';'#ba9e88';12230280;186 158 136;'mustard';'#ceb301';13546241;206 179 1;'mustardbrown';'#ac7e04';11304452;172 126 4;'mustardgreen';'#a8b504';11056388;168 181 4;'mustardyellow';'#d2bd0a';13810954;210 189 10;'mutedblue';'#3b719f';3895711;59 113 159;'mutedgreen';'#5fa052';6266962;95 160 82;'mutedpink';'#d1768f';13727375;209 118 143;'mutedpurple';'#805b87';8412039;128 91 135;'nastygreen';'#70b23f';7385663;112 178 63;'navajowhite';'#ffdead';16768685;255 222 173;'navy';'#000080';128;0 0 128;'navyblue';'#001146';4422;0 17 70;'navygreen';'#35530a';3494666;53 83 10;'neonblue';'#04d9ff';317951;4 217 255;'neongreen';'#0cff0c';851724;12 255 12;'neonpink';'#fe019a';16646554;254 1 154;'neonpurple';'#bc13fe';12325886;188 19 254;'neonred';'#ff073a';16713530;255 7 58;'neonyellow';'#cfff04';13631236;207 255 4;'niceblue';'#107ab0';1079984;16 122 176;'nightblue';'#040348';262984;4 3 72;'ocean';'#017b92';97170;1 123 146;'oceanblue';'#03719c';225692;3 113 156;'oceangreen';'#3d9973';4036979;61 153 115;'ocher';'#bf9b0c';12557068;191 155 12;'ochre';'#bf9005';12554245;191 144 5;'ocre';'#c69c04';13016068;198 156 4;'offblue';'#5684ae';5670062;86 132 174;'offgreen';'#6ba353';7054163;107 163 83;'offwhite';'#ffffe4';16777188;255 255 228;'offyellow';'#f1f33f';15856447;241 243 63;'oldlace';'#fdf5e6';16643558;253 245 230;'oldpink';'#c77986';13072774;199 121 134;'oldrose';'#c87f89';13139849;200 127 137;'olive';'#808000';8421376;128 128 0;'olivebrown';'#645403';6575107;100 84 3;'olivedrab';'#6b8e23';7048739;107 142 35;'olivegreen';'#677a04';6781444;103 122 4;'oliveyellow';'#c2b709';12760841;194 183 9;'orange';'#ffa500';16753920;255 165 0;'orangebrown';'#be6400';12477440;190 100 0;'orangeish';'#fd8d49';16616777;253 141 73;'orangepink';'#ff6f52';16740178;255 111 82;'orangered';'#ff4500';16729344;255 69 0;'orangeybrown';'#b16002';11624450;177 96 2;'orangeyellow';'#ffad01';16755969;255 173 1;'orangeyred';'#fa4224';16400932;250 66 36;'orangeyyellow';'#fdb915';16627989;253 185 21;'orangish';'#fc824a';16548426;252 130 74;'orangishbrown';'#b25f03';11689731;178 95 3;'orangishred';'#f43605';16004613;244 54 5;'orchid';'#da70d6';14315734;218 112 214;'pale';'#fff9d0';16775632;255 249 208;'paleaqua';'#b8ffeb';12124139;184 255 235;'paleblue';'#d0fefe';13696766;208 254 254;'palebrown';'#b1916e';11637102;177 145 110;'palecyan';'#b7fffa';12058618;183 255 250;'palegold';'#fdde6c';16637548;253 222 108;'palegoldenrod';'#eee8aa';15657130;238 232 170;'palegreen';'#98fb98';10025880;152 251 152;'palegrey';'#fdfdfe';16645630;253 253 254;'palelavender';'#eecffe';15650814;238 207 254;'palelightgreen';'#b1fc99';11664537;177 252 153;'palelilac';'#e4cbff';14994431;228 203 255;'palelime';'#befd73';12516723;190 253 115;'palelimegreen';'#b1ff65';11665253;177 255 101;'palemagenta';'#d767ad';14116781;215 103 173;'palemauve';'#fed0fc';16699644;254 208 252;'paleolive';'#b9cc81';12176513;185 204 129;'paleolivegreen';'#b1d27b';11653755;177 210 123;'paleorange';'#ffa756';16754518;255 167 86;'palepeach';'#ffe5ad';16770477;255 229 173;'palepink';'#ffcfdc';16764892;255 207 220;'palepurple';'#b790d4';12030164;183 144 212;'palered';'#d9544d';14242893;217 84 77;'palerose';'#fdc1c5';16630213;253 193 197;'palesalmon';'#ffb19a';16757146;255 177 154;'paleskyblue';'#bdf6fe';12449534;189 246 254;'paleteal';'#82cbb2';8571826;130 203 178;'paleturquoise';'#afeeee';11529966;175 238 238;'paleviolet';'#ceaefa';13545210;206 174 250;'palevioletred';'#db7093';14381203;219 112 147;'paleyellow';'#ffff84';16777092;255 255 132;'papayawhip';'#ffefd5';16773077;255 239 213;'parchment';'#fefcaf';16710831;254 252 175;'pastelblue';'#a2bffe';10665982;162 191 254;'pastelgreen';'#b0ff9d';11599773;176 255 157;'pastelorange';'#ff964f';16750159;255 150 79;'pastelpink';'#ffbacd';16759501;255 186 205;'pastelpurple';'#caa0ff';13279487;202 160 255;'pastelred';'#db5856';14374998;219 88 86;'pastelyellow';'#fffe71';16776817;255 254 113;'pea';'#a4bf20';10796832;164 191 32;'peach';'#ffb07c';16756860;255 176 124;'peachpuff';'#ffdab9';16767673;255 218 185;'peachypink';'#ff9a8a';16751242;255 154 138;'peacockblue';'#016795';92053;1 103 149;'peagreen';'#8eab12';9349906;142 171 18;'pear';'#cbf85f';13367391;203 248 95;'peasoup';'#929901';9607425;146 153 1;'peasoupgreen';'#94a617';9741847;148 166 23;'periwinkle';'#8e82fe';9339646;142 130 254;'periwinkleblue';'#8f99fb';9411067;143 153 251;'perrywinkle';'#8f8ce7';9407719;143 140 231;'peru';'#cd853f';13468991;205 133 63;'petrol';'#005f6a';24426;0 95 106;'pigpink';'#e78ea5';15175333;231 142 165;'pine';'#2b5d34';2841908;43 93 52;'pinegreen';'#0a481e';673822;10 72 30;'pink';'#ffc0cb';16761035;255 192 203;'pinkish';'#d46a7e';13920894;212 106 126;'pinkishbrown';'#b17261';11629153;177 114 97;'pinkishgrey';'#c8aca9';13151401;200 172 169;'pinkishorange';'#ff724c';16740940;255 114 76;'pinkishpurple';'#d648d7';14043351;214 72 215;'pinkishred';'#f10c45';15797317;241 12 69;'pinkishtan';'#d99b82';14261122;217 155 130;'pinkpurple';'#db4bda';14371802;219 75 218;'pinkred';'#f5054f';16057679;245 5 79;'pinky';'#fc86aa';16549546;252 134 170;'pinkypurple';'#c94cbe';13192382;201 76 190;'pinkyred';'#fc2647';16524871;252 38 71;'pissyellow';'#ddd618';14538264;221 214 24;'pistachio';'#c0fa8b';12647051;192 250 139;'plum';'#dda0dd';14524637;221 160 221;'plumpurple';'#4e0550';5113168;78 5 80;'poisongreen';'#40fd14';4259092;64 253 20;'poo';'#8f7303';9401091;143 115 3;'poobrown';'#885f01';8937217;136 95 1;'poop';'#7f5e00';8347136;127 94 0;'poopbrown';'#7a5901';8018177;122 89 1;'poopgreen';'#6f7c00';7306240;111 124 0;'powderblue';'#b0e0e6';11591910;176 224 230;'powderpink';'#ffb2d0';16757456;255 178 208;'primaryblue';'#0804f9';525561;8 4 249;'prussianblue';'#004577';17783;0 69 119;'puce';'#a57e52';10845778;165 126 82;'puke';'#a5a502';10855682;165 165 2;'pukebrown';'#947706';9729798;148 119 6;'pukegreen';'#9aae07';10137095;154 174 7;'pukeyellow';'#c2be0e';12762638;194 190 14;'pumpkin';'#e17701';14776065;225 119 1;'pumpkinorange';'#fb7d07';16481543;251 125 7;'pureblue';'#0203e2';132066;2 3 226;'purple';'#800080';8388736;128 0 128;'purpleblue';'#5d21d0';6103504;93 33 208;'purplebrown';'#673a3f';6765119;103 58 63;'purplegrey';'#866f85';8810373;134 111 133;'purpleish';'#98568d';9983629;152 86 141;'purpleishblue';'#6140ef';6373615;97 64 239;'purpleishpink';'#df4ec8';14634696;223 78 200;'purplepink';'#d725de';14099934;215 37 222;'purplered';'#990147';10027335;153 1 71;'purpley';'#8756e4';8869604;135 86 228;'purpleyblue';'#5f34e7';6239463;95 52 231;'purpleygrey';'#947e94';9731732;148 126 148;'purpleypink';'#c83cb9';13122745;200 60 185;'purplish';'#94568c';9721484;148 86 140;'purplishblue';'#601ef9';6299385;96 30 249;'purplishbrown';'#6b4247';7029319;107 66 71;'purplishgrey';'#7a687f';8022143;122 104 127;'purplishpink';'#ce5dae';13524398;206 93 174;'purplishred';'#b0054b';11535691;176 5 75;'purply';'#983fb2';9977778;152 63 178;'purplyblue';'#661aee';6691566;102 26 238;'purplypink';'#f075e6';15758822;240 117 230;'putty';'#beae8a';12496522;190 174 138;'racinggreen';'#014600';83456;1 70 0;'radioactivegreen';'#2cfa1f';2947615;44 250 31;'raspberry';'#b00149';11534665;176 1 73;'rawsienna';'#9a6200';10117632;154 98 0;'rawumber';'#a75e09';10968585;167 94 9;'reallylightblue';'#d4ffff';13959167;212 255 255;'red';'#ff0000';16711680;255 0 0;'redbrown';'#8b2e16';9121302;139 46 22;'reddish';'#c44240';12862016;196 66 64;'reddishbrown';'#7f2b0a';8334090;127 43 10;'reddishgrey';'#997570';10057072;153 117 112;'reddishorange';'#f8481c';16271388;248 72 28;'reddishpink';'#fe2c54';16657492;254 44 84;'reddishpurple';'#910951';9505105;145 9 81;'reddybrown';'#6e1005';7213061;110 16 5;'redorange';'#fd3c06';16595974;253 60 6;'redpink';'#fa2a55';16394837;250 42 85;'redpurple';'#820747';8521543;130 7 71;'redviolet';'#9e0168';10355048;158 1 104;'redwine';'#8c0034';9175092;140 0 52;'richblue';'#021bf9';138233;2 27 249;'richpurple';'#720058';7471192;114 0 88;'robin';'#6dedfd';7204349;109 237 253;'robineggblue';'#8af1fe';9105918;138 241 254;'rosa';'#fe86a4';16680612;254 134 164;'rose';'#cf6275';13591157;207 98 117;'rosepink';'#f7879a';16222106;247 135 154;'rosered';'#be013c';12452156;190 1 60;'rosybrown';'#bc8f8f';12357519;188 143 143;'rosypink';'#f6688e';16148622;246 104 142;'rouge';'#ab1239';11211321;171 18 57;'royal';'#0c1793';792467;12 23 147;'royalblue';'#4169e1';4286945;65 105 225;'royalpurple';'#4b006e';4915310;75 0 110;'ruby';'#ca0147';13238599;202 1 71;'russet';'#a13905';10565893;161 57 5;'rust';'#a83c09';11025417;168 60 9;'rustbrown';'#8b3103';9122051;139 49 3;'rustorange';'#c45508';12866824;196 85 8;'rustred';'#aa2704';11151108;170 39 4;'rustyorange';'#cd5909';13457673;205 89 9;'rustyred';'#af2f0d';11480845;175 47 13;'saddlebrown';'#8b4513';9127187;139 69 19;'saffron';'#feb209';16691721;254 178 9;'sage';'#87ae73';8892019;135 174 115;'sagegreen';'#88b378';8958840;136 179 120;'salmon';'#fa8072';16416882;250 128 114;'salmonpink';'#fe7b7c';16677756;254 123 124;'sand';'#e2ca76';14862966;226 202 118;'sandbrown';'#cba560';13346144;203 165 96;'sandstone';'#c9ae74';13217396;201 174 116;'sandy';'#f1da7a';15850106;241 218 122;'sandybrown';'#f4a460';16032864;244 164 96;'sandyellow';'#fce166';16572774;252 225 102;'sandyyellow';'#fdee73';16641651;253 238 115;'sapgreen';'#5c8b15';6064917;92 139 21;'sapphire';'#2138ab';2177195;33 56 171;'scarlet';'#be0119';12452121;190 1 25;'sea';'#3c9992';3971474;60 153 146;'seablue';'#047495';291989;4 116 149;'seafoam';'#80f9ad';8452525;128 249 173;'seafoamblue';'#78d1b6';7918006;120 209 182;'seafoamgreen';'#7af9ab';8059307;122 249 171;'seagreen';'#2e8b57';3050327;46 139 87;'seashell';'#fff5ee';16774638;255 245 238;'seaweed';'#18d17b';1626491;24 209 123;'seaweedgreen';'#35ad6b';3517803;53 173 107;'sepia';'#985e2b';9985579;152 94 43;'shamrock';'#01b44c';111692;1 180 76;'shamrockgreen';'#02c14d';180557;2 193 77;'shit';'#7f5f00';8347392;127 95 0;'shitbrown';'#7b5804';8083460;123 88 4;'shitgreen';'#758000';7700480;117 128 0;'shockingpink';'#fe02a2';16646818;254 2 162;'sickgreen';'#9db92c';10336556;157 185 44;'sicklygreen';'#94b21c';9744924;148 178 28;'sicklyyellow';'#d0e429';13689897;208 228 41;'sienna';'#a0522d';10506797;160 82 45;'silver';'#c0c0c0';12632256;192 192 192;'sky';'#82cafc';8571644;130 202 252;'skyblue';'#87ceeb';8900331;135 206 235;'slate';'#516572';5334386;81 101 114;'slateblue';'#6a5acd';6970061;106 90 205;'slategray';'#708090';7372944;112 128 144;'slategreen';'#658d6d';6655341;101 141 109;'slategrey';'#59656d';5858669;89 101 109;'slimegreen';'#99cc04';10079236;153 204 4;'snot';'#acbb0d';11320077;172 187 13;'snotgreen';'#9dc100';10338560;157 193 0;'snow';'#fffafa';16775930;255 250 250;'softblue';'#6488ea';6588650;100 136 234;'softgreen';'#6fc276';7324278;111 194 118;'softpink';'#fdb0c0';16625856;253 176 192;'softpurple';'#a66fb5';10907573;166 111 181;'spearmint';'#1ef876';2029686;30 248 118;'springgreen';'#00ff7f';65407;0 255 127;'spruce';'#0a5f38';679736;10 95 56;'squash';'#f2ab15';15903509;242 171 21;'steel';'#738595';7570837;115 133 149;'steelblue';'#4682b4';4620980;70 130 180;'steelgrey';'#6f828a';7307914;111 130 138;'stone';'#ada587';11380103;173 165 135;'stormyblue';'#507b9c';5274524;80 123 156;'straw';'#fcf679';16578169;252 246 121;'strawberry';'#fb2943';16460099;251 41 67;'strongblue';'#0c06f7';788215;12 6 247;'strongpink';'#ff0789';16713609;255 7 137;'sunflower';'#ffc512';16762130;255 197 18;'sunfloweryellow';'#ffda03';16767491;255 218 3;'sunnyyellow';'#fff917';16775447;255 249 23;'sunshineyellow';'#fffd37';16776503;255 253 55;'sunyellow';'#ffdf22';16768802;255 223 34;'swamp';'#698339';6914873;105 131 57;'swampgreen';'#748500';7636224;116 133 0;'tan';'#d2b48c';13808780;210 180 140;'tanbrown';'#ab7e4c';11238988;171 126 76;'tangerine';'#ff9408';16749576;255 148 8;'tangreen';'#a9be70';11124336;169 190 112;'taupe';'#b9a281';12165761;185 162 129;'tea';'#65ab7c';6663036;101 171 124;'teagreen';'#bdf8a3';12449955;189 248 163;'teal';'#008080';32896;0 128 128;'tealblue';'#01889f';100511;1 136 159;'tealgreen';'#25a36f';2466671;37 163 111;'tealish';'#24bca8';2407592;36 188 168;'tealishgreen';'#0cdc73';842867;12 220 115;'terracota';'#cb6843';13330499;203 104 67;'terracotta';'#c9643b';13198395;201 100 59;'thistle';'#d8bfd8';14204888;216 191 216;'tiffanyblue';'#7bf2da';8123098;123 242 218;'tomato';'#ff6347';16737095;255 99 71;'tomatored';'#ec2d01';15478017;236 45 1;'topaz';'#13bbaf';1293231;19 187 175;'toupe';'#c7ac7d';13085821;199 172 125;'toxicgreen';'#61de2a';6413866;97 222 42;'treegreen';'#2a7e19';2784793;42 126 25;'trueblue';'#010fcc';69580;1 15 204;'truegreen';'#089404';562180;8 148 4;'turquoise';'#40e0d0';4251856;64 224 208;'turquoiseblue';'#06b1c4';438724;6 177 196;'turquoisegreen';'#04f489';324745;4 244 137;'turtlegreen';'#75b84f';7714895;117 184 79;'twilight';'#4e518b';5132683;78 81 139;'twilightblue';'#0a437a';672634;10 67 122;'uglyblue';'#31668a';3237514;49 102 138;'uglybrown';'#7d7103';8220931;125 113 3;'uglygreen';'#7a9703';8034051;122 151 3;'uglypink';'#cd7584';13464964;205 117 132;'uglypurple';'#a442a0';10764960;164 66 160;'uglyyellow';'#d0c101';13680897;208 193 1;'ultramarine';'#2000b1';2097329;32 0 177;'ultramarineblue';'#1805db';1574363;24 5 219;'umber';'#b26400';11691008;178 100 0;'velvet';'#750851';7669841;117 8 81;'vermillion';'#f4320c';16003596;244 50 12;'verydarkblue';'#000133';307;0 1 51;'verydarkbrown';'#1d0200';1901056;29 2 0;'verydarkgreen';'#062e03';404995;6 46 3;'verydarkpurple';'#2a0134';2752820;42 1 52;'verylightblue';'#d5ffff';14024703;213 255 255;'verylightbrown';'#d3b683';13874819;211 182 131;'verylightgreen';'#d1ffbd';13762493;209 255 189;'verylightpink';'#fff4f2';16774386;255 244 242;'verylightpurple';'#f6cefc';16174844;246 206 252;'verypaleblue';'#d6fffe';14090238;214 255 254;'verypalegreen';'#cffdbc';13630908;207 253 188;'vibrantblue';'#0339f8';211448;3 57 248;'vibrantgreen';'#0add08';711944;10 221 8;'vibrantpurple';'#ad03de';11338718;173 3 222;'violet';'#ee82ee';15631086;238 130 238;'violetblue';'#510ac9';5311177;81 10 201;'violetpink';'#fb5ffc';16474108;251 95 252;'violetred';'#a50055';10813525;165 0 85;'viridian';'#1e9167';2003303;30 145 103;'vividblue';'#152eff';1388287;21 46 255;'vividgreen';'#2fef10';3141392;47 239 16;'vividpurple';'#9900fa';10027258;153 0 250;'vomit';'#a2a415';10658837;162 164 21;'vomitgreen';'#89a203';9019907;137 162 3;'vomityellow';'#c7c10c';13091084;199 193 12;'warmblue';'#4b57db';4937691;75 87 219;'warmbrown';'#964e02';9850370;150 78 2;'warmgrey';'#978a84';9931396;151 138 132;'warmpink';'#fb5581';16471425;251 85 129;'warmpurple';'#952e8f';9776783;149 46 143;'washedoutgreen';'#bcf5a6';12383654;188 245 166;'waterblue';'#0e87cc';952268;14 135 204;'watermelon';'#fd4659';16598617;253 70 89;'weirdgreen';'#3ae57f';3859839;58 229 127;'wheat';'#f5deb3';16113331;245 222 179;'white';'#ffffff';16777215;255 255 255;'whitesmoke';'#f5f5f5';16119285;245 245 245;'windowsblue';'#3778bf';3635391;55 120 191;'wine';'#80013f';8388927;128 1 63;'winered';'#7b0323';8061731;123 3 35;'wintergreen';'#20f986';2161030;32 249 134;'wisteria';'#a87dc2';11042242;168 125 194;'yellow';'#ffff00';16776960;255 255 0;'yellowbrown';'#b79400';12030976;183 148 0;'yellowgreen';'#9acd32';10145074;154 205 50;'yellowish';'#faee66';16445030;250 238 102;'yellowishbrown';'#9b7a01';10189313;155 122 1;'yellowishgreen';'#b0dd16';11590934;176 221 22;'yellowishorange';'#ffab0f';16755471;255 171 15;'yellowishtan';'#fcfc81';16579713;252 252 129;'yellowochre';'#cb9d06';13344006;203 157 6;'yelloworange';'#fcb001';16560129;252 176 1;'yellowtan';'#ffe36e';16769902;255 227 110;'yellowybrown';'#ae8b0c';11438860;174 139 12;'yellowygreen';'#bff128';12579112;191 241 40
 
 UpdateLocalPresent_sql=:'update Album set LocalPresent = 1 where AlbumKey in '
 
@@ -289,17 +291,15 @@ NB.
 NB.   BuildMirror 0   NB. skip backup and build
 NB.   BuildMirror 1   NB. backup and build
 
-root=. 'c:/smugmirror/'
-
-sdr=. root,'mirror'             NB. mirror directory
-mrd=. root,'documents/xrefdb/'  NB. mirror database directory
-trg=. mrd,MIRRORDB              NB. mirror db
-bak=. mrd,'backup'              NB. mirror backup directory
-dmp=. mrd,LOCOXREF              NB. online local pairs 
-mcf=. mrd,MANLOCOXREF           NB. manual online local corrections
-mli=. mrd,LOCOMISS              NB. missing local images report
-ssp=. mrd,SUSPECTPAIRS          NB. suspect image pairs report
-src=. PRIMARYTHUMBS             NB. thumbsplus db
+sdr=. MIRRORPATH        NB. mirror directory
+mrd=. MIRRORDBPATH      NB. mirror database directory
+trg=. mrd,MIRRORDB      NB. mirror db
+bak=. mrd,'backup'      NB. mirror backup directory
+dmp=. mrd,LOCOXREF      NB. online local pairs 
+mcf=. mrd,MANLOCOXREF   NB. manual online local corrections
+mli=. mrd,LOCOMISS      NB. missing local images report
+ssp=. mrd,SUSPECTPAIRS  NB. suspect image pairs report
+src=. PRIMARYTHUMBS     NB. thumbsplus db
 
 if. y BackUpMirrorXrefDb mrd;bak do.
   smoutput LoadMirrorXrefDb sdr;src;trg;dmp;mcf;mli;ssp
@@ -838,14 +838,18 @@ end.
 
 LocalFromDir=:3 : 0
 
-NB.*LocalFromDir v-- local files with directory match (y) and file match (x).
+NB.*LocalFromDir  v--  local  files with directory match (y)  and
+NB. file match (x).
+NB.
+NB. A  utility  for browsing  local  files.  Used  from resolving
+NB. mismatches.
 NB.
 NB. monad:  btcl =. LocalFromDir clPathPat
 NB.
 NB.   LocalFromDir 'Petroglyph'
 NB.
 NB. dyad:  btcl =. clFilePat LocalFromDir clPathPat
-NB.  
+NB.
 NB.   'hand' LocalFromDir 'Petroglyph'
 
 '' LocalFromDir y
@@ -1442,7 +1446,7 @@ if. #dups=. uploaddupcheck ONLINEUPLOADPATH do.
   smoutput '*' ,~ '*' ,: msg
   smoutput 80 list dups
 else.
-  smoutput 'No duplicate upload file names detected.'
+  smoutput '**** No duplicate upload file names detected. ***'
 end.
 )
 
@@ -2526,126 +2530,129 @@ showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:dec85__MK__JODobj 0 : 0
-2E*E70ekR/1*A;.+>kkr3?U.<+>GPm1GL",3$:%7+>G_r1cHO30d&5/+>GSn2D?7.0H`).+>Pbr
-2)-4.3$:%9+>Gbs1,L+/2]sn9+?:Q%1a"e$1cHO32BXb8+>PYo1H?R50H`2/+>P\p1c?I9+>Yer
-3$:%5+?:Q!3$9q6+>Pes0fU:22]sh2+>P\p0fC.20d&2.+>Pbr0fL412BXb4+>kns1,9t02'=V0
-+>Pbr0f'q/2]sh1+>l#!0f^@72BX_4+>l#!0fC.22]sh0+>tqs3$:"4+>GVo1,'h*0H`,1+>GPm
-1,^78+>Yer0eje-3?U%7+>Ykt1,0n/1E\D0+>u,#0fC.23?U%:+?)%u1,0n01*A;,+>u,#0f1"2
-1a"M,+>u,#0f^@32]sk1+>l#!0eje/0H`)(+?2%t0f'q.1*A;++>u,#0f'q02BX_7+>Yu"1,0n.
-2BX_6+>Ykt0f'q/3$9q5+?)/#0esk/2BX_2+>c#"0f1"23$9q2+>Yhs0ea_,3$9q3+>kqt1,'h-
-0d&J!1Gp:01a"\3+>Ghu2D?7/1*AG3+>GVo1Gg4/0d&80+>GSn1Gp:00H`,)+?:Q$2BX_0+>c)$
-0f1"/2BXq$1Gg46+>Pht0ea_-3$:+%1c-=00H`/-+?1K&1*AS"1H6L31*AJ0+>GVo1,9t2+>Get
-2BXn:+?(E!2'=V1+>bhr0ea_*0H`4q1cHO31*AA2+>Pht1,pC22'=Y4+>GVo1bg+-1*AA3+>GVo
-1c6C9+>tqs2]sn5+?1K!1a"b#1,pC20d&;5+>G\q1bp14+>Y\o0f1"00H`),+>khq3?U(4+?1K"
-3$:.&1Gg4/1E\P/+?1K"2*l%fF_sr`FD+W^@VfUcDf'H0ATVK+Ci<flC`m\*FD)e=@:F%a+D,Y4
-D'38'@WcN1E+*cuDKI"5DerrqEcXQ56pjaM:/k/0@;TQuDe:,1DJX$)AM7k<@ps0rB45UmATE&=
-@rHL-F<GF7F)>?-@qZusBl%?I5t"4/9LDQS;f6#\ATJu4AftPkA0>MnCi!['Gp$U8F`):DAnc'm
-6=FA><H(ZHEcQ)==E7tb6t0V6@r$4++Dkh5Ec5t@A79Rg@UX=h+CT.u+D#S%F(HJ.AfrLH.3N>G
-+>H3'@:O(aFAI'kEbo0'F(T-&ATJu9BOQ!*BOQ'q+Br,!ARlolDIal-Df0$)@:O(aFCeu*G%G]8
-Bl@m16?R!YA5-cYEc5u-@:O(qE%b^AART[l05PQ8A0>`'EcQ)=6?R!YA5m5bD.7R#DKBB0F<GL>
-Ch[cu+CT(qF_u1B@<3Q5BQ\0$F!,+(Ci!['Bk;?.Bl5&4EbTB!Ed8d<@<>pe@<6!I;c@$jDes?4
-F$il)1E^1GCi=>:FCAWpAOCBQE+*cu9Q+ELCenqbBl7KLDfor>F(9-*E+*cuF!,16@:s-o@rHL-
-FE8R=DBNb6@ps0r@;]TuDf0B*DIjr'@;KakEbT*+6ZQaHFCe0\EcQ)==E7tb6t0YHART[lF!,OD
-Ch\!&+Dkh5Ec5t@@rcL/F!,L7An?!oDI[6#A79Rg@UX=h6ZQaHFCe0\EcQ)=?ZU4';FO&D;FO>J
-762Q4EGT?2AKYi(EcQ)=6ZQaHFCeEbF_tT/9keWgDfS?VCi!['Bk;?qEb/[$AKXrcF_tT/E,9Z<
-+B*-"B2*)\Ec5t@B45UmATDKrF$rG`;FsGH5u_H=Ci"A>EHP]+BkD'jA0>>iFCSu;F(f-$C`me/
-EbTK7+Eqj?FED)3+C]U=-tHmuEbT5:6q'F?8P)?Q<+9ZRC`mY.+Cei$AKY])F(K62Bm+&1-tHmu
-EbT5:+D,>(AKYQ/FCf?2Bl@m16uQpVDIIF)6Z6dZE_p@mE,oN%Bm:b=AftW&D/!lrDKI"2Des?4
-+DYP6F$t.fE(k1[@;JMP@:s.H@<?X4@;KIsD/^UG9Q+ELCe8JPB4WM7@<3Pj5sc])ASc'tBlmos
-+EV1>F@eqf6Ub'P;FFGXBl\64E`d?nAnc.)ATDBk@q?d,DfTB0+=KfN5sn(B:JsSZ9keWgDfSs#
-AS*A6B6%p5E(NMb6Ub'P;FFG_BQ\0$F%p@hEc5u4DKKH1Amo1\+EqaEA9/kA8Oc!579<8_6rR&u
-F_tT/9keWgDfR9LB6%p5E(j%p:JFDZ;f6#\AKYo'+Dkh6F(oN)+Dbt+@;I'#D..'gF!,(/Ch6:9
-6Vgf^77M0'D.Oi.Afu#0Ch[cu+Dbt+@;I&rEc6#?+ED%*ATD@"@q?d)@:F%a9Q+?M6#:"QD/=-!
-A0<9dCgqO(.3N_@@VfULDdd0JD..'g6#:"QD-1gpDdd0!-qS8aB4XAF@WcNiE[`,Q@:F%a9Q+?M
-8SqmKAP6T[GAhM4=E84r@:UK/8SqmKAP6T[GAhM4=E5i5FCAWpAP@#NA5$oO@;JbKFD,K/@:UK/
-9Q+ELCf"P^BIP'G@:F%a9Q+?M9keWgDfSs#AS+>>Ci<`mF!,@3G9Ca:EcQ)=+CfG1F)rIEAS,Lo
-ASu!h+Cno&@:EYdAP@#NA5@)ZBl7KRD..'gCi<`m+=L$'Ch[cu8SqmKALSaD@:F%a9Q+?M:Msu_
-DIlIPH$=1IA8H0mA0<9rDJX$)AP6T[GAhM4.3N_@@VfULDdd0UBQ\0$F%p@hEc5tg@;KakEbT*+
-Ci<`mF!,FBBl.:!Gp%3BF_tT/+DG\$B4W2r@<>pe@<6!&D/"$2DfQt5@;KakEbT*+9Q+?MARn;>
-Ci!['GscLmDKK6,EGSNA7R^3D:.%H2+EMO=+Cf>#AKZ#)An?!oDI[6#F(Jo*-ral&D.7Q\Bl\64
-E[`,EART+\E_LC]@;JDICh6spEGSNA7R^3D:.%H2+EMO=Blmo/D/"$2DfSNi@ps1CE_gRhBl7Ku
-De!3l+D,>(AKYl!D.Rc2Ao_g,+E).6Bl7K)CLqd4+CT.u+D,>(AStpnATLO`@ps1CEc5e_Bl\$.
-@ps0rAnc'mF!,[@FD)e-Bl[cpFDl2F+DkP/@qZu5GpskEDIal%Bl%?'D..NrBHS^J.84Yi@;J_W
-Ch[cu7VQ[M?ZU4';FO&D;FO>J762Q-De!3l+E).6Bl7K)Anc'm+DkP/@q[!)F_,T=+>"^WARuu4
-9keWgDfSs#AS*A6BOtU_ATCI_@ps1QBQ\0$8Ru1LEGSNA7R^3D:.%H2+EMO=+Cf>#AKZ#)An?!o
-DI[6#F(Jo*-ral&D.7Q\Bl\64E[`,EART+\E_She;GU4cBl\64E`d?nAo1sdEc6"A@<6L.@qf@n
-ARlp-Bln#2-quup;GU4cBl\64E`d?nAgnj8Ec6)>9gMNJ:I@o[;FO&m@;TQuDe:,1DJX$)AKYf-
-@ps0rD..=)@;I&rDfTl0@ruF'DK?q1Ec6#?+ED%*ATD@"@q?d)@:F%a9hA5\:JsSIF)c#1FCcS3
-Bl\64EZen$FCAWeF(HJ+Bl%?'DIIBn9hA5\:JsSI:dJ&OD/"$2DfQt2@<>pe@<6!&E+*j%9hA5\
-:Js_P5t#Bt@:UL!Afu&$FD)dK+Cf(nDJ*N'AoD]4Df\WE;Gp:g:dJ&OD/"$2DfQt2Bl[cpFDl2F
-+EDC=F<GO2FD+B?;Gp:g<_YtVBl\64E`d?nAfu8.EcYr5DCcoI@;BEs@;]TuA79Rk9jr-RBMDoQ
-F^]*#DKBB0F<GF/DKTB(+E).6Bl7K)Ci<flC`mG/@:s-oE+*I$+Cf>1Eb/a&Bl@m19jr-RBMWM^
-Bl7KUDe!3lD..NrBHV52Ch[cu+D,>(ATJu<Bln#2Ci<flC`m>(Ch7Z^@<?!m:Msu_DIlR]6?6LE
-CLqU/D..NrBHV52Ch[cu+D,>(ATJu<Bln#2Ci<flC`m>(Ch7Z1GA2/4Dfp.E>?r@mF_56"GYMmm
-Ec5tg@;KakEbT*+F`(o5F_)\;BQ\0$F)Yr<F!+t2D/`p*Bjtmi+D5,!Ch7X$ATJu+Ec5e;;f-Yi
-9keWgDfQt2Bl[cpFDl26ATLR[EcQ)=8SqmKAQ3)ICh7Zt@;[2rCht52@;]dkATMr9Anc'mF!+n/
-A0>o(FEMVA+CT.1Bl.9kAKZ)'@VfUMBl\64E_1+VB4Y1c<+06PATMp&@;[3)@;]dkATMrHEb/Zq
-A79Rk+D,>(ATJu&DIal1ATW'8DBNY1@:s-o@;]TuBl.9kARTCaF_r7GEb/i*FCAWpATLR[EcQ)=
-8SqmKAQWtaAlN2JCh7[/@ps6t@;Ka&D..<rAn?%*+D,>(ATJu&DIal1ATW'8DBNY1@:s-o@;]Tu
-@;KCqD'4(DAS*',@:F%aF%p@hEc5tiD..'gF)ti"DK?q/Cht52@;]dkATMrH@q]:gB4Z-,Anc'm
-F!+n/A0>o(FEMVAF!,16@:s-oCLqd4+CT=6F*VV3DesJhBl\64E_BthGAhM4F)ti"DK?q/Cht52
-@;]dkATMrH@q]:gB4Z-,Anc'mF!+n/A0>o(FEMVAF!,70H$=1IA9/l%F!,OLD.7F"F%p@hEc5tm
-6oB%,@ps7r+CT)&+DkP)BkCptF>%-;@;]^hF!,(/Ch7Z1@;]TuEb0?8Ec,q@Bl.9kAKX]8200mK
-F!,OLD.7F"F%p@iF(oN)8SqmKATLa\E,Tc=D/"'4Bl7Q+Ci<flC`mG/@:s.m+ED%4DfTqoBle?0
-DJ)X]@ps1CBl%@%?ZU4';FO&D;FO>J762Q4EGQb-De*E%Eb/ioEb0,uAKWQIF(Jo*-r"DrEc5u#
-Eb/i3+D>=pA7]dV:JaVb78-WQ79OD;H$=1IA0>T(A8,O^FD5W*+DG\$B4W2rBl.F!F(oQ1F!,RC
-+EMC.Cht5+DfQt>EbTE5+EM7CATLUB;F+8R:J4,ZCLqd8DfTA2Bl7Hq@psInDJ()+D..'g+Co2'
-ASuR'Df-\.D]iq9F<GF/FCSu,E,oZ1F<GX=H=_.?/KeqLDKBo.DId0rA0>r,@;oe!:KBn^?USgL
-Bl7?sFCT6*DfTnAFD,*)+CT5.ARTU%FDi:6Eb065ASuU+Gu.C19gMZ[<(0_bE,oZ0@<-W9;c-5&
-FCcRoBQ\0$F&6[qF!,R9F*&O8@<>pe@<6!&/KePAE-WREAfu&5Bl.:!Gp$X+FCAWeF(J0G8PMKK
-=]@pl9gVcjF_kl>+E;O4Ch[KqARlp)EGT?2AKYr4Bl.:!Gp%3BF_tT/+Cno&@:EYdAKYT!Ch4`,
-@;TRR:JXqk:JsSZ9keWgDfSs#AS,t$Dfd+GDfTB0+=L,`:K1Ck;FFGXBl\64E`d?nAgnj8Ec6)>
-;GU(f=&2^^;cIFQD.7Q\Bl\64EcQ):F<GdGEb'56-rNi:<*)jn6rR&uF_tT/9keWgDfR9LB6%p5
-E$-8G+<Ve)ARTCC@<?'ME_Tt[BkCptFE1r$C`m7sFCcS,Bl%@%+D,Y4D'3\(DJ<]oF*&O:Bl%@%
-;b^7^5uL-;;GU:f6um3gDIal.AnE/tDfQt>EbTE5+EM[GAmo1\+CT;%@3?t>EHP]1AKY])@q]Fp
-.8rr@7mU'M771$P:K:.XEc6)<A0>f&Aft](EZe:tF_=EkB-:W(E+NO$+ECn4BlA&8/Kf"QARfFq
-Bl@l3D09oA+Co2-FD5W*F_Po1+CT)&+ECn4BlA&k9iX\[;FsV_6r6HcAS,@nCige=EbTE5+@K$t
-+>"^WATT&:D]i"mF_tT/:i(8q+DkOsEc3(D@;L't+E(j71H$pc9iX\[;FsV_;b:.];e'VdDe:+j
-BQ%p5+F##&Df021-u!R/BOu66+B*-"B2*M]+E2@8DKI"BBmO?3;b^7^:g$ad;H$.j78n/GBl8#8
-F(or3F!,R<@<<W/@<?!m+Eh10F_)\0DBMPoE-ZP:EZf7<FCep"DejD:@;]Tu:jI.rDf-\=@rc:&
-FE:A\;c#nM<)>kP;H%IAD.Oi.Afu/;F)Y]#F<G:7@:s-oE+*I$F!,L7E,Tc=;cZCq6Z6dZEcZ>2
-@VfTuDe:,5FCB&t@<,m$;cZC2@rH1%EZf7.D.Rc2@;]Tu;Fa%rG%#30ATLdlA3k$@F_sl^D.Rd0
-FCB&t@<,m$@;KCqD'3_)D.Rc2/Ken=FCSuqF!,=6EcQ)=+Co2,ARfh#Ed8dF@;TRs;g!/#Bk(jq
-F`UAfBl[*_E,Tc=F*2PCBk(jqF`S[ADe!3l+CT.u+E).6Bl7K)Anc'm+E1b'EbTE(F&Y\19gVcZ
-9ghroF_tT/9keWgDfQtDATDj+Df.*KD..3k+CT.u+Cno&AQ;Js7S-$:?UJaJDfTo/Des?4+DtV)
-ATJu+Ec5e;D.Ra#Bl7Q+G@b5nDes?4F"AG$;c=fKDes?4F!+n/A0=uI6UW&,Des?4F&d0i@<?'S
-De!3l:i^,gASuU2ATT%C9Q+ELCf#.`F(K62.3N>B+=KNl@WcN:+EVNE0d(1B+CT)&+Dbt+@;I'#
-D..'gF!,%=BleArE+EC!AP@#P@;Jb\ATMF#FC0*/Cf3\k78cQL6Ua$YF)c"=@rGmh+ED%*ATD@"
-@q?c7+EM+*+=KruEcQ)==E7tb.3N;8@:Wqi=%,G_:jGEHCi=?8=(Ph`@rH1%EZfI4@VfTu/KePA
-A7]g)DJsV>F`(o5F_+ZJ6UY9KDes?4F')(&6m,uXCi=>:FCAWpAKWQIDIIBnF!,@=F<G^DBlS9,
-@P]oP@<6!s@<63o@<6!&D..L$+D#G#De*Ei+CT=6@UX=h+>YnuF*)G:DJ*HmEc5f/@qg%1EbAi(
-@rH1%EZek*Ec5f/@qg%1@rH1%Eb9?'EFWp'DfQt9AU,D1Eb065ASu!lATJu+Ec5e;@VfOj+E(j7
-@rH1%EZf7.D.RcuDes?4CLqd'Eb06#Des?4+DYP6+D,Y*EHPi1@qfLq+D,Y4D'3>%@;]^hF"_B=
-DJ<]oF*&O:Bl%@%@rH1%EcZ>2@VKXmFEqh6EcYf5+EV:.+Cf>+DfQtAFCAWmCh\!:+EV1>F<G10
-Ch7*tF(B!+FC]*,FE2))F`_1;6W6o+@rH1%EcW@;DKKe>2DcOcBl8!%FCAWhF`;D(91))iA9Dj-
-Bk(RnAKYK$Ci=>:DIIBnF(9<#@V0Y*CL^mbDf0`0Ec`FKCL^m^@rH1%EcYT0G]Y'MD]j+>Ecbl'
-+E2UJBQ%c2A8,OqBl@ltEd8d>DfT]'FC\rlEbT63EbTW,+EM4-Cht58@rc:&F<G[=@<<W4ASl@/
-ATJu)AR][oBcq#%Ch7ZuARfXpDfTr.B6%R#Dg#\7@rH1%EZf./H$=1IA9/l*Ec5e;Bl.9kATMBn
-B4Z"'@:sUlD/XT/+D58(FCAfpARlp!AU/K<Eb$;)Ec5e;Bl.9kATJu<Bln#2DJsE=ATD]3CghF"
-FEM,*+CT.u+Dbt6B5)I1A7]:_F(or3FCAg&ASl@/AKYr4Bl8#8F(or3+DYP6GAhM4F!,(8Df$V2
-D..'gF(B6(@<,pfEaa'(DfB`2DKI"0Eb/Z%@;]Tu@<6C!@rri6@<?4%+D,P4+DG\$B4W2rBl.F!
-F(oQ1F!+n5+D5D3ASrVY:e>89FCT6*DfT<$DKBE.Ec#6,+Cf>+DfQt<@;TQu@VK_$Ao2X*AU/?/
-DfT]'F<GOCBl8#8CLqd4B4Z"'@:s"ZA0>MrDffE#B4YTrCLqd8DfTA2FDi:9D..'gF!,[@FD)e7
-Df0l4Ec3(:@<?4*F_#&+@;]TuCi=3(BlnK.ASH%'EGT`-Bl8!'Ec`F5FCT,0FCAWpAKY])FDi:C
-EGT?2AKZ)'@VfUnARTUhBQA$.Bk(k!H!tN2ATDZsFCcS'E,]i9G\M#'FCcRm7m\>;Bm=3*+Cf)*
-Df'2uBlnW<AT`*8@;KY"H#dP,+Cf>+DfQt<AT`*8@;KY"H#I;8AT;O#CLnV:Ao_I&.3N)BF<GU8
-F*2;@F!,17+Co&)@qBOgBl7Q+Ao_I&F_,H#H#Re<DKKr6H=^l'H"nIFATDj+Df-\9Afu&<FD,T1
-+=M2LBl8$"F(or3?Ya4u.<'<ADKKr6H=^l'H!b#hF(o-+ATMs(@<>q"ATMr9A79Rg+D,P4+=M2L
-Bl8$6BmO?+AU,_DEbTE5F(or3F*(i"Ch7*pD/aW>ATJu5EbTE5+EM7CATJu9@:F%aE-Yu.@ru='
-@ru-gE-ZP=Df-\.Bk)7!Df0!(Gp$^;Ec#6,+D,Y4D'3>,Ci=>:FCAWpAT2p*Bk)6sEcl86AoN$;
-BQ%c2A8,OqBl@ltEd8d>Ec5e;<DH+T8OZ$S6Z6dZEcZ80DIcX86?Hd[F>.6>F*)G:@Wcd(+=MLa
-+ECn.A8c<-;Fa%r@rH1%EcW@;DKKe>2DcOcBl8!4ASYk&GAhM4Eb0*+G%De3AU/K<Eb$;)Ec5e;
-@VfOj+DYP6GAhM4+EMXFBl7R)+>"^WAS!!#Df021A8bt#D.RU,/okT6A8-+,A8-+,EbT!*FCcS8
-B4;unDes?4F!,17FDi9[1a$7ADKBi2@V0XkAReV.66LAjBlIm"F!,(8Df$V-ARfFk@;Kss@V0Xo
-AU%*C66LAjBlIm"F!,(8Df$V1AU%p"ARfFk@;Kt,Ch7^%Bl[a*EH62<AKYo'+EV:2Eb'56F)c>2
-Eb-A6AS5^qDK?pP+EM+*+Dbt6B-:`'@s)X"DKKoACh7^%Bl[a*EG99&B4YslEaa'$+EDU@AKYo'
-+EV:2Eb'56F)c>2Eb-A6AS5^qDBNe)F),i2H=^l'H#m\GAKYc"Gp$^>Df$V2D..'g+Co2'ASuR'
-Df0W;D09K1EbTE5F(or3F(9-*E-686+DbJ,B4Z.++E2@8DKI"BBmO>5AoD]4B5)O#DBNJ/Ble35
-FDu87DKKr6H=_/=DfTqBE,oZ1F<GX=H=_.?@<3Q"F(8d!A8,po+E_R9EHPh8;eU)iF<GfN9Q+f]
-/9>oA@VKXmFEqA7Ci=>:F*(i"Bl%L*Gp%-=E,Tc=F`(o*A8-+,A8-+,EbT!*FCcS;DJ<]sARlon
-Des?4F!,17FDi9[1a$7ADKC#5@Us1oFC]*,FE2))F`_1;G@b5+@rH1%EcW@;DKKe>2DcOcBl8!:
-CL^mbDes?4Ao_I&=A)"L+Cf>+DfQt9AU,D1Eb065ASu!lATJu+Ec5e;<'`hnA7]RkD/"*'A0>Ju
-Ch7j,@q9+aF*(r,F*)G:@Wcd(+BV9(6m,uXCi=?8+DG_8D]gqp+C]&&Er                 ~>
+2E<H60ek[21*A;.+>kkr3?U.<+>GPm1GL",3$:%7+>G_r1cHO30d&5/+>GSn2D?75+>beq0ea_)
+2BXb3+>kkr0fU:42BX_4+>Pbr1,g=33$:4(2)HF9+>c#"0fC.03?U(3+>Z##1,'h-1a"P/+>bu!
+3$:"5+?1K#1*AS"0fU:12BXb4+>Ghu1,g=11E\G.+>Gbs1bg+-2'=Y2+>Get1,^712'=b3+>P\p
+2)QL21E\G0+>GYp1cHO31*AG3+>Gl!2Du[42BXk7+>Gbs1cHO30d&A/+?1K"1*A;,+>PVn0ea_*
+3$9q0+>Pht3?U+6+>GSn1cZ[52BXe5+>PYo2)?@02'=e8+>Gbs1cZ[53?U79+>PYo2DQC01*AJ5
++>G\q2DcO20H`83+>Gl!1,g=20d&>2+>GSn2D?7.0H`>/+>GYp1GU(-2]sq:+>GSn2Du[41E\P5
++>Gl!1H6L40d&;2+>Ghu1Gp:01E\M6+>G_r2`2^41*AG4+>G\q1cHO31a"\9+>GVo1Gg4/0H`23
++>GYp2)?@10H`2,+?:Q#2'=V1+>ttt0fU:60H`,++>l#!0esk-1a"M-+>Ykt0eje,2'=V-+>PVn
+3?U.:+>GVo1cZ[51a"S4+?(E!1a"b#1,^700H`54+>t?!1a"M,+>Yer3$:.8+?:Q#3$9q2+>tqs
+0esk,1*ALu0fL45+>u/$2]sn6+>G\q1bp1.0H`,)+>k8u2]sh1+>Ynu1,^713$9q5+>Pht0esk.
+0d&2++>Yr!0esk.2'=n%2DH=5+>Yhs3$9t5+?1K!3$9q1+>c)$0f1"01*ALu1GBq+1a"V/+>G\q
+2)$.5+>P\p3$:":+>G\q1b^%2+>Yhs0f'q00H`=t1GqI7@WcNa@<?0^@:F%a@rH4'Ch7^"+Dbt+
+@;I'*@<?0*FCAWpAKYT*Df$V*CgqO(+E1b0ASuT4AoDKrATDiY5t"(9<DHLlDIIBn+E(j7Df0B*
+DIkJ;De!3l+D5,!Ch7X4+Cf>4DKI"<Ble-"FCSu,Anc'm6:""05tjX@<)[[CD.Rc2De:,$@:UKn
+@;KakEd8d;Dfor>+D,>(AO9g8CK5=JBl\64E`d?nAjg*;@:O(qE$0"3EcQ)=+Cno&@:EYdAKYE!
+A0>H(@<6!&BkAJ9GUXbLF!*2(Ea`HnATU^kATDTqE-#W*Ch7Z1FD,*)+D>2,AKY2_-Y6g2@;]Tu
+DJsE%Ea`HnATVKo+Eh=:F(oQ1F$b"`Ch-7SEcQ)=@UWb^F`9!DEb/[$AM7k<@:UKtBl\64E^Fn_
+Ch-LYF_tT/Bl8!'Ec`FBDJX$)AKYDt@WcO/+CT=6FD,f6@WNZ)@;KakEbT*++DG^9E,oZ0@<-W9
+A79Rg@UX=h6V'X593+bT:Msu_DIlgeCi<`m6YL%@CERe3EcYr5DCco>F_PZ&+CT.u+Cno&AOBBp
+?UJaJDfTnd;c>Ip@rH1%EZfI4@VfUCDf'H%Eb.p_@ps1LDJX$)AOCBYDKKr0Df'H%Eb0;7Bl.9k
+AKYK$F`);B+DG^9Ci<flC`m/(A0>f.Ch[cu+D5,!Ch7X$ATL4ZART[l9keWgDfSs#AS+>>@rc-h
+FCfM9F)c#1FCcS3Bl\64EZek4Df]tBEb/ioEb0,uAKYMlFCAWeF(I^ZART[l9keWgDfT3+EGSNA
+7R^3D:.%H2+EMO=Blmo/D/"$2DfS3cART[l<+pDk@WP7XEcQ)=7q$4MATDKrF(96%@<?''<+pDk
+@WQL)F`S[(D09JcBl\64EZf"'Ci!['Bk;?R77'mD8O>^BAp%p+Gp%*L@;KXiBk:ft@UX@gBJ4F?
+ASc0*F(96)E-*4HEbTW;ASrW"Gp"MGAR][oBdlG=6;gBH79EMuCh%9(De:,%@<6!&Bl8!'DKKT9
+AKWC3AR][oBdk0:Bl%?'AU&<.DKBN1DKA3aD/!lrDKJ6aCi=>jApA98AS,Y$+E(j7A8c=!DIIF)
++Cf>+DfQt9AU/>bF_u(kDe!3l8SqmKAPQZUF`Lo,A9Da.+=Kp%@ps1FD..'g.3N&?+B1Wn+Co&"
+Bl.R+ARlp*AU&;g7R9C1=&2^^;b^tHEc5u#Eb/isDKKH1Amo1\+EqaEA9/kA8Oc!579<8_6rQfo
+EcQ)==E7tb.3N8DDfp"j7R9C1=&2^^;cIFQD.7Q\Bl\64EbTE5ATDBk@q?d,DfTB0+=KfN5sn(B
+:JsSZ<+pDk@WP7XEcQ)=.3N8DDfp"m:I@oP8Q/Q*@;TQuDe:,/Ble?0DJ().De!3l+DG\$B4Z-,
+Anc'm9M\#O=AhRWDIIBn+E(j7Df0B*DIjr,De!3l+CfG1F)rIEAS,LoASu!h+EV%$Ch6:Y@:VZ?
+@WcO(Ddd0!-p_ZYF_rQMFCAWpAP@#NA4^WHB4XAF@WcNiEboZ&A0<9lD..'g6#:"QD-1g-+EV%$
+Ch6:Y@:VrH@:s.EAU/K<Eb&9mCi<`m+=Kfu@:s.EAU/K<Eb&9m.3N_@@VfULDdd0MDe!3l:gnHZ
+Ci<`m+=Kp%@ps1M@<?03+EV%$Ch6:Y@:W)HEcQ)==E7tb6t0tN@:XF%DIn#7D/"$2DfQt1Ec6#?
++ED%*ATD@"@q?cn@<>pe@<6!RDdd0PDJX$)AP$`IB4Ymt@:UK/:Msu_DIlCV@:s.#+EV%$Ch6:Y
+@:W/OCh[cu94`BmDfTB)Ddd0!-r4_sBl7KTAU/K<Eb$UAFCAWpAP@#NA5m5bD.7Q\Bl\64E^sPS
+Ch7X$ATM[+@:XF%E,oZ0@<-W9FD,f6@WNZ+D..'g+Cno&@:EYdAKYi(EcQ)=+D5,!Ch7X$ATLO`
+@:Wq[7q$4MATE&`Dfor>?ZU4';FO&D;FO>J762Q4EGQb-De*E%Eb/ioEb0,uAKZ&*AKWC#BQ\0$
+F%p@hEc5tI+D>=pA7]dTDe!3l7VQ[M?ZU4';FO&D;FO>J762Q4EGT?2AKYi(EcQ)=9Q+ELCdrG@
+DJX$)ASc9p@;I&uBl%?'DIIBnF!,(8Df$V8DJX$)AKYc"H#k*:DIal%Bl%?u@;TRs9Q+ELCdrG`
+D+&)YCi<flC`m>(Ch7Z1GA2/4+Co2,ARfh#Ed8dE@<?!m+=MLa+CT.u+D,>(AKYhuFCSu,.!R17
+De!3l:Msu_DIl:OCh6spEGSNA7R^3D:.%H2+Dbt+@;I')DJX$)AKYT!Ch4`+@<?!m+E;O8Ed8cZ
++EM+*+=KruEcQ)==E7tb.3N;8@:Wqi9Q+ELCfG(jD.6(I?ZU4';FO&D;FO>J762Q4EGQb-De*E%
+Eb/ioEb0,uAKZ&*AKWC#BQ\0$F%p@hEc5tI+D>=pA7]dU5snOG;b^tHEc5u#Eb/j"@:O=rF!+n4
+F)PQ&@<?'k+EqOABHS]t5snOG;b^tHEc5u#Eb/i3+D5_5F`:&@:/"GN:KUL`7W)XOAKYo'+E).6
+Bl7K)Ci<flC`mS'DKTB(+Cf>1Eb/a&Bl@m1+CfG1F)rIEAS,LoASu!h+EV%$Ch6=4;Gp:g6pbs7
+Ch\!&+Dkh5Ec5t@A79Rg@UX=h+D,>(AKYl!D.QF5;Gp:g6pa^9<(Lk?EcQ)=+Cno&@:EYdAKYr#
+FD+B?;Gp:g84>g4BOtU_+E(j7E+*j%+>"^GBOPdkAKYT'EZf:A9hA5\:Jt"T<(Lk?EcQ)=+Co2,
+ARfh#Ed8dJDf9_?E+*j%9hA5\:Jt4f6qqB9Ec5u#Eb/i*G%G]8Bl@l?+DkP&AKYE!A0>DkFCe0T
+FCSuY@;^3rCh[d.ATDl8D..=)@;I')DJX$)AKYf-@ps0rBl.9kAKYr#BlY>+DfTl0@ruF'DKAN\
+FCSu[DJX$)AP@#P@;KdhFCSu,Df0B*DIjr&Bl%@%+EqOABHV,0@ps0rAnc'mF%p(b@q\YUCh[cu
+:2`I>@:O(aFE;;-FCSu,Df0B*DIjr&Bl%@%+EqOABHV,0@ps0rAnc'mF!,[@FD,T8F<Fdn+EM[;
+AncKaBl\64E^sPSCh7X$ATN!3BlS9,+EV:>D.7R*CiseA@rH4'@<?3mCh4`%@;KakEbT*++D,Y4
+D'2boF_=E_EcQ)=+Co2,ARfh#EbT*+9keWgDfSEd@:s.N@:F%aF(8Wr+CT)&+DkP)BkCptF<G10
+Ch7Z1@;]TuEb0?8Ec*".DBNY1@:s-oFCAWpAPHlZEc5tiD..'g=E7AL@VfUsF(8Wr+DkP)BkCpt
+F>%ZG@;KI_FCcS,Bl%@%+CT.u+ED%8F`M@BBl.9kAKYE!A0>T'@:s.[CgqO(+F%p<Afu2(@VfUs
+9keWgDfSEd@:s.REb/i^@:F%aF)ti"DBNA(C`mS'DJ<]oF*&O:Bl%@%+CT.u+ED%8F`M@BBl.9k
+AKYE!A0>;s@WcN1G]IA-+EV%$Ch7Z^Bl\64E_1+VB4Z.*@ps7r+CT)&+DkP)BkCptF>%-;@;]^h
+F!,(/Ch7Z1@;]TuEb0?8Ec,q@Bl.9kAKYc"H#k*:F!,OLD.7F"F%p@hEc5tkAU/K<Eb'64@ps7r
++CT)&+DkP)BkCptF>%-;@;]^hF!,(/Ch7Z1@;]TuEb0?8Ec,q@CLqd8DfTB0+CT=6F*VV3DesJh
+Bl\64E_SqZF)ti"DK?q/Cht52@;]dkATMrH@q]:gB4Z-,Anc'mF!+n/A0>o(FEMVAF!,16@:s-o
+9ggj[+CT=6F*VV3DesJhBle?0DJ)OX@:s.m;IsfcEcc/4F)u&5B-;#/@ps0rBl.9kATJu7AT2R.
+FA6IjF(oN)9Q+ELCdr,TATM4"EGSNA7R^3D:.%H2+EMO=+Cf>#AKZ#)An?!oDI[6#/Kf+GAKWBq
+Bl\64E`d?nAgnj9ART+\E_]D,8Q\DT;bKP^CLqd8DfTA2Bl7Hq@psInDJ()+D..'g+Co2'ASuR'
+Df0V=FDi:CD..6s+D,P4+E2@8DKI"BBmO?3:/=bR<(TkY79OD;H$=1IA0>T(A8,O^FD5W*+DG\$
+B4W2rBl.F!F(oQ1+CoC5DJsV>D..NrBHV87Bl8#8F(or3F!*%WDJsE6FCB&t@<,m$F(f!$ATLXJ
+78dJ\Df'3+@;^0sDes?4F!,R<@<<W#E,]AsEZfIB+D,Y*EHPi1FDQ4uDJX$)AQ<\cDdd0DBOt[h
+@q]F`CNCV1Bl%@%+DG^9F`;/8@:UKkBl[cpFDl2F+D,P4+CoV6Ch[BfFCfME:f9kZ5uLib78m0)
+EbTB!Ed8d+;+t\GAKXrcF_tT/:i(8q+EV19F<G+&FCAWeF(HIG+Cf>/Gp%$;+E2@8D..I1+Cno&
+@:EYdAPc8r9gMZ[<(L"`6;qK=Ci"A>EHP]+BkD'jA0>r5Ch\!&+E2@8D..I1+EV:>D.7Q/A79Rg
+@UX=h+D,>(AKYl!D.QU@:K1Ck;FFGXBl\64E`d?nAo_g.F<GdGEb'56-rNi:<*)jn6rQfoEcQ)=
+=E7tb.3N8DDfp"s:JXqk:JsSZ<+pDk@WP7XEcQ)=Ec5l<+EqaEA9/kA;GU(f=&2^^;cIFQD.7Q\
+Bl\64E[`,DEc6)>+<VdL+<XQn@;J>?FCdp^9jqpRAn?%*Eb/Zq+Cno&AKYT!Ch7Z1Ao_g,+DkP)
+BkCptF<G10Ch7Zd9iX\L;FNlL:K:.XEc6)<A0>f&Aft](EZf=ABl8#8F*2M8@:Njk@<,pf+=M;N
+F^]<%+DG_'BOu66;b^7^5uUTK6W?rZ<DGr&Dfor.+E(k(+D,P4+B*-"B2*M]+CT>1ARfg)Eaa'(
+Df[$Q+E2@4@qg!uDf-\7F`VXIA8-+,Bl7R+Bldr1@;Ka&Eaa'(Df\iO<C]k`8PW5Q:e>2/Amogu
+F<GOCBl8#86r6Gt/Kf+GF<G[D+B3#sD.7Q_CiseAD.-ppD]j43Cis;3De:+J2DA'(<C]k`8PW5`
+8QnP]@r*9+Aft#cDfTqBGT][uDJ((?Bl7EoATK:C;f-Yi9m((kE,oZ1F<GX=H=_.r9iX\[=]@gf
+;b:.];fHbkDKI"BBmO?3+EV:*F<GF/FCSu,G%#30AKY])+A-cqH$!V<+Du+>AR]RrCNCV,DIakd
+H$!_<DBO"1EbTK7F&Q(;:dm`N:dIZN;f6#\AKYo'+EM[HE+NO$+DG\$B4W3)@;0b'+ED%4DfTqu
+<_$LaDes?4F*(i"Ch4`-Afu/:@;]UaEb$:k<_"9BDes?4+DtV)ATJu&DIakf7m\>A@;L'tF&R0k
+6#:"QD,+MVATMp7@;]UaEb$;$CgqO(+DtV)ATJtG+DkP/@q]Fp+Dkh5Ec5t@A8-'q@ruX0Gp%!5
+D.RceF`VM9@qfk(F&6:ZE`-IfDfTr@F`VM9@qfk(F!,:;@ps0r@;]TuDf0B*DIjr&Bl%?'E+*I$
+Bl7R)<(L"`6;poZ6r[iBD.7Q\Bl\64EZfO:EcYr5DCcoI@;BEs@;]TuA79Rk<DH+T8OZ$S6Z6dZ
+EcY`/Ci=>:DIIBnF!,(8Df$V6ATDEtDJ()9AR].fCi=?8/0I;Y;]oRgCi=?8+CT.u+BV9(6m,uX
+Ci=?8<H)JWFCe-a@ps1MEb0<'DKKr2F<Du*De!3l:i^,gASuT=+DG^9-p_ZYF_rQMFDi9V+DGF1
+@;Ka&Ci<flC`mG/@:s.m+D#e3F*(E$A79Rk9Q+ELCf#.`F(K62?ZU4';FO&D;FO>J762Q4EGQb-
+De*E%Eb/ioEb0,uAKWQIF(Jo*-r"DrEc5u#Eb/i3+D>=pA7]d_77(?XGscLdDfTo#ARZclDes?4
++EV%$Ch4_@+Cf>#ATJu3Dfd+EDJ=*5AQVSm6si<"Ci=?8=A)"L+Cf>+DfQtB@:F%a+>"^R@;TRs
++Du+>+E_R9EHPi%1H&`OF(K2sF),8oF(HJ2@<63,ASu!rA7]9o@<3Q#@<6!&1H$@sFE2)5B4GUq
+Df'2uBlnW@B4;unDes?4+Cf)*Df'2uBlnW1Des?4Ao_I&@rH1%EZf./Gp$^>AT;j(DI[BlF!,(8
+Df$V+Ch%9(De:,%Des?4+DtV)ATM@"Ci=?0AU.m.AT;3uCi=>:CLqc6Ao_I&F_,H#Bk;?.Ao_g,
++Cf(nDJ*O%05Y-8BkCptF<G10Ch7ZtDes?4F*(i"Bl%L*H#R24F(KD8FD,5.@rH1%EZfFF@:Eqe
+BlnVCFCf]=+D,>(ARfe&A8-+,A8-+,EbT!*FCcR^;c=fKDes?4F!,17FDi9[1a$7ADKB<0@:Ebi
+E-#,S6UW&-F`;/2@psIj+Cf>+DfQt<@;TRs@ru-gAo`-3@q9(fDK]T3F<GgD@q8qVDes?4F'j$6
+F<G[D+EMIAFCeu*E-ZP=Df-\.Bk)7!Df0!(Gp$^;Ec#6,A7]4jBk_d3Blmo/F(f-$C`me/EbTK7
++EV:*F<GU8D/XT/F!,")@WH0s+D,>(ATMBn@rH1%Ecb`&Eb0*+G%De+Des?4+DYP6GAhM4F!,(8
+Df$V2D..'gF(AipAT)[!B6%R#Dg#\7B4Z"'@:s4aA0>Z!H$=1IA0>K)Df$V2D..'gF!,[@FD)e7
+Df0l4Ec3(:@<?4*F_#&+@;]TuCi=3(BlnK.ARo@nBmO?4@:sUlD/XT/+E2@8DKI"BBmO>5CLqd8
+DfTB0+D,Y4D'3P0@:s.mA8l6kEb/["@<?4%E,oZ1F<G"4ARQ]iDIakuF)Y]#F<GU4FD5Y9AoD]4
+Bl.9kAKYMtD.RU+Bl@m1+CT@7B5)O#DBM>D8S2g]@rH1%Eaia#F(T?2D..N/@rH1%EZf7.D.Oi!
+Bl8!(D00Q)H#mS9Ec#6,+E2@8DKI":AU/?0AT)[!B45=]+D58(FCAfpARlp!AU/K<Eb$;7D]ib2
+@:s.m+EqOABHV22DL,l7D]ik)FD5i>A7ZllDIal+Df03%FEM,*Bl8!3Cij3%DKBB0F<G%7@r*90
+@:F%a+DG_8D]j+@Ch\!&+EV%$Ch7Kq@<,jkEc5f/@qg%1@;L$sEc,<-AKYE#E,olABl.:#AKXl@
+66L5]G\(\6@q]n$D/!KoFEqb8F`_Y4Ch\!:EbAi(@rH1%EZf72F`_Y4Ch\!:De=$$EGT?)AKWC5
+Eb05>+C]J8+ED%7F_l/@+DG^9A7]glASu$mDJ()(Eb065ASu"'E,oZ1FE;/BASYk&C*7\2EcYr5
+DBNk0+E2UJBQ%c2-ua3@DKK6,BmO>tCLqc?E,oZ1FE;/BASYk&?XdGbBk)6rF*(r$FCB9&F*&O8
+@<>p#AoD]4-ua3@DKKr6H=^l'Gq!]QBl8$6BmO?3FCAWpARfXqE-686F!,FBBl8#8F(or3F!,R5
+@VfUpH":W!FCoQ'FCAWtH$!_<DBNJ(@ruF'DIIR2+D,P4D..N/Ao_g,+Cf>+DfQtB@:F%aE-Yu.
+@ru='F`(o*E-ZP=Df-\.Bk)7!Df0!(Gp$^>Df$Us:.[oH77:KMDes?4F)k],A5YoaFCfN80P"m=
+FE2))F`_1;.![6aEa`irDf$Up7m\>.Des?4F!,17FDi9[1a$7ADKBi0CLqd8DfTB/ASl@/AKYc"
+H$=1IA0>K)Df$V+Ch%9(CLqd8DfTA2F*)G:DJ+#5/Kf+GAKYf-DJ()&De!p,ASuTBEbAilBleB,
+BleB:Bju4,AKZ#+@N]0!Ci=?8+DG_8D]gqp+C]&&F)ko&Ao_En@o>f`+EVX<E,9*,+D,Y4D'3A#
+@qfdgCiX/tAo_QrGZ%$u+EVX<E,9*,+D,Y4D'3M'G\L]"@qfdgCiXZ7ATVU"Eb'62Ecl20+E(j7
+FD,B/A9/l7EHP]1AKZ#)B5):%F!*%WF(Jo*Ci=3(+CoD#F_t]-FE2M?ATVU"Eb'62Bl.KqASu("
+@<?''Ecl20+E(j7FD,B/A9/l7EHP]1AKZ#)B5):%+DkP.CNF39ASYk&F(or3+DYP6+D,Y4D'3P0
+@:s-oA8,mlDKBN1DKBl9F_>Z6Bl8$6BmO?3@rH4'F`_1;Cgh?sATMr9E,oZ1F<GX=H=\42DfQt5
+Bm+'*+CoG*F)Q)@E,oZ1FE;/BATMp2Ec`FCEbTE5+EM7CATJu&F!+n4@qBOgBl7Q+F`(o5F_)[o
+BQ%p5+F##&Df02=F*(i"Bl%L*H"1c/DfQtAFCAWmCh\!:+ED%4DfTrBDJ<]nBleB,BleB:Bju4,
+AKZ,5BkD'jA0>B#Ci=?8+DG_8D]gqp+C]&&F*2G<Ddd0eF`:i(ARfLcBOt[h+E).6Bl7K)F`;/8
+@:UKmBl%@%+D,P4+CoV6Ch[BfFCfN;AR]1aF*(r,F*)G:@Wcd(+EqC++Cf>+DfTnABl8$2+>u&!
+@VK_$G\^f"@rH1%Eb9?'EEGk$6m,uXCi=>:CLqc6Ao_I&F_,H#Bk;?.Ao_g,+B1Wn+Co&"Bl.R+
+ARloqBl%@*CL^mcBleB,BleB:Bju4,AKY)J6UW&,Des?4F!,17FDi9[1a$7ADK>           ~>
 )
 showpass 0 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
@@ -2668,71 +2675,76 @@ showpass 0 9 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:dec85__MK__JODobj 0 : 0
-1G^.1+>P&o0H`510d&2*+>GQ)2]sh0+?2)6+>PVn0f1R@@WcC$A7K:a@r"h+/h1=QBl%<iBOt[h
+1G^.1+>P&o0H`>22'=V.+>GQ)2]sh0+?2)6+>PVn0f1R@@WcC$A7K:a@r"h+/h1=QBl%<iBOt[h
 +ET1e+C]J-Ch+Y:9keWgDfSs#AS*A6@;]TuA8-+,EbT!*FCd'6$;No?%15is/g+YEART[lA3(hg
 0JPS)@<+%Z%15is/g+Y;@;]^hF#kEq/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
-/M/P+/M/P+/M/P+/M/P+%13OO%16T`@r,RpF!,RAE,9H&?U6tD@WcC$A2uY1?TgFm-UC$a@WcC$
-A2uY1-QlV9@rGq!@<6!&4=<E\6"4tNCh,Od3@>7C@rH(!F(KB6+=Cl<De(4)$4R>+0RHSl78?6B
-6TmIQA8,Qs0H_JI$4R>+0RI_K+?MV3F)?&4E-ZP:EZfLHBl%i<+BosE+E(d5-RT?14tq>#Bl\64
-E]H-?Anc'm4ZX^&Ci^^H:Msu_DIlgeCi<`m6YL%@CF9Pu0d'[C-urm-A0<s\3c/SOEc5tY3B:\c
-Ch5%<GB.D>AKW@13\PPkF_>Q*EcQ)=04]!2F_t]-FE9*[Eb/in@P:MpCh[cu<H)bm@:V`=ARfL.
-Bkh]:%13OO@rGk"EcP`/F<G[BE,9H&?U6tD@WcC$A2uY1?O[?+0RI_K+FPjb:JaJT6qK`g>9G^E
-De't<-OgCl$=e!aF`MM6DKI!K@UX=h-OgDmDe3rtF(HIVFDYu5De!-?5s\t&Bl%<?3B:FU$=\-l
-Ch.BsEcQ)=:-pQ_@WcC$A8Q%$Ec5t@F=f'e@WcC$A0<9pBl\64E`d?nAgnj2DIal#BleB:Bju4,
-AM+E!:-pQB$;No?+CfG'@<?'k3Zp130fWojCb[[S$;No?+Cf(nDJ*O%3Zp"+/M/P+/M/P+/M/P+
-/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/O`$;No?+>PW*3G)i31,g=rF`&=9
-DBN\:DJLA2De!3lAISuA67sB90JPS)@<+(Y+E_X6@<?''G"k@I@;]TuD/"$2DfT2uBleB7Ed;#/
-A0>;kA7]9\$4R=O$=e!aCghC++EVI>Ci<fj5s[eGF_PZ&3B9*,4ZX]55s[eGF_PZ&3B9)I+Bosu
-De3rtF(HIV-UC$a@WcC$A2uY1-OgDmDeX*1ATDl8-Y[=6A1%fn%159QHV[I,:..Z@4ZX]rBk/>?
-+<V+#%15is/g+k?+=Lr@AU#XHBlbD/Bl\9:+Co1rFD5Z2@<-W9Df-\:@<?0*Bl7EsF_#&+Bljdk
-BOtU_A8,O:3ZoguBl.F+-S7AC0mc\m78?6B6Ra6-Bl.F++=@U*%159QHZ*F;4$"KtART+[Bk&\A
-F)?&4E-ZP:EZfLHBl%i<+BosE+E(d5-RT?1%15is/g+e<F<FUY6m,oUA0?#6A79Rk%159QHZX+D
-Ci<f+B4Z0-4$"``8Q&G^;H?L[+AGF*;GU1Y6;TsI81+iR9hA5\:Jt4f6p3RR-np!B8Q&G^;H?L[
-.4cl00e5FBHVI(0;GU1k9ggE]4EP:SATMs%D/^UF-OgDH0RInYE,9H&+E2IF+=BlT;Gp:g<_Yt0
-+:SYe$;No?+D58-+D>J1FDl2F+CoD#F_t]-F:ARoBl\64EaNKoF*)>@H!bE!4ZX]B+Co2-E$-NF
-Bl\64EaNKoF*)>@H!bE!-OgCl$9g.jD/"$2DfRiu3G)uAAN`'sD/=89-V\;qEc5u#Eb/i1%14g4
->9G>7ART*l4*s#*Bl\64E]H-?Anc'm.3NhTBlmo/9hA5\:JsSI:dJ&O/14/+EcQ)==E7tb/no'A
--OgD;+Bos:FDj]G;cFlVBl\64EaNKoF*)>@H!bE!.3NhTBlmo/9hA5\:JsSI:dJ&O/15:KEcQ)=
-?YF.pFDl2F/o>,H%13OO@rGk"EcP`/F<G[BE,9H&?U6tD@WcC$A2uY1?O[?+0RI_K+FPjb:JaJT
-6qK`g>9G^EDe't<-OgCl$=e!aF`MM6DKI!K@UX=h-OgDmDe3rtF(HIVFDYu5De!-?5s\t&Bl%<?
-3B:FU$=\-lCh.X$F_tT/:-pQ_@WcC$A9;L-D.7Q/F=f'e@WcC$A0<:"BQ\0$F%p@hEc5tI+CT.u
-+Co2-FE2))F`_1I%15is/e&._67sBjEb/[$ARmhE1,(FCAn>F,2[p*h67sBjBOPdkATKmT/M/P+
-/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/I`%^67sB90JPS)
-@<+(Y+E_X6@<?''G"k@I@:Wn[A.8kT$=e!aCghC++EVI>Ci<fj5s[eGF_PZ&3B9*,4ZX]55s[eG
-F_PZ&3B9)I+BosuDe3rtF(HIV-UC$a@WcC$A2uY1-OgDmDeX*1ATDl8-Y[=6A1%fn%159QHV[I,
-:..Z@4ZX]rBk/>?+<V+#%15is/g+k?+=Lr@AU#XHBlbD/Bl\9:+Co1rFD5Z2@<-W9Df-\:@<?0*
-Bl7EsF_#&+BljdkBOtU_A8,O:3ZoguBl.F+-S7AC0mc\m78?6B6Ra6-Bl.F++=@U*4tq>%A0<rp
-+D>=pA7TCa/15LUF_>Z=FCfJ8F`_>6F!i)7+>Y-YA0<6I%13OO:-pQUB4Z0-<_Yt)@;]TuF`:l"
-FCbmg4tq>*D/a<0@j#DqF<EY+-WEW:9gVcZ9gg*u8Q&G^;FEiJ5u^B&%16'*<D>eY<_YtF3Zoh)
-HW3O99gVcZ9ggE]-p0474u%C`86&AN;cZU\.4dT'Bl.F&FCB$*+=ANG$9g.jFDYu5Ddso/F`\`R
-<(L"`6;poZ6mj)d$4R>+0RInTF_tT/3B9*3Bl%?D3Zr9UF!)i0BQ\0$F%p@hEc5tG%14g4>9G>7
-ART*l4*s#1BQ\0$F#c6@Anc'm.3NhTBlmo/9hA5\:JsSI:dJ&O/14D1F_tT/9keWgDfRIEC3(a3
-$4R>PDe!p1Eb0-1+EVI>Ci<fj5s[eGF_PZ&3B9*,%159QHZ*F;I4cX<:dn,I8OFV)+>Y-YA0<6I
-%13OO@rGk"EcP`/F<Dr?@<6!-%16T`ATD4#AKX*WD/a<0@p_Mf6"4tNCh,Od3F<4&E,oZ1FE;/B
-ASYk&?XdGbBk&hN:-pQ_E,oZ1FE;/BASYk&?XdGbBk&hN+EK+d+C\c#Bk&9-ATMs7+D,P4+=M2L
-Bl8$6BmO?+AU,^W%15is/e&._67sC(ATD6gFD5SQ+CT>4F_t]2+=M2LBl8$6BmO?+AU,^I@;]Tu
-A7]^kDId<rFE8R@Ddd0fA0>T(FDi:2@<6!&Ci<flCh54.$;No?%15is/g)8ZB4Z1*GT](/-ZF*?
-DKKr6H=^l'Gp%'HBl8$6BmO?+AU.Wl@<6-mFCfN8A79Rg-Qij*:-pQB$;No?+CfG'@<?'k3Zp13
-0fWoVDD<gS$;No?+>#/s/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
-/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/O`$;No?+>Gij@;[eU+D,>*@;I'*@<6L$A0>`#
-F)tc&AKYDlA7]9\$;No?+>Gij@;[eV+Du+>AKZ,:AKYo'+=L/_<C]kg<(0\`8QnP].3N)F+=M2L
-Bl8$6BmO?+AU,^6$4R>;67sBpDK]H)Bk/?#D..'g+Co2'ASuR'Df0V*$?1'.4ZX^)EbTE5F(or3
-CLqcu@UX=l@ru:'FC\g%@1<PQ$;No?+>=pWBm=3*+Co2'ASuR'Df0V*$?1'.0KhH>-p/k2-Rg/d
-4=GV1BeCMQE-$+M4#%j5.=E=XF*%iu%15is/g,7LEc6/C+CT>4ATDm,Df-[L+E_a:F!)l09iX\[
-=]@gf;b:.];^i._-ua3@DKKr6H=^l'Gp#./+>Go++E2CD0F\?u$;No?+Dtb'@<?4,AKYr+G\(\6
-A8,mlDKBN1DK?6oE-$+T4ZX]64=;^:0IJ:l-p/o+/nlp\,B.^G.6B7,1+@VoE-$+1$4R>;67sC&
-BQA$8F!+n4F(KB6Bl@ku$7Kk6Bl8$6BmO?+AU,CZ3Zp.<.3NSNF>+.2%15is/g,%MF<G.4Dfo]+
-+E2%>AScDs$?1'.0KhH>-p/k30IJ:l-p/o+/nlp\,B.^G.6B7,1+@VoE-$+1$7KsV4AJ[K8Q\DT
-;bKP^.3Lbr0d(fcE,oZ1FE;/BASYk&+E2CD0F\?u$;No?+ECn4BlA&8DJsV>Bl5&4EbTE5+EM7C
-AKZ)'@VfTb$?1'.0KhH>-p/k40JG1..3L$$."*^^/g)BXF*&im0e%MnE-$+1$?1'.0KhH>-p/k9
-0JG1..3L$$."*^^/g)BXF*&im1+@VoE-$+T%14M)3]p/5;F+8R:J4,Z.3Lbr0d(fcE,oZ1FE;/B
-ASYk&+E2CD0F\?u$;No?+ED%8F`M@BD..['D09\<F(or3+D,P4+CT)&+ECn4BlA&%$;No?+EqL1
-DBNe7Eb-A8BOPd$ASuF/B4rE,Bm=3*Et&ItF*'Q++F?-n0d'Ch<C]>R:dm`N;GU:f6m-GhBl8$6
-BmO?3FCAWpAKXoG<C]kg<(0\`8QnP]%16fdA8,n%4ZX]03[QIC+?Ui%+?hD50JG11+tb3+-[6a]
--=^^tEcZA4-8%J)2'?s$+F>^f4s4ofF:AQd$;No?+Dbt)A0>\sEbAr+Bl.9kAKYMtD.RU+Bl@m1
-%17&qF>,j=+=JX#3[8TbF=A=X+DG\'Bl.o?+=K?#I4f4d,B.^G.6B7,1+@VoE-$+1$=[^^F(or3
-F$2Q,+=K?5,B.^G.3KlYHTEK;+EMUG%16QYB6.d5ATJtW+>G!c+E2@8DKKr6H=^l'Gp%'IF>+.2
-%13OO0fhQJ0d/S5-8I"m-Xgh-+EV19FE8RD@<6L$A1%fn                             ~>
+/M/P+/M/P+/M/P+/M/P+%15is/g)l/D..H?0Hae7C3=T>ARlp*D]j1DAKWC8D.Rr@+DGF1Df-\:
+@<?/l$4R=O$=e!aCghC++EVI>Ci<fj5s[eGF_PZ&3B9*,4ZX]55s[eGF_PZ&3B9)I+BosuDe3rt
+F(HIV-UC$a@WcC$A2uY1-OgDmDeX*1ATDl8-Y[=6A1%fn%159QHV[I,:..Z@4ZX]rBk/>?+<V+#
+%15is/g+k?+=Lr@AU#XHBlbD/Bl\9:+Co1rFD5Z2@<-W9Df-\:@<?0*Bl7EsF_#&+BljdkBOtU_
+A8,O:3ZoguBl.F+-S7AC0mc\m78?6B6Ra6-Bl.F++=@U*4tq>%A0<rp+D>=pA7TCa/15LUF_>Z=
+FCfJ8F`_>6F!i)7+>Y-YA0<6I%13OO:-pQUB4Z0-<_Yt)@;]TuF`:l"FCbmg4tq>*D/a<0@j#Dq
+F<EY+-UUEn6VCHS6m,2q;Gp:g6pa^9<(JAG$:@?Q6VCHS6p3RR-np!884>m=<_Yt2/1<V8.m>\7
+6V'X593+bT.4dT'Bl.F&FCB$*+=ANG$9g.jFDYu5Ddso/F`\`R6V'X593+bT-Qij*%159QHYmJ;
+Ec5tY3B:\cCh5aj+Dkq9+=Bs&Ch[cu<H)bm@:V`=ARfL'%14g4>9G>7ART*l4*s#*Bl\64E]H-?
+Anc'm.3NhTBlmo/9hA5\:JsSI:dJ&O/1452Ch[cu<H)bm@:V`=ARfL.Bkh]:%13OO@rGk"EcP`/
+F<G[BE,9H&?U6tD@WcC$A2uY1?O[?+0RI_K+FPjb:JaJT6qK`g>9G^EDe't<-OgCl$=e!aF`MM6
+DKI!K@UX=h-OgDmDe3rtF(HIVFDYu5De!-?5s\t&Bl%<?3B:FU$=\-lCh.BsEcQ)=:-pQ_@WcC$
+A8Q%$Ec5t@F=f'e@WcC$A0<9pBl\64E`d?nAgnj2DIal#BleB:Bju4,AM+E!:-pQB$;No?+CfG'
+@<?'k3Zp130fWojCb[[S$;No?+Cf(nDJ*O%3Zp"+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
+/M/P+/M/P+/M/P+/M/P+/M/P+/M/O`$;No?+>PW*3G)i31,g=rF`&=9DBN\:DJLA2De!3lAISuA
+67sB90JPS)@<+(Y+E_X6@<?''G"k@I@;]TuD/"$2DfT2uBleB7Ed;#/A0>;kA7]9\$4R=O$=e!a
+CghC++EVI>Ci<fj5s[eGF_PZ&3B9*,4ZX]55s[eGF_PZ&3B9)I+BosuDe3rtF(HIV-UC$a@WcC$
+A2uY1-OgDmDeX*1ATDl8-Y[=6A1%fn%159QHV[I,:..Z@4ZX]rBk/>?+<V+#%15is/g+k?+=Lr@
+AU#XHBlbD/Bl\9:+Co1rFD5Z2@<-W9Df-\:@<?0*Bl7EsF_#&+BljdkBOtU_A8,O:3ZoguBl.F+
+-S7AC0mc\m78?6B6Ra6-Bl.F++=@U*%159QHZ*F;4$"KtART+[Bk&\AF)?&4E-ZP:EZfLHBl%i<
++BosE+E(d5-RT?1%15is/g+e<F<FUY6m,oUA0?#6A79Rk%159QHZX+DCi<f+B4Z0-4$"``8Q&G^
+;H?L[+AGF*;GU1Y6;TsI81+iR9hA5\:Jt4f6p3RR-np!B8Q&G^;H?L[.4cl00e5FBHVI(0;GU1k
+9ggE]4EP:SATMs%D/^UF-OgDH0RInYE,9H&+E2IF+=BlT;Gp:g<_Yt0+:SYe$;No?+D58-+D>J1
+FDl2F+CoD#F_t]-F:ARoBl\64EaNKoF*)>@H!bE!4ZX]B+Co2-E$-NFBl\64EaNKoF*)>@H!bE!
+-OgCl$9g.jD/"$2DfRiu3G)uAAN`'sD/=89-V\;qEc5u#Eb/i1%14g4>9G>7ART*l4*s#*Bl\64
+E]H-?Anc'm.3NhTBlmo/9hA5\:JsSI:dJ&O/14/+EcQ)==E7tb/no'A-OgD;+Bos:FDj]G;cFlV
+Bl\64EaNKoF*)>@H!bE!.3NhTBlmo/9hA5\:JsSI:dJ&O/15:KEcQ)=?YF.pFDl2F/o>,H%13OO
+@rGk"EcP`/F<G[BE,9H&?U6tD@WcC$A2uY1?O[?+0RI_K+FPjb:JaJT6qK`g>9G^EDe't<-OgCl
+$=e!aF`MM6DKI!K@UX=h-OgDmDe3rtF(HIVFDYu5De!-?5s\t&Bl%<?3B:FU$=\-lCh.X$F_tT/
+:-pQ_@WcC$A9;L-D.7Q/F=f'e@WcC$A0<:"BQ\0$F%p@hEc5tI+CT.u+Co2-FE2))F`_1I%15is
+/e&._67sBjEb/[$ARmhE1,(FCAn>F,2[p*h67sBjBOPdkATKmT/M/P+/M/P+/M/P+/M/P+/M/P+
+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/I`%^67sB90JPS)@<+(Y+E_X6@<?''G"k@I
+@:Wn[A.8kT$=e!aCghC++EVI>Ci<fj5s[eGF_PZ&3B9*,4ZX]55s[eGF_PZ&3B9)I+BosuDe3rt
+F(HIV-UC$a@WcC$A2uY1-OgDmDeX*1ATDl8-Y[=6A1%fn%159QHV[I,:..Z@4ZX]rBk/>?+<V+#
+%15is/g+k?+=Lr@AU#XHBlbD/Bl\9:+Co1rFD5Z2@<-W9Df-\:@<?0*Bl7EsF_#&+BljdkBOtU_
+A8,O:3ZoguBl.F+-S7AC0mc\m78?6B6Ra6-Bl.F++=@U*4tq>%A0<rp+D>=pA7TCa/15LUF_>Z=
+FCfJ8F`_>6F!i)7+>Y-YA0<6I%13OO:-pQUB4Z0-<_Yt)@;]TuF`:l"FCbmg4tq>*D/a<0@j#Dq
+F<EY+-WEW:9gVcZ9gg*u8Q&G^;FEiJ5u^B&%16'*<D>eY<_YtF3Zoh)HW3O99gVcZ9ggE]-p047
+4u%C`86&AN;cZU\.4dT'Bl.F&FCB$*+=ANG$9g.jFDYu5Ddso/F`\`R<(L"`6;poZ6mj)d$4R>+
+0RInTF_tT/3B9*3Bl%?D3Zr9UF!)i0BQ\0$F%p@hEc5tG%14g4>9G>7ART*l4*s#1BQ\0$F#c6@
+Anc'm.3NhTBlmo/9hA5\:JsSI:dJ&O/14D1F_tT/9keWgDfRIEC3(a3$4R>PDe!p1Eb0-1+EVI>
+Ci<fj5s[eGF_PZ&3B9*,%159QHZ*F;I4cX<:dn,I8OFV)+>Y-YA0<6I%13OO@rGk"EcP`/F<Dr?
+@<6!-%16T`ATD4#AKX*WD/a<0@p_Mf6"4tNCh,Od3F<4&E,oZ1FE;/BASYk&?XdGbBk&hN:-pQ_
+E,oZ1FE;/BASYk&?XdGbBk&hN+EK+d+C\c#Bk&9-ATMs7+D,P4+=M2LBl8$6BmO?+AU,^W%15is
+/e&._67sC(ATD6gFD5SQ+CT>4F_t]2+=M2LBl8$6BmO?+AU,^I@;]TuA7]^kDId<rFE8R@Ddd0f
+A0>T(FDi:2@<6!&Ci<flCh54.$;No?%15is/g)8ZB4Z1*GT](/-ZF*?DKKr6H=^l'Gp%'HBl8$6
+BmO?+AU.Wl@<6-mFCfN8A79Rg-Qij*:-pQB$;No?+CfG'@<?'k3Zp130fWoVDD<gS$;No?+>#/s
+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
+/M/P+/M/P+/M/P+/M/O`$;No?+>Gij@;[eU+D,>*@;I'*@<6L$A0>`#F)tc&AKYDlA7]9\$;No?
++>Gij@;[eV+Du+>AKZ,:AKYo'+=L/_<C]kg<(0\`8QnP].3N)F+=M2LBl8$6BmO?+AU,^6$4R>;
+67sBpDK]H)Bk/?#D..'g+Co2'ASuR'Df0V*$?1'.4ZX^)EbTE5F(or3CLqcu@UX=l@ru:'FC\g%
+@1<PQ$;No?+>=pWBm=3*+Co2'ASuR'Df0V*$?1'.0KhH>-p/k2-Rg/d4=GV1BeCMQE-$+M4#%j5
+.=E=XF*%iu%15is/g,7LEc6/C+CT>4ATDm,Df-[L+E_a:F!)l09iX\[=]@gf;b:.];^i._-ua3@
+DKKr6H=^l'Gp#./+>Go++E2CD0F\?u$;No?+Dtb'@<?4,AKYr+G\(\6A8,mlDKBN1DK?6oE-$+T
+4ZX]64=;^:0IJ:l-p/o+/nlp\,B.^G.6B7,1+@VoE-$+1$4R>;67sC&BQA$8F!+n4F(KB6Bl@ku
+$7Kk6Bl8$6BmO?+AU,CZ3Zp.<.3NSNF>+.2%15is/g,%MF<G.4Dfo]++E2%>AScDs$?1'.0KhH>
+-p/k30IJ:l-p/o+/nlp\,B.^G.6B7,1+@VoE-$+1$7KsV4AJ[K8Q\DT;bKP^.3Lbr0d(fcE,oZ1
+FE;/BASYk&+E2CD0F\?u$;No?+ECn4BlA&8DJsV>Bl5&4EbTE5+EM7CAKZ)'@VfTb$?1'.0KhH>
+-p/k40JG1..3L$$."*^^/g)BXF*&im0e%MnE-$+1$?1'.0KhH>-p/k90JG1..3L$$."*^^/g)BX
+F*&im1+@VoE-$+T%14M)3]p/5;F+8R:J4,Z.3Lbr0d(fcE,oZ1FE;/BASYk&+E2CD0F\?u$;No?
++ED%8F`M@BD..['D09\<F(or3+D,P4+CT)&+ECn4BlA&%$;No?+EqL1DBNe7Eb-A8BOPd$ASuF/
+B4rE,Bm=3*Et&ItF*'Q++F?-n0d'Ch<C]>R:dm`N;GU:f6m-GhBl8$6BmO?3FCAWpAKXoG<C]kg
+<(0\`8QnP]%16fdA8,n%4ZX]03[QIC+?Ui%+?hD50JG11+tb3+-[6a]-=^^tEcZA4-8%J)2'?s$
++F>^f4s4ofF:AQd$;No?+Dbt)A0>\sEbAr+Bl.9kAKYMtD.RU+Bl@m1%17&qF>,j=+=JX#3[8Tb
+F=A=X+DG\'Bl.o?+=K?#I4f4d,B.^G.6B7,1+@VoE-$+1$=[^^F(or3F$2Q,+=K?5,B.^G.3KlY
+HTEK;+EMUG%16QYB6.d5ATJtW+>G!c+E2@8DKKr6H=^l'Gp%'IF>+.2%13OO0fhQJ0d/S5-8I"m
+-Xgh-+EV19FE8RD@<6L$A1%fn                                                 ~>
 )
 showpass 1 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
@@ -2747,333 +2759,424 @@ showpass 1 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:dec85__MK__JODobj 0 : 0
-0etL,0f'q.+>Pbr1*AP30f'q,2BXat0fLjI+>G_r1*A;12BXb1+>P&p1,0n+2]sju1,1^13?U("
-0fLjH+>G\q1*AP90d&20+>P&p1,1L+3?U("3&<E70esk,+>ki4+?:Q"+?)8?+>Get1*AP71E\D/
-+>P'!3&Ep3C3=T>6uQpVDIIF)6Z6dZEcYT0G]Y\u.kN>)/M/J)/M/P+/M/P+/M/P+/M/P+/M/P+
-/M/J)/M/P+/M/P+.kN>)/M/P+/M/P+.kN>)/M/P+/M/P+.kN>)/M/P+.ggZ6Dfor>Ht.)2DfQt9
-AU,C@+<VdL+<VdL+<VdLHtID1EHPi1@sNH@ATD9lDKI!D+<Z&AF_tu<CghF"G%H&AAThX*F(K_+
-.kN>)/M/J)/M/P+/M/P+/M/P+/M/P+/M/P+/M/J)/M/P+/M/P+.kN>)/M/P+/M/P+.kN>)/M/P+
-/M/P+.kN>)/M/P+.ggYH+>Fu]HseX8A79LoF)59,AS6$pGp"4P+<VdLHo*c9+<VdL+<Z%S+>GT'
-0K(XB1,aM70eP.<0f1XD+<Z%g1,M!6+<Z%=HlsOe+<Z&>0OJ:*@:O'q+<VdL+<VdL+<VdL+<Z%f
-2DcO!+<VdLHlsOk/i>OF2_m*GHndW62DR6H1cQU#Ho!]?3?TFeHjY6D+>Y,_HseX8A8,mnEb0M=
-+<VdL+<VdL+<VdLHnmT<+<VdL+<Z%S+>ti-2D?mH2Dok;2(gjJ3&EHK+<Z%f1bgj1+<Z%=HlsOg
-+<Z&>0OJ@!Ebf<.AU,C@+<VdL+<VdL+<Z%e1GBpo+<VdLHlsOh/i5:=0Jb[FHo!K01GCO?3&;["
-Ho!K63?TFeHjY6D+>k8aHseX8B45LlF(0'.D]g/F+<VdL+<VdLHnmB0+<VdL+<Z%S+>b]00K(pN
-3B;IC2D-[;3&EQM+<Z%e3AEN:+<Z%=HlsOi+<Z&>0OJI5AU,C@+<VdL+<VdL+<VdL+<Z%d3B&''
-+<VdLHlsOS1bL[B2D[<MHo*N02Dd6M2)l^$HnmW83?TFeHjY6D+?(DcHseX8A79LoDes-2AS6$p
-ASrV5+<VdLHndT?+<VdL+<Z%S+>b]-1,LjI0K"572(gR@3A`KN+<Z%e2)6p0+<Z%=HlsOk+<Z&>
-0OJX1B4uC"Eb0M=+<VdL+<VdL+<Z%d3&Vm%+<VdLHlsOg/i,FF2)$^BHo*i91c.*N1-$I"HnmK6
-1a!n`HjY6D+?:PeHseX8Ec6#E@WHC2DBL&E+<VdL+<VdLHndT:+<VdL+<Z%S+>b],0K(mN2)fn?
-1G1UD1H7-H+<Z%e0f1j4+<Z%=Hlt-t+<Z&>0OJX1B4uC.FCf$"@Vg0u+<VdL+<Z%d3&2U!+<VdL
-HlsOg/i#CB1H$pHHo3l90JbXB3&Mg$HndW>2'="aHjY6D0ejdnHseX8F*(u)Cgq4'AKW*<+<VdL
-+<VdLHndK=+<VdL+<Z%S+<WHm2`*9D2)fn@0ePCD3ANEH+<Z%d2`NT9+<Z%=Hlt.!+<Z&>0OJm8
-Cj'B1+<VdL+<VdL+<VdL+<Z%d0fC-s+<VdLHlsOe/iPR?0Jt[AHo<f62)%$G3Ar!&HndN71a!n`
-HjY6D0f'ppHseX8CghKuDId=!+<VdL+<VdL+<VdLHnd?0+<VdL+<Z%S+>PQ,3&ilS1c0S<2_HdE
-3&*6E+<Z%d2)%!4+<Z%=Hlt.#+<Z&>0OJp1DBL&E+<VdL+<VdL+<VdL+<Z%d0ea^m+<VdLHlsOe
-/i>UJ3&EHKHo<u;2E3TT3&Mg$HndE;3$9=dHjY6D0f:'rHseX8Ch[NqFE;8,FCf**AU,C@+<VdL
-Hlt@.+<VdL+<Z%S+<WBk3&N]O2DKS<0eP=?2DR*I+<Z%d1,q69+<Z%=Hlt.%+<Z&>0OJ=.Ec,K*
-Dg,c5@Vg0u+<VdL+<Z%S2_uR!+<VdLHlsOd/iPLE0JtR@HoEi61,^sE3B&''HndB13?TFeHjY6D
-0fL3tHseX8GA(]4ATM^,CLnV2+<VdL+<VdLHlt=-+<VdL+<Z%S+>GK,1,CpF0f=>;1bLaI3&30J
-+<Z%d0f(^1+<Z%=Hlt.'+<Z&>0OJm0A7TLf@WHC2DBL&E+<VdL+<Z%S2DZHu+<VdLHlsOd/i5OC
-2_ZsGHoEr91H.!J0ejdnHnd<52]s4cHjY6D0f^@!HseX8F(o3'DIFY1+<VdL+<VdL+<VdLHlt:+
-+<VdL+<Z%S+>GK)2Dm0D2_f\=2_I$F2*!HP+<Z%d0JG=++<Z%=Hlt0u+<Z&>0OJm:H"(T4AKW*<
-+<VdL+<VdL+<Z%S2)??t+<VdLHlsOd/i#7B1GppDHlt@-/ibmI1-$I"HltF+2BX+bHjY6D1,0mo
-HseX8E+O'4+<VdL+<VdL+<VdL+<VdLHlt:#+<VdL+<Z%S+>GK'2`<TO2`5tB0J5(<0JG:B+<Z%S
-3&rc;+<Z%=Hlt1"+<Z&>0OJ[2A8Z*oBQR^"F_)[<+<VdL+<Z%S1cZ[$+<VdLHlsOd/ho4>1,1OA
-HltC'/i,4<1,U0sHltC*1E[e_HjY6D1,C$qHseX8Ch[cuDBL&E+<VdL+<VdL+<VdLHlt7&+<VdL
-+<Z%S+>GK&1Gq$G2`Q1E1+k@>3&`fV+<Z%S2`W];+<Z%=Hlt1$+<Z&>0OJX1B4uBrCis;3+<VdL
-+<VdL+<Z%S1c-<t+<VdLHlsOd/hf(=2)@0NHoNo71H73I1,^6tHlt@*0H_J\HjY6D1,U0sHseX8
-Des-2ARogi@NZd9+<VdL+<VdLHlt7"+<VdL+<Z%S0J5@B0f(gK3B2CG1bLR>2)d9I+<Z%S2_[-4
-+<Z%=Hlt1&+<Z&>0OK$;ART['+<VdL+<VdL+<VdL+<Z%S1H?R#+<VdLHlt*q3AEHP2D[$CHoNu9
-1,LdE3&_s&Hlt=*2BX+bHjY6D1,g<uHseX8A79LoCM7-lBcnN@+<VdL+<VdLHlt4)+<VdL+<Z%S
-0J5=F1c$mH0K=G>2D-^?2`WTM+<Z%S2DR36+<Z%=Hlt1(+<Z&>0OJm;@<?'nEb0M=+<VdL+<VdL
-+<Z%S1H6L"+<VdLHlt*q3&rfO1,psIHoO&;0JbI>1c$6sHlt:+3?TFeHjY6D1-$I"HseX8@Wc^-
-H$=1FA0<!;+<VdL+<VdLHlt4(+<VdL+<Z%S0J5=D0K2!J0f+2:2_I*E1GCUC+<Z%S2)R*2+<Z%=
-Hlt4!+<Z&>0OK$;Blmo/+<VdL+<VdL+<VdL+<Z%S1Gg3s+<VdLHlt*q3&!$@3&iZQHoO)<2_[$C
-1,L*rHlt:$1a!n`HjY6D1GL!pHseX8F)Go?+<VdL+<VdL+<VdL+<VdLHlt1)+<VdL+<Z%S0J57C
-1,UdB2)BV>3A**I2)d<N+<Z%S1cR03+<Z%=Hlt4#+<Z&>0OJ@!Ebf`4@<?'iCis;3+<VdL+<Z%S
-1,^6t+<VdLHlt*q2DHpH0K:sMHoO,=3B9#V1cHO"Hlt7'0d%S]HjY6D1G^-rHseX8@prnZFCK'/
-AKW*<+<VdL+<VdLHlt1%+<VdL+<Z%S0J54B3&<KL2`#h(3A<'C3&WHG+<Z%S1bpp2+<Z%=Hlt4%
-+<Z&>0OJ[*Ec5l6+<VdL+<VdL+<VdL+<Z%S1,C$q+<VdLHlt*q2)I$D0Jb[FHoWo60et[D1,L*r
-Hlt7"0H_J\HjY6D1Gp9tHseX8E,Tr2ATD6rF_)[<+<VdL+<VdLHlt1#+<VdL+<Z%S0J54>0f(L>
-3&H"C0eP@B3&WNO+<Z%S1H.68+<Z%=Hlt4'+<Z&>0OJ7+FD5`;ATqg%FCcR;+<VdL+<Z%S1,'gn
-+<VdLHlt*q1cI*H3B0#ZHoWr70f(gG1,g<uHlt4&1a!n`HjY6D1H-F!HseX8Bl7Hq@;^*sA0<!;
-+<VdL+<VdLHlt.&+<VdL+<Z%S0J5190JGLD0f48<1+kF?3A`KG+<Z%S1G^j1+<Z%=Hlt4)+<Z&>
-0OJF+Eb/^#Bk(p$+<VdL+<VdL+<Z%S0f:'r+<VdLHlt*q1GpsB1,LaCHoWr73&r`N1c6BuHlt4"
-2]s4cHjY6D1H?R#HseX8Ch[NqFE;5C@Vg0u+<VdL+<VdLHlt.#+<VdL+<Z%S0J5.:3A`]U1-'_B
-1G1F<0f_$I+<Z%S1GCR,+<Z%=Hlt7"+<Z&>0OJ@!Ebf`-@:sUlASrV5+<VdL+<Z%S0f1!q+<VdL
-Hlt*q1GUsI3&r`SHoWu82)R*F1,L*rHlt1(3$9=dHjY6D1bg*qHseX8F(&rsH"(f4GA\NG+<VdL
-+<VdLHlt.#+<VdL+<Z%S0J5.:3A`]U1-'_B1G1XH0KCjD+<Z%S1,h$4+<Z%=Hlt7$+<Z&>0OJ:'
-F)c>6+<VdL+<VdL+<VdL+<Z%S0ejdn+<VdLHlt*q1,V$N3&EHKHoX#90f(gK3B/-(Hlt1&0H_J\
-HjY6D1c$6sHseX8B5_TsASuO,A0<!;+<VdL+<VdLHlt-u+<VdL+<Z%S0J5+<3&ilS1c0S?1bLRE
-3&W`O+<Z%S1,M!6+<Z%=Hlt7&+<Z&>0OJp5@;I&/+<VdL+<VdL+<VdL+<Z%S0ea^m+<VdLHlt*q
-1,CdD1c[BQHoX#92D[0D1GU'qHlt1#3$9=dHjY6D1c6BuHseX8B4u4)FE_D4FCcR;+<VdL+<VdL
-Hlt-t+<VdL+<Z%S0J5+:2)@'L1c]qD1bLaG3AWWL+<Z%S1,:g3+<Z%=Hlt7(+<Z&>0OJ:0Dg-(A
-+<VdL+<VdL+<VdL+<Z%S+?:Pe+<VdLHlt*q1,1LC0f1aEHoX&:0K:dA3Ar!&Hlt1!3$9=dHjY6D
-1cHO"HseX8FD,B0FDPM2+<VdL+<VdL+<VdLHlsOl+<VdL+<Z%S0J5+80fUmE2)K\'3AiEE3AW?D
-+<Z%S1,(^2+<Z%=Hlt7*+<Z&>0OJ:#BkM!"+<VdL+<VdL+<VdL+<Z%S+?1Jd+<VdLHlsOc/ho=F
-1,h3OHltF,/i5OB1-$I"Hlt0u0H_J\HjY6D1cZ[$HseX8@rc:#F)Pq=+<VdL+<VdL+<VdLHlsOk
-+<VdL+<Z%S+>>E&3&iZP3Au7F2(gdF3Ai]T+<Z%S0f_!3+<Z%=Hlt:#+<Z&>0OJj=H!tMuCis;3
-+<VdL+<VdL+<Z%S+?1Jd+<VdLHlsOc/ho=F1,h3OHoX&:3&NWS1cZ[$Hlt.'1a!n`HjY6D2)-3r
-HseX8DfT9(B4Z*pA0<!;+<VdL+<VdLHlsOk+<VdL+<Z%S+>>E&3&iZP3Au7F2D-[?2DHsI+<Z%S
-0fM!5+<Z%=Hlt:%+<Z&>0OJ='De!^%@<?''+<VdL+<VdL+<Z%S+?1Jd+<VdLHlsOc/ho=F1,h3O
-HoX);1,CaD0K:0tHlt.%3$9=dHjY6D2)??tHseX8Ders#@:Njk+<VdL+<VdL+<VdLHlsOj+<VdL
-+<Z%S0J5(<1cI6J2DokB2D-dG3AEBI+<Z%S0fC^.+<Z%=Hlt:'+<Z&>0OJ@%AT2^+H"(T4AKW*<
-+<VdL+<Z%S+?(Dc+<VdLHlt*q0fCjI1c.*JHoX);2)[6M3B&''Hlt.$1E[e_HjY6D2)QL!HseX8
-E+*QoB5_TsASuO,A0<!;+<VdLHlsOi+<VdL+<Z%S+>>E&1bga>3B)=G2D-pB2)-dD+<Z%S0f1d2
-+<Z%=Hlt:)+<Z&>0OJI2Ch+Y2+<VdL+<VdL+<VdL+<Z%S+>t>b+<VdLHlsOc/ho1;1,(^IHoX);
-3&ENL0fL3tHlt.#0H_J\HjY6D2)cX#HseX8Des-2AKW*<+<VdL+<VdL+<VdLHlsOi+<VdL+<Z%S
-+>>E&1bga>3B)=G2D.!L2`3?K+<Z%S0f(X/+<Z%=Hlt:++<Z&>0OJ@!Ebf<.AS#a%+<VdL+<VdL
-+<Z%S+>t>b+<VdLHlsOc/ho1;1,(^IHoX,<0et^I1H$?uHlt.!3$9=dHjY6D2)ud%HseX8A79Lo
-F(&m%Df-[?+<VdL+<VdLHlsOi+<VdL+<Z%S+>>E&1bga>3B)=G2_HjD3B8oS+<Z%S0etL,+<Z%=
-Hlt=$+<Z&>0OJd-Ch7^2EcH5?Bldi.+<VdL+<Z%S+>k8a+<VdLHlt*q0ekUF2`*HNHoX,<1H7<O
-1,0moHlt-u2BX+bHjY6D2DH<sHseX8A79LoB5_TsASuO,A0<!;+<VdLHlsOh+<VdL+<Z%S0J5(7
-2`<TO2`5tC2_HsA2)70L+<Z%S0ekC*+<Z%=Hlt=&+<Z&>0OJ@!Ebf01@;[21+<VdL+<VdL+<Z%S
-+>k8a+<VdLHlt*q0ekUF2`*HNHltF./iGI?3B&''Hlt-t2BX+bHjY6D2DZHuHseX8F(JcmEb/g"
-+<VdL+<VdL+<VdLHlsOh+<VdL+<Z%S0J5(72`<TO2`5tC2_I$G0K(aF+<Z%S0eb=)+<Z%=Hlt=(
-+<Z&>0OJ7)Bk(^`Cis;3+<VdL+<VdL+<Z%S+>k8a+<VdLHlt*q0ekUF2`*HNHltF./iY^J1GU'q
-HlsOl2BX+bHjY6D2DlU"HseX8DII]sC2\<0Blmo/+<VdL+<VdLHlsOg+<VdL+<Z%c/hf:B0f(gK
-3B2CH2_I*J1,LjK+<Z%S+?;/!+<Z%=Hlt=*+<Z&>0OJX1B4uBsH!tS5+<VdL+<VdL+<Z%S+>b2`
-+<VdLHn[0,3A`HH3B&rXHoX/=0Jk[F3B83)HlsOk2]s4cHjY6D2E)a$HseX8FDl#)FDi9E+<VdL
-+<VdL+<VdLHlsOg+<VdL+<Z%c/hf:B0f(gK3B2CH3%cpB0K1dJ+<Z%S+?2/"+<Z%=Hlt=,+<Z&>
-0OJ[2DKKB/ARTEu+<VdL+<VdL+<Z%S+>b2`+<VdLHn[0,3A`HH3B&rXHoX/=1,CaH2`W!'HlsOj
-3?TFeHjY6D2E;m&HseX8A8c!kATD6rF_)[<+<VdL+<VdLHlsOg+<VdL+<Z%c/hf:B0f(gK3B2CH
-3%d!B3A<0J+<Z%S+?)/#+<Z%=Hlt@%+<Z&>0OJX1B4uC"DerrqDK9Z+H"Cf.Dg-RO+>Y,_+<VdL
-Hn[0,2_[-D1cR<OHoX/=1H@HR1,C$qHlsOj0d%S]HjY6D2_cEtHseX8A79LoEb/c(+<VdL+<VdL
-+<VdLHlsOf+<VdL+<Z%c/hf4<2D?sI1cTkC3%d$H0JYCC+<Z%S+>u2%+<Z%=Hlt@'+<Z&>0OJd5
-DJL@;+<VdL+<VdL+<VdL+<Z%S+>Y,_+<VdLHn[0,2_[-D1cR<OHoX/=2)I!H1G^-rHlsOi2'="a
-HjY6D2_uR!HseX8Ao)C+@;L.$Blmo/+<VdL+<VdLHlsOf+<VdL+<Z%c/hf4<2D?sI1cTkC3%d*D
-0f1[G+<Z%S+>ttt+<Z%=Hlt@)+<Z&>0OJX1B4uC+Bl7]/+<VdL+<VdL+<Z%S+>Y,_+<VdLHn[0,
-2_[-D1cR<OHoX/=2E3HG1c$6sHlsOh3?TFeHjY6D2`2^#HseX8A79LoDfT9(B4W2.+<VdL+<VdL
-HlsOf+<VdL+<Z%c/hf4<2D?sI1cTkC3%d-I1,^sK+<Z%S+>l&"+<Z%=Hlt@++<Z&>0OJ[2F*)\J
-Df]J4+<VdL+<VdL+<Z%S+>Y,_+<VdLHn[0,2_[-D1cR<OHoX/=3&39F2)??tHlsOh1E[e_HjY6D
-2`Dj%HseX8CM7-lBcnN@+<VdL+<VdL+<VdLHlsOf+<VdL+<Z%c/hf4<2D?sI1cTkC3%d0N1H76N
-+<Z%S+>khq+<Z%=Hlt@-+<Z&>0OJ@%AT2U&DJL@;+<VdL+<VdL+<Z%S+>Y,_+<VdLHn[0,2_[-D
-1cR<OHoX/=3Ar]N2DQBtHlsOg2]s4cHjY6D2`W!'HseX8E+*QoG%kl2ATVs(A0<!;+<VdLHlsOf
-+<VdL+<Z%c/hf4<2D?sI1cTkC3A*!A2)$pI+<Z%S+>bnt+<Z%=HltC&+<Z&>0OJm4@<6*nCht4:
-+<VdL+<VdL+<Z%S+>Y,_+<VdLHn[0,2_[-D1cR<OHoX2>0ebIC2_lKuHlsOg0d%S]HjY6D3&)Nu
-HseX8Eb/c(+<VdL+<VdL+<VdL+<VdLHlsOe+<VdL+<Z%c/hf+@0K(pN3B;II3A*$D1,h$F+<Z%S
-+>Yu"+<Z%=HltC(+<Z&>0OJ[.A8-1'FEMVDF`1u8AKW*<+<Z%S+>P&^+<VdLHn[0,1cI*H3B0#Z
-HoX2>0f_6R0esjoHlsOf2BX+bHjY6D3&;["HseX8D.R6lF_u)?Ec>i++<VdL+<VdLHlsOe+<VdL
-+<Z%c/hf+@0K(pN3B;II3A*'D2E3ZO+<Z%S+>Yhs+<Z%=HltC*+<Z&>0OJd8F_r6D+<VdL+<VdL
-+<VdL+<Z%S+>P&^+<VdLHn[0,1cI*H3B0#ZHoX2>1-%-N2)69sHlsOf1*@\^HjY6D3&Mg$HseX8
-A79Lo@Vg0u+<VdL+<VdL+<VdLHlsOe+<VdL+<Z%c/hf+@0K(pN3B;II3A**E0eb@;+<Z%S+>Y\o
-+<Z%=HltC,+<Z&>0OJa=@q]Re+<VdL+<VdL+<VdL+<Z%S+>P&^+<VdLHn[0,1cI*H3B0#ZHoX2>
-1H7?J3ADX!HlsOe3$9=dHjY6D3&_s&HseX8D.R6lF_tT(F_)[<+<VdL+<VdLHlsOe+<VdL+<Z%c
-/hf+@0K(pN3B;II3A*-E2).!D+<Z%S+>Pht+<Z%=HltC.+<Z&>0OJ[.A8-1'F(JcmEb/g"+<VdL
-+<Z%S+>P&^+<VdLHn[0,1cI*H3B0#ZHoX2>1cR6G1GL!pHlsOe1a!n`HjY6D3&r*(HseX8Ch[Nq
-FEqG6Ci=M?+<VdL+<VdLHlsOe+<VdL+<Z%c/hf+@0K(pN3B;II3A*0E3AW?D+<Z%S+>P\p+<Z%=
-HltF'+<Z&>0OJ@!Ebfc>EcH5?Bldi.+<VdL+<Z%S+>P&^+<VdLHn[0,1cI*H3B0#ZHoX2>2)dEL
-2_cEtHlsOe0H_J\HjY6D3ADX!HseX8DfT9(B4W2.+<VdL+<VdL+<VdLHlsOe+<VdL+<Z%c/hf+@
-0K(pN3B;II3A*3F1GgpC+<Z%S+>Ghu+<Z%=HltF)+<Z&>0OK*:Ci"$6+<VdL+<VdL+<VdL+<Z%S
-+>Fu]+<VdLHn[0,1,CdD1c[BQHoX2>2Dd<P2`;d$HlsOd2BX+bHjY6D3AVd#HseX8D.R6lF_u&;
-@q]Re+<VdL+<VdLHlsOd+<VdL+<Z%c/hf%:2)@'L1c]qD3A*3K0JtR>+<Z%S+>G_r+<Z%=HltF+
-+<Z&>0OJ=.Ec,r4Chk.9+<VdL+<VdL+<Z%S+>Fu]+<VdLHn[0,1,CdD1c[BQHoX2>2E<TJ1c?I!
-HlsOd1a!n`HjY6D3Ahp%HseX8H"Cf.Dg,i7AS#a%+<VdL+<VdLHlsOd+<VdL+<Z%c/hf%:2)@'L
-1c]qD3A*6F2`3QL+<Z%S+>GYp+<Z%=HltF-+<Z&>0OJ[.A8-1'@<$EuD..I!DIjq5+<Z%S+>Fu]
-+<VdLHn[0,1,CdD1c[BQHoX2>2`*6D0fC-sHlsOd1*@\^HjY6D3B&''HseX8A79LoD..'gDKK;0
-+<VdL+<VdLHlsOd+<VdL+<Z%c/hf%:2)@'L1c]qD3A*6K1c@3G+<Z%S+>GSn+<Z%=HltF/+<Z&>
-0OJL3FDtr3CEO`B+<VdL+<VdL+<Z%S+>Fu]+<VdLHn[0,1,CdD1c[BQHoX2>2`NcO3&Mg$HlsOd
-0H_J\HjY6D3B83)HseX8@VfIj@q]Fa@;Ke!DIak4+<VdLHlsOd+<VdL+<Z%c/hf%:2)@'L1c]q+
-3B8]O0ekUB+<Z%S+<WZe+<Z%=Hnd</+<Z&>0OJ[8@q/qgBl5%9+<VdL+<VdL+<Z%S+>Fu]+<VdL
-Hn[0,1,CdD1c[BQHoX2>3&<EI2)QL!HlsOS3$9=dHjY6U0JO[mHseX8Ch[`tB6%QpDBL&E+<VdL
-+<VdLHlsOd+<VdL+<Z%c/hf%:2)@'L1c]q+3B8]O2)mNT+<Z%S+<WTc+<Z%=Hnd<1+<Z&>0OJX)
-G%GQ%ATD6rF`V4=+<VdL+<Z%S+>Fu]+<VdLHn[0,1,CdD1c[BQHoX2>3&iZL1,U0sHlsOS2BX+b
-HjY6U0JagoHseX8@Vg0u+<VdL+<VdL+<VdL+<VdLHlsOd+<VdL+<Z%c/hf%:2)@'L1c]q+3B8]P
-0JtgJ+<Z%S+<WNa+<Z%=Hnd<3+<Z&>0OJX1B4uC.ART4lAS#a%+<VdL+<Z%S+>Fu]+<VdLHn[0,
-1,CdD1c[BQHoX2>3ANTN3Ahp%HlsOS1a!n`HjY6U0JssqHseX8DII^6+<VdL+<VdL+<VdL+<VdL
-HlsOd+<VdL+<Z%c/hf%:2)@'L1c]q+3B8]P2)70J+<Z%S+<WH_+<Z%=Hnd<5+<Z&>0OJm;@<?'i
-Cis;3+<VdL+<VdL+<Z%S+>Fu]+<VdLHn[0,1,CdD1c[BQHoX2>3B&iQ2DlU"HlsOS1*@\^HjY6U
-0K1*sHseX8AoD^$F*)&8AS#a%+<VdL+<VdLHlsOd+<VdL+<Z%c/hf%:2)@'L1c]q++<VdL+>GQ(
-+<Z%S+<WB]+<Z%=.kN>)/M/J)/M/P+/M/P+/M/P+/M/P+/M/P+/M/J)/M/P+/M/P+.kN>)/M/P+
-/M/P+.kN>)/M/P+/M/P+.kN>)/M/P+.mn>g@<?'TBl\64EaNm-CbdkXEb/[$AKZ)'@VfTu9Q+EL
-Cf"P^BFP:k+=Kp%@ps1M@<?0S6m-2]FCf)rEZf7<F<GIDCht55EbTB!Ed8dCAU,g9$6UH69Q+EL
-Cf"P^BHVD.G]Y'GDfd+>F_kkC3t2N+$=e*f@<?''FCAWpAKXcdCh[cu94`BmDfT@t$6UH>94`Bm
-DfTA2FCf]=+Du+>+Du=<C`m\;Bl.:!Gp$m6Gq9C3+<Ve"AU-acAT;j(DI[r7Bl8$(B4Z*+DJsV>
-DKTc3.6@tG+<Vd9$=e*f@<?''FCAWpAKX9T@WcMs$6UH>6#:"QD+eGc+EV1>F<GI>F<GIDCht55
-EbTB!Ed8dCAU,g9$6UH69Q+ELCf"P^BLtT7Bl8$(B4Z*+DJsV>DKTc3/.Dq/+<X?r@ps1MEb0<'
-DKI"8DKKH&ATAo'BOt[h-qnPh@;Jb\ATMF#F?Mc@+E)9C9Q+ELCf#.`F(K624ZtMK/.Dq/+<X?d
-F*(E$A79RkA0>DkFCd!4$6UH66#:"QD,+MVAKZ)+G]YJG$6UH66#:"QD+%rV@rc:&FD5Z2+EV1>
-F=[k.+<Ve=DfTE'B5Si-AU,[tDe!3l:gnHZ8OP!MEb/ioEb0,uATJtfDe!3lAPcfWBIHPm@ps1M
-@<?0S6n'QH%13OO@rc-hFCcS:@:F%a+AZlkBl7KRD..'g%144#-qS8aB4X_IGp%3?G]Y'GDfd+>
-F_kk:E,oZ0@<-W9CLqcB%144#+AZlkBl7KRD..'g7VQ[M+EV1>F=[k.+<VdmEarcsG%G2Y6o?*/
-AU&;J%144#+@1$XBPDX$A5d2gAKY])FCf)rE\%Y,+<Ve#@<?4*F_#&+Ao)BoF=[k.+<Ve#Df03%
-FEM,*+D,G.@<=%0$6UH66#:XWFEM,*+DG_8AS5Rp/.Dq/+<XI#BkM-t@;JJGBkM+$+DG_8AS5Rp
-/.Dq/+<XI#BkM-t@;K"ZA9;K-Bl8$(B4Z*7%144#+AucZCd_]RAKYMlFCd!4$6UH6<H)bm@:Vc7
-FCcS*@<?'3%144#+A?3bFB*9j@<?'k+Cno&ALn8t+<Ve,EbQY<AU&;J%144#+B3#sD.7BkBl$di
-C`mh2G]YJG$6UH694`BmDfTB0+EV1>F=[k.+<Vdo@;p=&Df-\>AU&;G3t2N+$=e*f@<?''FCAWp
-AKXQ]@:s.;CgqO(=E4iX+<W((D..'g94`AkFCf]=+Du+>+Du=<Cb-#&+<VdmCgqO(94`AkFCf]=
-+Du+>+Du=<Cb-\<$6UH6E,oZ0@<-W9CLqc>8SqmKAP6T[/0I5p@WcN\AU,^U%144#+D,P4ASGdp
-+DYP6-p_ZYF_sc_GpskVAS,LoASu!hF!*bb@WcN96#:"QD+eGc.4bo8+<Ve=DfTE'B5Si-AU,[q
-D..'g94`At+ED%*ATD@"@qB^(:Msu_DIlCV@:s."8SqmKAP6T[.4I=f$4R>PEb/[$AKZ)'@VfTu
-8SqmKAP6T[GAhM4=E4iX+<W((D..'g94`AkFCf]=+Du+>+Du=<Cb-#&+<Ve"AU/K<Eb$;7AU&;>
-DJsV>DKTc3/.Dq/+<YWDBl.:!Gp$m6Gpl7$@:s.EAU,gL94`BmDfTA;/.Dq/+<Y97Eb/rtDBN_+
-Gpl<sH$=1IA18XAAS,LoASu!hF!+7rCh[cu94`BmDfTA:94`BmDfTA;/.Dq/+<Y97Eb/rtDBN_+
-Gpl7$@:s.EAU,^IEb/ioEb0,uATJtiDJX$)AP$`IB4WJ_D..'g94`At.6@tG%16TcART[l+EV%$
-Ch4__De!3l8SqmKAISth+=Kp%@ps1FD..'g8OO\8DKKH&ATAo2Dfd+>F_kk:E,oZ0@<-W9CLqc6
-@<H[1Bl7F$ASl!rF=[k.+<Ve#De!3l:gnHZ8OO\8DKKH&ATAo2Dfd+>F_kkF%144#+A?]`@;JnV
-F_tSZ6m-2]FCf)rEZf7<F<GIDChtX3$6UH69Q+ELCe8JPB4XPHCh4`2AU&;>DJsV>DKTc3/.Dq/
-+<X6m@:s.EAU,D?AU&;>DJsV>DKTc3/.Dq/+<Y97Eb/rtDBN_+Gpl@)@ps1M@<?0S6n'7!AS,Lo
-ASu!hF!+.p@ps1b:gnHZ-qnPh@;JbKFD+66.4bo8+<Ve=DfTE'B5Si-AU,[qD..'g94`At+ED%*
-ATD@"@qB^(:Msu_DIlCV@:s."8SqmKAP6T[.4I>T:K(5"9keWgDfSs#AS*\P:-pR0:K(5"9keWg
-DfSs#AS*'(Df^"CE,ol,ATMp2E\8ID$4R>`D/XQ=E-67F0H`D!0F\@a67sBpDKKH1Amo1\+EqaE
-A12LJ3XlEk67sB'+@:3bCh-7SEcQ)=+<XEG/g+V3@r$4+04T$6@<?'6Ci<`m+Dkh5Ec5t-$7QDk
-%16T`@s)g4ASuT4-XpM*AL@oo@rH(!F(KB6+<W%+Bl\64E`d?nAg\#p:et"h?VbQUBl7K^E,9H$
-A4($A@r!hS:-pR0:K(5":Msu_DIlgeCi<`m6YL%@CERS7F*&ODEc5H!F)u8?/g(T1%17/nDfp/@
-F`\`[+?CW!%15is/g+kGFCfK)@:NjkGAhM4.!$gu%15is/g)8Z:Msu_DIlgeCi<`m6YL%@CEO`p
-67sBjBOt[hF!,(/Ch7Z1Bl5&9E,9H$A0>DsEb/a&DfU+GAoD]4A9Dj-Bk(RnATKC3$7QDk%16T`
-@s)g4ASuT4-XpM*AL@oo@rH(!F(KB6+<W%-DJX$)AQ<\cDdd0DBOt[h-OgCl$;aMs<*rU<F_tT/
-9keWgDfRTf:-pR0:K(5"<+pDk@WP7XEcQ)=+E27?F<GOCDe!@"F)Q(O+:SYe$?L'&F`_SFF<E7[
-3Zp*c$;No?+DG_8ATDBk@q?d,DfTA:F"'-Z$;No?+<VdnF_PZ&<+pDk@WNY7:-pQUBl8!'Ec`FB
-DJX$)AKYDt@WcO/+CT=6FD,f6@WNZ)@;KakEbT*++DG^9E,oZ0@<-W9A79Rg@UX=h%14Nn$4R>P
-De!p1Eb0-1+=CW,F(H^.$=e!gDKBB0F<D\R<+pDk@WP7XEcQ)=-OgCl$=[FbAMZ5OE-X3!+<VdL
-,9V&EF_>Z=FCfJ8E-ZP=Df-\,@<6!&1H$@c@<6!&D..L$+Cf>#AKWQI8g&=rEb'56D09oA+DkP/
-@qZto$4R=b+<Ve;AS*&p@<6!eD..L$?Y++bDe*E-F(K0"/0K"NF_>&sAU,^c%144#+<VdL+<VjP
-+q4l%+<VdL+<VdqDI[TqAKZ).AKYJkF(HJ2@<63,@<3Q"DBNY2FCf)rE\7e.+<VdL+<VdL+sJ3?
-$6UH6+<VdL+Dr;b+>=63+<VdL+<VdLAoD]4Be1B:+DG^9ASuX-ATD4$ALMV:F_>&sAU.K@3\<'l
-.67nF+<VdL+<VdL+<VdLBkAJt/noBLE,]B/-n.1d$6UH6+<VdL+<VdL+<VdL+Dr;P4WlL&.OlQT
-%144#+<VdL+<Y]9FEMVA+EM+1AhIP$F(I-cASu!rA7[0,.1HUn$6UH6+Co%q+Cei$ARB:_F),,n
-ARfXhALMV2Ch>4@F)?&4?Ya4u/0JG2F(J]q@<6353XlE=+<VdL+<VdN+sII'+<VdL+<VdL;Isok
-DfTD3Ch7^1ATAo'@<6!&FDi9MF)?&4?Ya4u.4u&:+<VdL+<VdL+sJ3?$6UH6+<VdL+<r">Ec5n>
--ST!W+C]&&@<-W9E,oN%Bm:'o+<VdL+<VdLD..L$+?^iVBl5>?ASbs2@UX=h1H&cT@rGmh-t?\,
-ARB:_F)*3R>;A6F%144#+<VdL+<YB1+DbV,-uEC6CFLAi+DbV,.!'6JB4#FcGptc`$6UH6+<VdL
-+<VdL+ECn)F(HIp@;L't7<3EeE[VA(+<VdL+<VdL+<VdL+<VdL-Ra%QF_>&sAU,^ICh7KsFD)e-
-De3u4DJsV>D..NrBHS^5@<6!eD..L$.3NG<DJ+')-RfK3+<VdL+<VdL,9Ur6A0>_tF))nBBln#2
--SQoh+DGF1DIm<hF)tc1Gmt*'+<VdL+<Ve@Afto$DCB@1F)*3I4<SHODCBRCF_>&sAU,^c%144#
-+<VdL+<VdL+<YN0F))m]+=JXSASro;D09JuCLqc?+>"^PASro5@<635.3L)_-SQns+=eRO@<62n
-$6UH6+<VdL+DbV2FCfK6+?^i`BleAEF)?&4?Ya4u.1HV,+<VdL+<Ve=DfQt7/0H?N/0JdY+DG^9
-ASuX-ATD4$ALMk=E%#O6FED)7F"AGN@<635.67nF+<VdL+<VdL+<VdLBkAJ80de),4WnT&%144#
-+<VdL+<VdL+<VdL+<YK3FED)7F'E?a+?^iW/p2,PATB1J%144#+<VdL+<Y]9FEMVA+=ANhC2[g(
--u<I:FCfK6.1HUn$6UH6+@(!i@<?3nD.Rg&De':a+<VdLA7]?q@UX=h1H&f^@rGmh-uO0E@V'R/
-3XlE=+<VdL+<VdN+sII'+<VdL+<VdL7;cURA7Zm&Df]W7Bm+&1Bl8$(B4Z*+@<3Q"+C\c#AKWce
-+EMXFBl7Q9%144#+<VdL+<VjP+q4l%+<VdL+<Ve@Aftu0F<G:=Bl8!6@;]Rd-uO0E@V'R2+DG_8
-.67nF+<VdL+<VdL+<VdLEa`['AKXrtE+MIYEc5tH-Z4'D@V'R&D09oA+C\n)@;[3%DKKH&ATB.I
-%144#+<VdL+<YB1+Du==@V'R&4<Q==%144#+<VdL+<VdL+<Y]5Bldi.<affeAOUW[DfR6RDKTf*
-ATAo1F`VXI@V$[$Df]W7Bm+&8.1HV,+<VdL+<Ve8CiF&r@V'X4+C\c#AMZ4e4WmrV0JP==1c70M
-3&tDV@q9._B4u!oCM[j*DfB]:F*)PJGBeCZ-S-Af-X@/g+<VdL+<VdLGA(],AKYl5D.7's3XlE=
-+<VdL+<VdL+<VeEF_tT!E\&>I+?^iXBm+?3A12><D.7's/0H`,.1HV,+<VdL+<VdL+<Ve9@<6!9
-2BY.*@;Kmr@:Eei>A7@c.j/;0F(I-c%144#+<VdL+<Y]9FEMVA+C\c#AMZ4eDfQt/CiF&r@V'Xc
-0O5+p%144#+<WpjFCB9*@r5e!BQ%Dj$6UH6+Co%q+C\c#AMZ5TARfXhALMG=D.7's.67nF+<VdL
-+<VdL+sJ3?$6UH6+<VdL+@KdNDe*E%@UX=h+>YnuF*)G:DJ()#DIal1ATW'8DBNY2FCf)rE\7e.
-+<VdL+<VdL+sJ3?$6UH6+<VdL+ED%8F`M@BBl8#@DKTf*ATB=E1H$\!Bl\64E`I0lE_BthF##UJ
-67sC'F(KB-AU/>L@qK?_$;No?%15is/g+)(AKZ22CM=o1@:s-oGB\6`C3+<*FE_/6AM.J2D(fXJ
-BkqE97s/NVATKLlDf00$B.lkSF>$X8ATCFTH#jE%:-pQU@;L"'3Zr*XFDs8o05>QHAor6*Eb-k5
-Df%.?Bln0*F*''TFD58s/n\m?04Ja9@P;S,F*(u605P?304J@2AM81IATDQtH#kTJE,Z6n:-pQB
-$;No?+@UN`D/a<&F#ja;:-pQU+@\.K0fr*DDImm5AS#glE]\)U@:UK.IUQbtDf0VLB45XgF"_BE
-DImm5AS#glE\DQLG@W=?C3(a3$;No?+<X$nEbm6s4"r`dCi=B9@<-WT@WHC2F(J]n?RKN/FDs8o
-06_Va/o#HGAor6*Eb-k5Df%.BGA1i,033"$@:F@q@<-WH7r3*bF('*7-OgDX67r]S:-pQU,"$Hm
-Cb%t5+q4lS67sB)6Zd?b.oU+qAooOm2BiS;:-pQU,#`/hAooOm2BiS;:-pQU,"=L8%15is/g)?*
-FE21J7Q2M#$;No?+<j0pEbm7)BPD(#.n2HA%15is/g)?:BPD(#.n2HA%13OO7P[%[4&TX,@;BEs
-6ZmEiASuTOCi<`m+=BltEcQ)==E7tb-QlV90d(LYF<Dr?F_PZ&D/"$2DfR3J>9J!,CiX*.ATV9u
-F)c#1FCef%-RU$@+Cf5!@<*J<-OgDMFE21J7P[%[4&]^4+@C9lEb0-14*#Bb-ZF*@D/"$2DfR3J
->9Iip+=D5IF_>Z=FCfJ?+BosE+E(d5-RT?16Zd?b.oU+qAooOm1-73P7!3?c+Ad3&4*#Bb-Y.@:
-E,]rA-OgDP1HR<Q;IsijBl[c-8l%i:Eb065Bl[c--YI".ATD3q05>E9-OgDMFE21J7Pd+\4&TX"
-H"1Z%+A,Et4"+i^A8c?./0J\GA8c'l.3L>S$<(VPAooOm1HR<Q8l%ht87cUV4)/\EBOu"!+>=63
-7Pm1\4%*XhF_;gpF`'9O@WHU/+=ANG$:Zp80fr?GF*&O'D/X3$4'a4/8PN#(F)>i2AKZ)+F*&c=
-$<(VPAooOm2ENWT<+U,m+@9LXBk'4P:.\/V+C\c#Bk&9-ATMr@D/"$2DfT2uBleB7Ed;#/A26(Q
-$>jKtEc5t@/KeP:@;]^h+D>J1FDl2F%156]4Ztqk4Ztqk4Ztqk4Ztqk4Ztqk4Ztqk4Zs5]%14=)
-,9T]hEarc*0f(@'1,(FC%13OO+=\L#@<6-m+Eh=:F(oQ1/0Je<CLnVsDIal#@<?''DJsZ8+CSek
-ARlp*D]iF^Bl\64E`d?nAmd5#$4R=e,9n=*@<,jk+>k\m1,(FC%13OO+=\LAD/"$2DfRI@@UL=!
-ASbdsARlp&Ec5T2@;U'.@<,p%DJs_A@rH4'Ch7i6ASuF/B4q_]+<Ve8DIal(D/aE6FCB'/+D#G/
-F_>A1FDi:=ATDL,+C\o(FCfJ8BPDO0DfU+GFE1f"CM@[!/e&.1+<V+#+<Ve+BOr;uDes6.GA1r-
-+Cf(nDJ*O%+D>2,AKYGnASrW"AS#a%D.-sd/e&.1+<V+#+<Vd]/g*Gt+E).6Bl7K)F`;/8@:UKj
-BOt[h+D,P4+CoV6Ch[BfFCcS,Bl%?'DIIBnF!,.)F!+q'ASrW!A7T7^/e&.1+<VdL+=^?(AKYT!
-Ch4`,@;TQuBlbD*+DtV0F`Lo,+DYP6+D,P4+B*-"B2*M]+CSbiDfor>F"Spb<+ohcF`;/8@:TfS
-#p:?5F`_>6BlnVCF),K/F!,"9E,95u@<?(%+EqL1DBNb6@:X(iB-:o+FDi:1+D5D3ASrW'@;Kak
-Ed8d:F`\'"#p:?58K_\TG%De;AS#a%A9Dj-Bk(RnATJu<BOu'(F(8WrDJ=!$+D,>(ATJu&@rcL/
-F!+n-C`mA!Ci!['Bk;?<%13Ca+<X6t+EM76E,96#Bk;?.?u9UuEc5tNA7AphE,ol,ATMp,DJ()+
-Afu#0Ch[cu+D,>(AKYl!D.Rc2@<,p%F`(o5F_*07$4.gt+CK>2Ci<`m@q]F`CG'()FC65$BOt[h
-F!,UECi<`mF!,(5EZen8E,95u@<?(%/e&-o+<V+#+<Vd^/g*_.BOQ'q+Dl%-BkD'jA0>8ZBQ\0$
-F%p@hEc5tNBkh]s+EVNE@q]F`CER5-EZfI;AKYr4ATMF#@q?d$Ado(i+<VdL+CQC7ATMr9G%G]8
-Bl@l3De:,6BOr;b;+t\GAKXrcF_tT/E,9Z<+E2@8D..I1+Cno&@:EYdAKYE!A0?#9AKY]/%13Ca
-+<YB1+E2@4F(K62/g+P$BQ\0$F%p@hEc5tNBkh]s+DGm>FD,5.Df0B:+EM%5BlJ/:FD,*)+Dl%-
-BkD'jEt&I!+<VdL+CQBlBQ\0$F!,"%FCAWeF(HsH<+ohcE,oZ0@<-W9A79Rg@UX=h+DGm>Df0,/
-De:,/Gp$sBF*&OHEb/[#F`M&(%144#+<VdLAnc'mF"SS/ATT;@+Du+>+EM%5ATo82F<G^F+Unbf
-$6UH61G0eA+D>2,AKYDlA7]9o@3BW*D/a<&+Dk[uDK?qBD]iP.D/Ej%F<GLEF<GC6DIml3Bl5&$
-D..<uDe!^1Eb/i8FEhn8%144#+<VdL<+ohcDffZ(EZf76B4uB0F)Po,+DkP)F^])/@rHC.ARfgr
-Df0V=8K_S^FCfK(A0>T(FDi:DBPDN1Anc'm%144#+<VdL@WHC&AKYo/AKYo'+DlBHB45UmATDKr
-F"SS2DIjr/EZf4;Eb-A3Afu2/AKYK$EcP`$FD5Z2F!+n3AKZ2;Df02?%13Ca+<XEtG9D!@@<<V`
-+Ceht+D"u&Bl&&;F*D>?@q[!,D]iI2E,oZ0@<-W9FCfN8+Cno&@:EYdAKYE!A.8kP+<Ve:Df'?&
-DKI">F`\a:@<>p#Ch[cuF!,1=+EM47F_kS2@V$Zn@<6]:FDi:6Bl7H(FD,5.De<TmDIdI!B-;5+
-@rHBuF"Rn/%144#+>b\n8K_GY+D5V,DJ()6D]j+C@<-H4D..3oDJ()5F`M%9DfTQ)Bl7?q+D,>(
-ATJu-@<Q3)A8,XfATD@"F<GI0D.Rbt$6UH6+<VeKBOPd$,%P8.ASc:(ARloqBl%@%/g;EGD/"$2
-DfRI@@UL<gDe*E%E+*I$ARlp)Df'&.DfTQ)Bl7?q%144#+<VdL?tsX9?m&lqA0>f4BOu3,Anc'm
-F!,[@FD)e8DJX$)AKYl!D.Rc@+B3#cF(HJ5@;0b'+CT;%+EqjEDJ'Cc+<VdL+<Y*1A0>o(F*2;@
-+D,Y4D'3q6AKYo3BkM-t@;I&pDIal#AThX$DfB8u+D,>(ATJu-@<Q@&B-;;0AKVEh+<VdL+<Y`6
-D.Oi-@;TQu@Wcc8A8,XfATD@"F<G.>FCf?2Bl@m1/g*`'+EV:.+D,b<F`M%98K`4kChsOf+<VdL
-+<Y*3E+Not+EV:.+D,P.Ci=N3DJ()5F_56"G\(q=FDi:1Cht58@ps6tAnc'mF"Rn/+<VdL+<Vd9
-$6UH6+<Vd]/g+PC@q&ggAo(mt@V''mF(8WrF!+k-Gp$^8@<<W$ARlp)@ps6tDIIBn+EM%%/o#>\
-?k!Gc+<VdL+>PPl?uogi?m'&qCi(;9@ps7r+CK&3+D,>(D'3n0@;[3*@;TQuF(8f7C2bq9%144#
-+<VdL1G0eXF(8]f+CehsATD3%F(8WrF!+k-Gp$U*D.R`r+EM%$DBNh*D.Oi2@q.-5BkC`^$4R=b
-+<VdL+@KpVBlmd"+DG\$B4W2tBl%@%+CT;%+D58'ATD3qCj@.@Dfd+1+E2@>@VfUm+CT=6FD,5.
-%144#+<VdLDIIBnF!+t$D.R`rF!+n4F(o9)+EVNEBl.9kATJu&Eb-A7D]i_-A7]\%F!,R<@<<V`
-%144#+<VdL@;R-!DfT?!A0>u4+Cf(nDJ*N'FD,6"EZf7.D.Rc@%13OO+:SZ#%17&pC2I[*Ec5tR
-0ht%f.WBECD/"$2DfQtA/M/)dATW'6+AHQjEc5u#Eb/i*E,ol3ARfg7%13OO@rGk"EcP`/F<Dr?
-@<6!-%13OOCi<`m+=C].FC?hDEGT?2AL@oo%16QTBk)3kBkhQs?TgFm4$"c<-Y[F/GUG((4u%Cp
-Bk/>?.3g3SD.Rr7-RgSoF)?&4E-ZP:EZfLHBl%i<+:SZrA0>>lBk)3kBkhQs?Q`Pq1E^UH+=ANG
-$>OKiB4#@fDe*3<3ZoeEBl\64E`d?nAg\#p%17/eEaNNqDe*3<3Zoe[3\PPkF_>Q*EcQ)=05YED
-Ec5tG+<VdL+<VdL+<VdL+<VdL+<VdL+<XEG/g,"FEcQ)=+Co2,ARfh#Ed8*$:-pQUF)kbtBkhQs
-?TgFm-Y#1jFD,f6@WQ'hF"_KQBl.:!Gqq'.3%f;lA7@N>-QjNS+<VdL+<VdL:-pQUFD,f6@WQL)
-F`S[9@LWZcEarHjC2[Wi4ZX]5@lc8bBQ\0$F(Aa$05trGD..I1FCfN8/p)&C@Q8EV+:S["EbA`n
-C2[Wi4ZX]5@lc8aD09K.Bl\64E\CsA@s)X"DKKqQG]IA-A7@3/Bl\64E\:m3-QjO,67sBtBl\64
-EZen%%13OO:-pQUCi<`m+E_a:Ap%o4F`_>6F!,17FDi9MBkhQs.1HVZ67sB.BkhQs-Qm&5F<Gua
-+D5_6+=CfBE+<]mF)uJGBl%i<%15is/g)NUC2[W1+D58-+FPjbB6%r6-Y-[tG]Y;B$;No?+=Cl<
-De(4<B4Z0-I4cXTEc<-KA7]suBlmp$F(96)E-*H:$7BP&De(4<B4Z1*GT](/-ZjDPAnQ-,BkCj&
-+:SZQ67sC%ATT&9D09fCFCfJ8F`V,7+DYP6Et&ItD/XQ=E-67F-ZsKAE_BthF!,L7F(KG@%14M*
-Db*Z&<$47FHTE9#+>G!XBk(p$1a$FBF<DrJBl\64E`I0lE_BthF!iCZGB.D>AKY`,@<?0*-[oQD
-DJ!Tq06M>IEbf63F"Us7B."f2$?L'&F`_SFF<Dr*Bl\64E`d?nAfu&5De`inF<GX9FEMOME,o]7
-D09K1H$!V<1,2Nj/h1g\C3+67B5i-<ATAo7/M/)dATW'6+EMCBB5i-<ATAo4Ec5](@rs=4$4R>P
-De!p1Eb0-1+=CW,F(H^.$?'Gt4$"a1D09K1H$!V<+E_d?Ci^sH>9G^EDe't<-OgDtDe*KfBkhQs
-?TgFm-W=l)B2EkqATB.-$;No?+Dbt)A0?#9AS-($+E_d?Ci^_5DKKe>-u!F7A17rp:-pQU-Y[=6
-A1&L4ATT&C/g+eIE$-N@Ec>N)@<6L4FD5Q4-OgDX67sB.BkhQs-Qm&5F<Gua+D5_6+=C]/AU&;E
-%15is/g)NUC2[W1+D58-+FPjbB6%r6-Y-e4BPDR"C3*m*BlJ/A%14IsC2[W1+D58-+=D8P-OgD1
-BkhQs-Qm&5F<DrMEbTE5F(or3CLqcu@UX=l@ru:'FC\g%@4*0?%15is/g,4HF<GXAF`;VJATAo9
-F(KA7CLqd4%17/nDfp/@F`\`RF`V,794`Bi+ED%7ATT:/$7L"785E/`+?L]m3Zosr0d(FL@r!2D
-+D58-+=D5IF_>Z=FCfJmF(KAbAU/>E.3NhTBlmo/C2dU'BHS[O@rH6sBkK)AF(KB-AU/>L@qK@$
-+:S[!D/XQ=E-67F-Za-IB5i-<ATAo4Ec5](@rri7ATW'6+=D,KC34-3D.7QA0ht%f.WBECFD,f6
-@WNZ5/M/)dATW'6+B3#sD.7Q\Bl\64EZf=ADe`inF=n"0%16T`@s)g4ASuT4-XpM*AL@oo%16oi
-@:UK.A79Rg06;,LBlmo6%13OO@Us1_F'iWrDe*3<3ZpLF-n$HWD.Rr>/NQ'MHXpi$+>>5h-Y[F/
-GT\@_/15LUF_>Z=FCfJ8F`_>6F!i(>$?'Gt@Us1_F'iWrDe*2t>9G^EDe't<-OgDtDe*KfBkhQs
-?TgFm-WFc%D.7Q\Bl\64E[M;'%17/eEaNNqDe*3<3Zoe[3\PPkF_>Q*EcQ)=05YEDEc5tG+<VdL
-+<VdL+<VdL+<VdL+<VdL+<XEG/g,"FEcQ)=+Co2,ARfh#Ed8*$F)kbtBkhQs?TgFm-Y#1jFD,f6
-@WQ'hF"_KQBl.:!H$!V=F=qZSA7@N>-QjNS+<VdL+<VdL:-pQUFD,f6@WQL)F`S[9@LWZdEbA`n
-C2[Wi4ZX]5@lc8aD09K.Bl\64E\CsA@s)X"DKKqQG]IA-A7@3/Bl\64E\:m3-QjO,67sBtBl\64
-EZen%%13OO:-pQUCi<`m+E_a:Ap%o4F`_>6F!,17FDi9MBkhQs.1HVZ67sB.BkhQs-Qm&5F<Gua
-+D5_6+=CfBE+<]mF)uJGBl%i<%15is/g)NUC2[W1+D58-+FPjbB6%r6-Y-[tG]Y;B$;No?+=Cl<
-De(4<B4Z0-I4cXTEc<-KA7]suBlmp$F(96)E-*H:$7BP&De(4<B4Z1*GT](/-ZjDPAnQ-,BkCj&
-+:SZQ67sC%ATT&9D09fCFCfJ8F`V,7+DYP6Et&ItD/XQ=E-67F-ZsKAE_BthF!,L7F(KG@%14M*
-Db*Z&<$47FHTE9#+>G!XBk(p$1a$FBF<DrQBQ\0$F&d9mE_BthF!iCZGB.D>AKY`,@<?0*-[oQD
-DJ!Tq06M>IEbf63F"Us7B."f2$?L'&F`_SFF<Dr1BQ\0$F%p@hEc5t@E,ol3ARfg)F(KH9E$o^D
-F_>Z=FCfJmF(KAbAU/>P2,6Ij+E_a:Ebf63F"Us7B+52C67r]S:-pQU;e9M_GA1i,+E1b%AKZ2@
-G:mWODe=*8@<,p3@rH3;C3OB-BeMu!Bk1dr010YqAnbm28l9[`<HD_l94`Bi%15is/g+S=F)O)^
-BQS?83\N.$F)PZ4G@>N'/n8g:05#!@Ch[s406))JA7[B+Bll";Ci<c9D..L-ATBG?Bjr`)@<6!5
-F`V,7CLqd4/n8j>%15is/e&._67sBLG[YH.Ch7ZK%15is/g)9+1HR<Q9keKVF*D2,E+O&OCi<`m
-+=DVHA7TUrF"_07D.RcAD/!m!F*D2,E+O&CF_Q&1/no'A-OgDX67sB'6Zd?b.nD`U4%F+*F)tc1
-GroJUDg-86?YWpqBQS?83\N.1GBYZSF)PZ4G@>N'/n8g:05>]FCM>G&De!3bF_kK,GqV[(Df]u.
-Ed9#A$;No?%15is/g)?*FE21J7Q)G"$;No?+<j0pEbm7)BPD(#.n2E@%15is/g)?:BPD(#.n2E@
-%15is/g)?-2^/\<:-pQU,"$HmCb%t6+q4lS67sB)6Zd?b.oU+qAooOm2^/\<:-pQU,#`/hAooOm
-2^/\<%15Q[4#&fpASkjkAKX?_EcP`/F?=;OINWBDA7m#h+Cf5!@<*J<-OgDMFE21J7P[%[4&]^4
-+@C9lEb0-14*#Bb-ZF*@F)?&4E-ZP:E[Mu6+E(d5-Za-IB5i-<ATB.@>9G^EDe't<-OgDMFE21J
-;eTlWF=Tg94#&fbF_u(?:j$kAEcW?NA9Da.E-67M%15Q\4#&fpAT;j,Eb-@c:II9bAT;j,Eb-@@
-B4YslEa`c;C2[W1%15IEEbm6q1HR<Q;Is?`@r,^!8l%i:-u*[2Df-[K+DPh*De<T1+>F<4;eTlW
-F=Tg:4#&fh:IH<rASc<IC2[WrASc<.0F\@Y1cmBQ6tKhMB-:)pDEDB<Ecl7B-RT?17Q*=_4&fd4
-F<FM!DeioG?#XguDKKr6H=^l'Gp%'HBl8$6BmO?+AU.Wl@<6-mFCfN8A79Rg%16$IBkDH;7Q*=_
-4&fd4F<EnYF(o,G0d(LYF<DrMEbTE5F(or3CLqcu@UX=l@k]SaFD,f6@WPOjATCFTH#k_u:-pQU
-F`V,7CLqd4/n8L+%15is/e&._67sBZAS!!.BkqE*E+*Bj+Er$R/o#HGAor6*Eb-k5Df%.BGA1i,
-01U/!A7]g86Z6jSBkK(k;04HkF(KAbAU/>+$;No?+CT)-D`T"SFEDI_0/%']De=*8@<,p3@rH3;
-B5)I(BleALEHGo*AM.V0F>%*>DdkA:@<6O%E\D6C@P;2!F(I"IF(KB-AU/>L@rQAr$;No?%15is
-/g*T-@;Tt"ATKmA$;No?+<X-04#&fkBl7L'G@b?)ATBkKDdd0!-[oK7A8c@,05"^1ATKMABl7L'
-G@b?)ATBGHBm4)?Bkh]:%15is/g)9(FE21J838Le7r3*bF('*74(<5KGB7>&C0r?%FEDI_0/%Nn
-G:mWODe=*8@<,p3@rH3;C3OB-BeNM*@prhhCgh@001ThsF)tc1Gpa%.:-pQB$;No?+<j0pEbm6q
-2BiS;:-pQU,"$HmCb&FtBkDH;7Q)G"$;No?+<j`tBkDH;7Q)G"$;No?+<j96+q4lS67sB)6Zd?b
-.n2HA%15is/g)?*FE21J;eTlWF=Tg>+q4lS67sB);eTlWF=Tg>+q4kg$:Zd40fr9ED..3k+@C9l
-Eb0-14)AhDA0<7!BQ\0$F%p@hEc5tG+Bos20d(LYF<Dr?F_PZ&FD,f6@WNn>>9J!,CiX*.ATV9u
-F)c#1FCef%-RU$@+Cf5!@<*J<-OgDMFE21J7P[%[4&]^4+@C9lEb0-14*#Bb-ZF*@FD,f6@WNn>
->9Iip+=D5IF_>Z=FCfJ?+BosE+E(d5-RT?16Zd?b.oU+qAooOm1-73P7!3?c+Ad3&4*#Bb-Y.@:
-E,]rA-OgDP1HR<Q;IsijBl[c-8l%i:Eb065Bl[c--YI".ATD3q05>E9-OgDMFE21J7Pd+\4&TX"
-H"1Z%+A,Et4"+i^A8c?./0J\GA8c'l.3L>S$<(VPAooOm1HR<Q8l%ht87cUV4)/\EBOu"!+>=63
-7Pm1\4%*XhF_;gpF`'9O@WHU/+=ANG$:Zp80fr?GF*&O'D/X3$4'a4/8PN#(F)>i2AKZ)+F*&c=
-$<(VPAooOm2ENWT<+U,m+@9LXBk'4P:.\/V+C\c#Bk&9-ATMr@                        ~>
+0f1m50fC.1+>Pbr1*AP30f'q,2BXat0fLjI+>G_r1*A>03$9t3+>P&p1,0n+2]sju1,1^13?U("
+0fLjH+>GYp1*AP92]sh4+>P&q2DR!00f1".+?2>8+>Get1*A>-0eje1+>P'!0JXb2+>P'!1Gp:0
+1*A=p2)%!43?U("2`Nf?0fL41+?288+>G\q1*AP91dPYeF`VXmDf'3+@;^0SDes?4F'j$6F>>^(
+/M/P+/LrD)/M/P+/M/P+/M/P+/M/P+/M/P+/LrD)/M/P+/M/P)/M/P+/M/P+/M/P)/M/P+/M/P+
+/M/P)/M/P+/M/P)$@H?%F`);K@rH1%EZf./Gp"4P+<VdL+<VdL+<VeSAo_I&F_,H#H$jRBEarZu
+F<D\K+FI[AD/FE3@<?4,AUJN0G%G]8AUFh8/M/P+/LrD)/M/P+/M/P+/M/P+/M/P+/M/P+/LrD)
+/M/P+/M/P)/M/P+/M/P+/M/P)/M/P+/M/P+/M/P)/M/P+/M/P)$@Es=0d%Td?nbqu@<-.)CghEs
+B6%R/+<VdL+<VeS1cI*2+<VdL+FG:S0ek:72DI$D2LI56/hf1<1bps3+FH"$1cZ[$+FFND+<WE^
++FIQN?Xdh[@r!20+<VdL+<VdL+<VdL+FGt'1a!n`+<VeS+<WWr2)[?O1,1\70f^jE1,q!F3$9>k
+1H.6Q+<VeS$@Es=1E[ff?nbquBl.L'AU,C@+<VdL+<VdL+<VeS1,_$5+<VdL+FG:S2D-aC0JYXH
+21./:/iYgM1c.$3+FGt%0f:'r+FFND+<WK`+FIQN?Y!ScCM.[!Gp"4P+<VdL+<VdL+FGq#0H_J\
++<VeS+<WNo1bgd?1H74=1GLL<0JPCD1E[ff1GL^H+<VeS$@Es=2'=#h?nbr#@;0V#@W-:*+<VdL
++<VdL+<VeS1,(C)+<VdL+FG:S1bL^@2E<`W3IEV@/het=1cI35+FGq)0f^@!+FFND+<WQb+FIQN
+?Y=CjGp"4P+<VdL+<VdL+<VdL+FGn(2]s4c+<VeS+<Vd`/iGLD1H77>1b^O?1c.0L3$9>k1,gpJ
++<VeS$@Es=2]s5j?nbqu@<-.%Ch\'(B6%QpDBL&E+<VeS0fV-8+<VdL+FG:S1bLU?1c73G21.5<
+/hf1D1bq$5+FGq%1,9sp+FFND+<WWd+FIQN?YjFhBQRm-AU,C@+<VdL+<VdL+FGn'2BX+b+<VeS
++<WKn1H.6M0JGD41c[0F1c@?L3?TGl1,C^C+<VeS$@Es=3?TGl?nbr.Df^25Ec6/>+<VdL+<VdL
++<VeS0fUs3+<VdL+FG:S1bLR<2E3]S2gdJ=/iPXD3&3<5+FGq!1cQU#+FFND+>GPm+FIQN?YjFh
+BQS<;AS#[eCis;3+<VdL+FGn'1*@\^+<VeS+<WKn1,q'G2D@+<2)m3B1H.$J2'=#h0f_-L+<VeS
+$@EsN0d%Td?nbr/FCf$"@Vg0u+<VdL+<VdL+<VeS0f:s6+<VdL+FG:S+>YW/1bpaB2gdM</iP^L
+1,La/+FGn&3&;["+FFND+>GVo+FIQN?ZTptG%G\:+<VdL+<VdL+<VdL+FGmu2BX+b+<VeS+<WEl
+2`!-A2)I%82Dd$D0KCmK2BX,i0fCdD+<VeS$@EsN1E[ff?nbr(@<Q4"A7]d(+<VdL+<VdL+<VeS
+0ek@)+<VdL+FG:S1+kFD3&i`O1jh2?/hf:F0f1U-+FGn$0K:0t+FFND+>G\q+FIQN?Z]^o+<VdL
++<VdL+<VdL+<VdL+FGmu0H_J\+<VeS+<WEl2)mQT1c.%:2E<BJ3&WcV2'=#h0f(gL+<VeS$@EsN
+2'=#h?nbr(BkM+$F)59,AS6$pGp"4P+<VeS+?);'+<VdL+FG:S+>GK.2*!EM0mko7/i>ID1,Lm3
++FGn!3&i$'+FFND+>Gbs+FIQN?Xn"pDJ!^'G@bf(Cis;3+<VdL+FG:j1E[e_+<VeS+<WBk2_d9G
+2)-n72`!'A2Dd0L2]s5j0etFC+<VeS$@EsN2]s5j?nbr3BPDR"F)>i2AKW*<+<VdL+<VeS+>u5&
++<VdL+FG:S0eP@>1H@0E21.>>/iYgM1,(^2+FGmu1H$?u+FFND+>Ghu+FIQN?ZTXdA8GgdEc6/>
++<VdL+<VdL+FG:i1E[e_+<VeS+<WBk1cR6L0JPP72`<9E2_[6H0d%Td0ebLE+<VeS$@EsN3?TGl
+?nbr/Bk;1"@3?[8+<VdL+<VdL+<VeS+>l,$+<VdL+FG:S0eP7?2)$dE0mko=/iPRD3AWW;+FGmt
+0Jjmp+FFND+>PVn+FIQN?ZU".@Vg0u+<VdL+<VdL+<VdL+FG:h1E[e_+<VeS+<WBk1,LpG2)6t8
++?)843B/fM3?TGl+?;8:+<VeS$@EsO0d%Td?nbr,ATDo9+<VdL+<VdL+<VdL+<VeS+>khq+<VdL
++FG:S0eP1>2E*HO21.A;/ho7<0Jb[2+FG:k3AVd#+FFND+>P\p+FIQN?YsLfDJ<`sFCK'/AKW*<
++<VdL+FG:g3?TFe+<VeS+<WBk0f:aB0etV6+?2).1GL[@2'=#h+?226+<VeS$@EsO1E[ff?nbr(
+Bl7L"+<VdL+<VdL+<VdL+<VeS+>bnt+<VdL+FG:S0eP.92)R0K3.*\@/i,=D2`Nc>+FG:j3A_j$
++FFND+>Pbr+FIQN?YjFhBQR^"F_)[<+<VdL+<VdL+FG:g1a!n`+<VeS+<WBk0JbRD1H.:@3&<0C
+3&EEH2BX,i+?)/3+<VeS$@EsO2'=#h?nbr+Ch\'(A9)*f+<VdL+<VdL+<VeS+>bbp+<VdL+FG:c
+/ibaC1H@BS3.*\B/i,7?2_m34+FG:j0K($r+FFND+>Pht+FIQN?[$0p@<<V7+<VdL+<VdL+<VdL
++FG:f3?TFe+<VeS+>>E.0fM'M1GCV43&N<D1c%!K2]s5j+>u,9+<VeS$@EsO2]s5j?nbqu@<-.!
+BOP[j+<VdL+<VdL+<VeS+>Yu"+<VdL+FG:c/iYjJ1GUpD3.*\D/ho.@3AEB6+FG:i1,g<u+FFND
++>Po!+FIQN?ZU$lFCf**AU,C@+<VdL+<VdL+FG:f3$9=d+<VeS+>>E-3A`NI3&!=>3&`HD1GU^B
+1E[ff+>l,=+<VeS$@EsO3?TGl?nbqsF`M;DGAhD1+<VdL+<VdL+<VeS+>Yr!+<VdL+FG:c/iYdD
+2`WZK1OM/@/ibUA0JbU0+FG:h2)-3r+FFND+>Y\o+FIQN?[$0tFCcR;+<VdL+<VdL+<VdL+FG:f
+1a!n`+<VeS+>>E-0JG4@3&3I@3&iNL0JbI>1a!og+>kl1+<VeS$@EsP0d%Td?nbr/DJs_A+<VdL
++<VdL+<VdL+<VeS+>Pr"+<VdL+FG:c/iG[E2)-mE1OM/B/i,IE2`!E9+FG:g3%uHt+FFND+>Ybq
++FIQN?Y!ScCNF<#FCeotF_)[<+<VdL+FG:e2BX+b+<VeS+>>E+0ek[B3&WaD3&rTO3B&iQ2]s5j
++>br1+<VeS$@EsP1E[ff?nbqt@:Wqk@Vg0u+<VdL+<VdL+<VeS+>Pes+<VdL+FG:c/i>UJ1H.*K
+1OL<*0J54B2D?m/+FG:g1,U0s+FFND+>Yhs+FIQN?Ys4lDf9M9+<VdL+<VdL+<VdL+FG:e1E[e_
++<VeS+>>E*1bgd?1H74=3AE-@1,h!E1a!og+>bc++<VeS$@EsP2'=#h?nbr,Dg,`'Eaij-AKW*<
++<VdL+<VeS+>P_q+<VdL+FG:c/i>I?1GCUE1jh;</iGUI2DR67+FG:f2`Dj%+FFND+>Ynu+FIQN
+?X[hoBlS9,GA(]4AKW*<+<VdL+FG:e0H_J\+<VeS+>>E)2_[-M3&s!H3AN3A1H@6H2]s5j+>Yl3
++<VeS$@EsP2]s5j?nbr%DIdHiDK9<!+<VdL+<VdL+<VeS+>Get+<VdL+FG:c/i5790KCsE1jh;=
+/i>FF1bpd.+FG:f1Gg3s+FFND+>Yu"+FIQN?Y4"mAR][o@r!20+<VdL+<VdL+FG:d2'="a+<VeS
++>>E(2)?pA1bpn83AN3H3ANEJ2'=#h+>Y`2+<VeS$@EsP3?TGl?nbr(BkM+$F)-&1Cis;3+<VdL
++<VeS+>G\q+<VdL+FG:c/i,7C1cRKN3IEhC/i#1:3AWN8+FG:f0JXan+FFND+>bbp+FIQN?Y!Sc
+CNF&qB6%QpDBL&E+<VdL+FG:d1a!n`+<VeS+>>E(1-%0N3ANUB3AW9F2)-pC1a!og+>Po9+<VeS
+$@EsQ0d%Td?nbr/@;]V$@WHC2DBL&E+<VdL+<VeS+>G\q+<VdL+FG:c/i,7C1cRKN3IEhC/iYgE
+3AE<4+FG:e2`)X"+FFND+>bhr+FIQN?Xd_jEHPh8+<VdL+<VdL+<VdL+FG:d0d%S]+<VeS+>>E'
+2)mQT1c.%:3A`?C1H@BS3$9>k+>Pi/+<VeS$@EsQ1E[ff?nbr#DerrqDK9Z++<VdL+<VdL+<VeS
++>GSn+<VdL+FG:c/i#:D3&i`O1jh;?/i,LI2E3H7+FG:e1cZ[$+FFND+>bnt+FIQN?Z]jfC`jiC
++<VdL+<VdL+<VdL+FG:d0H_J\+<VeS+>>E'1GpsF3A`aD3A`?H1GgdA1*@]e+>P`4+<VeS$@EsQ
+2'=#h?nbr#BQ%s6GA(]4AKW*<+<VdL+<VeS+>GPm+<VdL+FG:c/i#4?1Gh*K3IEhD/iYaL1H7*3
++FG:e1,pC!+FFND+>bu!+FIQN?Xe%oGA\NG+<VdL+<VdL+<VdL+FG:S3?TFe+<VeS+>>E'0ekXB
+1c7+;3AiEC3&*-J2BX,i+>PZ2+<VeS$@EsQ2]s5j?nbr0BPDO0Ch4_3+<VdL+<VdL+<VeS+<WZe
++<VdL+FG:c/i#.93&*6I1jgE+2(gXE1GCO++FG:e0KC6u+FFND+>c&#+FIQN?XdS\B4W2.+<VdL
++<VdL+<VdL+FG:S3$9=d+<VeS+<W?j0fV-J2`WdD+?;;31cR3F3?TGl+>PW)+<VeS$@EsQ3?TGl
+?nbqtEbTB3Df-[?+<VdL+<VdL+<VeS+<WWd+<VdL+FG:S0J5(>3&3EQ2LIMB/iGUJ2)[H;+FG:d
+3AM^"+FFND+>khq+FIQN?ZL(1@;KChF_)[<+<VdL+<VdL+FG:S3$9=d+<VeS+<W?j0fV-J2`WdD
+3AiEK2)dKO3?TGl+>Gi4+<VeS$@EsR0d%Td?nbr+Ea`iuATD?m+<VdL+<VdL+<VeS+<WWd+<VdL
++FG:S0J5(>3&3EQ2LIMC/hf+?0eta3+FG:d2`;d$+FFND+>kns+FIQN?Xmbf@rH0lFCcR;+<VdL
++<VdL+FG:S3$9=d+<VeS+<W?j0fV-J2`WdD3ArKF1GgpB3$9>k+>Gc6+<VeS$@EsR1E[ff?nbr+
+Ch.?j@q?c*+<VdL+<VdL+<VeS+<WTc+<VdL+FG:c/ho7@2`*?L21.DB/i,LJ0f:a0+FG:d2D?6r
++FFND+>ktu+FIQN?Y!_ZE-#f?@Vg0u+<VdL+<VdL+FG:S2]s4c+<VeS+>>E&2Dd?L1c@4=3ArKI
+2D[<Q2]s5j+>G`0+<VeS$@EsR2'=#h?nbr,@;KLfDerrqDK9Z++<VdL+<VeS+<WQb+<VdL+FG:S
+0J5(:0etFC2gdVD/iPIA0ebO/+FG:d1c?I!+FFND+>l&"+FIQN?Y=:nA0<!;+<VdL+<VdL+<VdL
++FG:S2BX+b+<VeS+<W?j0f1U?0KD(>3ArKL1c@-E2]s5j+>G],+<VeS$@EsR2]s5j?nbr+Ch\'(
++<VdL+<VdL+<VdL+<VeS+<WQb+<VdL+FG:S0J5(:0etFC2gdVD/ibmM2)7'4+FG:d1Gg3s+FFND
++>l,$+FIQN?Y!ScCM.[!ASrV5+<VdL+<VdL+FG:S2BX+b+<VeS+<W?j0f1U?0KD(>3B&QF1,q3K
+2BX,i+>GW2+<VeS$@EsR3?TGl?nbqu@<-.)@;Ke!DBL&E+<VdL+<VeS+<WQb+<VdL+FG:S0J5(:
+0etFC2gdVE/i#=F3A`W:+FG:d1,9sp+FFND+>tnr+FIQN?Z9FiATW'8EHQ26F(HI:+<VdL+FG:S
+2'="a+<VeS+>>E&0fM!L1cI:>3B&QH3&``N0d%Td+>GT/+<VeS$@EsS0d%Td?nbqu@<--rDerrq
+DK9Z++<VdL+<VeS+<WNa+<VdL+FG:c/ho(>2E*HO21.DC/i>=?1-%37+FG:d0ejdn+FFND+>ttt
++FIQN?Y!ScCL_WuDBL&E+<VdL+<VdL+FG:S2'="a+<VeS+>>E&0fM!L1cI:>+?;A52DR$J2]s5j
++>GQ.+<VeS$@EsS1E[ff?nbr/ART4lAS#a%+<VdL+<VdL+<VeS+<WNa+<VdL+FG:c/ho(>2E*HO
+21.DC/iPU@2Dd96+FG:d0JO[m+FFND+>u&!+FIQN?X[bb@qB+cF_)[<+<VdL+<VdL+FG:S2'="a
++<VeS+>>E&0fM!L1cI:>+?;A53&NZO1*@]e+<W[&+<VeS$@EsS2'=#h?nbr*@<Q'oDg,l/FCcR;
++<VdL+<VeS+<WK`+<VdL+FGjq0KCsE1H@BS3.*_F/ibdE1c799+FG:S3ADX!+FFND+>u,#+FIQN
+?YjFhBQRa0@;[21+<VdL+<VdL+FG:S1a!n`+<VeS0J5%>1bgdH2`WjF3B/WF1c@3O3?TGl+<WX&
++<VeS$@EsS2]s5j?nbr0Df&p)D]g/F+<VdL+<VdL+<VeS+<WK`+<VdL+FGjq0KCsE1H@BS3.*_G
+/ho1:2`!H:+FG:S3&;["+FFND+>u2%+FIQN?YsLpFCT?&@;R,0+<VdL+<VdL+FG:S1a!n`+<VeS
+0J5%>1bgdH2`WjF3B/WH1Gh'M3?TGl+<WU'+<VeS$@EsS3?TGl?nbquDe*KlEaij-AKW*<+<VdL
++<VeS+<WK`+<VdL+FGjq0KCsE1H@BS3.*_G/i,7C0JPR1+FG:S2`2^#+FFND+?(ts+FIQN?YjFh
+BQRm*Ch.*pEc5K6ASc1$GC1MU1E[e_+<VeS0J5%<0K(UA3&EUB3B/WI3B8uQ1E[ff+<WTt+<VeS
+$@EsT0d%Td?nbqu@<-.(ARlo++<VdL+<VdL+<VeS+<WH_+<VdL+FGjq0K1[D0JkaG3.*_G/i5L@
+1,:g3+FG:S2E2g%+FFND+?)%u+FIQN?Z9^sCEO`B+<VdL+<VdL+<VdL+FG:S1E[e_+<VeS0J5%<
+0K(UA3&EUB3B/WK1b^mF1E[ff+<WR"+<VeS$@EsT1E[ff?nbr"Ci=?&Cj0Q,FCcR;+<VdL+<VeS
++<WH_+<VdL+FGjq0K1[D0JkaG3.*_G/iGF=1c%*6+FG:S2DQBt+FFND+?),"+FIQN?YjFhBQS3-
+DJL@;+<VdL+<VdL+FG:S1E[e_+<VeS0J5%<0K(UA3&EUB3B/WL3&30E1E[ff+<WO%+<VeS$@EsT
+2'=#h?nbqu@<-.%Ea`iuAKW*<+<VdL+<VeS+<WH_+<VdL+FGjq0K1[D0JkaG3.*_G/iPXC2DdB9
++FG:S2)ZR"+FFND+?)2$+FIQN?YsLuFEqnFF(HI:+<VdL+<VdL+FG:S1E[e_+<VeS0J5%<0K(UA
+3&EUB3B/WN1,C[C1E[ff+<WNt+<VeS$@EsT2]s5j?nbr'BOP[j+<VdL+<VdL+<VdL+<VeS+<WH_
++<VdL+FGjq0K1[D0JkaG3.*_G/iYjI3&NW;+FG:S2)$-q+FFND+?)8&+FIQN?Y!_ZE,]N/CEO`B
++<VdL+<VdL+FG:S1E[e_+<VeS0J5%<0K(UA3&EUB3B/WO2Dd6K1*@]e+<WL"+<VeS$@EsT3?TGl
+?nbr,@;KLuBl@g!FE1r'+<VdL+<VeS+<WH_+<VdL+FGjq0K1[D0JkaG3.*_H/hf(=0K(j4+FG:S
+1c-<t+FFND+?2%t+FIQN?ZTdeF(f-$C`jiC+<VdL+<VdL+FG:S1E[e_+<VeS0J5%<0K(UA3&EUB
+3B8]H0JtaI1*@]e+<WKq+<VeS$@EsU0d%Td?nbr.ARlo++<VdL+<VdL+<VdL+<VeS+<WE^+<VdL
++FGjq0Jk^B2E<`W3IEhI/ho4=2`*94+FG:S1H6L"+FFND+?2,!+FIQN?Ys@bBm"97F`MJEDeX9(
++<VdL+FG:S1*@\^+<VeS0J5%92_[-M3&s!H3B8]H3B9&R1*@]e+<WHu+<VeS$@EsU1E[ff?nbr)
+ARoLtD/aW<E,9).+<VdL+<VeS+<WE^+<VdL+FGjq0Jk^B2E<`W3IEhI/i#7A3&iZ9+FG:S1Gg3s
++FFND+?22#+FIQN?Z9h(D'0rD+<VdL+<VdL+<VdL+FG:S1*@\^+<VeS0J5%92_[-M3&s!H3B8]I
+3AWZQ1*@]e+<WHq+<VeS$@EsU2'=#h?nbqu@<--mCis;3+<VdL+<VdL+<VeS+<WE^+<VdL+FGjq
+0Jk^B2E<`W3IEhI/i,==0JY@*+FG:S1GBpo+FFND+?28%+FIQN?Z0spBPD!"+<VdL+<VdL+<VdL
++FG:S1*@\^+<VeS0J5%92_[-M3&s!H3B8]J3&iTP0d%Td+<WF!+<VeS$@EsU2]s5j?nbr)ARoLt
+D.7=(AKW*<+<VdL+<VeS+<WE^+<VdL+FGjq0Jk^B2E<`W3IEhI/i5@A0fCa/+FG:S1,^6t+FFND
++?2>'+FIQN?Ys@bBm"96ART4lAS#a%+<VdL+FG:S1*@\^+<VeS0J5%92_[-M3&s!H3B8]K3&36F
+0d%Td+<WEr+<VeS$@EsU3?TGl?nbr(BkM+$H"Cf.Dg*<H+<VdL+<VeS+<WE^+<VdL+FGjq0Jk^B
+2E<`W3IEhI/i>CE1GCO++FG:S1,9sp+FFND+?;+u+FIQN?Y!ScCNO]>EHQ26F(HI:+<VdL+FG:S
+1*@\^+<VeS0J5%92_[-M3&s!H3B8]L2`<HN0d%Td+<WEn+<VeS$@EsV0d%Td?nbr+Ea`iuAKW*<
++<VdL+<VdL+<VeS+<WE^+<VdL+FGjq0Jk^B2E<`W3IEhI/iGI@1c-p0+FG:S0fU9u+FFND+?;2"
++FIQN?[64!Ci=M?+<VdL+<VdL+<VdL+FG:S0d%S]+<VeS0J5%71GpsF3A`aD3B8]M1c@?Q2BX,i
++<WBs+<VeS$@EsV1E[ff?nbr)ARoLtD/XH)BPD!"+<VdL+<VeS+<WB]+<VdL+FGjq0JYFA1Gh*K
+3IEhI/iGXB2)-g.+FG:S0f:'r+FFND+?;8$+FIQN?Xn"pDKBN.CEO`B+<VdL+<VdL+FG:S0d%S]
++<VeS0J5%71GpsF3A`aD3B8]M3A`EH2BX,i+<WBq+<VeS$@EsV2'=#h?nbr5ASc1$G@tr-ASrV5
++<VdL+<VeS+<WB]+<VdL+FGjq0JYFA1Gh*K3IEhI/iPLD2)m<5+FG:S0f'pp+FFND+?;>&+FIQN
+?Ys@bBm"9$EHP],@<-("AKW*<+FG:S0d%S]+<VeS0J5%71GpsF3A`aD3B8]N1bg^>2BX,i+<WBo
++<VeS$@EsV2]s5j?nbqu@<-.#@:s.hFC?:7+<VdL+<VeS+<WB]+<VdL+FGjq0JYFA1Gh*K3IEhI
+/iP[F2Dm33+FG:S0ejdn+FFND+?;D(+FIQN?YFA"E+s3*+<VdL+<VdL+<VdL+FG:S0d%S]+<VeS
+0J5%71GpsF3A`aD3B8]N3&iWP2'=#h+<WBm+<VeS$@EsV3?TGl?nbqsCgh3kBOt^_Ci+*.A0<!;
++<VeS+<WB]+<VdL+FGjq0JYFA1Gh*K3IDr03A*9G0fLj1+FG:S+?:Pe+FFND0eb:(+FIQN?Ys^k
+@psFmDBL&E+<VdL+<VdL+FG:S0d%S]+<VeS0J5%71GpsF3A`aD3B8]O1GppF2'=#h+<Vdd+<VeS
+$@FQ^0d%Td?nbr(Bl.EoEb/g"+<VdL+<VdL+<VeS+<WB]+<VdL+FGjq0JYFA1Gh*K3IDr03A*9K
+3&`i?+FG:S+?(Dc+FFND0eb@*+FIQN?Yj.oASu$iEaij-F(c[=+<VdL+FG:S0d%S]+<VeS0J5%7
+1GpsF3A`aD3B8]O3&39F2'=#h+<Vdb+<VeS$@FQ^1E[ff?nbqsCis;3+<VdL+<VdL+<VdL+<VeS
++<WB]+<VdL+FGjq0JYFA1Gh*K3IDr03A*<G2)mK:+FG:S+>k8a+FFND0ebF,+FIQN?YjFhBQS<,
+@:sUlASrV5+<VdL+FG:S0d%S]+<VeS0J5%71GpsF3A`aD3B8]P1-%-N2'=#h+<Vd`+<VeS$@FQ^
+2'=#h?nbr*@<Qo=+<VdL+<VdL+<VdL+<VeS+<WB]+<VdL+FGjq0JYFA1Gh*K3IDr03A*<L1-%-5
++FG:S+>Y,_+FFND0ebL.+FIQN?ZU$lFCeotF_)[<+<VdL+<VdL+FG:S0d%S]+<VeS0J5%71GpsF
+3A`aD3B8]P2`<KN2'=#h+<Vd^+<VeS$@FQ^2]s5j?nbr"DfTE1FD#W*ASrV5+<VdL+<VeS+<WB]
++<VdL+FGjq0JYFA1Gh*K3IDql+<VdL0eb:(+FG:S+>Fu]+FFMH/M/P+/LrD)/M/P+/M/P+/M/P+
+/M/P+/M/P+/LrD)/M/P+/M/P)/M/P+/M/P+/M/P)/M/P+/M/P+/M/P)/M/P+/M/P)6ZQaHFCe0\
+EcQ)=?ZU4'1,WQ^ART[l+EV%$Ch4__De!3l:gnHZ%144#-qnPh@;JbKFD+66+DG_8AS5Rp+Du+>
++Du=<C`m\;Bl.:!Gp$m6Gq9C3+<Ve#De!3l:gnHZ+EV1>F<GI>F<GIDChtO^%13OO@rc-hFCcS:
+@:F%a+AZlkBl7KTAU/K<Eb#Ud+<W(*AU/K<Eb$;7AU&;>DJsV>DKTc3+E2@8D..I1+DYP6/.Dq/
++<X<gGt)gcEHPi1@sK22DKKH&ATAo2Dfd+>F_kkC3t2N>+<V+#@rc-hFCcS:@:F%a+@0gQF_qQp
++<W'uCgqO(94`AkFCf]=+Du+>+Du=<C`m\;Bl.:!Gp$m6Gq9C3+<Ve#De!3l:gnHZ8OO\8DKKH&
+ATAo2Dfd+>F_kkF%144#+A?]`@;Jb\ATMF#F<G:8FCf)rEZek*ARfL(9Q+ELCf#.`F(K624ZtJA
+DfQsoDe!3l:i^,gASuTQ4Y\B:%144#+A?3bFB*9j@<?'k+Cno&ALn8t+<VdmCgqO(:18!N+EV1>
+F=[k.+<VdmCgqO(6tLFLEbTK7Bl@l3FCf]=/.Dq/+<Y97Eb/rtDBN_+Gpl@)@ps1M@<?0S6n'7!
+AS,LoASu!hF!+.p@ps1b:gnHZ-qnPh@;JbKFD+66.4I=f$4R>PEb/[$AKZ)'@VfTu:Msu_DIlCV
+@:s-\$6UH>8SqmKAP6T[+EV1>F<GI>F<GIDCht55EbTB!Ed8dCAU,g9$6UH6:Msu_DIlCV@:s.@
+Bl%?'FCf]=/.Dq/+<Wsj@q]S"ARnM'2'@!PG]YJG$6UH66#pIKBm+&u;e^Ph+DG_8AS5Rp/.Dq/
++<X?dFD5i>A7ZlqCi<a(/.Dq/+<X?rDJ*[*F_#&+Ao)BoF=[k.+<VdmCijB5F_#&+Bl8$(B4Z*7
+%144#+A[#lB5)6lCe/,OB4uB0Bl8$(B4Z*7%144#+A[#lB5)6lCfb=]FD)e2DKKH&ATB=2$6UH6
+;Is9Q6t(1K+Cno&ALn8t+<Ve,E,9H$A40jJAKYMlFCd!4$6UH69OW!a<H)JWFCeu*A79Rk/.Dq/
++<X[)BcqM/G]YJG$6UH6<+pDk@W#UgCfPLl+EV1>F=[k.+<Ve"AU/K<Eb'56FCf]=/.Dq/+<X$[
+E-,f4DBO%4G]YAr%13OO@rc-hFCcS:@:F%a+A$EYB4XAF@WcNiEX`?u+=Kfu@:s.EAU,D?AU&;>
+DJsV>DKTc3/.Dq/+<Wsd@WcN\AU,D?AU&;>DJsV>DKTc3/0GB/+<VeGEbTB!Ed8dCAU,[qD..'g
+94`B"+@0gQF_sc_Gpt9R$6UH6AoD^$BkM<+CLqc>6#:"QD+eGc.3NYBAn?!oDI[7!+@0gQF_rNm
+CgqO(94`At/.Dq/+<Y97Eb/rtDBN_+Gpl7$@:s.EAU,^IEb/ioEb0,uATJtiDJX$)AP$`IB4WJ_
+D..'g94`At.6@tG%16TcART[l+EV%$Ch4_\D..'g94`BmDfTAjEX`?u+=Kfu@:s.EAU,D?AU&;>
+DJsV>DKTc3/.Dq/+<X<gH$=1IA0>u*G]Y'GDfd+>F_kkF%144#+E2@8D..I1+DYP6-qS8aB4X_I
+Gq:(2AU/K<Eb$UM%144#+D,P4ASGdp+DYP6-qe,sGAhM4.3NYBAn?!oDI[7!+AZlkBl7KTAU/K<
+Eb$RkAU/K<Eb$UM%144#+D,P4ASGdp+DYP6-qS8aB4X_IGpskVAS,LoASu!hF!+7rCh[cu8SqmK
+ALL,e@:s.EAU,^R3t2N+$=e*f@<?''FCAWpAKXZb@ps1FD..'g%144#-qnPh@;JMP@:s.C6m-2]
+FCf)rEZf7<F<GIDCht55EbTB!Ed8dCAU,D,F`_P9DI[]uD.RU,/.Dq/+<X?r@ps1M@<?0S6m-2]
+FCf)rEZf7<F<GIDChtX3$6UH69Q+ELCfG(jD.6()+DG_8AS5Rp+Du+>+Du=<Cb-#&+<Ve#De!3l
+8SqmKAO^BMAKZ)+G]Y'GDfd+>F_kkF%144#+A$EYB4X_IGp%3?G]Y'GDfd+>F_kkF%144#+D,P4
+ASGdp+DYP6-qnPh@;JbKFD+66.3NYBAn?!oDI[7!+A?]`@;KLO@<?029Q+ELCf"P^BLtT@/.Dq/
++<Y97Eb/rtDBN_+Gpl7$@:s.EAU,^IEb/ioEb0,uATJtiDJX$)AP$`IB4WJ_D..'g94`At.6C@%
+;cI*uBl\64E`d?nAhl)967u)1;cI*uBl\64E`d?nAfu&2F*&ODEc5H!F)u8?/g(T1%17/nDfp/@
+F`\`[+?CW!%15is/g+kGFCfK)@:NjkGAhM4.!$gu%15is/g)8Z6?R!YA5-cYEc5t@+<XEG/g+V3
+@r$4+04T$6@<?'6Ci<`m+Dkh5Ec5t-$;No?+<Ve#De!3l7WNEa6tpZa+AP6U+Dbt+@;I&uBl%@%
++EqOABHUi"Eb/a&DfU+GD..NrBHS^K.3N&:A0>JuCh4`+@<?!m+=MI`%14Nn$4R>PDe!p1Eb0-1
++=CW,F(H^.$=e!gDKBB0F<D\R9keWgDfSs#AS*;!$;aMs<*rF=Ch[cu<H)bm@:V`=ARfL20ht%f
+:et"h?VbQUBl7K^E,9H$A4($A@r!3+Df^"CE,ol,ATMp2E\8ID$4R>`D/XQ=E-67F0H`D!0F\@a
+67sBpDKKH1Amo1\+EqaEA12LJ3XlEk67sB'+AZlkBl7K^E,9H$A4($A@r!20:-pQU@q]F`CNCV1
+Bl%@%+DG^9F`;/8@:UKkBl[cpFDl2F+D,P4+CoV6Ch[BfFCfME%14Nn$4R>PDe!p1Eb0-1+=CW,
+F(H^.$=e!gDKBB0F<D\R:Msu_DIlgeCi<`m6YL%@CF9Pu%15p-;cI+'BQ\0$F%p@hEc5tR0ht%f
+:et"h?W:]]D.7Q\Bl\64EZf=>F*&ODEc5H!F)u8?/g(T1%17/nDfp/@F`\`[+?CW!%15is/g+kG
+FCfK)@:NjkGAhM4.!$gu%15is/g)8Z6?R!YA5m5bD.7Q/+AP6U+DG_7ATDl8Df0B*DIjr!CgqO(
+F!+n4+EV:>D.7Q/B45UmATDKrF!,17+E2@8D..I1+Cno&@:EYdAIStq%13OO@rGk"EcP`/F<Dr?
+@<6!-%16T`Bl8!'Ec`EH-WFc%D.7Q\Bl\64E[M;'%16QQF(I-c?Z:9G3?TFe+<r"MD09K1H$!V<
++E2UJBQ%c2@UX=h+>Ynu@psFi+DkP.CER,*A7Zl8+A*c#DfTB0+Dl7BF<GF/FCSu,%13OO+<VdL
+A7]?q@psFi?Ys4mCL:Xj@rGmh.!&s9Ah5'GD09JuCLqc?3XlE=+<VdL+<VdN+sII'+<VdL+<VdL
+7;cURA7Zm*BOr;r@<6!&D..L$+CT=6@;[3%DKKH&ATBC4$6UH6+<VdL+<i!R%144#+<VdL+<YPE
+4WlEf$6UH6+<VdL+D,P4+DEAL@j#K'+D#G5D.R`rFCckAD09JuCLqcq3]\iI>q%fD$6UH6+<VdL
++<VdL+DGF1@kMJ:F`;;2E[W@t%144#+<VdL+<VdL+<VdL+<YPE.m5"1+=\i`BakCl+<VdL+<VeI
+ATW'8DBO"3Ch>;/@<6!92J$c9De*E-DCH#%%144#+<Y3+AftSlF(J]q@<63kA7]7hA7[01ASbs0
++EMCBB4#FcGq:(J@<6!eD..L$.67nF+<VdL+<VdL+sJ3?$6UH6+<VdL+AuclFDl22+DbV2FCfJ8
+@psFi+EVNE.!'6JB4#FcGpt?T$6UH6+<VdL+<i!R%144#+<VdL+<VmOA9)U-+=AjP-Qll4DIIR2
++E2@4AncK!$6UH6+<VdL+DkP.CEPb_@VK^.F(K0"/n/71AMZ5TARfXhALM%sF(J]q@<635.9ePg
+>n%,`+<VdL+<Ve@Afto$DCB@1F)*3I4s4ZQDCBRCF_>&sAU,^c%144#+<VdL+<VdL+<Y]5Bldi.
+<affeAOUW[DfR68$6UH6+<VdL+<VdL+<VdL+=ARYD09JuCLqc?+DbV,B67f0A8c%#+Du+>+DkP/
+@qZu5@psFi?Ys4mCFLBBASu.&BI>5<$6UH6+<VdL+<r"J@:UKt@<63,GA2/4+=AijF!,1/+Dtb#
+ATMp$Ed8*$+<VdL+<VdLBkAK(ASro5@<635+?Uc_ASro;D09JuCLqc?3XlE=+<VdL+<VdL+<VeD
+@<63,4Wl.$Ch7K4F)?&4?Ya4u.3L2bCh7K4D..L$.4HAh+=Aij.3L,`D..L$%144#+<VdL+<YK3
+FED)7F!*UgCh[s4.!'6JB4#FcGps10+<VdL+<VdLAoD]4Be1AT@k8a>.3N>B+D#G5D.R`rFCckH
+BlGJ:ATW$*EcWcSD..L$.4I:e$6UH6+<VdL+<VdL+DGF1-SZtk4Zsp)3XlE=+<VdL+<VdL+<VdL
++<VeCATW$*EcYH!>p)9Q@kMnCE+O&<.1HV,+<VdL+<VeIATW'8DBL;S/o#<=DCB=4FED)7F"%P*
+%144#+<WpjFCB9*@r5e!BQ%Dj$6UH6+Co%q+C\c#AMZ5UDI[TqALMG=D.7's.67nF+<VdL+<VdL
++sJ3?$6UH6+<VdL+@U0XDe*E%E,Tf3FD5o0+DG_8AS5Rp+CT=6@3B#fF(HIM2B['_EbTE(/e&.1
++<VdL+<VdN+sII'+<VdL+<VdLBkAK*Dfd+9F(oN5FCB&sALMG=D.7's/0JYEF=B6[$6UH6+<VdL
++<VdL+ECn)F(HInH#R=`EcQ)=-mrnTD.7's+Dl7BF<G%(+CT.1Bl8$(B4Z*2.1HV,+<VdL+<Ve@
+Aftu6D.7's+?Uc#3XlE=+<VdL+<VdL+<VeI@;0do+BDoeF_+!^Ec5tH-Z4'D@V'R&D09oA+C\n)
+E,Tf3FD5o0-RfK3+<VdL+<VdL@;Kmr@:Eei/0JD1F(I-c+?^iO-SR811GgsI2`Ng+@Uiq[AnPdk
+C27X&DJsK6EcZ>FG'A1VH7(6d-RW1/$6UH6+<VdL+EqL5Ch4`,F_tT!E]OX:+<VdL+<VdL+<VdL
+DKTf*ATB=EBcoP]A8-4(De(86F_tT!E\&=h2CT(B+<VdL+<VdL+<VdL@UX=h1H$@=+CT)*BOP@]
+FB`Hb+=eRD@<6!92@U!9+<VdL+<VeIATW'8DBNCsF(I-c+E)9C@;Kmr@:Eei>;0=l$4R=b+<Vdl
+F*(i4Bk)!kFD,T'%144#+<Y3+AftPkF(I-cA7]7hA7[0,F_tT!E[a$Y$6UH6+<VdL+<i!R%144#
++<VdL+<X'`@rGmh+C\c#AKWce+EMXFBl7Q+@;]TuEb0?8Ec*"6DKKH&ATBC4$6UH6+<VdL+<i!R
+%144#+<VdL+<Y]9FEMVA+DG_8-uO0E@V'R2+>Yo)@q]F`CK5FeE_BthF##UJ67sC'F(KB-AU/>L
+@qK?_$;No?%15is/g+)(AKZ22CM=o1@:s-oGB\6`C3+<*FE_/6AM.J2D(fXJBkqE97s/NVATKLl
+Df00$B.lkSF>$X8ATCFTH#jE%:-pQU@;L"'3Zr*XFDs8o05>QHAor6*Eb-k5Df%.?Bln0*F*''T
+FD58s/n\m?04Ja9@P;S,F*(u605P?304J@2AM81IATDQtH#kTJE,Z6n:-pQB$;No?+@UN`D/a<&
+F#ja;:-pQU+@\.K0fr*DDImm5AS#glE]\)U@:UK.IUQbtDf0VLB45XgF"_BEDImm5AS#glE\DQL
+G@W=?C3(a3$;No?+<X$nEbm6s4"r`dCi=B9@<-WT@WHC2F(J]n?RKN/FDs8o06_Va/o#HGAor6*
+Eb-k5Df%.BGA1i,033"$@:F@q@<-WH7r3*bF('*7-OgDX67r]S:-pQU,"$HmCb%t5+q4lS67sB)
+6Zd?b.oU+qAooOm2BiS;:-pQU,#`/hAooOm2BiS;:-pQU,"=L8%15is/g)?*FE21J7Q2M#$;No?
++<j0pEbm7)BPD(#.n2HA%15is/g)?:BPD(#.n2HA%13OO7P[%[4&TX,@;BEs6ZmEiASuTOCi<`m
++=Bs&Ch[cu<H)bm@:V`=ARfL'+Bos20d(LYF<Dr?F_PZ&@q]F`CF:6/+EMO=Eb0<'FC0!.EGT?2
+AR?Q--QlV9@r,^bEZc_W%15IEEbm6q1-73P;e:%n6ZmEiASuTOEcW?NE,o]'BOt[h-QlV9De't<
+F)?&4E-ZP:E[Mu6+>Y-YA0<6I%15IEEbm7)BPD(#.n29U0fqdGD/^UoF`]]cF!)i@F_u):F`\u?
+$:Zg50fr9EEHPu9AKXT@6p#F#EHPu9AKW@5ASu("@;IT3De(4)$:AoUCb%t24#&fpARg!qCh4_]
+:II8mC2[X$DBLJQC2[X$AnEJ70b"IgBPD(#.n2<V0fr!'6m,$3CiDINDe*NmCiCLN%15Q]4"r`a
+AR]dp+B!?"4(Mf@F`&<L-OgDP2ENWT<+U,m+B*,qCLoS5-Vd6-:`sgrDeio,FCfN8-OgD]BPD(#
+.n2EY0fr?GF*&Nk@<6-m4"!cp9i)sA@<6-m+EV19F=1p6DJX6$Dg6;6Am]Y)F>>^IDe!3l:gnHZ
+#u#8I@;JMP@:s.@Bl%>e:Msu_DIlCV@:s.@Bl%>i$?0]hFEMV8F"]:&<(KAF:/k4k=YE^!Ea`I#
+F(GYpAKZ&>Ea`I#F(HJ&E+*d/D.RU,+>Gl:1+mZ_AdN<c+EMgK@:OG$AKYE#@<-I,ASuT40f_6L
+/N,4rE+]UeE+rg(F`M&70/>492_Ra5@;'QcE,9)oF*2M7+EVNED.R-t+F.mJ+>PQkBk@ZjCh7$r
+F`M%9FDi:=ART['H#IgXC2dep$?0]hFEMV8F"]:&<(KAF:/k4k=YET_DfBN($#!mdASrW"F`M#,
+@r!3"Ea`irD/XN0ATAo&@:FL)0f^pC+>PQkBk@ZbASbpq+C]J6A8,Oh+D5_'DIdU&FD,6++C\bg
+Gp"h%0JY7qE+]UeE+rg(F`M&70/>492_Ra5@;'QcE+Ns,Ch4`#@r,juF(HJ5Ec5Q(Ch7Z1D.-pi
+@<itN/p(f>$#jHoE,9).ARfOjE-#S5E,ol/Bl%@%+DkOsCLMK@C2dep$?0]hFEMV8F"]:&0f:UY
+Ble?6F`M1&A79Lo+D#h0+D5CsDKI"BFCB96AM/(=AdN-hCi"$6+D5V/A7]X$B5(dlF<GXH@<?X'
+/o#?<%17&g@ruj6ATKL[0JPI=9lFok@;]K[7Vm3cEb0<%Bl7Q+@rcj9FCB!,+Dl%7FCB&q+EV1)
+BHV/+DImisC`mS;F(KK2/p(f>$"e!rDfTE1@qfgn+CfG;F*(i,F!,=<DKK<)@3BZ'@q[!%Bl7L&
+@;I''F`V,:D(]RBB+52eBk)7-Eb0;F1,(F@026A&FCB&q$#j<eDKI"?Dfd+@Bl7K60eRQ^AdNEb
+Bl8#8E,Th@E+s3$/o#?<%17&g@ruj6ATKL[0JPF<=(QGpATDZ2<,u\l$"RUjBl%i5FDlA7EZeh&
+A0>?%ART@d@<6NCFD5=nA7]puCi^_@Dg,c5+C\nm+C]A&@;BI`F*&ug/o#?<%17&g@ruj6ATKL[
+0JPF<=(QGpATDZ2<,u\l0/,@m@<H39Bi&J]DIl^SG6q)ZDffn?6$6f_0fCR*3?U18+>GYp5trIM
+0e"_iE+]JoAKYr*Dffo1Ea`p#Bl7Q+D..9uDffY8F(o`-/o#?<%17&g@ruj6ATKL[0JGL?8TJug
+DIjr4D]hA_F_56-Df,kiEcbl6Bji-&Bl"o9DfTW)EcW@EFCB96AKY2u2)$sD3&!?O2I.qWBk@Z[
+FCfN-@3BK&C`mq?Ebf6,F!,OG@<?X'/o#?<%17&g@ruj6ATKL[0JPF<:1\Vl9kAQ`@rF"T0OJa.
+F9u;B;aWDs1H$j\77IT#@;0U%FCB*/+E2I7@Vfs8C2dep$8!iKBk)7-Eb0;F1,(F?02?)&+AHEl
+Bk)'70ecsQ@rr#a6rQH10f([>:.7VYD..-r+EV%1F!,FEAR]Io/o#?<%17&g@ruj6ATKL[0JPI=
+:1\Vl9kAQ`@rF"S2.(3/GmRhG;aWE%3&<0^77IT)Dfp/8+EhI1G9CsBBcpknF(oM7Ec5As+Dbt7
+CN"?;/o#?<%17&g@ruj6ATKL[0JGL?;f-GgAU,CmDfor>@;0V#+B3AqE%`q#?Z'e*$"$)!6SgGV
+2D.`n7L<p?ChY##F<G%,CijN4Eb-k<E+]UeE+rg(F`M&70/>4\84,g@<)lh!02Q4uE,9(l@;0Oh
+ASrW"ATD[&@q?cl@;BFp+CfG;Bl7Q+@UW_k+>Gl62D0)cAdMm[Ch70q+C\o&DJ<Tl+CfG;Bl7Q+
+@UW_k+>Gl62D/``B+52eBk)7-Eb0;F1,(CB01g%lBjkmf0/,.gAn>EX?URg[0JkLE/l"i)$#jg'
+CL_$rE%YmEB+52eBk)7-Eb0;FA8c[0Ci<`mARl*aBl7g&AKYH&DffZ(EZfIJASuU8/TYKHASs4_
+0fC.`AS,k$AKYDnFCfJFC2delD/!m*Bk8DrEc6&5ATAo8G@bZ6H#mP?ASrVF3AEE7@V'.iEb-A%
+AoqU)/o#?<%17&g@ruj6ATKL[0JPF<9keZiDfp)7$"A$o@VfTu@V'*nD09A3BQ\D>F(f!++ED%7
+ATDs*/p(f>$"A$o@VfTu@V'*nD09A3BQ\D>F(f!++ED%7ATDs*/MSh3/o#?<%17&g@ruj6ATKL[
+0JPF<9keZiDfp)70/,:kC3=D#?URg[1H%'F/l"i)$#O*eBcq8,F)u8BEbQY+@;oq&DepP/Ec6)<
+A90A<E+]UeE+rg(F`M&70/>492(q[<F)u8BEbR0\2.(3/GmRhG;aW>u1,^a[77IT#F^uV.F`\a:
+Df9Y=GA1r*Dg*gKE+]UeE+rg(F`M&70/>492(q[<F)u8BEbR0\2IC3AD@'Z<;aW?"1GLLW77IT)
+Ch70sGp$a<EbT?+@3B#j@<H[;/o#?<%17&b04Ja9B.nIJ12LB@AU#kBDI[L*F(oQ1EsZ>iATMs)
+Eb9#sCh,,1H#5-3/o#?<$"IX[F*(u6AnbgmA0>N1D(]RBB+52eBk)7-Eb0;F1,)Zu6UaaL<DlsQ
+87?gUCdDlHF_qFnCgpsrFC?;4D.=].F_,-%+BrnD2`*?J3AE<M>qU55AdMm^@V'S%@3BT-@j#c6
+AS#a3C2dep$?0]hFEMV8F"]:&<(KAF:/k4k=YE<SH=^nYCgqO($"\9kCjBn@@;KCaEcb_4E+s3$
++CfG'ASWDC3A`F2+BrnA3&roS2E*BH10lMSBk@Z_G%GK8DBNA(@V'S%@3BN'DIjr#Eb/ft+>Gl5
+0QSj]E+]UeE+rg(F`M&70/>4\84,g@<)lh!01]MtASaYK@WcMoAo_<tCER\?AThW-AThX$H#=`Z
+3Arl?>B;PW2`EQJ3&`WP>qU55AdN'i@;]j'F*(u:AKYQ-AScX0+>Gl73A,&cB+52eBk)7-Eb0;F
+1,)Zu6UaaL<DlsQ87?gUCdDlHF_qFtEb/[$+D5_'DIdTm+ECn6ATAo;Bln#2F(o];ATAo1@<H*l
++>Gl60QS@@F#5g51,UgB2D\VkFD5=nB6%QlF<G4:@;]Um@3BT!G%G\:GA2/4+EM7<FCfJ8D..Qt
+AKW]f2)')(C2dep$?0]hFEMV8F"]:&<(KAF:/k4k=YE<SH=^nYCgqO($#O5r@;0OhASrW#DfoQ'
++>Gl63$;FH2)@0J2E!HP2dJ%XBk@ZgAKYDqCh70q+Cf>4@qZu>3AicKC2dep$?0]hFEMV8F"]:&
+<(KAF:/k4k=YE<SH=^nYCgqO($#aim+CT.u+CT(qATDm$+BrnB2DI$G3AE?M2I.qWBk@ZiEa^)!
+DIakuCgpsrFC?e:E+]UeE+rg(F`M&70/>481+uI8FE2;4CjBu5+B3AqE!^2dDIako2`!?I2E3Ku
+/p(f>$#!abA0>)81H%!H3&=hmC2dep$?0]hFEMV8F"]:&<(KAF:/k4k=YEE^DJ+$4Df.3_3B/f;
+6uR9eF*;8/G:u@)F_tf'Ci!['+B3AqE!^8f@rGg!EclJ;+D>>&ASrW$Ecl54ASc0oEZfO6Ci![.
++>Gl:2(iubAdN3\@rGg!EclJ;+D>>&ASrW$Ecl54ASc0oEZfO6Ci![.+>Gl:2(iW_B+52eBk)7-
+Eb0;F1,)Zu6UaaL<DlsQ95/9VF*)><0/5IH1E])(GA_JFBk;KA6umEeBOu!rATAnmEbTJ!EclJ;
++D>>&ASrW*@:O4b+CoM8D.mKsCh7W0BPD:!+>Gl:2'?+E1cREJ0f:sG2dJ%XBk@ZlF`_:>BOu!k
+DBN\&@rGg!A9)g0BOu!rATAo,Bl%T.0f_6O/o#?<%17&g@ruj6ATKL[0JGC<87?gUC`l2iDImis
+C`l\tBlFAeBl%?lDBNe7D'3\,+C]U=H"Cf.Dg-8EDf0,/>B;MX1c79N1c.3K>qU55AdMm[Ch70q
++Dl%6+Dk[4@X0)AASc1$GB7kEDIkG8E+]UeE+rg(F`M&70/>481bVL9DJ+$4Df,kr@:O4b+C\c#
+ASl!rF<G(3D/aW>ATAo6Df9J8>B;MX2)@!E2`!<G>qU55AdN3\@rGg!@UX=hD.RU,+Cf>,E-686
+EZfC@Df%+AE+]UeE+rg(F`M&70/>481+tXJ0f:(?EbSs&+B!,dA-m*]ChY#+DBO%4@;L.+De'tp
+1GUX>2`3<F>qU55AdN<_ChY#+DBO%4@;L.+De'tp1GUX>2`3<F>qTl2B+52"/T>E6FEMV8F"]:&
+<(KAF:/k4k=YE3SD/X<6Df.3sDIn$'FCAr-<,u\lEsZ>bFCSu,De:,6BOr;s@<iu"2E*<G2`EEr
+/p(f>$"ICc@q[!'Afu2/AKYMlGqNiNB+52eBk)7-Eb0;F1,)Zu6UaaL<DlsQ:h=QaCh3oiAKY])
++E278Bk(]sBOQ!*@;]TuF`(`$Ec>H)FE8R/F##U40fLpG1bggm/p(f>$#O5rBl5&4Des,tAKYYp
+F<G"0A0?#4A7]e#@;^1./o#?<%17&g@ruj6ATKL[0JP778T&'Q@;]K[DJsW;AKYMlD.Oi2FCAm$
+ARlorCghC++Co2*FEqA0+BrnI2)?sE0JbCB>qU55AdN?nFE1q8A79=d+EMX5Bl7Km+D5M!F)rI7
+BlJ0>@q[K0E+]UeD/"$2DfSj!ATCFTH#k_u:-pQUF`V,7CLqd4/n8L+%15is/e&._67sBZAS!!.
+BkqE*E+*Bj+Er$R/o#HGAor6*Eb-k5Df%.BGA1i,01U/!A7]g86Z6jSBkK(k;04HkF(KAbAU/>+
+$;No?+CT)-D`T"SFEDI_0/%']De=*8@<,p3@rH3;B5)I(BleALEHGo*AM.V0F>%*>DdkA:@<6O%
+E\D6C@P;2!F(I"IF(KB-AU/>L@rQAr$;No?%15is/g*T-@;Tt"ATKmA$;No?+<X-04#&fkBl7L'
+G@b?)ATBkKDdd0!-[oK7A8c@,05"^1ATKMABl7L'G@b?)ATBGHBm4)?Bkh]:%15is/g)9(FE21J
+838Le7r3*bF('*74(<5KGB7>&C0r?%FEDI_0/%NnG:mWODe=*8@<,p3@rH3;C3OB-BeNM*@prhh
+Cgh@001ThsF)tc1Gpa%.:-pQB$;No?+<j0pEbm6q2BiS;:-pQU,"$HmCb&FtBkDH;7Q)G"$;No?
++<j`tBkDH;7Q)G"$;No?+<j96+q4lS67sB)6Zd?b.n2HA%15is/g)?*FE21J;eTlWF=Tg>+q4lS
+67sB);eTlWF=Tg>+q4kg$:Zd40fr9ED..3k+@C9lEb0-14)AhDA0<6oBl\64E`d?nAg\^*+>G!Z
+FEAWQ@WcC$A8Q%$Ec5tG+Bot0EGTZ,F(KH#E-$#8Blmon+=ANZ>9IElARTU%-RT?16Zd?b.n29U
+0fr<FF<EqnEcP`/F?=Ma+=D,KC2I[*Ec5tG+Bot,A0<7@D09K1H$!V<-QlV91E^UH+=ANG$:AoU
+Cb&FtBkDH;7P[%[4%+4.E$.u"F?=Ma+=C]BD/aH:F=.M)7Pd+\4&TX0F_Pl-+A,Et4*"nPF_Pl-
++=Cf5DImisCbKOAA1%fn6Zd?b.n2<V0fr9E@sMR#AKXT@6ouf3De*d(+=nXMDe*cuAgniW%16$I
+BkDH;7Pd+\4%`::+@p'[E'%fQA8#OjE$-hD$:Zj60KV[6@Wc<+;KZk=A7BS%DBL;S%15Q_4#&fr
+ATMr9;f-GgANO0F:.\/V+EMC<CLnW1ATMr@%16$IBkDH;7Q*=_4&fd4F<EnYF(o,G-Vd6-:`s4U
+F(o,,FCfN8-Z*R<Ec5u*BPDO0DfU,1D.GC\%16rdEcQ)=+>"^GBOPdkAKYZ#F*)>@Gmt*D4Ztqk
+4Ztqk4Ztqk4Ztqk4Ztqk4Ztqk4Ztq;$4R=e,9n=*@<,jk+>GZ'+>PW*3=Q<)$6Uf@6=FqL@j#r+
+EcYr5DCcoI@;BEs@;]TuA79Rk+Du+?DBN@uA7]9oFDi:09keWgDfSs#AS,=&%13OO,9nEU9jr'P
+BHT/`+>PW*3=Q<)$6Uf@?u9UuEc5tNA7AphEb0&qFCeu*E,ol0Ea`g++CT;%+Du+A+Cf>,E,9*1
++D#G/F_>@s$6UH6@;]TuBl.g-Ecb`-F<G.4Dfo]++EVNED.Ra%F<G%(FED)7+D>J1FDl2F+EVX4
+@r#drB.aW#+<Vd9$6UH6<+ohcAoDL%Dg,o5B-:\t@;]^hF!,.)G%De*AS#a%@V'+g+DkOtAM+E!
++<Vd9$6UH60eOS7DBNk8Ch[cu+E_X>Ddd0!@q]F`CER5-EZen8E,95u@<?''Anc'm+DtV)ATJu-
+@<3Q#AS#a%@:Wn[A1e;u+<VdL+<W.5BOr;uBl%?'DIIBn+DGm>@3BGrFEMV4C`mM)Gp$^;EZe:t
+F_=EkB-:Vm@rHL-FE9&a+B3#c+E_X>Ddd/c$4.gt+E_d?Ch\!:+EM=4E-!.4F`;/2@psIjF!,[?
+ASrW,Ddd0jDJ()+DKKe>@3B2sG%GP6B45UmATE&=@Wcc%$4.gt+A!\h@<Q3)F(Jp#+CoV6Ch[Bf
+FCfM9GA(Q*+EM%$DJj0+B-:f#Ch7Z1@:O=rF)rI4Cht5,@;KakEbT*+/e&-o+<VduF<GX=D/a<*
+Anbgt+CK&#EcQ)=/nAF!+E2@>@qB_&Bl7Q+BkAK+DJX$)AKYT!Ch4`,@;TRs+CT;%+E_R9EHPhF
+%13Ca+<Y'7E,9H$A7K:a@r!]+@<>m"@q]F`CNCV@E,9H$A9/l*DfQt2F`;/2@psIjF"Rn/#p:?"
+$6UH61+j\@+D>2,AKYi.A8,XiARlok<+pDk@WP7XEcQ)=/no'A?m'Q0+Cf(r@r!3!DfQtBBOr<*
+Eb0<'DI[6#De9Fc+<VdL+<Y)8FCfN8+Eh=:F(oQ1+E(j7FD,5.;c-5&FCcRoBQ\0$F)Yr<F!,FB
+Bl.:!Gp$X+FCAWeF(HJ&DIal4F(HJ.F:AQ`+<Ve@Afu&5ATMF#F=n\D<+pDk@WP7XEcQ)=/no'A
+?m'0)+EV:.+E).6Gp%0<EbTK7+EV:*F<GF=A8,XiATJ:f+<VdL+<Y)8<+pDk@WNZ&@<>pe@<6!4
++B3#c+E2@8D..I1+Cno&@:EYdAKY].+E)./+E(j7D0[7@Df^"CFE1r$F*2M7A.8kg+<VdL+D,>(
+ATKIH9P&;nF!,@=F<GX7Eb0G;BlkJ?E$5Yt%144#+>YVm8K_\TG%De)A7T7^+CQC6Bl.g*AKYi$
+@;^-/FDi:3Df'?&DKI">F`\aBBl7L'+DG^9?u9=iCi<g%G]IA-/p)>[?k!Gc+<VdL+B3#c+E)@8
+ATAo2BkM+$+EMI<AKYhuDKTB(+Cf>1Eb/a&Bl@m1+A!\eDKKH1ARlotDKKe>FD,B0+D,>(AISth
++<VdL+C]A0CLnW,DIjr/Aftr9+D5,!Ch7X$ATKIH:Ms_dDfQt;DfTD3De:,6BOr;rDfTl0@ruF'
+DK?q/Eb-A;Ec5i./e&-o+<Ve%Dg*=GBOQ!*8K_MODBNM!F(oH9+EMa@FCSu,FDi:1+E2@8D..I1
++EV19F<G+&FCAWeF(HJ&DIa1`#p:?5@rH4$ASuT4Dfp.EA79Rg+Dbb0ATJu.F<GX<Dfol,+C\n)
+ARTY*+EVNEAnc-n+EV:.+E(k(ASu$mDJ()4ARfY!A90@4$4R=b+<WKn+A!\aD'3J0Bl7Q+FDi:C
+FCB33+DkP&Bl7Q+F*2M7+E):7B5)6lC`m>(Ch7Z1BOQ'q+Co1uAn?!oDKI"=@;TRs%144#+<VdL
+FD,*#+<k?-G%GK.E+NQ&Anc'mF"SXZ?u9UuEc5tNA7Aph@rGmh+E1b'Eb/c(F)Po,+E):7B5)6l
+C^g^o+<VdL+CJr'11255DIal.FD,6++D,>(ATJu<Bln#2Df0B*DIjr.@;TRs/g+,,ATME*E+*I$
+F!+n3AKZ2;Df01s$6UH6+<Ve8DIal1ATN!1F<G19Df$V=BOr<)EbT0#DII?(@;]TuA7]pqCi=9(
+A0>JuCh7Z1BOQ'uDJ()6BOr:q$6UH6+<VeJ@;TQuDIIBn+C]J8+Co1uAn?!oDKI"4G][M7F(oQ1
+F"SS,DBO%7AKYT-FEMV8+A!]"Bl%Sp$6UH6+<Ve8E,]B+A0>u-AKYT'Ci"$6Bl7Q+F*2),Bm=31
++EVNE@;Ka&F(8Wr+D,>(ATKI5$6UH6+<VdL%144#+<VdL0eOSVF(8Ze+D,FuFCJfl+EM%$DK?q.
+D0[79CghE.@V''mF(8Wr+DtV)AKZ&(@P2D7111Ou+<VdL+<WEl+CK8#Amc`nBl%W/F(8WrF!+k-
+Gp$^5Ci(;9@ps6tDIIBn+EM%)/o#>\?k!Gc+<VdL+>YVm?uogf?m&rfD.R`r+EM%$DK?q.D0[76
+@;TRr@3BW$@;[3*@;TQuF(8]4FD5>p%13OO+<VdL+<X'dB5)HrC`mG/@:s-oAnc'mF!+n3AKYVs
+DImisCi"A>DJsV>@3BN0DdmNoD'38.+EV:.+:SZ#+<VdL+DtV)ATJu(@;TRr@<3Q"F)u&.DBO%>
++DG\$B4Z-,@<,p%F)N17Bk1dnF`S[IBOQ!*8IZ"L+<VdL+CT+0AoD^"ARlp*D]iP'@;]^h+EV:.
+BlY>6@;TRs/e&-s$6Tcb+:SZsEb])tARfL20ht%f.WBEC@q]F`CER[M/Kf+GFEMOF:Msu_DIlge
+Ci<`m6YL%@CERS:De`inF=n"0%16T`@s)g4ASuT4-XpM*AL@oo%16oi@:UK.A79Rg06;,LBlmo6
+%13OO@Us1_F'iWrDe*3<3ZpLF-n$HWD.Rr>/NQ'MHXpi$+>>5h-Y[F/GT\@_/15LUF_>Z=FCfJ8
+F`_>6F!i(>$?'Gt@Us1_F'iWrDe*2t>9G^EDe't<-OgDtDe*KfBkhQs?TgFm-VnVrBl7K^E,9H$
+A4($A@r!G$$4R>`A9)$kC2[Wi4ZX]5@lc8aD09K.Bl\64E\D9DEcQ)=-QjNS+<VdL+<VdL+<VdL
++<VdL+<Ve%67sBtBl\64EZen,Eb/a&DfU+4$?L5t?YO7nA7%J\+=CY[06ClMD.7Qs@WO2AEbTB!
+Ed;b<F*'$VE+EE;F!i(Q+<VdL+<VdL+AP6U+EV:>D.7R*CiseAA7>uTFE2#$BkhQs?TgFm-Y#1j
+F)?&4D/"$2DfRLADe!p,ASuU206hMKAn5@(D/"$2DfRI@@OE9@:-pQUD/"$2DfQt2@LWYR$;No?
++Dbt)A0?#9AS-($+E_d?Ci^_5DKKe>-u!F7A17rp:-pQU-Y[=6A1&L4ATT&C/g+eIE$-N@Ec>N)
+@<6L4FD5Q4-OgDX67sB.BkhQs-Qm&5F<Gua+D5_6+=C]/AU&;E%15is/g)NUC2[W1+D58-+FPjb
+B6%r6-Y-e4BPDR"C3*m*BlJ/A%14IsC2[W1+D58-Ed/]g3[]#j+D,8,+DGFt-Qij*:-pQUF(KG9
+F)?&=H$!V<+E_a:EZf./H#jE%F)>i<FDuAE+=D;QATCFTH#k*KATMF)-OgD2FDj]G;cFl$+F?-l
+/0HYiE+rft+>b3RATT%B@q]F`CK5FeE_BthF!iCZGB.D>AKY`,@<?0*-[oQDDJ!Tq06M>IEbf63
+F"Us7B."f2$?L'&F`_SFF<Dr,DJX$)AQ<\cDdd0DBOt[h+E2@>C1Ums+EM+9F`8^IEb]H*EcQ)=
+1,2Nj/h1g\C2I[*Ec5t@F"JsdF(KH9E$.khEcQ)==E7tb+E2@>C1Ums/e&-s$=e!aF`MM6DKI!K
+@UX=h-OgCl$>aWhA0<71@<>p2F)c#1FCcg/$4R>OA8,Op?YO7nA7%J\+?MV4-mr_GAU#RS3^,9F
+A8,Qs0I\4oBl.F++=ATh-Za-IB5i-<ATAo9FD5Q4-Qij*De'u"A8,Op?YO7nA7$H`+>Y-YA0<6I
+%16igA7o7`C2[Wi4ZX]59keWgDfSs#AS*;!$4R>`A9)$kC2[Wi4ZX]5@lc8aD09K.Bl\64E\D9D
+EcQ)=-QjNS+<VdL+<VdL+<VdL+<VdL+<Ve%67sBtBl\64EZen,Eb/a&DfU+4$;No?+EMR5?YO7n
+A7%J\+=CY[06ClMD.7Qs@WO2AEbTB!Ed9Do0fUe-E+EE;F!i(Q+<VdL+<VdL+AP6U+EV:>D.7R*
+CiseAA7>uTF)kbtBkhQs?TgFm-Y#1jFD,f6@WQ'hF"_KQBl.:!H$!V=F=qZSA7@N>-Qij*FE2#$
+BkhQs?TgFm-Y#1jF)?&4D/"$2DfRLADe!p,ASuU206hMKAn5@(D/"$2DfRI@@OE9@:-pQUD/"$2
+DfQt2@LWYR$;No?+Dbt)A0?#9AS-($+E_d?Ci^_5DKKe>-u!F7A17rp:-pQU-Y[=6A1&L4ATT&C
+/g+eIE$-N@Ec>N)@<6L4FD5Q4-OgDX67sB.BkhQs-Qm&5F<Gua+D5_6+=C]/AU&;E%15is/g)NU
+C2[W1+D58-+FPjbB6%r6-Y-e4BPDR"C3*m*BlJ/A%14IsC2[W1+D58-Ed/]g3[]#j+D,8,+DGFt
+-Qij*:-pQUF(KG9F)?&=H$!V<+E_a:EZf./H#jE%F)>i<FDuAE+=D;QATCFTH#k*KATMF)-OgD2
+FDj]G;cFl$+F?-l/0HYiE+rft+>b3RATT%BD/"$2DfSj!ATCFTH#k>^+Eqj?FCcS0E+*j%+=DVJ
+Df00$B.nCKATDQtH#kTJAnNJ6%17/nDfp/@F`\`R9keWgDfSs#AS*'(Ec5](@rri7ATW'6-ZF*@
+F)?&4E-ZP:E\]@E67sa,Eb]Z4F_>Z=FCfJ8F"JsdF(KH9E$04=F_>Z=FCfJ8E,ol3ARfg7%13OO
+@rGk"EcP`/F<Dr?@<6!-%17#a+?MV3F)?&4E-ZP:EZfLHBl%i<+BosE+E(d5-RT?1C2[Wq?YO7n
+A7%J\+=C*)F_=NrFCfJ?%15is/g+tK@:UL'F(Js+C`mkBBl%i5Bl8$2+=Lr=De(:+$;No?+=Cl<
+De(4<B4Z0-I4cXTEc<-KB6%s$CghC+F`_>6F!hD(:-pQU-Y[=6A1&L4ATT&C/g+eIE$-N=@V'e+
+-OgDX67sB.BkhQs-Qm&5F<Gua+D5_6+=C]2GA(]4ASQ9rEbTK7-OgD1BkhQs-Qm&5F<DrQF!hD(
+-Y[=6A1&L4ATT%BE,oZ1FE;/BASYk&?XdGbBk)6rF*(r$FC?O>+:SZQ67sC%ATT&9D09fCFCfJ8
+F`V,7+DYP6Et&ItD/XQ=E-67F-ZsKAE_BthF!,L7F(KG@%14M*Db*Z&<$47FHTE9#+>G!XBk(p$
+1a$FBF<DrPD09K1H$!V<<HD_l94`Bi-Rg0^EbTW,+DPk(FD)dEIUd;6Anbm2F`V,7CLqd4/n8L+
+-Qij*F)>i<FDuAE+=D5IF_>Z=FCfJ8E,ol3ARfg)F(KH9E$-NIEb]]0F_tT/1,2Nj/h1g\C34-3
+D.7Q/F"JsdF(KH9E$/+nF_tT/9keWgDfQt>Ec5](@rs=4$4R>PDe!p1Eb0-1+=CW,F(H^.$4R>Y
+Ddd0!-Y-Y-@4u\ACh\!&-OgCl$=[O[@rl!kC2[Wi4ZX]I3[cC(Bl.F+-S7AC0mdGFA0<QT,:@2B
+AU#=F.4cifD09K1H$!V<+E_d?Ci^sH%17#a+C\kq@rl!kC2[Wi+BosE+E(d5-RT?1C2[Wq?YO7n
+A7%J\+=C-%F_tT/9keWgDfR37$4R>`A9)$kC2[Wi4ZX]5@lc8aD09K.Bl\64E\D9DEcQ)=-QjNS
++<VdL+<VdL+<VdL+<VdL+<Ve%67sBtBl\64EZen,Eb/a&DfU+4$?L5t?YO7nA7%J\+=CY[06ClM
+D.7Qs@WO2AEbTB!Ed;b<F*'$VE+EE;F!i(Q+<VdL+<VdL+AP6U+EV:>D.7R*CiseAA7>uTFE2#$
+BkhQs?TgFm-Y#1jF)?&4D/"$2DfRLADe!p,ASuU206hMKAn5@(D/"$2DfRI@@OE9@:-pQUD/"$2
+DfQt2@LWYR$;No?+Dbt)A0?#9AS-($+E_d?Ci^_5DKKe>-u!F7A17rp:-pQU-Y[=6A1&L4ATT&C
+/g+eIE$-N@Ec>N)@<6L4FD5Q4-OgDX67sB.BkhQs-Qm&5F<Gua+D5_6+=C]/AU&;E%15is/g)NU
+C2[W1+D58-+FPjbB6%r6-Y-e4BPDR"C3*m*BlJ/A%14IsC2[W1+D58-Ed/]g3[]#j+D,8,+DGFt
+-Qij*:-pQUF(KG9F)?&=H$!V<+E_a:EZf./H#jE%F)>i<FDuAE+=D;QATCFTH#k*KATMF)-OgD2
+FDj]G;cFl$+F?-l/0HYiE+rft+>b3RATT%BFD,f6@WPOjATCFTH#k>^+Eqj?FCcS0E+*j%+=DVJ
+Df00$B.nCKATDQtH#kTJAnNJ6%17/nDfp/@F`\`R<+pDk@WP7XEcQ)=+E2@>C1Ums+EM+9F`8^L
+D09K1H$!V<<HD_l94`Bi1,Vfn/g,:XATDQtH#kTJAnMP[:-pQB$;No?+B)i_+EqO8BcqA'B4W30
+GBYZSF)PZ4G@>N'/n8g:05>]FCM>FlF_PAtF"]n!DJ!Tq01o)`03*()E_BthEt&IO67sBhCiaMU
++D>k=E&oX*C3+<*FE_/6AM.J2D(fO9FDPZ4F>%WUBk1d-B5)H@@Vfsl05Y-=FCfJGCh[?3@UX=h
+06M>IEbf63F"UsAE"*.L67r]S:-pQU7<i6XE,9*,3XlEk67sB'7Pd+\4&'F,ATN',AT24$4)AhD
+A0<7K@:WneDK@ID@;TRs05YE@ATN',AT24$06LuQA1hS2F!hD(:-pQU+@C6kCb&%<0KVd@Df]u.
+Ed9`UEc6/CARB1Z-YRUDE&oX*GB\6`C3+<*FE_/6AM.J2D(fXJBkqE9<c;JV@WcKqEd9<.Ci=B9
+@<-W@%15is/e&._67sB)6Zd?b.n2E@%15is/g)?*FE21J;eTlWF=Tg=+q4lS67sB);eTlWF=Tg=
++q4lS67sB)7Q2M#$;No?+<j0pEbm6q2^/\<:-pQU,"$HmCb&FtBkDH;7Q2M#$;No?+<j`tBkDH;
+7Q2M#$4R>31-73P;Is]RCLnVUF`MM6DKIsVB7:t<De*K'>9IElARTU%-RT?16Zd?b.n29U0fr<F
+F<EqnEcP`/F?=Ma+=D,KC3+67B5i-<ATB.@>9Iip+=D5IF_>Z=FCfJ?+BosE+E(d5-RT?16Zd?b
+.oU+qAooOm1-73P7!3?c+Ad3&4*#Bb-Y.@:E,]rA-OgDP1HR<Q;IsijBl[c-8l%i:Eb065Bl[c-
+-YI".ATD3q05>E9-OgDMFE21J7Pd+\4&TX"H"1Z%+A,Et4"+i^A8c?./0J\GA8c'l.3L>S$<(VP
+AooOm1HR<Q8l%ht87cUV4)/\EBOu"!+>=637Pm1\4%*XhF_;gpF`'9O@WHU/+=ANG$:Zp80fr?G
+F*&O'D/X3$4'cfGBl8$6BmO?+AU,D;EbTE5F(or3CLqcu@UX=l@ru:'FC\g%@1<QBBPD(#.n2EY
+0fr?GF*&Nk@<6-m4#%juFEAWQE,oZ1FE;/BASYk&?XdGbBk&hN-Zj$ED.7QdF(KAbAU/>P2,6Ij
++E_a:Ebf63F"Us7B+52C67r]S:-pQU;e9M_GA1i,+E1b%AKZ2@G:mWODe=*8@<,p3@rH3;C3OB-
+BeMu!Bk1dr010YqAnbm28l9[`<HD_l94`Bi%15is/g+S=F)O)^BQS?83\N.$F)PZ4G@>N'/n8g:
+05#!@Ch[s406))JA7[B+Bll";Ci<c9D..L-ATBG?Bjr`)@<6!5F`V,7CLqd4/n8j>%15is/e&._
+67sBLG[YH.Ch7ZK%15is/g)9+1HR<Q9keKVF*D2,E+O&OCi<`m+=DVHA7TUrF"_07D.RcAD/!m!
+F*D2,E+O&CF_Q&1/no'A-OgDX67sB'6Zd?b.nD`U4%F+*F)tc1GroJUDg-86?YWpqBQS?83\N.1
+GBYZSF)PZ4G@>N'/n8g:05>]FCM>G&De!3bF_kK,GqV[(Df]u.Ed9#A$;No?%15is/g)?*FE21J
+7Q)G"$;No?+<j0pEbm7)BPD(#.n2E@%15is/g)?:BPD(#.n2E@%15is/g)?-2^/\<:-pQU,"$Hm
+Cb%t6+q4lS67sB)6Zd?b.oU+qAooOm2^/\<:-pQU,#`/hAooOm2^/\<%15Q[4#&fpASkjkAKX?_
+EcP`/F?=;W@:UK.<+pDk@WP7XEcQ)=-QlV9+>G!ZFEAWQ@WcC$A9;L-D.7Q6+Bot0EGTZ,F(KH#
+E-$#8Blmon+=ANZ>9IElARTU%-RT?16Zd?b.n29U0fr<FF<EqnEcP`/F?=Ma+=D,KC34-3D.7Q6
++Bot,A0<7@D09K1H$!V<-QlV91E^UH+=ANG$:AoUCb&FtBkDH;7P[%[4%+4.E$.u"F?=Ma+=C]B
+D/aH:F=.M)7Pd+\4&TX0F_Pl-+A,Et4*"nPF_Pl-+=Cf5DImisCbKOAA1%fn6Zd?b.n2<V0fr9E
+@sMR#AKXT@6ouf3De*d(+=nXMDe*cuAgniW%16$IBkDH;7Pd+\4%`::+@p'[E'%fQA8#OjE$-hD
+$:Zj60KV[6@Wc<+;KZk=A7BS%DBL;S%15Q_4#&frATMr9;f-GgANO0F:.\/V+EMC<CLnW1ATMr@
+%16$IBkDH;7Q*=_4&fd4F<EnYF(o,G-Vd6-:`s4UF(o,,FCfN8-N                      ~>
 )
 showpass 4 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
@@ -3085,61 +3188,64 @@ zz=:zz,'BuildMirror CR CreateMirrorXrefDb CreateMirror_sql DumpLocalImageNa'
 zz=:zz,'tural IFACEWORDSMirrorXref LF LOCOMISS LOCOXREF LoadAlbum LoadImage'
 zz=:zz,'AlbumXr LoadImageKeywordXr LoadLocalPath LoadMirrorXrefDb LoadOnlin'
 zz=:zz,'eImage LoadOnlineKeyword LocalFile_sql LocalFrOnline LocalFromDir L'
-zz=:zz,'ocalOnlineFile_sql MACROSMirrorXref MANLOCOXREF MIRRORDB MIRRORHEAD'
-zz=:zz,' MIRRORVMD MatchManual MatchOnlineLocal MatchOnlineNoBrackets Mirro'
-zz=:zz,'rImageXrTables MissingImagesReport MissingLocalFiles_sql PRIMARYTHU'
-zz=:zz,'MBS ROOTWORDSMirrorXref RealDateFrManifest SUSPECTPAIRS SuspiciousP'
-zz=:zz,'airReport UpdateLocalPresent UpdateLocalPresent_sql afterlaststr af'
-zz=:zz,'terstr alltrim allwhitetrim assert b36casemask b36fd beforelaststr '
-zz=:zz,'beforestr boxopen changestr charsub ctl fboxname ferase fexist insq'
-zz=:zz,'ltd justext justfile ofreq parsetd portchars quote read readtd2 reb'
-zz=:zz,' smoutput tlf toCRLF toHOST toJ tolower tslash2 write writetd2 yyyy'
-zz=:zz,'mondd''),(<<;._1 '' OnlineUploadCheck IFACEWORDSOnlineUploadCheck MIR'
-zz=:zz,'RORDB MIRRORDBPATH MIRRORPATH ONLINEUPLOADPATH OnlineUploadCheck RO'
-zz=:zz,'OTWORDSOnlineUploadCheck intersect list smoutput tslash2 uploaddupc'
-zz=:zz,'heck''),(<<;._1 '' SmugPyter MirrorImageXrefTables MirrorImages Mirro'
-zz=:zz,'rKeywords MirrorMD5s NOPIXELSKEY NORATIOKEY SMUGAREAROUND SMUGASPEC'
-zz=:zz,'TROUND SMUGPRINTDPI SMUGPRINTSIZES SMUGPYTERSIZES alltrim allwhitet'
-zz=:zz,'rim assert charsub decolortag degeotag desizetag dpiarearatio geota'
-zz=:zz,'g lastones ofreq printsizekey printsizestable readtd2 rekeyword rou'
-zz=:zz,'nd sortprintsizes tlf tslash2''),(<<;._1 '' ThumbsMirror BADCOUNTS Bu'
-zz=:zz,'ildThumbs CompareLocalOnlineCounts CreateThumbsMirrorGalleries IFAC'
-zz=:zz,'EWORDSThumbsMirror LF LoadThumbsMirrorGalleries LoadedGalleryCount_'
-zz=:zz,'sql LocalThumbId_sql MIRRORDB MIRRORDBPATH MIRRORPATH MirrorGalleri'
-zz=:zz,'es PRIMARYTEST PRIMARYTHUMBS ROOTWORDSThumbsMirror StdAlbumNames TH'
-zz=:zz,'UMBSVMD afterlaststr afterstr alltrim assert beforelaststr boxopen '
-zz=:zz,'charsub ctl fboxname fexist jpathsep portchars smoutput toCRLF toHO'
-zz=:zz,'ST toJ tolower tslash2 write''),(<<;._1 '' XKCDcolors CR CSS_Colors L'
-zz=:zz,'F TAB UNIFIED_Colors WEB_PyColors XKCD_Colors afterstr assert befor'
-zz=:zz,'estr chromicity colorfreq colorstability cssdist ctabdups ctabfrxkc'
-zz=:zz,'d ctl fmtcolorbins justfile list mean nearchromicity ofreq pydictfr'
-zz=:zz,'ctab pydictfrunif quote readtd2 rgbdist stability tlf unifdist webd'
-zz=:zz,'ist xkcdcolorfreq xkcddist''),(<<;._1 '' debrii DEBRIIBAT DEBRIIEXT c'
-zz=:zz,'harsub ctl dblquote debrii justext toCRLF toHOST toJ tolower write'''
-zz=:zz,'),(<<;._1 '' rulethird rulethirdsq rulethirdsqimg''),<<;._1 '' smugpyt'
-zz=:zz,'er SMUGAREAROUND SMUGASPECTROUND SMUGPRINTDPI SMUGPRINTSIZES assert'
-zz=:zz,' charsub printsizestable round smugprintsizes''                     '
-zz=:2592{.zz
+zz=:zz,'ocalOnlineFile_sql MACROSMirrorXref MANLOCOXREF MIRRORDB MIRRORDBPA'
+zz=:zz,'TH MIRRORHEAD MIRRORPATH MIRRORVMD MatchManual MatchOnlineLocal Mat'
+zz=:zz,'chOnlineNoBrackets MirrorImageXrTables MissingImagesReport MissingL'
+zz=:zz,'ocalFiles_sql PRIMARYTEST PRIMARYTHUMBS ROOTWORDSMirrorXref RealDat'
+zz=:zz,'eFrManifest SUSPECTPAIRS SuspiciousPairReport UpdateLocalPresent Up'
+zz=:zz,'dateLocalPresent_sql afterlaststr afterstr alltrim allwhitetrim ass'
+zz=:zz,'ert b36casemask b36fd beforelaststr beforestr boxopen changestr cha'
+zz=:zz,'rsub ctl fboxname ferase fexist insqltd justext justfile ofreq pars'
+zz=:zz,'etd portchars quote read readtd2 reb smoutput tlf toCRLF toHOST toJ'
+zz=:zz,' tolower tslash2 write writetd2 yyyymondd''),(<<;._1 '' OnlineUploadC'
+zz=:zz,'heck CHECKVMD IFACEWORDSOnlineUploadCheck MIRRORDB MIRRORDBPATH MIR'
+zz=:zz,'RORPATH ONLINEUPLOADPATH OnlineUploadCheck ROOTWORDSOnlineUploadChe'
+zz=:zz,'ck intersect list smoutput tslash2 uploaddupcheck''),(<<;._1 '' SmugP'
+zz=:zz,'yter MirrorImageXrefTables MirrorImages MirrorKeywords MirrorMD5s N'
+zz=:zz,'OPIXELSKEY NORATIOKEY SMUGAREAROUND SMUGASPECTROUND SMUGPRINTDPI SM'
+zz=:zz,'UGPRINTSIZES SMUGPYTERSIZES alltrim allwhitetrim assert charsub dec'
+zz=:zz,'olortag degeotag desizetag dpiarearatio geotag lastones ofreq print'
+zz=:zz,'sizekey printsizestable readtd2 rekeyword round sortprintsizes tlf '
+zz=:zz,'tslash2''),(<<;._1 '' ThumbsMirror BADCOUNTS BuildThumbs CompareLocal'
+zz=:zz,'OnlineCounts CreateThumbsMirrorGalleries IFACEWORDSThumbsMirror LF '
+zz=:zz,'LoadThumbsMirrorGalleries LoadedGalleryCount_sql LocalThumbId_sql M'
+zz=:zz,'IRRORDB MIRRORDBPATH MIRRORPATH MirrorGalleries PRIMARYTEST PRIMARY'
+zz=:zz,'THUMBS ROOTWORDSThumbsMirror StdAlbumNames THUMBSVMD afterlaststr a'
+zz=:zz,'fterstr alltrim assert beforelaststr boxopen charsub ctl fboxname f'
+zz=:zz,'exist jpathsep portchars smoutput toCRLF toHOST toJ tolower tslash2'
+zz=:zz,' write''),(<<;._1 '' XKCDcolors CR CSS_Colors LF TAB UNIFIED_Colors W'
+zz=:zz,'EB_PyColors XKCD_Colors afterstr assert beforestr chromicity colorf'
+zz=:zz,'req colorstability cssdist ctabdups ctabfrxkcd ctl fmtcolorbins jus'
+zz=:zz,'tfile list mean nearchromicity ofreq pydictfrctab pydictfrunif quot'
+zz=:zz,'e readtd2 rgbdist stability tlf unifdist webdist xkcdcolorfreq xkcd'
+zz=:zz,'dist''),(<<;._1 '' debrii DEBRIIBAT DEBRIIEXT charsub ctl dblquote de'
+zz=:zz,'brii justext toCRLF toHOST toJ tolower write''),(<<;._1 '' rulethird '
+zz=:zz,'rulethirdsq rulethirdsqimg''),<<;._1 '' smugpyter SMUGAREAROUND SMUGA'
+zz=:zz,'SPECTROUND SMUGPRINTDPI SMUGPRINTSIZES assert charsub printsizestab'
+zz=:zz,'le round smugprintsizes''                                           '
+zz=:2637{.zz
 showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:dec85__MK__JODobj 0 : 0
-1,^72+>P&o0H`2.0JXb*2]sq91*A;,+>GQ/1JMS(Ec5u#Eb/hl$;No?.SXVtEc5u#Eb/i*F"Jsd
+1,^72+>P&o0H`2/1,9t,2]sq91*A;,+>GQ/1JMS(Ec5u#Eb/hl$;No?.SXVtEc5u#Eb/i*F"Jsd
 @rc-hFCcS'DIal+Ddd0!F)c#1FCcS3Bl\64EZek4Df]tBEb/ioEb0,uAKYMlFCAWeF(Hs5$;No?
 %15is/g,=KEaiI!Bl,m?$;No?%15is/g+kGFCfK)@:NjkGAhM4.!$gu+:SZQ67sB4/M/P+/M/P+
 /M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
 /M/P+/M/P+/Kc/Y+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<V+#:-pQU+@:3bCh-7SEcQ)=
-+>"^F@:O(qE%b^AART[l05PQ8A0>`'EcQ)=%15is/e&._67sBjEb/[$ARmhE1,(FBC3=DJ2@U!g
-67sB4/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
-/M/P+/M/P+/M/P+/M/P+/M/P+/KbK0:-pQU0fWojDD3skB6%p5E$/Y,@<6K4@rc-hFCetl$;No?
-+>GijF`&rj+DkP$DBL>oF_PZ&9keWgDfR9L@:Wn[A.8l@67sB83,3SR1,^7r@q]Fj@3B/rDII?q
-H=^V0@;]Tu-q&2pE(k1[@;JMP@:s.H@<?X4@;IA8@:Wn[A.8l@67sB83,3SP0ea^u9keZiBl7QW
-De!3l7VQ[MF'j!.CagK8A7T7^%15is/g)l.C3=>I1*@u>@<?!m:Msu_DIlR]6?6LECLqU/.3N&0
-A7]9\$;No?+>GijF_ick+=KruF)u&5B1ZrKB4Z-^AT2R.F=A>@A7T7^%15is/g)l.A7]7)0d%l@
-@<,psF@L1bA7]e&/0IN$@:s.m9OW!a<H)JWFCeu6+AZlkBl7KRD..'g6Z7*bF=\P9AR\Y[Bdk05
-A7T7^+EVNE-p_ZYF_rQMFCAWpAISuA67sB83+QT10Jjn#:Msu_DIl1UART[l6t(1K.3N&0A7]9o
-FDi9M6#:"QD(-TL@:F%a%15is/g)l/An>F+3?T_KF`VM9@qfk(F&6:ZE`-IfDfTqK+CSekARl5W
++<W6Y@UWb^F`9!DEb/[$AM7k<@:UKtBl\64EX`@N67sB'9Q+ELCdrG`D+&)Y+>"^PDe!3l+D,>(
+ATJu<Bln#2A8-'q@ruX0Gp$s4FCSu,.![6a@;]TuAnc'm+DkP/@qZu5GUX(/:-pQB$;No?+CfG'
+@<?'k3Zp130fWojDD3sX$;No?+>#/s/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/Os%15is/g)l.C3=DJ2BZXQDfp"A
+@r,RpF!+t5ART[lA.8l@67sB83,3SR1,C%i@;0U%-pi&jCh-7SEcQ)=.3N&0A7]9\$;No?+>Gij
+F`&rm+EM%+ASkiuAnc-kCh\3,A0>;uA0<9gF_u(kDe!3l8SqmKAPQZUF`Lo,.3N&0A7]9\$;No?
++>GijF_icd+=KruF)u&5B2!5R@;JDICh7ZpF)c"F+CSekARl5W:-pQU0fWojCb[[f-r",l@q\YU
+Ch[cu:2`I>@:O(aFE8lR@:Wn[A.8l@67sB83,3SP0fL4'9keZiBl7QTD..'gF&HRgDfTqK+CSek
+ARl5W:-pQU0fW]T@k]V[-r=>mASuTZDerrqEcWcS8SqmKATLORF*(E$A79RkA1Sj!DJX$)AP$`I
+B4XGKF`):P+BN,`<H;e&+CSekARlp*D]gGoCgqO(.3N_@@VfTb$;No?+>GidARdDN+=L$'Ch[cu
+6ZQaHFCdjKFCcmD@:Wn[A0>u4+=KNl@WcN:+EV%$Ch4%_:-pQU0f`iW@PKkc-rY80E+rfrDfp+t
+@;0a[AT2R.F=A>@A7T7^%15is/g)l/D..H?0H_c;De!3l7WNEa6tpZj+E_d?Ch\!:+CSekARl5W
 %17,eEHPu9AKW@2@<>p2F)c#1FCcg/$4R>PDe!TlF)rHO9keWgDfSs#AS*;4%13OO:-pQ_A7]^k
 DId<rFE7lu:-pQU-n6Z/3Zpe1ART[l9keWgDfT3+EGQakDe!3l7VQ[M?ZU4'+B<Ak@<?'SDe!3l
 :i^,gASuTsF)c"=9Q+ELCenqbBl7KOBl%?fF)c"*$;No?+=J]g4ZX][Ble?0DJ)X]@ps1CBl%@%
@@ -3241,144 +3347,148 @@ cocurrent SO__JODobj NB.{*JOD*}
 zz=:fromascii85__MK__JODobj 0 : 0
 1E\P#-p0UR/mg=U-Qk]k@WcNa@<?0^@:F%a+@0gQF_t6$AS*&O5t"(9<DHLl+@8@^7mTg9:/k.7
 6=FA><H(ZHEcQ)==E7tb6t.9*Ea`HnATU^kATDTqE-!-gF_PZ&9keWgDfQseF_PZ&<+pDk@WNYZ
-;c@$jDes?4F!*hgD/`p(AP@#P@;J_WCh[cu6Z7*bFE8QlEb/[$APHlZEc5u#Eb/iN@N\$YART[l
-9keWgDfT3+EGQabEb/[$AQ3>cD.7Q\Bl\64E^sPSCh7X$ATJt^6Z6dZE^t.YA7[G;6pkm/DfS?g
-@:Wq(+@JXb;FsGH5u\sp77'mD8OZ`\+@K+MCh6RZBl[a*0H`c%D/!lrDKJ6aCi=>jAp>FdF_u(k
-De!3l8SqmKAPQZUF`Lo,+@UNs=E7tb+A#$g6Ub'P;FFGXBl\64E`d?nAfsZ75sn(B:JsSZ:Msu_
-DIlgeCi<`m6YL%@CEQ2<5sn(B:JsSZ<+pDk@WP7XEcQ)=+A>Qu:JFDZ;]nb06Vgf^77JCnDdd0B
-CgqO(+A?]^A4^WHB4XAF@WcNiEZe%o@:VrH@:s.EAU/K<Eb&9m+A?]^A5$oO@;JbKFD)djDdd0N
-Bl\64E`d?nAjg)N9Q+?M:Msu_DIlCV@:s-o9Q+?M:Msu_DIlIPH$=1IA0=Qa@:W>NF_tT/9keWg
-DfS?VCi!['Bk;?.9Q+?MARn;>Ci!['GscLmDKK6,EGQakDe!3l7VQ[M?ZU4'+A?]`@;JDR:Msu_
-DIjqaDe!3l7WNEa6tpZa9Q+ELCenqbBl7KOBl%?fF)c"=9Q+ELCfG(jD.5tKCh6spEGQakDe!3l
-<+pDk@S(*;F)c"=9gM-E:K'u%EcQ)==E7tb+AG-s9M\#O=AhRW+AGF*;GU1Y66Juo;Gp:g6pa^9
-<(J-+8Q&G^;Fj5B6m,2q;Gp:g:dJ&O+AGF*;GU1k9gg*u@<?!m9jqp^@;I&\@<?!m:Msu_DIlL[
-@ps0r9jr-RBMWM^Bl7KWDaJJQ@r#XtF!+1kEcQ)=7q$4MATDKrF!+1kEcQ)=8SqmKAQ3)ICh4_`
-Bl\64E_1+VB4Y1c<+06PATJtgBl\64E_1+VB4Y1cAS+nM@VfUs+AHQjEc5tiD..'gF!+1kEcQ)=
-94`BmDfTB0+AHQjEc5tm6o?)]Bl\64E_SqZF!+1kEcQ)==E7tb+AHQkF(oN)8SqmKATLa\E,Tc=
-+AHQkF(oN)9Q+ELCdr,TATM4"EGQam:JaVb78-WQ79La.:JsJX8P_uJ=WgL89M%uJ<DZ@b5t"O8
-<(J--<^fnn6uQpVDIIF)+AZlkBl7K^E,9H$A4($A@r!2`;FsSK;HZsf;cFl9;FsSK;HZsi<D>eY
-+AcKgBNT:dAfsuI:K1Ck;FFGXBl\64E`d?nAfsuI:K1Ck;FFGZDJX$)AQ<\cDdd0DBOt[h+Au!2
-<*)jn6rR&uF_tT/9keWgDfQsuARTCC@<?'ME_Tt[BkCptF<FLV<C]>Q76sgI<DGq);b^7^5uUTK
-6W?rZ<DGq);b^7^:f9k[<('PS+B)!77o3)T:/k.`>")@4;b^7^:g$ad;H$.j78k=-<Du^_6W?lJ
-8Q&J0;cZCq6Z6dZEcW@%FC[[R@WcN_@;TRs+B*E(E+rfrDfp+t@;0a[AT2R.F<FOR<D>eY<_Yt)
-<DH+T8OZ$S6Z6dZEcW@'E+EC!AP@#P@;Jb\ATMF#F<FS&A79Rk9Q+ELCf#.`F(K62?ZU4'+BEDs
-F_t\lEb/i*=%,G_:jGEHCi=?8+BV9(6si<"Ci=?8+C[,b@psFiD..L$+Cf)*Df'2uBlnVC@rH1%
-Eb9?'E?Jb0Ci=?0AU.m.AT8i&Des?4F*(i"Bl%L*Gp$U;ART[l9keWgDfSs#AS+>>+CfG'@<?'T
-Bl\64E`d?nAlN2JCh7Z1@rl^%BleA=@ru-gA9Dj4+CfM%@V0Y*CL^ltA7]4jBk\]#ARfXpDfTr.
-B-:_rB4Z"'@:p]nATMR3ATV?n+CoG*@<,pfEaa'(D]iY/FCT6*DfT<$DK?q4D00Q)H#k*@AT)[!
-B-:o*@:s.M@q]Fj@:+(qC`mG0F)c#<A0>c$@<,jkEc5f/@qg%1+Dtb5FE1f+BlnVCDe=$$E?K4@
-Bl8$6BmO?+AU,D;EbTE5F(or3CLqcu@UX=l@ru:'FC\g%@3BN0Bl8$6BmO?3FCAWpAKYr;A8,Oq
-Ao_C'@:C?uH":W!FCoQ9DJ<]*Ea`ir;Fa&qATMrI+ED%/AU/K<Eb$;5B4>CcF*&OFB4>InA7]6n
-EbAinEbK$/+EDU@ATVU"Eb'62+EDU@ATVU"Eb'62Bl.K*F(or3CLqc6F)?&4E,oZ1FE;/BATJu8
-DfTr=EbTE5F(or3F!,OG@:EqeBlnVCF`(o*A8-+,+E_X>Ddd0eF`:i(ARfKuG@b5oBleA=G\^f"
-@rH1%Eb9?'E?KLA@q9+aF*&cY/1<VC4"akp+=A:@F_PZ&@q]F`CER)/Bl%<sBl\64EZeh6Bl%=%
-BQ\0$F!,FBBl8$6BmO?+AU.Wl@<6-m0JFk'/1<VC4"akp+=A:+Bl\64E`d?nAfsleCh[cu<H)bm
-@:V`=ARfKu;f-Yi:jI.oEZe=pF_tT/9keWgDfQt&91)*WDes?4F!,")@WH0s+EDU@ATVU"Eb$;6
-D09K1H$!V<-RgSp4>8$7.4cl04?G0&0d%hd6"F_QF*'fgD/!lrDKJ6aCi=?8?Z^O7+@C0\@<?'T
-Bl\64EaNm-C`lPM;cI*uBl\64E`d?nAfsoG;cI+"DJX$)AQ<\cDdd0DBOt[h+Abj4<*rU<F_tT/
-9keWgDfQt0@<6!92ICEK+Dkh5Ec5tuF(KAbAU/>>D/"$2DfT2uBleB7Ed;#/A0>i3C2I[*Ec5t@
-E,o]7D09K1H$!V<+E2@9FD,f6@WNZ5D09K1H$!V<<HD_l94`Bi+EV:>D.7QdF(KAbAU/>E.4cl0
-1*A;-1aFh10fUmB1-$sD2E*HO2)d<G+>PW*3&!*A1G1L@0JkIC3&;[40JPRA1,:d@2)[<O2D['J
-2BXb/0f^pD0JkCB1c[EJ1,V!F+>PW*3&!6G1bL[@1c@$G0JPR11,(FC0JYCC/i>=C2`<BH3&r*:
-0JPO@2DR'@2E!EL2Dd6L3?U(20f^pD0JtI>2DmKM1Gq-P+>PW*3&!-B2_I!G1,:jK0KCs41,(FC
-0JYCB/i,FB3&3HQ1c$700JPO@2DI-C2E!?J0KD!H3?U(20fUjF0fL^C2)6pG2_d9N+>PW*3A<6C
-2(gaH0f:pJ3AWW;1,(FB0etI@/iYdJ0JP:?1,0n,0JPOA1,1[>2`WiT3B8rW1E\G,0fUjH0et@=
-3A`ZT1GpmG+>PW*3&!<H1+kFE1cIEN2).$41,(FB0etI?/ibjM1,q0K2_cF10JPO@1GLg@2`WiT
-1,q*J3?U(20fUjF1,ggF0Jb^J3AicP+>PW*3&!*A1G1L@0JkIC3&;[40JPO@2DI-C2Dm0C1GpsD
-1E\G,0f^pD0JtI>1c-sI1,q'K+>PW*3A<3C3%d'K3B/uR1,Us41,(FB0K1aC/iPUC1c%$G1G^./
-0JPO@2DR3D3&`fP0KD!H3?U(20fUjF0fL^B0K(jE2Dm3I+>PW*3&!6F3A*9O1c@<K0et^21,(FB
-0K([@/iY^E2D?mD1,U100JPO@2DI-C1cI*H3&!<K1a"P-0f^pD0JkC?3&39M2).'K+>PW*3&!6F
-3A*9O1bgpK1GCg31,(FB0K(XE/iGCA1,(C<0eje+0JPRA1GCX<2E3KJ2Dd<N2BXb/0f^pC0fUdC
-3A`]N2`!6M+>PW*3&!6G1+kIE1Gh$I2_d'11,(FB0K([A/iG[F0Jk^K2'=Y.0f^pD0K1UD0K(U>
-3&NNJ+>PW*3&!6G2D-sJ1,1RA1c.!21,(FC0JY@A/iGUD1GCUD0f1".0JPRA1,1a@1c@9L2`3?L
-2BXb/0fUjF1,CO?1bpg@1,1LB+>PW*3&!9G1G1XB1H.9Q0f_-71,(FB0K([F/iYO@3B&rT0K:11
-0JPRA1GC[=1c.$E3&3HL2]sk00fUjF1,CO?3A<EH3B9#Y+>PW*3A<6C2(g^B1bq$G3&<K91,(FC
-0JbF>/iP^C1Gq*L0fC.00JPRA1GC[=2D[9I3&<?I1a"P-0fUjF1,^aE1,V$I2Dd9M+>PW*3&!9G
-1+kO?0f^pB1GUs51,(FC0JbC?/i>XC3B/iO2`)X40JPO@2DI0D3&<NJ3AEEK1*A>+0fUjF0f(FA
-1GLX=0K:mI+>PW*3&!6E2(gjD3&`TP0JkR.1,(FB0JP@;/iY[B3A<<H2)ud70JPO@0f(L93&**@
-1c[?H3$9t10fUjA1GCF@2)-sK2)-sD+>PW*3&!'C0J5=B1H@-G1Gpp11,(FB0JY=</i5C=1b^mK
-1E\G,0fUjG0fL^E2_m'@0f1aI+>PW*3&!9G0J5:C3&rZH1Gh'61,(FB0JP:9/iPXD2*!QQ2E)a6
-0JPO@0ek@72`3BL3&<9L2'=Y.0f^pD0JtI>1c-sI1,q'K+>PW*3&*0C1bL[C1b^dI1GLa01,(FC
-0JbC?/i5CA1,q$K1H-F30JPRA1GC[=3AicP0etO@2BXb/0f^pC1,pmB3&WQN2`WlY+>PW*3&!*A
-1G1L@0JkIC3&;[40JPO@2DI-C2Dm0C1GpsD1E\G,0f^pD0JtI>1c-sI1,q'K+>PW*3A<3C3%d'K
-3B/uR1,Us41,(FB0K(XA/iYX@3Ar]J2)-4/0JPO@2DI!?2`EZM0f(U@1*A>+0fUjF0f(F@2`EHG
-1GpsC+>PW*3&!'@1G1UE1GUa@3AN?41,(FB0JP7;/iPdN1GLgD3&2U30JPO@0ekC83B&rY2)-dF
-3?U(20f^pC0f^jC1bpdA3&r`O+>PW*3&!-B2_I!G1G^pJ3&_s80JPRA1,:d@1b^^F2)%$J+>PW*
-3A<3C3A*-C3&r]P3AWZ<1,(FC0JbF>/iP^C1Gq*H2)ud70JPOA1,1L92D[$@0K(UA0d&5*0fUjF
-1,CO@0Jb^G3&NBK+>PW*3&!6G1G1RD3B8rS2)6p01,(FB0JY=</i5C=1b^mK1E\G,0fUjC0K1UB
-2)I0M2`*6K+>PW*3&*0C0J5=@0K:a@2E3Z=1,(FB0K([B/i>OI1cI9J1cZ[60JPOA1,1U<2`NQK
-1cI0E+>PW*3&*0C2D-mB2_m0H2`*<51,(FB0JbFB/iPaL1c$pD2E;m80JPOA1,:O92Dm<J2`NfU
-+>PW*3&!6E2D-sC1,1RE2DR'21,(FB0K(UC/iYR>2Dm9K1c?I30JPOA1,1U<1H@HN1,V'P2'=Y.
-0fUmC0K:[A1c%!H1GUaH+>PW*3&*0B2_I$C2).!H2D[661,(FB0K:dB/i>XG3B&WN0K1+00JPOA
-1,:a?1cI0F3A``P+>PW*3&*0D2D-gF1H@9G0ekO.1,(FB0etLB/i5CD2DmEQ1,L+/0JPO@0ebI;
-2`<QS2`NKG0d&5*0fUmC0f1L=3AENN0JGCE+>PW*3&!-B1G1U@1H@<K0f1m51,(FB0JY=?/ibUE
-0f(gF2BXb/0fUjF0K(OB3A`ZK3&3EL+>PW*3&!6G0J5:A1-%6H3A<321,(FB0etI?/iYRB1,CjL
-2)6:00JPOA1,1U<2E*EG2).*M3?U(20fUjF1,ggF0Jb^J3AicP+>PW*3&!'A0J5:A1GC[B3AN?4
-1,(FB0JP:9/iP^D0f1jF2DcO30JPO@0ebF:2`<QQ1cRHN0d&5*0fUmC0K:[C1,([F0fCmH+>PW*
-3&*0C0eP@A1,V'P2D@'41,(FB0etI</i5IF2E!<H2DH=00JPO@1,(U=3A<BH1H@3K+>PW*3&*0C
-1bLU=0f1UC1b^[-1,(FB0etI;/iPdL3&*3I1,L+/0JPOA1,1I82`WfU2`*EL1E\G,0fUmC0K1UC
-0JtR?3&`WP+>PW*3&*0C1+kC@0JtjK2)-s21,(FB0K1aC/iP[E0K2!O3&Mg60JPO@0ebC92`<ZR
-3&E<L2]sk00fUjA0JkC@2D['G2`*?G+>PW*3&*0D0J57B2)d<I3&EB51,(FB0etI</iGL@2`*HO
-3B83;0JPRA1GC[=1c.$E3&3HL2]sk00fUmC0ek:=0f1RA3Ar]L+>PW*3&*0B3A*3L1-%0J2)d<6
-1,(FB0etI</i>RH2`*9E0K1+00JPOA0etaA1cR3E1,V'N1E\G,0fUjB0Jb=<1b^a?3&i]:1,(FC
-0JbC?/ibgE0JY@?2_lL20JPRA1GCX<3A``R0etUF0d&5*0f^pD0JkCB1c[QU2E!?I+>PW*3A<3D
-3%d'C3&*?G1GCO+1,(FC0JYCC/i,IF1b^pK1G^./0JPRA1GC[=1cI-F2)$gD2]sk00fUmC0eb4>
-1,UdC0KCgE+>PW*3A<3D2_HsG0K(UD1,Lp41,(FB0K([F/iYO@3B&rU3&;[40JPO@2DI-C2Dm6F
-2`EHN2]sk00f^pD0JtI?3AEBN2*!HP+>PW*3&*0C2(gjI2D?j?2DR!01,(FB0etIA/iPdM2*!ZS
-3AVd50JPO@3&*0@2*!KR0ekXJ3?U(20fUjH0et@?2).*I1c@9O+>PW*3&*0C1bLdI3&3HO1cI-3
-1,(FB0JbFB/iPdM2)7-J2)ud70JPRA1,1dA1c%'E2)I9P1a"P-0fUjB0Jb=<1b^a?3&i]:1,(FB
-0K([B/iGUG3&EEI3&)O20JPRA1GC[=1c.$F2`*KR2'=Y.0f^pC1,ggC0f_'I2*!ZU+>PW*3&!9H
-1G1UC1GgmG1G^g01,(FB0K([F/iYdL1,(^G1H?R50JPOA1,(O;3&!-H2)mQP1E\G,0fUjF1,CO@
-0eb=@2)@-51,(FB0K([F/iYO@3B&rU3&;[40JPO@2DR3D3&!-K2`W`T1E\G,0f^pD0JkC?3&3BP
-1Gq$F+>PW*3&!6G1G1R?0JPLD3A<941,(FB0K([F/iYO@3B&rU3&;[40JPRA1GCX<2E3KJ2Dd<N
-2BXb/0f^pC0fUdC3A`]N2`!6M+>PW*3&!6G1G1O>3AiQL3&`f>1,(FB0K([D/iYXA2`NcU0Jjn-
-0JPRA1GCa?3&!6E0fV$I1*A>+0fUjF1,^aE2`!BK2E<]U+>PW*3A<3C2_I!H1G^^@2_d-31,(FC
-0JY@B/i5IF1cI9I2`;d60JPO@2DR'@2)I'D0etI<2]sk00fUjG0f(FA1,CjK3&*EO+>PW*3A<6C
-2(gmI0eb@;2)d951,(FC0JbC?/i5CA1H.-M3&Mg60JPO@2DR'@2*!?M0KD-P3?U(20f^pD0JtI>
-1c.!I1cRHP+>PW*3A<6D1G1UG0etL>1-%'31,(FC0JbC?/iGO@2)$a>1,0n,0JPRA1,:O92`3?F
-3AN<K3$9t10f^pC1,pmD1,LmF3&WNJ+>PW*3A<6C2(gaH0KD*L1H.-51,(FB0K(XG/iYdD2)mEN
-0fU:20JPO@2_d6D3&NZO1cR3G2'=Y.0fUjF0K(OB3&icR3B&`N+>PW*3&!'C0J5=A2`3EG1H7-4
-1,(FB0K(XE/iGCA3&WWK1H6L40JPO@0f(L93&NEJ3AiNK1*A>+0fUjA1GCF@2)@6H1c%!E+>PW*
-3&!*A1G1L@0JkIC3&;[40JPO@2_d<F2`EHG1c@6J1E\G,0fUjG0eb4=2`NfO0JbOF+>PW*3&!'A
-0J5:A1Gq0N2E!K:1,(FB0JP:9/iPXD2E3KI3Ahp70JPRA1GC[=1c.$F2`*KR2'=Y.0fUmC0f1L@
-1c-mD3AWBI+>PW*3A<6C2(g^B1c%'I3&ic<1,(FC0JbC?/ibdK1GLX@1H$@20JPRA1GC[=3ArTG
-1,1XF1*A>+0fUjB0Jb=<1b^a?3&i]:1,(FC0JbF>/iP^J3&3BJ2)HF20JPRA1GC[=1c.$F2`*KR
-2'=Y.0f^pD0f(F@2`<TO2)I*L+>PW*3&!6G1G1R?0JPLE1,^m11,(FB0K(XA/iP^J0ekI?1,9t-
-0JPO@2DI!?2`EZM0f([C0d&5*0fUjA0Jb=?2D[*E0f_!E+>PW*3&!'@1bL^F1c7*L1c%$41,(FB
-0JbC=/iPI>0fCdF2_lL20JPRA1,1dA1c-sB1H7BM2'=Y.0fUjC0K1UB2)@$H2`N`=1,(FC0JYCB
-/i57<3&NBM2'=Y.0f^pC0f^jC1,CmG2)6sD+>PW*3A<6D1G1UG0ekO?1cR341,(FB0etI</iGL>
-0JGC=1bg+.0JPO@2DR3D3&!-K2`W`T1E\G,0fUjF1,U[D1c.'J0K:jD+>PW*3&!*A1G1L@0JkIC
-3&;[40JPOA1,1I83&*<N0fD$O3?U(20fUmC0eb4>1GCdB0fD!N+>PW*3&!6G2(gjG0f1jE3AN?4
-1,(FB0etI?/iYUB0JG=B1c6C20JPOA1,1[>2DI3N0fLsI2]sk00fUjC0fUd>1G^jC1H@3H+>PW*
-3&*0D0J57A1b^mJ1H%$31,(FB0K(XE/iGUC3B&cN0fL410JPO@2D@$A3&**F2)@-I2BXb/0fUmC
-0f1L>0K:dD3ArfR+>PW*3&*0B3%d$E1Gq$G1,Cp51,(FB0etFB/i5@E1GUdE2DQC10JPO@3&*0@
-2*!KR2_[0E2]sk00fUmC1,^aA2_m-K1c[?71,(FB0etLB/i5LC3A`EE0f:(/0JPOA1,:a?1cI-G
-0JYC@3$9t10fUjA0JtIA2`E]R2)-dC+>PW*3&*0C1bLRE2E<cU1c%!31,(FB0JbC=/iPLA3&iZK
-0d&5*0fUjB0K(OD0f_*F1H%3I+>PW*3&!6E2D-sD0fV!G2DmB81,(FB0K([F/iYO@3B&rU3&;[4
-0JPOA1,1U<3&36L0fM$F2]sk00fUmC0f1L@3AWKO3&NH61,(FB0K([F/iYO@3B&rU3&;[40JPO@
-0ekL;2D[9H2)-jE+>PW*3&!'A0J5:C0ekLE1,^s31,(FB0JP:=/iGL>2)?sA0d&5*0fUmC0K:[C
-1GUpG2DdB91,(FB0etI</iGRF3B9#W2Du[50JPOA1,1L92)I!@3&NHL2]sk00fUjB0K(OD0K1^B
-3ANK81,(FB0etI?/i57=1H.!I1c-=10JPOA1,1I82`WfV0f(^C1a"P-0fUmC0eb4=3B&oS2_[0I
-+>PW*3&*0B2_I$C2)-jG2`!B81,(FB0etI=/i5ID0f:pJ1E\G,0fUjG1,COA2D[$G3B/uU+>PW*
-3&!'@2(ggI1H%0I0K(X.1,(FB0JP7</iP[E0fCsI1bg+.0JPOA1,:R:1H7'G3&`ZN1a"P-0fUmC
-0f1L>0K1[B1,C^H+>PW*3A<6C2(g^B1c%'I3&ic<1,(FB0etI?/i57;1,1L>1*A>+0fUmC0KCaD
-3&NEH1cI<P+>PW*3&*0C1bLU=2)[BP3ArZB/1<V9+>b?!0JPRA1GC[=1c.*N3&`fR3?U(20fUjG
-0et@@2)$^?0JPOD+>PW*3A<6C2(gaH1GppH3&3<51,(FB0JP:9/iP^L0f1^H2_lL20JPRA1GC[=
-1c.*N3&`fR3?U(20f^pD0f(F@2_[-F2`*HO+>PW*3A<6D1G1UF3&iiO3A`W:1,(FB0JP:=/iG^G
-3ANNQ3%6C,4>J$=,Vh&.3&!*A1G1L@0ebC?2)cX50JPRA1GC[=1c.'E2)6pE2]sk00fUmC1,^aA
-2E3ZN1H?R50JPRA1,1^?2)dBM0fV*M0d&5*0fUmC0K:[A1c7!A0K1g21,(FB0K:dB/i>XH3A<3C
-3&Vm70JPOA1,1O:1c79P1,L^?+>PW*3&!'@1G1UF1b^^A3&E?41,(FC0JbF>/iP^E1GCgG1c6C2
-0JPRA1GC[=3AriW0K(U=3$9t10fUmC1,^aA2E3ZN1H?R50JPRA1GL[<2`EWP2D?pD3$9t10fUmC
-1,(==3AN9D3&WQL+>PW*3&!<H1+kFE2D@*E2_m?81,(FB0etI=/i5I?0K;!J2)6:00JPO@2DQs=
-2`3EJ2DmHP3@QL-4>8$7.4cl01*A;-,Vh&.3&!-C2_I*L1H@3E0ebC+1,(FB0K(XA/iYOF0Jb^E
-2)cX50JPO@2DI-C2Dm0C1H%!I1E\G,0f^pD0JtI>1c@6K2)?sB+>PW*3A<3C3%d'K3B/uR2DI06
-1,(FB0K([B/i>CD2)mBP1,U100JPO@2DR!>2`<HK0f_-K1E\G,0f^pD0f(F@2_d<L3AiNK+>PW*
-3&!6G0ePCC2)-dA2)d<61,(FB0JP:</i5@@0f1^@1H?R50JPRA1GC[=2)dNL3AWKH2'=Y.0fUjA
-0f(F=2)-pE1-%-M+>PW*3A<3C3%d!H1,C^C1a"P-0fUjC0fL^F2`!HL0JP7;+>PW*3&!6G2_I'D
-1H@BS2`<Z=1,(FB0K([F/iYO@3B&rW2E;m80JPRA1GC[=1c.*K1c7'D1*A>+0f^pC1,ggC1,CaD
-1,_-O+>PW*3&!6G1G1O@3AiZN0f'q-0JPO@2_d<F3&!*G0f_0Q1E\G,0f^pD0f(F@2_d<L3AiNK
-+>PW*3A<6D1G1UF2)d<N2)I$11,(FB0K([@/iPXI1,Ud?1E\G,0f^pD0f(F@2`3QS2Dd3I+>PW*
-3&!'A1G1LA2_['F1c7061,(FC0JYCB/i>CD1H.'L0fLO4-p014/1<V7.4cl00I\P$4>8384>6 ~>
+84>m=<_Yt)6W6oj6Z6dZEcW?jDf'H%Eb.p_@ps1LDJX$)AOCBYDKKqB6ZQaHFCe0\EcQ)==E7tb
+6t.9+Eb/[$APHlZEc5u*F)c"=6ZQaHFCeEbF_tT/9keWgDfS?VCi!['Bk;?.6pkm/DfS?g@:Wq'
++@JS8Ci=>aEa`Ki0d&kQ6;gBH6:"Qn6q'F?8P)?Q<$4S,F_kVgBPDKtF"e_)Df'3+@;^0SDes?4
+:hFqp7!3?c9Q+ELCe8JPB4XhHFEMV4C`l/kFBEQpAfsZ75sn(B:JsSZ9keWgDfSs#AS*&V7R9C1
+=&2^^;bq:IBl7K^E,9H$A4($A@r!2Y7R9C1=&2^^;cIFQD.7Q\Bl\64EZe%O6VgEJ;c=f4:I@o[
+;FO%t9Q+?M6#:"QD'2Mj@:VrH@:s.;CgqO(=E5NXDdd0JD..'g94`BmDfTAjEZe%o@:W&M@ps1M
+@<?0*9Q+?M9keWgDfSs#AS+>>+A?]^A5@)ZBl7KRD..'g+A?]^A5@)ZBl7KTAU/K<Eb$:dDdd0U
+BQ\0$F%p@hEc5tg@;KakEbT*++A?]^A7]:A@;KakEd:#jF`);.F)c"=9Q+ELCdr,TARBLuC`lDi
+@ps1CE_gRhBl7K)9Q+ELCdrG`D+&)Y+A?]`@;J_WCh[cu7VQ[M?ZU4'+A?]`@;JnVF_tSWBl%?f
+F)c"=9Q+ELCfG(jD.6(I?ZU4'+AG-h;GU4cBl\64E`d?nAfsf6:/"GN:KUL`7NbDs;Gp:g6p`"j
+8Q&G^;FEiJ5u^At9hA5\:Js_P5suhi8Q&G^;G]YY80CVu;Gp:g<_Yt)9jr-RBMDoQF^])/9jr-R
+BMWM^Bl7KUDe!3l+AH9d@q\YUCh[cu:2`I>@:O(aFE8R!Bl\64E^sPSCh7X$ATJtgBl\64E_1+V
+B4Y%N@VfTu9keWgDfSEd@:s.RE`?IVCh7Z19keWgDfSEd@:s.REb/i^@:F%aF!+1kEcQ)=8SqmK
+ATJtgBl\64E_BthGAhM4F!+1kEcQ)=9ggi]9keWgDfSQ?200m7Bl\64E`d?nAfsf^F)u&5B1ZrK
+B4Z-^AT2R.F<F:lF)u&5B2!5R@;JDICh7ZpF)c"=:/=\X=@Gn^91;u+:/=bR<(TkY79La/:/"5S
+79*/X:I.BF5u^At:KBn^?USgLBl7?sF<F@sCh[cu<H)bm@:V`=ARfKu:f9kZ5uLib78m/.:f9kZ
+5uLib86&AN;]nnFFD+csAS*&_:JXqk:JsSZ9keWgDfSs#AS*&_:JXqk:JsSZ:Msu_DIlgeCi<`m
+6YL%@CEQMN:K1Ck;FFG_BQ\0$F%p@hEc5t@;Is9Q6t(1K7WM43DJ<]oF*&O'9iX\L;FNlL:K:.X
++B)!77mU'M771$P:K:.X+B)!77o3)T:/jVX8K^r+<C]k`8PW5`8QnP]+B)!77o3>f78d&U>")@4
+;cQam771$N5tOsQ+B)<2?UJaJDfTnA;flP9CgqO(:18!NF!+D(F)Yi'BlA-8:gn'Y;IsfcEc`F'
+86&AN;cZU\+B;0.7S-$:?UJaJDfTnA<H)JWFCe-a@ps1MEb0<'DKI"$E+EC!AP@#P@;Jb\ATMF#
+FC0*/C`lbsCisT+=E7tb+BLuu?Vl#8Des?4F!+RX6UY9KDes?4F!+pJ2Ig0:ASkjsCER,#Ec5f/
+@qg%1+Cf>+DfTH1AT8i&Des?4CLqd'Eb055@rH1%EcZ>2@VKXmFEo!=Eb/[$APHlZEc5u#Eb/iN
+@N]0$ART[l9keWgDfSs#AS+nM@VfUs+CfJ6A8-+,+CfM%@UsV#F!+t7@:EhhG\^f"+Co%mEbT51
+A7]7hCi=?9@:p]nAS5RmFCAf)A7]grH=_2,B-:`(Bjl$n@<,duBl>,+D009+Ci=?'Bl7u7Ao2X*
+AU/>>B4Z"'@:p]sD..'g;e'KPD.-dmEGQb3DKBf6FCZM3ARTUhBQA$.Bk(k!Gp%!9F`_Y4Ch\!:
++E(k4AT8i3EbTE5F(or3CLqc6E,oZ1FE;/BASYk&?XdGbBk)6rF*(r$FC?;2EbTE5F(or3F*(i"
+Ch4`.H":W!FCoQ'FCAW$E-Yu.@ru='F`(o*+ECn.A5YoaFCfN80HbCICLqd8DfTA2EbAilBleA=
+EbAinEb&`k+ED+(Ao_QrGT_$LCh7^%Bl[a*E?K:ECh7^%Bl[a*EG99&+EM7CASYk&+EMCBB5hm*
+DKKr6H=_.?F)Q)@E,oZ1FE;/BATJu8FCAWmCh\!:+E_R9An5UsF<G^FCi<`mA9Dj$BOt[h+EqC+
+A8-+,+F%[3A7KOoDfTH1AT8i;CL^mcBleAD.4cl04?G0&0d%hd@WcC$A7K:a@r!2rF_PZ&D/"$2
+DfQt0F_PZ&FD,f6@WNZ2EbTE5F(or3CLqcu@UX=l@k]Sa.4cl04?G0&0d%hd9keWgDfSs#AS*&\
+DJX$)AQ<\cDdd0DBOt[h+B*-"B2EkqATAnmBQ\0$F%p@hEc5t@=A)"L@rH1%EcW@6AR][oBcqG=
+Ch7^%Bl[`,F)?&4E-ZP:E[N:e-p01/0I\P$4?P\X?SNZN+@0OQF`VXmDf'3+@;^0SDes?4F'j$6
+F<EqkART[l9keWgDfT3+EGQao:K(5"9keWgDfSs#AS*&]:K(5":Msu_DIlgeCi<`m6YL%@CEQGL
+;cI+'BQ\0$F%p@hEc5t@@UX=h1H&TZGp$U1ARfLUF(KAbAU/>>D..<uDe!^1Eb/iiFEhmMD/"$2
+DfSj!ATCFTH#k*FBl\64EaNKoF*)>@H!bE!+E2@9@q]F`CERS:C2I[*Ec5t@E,o]7D09K1H$!V<
++E2@9FD,f6@WNZ5D09K1H$!V<<HD_l94`Bi+EV:>D.7QdF(KAbAU/>E.4cl01*A;-2'aq20fUmB
+1-$sD2E*HO2)d<G+>PW*3&!*A1G1L@0JkIC3&;[40JPRA1,:d@2)[<O2D['J2BXb/0f^pD0JkCB
+1c[EJ1,V!F+>PW*3&!6G1bL[@1c@$G0JPR11,(FC0JYCC/i>=C2`<BH3&r*:0JPRA1GUX:2)dEL
+2E<NP1*A>+0f^pD0JtI>2DmKM1Gq-P+>PW*3A<6E0J54C1,(XB1GLd11,(FB0JbCA/iGRB1-%9I
+3A_j60JPRA1,:d@1H.*L1,q6M1E\G,0fUjF0fL^C2D[0D3AiTQ+>PW*3&!6F2_I!G1,:dI0fV*7
+1,(FC0JbC?/i>XD2)mHR1H6L40JPOA1,1X=3&``L0ekRA0d&5*0fUmC0fCXC3B/lV3AifQ+>PW*
+3&!<H1+kFE1cIEN2).$41,(FB0K:dB/i>XG2`WZO0fL410JPOA1,1U<3B&oQ3&WTP0d&5*0fUjC
+0fL^D3B/lO3&EKQ+>PW*3&!6G2_I'D1H@BS2)mB71,(FB0JY=</i5C=1b^mK1E\G,0f^pD1,(=;
+2`WiX1GgjG+>PW*3A<6C2(g^B1bq$G3&<K91,(FC0JY@B/i>XL3&iZK2)ZR40JPO@2_m0A2`*<I
+1H%$F1E\G,0fUjF1,ggF2`NQH3AiTQ+>PW*3&!6F2_HsA2E*?K2).!31,(FB0K(XG/iYjJ2E3HH
+1,pC30JPO@2DR!>3&NKM0JYL@2'=Y.0fUjF0fL^A2_[-L0K:mG+>PW*3A<6C1bL[G1,CpJ0fV'6
+1,(FB0K(XG/iYjJ0fM'J0KC720JPO@2DI-C2D@$E0JG:;0d&5*0f^pD0JkC?3&<<J1c@9N+>PW*
+3A<3C3%d'K1cR6L1G_$61,(FB0K([A/iG[F1cI6M0esk,0JPO@2DR$?2E3KH1cIEP+>PW*3A<6E
+0J51A0f_6S3&WQ81,(FB0K([E/iYdF0f(XC1c$700JPRA1,1^?2E!?I0JbXB1a"P-0f^pC0fUdB
+2E*HO2)7*K+>PW*3&!6G1G1OA1,:R>0ekU01,(FB0K1^B/iYUB2`NcO3Ar!80JPO@2DR3D3&!-K
+2`W]K3$9t10f^pD0JtI>1c-sI1,q'K+>PW*3&!6G1G1OF0K:aH3B&r@1,(FC0JbC?/i5CA1,q$K
+1H-F30JPRA1GUX:1c[6D1,L[@3$9t10f^pD0JtI@1H.'K1G^jE+>PW*3&!6G2D-sE2)mBM1c737
+1,(FB0K1^A/iYO>3A<0D1-$I40JPRA1GC[=2*!?N3&EEM1a"P-0fUjF0fUdF1H7'K0fCjD+>PW*
+3&!6F1G1XC0etF:3&EN91,(FB0K(UB/iYUG2_m?H1c$700JPO@0f(L93&E?M0JtXD3?U(20fUjA
+1GCF@0eb:<3AWBL+>PW*3&!'C0J5=B0f:sK0f:^/1,(FB0JP@;/iY^E3A<9G2)6:00JPO@1,(L:
+1c-mC0K;$J+>PW*3&!9G2_I'K1,(C:1c7681,(FB0K1^?/iP^K3A<-C1cQU50JPO@0ek@72`3BK
+3ArcR2]sk00fUjA0eb4=2)@-M1GLmI+>PW*3A<6E0J57;0JkaD2)mH91,(FB0etI?/iGOC0JtjH
+0f:(/0JPRA1GUX:2*!NK2_d6L0d&5*0f^pD0JtIC2)mBH1,C^E+>PW*3A<3D3%d!H2D[6M3B9)B
+1,(FB0JY=</i5C=1b^mK1E\G,0f^pD1,(=;2`NZR2DI!F+>PW*3A<6E0J54C2)I6K2E3T;1,(FC
+0JY@B/i>XL3&iZK2)ZR40JPO@2DI!?3&<6K2Dd*F0d&5*0fUjF0f(F@2`EHG1G^dA+>PW*3&!6F
+1G1UF2_d$C2)?s01,(FB0JP7;/iP[E1,CXF1,9t-0JPO@0ebC92`WlS0fLjI1*A>+0fUjA0ek:@
+2`WlU0ebUJ+>PW*3A<3C3A*-F1,1RE3ANH71,(FB0JbCA/iGRC1H%0O2]sk00f^pC1,ggB0Jb[G
+0KD!51,(FC0JY@C/i5:B3AEHQ1H?R50JPRA1GL[<2`EEH2)d9J3?U(20fUmC0ek:=1GCL:2D?sB
++>PW*3&!6G1G1R>1H@9O2)$s31,(FB0K([B/iGUJ3AiZO1,9t-0JPO@1,(L:1c-mC0K;$J+>PW*
+3&!-B2_I!G1c76O1bgs41,(FB0etI;/iYX@3&!'F3&i$90JPO@2DR'@2)[HO2`3BJ3?U(20fUmC
+0f1LA3&39H2_m*11,(FB0etIA/iGFC1,CdH1c$700JPO@1GLg@2`NcR1G^gF3?U(20fUmC1,(==
+2)I-K3&rl>1,(FB0K(UC/iYO?0f(dI1,C%.0JPO@2D@$A3&**F2)@-I2BXb/0fUmC0f1L=3B8iM
+2*!ZS+>PW*3&*0B3%d$E1Gq$G1,Cp51,(FB0etFA/iPIA0fCmI1H$@20JPO@3&*0@2*!KR2_[0E
+2]sk00fUmC1,^aA2_m-K1c[?71,(FB0etLB/i5LC3A`EE0f:(/0JPOA1,:a?1c.-L2)dKM1a"P-
+0fUjA0JtIA2E!QS3&!'A+>PW*3&*0C1bLRE0f_'E0K(m51,(FB0JbC=/iPL@3AiTI1cZ[60JPO@
+1,(U=3A<BH1H@3K+>PW*3&!6E2D-pK1cI*J1,h$41,(FB0K([?/iPXC3ArQO0JXb+0JPOA1,1U<
+3&*6F1H.<O1*A>+0fUmC0f1L@2`!-F0f_0Q+>PW*3&!6G2_I'D1H@BS2)mB71,(FB0JP:9/iPXD
+0JtXH1,9t-0JPO@0ek@72`EHG1cR6K1a"P-0fUjA0JkC@2E!KN3&i]K+>PW*3&*0B3%d*E0K:pE
+2Dm?71,(FB0etI</iGRB2*!ZT0K1+00JPOA1,1L91c@9N2DR'H0d&5*0fUjB0K(OD0K1^B3ANK8
+1,(FB0etI?/i57:1bgmF0JXb+0JPOA1,1I82`WfV0f(^C1a"P-0fUmC0eb4=3B&lU1c@0H+>PW*
+3&*0B2_I$C2)-jG2`!B81,(FB0etI=/i5F>2*!QP0f:(/0JPO@2_m0A2`<HG2`WiW2'=Y.0fUjA
+0Jb=?2E<WS1b^pK+>PW*3&!'@1bL^F1GLdH1c-p01,(FB0etL</iGXG2`!6L1bp1/0JPOA1,1L9
+2D[*I1cI<Q3?U(20f^pD1,(=<3&NHO0f_*L+>PW*3&*0C0eP@=1b^dI2Dd031,(FB0etFC/iG[E
+3A`QM2_uR30JPOA1,1L92)dHQ1bpd>2]sk00fUmB1-$sD3&*-C2*!TO+>PW*3&!*A1G1L@0JkIC
+3&;[40JPRA1GC[=3ArTG1,1XF1*A>+0f^pD0JkCB1c[EJ1,V!F+>PW*3A<6C1bLdF3B9&W2D[-3
+1,(FC0JYCC/i>@C0fLdB0JO\*0JPRA1GUX:2)dKP0fLgE1a"P-0f^pD0JtI>2_d*G0JbRF+>PW*
+3A<6E0J5:D3B/fK2Dd?81,(FB0etI;/iYUD0f1RE0Jst.0JPRA1,:d@2)[-H0K1aD2]sk00fUjF
+1,ggF0Jb^J3AicP+>PW*3&!6F2_I!G1,:dI0fV*71,(FC0JbC?/i>XD2)mHR1H6L40JPOA1,1X=
+3&``L0ekRA0d&5*0fUmC0fCXC3B/lV3AifQ+>PW*3&!<H1+kFE1c[9F3&ruA1,(FB0K:dB/iPXB
+3AWKM2`Dj70JPOA1,1U<3B&oQ3&WTP0d&5*0fUjC0fL^D3B/lO3&EKQ+>PW*3A<3C3A*-E2_[*G
+3&i`;1,(FB0JY=</i5C=1b^mK1E\G,0f^pD1,(=;2`WiX1GgjG+>PW*3A<6C2(g^B1c%'I3&ic<
+1,(FC0JYCB/i>@D1c.'M3B&'90JPO@2_m0A2`*<I1H%$F1E\G,0fUjF1,ggF2`NQH3AiTQ+>PW*
+3&*0B1bLaA1H%*M3&EE61,(FB0K([B/iGF<0fLsG2BXb/0fUjF1,ggF0Jb^J3AicP+>PW*3&!6G
+2_I'D1H@BS2)mB71,(FC0JbC>/iG[E2E<QN2)6:00JPO@2DR'@2DHm?2`3TL1a"P-0fUjF1,ggF
+0Jb^J3AicP+>PW*3A<6C1bL[G1GUjF2E*N:1,(FC0JY@B/i>XG3&3EK1H?R50JPO@2DR'@2).*K
+1,V$M3$9t10fUjF1,U[D1GLgJ3&`NJ+>PW*3A<6E0J51A1,(UF3Ahp70JPO@2DR0C3&`WP1H%6P
+3$9t10f^pC0fL^C2D[-C1H.$F+>PW*3A<3C3%d$G2`*HN1,h*61,(FB0K([B/i>I@1,1O=0fL41
+0JPO@2_d*@3&39K3&iWQ2BXb/0f^pD0JtIC2DHm@0f:mF+>PW*3A<6C2(g^B1c%'I3&ic<1,(FB
+0K([B/i>XC3&!?Q2`W!90JPRA1GC[=1c.$F2`*KR2'=Y.0f^pD1,(=>3A<?G2`!3K+>PW*3A<6C
+2(gdD0f:X>0etI+1,(FC0JYC;/iPXC0f_!D3&i$90JPRA1,:gA2)7!H1H79J1E\G,0f^pD0JtI?
+3A<HQ1c%'I+>PW*3&!6F3A*9M0JtgH2DI061,(FB0K1^F/iY^J1Gh'G1Gp:10JPO@2D@$A2`NcS
+2E<]P1a"P-0fUjA1GCF@1cI9K0Jb[D+>PW*3&!6F2_I!B2E3TP0f(d31,(FB0JP@;/iY^C2*!NK
+2)6:00JPO@0f(L93&NKP0JkRC1*A>+0fUjB0Jb=<1b^a?3&i]:1,(FB0K1^H/iP^D0f1dH1G^./
+0JPO@2_d!=2`E]V0JG:>3$9t10fUjA0eb4=2)@*M2E!HP+>PW*3&!'A0J5:A1H%3K0f_*61,(FC
+0JbI</iGC;1cR3I3&Mg60JPOA1,1U<2Dd6E2*!HI2'=Y.0f^pD1,(=<3AiNM0fM!F+>PW*3A<6C
+2(gmH3&<9E1G^p31,(FC0JbC?/ibgE0JY@?2_lL20JPO@1,(L:1c-mC0K;$J+>PW*3A<6E0J51@
+3&NWQ0f([01,(FC0JbI</i>XH1cI6L3&Vm70JPRA1GL[<2`EWR1c7*G3?U(20fUjF1,CO@0eb=@
+2DR0G+>PW*3&!6F1G1UF2_d$C1GU^.1,(FB0K(XA/iP^J0ekIA1GL"-0JPO@0ebC92`<HI1GLmF
+1*A>+0fUjA0JkC@2Dd9J3&EEL+>PW*3&!-B1G1U?1,1[B2E*B61,(FC0JY@C/i5C?0f(dL1,U10
+0JPO@1GCa?2Dm9H2E*TS+>PW*3A<3D2_Hp@1H76G3Ahp70JPRA1,1dA1bpjH1GppD1E\G,0f^pD
+1,(=>3A<6F3&`QK+>PW*3&*0C0eP@?0JG1=0JkL,1,(FB0K([F/iYO@3B&rU3&;[40JPO@2DR-B
+3&EHL2D@*H1*A>+0fUjB0Jb=<1b^a?3&i]:1,(FB0etI;/iYRD3&*<O3&r*:0JPOA1,1I83&<6J
+0JPIF3$9t10fUjF1,U[D2)-pI0f_!E+>PW*3&*0C1bLaC1GCL>2`*B71,(FB0etIA/iGFE2_d6K
+2)cX50JPO@1GLjA0JbLA1,CpG1E\G,0fUmC1,(==2Dd*I2`!?J+>PW*3&!6F2_I!H1-%9M1GLg2
+1,(FB0K(UC/iYR>2Dm9K1c?I30JPOA1,1U<1b^mD1c[HQ2'=Y.0fUmC0K:[A1c%!H1GUaH+>PW*
+3&*0B3%d$D3AWEI2)[341,(FB0K:dB/i>XG3B&WN0K1+00JPOA1,:a?1cI0F3A``P+>PW*3&*0D
+2D-gF1H@9G0ekO.1,(FB0etLB/i5LA1b^[?2)l^60JPO@0ebI;2`EZT2)R*B2BXb/0fUmC0f1L=
+3ArlX2Dd3I+>PW*3&!-B1G1U@1cRHM1,0n,0JPO@1,(U=3AENO0JbUH0d&5*0fUjF0K(OC0ekXE
+1H%*K+>PW*3&!6G2_I'D1H@BS2)mB71,(FB0etI?/iYUA3AEHO0K1+00JPOA1,1U<2E<QM3&icN
++>PW*3&!6G2_I'D1H@BS2)mB71,(FB0JP:=/iGLE0f:[@2BXb/0fUjA0eb4=2_d$D3&3BK+>PW*
+3&!'A1bL[B0JtX@0eje+0JPOA1,([?2D[*J1H%'L+>PW*3&*0C0eP@A2E<cV2`<Q:1,(FB0etI<
+/i>I>0K:pF2E)a60JPO@1,(U=3A<BH1H@3K+>PW*3&*0C1bLU=1c%'E3&EH71,(FB0etI;/iPdL
+3&*3I1,L+/0JPOA1,1I82`WfV1cI*I1a"P-0fUmC0K1UC0JtR?3&`WP+>PW*3&*0C1+kCA2)-sJ
+2)?@10JPO@2_m0A2`<HG2`WiW2'=Y.0fUjA0JtIA3&<HO1,(U@+>PW*3&!'@1bL^F1GLdH1c-p0
+1,(FB0etL=/i,I@2)mNO1c-=10JPOA1,1U<1b^jB1bpjC3?U(20f^pD1,(=<3&NHO0f_*L+>PW*
+3&*0C1bLU=1,:R=1GU(.0JPOA1,(^@2E3QK1Gh$K3$9t10fUmC0f1L>0JtaI2`WcP.4cl01*AD!
+1,(FC0JbI</i>XJ1c.$H1,g=20JPO@2_d'?3&NBD1GCOC1a"P-0f^pD0JtI?3AWNJ2`NQL+>PW*
+3&!'A0J5:C3AE?I3&`T81,(FC0JbI</i>XJ1c.$H1,g=20JPRA1GL[<2`EEK1,h$K2BXb/0f^pD
+0f(F@2`NcU0f_'K+>PW*3&!'A1bL[H1H@3L3&i?<-p07-3$^750f^pD1,(=;3&E?I3&``N+>PW*
+3A<6E0J54C1Gh$F2E!E81,(FB0etLB/i5IG3&*3L+>PW*3A<3C2_HsH2)R*J2`<B51,(FB0etFB
+/i5CB0eb:?1a"P-0fUjH0et@=3AifN1,1aH+>PW*3&*0C1+kC@3B&]M0eje+0JPO@0ebC92`EQI
+1G_!I0d&5*0f^pD1,(=<2`NfW0fUpJ+>PW*3A<6E0J54C1Gh$F2E!E81,(FB0etLB/i5IG3&*3L
++>PW*3A<6D1G1UF2DmBH1Gh'61,(FB0etL</iG^F0JYUG1Gg400JPO@3&*0@2*!QK3&!9H3$9t1
+0fUmC0et@<2D?gE2`*BI+>PW*3&!6G0J5:A1c%$I3&WcG/1<V7,VUYu-p07-0fC:40JPO@1GLg@
+3B&`S1,(F:1E\G,0fUjF0f(FA0KCgC3ANHN+>PW*3A<6E0J51A0KCmC2)$g/1,(FC0JbC?/i5CC
+2Dd9I0esk,0JPRA1,1a@2*!ZV3&3BH3$9t10fUjF1,CO?1,q-N1H@3J+>PW*3A<6E0J54B3AN9C
+2DR$11,(FC0JbI</i>UD0fD$P1GL"-0JPO@2DR!>2`<HK0f_-K1E\G,0f^pD0f(F@2_d<L3AiNK
++>PW*3A<6E0J54B2E*NJ3&*021,(FB0K([@/iP[G0ebFA2_uR30JPO@0ekI:1c$sC1c-mB3?U(2
+0f^pD0JtI?2`WQP1GggD+>PW*3&!'A1G1LA0f1^B3AWW;1,(FC0JY@B/i,IB1G^jE+>PW*3&!-C
+2_I*L1H@3E0ebC+1,(FB0K([F/iYO@3B&rW2E;m80JPRA1GUX:1cR0L1,1X?1E\G,0f^pD0JtI>
+1c@6K2)?sB+>PW*3A<3D2_HsC1GgpD2E<]=1,(FB0K([B/i>FF2)R3F1E\G,0f^pD1,(=<3&r`J
+0fCdB+>PW*3A<6E0J54B1,1[I3AWB41,(FB0K1^H/iYO?2DI3N3AVd50JPRA1GL[<2`EHO1c[EJ
+2'=Y.0f^pD1,(=<3AWEK3ArQK+>PW*3A<6D1G1UF2)d<N2)I$11,(FB0K([@/iPXI1,Ud?1E\G,
+0f^pD0f(F@2`3QS2Dd3I+>PW*3&!'A1G1LA2_['F1c7061,(FC0JYCB/i>CD1H.'L0fLO4-p014
+/1<V7.4cl00I\P$4>8384>6                                                   ~>
 )
 cocurrent 'base'  NB.{*JOD*}
 puttstamps_ijod_=: (((1;'upgrade JOD')"_)`putallts__MK__JODobj)@.(3 = (4!:0)<'putallts__MK__JODobj') NB.{*JOD*}
