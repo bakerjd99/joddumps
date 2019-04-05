@@ -1,10 +1,10 @@
-NB. JOD dictionary dump: 10 Jun 2018 13:35:10
-NB. Generated with JOD version; 0.9.996 - dev; 18; 2 Jun 2018 12:14:04
-NB. J version: j807/j64/windows/beta-e/commercial/www.jsoftware.com/2018-05-25T12:07:57
+NB. JOD dictionary dump: 05 Apr 2019 16:10:05
+NB. Generated with JOD version; 1.0.0 - dev; 24; 05 Apr 2019 11:10:35
+NB. J version: j901/j64/windows/beta-c/commercial/www.jsoftware.com/2019-04-03T11:03:34
 NB.
 NB. Names & DidNums on current path
 NB. +----+---------------------------------------+
-NB. |docs|108522933429073415324451863207514184278|
+NB. |docs|318319236632224119891338093369051151499|
 NB. +----+---------------------------------------+
 
 9!:41 [ 1 NB.{*JOD*}
@@ -34,11 +34,11 @@ BciDiaryStart=:2016 11 1
 
 CLifeExpectancy=:82.129999999999995
 
-CLifeExpectancyDad=:90.459999999999994
+CLifeExpectancyDad=:91.609999999999999
 
-CLifeExpectancyMali=:84.480000000000004
+CLifeExpectancyMali=:84.629999999999995
 
-CLifeExpectancyMe=:82.640000000000001
+CLifeExpectancyMe=:83.180000000000007
 
 DadBirthDate=:1933 9 15
 
@@ -3121,8 +3121,8 @@ ARTUhB-;/6C3OVPFCf\E.4cl02`2^5,Vh&.2_[!A2(gjK3A<9L0ekF+0f'q-0JPL@0JYC91c7-K
 2(gjK3A<9L1,q382DcO30JPO@1GUX:2`3?J2*!NM2'=Ur1,(FA0JY@?/ibX?0KD$L1E\Cp1,(FA
 0JY@?/iYjO0JkaF3&)O4+>PW*2_[!A2(gmD0JGLF2DZI1+>PW*3&!6E3A*6H1c@$H0JYO/0d&5*
 0fUjB1,ggE2_[3H3&*?J+>Fuo0JPL?1,1X=3&ruQ1cR9N0d&Ct1,(FA0JY@?/ibX?0KD$I3&i$8
-1E\G,0fLg@1,:I=2)R9G2)R<P+>Fuo0JPL@0JYC91cI0F3&`TM2BX^s1,(FA0eb@</i5L@2)[3E
-2`2^4+>PW*2_d!A1+kCA0JGLB1c7-50d&5*0fLg@1,:I=2D?m?1GCdK+>Fuo0JPL?1,1X=3AE3A
+1E\G,0f^pE0JtI@2_[!E0fV'K+>Fuo0JPRA1b^d>2E*BK1,C^?3?U%!1,(FC0JkI@/iGUJ1-%'G
+3AVd4+>PW*2_d!A1+kCA0JGLB1c7-50d&5*0fLg@1,:I=2D?m?1GCdK+>Fuo0JPL?1,1X=3AE3A
 3ArZQ3$9q0+>PW*2_[6J0J57=0fC^E3B9#@0d&5*0fLdH1GCF=3AWZS2DmKS+>Fuo0JPL?3AW?A
 2DR!D1,(IB3?U%!1,(FA0KCpC/iGLG3AN9B3AVd4+>PW*2_[!A2(gmD0JGLF1H7?:2'=Y.0fUjD
 0eb4=2E3EI0fUjD+>Fuo0JPL?1,1X=3AE3A3ArZQ3$9t!1,(FB0JkI>/iPaE2`EQR2DcO2+>PW*
