@@ -1,5 +1,5 @@
-NB. JOD dictionary dump: 28 Nov 2019 14:59:21
-NB. Generated with JOD version; 1.0.0 - dev; 8; 11 Nov 2019 11:17:28
+NB. JOD dictionary dump: 01 Dec 2019 13:48:46
+NB. Generated with JOD version; 1.0.0 - dev; 10; 29 Nov 2019 15:49:09
 NB. J version: j901/j64avx/windows/beta-q/commercial/www.jsoftware.com/2019-11-17T14:06:15
 NB.
 NB. Names & DidNums on current path
@@ -624,7 +624,18 @@ NB. highest
 high=. 1 { sqlreads__db sql,' where Altitude != 0 ',order,' Altitude desc',lim
 
 NB. lowest
+NB. WARNING: negative altitudes are rarely handled properly by image
+NB. metadata programs. They keep getting converted to positive integers. 
+NB. The following hack corrects negative altitudes.
 low=. 1 { sqlreads__db sql,' where Altitude != 0 ',order,' Altitude asc',lim
+hck=. sqlreads__db sql,' where ImageKey in ("VQ9FTZh")'
+pos=. (0{hck)i.<'Altitude'
+hpx=. <1;pos
+alt=. - | ; hpx { hck  NB. force altitude(s) negative
+hck=. 1 { (<alt) hpx} hck
+low=. low ,&.> hck
+NB. merge forced into result
+low=. x {.&.> (</: , >pos {"1 low) {&.> low 
 
 sqlclose__db ''
 (a: , ;:'north south east west equator high low') ,. north , south , east , west , equator , high ,: low
@@ -4560,7 +4571,7 @@ G]IA-?Z^O7+Dkh5Ec5tuF(KAbAU/>>D/"$2DfT2uBleB7Ed;#/A0>i3C1Cpg@r!3+Eb]H*EcQ)=
 3&!6F2_I!G1,:dI0fV*71,(FC0JbC?/i>XD2)mHR1H6L40JPOA1,1X=3&``L0ekRA0d&5*0fUmC
 0fCXC3B/lV3AifQ+>PW*3&!<H1+kFE1c[9F3&ruA1,(FB0K:dB/iPXB3AWKM2`Dj70JPOA1,1U<
 3B&oQ3&WTP0d&5*0f^sC1,pmD3AWHG1GC[F+>PW*3&!-C2_I$L3&NHN1c7991,(FC0JY@C/i5@C
-0Jt[H3&Da50JPO@1,(L:1c-mC0K;$J+>PW*3A<EJ0J51:2)dNS1GCX.1,(FC0JbI</i5LI3&rcO
+0Jt[H3&Da50JPO@1,(L:1c-mC0K;$J+>PW*3AE9C0eP=B2)$pI3&ET;1,(FC0JbI</i5LI3&rcO
 1,g=20JPRA1bg^;1bggC1Ggd@3?U(20f^pC1,ggC0f_'I2*!ZU+>PW*3A<EI2(g^?1Gh$I1H7?:
 1,(FC0eb=@/iP[J3&E?F1,^710JPO@2_m0A2`*<I1H%$F1E\G,0fUjF1,ggF2`NQH3AiTQ+>PW*
 3A<9E0eP::2)-pC0K:m31,(FB0K([B/iGF<0fLsG2BXb/0fUjF1,ggF0Jb^J3AicP+>PW*3&!6G
