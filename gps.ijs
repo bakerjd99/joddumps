@@ -1,11 +1,11 @@
-NB. JOD dictionary dump: 13 May 2018 13:02:49
-NB. Generated with JOD version; 0.9.993 - dev; 17; 23 Apr 2018 23:17:09
-NB. J version: j807/j64/windows/beta-d/commercial/www.jsoftware.com/2018-04-19T10:22:29
+NB. JOD dictionary dump: 09 Dec 2019 17:35:10
+NB. Generated with JOD version; 1.0.0; 33; 09 Dec 2019 11:02:40
+NB. J version: j901/j64avx/windows/beta-s/commercial/www.jsoftware.com/2019-12-02T12:51:33
 NB.
 NB. Names & DidNums on current path
-NB. +---+---------------------------------------+
-NB. |gps|328641752183418707121365468210452680607|
-NB. +---+---------------------------------------+
+NB. +---+--------------------------------------+
+NB. |gps|14346868297176279186780870984462430454|
+NB. +---+--------------------------------------+
 
 9!:41 [ 1 NB.{*JOD*}
 cocurrent 'base' NB.{*JOD*}
@@ -28,7 +28,7 @@ ETREXROUTECOUNT=:20
 
 ETREXROUTEPREFIX=:'XR'
 
-GPXHEADER=:60 103 112 120 32 120 109 108 110 115 61 34 104 116 116 112 58 47 47 119 119 119 46 116 111 112 111 103 114 97 102 105 120 46 99 111 109 47 71 80 88 47 49 47 49 34 32 120 109 108 110 115 58 120 115 105 61 34 104 116 116 112 58 47 47 119 119 119 46 119 51 46 111 114 103 47 50 48 48 49 47 88 77 76 83 99 104 101 109 97 45 105 110 115 116 97 110 99 101 34 32 99 114 101 97 116 111 114 61 34 74 32 87 97 121 112 111 105 110 116 115 34 32 118 101 114 115 105 111 110 61 34 49 46 49 34 32 120 115 105 58 115 99 104 101 109 97 76 111 99 97 116 105 111 110 61 34 104 116 116 112 58 47 47 119 119 119 46 116 111 112 111 103 114 97 102 105 120 46 99 111 109 47 71 80 88 47 49 47 49 32 104 116 116 112 58 47 47 119 119 119 46 116 111 112 111 103 114 97 102 105 120 46 99 111 109 47 71 80 88 47 49 47 49 47 103 112 120 46 120 115 100 34 62 13 10 13 10 60 109 101 116 97 100 97 116 97 62 13 10 60 108 105 110 107 32 104 114 101 102 61 34 104 116 116 112 58 47 47 119 119 119 46 106 115 111 102 116 119 97 114 101 46 99 111 109 34 62 13 10 60 116 101 120 116 62 80 114 111 99 101 115 115 101 100 32 119 105 116 104 32 40 101 116 114 101 120 119 97 121 112 111 105 110 116 103 112 120 41 32 119 97 121 112 111 105 110 116 32 74 32 118 101 114 98 32 111 110 58 32 60 47 116 101 120 116 62 13 10 60 47 108 105 110 107 62 13 10 13 10 60 47 109 101 116 97 100 97 116 97 62 13 10{a.
+GPXHEADER=:60 103 112 120 32 120 109 108 110 115 61 34 104 116 116 112 58 47 47 119 119 119 46 116 111 112 111 103 114 97 102 105 120 46 99 111 109 47 71 80 88 47 49 47 49 34 32 120 109 108 110 115 58 120 115 105 61 34 104 116 116 112 58 47 47 119 119 119 46 119 51 46 111 114 103 47 50 48 48 49 47 88 77 76 83 99 104 101 109 97 45 105 110 115 116 97 110 99 101 34 32 99 114 101 97 116 111 114 61 34 74 32 87 97 121 112 111 105 110 116 115 34 32 118 101 114 115 105 111 110 61 34 49 46 49 34 32 120 115 105 58 115 99 104 101 109 97 76 111 99 97 116 105 111 110 61 34 104 116 116 112 58 47 47 119 119 119 46 116 111 112 111 103 114 97 102 105 120 46 99 111 109 47 71 80 88 47 49 47 49 32 104 116 116 112 58 47 47 119 119 119 46 116 111 112 111 103 114 97 102 105 120 46 99 111 109 47 71 80 88 47 49 47 49 47 103 112 120 46 120 115 100 34 62 13 10 13 10 60 109 101 116 97 100 97 116 97 62 13 10 60 108 105 110 107 32 104 114 101 102 61 34 104 116 116 112 58 47 47 119 119 119 46 106 115 111 102 116 119 97 114 101 46 99 111 109 34 62 13 10 60 116 101 120 116 62 80 114 111 99 101 115 115 101 100 32 119 105 116 104 32 74 32 40 103 112 115 41 32 100 105 99 116 105 111 110 97 114 121 32 119 97 121 112 111 105 110 116 32 119 111 114 100 46 60 47 116 101 120 116 62 13 10 60 47 108 105 110 107 62 13 10 13 10 60 47 109 101 116 97 100 97 116 97 62 13 10{a.
 
 GPXNAMECHARS=:' -()0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
@@ -212,6 +212,48 @@ NB. return gpx
 gpxheader,gpx,'</gpx>'
 )
 
+gpxfrmirror=:3 : 0
+
+NB.*gpxfrmirror v-- extracts geotagged images from mirror_db and generates gpx.
+NB.
+NB. monad:  gpxfrmirror clMirrorDb
+NB.
+NB.   trg=. 'c:/smugmirror/documents/xrefdb/mirror.db'
+NB.   gpx=. gpxfrmirror trg
+NB.   (toHOST gpx) write 'c:/temp/image.gpx'
+NB. 
+NB. dyad:  ?? gpxfrmirror ??
+
+sql=. 'select Latitude, Longitude, OnlineImageFile from OnlineImage where Keywords like "%geotagged%"'
+
+NB. require 'data/sqlite' !(*)=. sqlclose__db sqldict__db sqlopen_psqlite_ 
+rc=. sqlclose__db '' [ dat=. sqldict__db sql [ db=. sqlopen_psqlite_ y
+
+NB. !(*)=. Latitude Longitude OnlineImageFile
+(0 {"1 dat)=. 1 {"1 dat
+
+NB. clean file names
+names=. '['&beforestr@justfile&.> OnlineImageFile
+alltrim&.> names -.&.> names -.&.> <GPXNAMECHARS
+'names cannot be null' assert -. 0 e. #&> names
+
+NB. format latitude and longitude
+wpt=.  (<LF,'<wpt lat=') ,. (dblquote 8!:0 Latitude) ,. (<' lon=') ,. (dblquote 8!:0 Longitude) ,.  <'>'
+
+NB. times set to now
+wpt=.  wpt ,. <'time' eletags gpxtimestamp 6!:0''
+
+NB. waypoint names & descriptions
+wpt=. wpt ,. _1 |."1 names ,"0 1 |. tags 'name'
+
+NB. symbols
+wpt=. wpt ,. <'sym' eletags 'waypoint'
+wpt=.  wpt ,. <'</wpt>'
+
+NB. return gpx
+GPXHEADER,(;wpt),LF,'</gpx>'
+)
+
 gpxfrpoicsv=:3 : 0
 
 NB.*gpxfrpoicsv v-- converts poi csv files to gpx.
@@ -224,11 +266,18 @@ NB. http://www.poi-factory.com/poifiles
 NB.
 NB. monad:  clGpx =. gpxfrpoicsv clCsvfile
 NB.
-NB.   gpx=. gpxfrpoicsv 'c:\pd\coords\poicsv\ca-park_m.csv'
+NB.   gpx=. gpxfrpoicsv 'c:\pd\coords\poicsv\ca_park_m.csv'
+NB.
+NB. dyad:  clGpx =. iaRows gpxfrpoicsv clCsvfile
+NB.
+NB.   gpx=. 10 gpxfrpoicsv 'c:\pd\coords\poicsv\ca_park_m.csv'
 
-
+0 gpxfrpoicsv y NB. format all waypoints default
+:
 NB. read csv file
 csv=. parsecsv read y
+
+if. 0<x do. csv=. (x<.#csv) {. csv end.
 
 NB. sanity test latitude and longitude
 lbcheck=. -. _9999 e. , _9999 ".&> 0 1 {"1 csv
@@ -783,37 +832,39 @@ showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:dec85__MK__JODobj 0 : 0
-0fM'71GBq,+>G_r1,'h*2'=_2+>G_r2DcO22BXh3+?:Q"2]sh8+>bks0esk00H`)++>Gl!0f1"/
-0H`)0+>bks0esk-1E\D.+>kns0fC.22BX_/+>Pr"0f1"32BX_0+>kkr3?U+6+?:Q#3?U%1+>bhr
-0ea_+3?U%7+>c)$1,C%02]t+'1cQU41*AD.+>G\q0fU:11a"Y5+?(E"3$9q4+>khq0f1"02]t(&
-1G_Hn792]R8P`)_77g!?<+TlWG%#K,Df-\AASGdjF<Eai0h#&>79E;N9gq`E:.J8SD..['D09\<
-Ch7KsFD)e8AfsNaEb0J<7o3,,G@>c9DeX*2+DtV)ATL:>;FO\c:K:@_6Vg]W<,H&gBl/!0+Du==
-@V'R&De:,9@<lg1Bl8$6+EV:*F<G(%DBND"+E2.*@qB0nDf-\+DBMAiEb0J<Ec6)BAOTQr79EG`
-<E)C`;FO&H=CZ#QEa`I"ATAo4Eb/isGT^U:EZdemEb0J<Ec6)BAKZ2*H#R\9DKKqi:fp7W5t".>
-BOtU_ATAo8ASlC&@<?''AoD]4B5i)<G\q7g7R9C1=&2^^;g2YqE,TH.FE;/6FCfK)@:NjkGAhM4
-F!)l&7R9C1=&2^^;g2YqE,TH.FE8lRB6%p5E)K,(;F*Z=;cH1^;gCM\+Dbt7E$0(>+Co2-FD5W&
-F<G.4A31oZ4Ye.#ATVs$@qB14+F-+++EVNEBPD*mATMr9E,TH.FAbP.7n$3@:IIWO;G;+BG%G]8
-AKYVsDe!]rAKZ,9Cf4&)<)\!LH#R\9DKKr?Df9_?GAhM4F!,(5EZfR7H#R\9DKKqBB6%p5E)KJ-
-<*)jn6rS;<H#R\9DKKr?Df9_?GAhM4F!)l/:JXqk:JsSZG@>c9DeX*2F"&5EEc6)>+<VdL+<XTK
-9i+MP9gMZI8PW])A8-."Df0!"+E275DKKqB@:Wn[A0>u4+ELt.E,9)rBleB)DI[7"@:F%a@rH4'
-F`_29+CT)&+Co2-FCB&sATJu'ATW--ASrW.+DbJ.+Dbt6+Cf>.Eb&m%@<?(%ATVs(G^!SAE,TH.
-FD#Q;AU&<;@:OD#+CSc%F^])/7<EQ]GT_3=H#R\9DKKqBAo_g,+D5Y<+D,>(ATML'G\1u8DeW^&
-G%5H.G%G]9F!,F?Bcpo,Fs(C2Ch7Z1FDi:7E-Q#7G\gf1Ci=3$BOt[hEb0?8Ec,q@0d(1B+D5Y<
-+DbJ.BlnK.AKYE!A0>],DJ*[*F_#&+G%#30ATJu&Eb-A;Bln$&DBND,F`(`2+>=pVFD,6+GA2,0
-B5i*;Bl.F&FCB$*AoD^,@<<W6Bl.E(AoD]47q$FTBl5&+E-NL6F#kFhH$OZeD/Ck8A5m5_3c/aq
-F(8Bk@;TRl@WZ$fDIIBn+CT.u+DbJ.BlnK.AKYf-DJ*[*F_#&+FCAWpAT2Ho@qB7mCgq@"@:Njk
-DIIBnF!,(8Df$V5@<?4*F_#&+@;]TuCi=3(BlnK.AT2Ho@qB\!GAL`(AU,D7De!3tBl@l3Blmp'
-F!,(8Df$UFE,8rmAS,t!@OWF?ATN!1FE1r/@:EeaB5i*9ASl@/ATJu3F_t]1Bk&9,F_56"G\(q=
-Ao_g,+D5Y<+DtV)ATMm'CggdaCj0<5E,TH.FE;J6CggdaC`l5dDeElt7:C4YBJ3"qCfG=C:fniO
-DIal3D]iV/A0?))H#R\9DKKr?ASbdaAScR!H#R\9DKKr!78m/U:fqgNF*&O8@<>p#7o3;1AoD]4
-G@>c9DeX*2+ED%0@:EeaBl7Q+F`_>6Bln'#F)lJDFCoQ6FCdm_Eb0J<Ec6)BAKZ2*H#R\9DKKqB
-Ao_g,+EDCCFCd+IEa`Hn+Eq7>E,TH.FE;MB@:NkZE,TH.FE;J6FEMVAF!+m6F(&p)Ch4`-Afu/+
-E+*cqFCeu*@rH:+A8,piFCfN7FCB$*B5i*/ART+\EcZ>2D/aP=7o3;1BOtU_ATDj5FCB33A8-+,
-@;]RdF(B!+FCB&sATJu+Ec5e;Anc:,F<G(3DfTB&DIIWu+DG^9FCAWpAKYo'+Cf>.Eb&m%@<?(%
-FD592B5i**@;Kb$+D#e>ATDZsC`m;6AKZ)5+E2@4FEDdNE,oZ1F<G48GV=;YC`m>(Ch7[0Ea`Hn
-A8-+,@;]RdF(B!+FCB&sATJu.DBN_3+C\o(G@b?'+CSeq@:NkdF<G[G@:O'q@rH:+A8,piFCfN9
-DJ=*5AS5t,DIIBnF)ki/Dg#]5+CoV6Ch[BfFCcS=@<lg1Bl8#8DIIBnF!,(8Df$V0E-NL;Bl%@%
-GAqY9EcQ85G@>c9DeX*2F!,(8Df$V;Dfp/5+EVX4@r!3+DeX*2Er                      ~>
+0f^p11GU(.+>G_r1,'h*2'=_2+>G_r2DcO22BXh3+?:Q"2]sh1+>Pes0f^@51E\D-+>tnr0f'q,
+3?U%5+>Y\o0fU:41E\D-+>Yer0f'q01*A;0+>bu!0eje.3$9q1+>Pr"0f1"32BX_0+>kkr3?U+6
++?:Q#3?U%1+>bhr0ea_+3?U%7+>c)$1,C%02]t+'1cQU41*AD.+>G\q0fU:11a"Y5+?(E"3$9q4
++>khq0f1"02]t(&1G_Hn792]R8P`)_77g!?<+TlWG%#K,Df-\AASGdjF<Eai0h#&>79E;N9gq`E
+:.J8SD..['D09\<Ch7KsFD)e8AfsNaEb0J<7o3,,G@>c9DeX*2+DtV)ATL:>;FO\c:K:@_6Vg]W
+<,H&gBl/!0+Du==@V'R&De:,9@<lg1Bl8$6+EV:*F<G(%DBND"+E2.*@qB0nDf-\+DBMAiEb0J<
+Ec6)BAOTQr79EG`<E)C`;FO&H=CZ#QEa`I"ATAo4Eb/isGT^U:EZdemEb0J<Ec6)BAKZ2*H#R\9
+DKKqi:fp7W5t".>BOtU_ATAo8ASlC&@<?''AoD]4B5i)<G\q7e:fpIY9gqE?5uLX)@;KXg+D5Y<
++DtV)AKYJr@<,ddFCfK68Oc!579<8_6rS;<H#R\9DKKr6DKKH1Amo1\+EqaEA9/kA8Oc!579<8_
+6rS;<H#R\9DKKqK+D5_5F`:5I<)Q"L78m/S:fDX&0d(:NDf?h;EZen,F*),6@rri)DIbgOGs*o*
+Eb0?5@:NkZ4!8f31E^dX+D>J%BOu7,+E275DKJcF<_#SS6Vg*=<DlM2AThX*F(HJ,AT)'sA7Zm+
+EbnWL:K18:@<lg1Bl8$6Ec5l<+EqaEA9/l*DfQtE@<lg1Bl8$6+D5_5F`:5S:K1Ck;FFH-@<lg1
+Bl8$6Ec5l<+EqaEA9/kA;GU(f=&2^^;g2YqE,TH.FE8lRB6%p5E$-8G+<Ve*5tt0L786'G7nHHa
+A7TCrBl@ltC`m\8Bl8$6+CSekARlp*D]j+0D/a<&A8-+,@;]RdFCAWpARfXqE-686F!+n-C`m8&
+F*(i.@qB^(@V'Y*AS#a%DBNb(F<GC<DBNG-DfTB&DIIWuF(KH6AU&E-H#R\9DKKN1G\),AEa`I"
+F!+n$FEM#.+@UBmAU#>A@<lg1Bl8$6+D,Y4D'3J1GT^U4Ch7[#E-Pu8D/"$2DfTE6FE1f"FE8R;
+AT)[!B4kdd+DG\$B4Z-,Ao_g,+Dkh5Ec5u*A7?ZiDIal&ASu("@<?(%+D5Y<B5i*-Ec>r2@rlg'
+Df0`0Ecc@FE,TG5@rlf9Anc'mF!,RC+D5Y<B5i*3@<?=(DI[?k@r$*rFEMVAF!*1[BkAK#E-NLA
+@<?4*F_#&+@;]TuCi=3(BlnK.AKZ/)Cis<1+CT;%+EqOABPD?,@W-C,A9/kI+E)@8ATE!/F(K!'
+G][Y:ATMs%D/a**Ec#6,+EV=7AKYT'EZdk\Ec#N.+D5Y<+CT=P+F/6XGqElM/S&BkBQ?.NDE;iK
+>&IbcASbgt@:F+_D.OhuDIal+@<?4*F_#&+Ci=3(BlnK.AKZ)'@VfUpCgggbAo_]sE,8rmAKYl!
+D.Rc2Ao_g,+DbJ.BlnK.AKYE!A0>],DJ*[*F_#'&CgggbEc6/<@V]P#+Dbt+@<?4%DBNY8ASlK2
+Ao_g,+=M2F@:Nk\Ebo26+ED%7F_l/?ASbdaASc!uG]IA4Dg#]5+Du==ATDKp+EM[;AncL$F!,(8
+Df$V0E-NLC@;TRsEb0&q@V'A"@<lg1Bl8$6Eb0&q@V'?u7rN<YCh6%DEcbtJ95SKEDb!W++D#G$
++EVNEASu$$G@>c9DeX*2F)ki.@:EeaG@>c9DeX*2F&YS,<(BbeFCfN8+Cno&@3A':=<M3oEZfR7
+H#R\9DKI"AASbdaASc'uB-;>=Bl%L*Bk;@+GAqY9EcQ857<EQ]GT_$FF`_1;G@>c9DeX*2F!,(8
+Df$V;Dfp/506D5C@r!32@<lg1Bl8$6F)YPtARoauBl8$6Eb0?8Ec,q@@3BW"D/a<&+E(j7F(K<!
+Eaa'$A0>B#DfTB&DIIWuF)uG3D/a-,G\CYsA7]e&FCB$*F!*tL=<M9g@:WqiF)uG3Ecbi+F*(i.
+@qB^lBleB)DI[7!+D,Y4D'3G)EcZ=F@rH:+A8,piFCcS/DBO%0@VfTuDe:,%Df9Z,Bl7@$ATMs-
+A9hg,G[k/uCi^_1G][M;DII?(AU%c/FDi:@Eb0?7Gp%'HBl8#8B5i)KG\q7>Anc'mF*)G2@r#Uh
+F*(i.@qB^lBleB)DI[7!+DG^9CMb2'ATW--ASrW!A85O_ASuT4FE1f"CER,*DfTB&DIIWuF*2A7
+EHPi*E-Q8/D.Rd/ASl@/ATJu)F`;/2@psIj+Eq7>E,TH.F<GI0D.Rc2Ao_g,+D5Y<+D,>(ATN'7
+FCoQ6FCfZ)H#R\9DKKqBAo_g,+EDCCFCcS:Ea`Hn+E275DKKq                         ~>
 )
 showpass 0 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
@@ -907,17 +958,19 @@ showpass 4 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:''
-zz=:zz,'(<<;._1 '' revgeocode PLACEITEMS REVGEOCODEURL STATECOUNTRY assert p'
-zz=:zz,'lacefrlb placerowlb''),<<;._1 '' waypoints CR CRLF ETREXNAMELENGTH ET'
-zz=:zz,'REXROUTECOUNT ETREXROUTEPREFIX GPXHEADER IFACEWORDSwaypoints LF RET'
-zz=:zz,'RACESTEPS ROOTWORDSwaypoints TAB afterstr alltrim arctan assert ata'
-zz=:zz,'gs attrvalue beforelaststr beforestr belongstrs betweenidx betweens'
-zz=:zz,'trs boxopen cos dupmask earthdist etrexwaypointgpx getele geteleatt'
-zz=:zz,'r geteletext geteletextidx gpxlatloncheck justdrvpath namelbtab rea'
-zz=:zz,'d relabelgpx rfd rwptfrrte sin smoutput spacedpoints stampgpxheader'
-zz=:zz,' tags tidygpx timestamp trackdistances tslash uniquegpxnames wptfrr'
-zz=:zz,'te write''                                                          '
-zz=:612{.zz
+zz=:zz,'(<<;._1 '' gpxutils CR GPXHEADER GPXNAMECHARS LF alltrim assert befo'
+zz=:zz,'restr dblquote eletags gpxfrmirror gpxfrpoicsv gpxtimestamp justfil'
+zz=:zz,'e parsecsv read tags''),(<<;._1 '' revgeocode PLACEITEMS REVGEOCODEUR'
+zz=:zz,'L STATECOUNTRY assert placefrlb placerowlb''),<<;._1 '' waypoints CR '
+zz=:zz,'CRLF ETREXNAMELENGTH ETREXROUTECOUNT ETREXROUTEPREFIX GPXHEADER IFA'
+zz=:zz,'CEWORDSwaypoints LF RETRACESTEPS ROOTWORDSwaypoints TAB afterstr al'
+zz=:zz,'ltrim arctan assert atags attrvalue beforelaststr beforestr belongs'
+zz=:zz,'trs betweenidx betweenstrs boxopen cos dupmask earthdist etrexwaypo'
+zz=:zz,'intgpx getele geteleattr geteletext geteletextidx gpxlatloncheck ju'
+zz=:zz,'stdrvpath namelbtab read relabelgpx rfd rwptfrrte sin smoutput spac'
+zz=:zz,'edpoints stampgpxheader tags tidygpx timestamp trackdistances tslas'
+zz=:zz,'h uniquegpxnames wptfrrte write''                                   '
+zz=:769{.zz
 showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
@@ -955,10 +1008,39 @@ showpass 2 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:dec85__MK__JODobj 0 : 0
-3?U%!1*A;*+>P`nATh]tDe!]rATD@*ATDj'+D58(@rGmlDJ()7FD5Q4~>
+0f^@4+>P'!+>ktu0ea_*1E\\#0fWfbG]e+BCia`@Bl%L*Bk;?.AoD]4B4YslEaa'(DJ(VAEc5H!
+F)u&5B-;D,H#R\9DKI"6E-NL;Bl%@%Eb0E,AT)'sA7]dmG%G]8AKYVsDe!]rBl7Q+F`_>6F*D&<
+E,TH.FE;Y7H#R\9DKI"DFD5Q*FD5<-                                            ~>
 )
 showpass 2 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
+
+cocurrent SO__JODobj NB.{*JOD*}
+zz=:fromascii85__MK__JODobj 0 : 0
+1E\P#-p0UR/mg=U-QkfgG%kc6:j$YcBL6W]CgT\/=<L%+792]R8P`)_77g!?<$4V/;FO\_5tsdA
+78??P80C?#;FO\c:K:@_6Vg]W<$4V/;FO\c:K:@_:f9_O8Q[**:fp7W5t".>+@f71:-hTC6V'L@
+;]nY$5sn(B:JsSZG@>c9DeX*2F!+1qF`);&BPDR+AU.WQ:fni:9L2$78Q8,Q;]nt,<)Q"L78m/S
+:fAK7792oI:I@oG79*5Z+Au!2<)\!LH#R\9DKKqB;GU(f=&2^^;g2YqE,TH.FE8R'5tt0L786'G
+7nHGu;cH%^770jN:/k+o+CehsE,K*$ATML'GT^L4BlJ0&B6,2+BleB)DI[7"@:F%a+D#Y8AU&E-
+H#R\9DKKN1GT^X<G\1u5Bl\64EZf"6G\1u8DeW^&Fs(F:G\gf1Ci=3$BOt[h+D5Y<FD5T'F*(i-
+E$0%,D.RNmFCAW$E,8rmAS,t!@N]W+@:NkhDg-#,+ED%0@:EeaB5i)<Eb0&q@V'A"@<lg1Bl8$6
++ED%0@:EeaG@>c9DeX*2F&YS,<(Bbe+ED[FFCoQ6FCcS9E+*6fA8lI$DKKqBF*(i-E+a-7BOtU_
+ATAo7FCB33A8-+,@;]RdF!,R=A9hg,GT_*K@:O(`BleB)DI[7!+E_R9EHPi*E-Q8/D.Rc2G@>c9
+DeX*2F&Ge0<*)jn6rP4PE-,]4Ecbk?.4cl00I/>$/1<VC4"akp+=A:EE-QMIBl%i5Eb0E,AT)'s
+A7Zm-@<lg1Bl8$6-RgSp4>8$7.4cl04?G0&0d%hd:et"h?[#q(E,TH.FE8RDEb]6+F!,LHB4#V'
++ED[FFCoQ6FCefjG[YH.Ch7ZA0HbRJH#R\9DKKr,8P2f,.4cl03$9t%1,(FC0etFC/i>OD0f([D
+1a"P-+>PW*3AE9C3A*3M2)dKM1,1L+0d&5*0f^sD0KCaC2Dd-E2)[3J+>P_q1,(FC0etFC/i>RJ
+0f:^E0f1"-+>PW*3AE9C3A*0I1bgdD1c-=01a"P-0f^sD0KCaE1-%6Q0ebLD+>Fuo0JPRB1,(^@
+2)dEJ3B/`R1a"Lq1,(FC0etFC/i>OD0f([F1,^702^p:+4>8$7.4cl01*A@u1,(FC0etFC/i>XC
+1H$pC1,U100JPRB1,(^@2)[9G1H%0G1E\G,0f^sD0KCaC2Dd-E2E*<G+>PW*3AE9C3A*6F1c$gC
+0fLp31,(FC0etFC/i>OD0f(^H0Jah,0JPRB1,(^@2)[9G1H%0G1FXk'4>8$7.4cl01,(FC0etFC
+/i>OD0f([I3&E-m1,(FC0ek[K/i>OD0f([I3&E+!/hnJ(.4cl00e"Y%4>838-p014/1<V7.4dS9~>
+)
+cocurrent 'base'  NB.{*JOD*}
+puttstamps_ijod_=: (((1;'upgrade JOD')"_)`putallts__MK__JODobj)@.(3 = (4!:0)<'putallts__MK__JODobj') NB.{*JOD*}
+showpass puttstamps ".".'zz_',SOLOCALE,'_' [ cocurrent 'base'  NB.{*JOD*}
+".soclear NB.{*JOD*}
+
 
 cocurrent 'base' NB.{*JOD*}
 0 0$(4!:55);:'sonl_z_ SOLOCALE_z_ soput_z_ soclear_z_' NB.{*JOD*}
