@@ -1,6 +1,6 @@
-NB. JOD dictionary dump: 11 Dec 2019 12:23:44
+NB. JOD dictionary dump: 15 Dec 2019 14:11:29
 NB. Generated with JOD version; 1.0.0; 33; 09 Dec 2019 11:02:40
-NB. J version: j901/j64avx/windows/beta-s/commercial/www.jsoftware.com/2019-12-02T12:51:33
+NB. J version: j901/j64avx/windows/release-a/commercial/www.jsoftware.com/2019-12-12T14:41:50
 NB.
 NB. Names & DidNums on current path
 NB. +---+--------------------------------------+
@@ -365,7 +365,10 @@ MIRRORGPXFILE gpxfrrecent y
 :
 waydate=. waystmp gpx=. read x NB. extract last waypoint date
 
-sql=. GpxGeotaggedMirror_sql , ' and UploadDate > "',waydate,'" order by UploadDate desc '
+NB. the last upload date is shifted forward to partly compensate
+NB. for the mixture of UTC and local dates. The times in the database
+NB. come from many time zones and many timestamps are just approximations. 
+sql=. GpxGeotaggedMirror_sql , ' and UploadDate > date("',waydate,'", ''+16 hours'') order by UploadDate desc '
 
 NB. require 'data/sqlite' !(*)=. sqlclose__db sqldict__db sqlopen_psqlite_ 
 rc=. sqlclose__db '' [ dat=. sqldict__db sql [ db=. sqlopen_psqlite_ y
@@ -1144,7 +1147,7 @@ Gp%-OE-,]4Ecbl"AU%X#E,9*,0JFVn@<lg1Bl8$6?V*jd-RgSp4>J$92C(%30f1R=0K:[D0JY=9
 2]sk00f1R=0K:[D0JY=91,(LC+>PW*3&!3D1bLX?2`N]L2_d971,(F>0JP7@/iPI>0JG7:0f^@3
 0JPC<0ebR>2_[!@0JY@;3?U(20f1R=0K:[D0JY=91,1LD+>PW*1b^X<3%d-D1,(C;0ek[21,(FC
 0etI</i5LC3A`]T1G^./0JPRB1,1L91c7!E2)@0J3?U(20f^sD0ek:<0f1U?2E*HP+>PW*3AE9D
-0eP=;3&<NQ2_d971,(F>0JP7@/iPI>0JG7:0f^@30JPC<0ebR>2_[!@0JY@;3?U(20f1R=0K:[D
+2(gaG2_m-H0JYX21,(F>0JP7@/iPI>0JG7:0f^@30JPC<0ebR>2_[!@0JY@;3?U(20f1R=0K:[D
 0JY=91,1LD+>PW*3&!3D1bLU@2)I*L1c7061,(FB0JtO@/i>IE1H%*K1,L+/0JPC<0ebR>2_[!@
 0JY@;3?U(20f1R=0K:[D0JY=91,1LD+>PW*1b^X<3%d-D1,(C;0JbX11,(F>0JP7@/iPI>0JG7:
 0f^@30JPC<0ebR>2_[!@0JY@;3?U(20f1R=0K:[D0JY=91,1LD+>PW*1b^X<3%d-D1,(C;0ek[2
