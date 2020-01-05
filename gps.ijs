@@ -1,6 +1,6 @@
-NB. JOD dictionary dump: 18 Dec 2019 13:49:33
+NB. JOD dictionary dump: 05 Jan 2020 11:24:44
 NB. Generated with JOD version; 1.0.1 - dev; 2; 17 Dec 2019 13:32:25
-NB. J version: j901/j64avx/windows/release-a/commercial/www.jsoftware.com/2019-12-12T14:41:50
+NB. J version: j901/j64avx/windows/release-b/commercial/www.jsoftware.com/2020-01-04T13:16:15
 NB.
 NB. Names & DidNums on current path
 NB. +---+--------------------------------------+
@@ -261,6 +261,9 @@ NB. insure any singletons are shaped
 ix=. I. (0 {"1 y) e. ;:'RealDate UploadDate OnlineImageFile'
 y=. (boxopen&.> (<ix;1){y) (<ix;1)} y
 y=. (,&.> 1 {"1 y) (<a:;1)} y
+
+NB. quit if no data
+if. +./ 0 = #&> 1 {"1 y do. '' return. end.
 
 NB. !(*)=. Latitude Longitude RealDate UploadDate OnlineImageFile
 (0 {"1 y)=. 1 {"1 y
@@ -1183,7 +1186,7 @@ Ci^_>ATh]tDe!]rAKZ2*H#R\9DKKqI.4cl00I/>$/1<VC4"akp+=A:.:K(5"B5i*<FD5Q4+Abj4
 0JG791H-F30JPO@2)$j>1c$jA3&<EM1E\G,0f1R=0K:[D0JY=91,(LC+>PW*3AE9D3%d'H1,:^E
 3&`f>1,(F>0JP7@/iPI>0JG791H-F30JPC<0ebR>2_[!@0JY=<2]sk00fUjE0JkC>0fM'M0K1^G
 +>PW*3AE9D3%d'I1H76L2)[E:1,(F>0JP7@/iPI>0JG7:0f^@30JPC<0ebR>2_[!@0JY@;3?U(2
-0f1R=0K:[D0JY=91,1LD+>PW*1b^X<3%d-D1,(C;0ek[21,(FC0etI</i5LC3A`]T1G^./0JPRB
+0f1R=0K:[D0JY=91,1LD+>PW*1b^X<3%d-D1,(C;0ek[21,(I;0JP7;/iGRI2)7-O1,9t-0JPRB
 1,1L91c7!E2)@0J3?U(20f^sD0ek:<0f1U?2E*HP+>PW*3AE9D2(gaG2_m-H0JYX21,(F>0JP7@
 /iPI>0JG7:0f^@30JPC<0ebR>2_[!@0JY@;3?U(20f1R=0K:[D0JY=91,1LD+>PW*3&!3D1bLU@
 2)I*L1c7061,(FB0JtO@/i>IE1H%*K1,L+/0JPC<0ebR>2_[!@0JY@;3?U(20f1R=0K:[D0JY=9
