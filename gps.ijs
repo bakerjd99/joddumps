@@ -1,6 +1,6 @@
-NB. JOD dictionary dump: 05 Jan 2020 11:24:44
-NB. Generated with JOD version; 1.0.1 - dev; 2; 17 Dec 2019 13:32:25
-NB. J version: j901/j64avx/windows/release-b/commercial/www.jsoftware.com/2020-01-04T13:16:15
+NB. JOD dictionary dump: 20 Jan 2020 18:23:37
+NB. Generated with JOD version; 1.0.1 - dev; 3; 19 Jan 2020 10:08:40
+NB. J version: j901/j64avx/windows/release-d/commercial/www.jsoftware.com/2020-01-20T12:10:12
 NB.
 NB. Names & DidNums on current path
 NB. +---+--------------------------------------+
@@ -91,11 +91,7 @@ NB. the last upload date is shifted forward to partly compensate
 NB. for the mixture of UTC and local dates. The times in the database
 NB. come from many time zones and many timestamps are just approximations. 
 sql=. AllMirror_sql , ' where UploadDate > date("',waydate,'", ''+16 hours'') order by UploadDate desc '
-
-NB. require 'data/sqlite' !(*)=. sqlclose__db sqlreads__db sqlopen_psqlite_ 
-rc=. sqlclose__db '' [ dat=. sqlreads__db sql [ db=. sqlopen_psqlite_ y
-
-dat
+sql fst y
 )
 
 campnamesgpx=:4 : 0
@@ -317,11 +313,7 @@ NB.   10 gpxfrmirror trg
 :
 NB. limit waypoints 
 sql=. GpxGeotaggedMirror_sql , ' order by UploadDate desc ' , ;(0<x){'';' limit ',":x
-
-NB. require 'data/sqlite' !(*)=. sqlclose__db sqldict__db sqlopen_psqlite_ 
-rc=. sqlclose__db '' [ dat=. sqldict__db sql [ db=. sqlopen_psqlite_ y
-
-fmtmirrorgpx dat
+fmtmirrorgpx sql fsd y
 )
 
 gpxfrpoicsv=:3 : 0
@@ -403,11 +395,7 @@ NB. the last upload date is shifted forward to partly compensate
 NB. for the mixture of UTC and local dates. The times in the database
 NB. come from many time zones and many timestamps are just approximations. 
 sql=. GpxGeotaggedMirror_sql , ' and UploadDate > date("',waydate,'", ''+16 hours'') order by UploadDate desc '
-
-NB. require 'data/sqlite' !(*)=. sqlclose__db sqldict__db sqlopen_psqlite_ 
-rc=. sqlclose__db '' [ dat=. sqldict__db sql [ db=. sqlopen_psqlite_ y
-
-fmtmirrorgpx dat
+fmtmirrorgpx sql fsd y
 )
 
 gpxlatloncheck=:3 : 0
@@ -1077,18 +1065,19 @@ zz=:''
 zz=:zz,'(<<;._1 '' gpxutils AllMirror_sql CR GPXHEADER GPXNAMECHARS GpxGeota'
 zz=:zz,'ggedMirror_sql IFACEWORDSgpxutils LF MIRRORGPXFILE ROOTWORDSgpxutil'
 zz=:zz,'s afterlaststr allrecent alltrim assert beforestr boxopen changestr'
-zz=:zz,' dblquote eletags fmtmirrorgpx gpxfrmirror gpxfrpoicsv gpxfrrecent '
-zz=:zz,'gpxtimestamp justfile parsecsv read tags waystmp write''),(<<;._1 '' '
-zz=:zz,'revgeocode PLACEITEMS REVGEOCODEURL STATECOUNTRY assert placefrlb p'
-zz=:zz,'lacerowlb''),<<;._1 '' waypoints CR CRLF ETREXNAMELENGTH ETREXROUTECO'
-zz=:zz,'UNT ETREXROUTEPREFIX GPXHEADER IFACEWORDSwaypoints LF RETRACESTEPS '
-zz=:zz,'ROOTWORDSwaypoints TAB afterstr alltrim arctan assert atags attrval'
-zz=:zz,'ue beforelaststr beforestr belongstrs betweenidx betweenstrs boxope'
-zz=:zz,'n cos dupmask earthdist etrexwaypointgpx getele geteleattr getelete'
-zz=:zz,'xt geteletextidx gpxlatloncheck justdrvpath namelbtab read relabelg'
-zz=:zz,'px rfd rwptfrrte sin smoutput spacedpoints stampgpxheader tags tidy'
-zz=:zz,'gpx timestamp trackdistances tslash uniquegpxnames wptfrrte write'' '
-zz=:937{.zz
+zz=:zz,' dblquote eletags fmtmirrorgpx fsd fst gpxfrmirror gpxfrpoicsv gpxf'
+zz=:zz,'rrecent gpxtimestamp justfile parsecsv read tags waystmp write''),(<'
+zz=:zz,'<;._1 '' revgeocode PLACEITEMS REVGEOCODEURL STATECOUNTRY assert pla'
+zz=:zz,'cefrlb placerowlb''),<<;._1 '' waypoints CR CRLF ETREXNAMELENGTH ETRE'
+zz=:zz,'XROUTECOUNT ETREXROUTEPREFIX GPXHEADER IFACEWORDSwaypoints LF RETRA'
+zz=:zz,'CESTEPS ROOTWORDSwaypoints TAB afterstr alltrim arctan assert atags'
+zz=:zz,' attrvalue beforelaststr beforestr belongstrs betweenidx betweenstr'
+zz=:zz,'s boxopen cos dupmask earthdist etrexwaypointgpx getele geteleattr '
+zz=:zz,'geteletext geteletextidx gpxlatloncheck justdrvpath namelbtab read '
+zz=:zz,'relabelgpx rfd rwptfrrte sin smoutput spacedpoints stampgpxheader t'
+zz=:zz,'ags tidygpx timestamp trackdistances tslash uniquegpxnames wptfrrte'
+zz=:zz,' write''                                                            '
+zz=:945{.zz
 showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
@@ -1185,17 +1174,17 @@ Ci^_>ATh]tDe!]rAKZ2*H#R\9DKKqI.4cl00I/>$/1<VC4"akp+=A:.:K(5"B5i*<FD5Q4+Abj4
 1c-pA1b^^G2'=Y.0f1R=0K:[D0JY=91,(LC+>PW*3&!3D1bLX?1c.*K0etL,1,(F>0JP7@/iPI>
 0JG791H-F30JPO@2)$j>1c$jA3&<EM1E\G,0f1R=0K:[D0JY=91,(LC+>PW*3AE9D3%d'H1,:^E
 3&`f>1,(F>0JP7@/iPI>0JG791H-F30JPC<0ebR>2_[!@0JY=<2]sk00fUjE0JkC>0fM'M0K1^G
-+>PW*3AE9D3%d'I1H76L2)[E:1,(F>0JP7@/iPI>0JG7:0f^@30JPC<0ebR>2_[!@0JY@;3?U(2
-0f1R=0K:[D0JY=91,1LD+>PW*1b^X<3%d-D1,(C;0ek[21,(I;0JP7;/iGRI2)7-O1,9t-0JPRB
-1,1L91c7!E2)@0J3?U(20f^sD0ek:<0f1U?2E*HP+>PW*3AE9D2(gaG2_m-H0JYX21,(F>0JP7@
++>PW+0JG4:0J5:B0fD$J2`!E91,(F>0JP7@/iPI>0JG7:0f^@30JPC<0ebR>2_[!@0JY@;3?U(2
+0f1R=0K:[D0JY=91,1LD+>PW*1b^X<3%d-D1,(C;0ek[21,(I;0JP7;/iGRI2)7-O1,9t-0JY=9
+0etF82`<KH1H@HQ1*A>+0f^sD0ek:<0f1U?2E*HP+>PW+0JG4:0J5:B2)I<R0JPC,1,(F>0JP7@
 /iPI>0JG7:0f^@30JPC<0ebR>2_[!@0JY@;3?U(20f1R=0K:[D0JY=91,1LD+>PW*3&!3D1bLU@
 2)I*L1c7061,(FB0JtO@/i>IE1H%*K1,L+/0JPC<0ebR>2_[!@0JY@;3?U(20f1R=0K:[D0JY=9
 1,1LD+>PW*1b^X<3%d-D1,(C;0JbX11,(F>0JP7@/iPI>0JG7:0f^@30JPC<0ebR>2_[!@0JY@;
 3?U(20f1R=0K:[D0JY=91,1LD+>PW*1b^X<3%d-D1,(C;0ek[21,(F>0JP7@/iPI>0JG7:0f^@3
 0JPC<0ebR>2_[!@0JY@;3?U(20f1R=0K:[D0JY=91,1LD+>PW*1b^X<3%d-D1,(C;0JbX11,(FC
 0etI</i5C>3&<BM1c-=10JPC<0ebR>2_[!@0JY@;3@QL-4>8$7.4cl01*A@u1,(FC0etFC/i>XC
-1H$pC1,U100JPO@2)$j>2)70M1cI3M1a"P-0f1R=0K:[D0JY=91,C[F+>PW*3AE9D3%d'G2E!HQ
-3&!961,(FB0JtO@/i>FD3Ai]R0f:(/0JPC<0ebR>2_[!@0JYF>3%6C,4>8$7.4cl01*AJ#1,(FC
+1H$pC1,U100JPO@2)$j>2)70M1cI3M1a"P-0f1R=0K:[D0JY=91,C[F+>PW+0JG4:0J5:B1GpsB
+3ArW81,(FB0JtO@/i>FD3Ai]R0f:(/0JPC<0ebR>2_[!@0JYF>3%6C,4>8$7.4cl01*AJ#1,(FC
 0etI</i5OD2_d6M2`Dj70JPC<0ebR>2_[!@0JYC=1a"P-0f1R=0K:[D0JY=91,:UA+>PW*3&!3D
 1bLXE0K(UE2)%!41,(F>0JP7@/iPI>0JG7;1,L+/0JPC<0ebR>2_[!@0JYC=1a"P-0f^sD0fUdC
 2Dm0D3&!'I+>PW*1b^X<3%d-D1,(C;1,:[/1,(F>0JP7@/iPI>0JG7;1,L+/0JPO@2)$j>2)d3I
