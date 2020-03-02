@@ -21,12 +21,13 @@ simpler.
 
 1. Use Git to pull scripts to a local `joddumps` directory.
 
-        git init
+		git init
 		git remote add joddumps https://github.com/bakerjd99/joddumps.git
 		git pull joddumps master
 		
 2. [Start J](http://www.jsoftware.com/), load JOD and create dictionaries.
-   [JOD](http://www.jsoftware.com/jwiki/Addons/general/jod) is a J addon use [JAL](http://www.jsoftware.com/jwiki/JAL) to install it.
+   [JOD](http://www.jsoftware.com/jwiki/Addons/general/jod) is a J addon 
+   use [Pacman](https://code.jsoftware.com/wiki/Pacman) to install it.
 
         load 'general/jod'
 		
@@ -69,5 +70,4 @@ After the dump scripts are loaded into dictionaries they can be opened and used 
         └─┴────────────────────────────────────────────────────────────────┘
      
 John Baker
-March 1, 2018
-
+March 2, 2020
