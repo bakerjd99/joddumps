@@ -1,4 +1,4 @@
-NB. JOD dictionary dump: 07 Mar 2020 12:11:46
+NB. JOD dictionary dump: 08 Mar 2020 10:32:16
 NB. Generated with JOD version; 1.0.1 - dev; 4; 22 Jan 2020 17:52:55
 NB. J version: j901/j64avx/windows/release-e/commercial/www.jsoftware.com/2020-01-29T11:15:50
 NB.
@@ -3279,7 +3279,7 @@ NB.   trg=.  'c:/smugmirror/documents/xrefdb/mirror.db'
 NB.   sizekeychanges trg
 
 NB. the new list must contain sizes the old one doesn't
-'no new size keys' assert 0 < # NEWSMUGPYTERSIZES -. SMUGPYTERSIZES
+NB. 'no new size keys' assert 0 < # NEWSMUGPYTERSIZES -. SMUGPYTERSIZES
 
 NB. !(*)=. OriginalHeight OriginalWidth OnlineImageFile Keywords
 d=. 'select OriginalHeight, OriginalWidth, OnlineImageFile, Keywords from OnlineImage' fsd y
@@ -4794,7 +4794,7 @@ AU/>E.4cl01*A;33@$@60f^sB0f^jD0etF>2)$sD+>PW*3AE3B1bLXA1b^^>3Aif>1,(FC0ekFC
 +>PW*3&*0C0eP=?0JGID1,_'61,(FC0eb=@/iPaM2)[BM0K1+00JPO@1,(U=3A<BH1H@3K+>PW+
 0JG493A*-J0etIB2DR051,(FB0etI?/i57=1H.!I1c-=10JPOA1,1I82`WfV0f(^C1a"P-0fUmC
 0eb4=3B&oS2_[0I+>PW*3&*0B2_I$C2)-jG2`!B81,(FB0etI=/i5ID0f:pJ1E\G,0f^pF1,COA
-0JtjG2`WcQ+>PW*3AE3B2_HpI2E!QO2DHp/1,(I;0JbC>/i5FC1cI<I3ADX30JY=90etI92`E]V
+0JtjG2`WcQ+>PW*3AE3B2_HpI2E!QO2DHp/1,(I;0JbCA/iGLA2`<?I0f^@30JY=90etI92`E]V
 2_[6O1E\G,0f^pF0fL^C0K(dD1,^pJ+>PW*3&!'@2(ggI1H%0I0K(X.1,(FC0JtRF/iGI=2_d-G
 3&r*:0JPO@0ebF:2`<HH2E*HL0d&5*0fUmC1,1C;3&!3L2`*?J+>PW*3&*0C1bLU=2_['D1G_$6
 1,(FC0JtU@/i5ID2_['I1*A>+0f^pE0KCaD3AWHL1GC[E+>PW*3A<<G1+kCA3B0#S2`*?61,(FB
