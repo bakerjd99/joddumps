@@ -1,4 +1,4 @@
-NB. JOD dictionary dump: 07 Sep 2020 14:02:20
+NB. JOD dictionary dump: 20 Sep 2020 11:57:58
 NB. Generated with JOD version; 1.0.1; 7; 28 Mar 2020 13:01:05
 NB. J version: j902/j64avx/windows/beta-e/commercial/www.jsoftware.com/2020-08-14T11:33:59/clang-9-0-0/SLEEF=1
 NB.
@@ -884,10 +884,10 @@ c=. ($y)$'NB.' E. ,y
 c=. +./\"1 c > ~:/\"1 y e. ''''     
 
 NB. ,, work around for j8.05 bug - remove when fixed                           
-y=. ,,y                                                     
+NB. y=. ,,y                                                     
                                                                  
 NB. blank out comments                                           
-y=. ' ' (I. ,c)} y                                     
+y=. ' ' (I. ,c)} ,y                                     
 y=. y $~ $c                                                    
                                                                  
 NB. remove blank lines - default                                 
@@ -5250,7 +5250,7 @@ Ea`j,An?!*F(96)E--/CF^cJ7BQ&*)Df0W7Ch4`1Bl7^*F`\aIBmO?0@<?0*F(or3E-67M.4cl0
 1c$pD0ek[H3?U%!1,(I;0JY=</i5@?1GggD0fU:1+>PW*2D?sC3%d0E2)7*G3&EQN+>GPm1,(FB
 0JYCB/iP[D1c$gD1H7*31*A>+0fC^B1,pmG0JtUE1,q*L1a"_"1,(FA0JYC=/iYdD1-%'D0eb=)
 0d&5*0fLdA1,:IA2_['F2E!BK2]sgt1,(F@0JkOE/iYOB1,gsJ1cI661G^./0JPRA3&*9C1c$j?
-2_[-E1c?I2+>PW*2D?sC3%d0E2)7*G3&EQN+>Ghu1,(FA0JYCB/iYaD2)[9H0ekO.0d&5*0fC^B
+2_[-E1c?I2+>PW*2D?sC3%d0E2)7*G3&EQN+>Ghu1,(I;0KCmB/i5RJ0JP@A3AWW;0d&5*0fC^B
 1,pmG0JtUE1,q*L1a"Ut1,(FB0etI;/iPdJ0f1gG2`N]<0d&5*0fUmC0eb4=3A`NN0K(dJ2]sgt
 1,(F@0JkOE/iYOB1,gsJ1cI661,L+/0JY=92DR3D2)[BO0JP:>3AM^3+>PW*2D?sC3%d0E2)7*G
 3&EQN+>P&p0JY=92_[$?2)$pH2_['J2DQC0+>PW*2D?sC3%d0E2)7*G3&EQN+>k8s0JY=92_[$?
