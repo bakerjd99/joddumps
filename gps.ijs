@@ -1,4 +1,4 @@
-NB. JOD dictionary dump: 08 Oct 2020 15:46:34
+NB. JOD dictionary dump: 10 Oct 2020 10:28:28
 NB. Generated with JOD version; 1.0.1; 7; 28 Mar 2020 13:01:05
 NB. J version: j902/j64avx/windows/beta-h/commercial/www.jsoftware.com/2020-10-03T19:44:09/clang-9-0-0/SLEEF=1
 NB.
@@ -1137,6 +1137,37 @@ F)u&5B-;D,H#R\9DKI"6E-NL;Bl%@%Eb0E,AT)'sA7]dmG%G]8AKYVsDe!]rBl7Q+F`_>6F*D&<
 E,TH.FE;Y7H#R\9DKI"DFD5Q*FD5<-                                            ~>
 )
 showpass 2 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
+".soclear NB.{*JOD*}
+
+cocurrent SO__JODobj NB.{*JOD*}
+zz=:dec85__MK__JODobj 0 : 0
+0ea_)+>P'!+>G]011tQNF`_>6F'rX"G]e+BCi`u,BlbD*+BqG\F(96)E-,A6BQS?8F#ks-@rGmh
+/o#HGAor6*Eb-k5Df%.OBkqE99jqaR?Vk0DALSaDBOQ!*FD,*)+:SZiDfT]'FE8Qp@<-4!DBL'C
+FEq\6+Eq7>E,TH.F<FdX:fniPBl%@%>psB.FDu:^0/%NnG:muUE,TB0@:j4u/n8g:05#6K/n&g?
+.3N5CDf$U+$:@`m+D,>(ATJu&DIal3BOr;bD09JcF_;h$;fQVfFCe`+BQS?8F#ks-F)c#1FCd(C
+Eb@%>DId='/nf?DCagK7D/"$2DfRI@@UL<h@<>pe@<6!4+:SZWBOr<,ATN!1FD5W*+@f71+D,>(
+ATJu(@;[2sAKYf-@:Wq[+DG_8D]j.8AKX]cFD5Z2/OrW9+DFYcDf0,/@;p0.@;]Tb$?($"ATAn`
+:fAKIAThctATJu9BOQ!*Bl.g-Ec`Eo:fniN@<>p1/e&-s$<1pdEcl7B?tXG'F`_>6F'p,)DKBc.
+@rri-DKKH1Amo1\+EqaEA0>B#D/Ej%FE9&D$4R>MB5i*<FD5Q4?m'0)+D58'ATD4$ARloqEc5e;
+>=q[Z+Co1rFD5Z2@<-'nF'U2-FEDJC3\N-pDII@,H=_23ARo4k@;^"*FD,5rEbT].CbBXHB.n@?
+AM%Y8A1_b/B4W_F+CJi$F'p,!DIaktF`_>6F'oFa%17Q5IXWDd/o#eD$;No?+E)41DBMPI6m-#S
+@ruF'DIIR"ATJu&DIal&ASu("@<?''B5i*<FD5Q4+EM%5BlJ/'$>aWhA0<74ASu("@;IT3De(4)
+$?'Gt4$"a%E-!.EFD5Q4-OgE"Ci^^HB5i*<FD5Q4-OgE3IXZ_T$4R>.+D58'ATD4$ARlokB5i*<
+FD5Q4?m'N#EbTK7+CT.u+ELt.E,9).?u9UuEc5tNA7AphA79Rg@UX=h+CT;%+D>>,ANC8-%16?]
+D..6s%13OO.Nhr/FEDJC3\N.!Bln$2@P2//D(f@,CLqO$A2uY'C11UfF"_!=DdkA:@<6O%E\D':
+DffE#B4YU,B5i*<FD5Q4/no'A>psB.FDu:^0/$sPFD,f+/n8g:04J@*ATDNr3B8a-@:O(o04Ja9
+@P;S,F*(u605"j7FCAfpARmH,E-QMIBl%iCBkh]<%14R->A/,#E-"&n05#!@BQ[c:@rH3;@UX%`
+Eb],F3A5GjF_>Z=FCfJG@Vfsl05Y-=FCfJGFCfN8A79Rg05YEDEc5tNH>.=OD/"$2DfRI@@U1Bq
+FEDJC3\N.!Bln$2@P2//D(f@,CLqO$A2uY'F)?&4E-ZP:E\Cm<DdkA:@<6O%E\DNGF*(r$FC?h>
+Bl\64E\;ZPE%c'BEcQ)=/nAE?%13OO>]+J#D..7%BmO>"$4R>IF*1r5ARfgrDf0o,FCf]=FEDkB
+E-QMIBl%j=+A$HmATDBk@qC&t$4R>kIXZ_gHQXqU+FO\+:-pQU@;Kb#ARf:hF<D\K+AP6U+CT)&
++ED%'ASuT4Bl.9kATJu+Ec5e;CghC,+Eq7>E,TH.F<G4-DImisFD5Z2%15is/g+eGG\1u5Bl\64
+EZcK"67sBlG][t7@ruc7B4Z"'@:s4aA0>T'@:s.m+D,Y4D'3\0EcQ)=?Y!Ug@;]TuB4YslEaa'$
+F!,+7GRY!T67sBnE-Pu8E,TH#F*8ZK:-pQU@rH7.ATDm6+E275+CfJ9+D,>(ATJu9D]i\3GRY!T
+67sBnE-Pu8Eb/`lDKI!D:-pQUB5i)<Ao_g,+ED%'ASuT4G@>c9DeX*2Et&J*IXZ_T$4R=O$4R=O
+$4R=O$4R=O$4R=O$4R=O$4R=O$4R=                                             ~>
+)
+showpass 2 9 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
