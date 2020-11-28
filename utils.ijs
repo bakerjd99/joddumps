@@ -1,10 +1,10 @@
-NB. JOD dictionary dump: 21 Nov 2020 13:21:21
-NB. Generated with JOD version; 1.0.2; 13; 13 Nov 2020 16:34:19
-NB. J version: j902/j64avx/windows/beta-m/commercial/www.jsoftware.com/2020-11-14T15:33:00/clang-9-0-0/SLEEF=1
+NB. JOD dictionary dump: 28 Nov 2020 12:55:41
+NB. Generated with JOD version; 1.0.22 - dev; 9; 27 Nov 2020 12:01:00
+NB. J version: j902/j64avx2/windows/beta-n/commercial/www.jsoftware.com/2020-11-21T12:09:32/clang-9-0-0/SLEEF=1
 NB.
 NB. Names & DidNums on current path
 NB. +-----+---------------------------------------+
-NB. |utils|327869431914797941508105498637921839074|
+NB. |utils|162515912642367245957417051295676708383|
 NB. +-----+---------------------------------------+
 
 9!:41 [ 1 NB.{*JOD*}
