@@ -1,6 +1,6 @@
-NB. JOD dictionary dump: 02 Nov 2020 10:53:21
-NB. Generated with JOD version; 1.0.2 - dev; 3; 10 Oct 2020 16:47:35
-NB. J version: j902/j64avx2/windows/beta-j/commercial/www.jsoftware.com/2020-10-29T18:47:00/clang-9-0-0/SLEEF=1
+NB. JOD dictionary dump: 05 Dec 2020 09:16:27
+NB. Generated with JOD version; 1.0.22 - dev; 10; 02 Dec 2020 10:13:41
+NB. J version: j902/j64avx2/windows/beta-o/commercial/www.jsoftware.com/2020-12-01T13:07:37/clang-9-0-0/SLEEF=1
 NB.
 NB. Names & DidNums on current path
 NB. +----+--------------------------------------+
@@ -173,7 +173,7 @@ TFWTEMPHTML=:'temp.html'
 
 TargetPageTeXPts=:332.44135 245.717579999999998
 
-TeXfrWpxml_hashdateurl=:<;._1 '|a66534eddd3ea2dece4ea20def709d780c3a2c6a21fc6cfba42da102d887383b|02 Nov 2020 10:46:12 MT|https://github.com/bakerjd99/jacks/blob/master/texfrwpxml/TeXfrWpxml.ijs'
+TeXfrWpxml_hashdateurl=:<;._1 '|3364e7726233d74dc4bde215205aa1905dbd054196d91f5d43030b03f510d5f0|03 Dec 2020 13:45:35 MT|https://github.com/bakerjd99/jacks/blob/master/texfrwpxml/TeXfrWpxml.ijs'
 
 TropicalYear=:365.242190418999996
 
@@ -2003,7 +2003,7 @@ NB. code used before J 8.06
 NB. hexadecimal list from integers
 NB. hdl=. [: , [: hfd2 a. i. ]        
 NB. standard profile !(*)=. dir
-NB.(jfe&.> files) ,.~ hdl @ sha1 @ read&.> files=. 1 dir jpathsep y 
+NB. (jfe&.> files) ,.~ hdl @ sha1 @ read&.> files=. 1 dir jpathsep y 
 
 (jfe&.> files) ,.~ sha1 @ read&.> files=. 1 dir jpathsep y 
 )
@@ -3404,10 +3404,10 @@ FCf\E.4cl00eb@*1*eV/0fLdA0f:RC3B8cM3&*-C1E\D.+>PW*2_d!A1+kC@2)[-G2)dHQ+>Fuo
 /ibX?0KD$I3&i]:2'=Y.0fUjD0Jb=@0JPC@0K(dK3?U%!1,(FA0JY@?/ibX?0KD$I3&i]:0d&5*
 1,(CB1,(=<0f1dJ0K1sM3?U%!1,(FB0JkI>/iPaI2)@-L1cI660d&5*1,(C=0fUdE0fCgE0fUpI
 0d&1n1,(FA0JY@?/ibX?0KD$K1bg+5+>PW*2_[6J0J57;3AifP1H76M+>Fuo0JPL?1,1X=3AE3A
-3Ar`O0d&2,+>PW+0JP:91+kC?3&`]O2E*KP+>Fuo0JPL?1,1X=3AE3A3Ar`O0d&4o1,(I;0KCgE
+3Ar`O0d&2,+>PW+0JP=:1G1OD1G^dH3&riT+>Fuo0JPL?1,1X=3AE3A3Ar`O0d&4o1,(I;0KCgE
 /i5:=3AicP2`NN70d&5*0fLdA0f:RD0eb:A2Dm<G+>Yr!1,(I;0KCmB/i>=;1bgpJ3&rl>0d&5*
 0fLdA0f:RD0eb:A2Dm<G+>GSn1,(I;0JYCB/i57<2_Zp?2)$m10d&5*0fLdH1-$sG3A<0E2DI'J
-0d&1n1,(FA0KCmK/iPdE1cR<M1-%680d&5*0fLdA0f:RD0eb:A2E!9M1E\Ls1,(FB0K(UF/iPUG
+0d&1n1,(I;0etF=/i>OE0etOE3&rl>0d&5*0fLdA0f:RD0eb:A2E!9M1E\Ls1,(FB0K(UF/iPUG
 1,:jE0ebF,0d&5*0fUjC1GCF@0JPRH3A`QL3?U%!1,(FA0JY@?/ibX?0KD$L0f_$41E\G,1,(C=
 0fUdE0f:[G1cREM2'=Ur1,(FA0JY@?/ibX?0KD$L0f_$41ast(4>J$9,Vh&.2_[!A2(gjK3A<9L
 2)dK;1,(I;0KCgG/i>=?3&3EQ0f1m51,(FB0JYCB/iP^L3&WWN1,q691,(FA0JY@?/iYjO0JkaH
