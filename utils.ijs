@@ -1,4 +1,4 @@
-NB. JOD dictionary dump: 05 Dec 2020 09:15:20
+NB. JOD dictionary dump: 12 Dec 2020 08:40:40
 NB. Generated with JOD version; 1.0.22 - dev; 10; 02 Dec 2020 10:13:41
 NB. J version: j902/j64avx2/windows/beta-o/commercial/www.jsoftware.com/2020-12-01T13:07:37/clang-9-0-0/SLEEF=1
 NB.
