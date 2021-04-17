@@ -1,4 +1,4 @@
-NB. JOD dictionary dump: 02 Apr 2021 14:30:34
+NB. JOD dictionary dump: 17 Apr 2021 11:12:43
 NB. Generated with JOD version; 1.0.2; 13; 13 Nov 2020 16:34:19
 NB. J version: j901/j64avx/windows/release-f/commercial/www.jsoftware.com/2020-06-11T15:22:02
 NB.
@@ -5053,19 +5053,19 @@ zz=:zz,'ssert boxopen fboxname fexist getjson getmd getpy getsql gettex get'
 zz=:zz,'txt getxml justext justfile nc putjson putmd putpy putsql puttex pu'
 zz=:zz,'ttxt putxml read toCRLF toHOST toJ tolower winpathsep write''),(<<;.'
 zz=:zz,'_1 '' remdots alltrim read remdotargs write''),(<<;._1 '' rwtabd ctl f'
-zz=:zz,'mtcd fmttd parsetd parsetdwc readcd readcdwc readtd2 readtdwc tlf w'
-zz=:zz,'ritetd2''),(<<;._1 '' socketsREF sdcheck sdclose sdconnect sdgethostb'
-zz=:zz,'yname sdrecv sdsend sdsocket''),(<<;._1 '' sqliteuts fsd fst''),(<<;._'
-zz=:zz,'1 '' sunmoon IFACEWORDSsunmoon NORISESET ROOTWORDSsunmoon arctan cal'
-zz=:zz,'moons cos fromjulian moons round sin sunriseset0 sunriseset1 tabit '
-zz=:zz,'tan today yeardates''),(<<;._1 '' trig arccos arccosh arcsin arcsinh '
-zz=:zz,'arctan arctanh cos cosd cosh dfr pi rfd sin sind sinh tan tand tanh'
-zz=:zz,'''),(<<;._1 '' unicode ucpfrncrd ucpfrutf8 utf8frncrd''),(<<;._1 '' wor'
-zz=:zz,'dformation wfl''),<<;._1 '' xmlutils afterstr alltrim atags attrvalue'
-zz=:zz,' beforestr belongstrs betweenidx betweenstrs eletags getele getelea'
-zz=:zz,'ttr geteleattrtext geteletext geteletextidx read splitstrs tags wri'
-zz=:zz,'te''                                                                '
-zz=:2013{.zz
+zz=:zz,'mtcd fmttd parsetd parsetdwc readcd readcdwc readtd2 readtd2s readt'
+zz=:zz,'dbom readtdwc tlf writetd2''),(<<;._1 '' socketsREF sdcheck sdclose s'
+zz=:zz,'dconnect sdgethostbyname sdrecv sdsend sdsocket''),(<<;._1 '' sqliteu'
+zz=:zz,'ts fsd fst''),(<<;._1 '' sunmoon IFACEWORDSsunmoon NORISESET ROOTWORD'
+zz=:zz,'Ssunmoon arctan calmoons cos fromjulian moons round sin sunriseset0'
+zz=:zz,' sunriseset1 tabit tan today yeardates''),(<<;._1 '' trig arccos arcc'
+zz=:zz,'osh arcsin arcsinh arctan arctanh cos cosd cosh dfr pi rfd sin sind'
+zz=:zz,' sinh tan tand tanh''),(<<;._1 '' unicode ucpfrncrd ucpfrutf8 utf8frn'
+zz=:zz,'crd''),(<<;._1 '' wordformation wfl''),<<;._1 '' xmlutils afterstr allt'
+zz=:zz,'rim atags attrvalue beforestr belongstrs betweenidx betweenstrs ele'
+zz=:zz,'tags getele geteleattr geteleattrtext geteletext geteletextidx read'
+zz=:zz,' splitstrs tags write''                                             '
+zz=:2032{.zz
 showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
@@ -5614,7 +5614,7 @@ E-67M.4cl01Ggd.1*eV/0f:XC1,LUB2Dd6F2E!QM+>k8s0JGF?0etO;2)mTV2Dm6K2BXat1,(F?
 1c@3J+>PW*2D?sC3%d0E2)7*I2Dm<61,(F@0JkOE/iYOB1,h$J2)HF20JPI>1bq$C3&!3F2`*EM
 1a"P-0fC^B1,pmG0JtUE1c@3J+>PW+0JP==0J57;0JG4<0f^s21,(F@0JkOE/iYOB1,h$J2)HF2
 0JPI>1bq$C3&!3F2`*EM1a"P-0fC^B1,pmG0JtUE1c@3J+>PW*2D?sC3%d0E2)7*I2Dm<61,(FB
-0K(XF/iYO>2)m<N3?U(20fC^B1,pmG0JtUE1c@3J+>PW+0ebC>0J5.@1GL^H1c.'41,(F@0JkOE
+0K(XF/iYO>2)m<N3?U(20fC^B1,pmG0JtUE1c@3J+>PW+0ebF=1G1LC0fM!J2)[B91,(F@0JkOE
 /iYOB1,h$J2)HF20JY=90etF82`3HN2`3<F2BXb/0fC^B1,pmG0JtUE1c@3J+>PW*2D?sC3%d0E
 2)7*I2Dm<61,(F@0JkOE/iYOB1,h$J2)HF20JPI>1bq$C3&!3F2`*EM1a"P-0fC^B1,pmG0JtUE
 1c@3J.4cl00I/>$/1<V9+>Gl%1,(I;0ekCB/i5LD0fV$N1,U100JPF=2DR*A2`<KL0f^pF1E\G,
