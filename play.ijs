@@ -1,10 +1,10 @@
-NB. JOD dictionary dump: 19 Dec 2020 15:09:39
-NB. Generated with JOD version; 1.0.22 - dev; 11; 14 Dec 2020 08:52:29
-NB. J version: j902/j64avx2/windows/release-a/commercial/www.jsoftware.com/2020-12-05T13:36:01/clang-9-0-0/SLEEF=1
+NB. JOD dictionary dump: 08 Feb 2022 15:28:20
+NB. Generated with JOD version; 1.0.22; 32; 11 Dec 2021 15:48:27
+NB. J version: j903/j64avx2/windows/release-a/commercial/www.jsoftware.com/2021-12-16T15:15:09/clang-13-0-0/SLEEF=1
 NB.
 NB. Names & DidNums on current path
 NB. +----+---------------------------------------+
-NB. |play|280800872248214293008531175302274719118|
+NB. |play|209363033539241687471531295033709843234|
 NB. +----+---------------------------------------+
 
 9!:41 [ 1 NB.{*JOD*}
@@ -418,7 +418,7 @@ settings=. settings #~ -. +./"1 (0 1 3 4{"1 settings) e. unknown
 settings=. settings #~ (2 {"1 settings) e. unknown
 
 NB. strict row sequence adverb
-srsm=.  1 : '*./"1 u/&> 2 <\"1 y'
+srsm=. {{ *./"1 u/&> 2 <\"1 y }} 
 
 NB. retain strictly increasing and strictly decreasing rows
 grade=. order i. settings
@@ -2253,53 +2253,6 @@ zz=:dec85__MK__JODobj 0 : 0
 FD5W*+EV:2DJ+"                                                            ~>
 )
 showpass 5 put >1{,".".'zz_',SOLOCALE,'_' [ cocurrent 'base'  NB.{*JOD*}
-".soclear NB.{*JOD*}
-
-
-cocurrent SO__JODobj NB.{*JOD*}
-zz=:fromascii85__MK__JODobj 0 : 0
-1E\P#-p0UR/mg=U-Qk]R:dm`N;F+8R:K&B&Ci<rbFCB94+@B%&;c?Lj:IJ2M<)c:g+@C'bA8-."
-Df/<mD.7's+@C'iDKKoE6Z6LH=E7tb+@C'iDKKoE7WN'O7riNjE-!-hDfor>Ed:,pAS"eMDfTE1
-+@L?_6tp(MGuJfnEc`ElF_"NaEcYr5DBMAb@;0OVF_56"GT]IeCh6"K@<-WlFCB33+@]pYAQEA_
-F(oQ1+@^3i=)^lPDKKP_BlnD=7WN3R@<jR`FD,_<7rN3S@UWb[+@opYDeU=bATDL,@:s.IEb@-]
-0eskBATDL,@:s.IEb@-]0euX8DJN3[@VfTu8Oc!579<8_6rR,tEcYr5DF8>bDKKH1F!+%lF(KB6
-7!3$@ATDj+Df-[hDKBB0FA6sj@q/PNEcYr5DBMY>=B@pb9LVfX79C[,Df0Z18830e+AI&k@q.o@
-@<-WlFCB33+AI&k@q/PNEcYr5DBM\@6VV-&@;JnO@VfTu:Mb;nE+rfYDes-0Bk(Rf:18!NF!+:K
-=@>SO+Ac3Z=_JpS@<-F#:-q<BARo4c<+06PAKXiM5t"U:<(TGU:J=_V=<LL-9gMNS8jQ3O79C[1
-:JXqk:JsSZ<b6;mBl@lVDfor>ATDi7<-!,'BMDoQ@:s.gASuT4<aflVATDX+DId<$@<69.@<69p
-H$!V=+CT>.A7]@eDIjr!F)>T%GT^F9D/<p(ATJu'Df0,qEbT&sAKYH#DejE-ASbsgDf&s)+C]8-
-CNFH+Ed;5)EZeh0G]IqEF!+t&A0>B#DJ!TqC12?0@s)m.F)Pr/EbT&p@<<W&0d(!^+Cno&Ao_X-
-Df03.Bk/>sAmulnBPMU,DJ!ouFCT,0A8#_!Df00-DKIWVA85OtD..O"+D#A*BlJ-):h=Z]D.Rg#
-EZet.+D,=s+D,\;D'3J3Bk1a_FCfK5+D5_/A7T+jAo`!(+DEPa@q6]r0f*<M+DkP&AOgcTA41!G
-DcC:hF@Kt\ATJu3@<Qd0+E)(<H#R>9ATT&6BPAT0@;]UoD00i@@;Tt)+ECn.A9VHuCGKECEb034
-DJ=36+ED%4F`(o8F#"kYAT2d0BlnDP+ED%4F`(o8F#5"\@q6^'E+s?$Cb[&RF_r7BF_srqDdso3
-@:F%aA7]gl+EVI8GT_-=A0?#4AoDKr+Eh=:F(oQ1H#7aJGA1r*@q]RmCaUY_-p0UR/mg=U-Qll@
-Bl%<S@<?0T@<b1OD/UP;ASbdaAScR!H#R\9DKKqd@<6-m0JG4/.4cl04?G0&0d%hd7!3$>AQVcL
-AT2[.@qB_&+@L?_<b6;mBl@l37V-CI<b6;mBl@l37WWE6F*:AgEcYf4+@gHdA41!GD]hb_FD+9T
-GXQ+[D]hbuARf4LAQVcLAT2[.@qB_&+AI&k@q/PNEcYr5DBM_kH#7M7@ngNF@;JhMDJO;9;f-5b
-Ch[HQ;c"T;ATDj+Df.p\F`);4EcW@)DfTAbEb0<58830e+CT>.+Cf(r@r$..D0$h0Eb/d"+Dl%;
-F(HJ:DJ!g'A0?)1DId6jBl%T.H=^T%ASu$sEb6[J/1<V7,VUYu-p0UR/mg=U-Qkg"A6*8^F(oQ1
-+A69[FD+TiBl%U"AP,lt?Z^O7+AQ?eBl@ltCdr,ZAOKsK@:+,$F<FCU;cI*lF_"NaEcYr5DBMbO
-;cI*nASbpYATDj+Df-[o:K(5"9m:/Y@od/]F(oQ1+Abj4<*rR@Bl%U"AP,lt+Abj4<*r[;EcYr5
-DF8>bDKKH1F!+q7Bl%<MEbT&PASl?.@WcC$A7opsA0>H$BkM9k+DO_dDf0,QCi<rTG[YH.Ch4`*
-De!3l?Y!_[F!,@CD.7'sGAhM4F!,FBARf:mF!,FBC2I]oGT_'L@<-I4E*mHjFD,DtG[tB&DdR6m
-F!iCf-p04>+>P2t0JY=91GUg?2E*QO0JP7>2)l^7+>PW+0JP=:3A*-F3AN?F1c$gD+>Fuo0JY=9
-1GUg?2E*QO0JP:B1,U110H`,)1,(F<0KCaB0JYLF0f([B2]sgt1,(I;0JbIA/iGXI1b^X=3ANH7
-0f^@30JY=:0JbC82)6pG3A<BL1,L+.+>PW+0JG:<2(gdG2`*3C0f_!H+>Pku1,(I;0ebC;/i>C>
-2`WQM0f1a11E\G,1,(F<0KCaB1c[<H1,Ld@2BX^s1,(I;0ebC;/i>C>2`WQN1bga.1GBq,0JY=:
-1,(^@1b^[B3&*3H1,g=1+>PW+0JP7;0J54<1,h3I2`*6E+>c#+/1<V9+>P2t0JY=91GUg?2E*QO
-0JPIE2E2g7+>PW+0JP7;0J54<1,h3J0Jt[A+>PAs-p0C11*eV/1,(C<1,U[B2`EQI1,1aI0d&J!
-1,(I;0etI;/iGXF2D@-O3&io@0d&5*1,(C<1,U[B2`EQI1,CdB0d&J!1,(I;0ebC;/i>C>2`WTK
-2)R?93?U(21,(F<0eb4<2`*EH3B9&Y3?U%!1,(I;0ebC;/i>C>2`WTL3&3?63@QL-4>8$7.4cl0
-0eje+,Vh&/0JG:<2(gdG2`*3C3AE6G+>Fuo0JY=:1,(^@1bpsL1c.0P2Du[4+>PW+0JGLB0J5:<
-1c-mA2_d9N+>Fuo0JY=91GUg?2E*QO0JPRB0f:(0+>PW+0JP=;0eP7B1H$p@1bgjE+>Fuo0JY=9
-1GUg?2E*QO0JPRB0f:(.0H`,)1,(F:1GCF=1,:dK0etI?1E\Cp1,(I;0etFC/i5@<1GCR<0et[1
-0d&5*1,(F:1GCF=1,:dK0etI?1E\Ls1,(I;0etI</i,LD2D?gA0f:d10d&5*1,(F:1GCF=1,:dK
-0etI?1E\D+.4cl00e"Y%4>A99-p045/1<V7.4dS9                                  ~>
-)
-cocurrent 'base'  NB.{*JOD*}
-puttstamps_ijod_=: (((1;'upgrade JOD')"_)`putallts__MK__JODobj)@.(3 = (4!:0)<'putallts__MK__JODobj') NB.{*JOD*}
-showpass puttstamps ".".'zz_',SOLOCALE,'_' [ cocurrent 'base'  NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
 
