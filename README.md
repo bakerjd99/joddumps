@@ -3,8 +3,7 @@
 
 This repository holds [JOD](http://bakerjd99.wordpress.com/the-jod-page/) dictionary dump scripts. 
 
-A JOD 
-[dump script](https://docs.google.com/document/d/1lk6Ua6qqcphlL7PYXeYeAsEsax31kCn2C0Do87vzc1M/edit?hl=en_US&pli=1) 
+A JOD dump script
 is a serialized ASCII script that may be used to create, update or archive
 a JOD dictionary database. This repository contains current versions of my working
 JOD dictionaries. For more about JOD see the [The JOD Page](http://bakerjd99.wordpress.com/the-jod-page/).
@@ -15,11 +14,11 @@ into a local repository (item 1), or you can use GitHub's Zip download feature (
 current version of the scripts. For simple testing and exploration the Zip download is
 simpler.
 
-0. Use GitHub's Zip download to get the current scripts in one Zip file.
+1. Use GitHub's Zip download to get the current scripts in one Zip file.
    Extract the files in the Zip file to a local directory like `/jod/joddumps` 
    and proceed to step 2.
 
-1. Use Git to pull scripts to a local `joddumps` directory.
+2. Use Git to pull scripts to a local `joddumps` directory.
 
 		git init
 		git remote add joddumps https://github.com/bakerjd99/joddumps.git
@@ -70,4 +69,4 @@ After the dump scripts are loaded into dictionaries they can be opened and used 
         └─┴────────────────────────────────────────────────────────────────┘
      
 John Baker
-March 2, 2020
+March 30, 2022
