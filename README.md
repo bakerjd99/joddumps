@@ -10,13 +10,13 @@ JOD dictionaries. For more about JOD see the [The JOD Page](http://bakerjd99.wor
 
 The following example shows how to restore JOD dictionaries from repository dump scripts.
 You can get JOD dictionary dump scripts in two ways. You can use Git to pull the scripts 
-into a local repository (item 1), or you can use GitHub's Zip download feature (item 0), to grab the
+into a local repository (item 2), or you can use GitHub's Zip download feature (item 1), to grab the
 current version of the scripts. For simple testing and exploration the Zip download is
 simpler.
 
 1. Use GitHub's Zip download to get the current scripts in one Zip file.
    Extract the files in the Zip file to a local directory like `/jod/joddumps` 
-   and proceed to step 2.
+   and proceed to step 3.
 
 2. Use Git to pull scripts to a local `joddumps` directory.
 
@@ -24,7 +24,7 @@ simpler.
 		git remote add joddumps https://github.com/bakerjd99/joddumps.git
 		git pull joddumps master
 		
-2. [Start J](http://www.jsoftware.com/), load JOD and create dictionaries.
+3. [Start J](http://www.jsoftware.com/), load JOD and create dictionaries.
    [JOD](http://www.jsoftware.com/jwiki/Addons/general/jod) is a J addon 
    use [Pacman](https://code.jsoftware.com/wiki/Pacman) to install it.
 
@@ -34,7 +34,7 @@ simpler.
         newd 'jod';'c:/users/owner/j64-601/jod'
         newd 'joddev';'c:/users/owner/j64-601/joddev'
 
-3. Run the dump scripts:
+4. Run the dump scripts:
 
         od 'utils' [ 3 od ''  NB. insure closed dictionaries
         0!:0 <'c:/joddumps/utils.ijs'
