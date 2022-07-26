@@ -1,6 +1,6 @@
-NB. JOD dictionary dump: 21 Jul 2022 09:49:56
-NB. Generated with JOD version; 1.0.22; 32; 11 Dec 2021 15:48:27
-NB. J version: j903/j64avx2/windows/release-a/commercial/www.jsoftware.com/2021-12-16T15:15:09/clang-13-0-0/SLEEF=1
+NB. JOD dictionary dump: 26 Jul 2022 11:54:15
+NB. Generated with JOD version; 1.0.23 - dev; 6; 23 Jul 2022 09:09:29
+NB. J version: j904/j64avx2/windows/beta-e/commercial/www.jsoftware.com/2022-07-16T19:21:14/clang-14-0-6/SLEEF=1
 NB.
 NB. Names & DidNums on current path
 NB. +---------+---------------------------------------+
@@ -197,7 +197,7 @@ UpdateLocalPresent_sql=:'update Album set LocalPresent = 1 where AlbumKey in '
 
 UploadRateCount_sql=:'select count(1) as ImageCnt, strftime("%Y", {{date}}) as Year from OnlineImage group by strftime("%Y", {{date}}) order by strftime("%Y", {{date}})'
 
-VMDbrandxmp=:'0.6.0';8;'21 Jul 2022 09:46:30'
+VMDbrandxmp=:'0.6.0';9;'23 Jul 2022 08:35:24'
 
 VMDmirrorstats=:'0.5.0';12;'12 Jul 2022 12:21:26'
 
@@ -215,7 +215,7 @@ XMPTITLEFRAG=:60 100 99 58 116 105 116 108 101 62 10 32 32 32 32 60 114 100 102 
 
 XMPWID=:75
 
-brandxmp_hashdateurl=:<;._1 '|517c5626c1c58513db052648519c68dd53479d9d29971c2d710aa0699e62a138|21 Jul 2022 09:46:30|https://github.com/bakerjd99/jacks/blob/master/brandxmp/brandxmp.ijs'
+brandxmp_hashdateurl=:<;._1 '|0581dd6a23a01c8022ae361b61540b5983684629427397dc208ca80b50c0b747|23 Jul 2022 08:35:24|https://github.com/bakerjd99/jacks/blob/master/brandxmp/brandxmp.ijs'
 
 imageSchema_sql=:'create table image ( ImageKey text, AlbumKey text, FileName text, ArchivedMD5 text, ArchivedSize integer, Latitude float, Longitude float, Altitude integer, OriginalHeight integer, OriginalWidth integer, UploadDate date, LastUpdated date, Uri text, ThumbnailUrl text, Keywords text, Caption text) '
 
@@ -4923,7 +4923,7 @@ $=e!gDKBB0F<D\R:Msu_DIlgeCi<`m6YL%@CF9Pu%15p-;cI+'BQ\0$F%p@hEc5tR0ht%f:et"h
 EbT*++DG^9E,oZ0@<-W9A79Rg@UX=h%14Nn$4R>PDe!p1Eb0-1+=CW,F(H^.$=e!gDKBB0F<D\R
 <+pDk@WP7XEcQ)=-OgCl$;aMs<*s*T@;]V#D/_6b:-pR0:K(5"@WGmpA9_s1+E27?F<GOCDe!@"
 F)Q(O+:SYe$?L'&F`_SFF<F.E5sn((3Zoh)+?CW!.1HVZ67sB/@WGmpA9_s1.3N>BFCfK)@:Njk
-GAhM4.!$gu+>PW+1,(XB0kr^*2D[#o:-pQU/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/I`%^
+GAhM4.!$gu+>PW+1,(XB1MSm*2)6uq:-pQU/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/I`%^
 67sBhF_"s%@;]UdBlY==:-pQU@<H*pF<GgFE%c6?G9CU:@:s-oA8-'q@ruX0Bk;>p$;No?+EM7-
 ARf.hF!)SJ+<XEG/g+kF@:s-oEaa05+EqOABHUf'EcP`4E,TW)Bl7Q+F(o/r@psC#G\qCBAnc'm
 Et&IO67sC&Blmg)@;]UdBlY==:-pQU@WGmpA0>H"BkM-hCh4`6D/^V0Bl%@%+DG^9A8-'q@ruX0
@@ -8350,13 +8350,13 @@ ATCFTH#k>^/1<V9+>Pc-,Vh&.3AE3B3A*0D1,(OB0K1[C+>PW*3AE3B1bLXA1b^^>3Aif>1,(I=
 1,:OA0Jb==2)6pD1,(I@2]sk01,:OA0JP1;3&rZN2`NQL1*A>+0fUmC0ek:=1GCL:2D?sB1a"P-
 0f^pI0fCXA1,(OF2E3ZS1*A>+1,(F;1,1C<2E<ZU3A<0H2]sk00f^pF1,1C?2Dd3J3&!6M1a"P-
 0fUjF1,ggF0Jb^J3AicP0d&5*0fUjF1,U[D1c.'J0K:jC3$9t10f^pI0f:R?2)I0I2)d6K2]sk0
-1,:OB1,1C<0K1aI3AiTO1*A>+1,:OB0et@=0f1jL2)I$I0d&5*0fUjB0Jb=<1b^a?3&iZR2BXb/
+1,:OB1,CO=2)dNM3&!3G3?U(21,:OB0et@=0f1jL2)I$I0d&5*0fUjB0Jb=<1b^a?3&iZR2BXb/
 0fUmC0eb4>0fD!G2E<`W1E\G,0f^pI0f:RA2`E]T1,LmG0d&5*0fUmC0eb4>1GCdB0fD!N0d&5*
 1,:OB0f:RA3&*?L3&`NK2'=Y.1,:OB0fCXB1c73K2_m?I2BXb/1,:OB0f(F>1c$jG3B9)Z2]sk0
 1,:OB0fCXB1,1RB3&``O1a"P-0f^sB0et@=3Ai]R2`3BL+>PW+1,(X@2_HpF2)I'B0ebFB+>PW+
 1,(F:1bLUF1GgpG2D[0L+>PW*3A<<F3%d$E0f1RD1H@351,(I=0K1^E/iGL?2`WZP1G^a.1,(FC
 0JtRD/i5I?2DR*L1b^j21,(FC0eb=@/i>XC2)I$A3B/f;1,(I=0K1aA/i5791cI*K1,h$41,(FB
-0K([D/iY^C1cR3M1,9t-0JYC;2_m*?1b^jD3B9)X2)ZR40JPOA1,1U<3&39D0Jk^F1cZ[60JPRA
+0K([D/iY^C1cR3M1,9t-0JYC;2_m0A1Gq*O0fV!E2)6:00JPOA1,1U<3&39D0Jk^F1cZ[60JPRA
 2)6s?2_d$I1,h'H1GL"-0JPOA1,1[>2DI3N0fLsI2]sk00fUjC0fUd>1G^jC1H@3H+>PW+0JG::
 2_HsA2E3HN2DdBP+>PW*3&*0D0J57A1b^mJ1H%!H+>PW*3&!6F2_I!H1-%9M1GLdG+>PW*3&!6E
 2D-sD0K(dE2Dd9K+>PW*3&*0C1bLU=3&*6M2E*HM+>PW*3&*0B3%d$E1Gq$G1,CpF+>PW*3&*0B
@@ -8412,7 +8412,7 @@ ATCFTH#k>^/1<V9+>Pc-,Vh&.3AE3B3A*0D1,(OB0K1[C+>PW*3AE3B1bLXA1b^^>3Aif>1,(I=
 2`!331,(FB0JP:</i5@@0f1^@1H7<91,(FC0JbC?/i>RJ0KCpG0f:a01,(FB0JP:</i5F?1c-sJ
 1H7051,(FC0JY@B/i,IB1G^jE+>PW*3&!-C2_I*L1H@3E0ebC=+>PW*3AE3B1G1LD3&!?P3B&ZM
 +>PW*3&!6G2_I'D1H@BS2`<ZP+>PW+1,(U@0J51:1c$sK1,q*51,(I=0K1^G/ibmF0K1dH2'=Y.
-1,(C=0f^jB2`3NN0K1aI1E\G,1,(C=0f^jB2`EHF1,h$G3$9t11,:OB1,1C<0K1aI3AiTO1*A>+
+1,(C=0f^jB2`3NN0K1aI1E\G,1,(C=0f^jB2`EHF1,h$G3$9t11,:OB1,CO=2)dNM3&!3G3?U(2
 1,:OB0et@=0f1jL2)$mG3$9t11,:OA0JtI>1bq!E0JkU?2BXb/0fUjF1,CO?1H@<M1bgd?1E\G,
 1,:OB1,1C<0JP:A3AiWP+>PW+1,(XA1G1[F2)6sJ2D['C+>PW*3A<6E0J54B3AN9C2DR!G+>PW*
 3A<6E0J54B1,1[I3AWBH+>PW+1,(XA0J51B0ebI=2`N`P+>PW+1,(U?1bLUC3Ar]Q1,:R?+>PW+
