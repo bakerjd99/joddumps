@@ -1,4 +1,4 @@
-NB. JOD dictionary dump: 21 Aug 2022 09:35:10
+NB. JOD dictionary dump: 23 Aug 2022 09:41:33
 NB. Generated with JOD version; 1.0.23 - dev; 6; 23 Jul 2022 09:09:29
 NB. J version: j904/j64avx2/windows/beta-e/commercial/www.jsoftware.com/2022-07-16T19:21:14/clang-14-0-6/SLEEF=1
 NB.
@@ -215,7 +215,7 @@ TFWTEMPHTML=:'temp.html'
 
 TargetPageTeXPts=:332.44135 245.717579999999998
 
-TeXfrWpxml_hashdateurl=:<;._1 '|b287b045de3374c9d3b906e32434f69a3ded3116db732c9e22893b56e3cfceb4|21 Aug 2022 09:32:56|https://github.com/bakerjd99/jacks/blob/master/texfrwpxml/TeXfrWpxml.ijs'
+TeXfrWpxml_hashdateurl=:<;._1 '|7aa68ad4c13b63e5f35edd0b7578bcaf09e0728f78a572a14e731a8ebe96ee28|23 Aug 2022 09:40:07|https://github.com/bakerjd99/jacks/blob/master/texfrwpxml/TeXfrWpxml.ijs'
 
 TropicalYear=:365.242190418999996
 
@@ -312,6 +312,7 @@ hash=. hash, LF, ctl ;"1 ' ' ,&.> sha1dir texpath,'*.tex'
 mdpath=. 'c:/pd/blog/wp2epub/'
 hash=. ctl ;"1 ' ' ,&.> sha1dir mdpath,'*.epub'
 hash=. hash, LF, ctl ;"1 ' ' ,&.> sha1dir mdpath,'*.mobi'
+hash=. hash, LF, ctl ;"1 ' ' ,&.> sha1dir mdpath,'*.azw3'
 hash=. hash, LF, ctl ;"1 ' ' ,&.> sha1dir mdpath,'*.markdown'
 (toJ hash) write mdpath,'bmepubsha1.txt'
 
@@ -319,6 +320,7 @@ xhtmlpath=. 'c:/pd/blog/wp2epub/xhtml/'
 hash=. ctl ;"1 ' ' ,&.> sha1dir xhtmlpath,'*.xhtml'
 hash=. hash, LF, ctl ;"1 ' ' ,&.> sha1dir xhtmlpath,'*.css'
 hash=. hash, LF, ctl ;"1 ' ' ,&.> sha1dir xhtmlpath,'*.ncx'
+hash=. hash, LF, ctl ;"1 ' ' ,&.> sha1dir xhtmlpath,'*.jpg'
 (toJ hash) write xhtmlpath,'bmexhtmlsha1.txt'
 )
 
@@ -3285,7 +3287,7 @@ Amo1\+EqaEA12LJ3XlEk:+dY@/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+%15is
 @:XF%AU&04Ec`FGAU&;+$7QDk%16T`@s)g4ASuT4-XpM*AL@oo@rH(!F(KB6+<W%%Df90,ART+j
 ;It#cATr2C%13OO:et"h?W:T=Ao^slG\q7P0ht%f:et"h?W:T=Ao^slG\q7><+T0DE`[4)D/:>6
 Df^"CE,ol,ATMp2EZbeu%17/nDfp/@F`\`t7R9C14ZX]60H`D!0I[G<:-pQU-rab[Ao^slG\q7G
-+DG_8ATDBk@q?d,DfTA:F"'-m1,(I=0K:gBC,n(*2)Ye:67sB4/M/P+/M/P+/M/P+/M/P+/M/P+
++DG_8ATDBk@q?d,DfTA:F"'-m1,(I=0K:gDC,n+)0K0>667sB4/M/P+/M/P+/M/P+/M/P+/M/P+
 /M/P+/M/P+/M.D=:-pQU6>URQ87?RQATJt:+<VdL+<XEG/g,:UA79Rk+C]/*B-:krF(f-+%15is
 /g*VtGX>hLA8c[0+<VdL+<VdL:-pQU@<?U&D/aS>FDi:3Df0`0Ec`ER/n/7"A8c[0+D,>(ATJu9
 D]gM^D..I#A7TV&D@HqJ67sBS@<?(*7WMRKEb'-0ATMo8+AP6U+D#e:ATDL%ASuTuC`m5+DK]T3
@@ -3886,8 +3888,8 @@ H#k*IEb]<-H#@(6E,o];E&)NHGUFpk-p04C2BXb#1,(I<0eb@?/iG^H0ebIF3&3H90d&5*0fLdA
 +>Fuo0JPL?1,1X=3&ruQ1cR9N0K(%0+>PW*2_[!A2(gmD0JGLF2D[$E+>Fuo0JPO@2D@-D2`!9K
 0K1[@2BX^s1,(FB0JYCB/iP^C3&3HJ2_m960d&5*0fLdA0f:RC3B8cM3&<NJ2BXdu1,(I;0JkLD
 /iPLB0f_'M2`!<60d&5*1,:OA0f(F=2`<HG0f:[E1E\Cp1,(FA0JY@?/iYjO0JkaF3&!651a"P-
-1,1L;1,U[B3A`HE2*!WO3$9pu1,(FA0JY@?/ibX?0KD$I3&i]:0eje+0JY=92_d$>2_d!B3&WKO
-0K(%.+>PW+1,(X@1bLXB0fLgF2E*WV+>Fuo0JPL?1,1X=3AE3A3ArZQ3&;[3+>PW*3A<9D2(gdG
+1,1L;1,U[B3A`HE2*!WO3$9pu1,(FA0JY@?/ibX?0KD$I3&i]:0eje+0JYC;3&39B1b^XD1-%3P
+2Du[4+>PW+1,(X@1bLXB0fLgF2E*WV+>Fuo0JPL?1,1X=3AE3A3ArZQ3&;[3+>PW*3A<9D2(gdG
 0JYL?3&WTR+>Fuo0JPRA1b^d>2E*BK1,C^?3&Mg5+>PW*3A<9D2(gdF3ANTL1c[<L+>Fuo0JYC;
 2_['@2)I6P1c.$J3&_s7+>PW*2_d!A1+kCA0JGLB1c7-F+>Fuo0JPL@0JYC91c@$C0JbCB3&i$8
 +>PW*2_[!A2(gmD0JGLF1H7?M+>GPm1,(FA0KCpC/iGI>2D@'M3Ar`;0d&5*0fLdH1GCF=3AWZS
@@ -3910,7 +3912,7 @@ H#k*IEb]<-H#@(6E,o];E&)NHGUFpk-p04C2BXb#1,(I<0eb@?/iG^H0ebIF3&3H90d&5*0fLdA
 3A*0E1H$sC3&!'00d&5*0fUjD0Jb=?3&NQL2E*HO1a"Lq1,(I=0K1aD/i>@A3AWKL1,Ug00d&5*
 1,:OB1,1C>0JYOD2D[0F0d&1n1,(I;0JkLD/iPLC1GggG1,gp10d&5*0fLdA0f:RD0eb:A2Dm<G
 +>t>t0JYC;2_['@2)R6L2`!BN1GU(-+>PW*2_[!A2(gmD0JGLF2)I$11E\G,0fLdH1GCF>0KD!N
-1,CmI2BX^s1,(FA0JY@?/ibX?0KD$K1bg+-1E\G,1,:OC1,1C;3B&oV2_m<P2]sgt1,(FA0JY@?
+1,CmI2BX^s1,(FA0JY@?/ibX?0KD$K1bg+-1E\G,1,:OC1,CO>0JYUG3&<9D3?U%!1,(FA0JY@?
 /ibX?0KD$K1bg+.+>PW+1,([B2_HsA1H7'E1G^mC+>Fuo0JY=93A<<C1bgdH2)mBN3&)O1+>PW*
 2_[!A2(gmD0JGLF2)I$10fL410JYC;2_d<F2).!F1c[NO2_lL1+>PW*2_[!A2(gmD0JGLF2)I$1
 2'=Y.1,:O>1GLL=2_d9J2_m3H3?U%!1,(FA0JY@?/ibX?0KD$K1bg+-0d&5*1,:OC0fL^B0Jb[B
@@ -3940,7 +3942,7 @@ H#k*IEb]<-H#@(6E,o];E&)NHGUFpk-p04C2BXb#1,(I<0eb@?/iG^H0ebIF3&3H90d&5*0fLdA
 1,(C;0eb493AN<J2)dHO+>PW+0JGLB0J54:0eb=@3&W`R+>PW*2_[!A2(gjK3A<9L2E3HJ+>PW+
 1,(XB1G1RG1c%!F1bq!K+>PW+1,(XB1G1RG0K:jB1,h3J+>PW*2_[!A2(gjK3A<9L2E3HJ+>PW*
 2_[!A2(gmD0JGLF3AN<31,(FA0JY@?/ibX?0KD$O1,0n,0JY=91,1I81H@?L2`<EN2)cX50JY=9
-1,1I81H.!C3&WKG0K:110JY=91bgsB2_m9J0K1[A2DQC10JYC;3&33@1H@BR2`EEN1Gg400JY=9
+1,1I81H.!C3&WKG0K:110JY=91bgsB2_m9J0K1[A2DQC10JYC;3&39B1b^[E2E3EI2E2g70JY=9
 1bgsB2_m-G0f:^B1-$I40JYC;3&*?E2)$gG0JbL@2)-4/0JYC;2_m*?2)mKR3AiKE0JXb+0JYC;
 2DI!?1cR6N1GL[E2)QL30JY=91,1I81H@3F2`3NQ2'=Y.1,:OC1,1C;3A<?O3&<<E1*A>+0fLdA
 0f:RD0eb:A2E<NI+>PW+1,([B2_HmH1bgpE2Dd0G+>PW+1,(XB1G1RG0K:jB1,h3J+>PW*2_[!A
