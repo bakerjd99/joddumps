@@ -1,4 +1,4 @@
-NB. JOD dictionary dump: 31 Jul 2022 17:42:39
+NB. JOD dictionary dump: 16 Sep 2022 14:32:57
 NB. Generated with JOD version; 1.0.23 - dev; 6; 23 Jul 2022 09:09:29
 NB. J version: j904/j64avx2/windows/beta-e/commercial/www.jsoftware.com/2022-07-16T19:21:14/clang-14-0-6/SLEEF=1
 NB.
@@ -68,9 +68,9 @@ SAMPLEMARGIN=:4
 
 STATECOUNTRY=:<;._1 ' state country'
 
-VMDgpxutils=:'0.9.0';16;'31 Jul 2022 17:36:58'
+VMDgpxutils=:'0.9.0';19;'16 Sep 2022 14:17:36'
 
-gpxutils_hashdateurl=:<;._1 '|ce55878c63f03978322b79829f875c1dda77f030a85d1b9f7d361b66a6d5cf88|31 Jul 2022 17:36:58 MT|https://github.com/bakerjd99/jackshacks/blob/main/gpxustils.ijs'
+gpxutils_hashdateurl=:<;._1 '|67ffcaf9ddffb8aa4d8e7aca3761b61d26e83e45cc6795d7cff49f35c4d7d414|16 Sep 2022 14:17:36 MT|https://github.com/bakerjd99/jackshacks/blob/main/gpxustils.ijs'
 
 relabelwaypointsTESTGPX=:'<?xml version="1.0" encoding="UTF-8"?><gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="KMLToGPX Converter 1.0" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"><metadata><link href="http://www.fish-track.com"><text>Author Jessie Williams. If you want to contribute, please donate to the developement at www.fish-track.com.</text></link></metadata><wpt lat="38.94363684988545" lon="-109.8095840091101"><time>2007-12-22T13:17:22Z</time><name>ARCH_44</name><sym>waypoint</sym></wpt><wpt lat="38.61654195800798" lon="-109.6199183404893"><time>2007-12-22T13:17:22Z</time><name>AARCHV_43</name><sym>waypoint</sym></wpt><wpt lat="37.45801148178722" lon="-113.227464580763"><time>2007-12-22T13:17:22Z</time><name>AZION_42</name><sym>waypoint</sym></wpt><wpt lat="36.15057" lon="-115.15264"><time>2007-12-22T13:17:22Z</time><name>CHAPEL_41</name><sym>waypoint</sym></wpt><wpt lat="40.198359" lon="-109.310424"><time>2007-12-22T13:17:22Z</time><name>REDWSH_40</name><sym>waypoint</sym></wpt><wpt lat="40.23297" lon="-109.203693"><time>2007-12-22T13:17:22Z</time><name>MEUNIT_39</name><sym>waypoint</sym></wpt><wpt lat="42.09032200000001" lon="-86.41282400000002"><time>2007-12-22T13:17:22Z</time><name>BUS01_38</name><sym>waypoint</sym></wpt><wpt lat="44.28079" lon="-76.541933"><time>2007-12-22T13:17:22Z</time><name>KRUTH_37</name><sym>waypoint</sym></wpt><wpt lat="41.883734" lon="-87.62394800000001"><time>2007-12-22T13:17:22Z</time><name>MLBEAN_36</name><sym>waypoint</sym></wpt><wpt lat="44.25535386407203" lon="-76.45217493748127"><time>2007-12-22T13:17:22Z</time><name>KHELEN_35</name><sym>waypoint</sym></wpt><wpt lat="36.13697" lon="-115.16943"><time>2007-12-22T13:17:22Z</time><name>CIVWRK_34</name><sym>waypoint</sym></wpt><wpt lat="36.099895" lon="-115.172275"><time>2007-12-22T13:17:22Z</time><name>TROPIC_33</name><sym>waypoint</sym></wpt><wpt lat="38.57336010784663" lon="-109.5482411579021"><time>2007-12-22T13:17:22Z</time><name>MOAB_32</name><sym>waypoint</sym></wpt><wpt lat="38.74369689104104" lon="-109.4993154586855"><time>2007-12-22T13:17:22Z</time><name>DARCH_31</name><sym>waypoint</sym></wpt><wpt lat="33.66063" lon="-117.74349"><time>2007-12-22T13:17:22Z</time><name>Arrive at: Technology Dr W, Irvine, CA 92618_30</name><sym>waypoint</sym></wpt><wpt lat="33.65537" lon="-117.73956"><time>2007-12-22T13:17:22Z</time><name>Turn left at Technology Dr W_29</name><sym>waypoint</sym></wpt><wpt lat="33.65555" lon="-117.74483"><time>2007-12-22T13:17:22Z</time><name>Turn right at Alton Pkwy_28</name><sym>waypoint</sym></wpt><wpt lat="33.65475" lon="-117.74456"><time>2007-12-22T13:17:22Z</time><name>Merge onto Enterprise_27</name><sym>waypoint</sym></wpt><wpt lat="33.65615" lon="-117.74444"><time>2007-12-22T13:17:22Z</time><name>Take exit 94 toward Alton Pkwy_26</name><sym>waypoint</sym></wpt><wpt lat="33.6724" lon="-117.75372"><time>2007-12-22T13:17:22Z</time><name>Take exit 10A to merge onto I-5 S toward San Diego_25</name><sym>waypoint</sym></wpt><wpt lat="33.72033" lon="-117.72032"><time>2007-12-22T13:17:22Z</time><name>Take the exit onto CA-133 S toward I-5  Toll road_24</name><sym>waypoint</sym></wpt><wpt lat="33.87081" lon="-117.70334"><time>2007-12-22T13:17:22Z</time><name>Take the exit onto CA-241 S toward Irvine  Partial toll road_23</name><sym>waypoint</sym></wpt><wpt lat="33.88667" lon="-117.55114"><time>2007-12-22T13:17:22Z</time><name>Take the exit onto CA-91 W toward Beach Cities_22</name><sym>waypoint</sym></wpt><wpt lat="34.22812" lon="-117.4141"><time>2007-12-22T13:17:22Z</time><name>Take the exit onto I-15 S toward Los Angeles/San Diego_21</name><sym>waypoint</sym></wpt><wpt lat="38.57987" lon="-112.59873"><time>2007-12-22T13:17:22Z</time><name>Take the exit onto I-15 S toward Las Vegas  Passing through Arizona, Nevada Entering California_20</name><sym>waypoint</sym></wpt><wpt lat="39.78708" lon="-105.07733"><time>2007-12-22T13:17:22Z</time><name>Merge onto I-70 W  Entering Utah_19</name><sym>waypoint</sym></wpt><wpt lat="41.02937" lon="-102.15059"><time>2007-12-22T13:17:22Z</time><name>Slight left at I-76 S (signs for Denver/I-76)   Entering Colorado_18</name><sym>waypoint</sym></wpt><wpt lat="41.597" lon="-93.77724000000002"><time>2007-12-22T13:17:22Z</time><name>Take the exit onto I-80 W toward Council Bluffs/Omaha  Entering Nebraska_17</name><sym>waypoint</sym></wpt><wpt lat="41.59652" lon="-90.67570000000001"><time>2007-12-22T13:17:22Z</time><name>Take the exit onto I-80 W/US-6 W toward Des Moines  Continue to follow I-80 W_16</name><sym>waypoint</sym></wpt><wpt lat="41.44051" lon="-90.33059"><time>2007-12-22T13:17:22Z</time><name>Continue on I-280 W  Entering Iowa_15</name><sym>waypoint</sym></wpt><wpt lat="41.5778" lon="-87.57308000000002"><time>2007-12-22T13:17:22Z</time><name>Continue on I-294 N/I-80 W (signs for Tollway/I-80 W/Wisconsin/I-294 N/Iowa)   Continue to follow I-80 W Partial toll road_14</name><sym>waypoint</sym></wpt><wpt lat="42.30443" lon="-84.99576999999999"><time>2007-12-22T13:17:22Z</time><name>Take exit 38 to merge onto I-94 W toward Chicago  Passing through Indiana Entering Illinois_13</name><sym>waypoint</sym></wpt><wpt lat="42.69374" lon="-84.66892"><time>2007-12-22T13:17:22Z</time><name>Take exit 97 to merge onto I-69 S toward Ft Wayne_12</name><sym>waypoint</sym></wpt><wpt lat="42.97929" lon="-82.47579"><time>2007-12-22T13:17:22Z</time><name>Take the exit onto I-69 W toward Flint_11</name><sym>waypoint</sym></wpt><wpt lat="42.99876" lon="-82.42338"><time>2007-12-22T13:17:22Z</time><name>Continue straight onto I-69 W/I-94 W  Partial toll road_10</name><sym>waypoint</sym></wpt><wpt lat="42.90778000000001" lon="-81.22999"><time>2007-12-22T13:17:22Z</time><name>Take the exit onto HWY-402 W toward Sarnia  Partial toll road Entering United States (Michigan)_9</name><sym>waypoint</sym></wpt><wpt lat="44.76648" lon="-75.49945"><time>2007-12-22T13:17:22Z</time><name>Take the exit onto HWY-401 W/MacDonald-Cartier Fwy toward Kingston  Continue to follow MacDonald-Cartier Fwy_8</name><sym>waypoint</sym></wpt><wpt lat="45.33847000000001" lon="-75.81471000000002"><time>2007-12-22T13:17:22Z</time><name>Merge onto HWY-416 S_7</name><sym>waypoint</sym></wpt><wpt lat="45.34504" lon="-75.81048"><time>2007-12-22T13:17:22Z</time><name>Take the HWY-416 S/RTE-416 Sud exit on the left toward HWY-401/RTE-401_6</name><sym>waypoint</sym></wpt><wpt lat="45.42201000000001" lon="-75.62560000000001"><time>2007-12-22T13:17:22Z</time><name>Merge onto HWY-417 W/Trans Canada Hwy W_5</name><sym>waypoint</sym></wpt><wpt lat="45.49529" lon="-75.48220000000001"><time>2007-12-22T13:17:22Z</time><name>Turn left at HWY-17 W/RR-174 W_4</name><sym>waypoint</sym></wpt><wpt lat="45.47570000000001" lon="-75.46169"><time>2007-12-22T13:17:22Z</time><name>Turn left at Chemin Trim/Trim Rd_3</name><sym>waypoint</sym></wpt><wpt lat="45.47512" lon="-75.46250000000001"><time>2007-12-22T13:17:22Z</time><name>Turn left at Demeter St/Rue Demeter_2</name><sym>waypoint</sym></wpt><wpt lat="45.47652" lon="-75.46478000000001"><time>2007-12-22T13:17:22Z</time><name>Continue on Ludlowe_1</name><sym>waypoint</sym></wpt><wpt lat="45.47637000000001" lon="-75.46680000000002"><time>2007-12-22T13:17:22Z</time><name>Head northeast on Topham toward Frenette St_0</name><sym>waypoint</sym></wpt><rte><rtept lat="36.351" lon="-114.90607"><time>2007-12-22T13:17:22Z</time><name>Route_0</name></rtept><rtept lat="33.66063" lon="-117.74349"><time>2007-12-22T13:17:22Z</time><name>Route_893</name></rtept><rtept lat="38.57875" lon="-112.32571"><time>2007-12-22T13:17:22Z</time><name>Route_0</name></rtept><rtept lat="36.351" lon="-114.90607"><time>2007-12-22T13:17:22Z</time><name>Route_1000</name></rtept><rtept lat="38.9848" lon="-110.16478"><time>2007-12-22T13:17:22Z</time><name>Route_0</name></rtept><rtept lat="38.57875" lon="-112.32571"><time>2007-12-22T13:17:22Z</time><name>Route_1000</name></rtept><rtept lat="39.56112000000001" lon="-107.35666"><time>2007-12-22T13:17:22Z</time><name>Route_0</name></rtept><rtept lat="38.9848" lon="-110.16478"><time>2007-12-22T13:17:22Z</time><name>Route_1000</name></rtept><rtept lat="39.67667" lon="-105.95531"><time>2007-12-22T13:17:22Z</time><name>Route_0</name></rtept><rtept lat="39.56112000000001" lon="-107.35666"><time>2007-12-22T13:17:22Z</time><name>Route_1000</name></rtept><rtept lat="41.11931" lon="-101.25523"><time>2007-12-22T13:17:22Z</time><name>Route_0</name></rtept><rtept lat="39.67667" lon="-105.95531"><time>2007-12-22T13:17:22Z</time><name>Route_1000</name></rtept><rtept lat="41.51666" lon="-94.19216000000002"><time>2007-12-22T13:17:22Z</time><name>Route_0</name></rtept><rtept lat="41.11931" lon="-101.25523"><time>2007-12-22T13:17:22Z</time><name>Route_1000</name></rtept><rtept lat="41.57936" lon="-87.60338"><time>2007-12-22T13:17:22Z</time><name>Route_0</name></rtept><rtept lat="41.51666" lon="-94.19216000000002"><time>2007-12-22T13:17:22Z</time><name>Route_1000</name></rtept><rtept lat="43.01639" lon="-83.56943"><time>2007-12-22T13:17:22Z</time><name>Route_0</name></rtept><rtept lat="41.57936" lon="-87.60338"><time>2007-12-22T13:17:22Z</time><name>Route_1000</name></rtept><rtept lat="43.84993" lon="-79.03679"><time>2007-12-22T13:17:22Z</time><name>Route_0</name></rtept><rtept lat="43.01639" lon="-83.56943"><time>2007-12-22T13:17:22Z</time><name>Route_1000</name></rtept><rtept lat="45.47637000000001" lon="-75.46680000000002"><time>2007-12-22T13:17:22Z</time><name>Route_0</name></rtept><rtept lat="43.84993" lon="-79.03679"><time>2007-12-22T13:17:22Z</time><name>Route_999</name></rtept></rte></gpx>'
 
@@ -416,7 +416,7 @@ NB.   gpx=. 10 gpxfrpoicsv 'c:\pd\coords\poicsv\ca_park_m.csv'
 0 gpxfrpoicsv y NB. format all waypoints default
 :
 NB. read csv file
-csv=. parsecsv read y
+csv=. parsecsv tlf read y
 
 if. 0<x do. csv=. (x<.#csv) {. csv end.
 
@@ -1057,7 +1057,7 @@ showpass 0 8 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:dec85__MK__JODobj 0 : 0
-0f^@3+>P&o1a"M23Ar!73$9q02`P8hBl%<eB5i*<FD5Q4:-pQ_@WcC$A7&tgG]e+BCi^_@/M/)S
+0f^@3+>P&o1a"M23Ahp63$9q02`P8hBl%<eB5i*<FD5Q4:-pQ_@WcC$A7&tgG]e+BCi^_@/M/)S
 F_PZ&+=LlAG]e+BCi_$J@;]TuA8-+,EbT!*FCd'6$;No?%15is/g+YEART[lA3(hg0JYCuF`&on
 %15is/g+Y;@;]^hF#kEq/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
 /M/P+/M/P+%13OO@rGjn@<6K4FDYu5De!-?5s\t&Bl%<?3B:G03Zoe95s\t&Bl%<?3B8H0>9IEo
@@ -1081,30 +1081,30 @@ B4Z0-BPDO0DfU+GA8bt#D.RU,%15is/g)QUBleB5A1T*8D.G"C4ZX][5snOG?X[\fA7$HiBle59
 .6T:+B5i*<FD5Q4?YEkhBOkOnAT`$0+:SZk@<6*F/g,4K@59\u+ED%%A0>JuCh4%_.!&m=DCd/B
 BOPsqA79RkF`M:G.6T^7-tm%1BKIVaF*(i-E$-MU.4chh9iNJh+=Jod0e%Mn+tdqHEc*EU?YEkh
 BOkOnAT`$0-Qij*4tq>*D/a<0@j#`5F<GX7Ec*EU?YEkhBOkOnAT`$0-OgCl$7I\Q3Zp+*+D,>(
-AISu\AhG3<AU%p1FC/ci+E)CE4Y@j)@lc8XDe(M9@:O(o05"j7FCAfpARmH,E-QMIBl%iCBkh]:
+AISu\AhG3<AU%p1FC/ci+E)CE4Y@j)@lc8XDe(M9@:O(o05"j7FCAfpARmGA/9><ADCd.fBkh]:
 +<Y35/g(T1+<W(QART*lGpsk[EbTW,+EM47GApu3F!,CDF:AR"+=M8A@:UL+.3NhTBlmo/F(fK9
-E+*g/+=CY[05>E905=p*CNF/t@r$-=C11UfF(eulCND.AE-QMHFD5Q4/no'A-OgDoDIb@B%14Nn
-$4R>PDe!p1Eb0-1+EVI>Ci<fj5s[eGF_PZ&3B9*,%159QHZ*F;I4cX<:dn,I8OFV)+>Y-YA0<6I
-%13OO@rGk"EcP`/F<Dr?@<6!-%16T`ATD4#AKX*WD/a<0@p_Mf6"4tNCh,Od3F<4&@WcC$A7&tg
-G]e+BCi`roDduO//h1=QBl%<eB5i*<FD5Q4?Y"(b+EK+d+C]J-Ch+YsDIal#BleB:Bju4,AKYW)
-G]e+BCi^^q6q/;0De!p,ASuTB%13OOEb065Bl[c--YI".ATD3q05>E9-OgE'AT;j,Eb-@@C2[X!
-Blmp,@<?'.%13OO@rGjn@<6K4FDYu5De!-?5s\t&Bl%=!A7dh^3F=p1+=BH@6"4tNCh.KqAiVk3
--QlV9@rGq!@<6!&4=<E\6"4tNCh.KqAiVk3-OgDmDeX*1ATDl8-Y[=6A0>;qDe*ZuFCfK$FCcg/
-$4R>+0RHSl78?6B6TmIQA8,Qs0F\@Q0RI_K+?MV3B5ho7F`_>6F!i)7+>Y-YA0<6I+<V+#%159Q
-HZX+DCi<f+B4Z0-4$"a1BQ&*6@<6K4A7BP$DffP5C3=T>A9)j4@<?0*FE;8,F(c\:ART*s%13OO
-:ddcJ5tsd23Zoe_E-QMIBl%i<%13OO4tq=28oJB\+@Ih)6=FY@E[MuNATV[*A8Gt%ATD4$AKW?J
-%159QHY-u.ATL!qB6%s-BlkIo6q0p;9goKu%16onG]7)5BK\C!FE;8,F(c\2F`VY8EcuD1FD)dY
-0mdMHCh7Ys$4R>;67sBjCh7$q+CT/5+E)(,+AbHq%14g4>9INhEaa$#+EM47GApu3F!,F4AnGan
-AN`'sCijo@@<?06:ddcJ5tsd!-SB@KAg\#p%15is/g+YBD/a3*AKXZT<+T/S/Kek<F*&O:Bl%?'
-BlbCH/n/72%14g4>9J!#ASc0*A7BP$DffP54*s##Bl%@%%13OO:-pQUA8-+,EbT!*FCcS)DfBE%
-Et&I)1E\_$0I\,`A7fFfCh4%_BkAt?0g0,[G\M5@?YWpjGp$X9/e&.1+E1k'4Y@jtART*lGmt*'
-+DGF?+A#%(8PUBNA8a(C%144#+<YW6Afu;<Blmo/F(fK9E+*g/+=CY[05>E905=p*CND.AAT)[!
-B4kdd0./;I6q0p;9gpT\/oY?5-Qij*+<VdLE+EQ'GB.D>AKZ&-Dg-//F)rHO@lc8XDe(M9@:O(o
-BOPCdF"_9:@r$.!@:O(o0./;I6q0p;9gpT\/oY?5-OgD*+D#G$/e&.1+AP6U+DGF?+A#%&:.\P1
-A8a(CE+EQ'GB.D>AKZ&-Dg-//F)rHO03*()EcWmKDeO#t@;BFp0./;I6q0p;9gpT\/oY?5-Qlu<
-A1e;uASu$2%14Nn$4R>PDe!p1Eb0-1+EVI>Ci<fj5s[eGF_PZ&E+EQ@3B:FU$9g.jDe'u=/g*qd
-78?6B6QfSU1E^UH+=ANG$4R>PDe!p1Eb0-1+=CW,F(H^.$=e!cEaa$#+?Xa_E,9H&?U6tD@WcC$
-A8l'k3B9*,                                                                ~>
+E+*g/+=CY[05>E905=p*CNF/t@r$-=C11UfF(eulCND-V/9><ADCd.fBkh]:%16ZaA1eu6$7QDk
+%16T`@s)g4ASuT4FDYu5De!-?5s\t&Bl%<?3B:FU$9g.jDe'u=/g*qd78?6B6QfSU1E^UH+=ANG
+$4R>PDe!p1Eb0-1+=CW,F(H^.$=e!cEaa$#+?Xa_E,9H&?U6tD@WcC$A2uY1?O[?OF_PZ&?Y=>&
+F`_>6F'iHr@no?C.UmO7Ch-mcE-QMIBl%itA8bs#F"Jsd@WcC$A0>;uA0>DsF*)G:@Wcd(+D5Y<
+F`_>6F!+:I7Nc5[@s)X"DKIK?$4R>_AT;j,Eb-@@B4YslEa`c;C2[W1%17,eEHPu9AKW@8De*Zu
+FCfK$FCcg/$4R>PDe!TlF)rIGD/a<0@p_Mf6"4tNCh.KqAiVk3?TgFm-UC$a@WcC$A8l'k3B9)I
++BosuDe3rtF(HIV-UC$a@WcC$A8l'k3B9)I%16T`Bl8!'Ec`EOBkhQs+CT#'A8Gt%ATD4$AL@oo
+%159QHV[I,:..Z@4ZX]rBk/>?%159QHZ*F;4$"a%E-!.EFD5Q4-QlV91E^UH+=ANZ+:SYe$9g.j
+FDYu5Ddso&ATT%V3[\u^Dg-//F)rI7@W?O/FCcS0F`VY8EcuD1FD)e=F)59+BHV>,@:U_p$4R>=
+6q0p;9gq3++=Cf@G]e+BCi^s5$4R>+0RG0>DeO#26nTTK@;BFp-QmJAFD>`)Ch\!&Eaa'$+=ANG
+$9g.jAnc'mF$2QsEc>i/F<FCJ7SZ6D71BS5$>ag/E+*j%4ZX^-F)59+BHV&4F*(r5G&Ul3BHTAk
+HY-u.ATJ:f%15is/g+Y?ARTU%@;^?5Derr,:ddb^$8EZ-+D,2*@<6!&F(fK9E+*g/+E1k'Anc'm
+4ZX^%FEhb5FD*4%6q0p;9gpT\/oY?5-OgCl$;No?+Cf>,E+s-"+A?3CAQU',+DbJ-F<G10Ch4`'
+F!)qb@UX?f$8EZ-+EM4-Cht5)@W?O/FCcRVHTGbQCh7Ys$4R>;67sBkBleB:Bju4,AKYK$E+rm)
+%14L>+?CW!.3NS?AnGanAISu\AhG2\4_A8MBleB'C0r*/+CoCC%144#E+EQD/g,1G@:UL+%144#
+BkAt?8OccQ:*:ZiD_<.A$6UH6+E1k'+Eqj?FCcS9BQ&*6@<6K4-Y#1jC2[W9C11UfF"_0;DffE#
+B4YU,-S/(^7SZ6D74]f=E+EQ.+:SZ#+<VeGA7cs.EbTW,+EM47GApu3F!)i?3\P5dA1q\+@r$.!
+@:O(o05=p*CNF/t@r$-=-S/(^7SZ6D74]f=E+EQ.%144#ASu$2%144#:-pQUBkAt?8Oc]T8Q[*G
+D_</OA7cs.EbTW,+EM47GApu3F!)h`<HD_lF"_9HBPq9fCLqN>-S/(^7SZ6D74]f=E+EQ.+D#G$
+/e&/!DIb@/$7QDk%16T`@s)g4ASuT4FDYu5De!-?5s\t&Bl%=!A7dh^3F<4&4tq>%A0?:Q+AYg&
+:..Z@+BosE+E(d5-RT?1%16T`@s)g4ASuT4-XpM*AL@oo@rGq!@<6!&4EPFZCi<fj5s[eGF_PZ&
+E+EQ@3B:F                                                                 ~>
 )
 showpass 1 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
@@ -1123,7 +1123,7 @@ zz=:dec85__MK__JODobj 0 : 0
 2`2^;+>Y,p1E\Fq2)R-30f1".+>ku7+>Gbs1*AS53$:+%1*AG01E\D,+>P&r1H6L8+>P&o1,h!3
 1,'h++>G]32]sh2+>P&r2E+H.;cI+:E-QMIBl%iG0ht%f:et"h?Y=>&F`_>6F!,F?F*&ODEc5H!
 F)u8?/g(T1%17/nDfp/@F`\`t7R9C14ZX]60H`D!0I[G<:-pQU-tdLDF`_>6F"&5GDKKH1Amo1\
-+EqaEA12LJ3Zp131,:OB1GNW!2`!?L3!rDI/g)_t/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/O`
++EqaEA12LJ3Zp131,:OD0fEc$1bgpF2@<2G/g)_t/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/O`
 $;No?+CT)&Eb/`lDKI!D+<XEG/g+S=C`mb0@qBP"+DG\$B4Z-,Ao_g,+DbJ-F<Gd9H#R\9DKI"6
 ASu("@<?4%D@HqJ67sBjF*;/9GAqXH+<VdL:-pQUE,TG56W7#.FCf]=+D,Y4D'4%2H#R\9DKI"C
 AU&;>Anc'm%15is/g+eGG\1u5@;p"!C`jiq67sBnE-NL;Ec5e;7rN<YCh4`+@;p91CMdks$;No?
@@ -1428,25 +1428,25 @@ H#R\9DKKr,8P2f,.4cl01*AG5,Vh&.3AE9D3%d'G2)d<I1c%*L+>PW*1b^X<3%d-D1,(C;0JbXD
 0f1R=0K:[D0JY=91,(LC1E\G,0f^sD0ek:;1bg^A0Jb^G2]sk00f1R=0K:[D0JY=91,(LC1E\G,
 0fUjE0JkC>0f1^F2DHsA3$9t10f1R=0K:[D0JY=91,(LC1E\G,0fUjE0JkC=1GLXE1Gq'H1a"P-
 0f1R=0K:[D0JY=91,(LC1E\G,1,:OA0fUdE2`!3K2E3EK2]sk00f1R=0K:[D0JY=91,(LC1E\G,
-0f1R=0K:[D0JY=91,(LC1E\G,0fUjE0JkC>0fM'M0K1^G0d&5*1,:OB1GLL@1Ggd?0JkaJ3$9t1
+0f1R=0K:[D0JY=91,(LC1E\G,0fUjE0JkC>0fM'M0K1^G0d&5*1,:OD0fCXA3AiZO2`!EM1*A>+
 1,:OB1GLL>3&!-H2*!EM+>PW*1b^X<3%d-D1,(C;0ek[E+>PW*1b^X<3%d-D1,(C;0ek[E+>PW+
 1,(XC0eP:@2_m<P1c[6E+>PW*1b^X<3%d-D1,(C;0ek[E+>PW*1b^X<3%d-D1,(C;0ek[E+>PW+
 0JG481G1RC3AiQO3AN?G+>PW+1,(XC0ePC?3&icN0fV'J+>PW+1,(XC0eP:C1c@$E3A<BP+>PW+
-1,(XC0ePC?0JkdK1,LmK+>PW+1,(XC0eP=B2`E]U1b^X@+>PW*1b^X<3%d-D1,(C;0ek[E+>PW*
-1b^X<3%d-D1,(C;0ek[E+>PW+1,(XC0ePC@1b^X<3&EKL+>PW+1,(U@3%d!G2`*KJ2DR0F+>PW*
+1,(^C2D-jI1b^jB0ekL?+>PW+1,(XC0eP=B2`E]U1b^X@+>PW*1b^X<3%d-D1,(C;0ek[E+>PW*
+1b^X<3%d-D1,(C;0ek[E+>PW+1,(^C2D-jI2)R6M2)RBM+>PW+1,(U@3%d!G2`*KJ2DR0F+>PW*
 1b^X<3%d-D1,(C;0ek[E+>PW*3&!3D1bLU@2)I*L1c70I+>PW*3&!3D1bLXB2`!?L2DR*H+>PW*
 1b^X<3%d-D1,(C;0ek[E+>PW*1b^X<3%d-D1,(C;0ek[E+>PW*1b^X<3%d-D1,(C;0JbXD+>PW*
 1b^X<3%d-D1,(C;0ek[E+>PW*1b^X<3%d-D1,(C;0ek[E+>PW*1b^X<3%d-D1,(C;0ek[E+>PW*
 1b^X<3%d-D1,(C;0ek[E+>PW*1b^X<3%d-D1,(C;0ek[E+>PW*1b^X<3%d-D1,(C;0ek[E+>PW*
 1b^X<3%d-D1,(C;0ek[E+>PW*1b^X<3%d-D1,(C;0JbXD+>PW*3AE9D0eP:>0fUsG2`*?G+>PW*
 1b^X<3%d-D1,(C;0ek[E.4cl01*A=t1,(I=0K(XF/i5:?0fCjE0K(m51,(I=0K(XF/i5@E1H%*H
-2_m*11,(I=0K1aI/i5C@0f1gK1Ggp21,(I=0K1aI/i5@E2_[*F0etO6/1<V9+>Y8u0JPRB1,(^@
+2_m*11,(I=0K1dB/iPXC0K1gI2E!Q<1,(I=0K1aI/i5@E2_[*F0etO6/1<V9+>Y8u0JPRB1,(^@
 2*!?H2D?pB1cQU50JPO@2)$j>2)70M1cI3M1H6L40JPC<0ebR>2_[!@0JYF>2`W!90JYC;2DI0D
 2)[3E3A<?N0fL410JPO@2)$j>2)@0O2)[BJ1c?I30JPC<0ebR>2_[!@0JYF>2`W<<-p01/0I\P$
 4>J$=,Vh&.3AE9D0eP:B1H.$I2`EWS+>PW*1b^X<3%d-D1,(C;1,:XD+>PW+1,(XB3A*-C3&<HL
 1GC[/1,(F>0JP7@/iPI>0JG7;1,Cg21,(I=0K1aI/i5:?1c@?S1b^m31,(FB0JtO@/i>RA2D@*J
-0K1s61,(F>0JP7@/iPI>0JG7;1,Cg21,(F>0JP7@/iPI>0JG7;1,Cg21,(I=0K1dB/iPRC0JP7<
-3&`f>1,(I;0JkLE/i,CD0K(gG1G^m21,(I=0K1aI/i5:B1H%'G0Jst.0JPC<0ebR>2_[!@0JYC=
+0K1s61,(F>0JP7@/iPI>0JG7;1,Cg21,(F>0JP7@/iPI>0JG7;1,Cg21,(I=0KCjG/i>XH2)R<K
+3&EB51,(I;0JkLE/i,CD0K(gG1G^m21,(I=0K1aI/i5:B1H%'G0Jst.0JPC<0ebR>2_[!@0JYC=
 1H$@20JYC;2`!0@1b^^G1H76P3&r*:0JPO@2)$j>2)d3I0K:pD2`Mp80JPC<0ebR>2_[!@0JYC=
 1H$@20JPC<0ebR>2_[!@0JYC=1H$[5-p014/1<V7.4cl00I\P$4>8384>6                ~>
 )
