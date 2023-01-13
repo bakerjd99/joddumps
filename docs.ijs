@@ -1,11 +1,11 @@
-NB. JOD dictionary dump: 13 Jan 2023 12:37:24
-NB. Generated with JOD version; 1.0.22; 32; 11 Dec 2021 15:48:27
-NB. J version: j903/j64avx2/windows/release-a/commercial/www.jsoftware.com/2021-12-16T15:15:09/clang-13-0-0/SLEEF=1
+NB. JOD dictionary dump: 13 Jan 2023 14:22:08
+NB. Generated with JOD version; 1.0.23 - dev; 5; 11 Jan 2022 11:18:29
+NB. J version: j903/j64avx2/darwin/release-a/commercial/www.jsoftware.com/2021-12-16T15:26:50/clang-13-0-0/SLEEF=1
 NB.
 NB. Names & DidNums on current path
-NB. +----+---------------------------------------+
-NB. |docs|108522933429073415324451863207514184278|
-NB. +----+---------------------------------------+
+NB. +----+--------------------------------------+
+NB. |docs|18115879153512751918507517014623038947|
+NB. +----+--------------------------------------+
 
 9!:41 [ 1 NB.{*JOD*}
 cocurrent 'base' NB.{*JOD*}
@@ -230,7 +230,7 @@ cocurrent SO__JODobj NB.{*JOD*}
 
 SourcePageTeXPts=:426.392560000000003 607.067549999999983
 
-StdDocFiles_hashdateurl=:<;._1 '|a6832c5e3715bed47be43c1f556b9b6f38ed9fe488293b6f7f4a39de8190595f|13 Jan 2023 11:34:56|'
+StdDocFiles_hashdateurl=:<;._1 '|e11f9e634882470fe99abacf93a5334b766c962ffbc4122490d1e29da10e2abe|13 Jan 2023 14:21:11|'
 
 TEMPTEXFILE=:'temp.tex'
 
@@ -264,7 +264,7 @@ VMDBlogYearWords=:'0.5.0';01;'09 Jan 2023 11:07:28'
 
 VMDExtfrPtex=:'0.0.0';8;'05 Jan 2023 15:16:48'
 
-VMDStdDocFiles=:'0.3.0';4;'13 Jan 2023 11:34:56'
+VMDStdDocFiles=:'0.3.0';9;'13 Jan 2023 14:21:11'
 
 VMDipynb=:'0.8.0';11;'17 Aug 2022 12:05:28'
 
@@ -2016,6 +2016,12 @@ if. IFWIN do.
   smoutput stddocnames 'c:\lean\lectures\'
   smoutput stddocnames 'c:\lean\geometry\'
 elseif. IFUNIX do.
+  smoutput stddocnames '/Users/johnbaker/lean/books/' 
+  smoutput stddocnames '/Users/johnbaker/lean/articles/'
+  smoutput stddocnames '/Users/johnbaker/lean/guides/'
+  smoutput stddocnames '/Users/johnbaker/lean/ppoints/'
+  smoutput stddocnames '/Users/johnbaker/lean/lectures/'
+  smoutput stddocnames '/Users/johnbaker/lean/geometry/'
 elseif.do. 'os not supported'
 end.
 )
@@ -2464,9 +2470,12 @@ NB.   stddocnames pb
 NB.   stddocnames pa
 
 NB. j profile !(*)=. dir IFWIN IFUNIX
-pt=. winpathsep@tslash y
+pt=. winpathsep@tslash2 y
 on=. justfileext@winpathsep&.> 1 dir pt
+
+NB. remove files that do not follow conventions
 on=. on -. sname=. ;IFWIN{'00srn.sh';'00srn.bat'
+on=. on -. <'.DS_Store'
 
 NB. check characters 
 if. 0 e. b=. on *./@e.&> <STDDOCALPHA do.
@@ -2494,12 +2503,14 @@ if. #nn=. b#nn [ on=. b#on do.
   if. IFWIN      do.
     bat=. 'rem ',(timestamp ''),LF
     bat=. toHOST bat,ctl >(<'rename ') ,&.> on ,&.> ' ' ,&.> nn
-    bat write pt,sname
+    bat write scn=. pt,sname
   elseif. IFUNIX do.
-    smoutput 'not implemented'
+    sh=. toHOST ctl >(<'mv ') ,&.> on ,&.> ' ' ,&.> nn
+    sh write scn=. jpathsep pt,sname
   else.
-    smoutput 'os not supported'
+    smoutput 'os not supported' return.
   end.
+  smoutput jpathsep scn
 else.
   smoutput 'no name changes: ',jpathsep pt
 end.
@@ -3707,7 +3718,7 @@ G%kN3F"&5GDKKH1Amo1\+EqaEA12LJ3XlEk:+dY@/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
 @<-F#F!*tkDe*m"@:XF%AU&04Ec`FGAU&;+$7QDk%16T`@s)g4ASuT4-XpM*AL@oo@rH(!F(KB6
 +<W%%Df90,ART+j;It#cATr2C%13OO:et"h?W2&W6uQR)Bl%@%1,2Nj/l5>B<*rRGA41?G7VQ[M
 F!,F?F*&ODEc5H!F)u8?/g(T1%17/nDfp/@F`\`t7R9C14ZX]60H`D!0I[G<:-pQU-rY4u6uQR)
-Bl%@%.3N>BFCfK)@:NjkGAhM4.!$gu+>PW+1GCO<1MSX!1GgsI$;No?+>#/s/M/P+/M/P+/M/P+
+Bl%@%.3N>BFCfK)@:NjkGAhM4.!$gu+>PW+1GCO<1MSX$1,1L<$;No?+>#/s/M/P+/M/P+/M/P+
 /M/P+/M/P+/M/P+/M/P+/I`%^67sBsARTItFC\p#@rib8:-pQUF(8Wr+DbUtDBNJ.@s)X"DKI"3
 Bl[cpFDl26ATJu+DfQt@DeF3(+DtV)ATJ:f:-pQUF*(r'De!ZnD.Rc2+AP6U+D58'ATD4$AKYD(
 Eb0,sD.Oi2@rc:&F<G16EZet.Ch7Z1Bl5&(Bl[cpFDl2F+=MLa%14Nn$4R>PDe!p1Eb0-1+=CW,
@@ -3939,44 +3950,44 @@ zz=:zz,'ear write''),(<<;._1 '' RescaleHilbertGraphics RescaleHilbertGraphics'
 zz=:zz,' SourcePageTeXPts TeXPtIn afterstr assert beforestr changestr graph'
 zz=:zz,'dims round''),(<<;._1 '' StdDocFiles DOCDASHPATS IFACEWORDSStdDocFile'
 zz=:zz,'s LF ROOTWORDSStdDocFiles STDDOCALPHA VMDStdDocFiles ctl jpathsep j'
-zz=:zz,'ustfileext leanstddocs rebu smoutput stddocnames timestamp toCRLF t'
-zz=:zz,'oHOST toJ tolower tslash winpathsep write''),(<<;._1 '' TeXfrWpxml BA'
-zz=:zz,'DDOWNEXT BEGINTITLE BESOURCEDELS BESOURCEPREDELS BlogHashes CR CRLF'
-zz=:zz,' EPUBAMBLE EPUBFILE EPUBFRWPDIR FILETITLELEN FixBaddown HTMLEXT HTM'
-zz=:zz,'LREPS IFACEWORDSTeXfrWpxml LATEXFIGURETEMPLATES LATEXFRAGMARK LF LS'
-zz=:zz,'TLISTINGEND LSTLISTINGHDR LatexFrWordpress MARKDOWNEXT MARKDOWNFILE'
-zz=:zz,' MDSECTIONPFX MainMarkdown MarkdownFrLatex PANDOCCMD ROOTWORDSTeXfr'
-zz=:zz,'Wpxml SOURCEBLOCKMARK SOURCEPREMARK SetTeXfrWpxmlPaths TEMPTEXFILE '
-zz=:zz,'TEXEXT TEXFRWPDIR TEXINCLUSIONS TEXPREAMBLE TEXROOTFILE TEXSECTIONT'
-zz=:zz,'ITLE TEXWRAPFIGURE TFWTEMPHTML WGETCMD afterlaststr afterstr allwhi'
-zz=:zz,'tetrim assert attrvalue beforelaststr beforestr blogimgs boxopen cd'
-zz=:zz,'atatext changestr charsub cleartemps countYearposts ctl cutincludeg'
-zz=:zz,'raphicsidx cutlatexidx cutnestidx cutpxtidx cutstridx fboxname fera'
-zz=:zz,'se fexist filenamesFrtid firstones fsize getNewgraphics htmlParagra'
-zz=:zz,'phs inputposts jpathsep justdrv justext justfile justpath lstFrsrcb'
-zz=:zz,' mdfootnotes pandoc postTitleDate postfiles postid posttex prunePta'
-zz=:zz,'ble ptableFrwpxml read rmLatexGraphics sha1 sha1dir showpass smoutp'
-zz=:zz,'ut sortonid sortonpublishdate sortposts texFrhtml tfwTitles timesta'
-zz=:zz,'mp tlf tlslash toCRLF toHOST toJ tolower uedposts utf8 winpathsep w'
-zz=:zz,'rite''),(<<;._1 '' Weeks BciDiaryStart BciWeek CLifeExpectancyDad CLi'
-zz=:zz,'feExpectancyMali CLifeExpectancyMe DadBirthDate DadDeathDate DudDia'
-zz=:zz,'ryStart DudWeek FctDiaryStart FctWeek IFACEWORDSWeeks MaliBirthDate'
-zz=:zz,' MaliDeathDate MeWeek MweccDiaryStart MweccWeek MyBirthDate MyDeath'
-zz=:zz,'Date MyWeeksLeft MyWeeksUntilME MyWeeksUntilSS ROOTWORDSWeeks Tropi'
-zz=:zz,'calYear WeekHeader WeekHeader2 lastmonday nextsunday timestamp toda'
-zz=:zz,'te today todayno tolower weekcount weekday weeknumber weeksbetween '
-zz=:zz,'weeksinyear''),(<<;._1 '' ipynb IFACEWORDSipynb JWORDMARK LF MDSECTIO'
-zz=:zz,'N NBHEADER NBJCELLBEGen NBJCELLBEGst NBJCELLEND NBTRAILER PYESCAPEC'
-zz=:zz,'HRS REVPYESCAPECHRS ROOTWORDSipynb VMDipynb beforelaststr changestr'
-zz=:zz,' dblquote ipynbfrjod tlf toJ write''),(<<;._1 '' ipynbhacks CELLSTART'
-zz=:zz,'ipynb CODEipynb IFACEWORDSipynbhacks LF LFipynb METAipynb PYESCAPEC'
-zz=:zz,'HRS ROOTWORDSipynbhacks SCRipynb afterstr alltrim assert beforelast'
-zz=:zz,'str beforestr changestr ctl jfripynb read timestamp tlf write''),(<<'
-zz=:zz,';._1 '' purgestg LF ctl justfile stgfrdng timestamp toCRLF toHOST to'
-zz=:zz,'J tolower tslash tstamp write''),<<;._1 '' todo CR IFACEWORDStodo LF '
-zz=:zz,'ROOTWORDStodo TAB afterstr assert b36fd b36guids beforestr ctl guid'
-zz=:zz,'s guidsx read rebrow rntodo tagtodo tlf todo write''                '
-zz=:5009{.zz
+zz=:zz,'ustfileext leanstddocs rebu showpass smoutput stddocnames timestamp'
+zz=:zz,' toCRLF toHOST toJ tolower tslash2 winpathsep write''),(<<;._1 '' TeX'
+zz=:zz,'frWpxml BADDOWNEXT BEGINTITLE BESOURCEDELS BESOURCEPREDELS BlogHash'
+zz=:zz,'es CR CRLF EPUBAMBLE EPUBFILE EPUBFRWPDIR FILETITLELEN FixBaddown H'
+zz=:zz,'TMLEXT HTMLREPS IFACEWORDSTeXfrWpxml LATEXFIGURETEMPLATES LATEXFRAG'
+zz=:zz,'MARK LF LSTLISTINGEND LSTLISTINGHDR LatexFrWordpress MARKDOWNEXT MA'
+zz=:zz,'RKDOWNFILE MDSECTIONPFX MainMarkdown MarkdownFrLatex PANDOCCMD ROOT'
+zz=:zz,'WORDSTeXfrWpxml SOURCEBLOCKMARK SOURCEPREMARK SetTeXfrWpxmlPaths TE'
+zz=:zz,'MPTEXFILE TEXEXT TEXFRWPDIR TEXINCLUSIONS TEXPREAMBLE TEXROOTFILE T'
+zz=:zz,'EXSECTIONTITLE TEXWRAPFIGURE TFWTEMPHTML WGETCMD afterlaststr after'
+zz=:zz,'str allwhitetrim assert attrvalue beforelaststr beforestr blogimgs '
+zz=:zz,'boxopen cdatatext changestr charsub cleartemps countYearposts ctl c'
+zz=:zz,'utincludegraphicsidx cutlatexidx cutnestidx cutpxtidx cutstridx fbo'
+zz=:zz,'xname ferase fexist filenamesFrtid firstones fsize getNewgraphics h'
+zz=:zz,'tmlParagraphs inputposts jpathsep justdrv justext justfile justpath'
+zz=:zz,' lstFrsrcb mdfootnotes pandoc postTitleDate postfiles postid postte'
+zz=:zz,'x prunePtable ptableFrwpxml read rmLatexGraphics sha1 sha1dir showp'
+zz=:zz,'ass smoutput sortonid sortonpublishdate sortposts texFrhtml tfwTitl'
+zz=:zz,'es timestamp tlf tlslash toCRLF toHOST toJ tolower uedposts utf8 wi'
+zz=:zz,'npathsep write''),(<<;._1 '' Weeks BciDiaryStart BciWeek CLifeExpecta'
+zz=:zz,'ncyDad CLifeExpectancyMali CLifeExpectancyMe DadBirthDate DadDeathD'
+zz=:zz,'ate DudDiaryStart DudWeek FctDiaryStart FctWeek IFACEWORDSWeeks Mal'
+zz=:zz,'iBirthDate MaliDeathDate MeWeek MweccDiaryStart MweccWeek MyBirthDa'
+zz=:zz,'te MyDeathDate MyWeeksLeft MyWeeksUntilME MyWeeksUntilSS ROOTWORDSW'
+zz=:zz,'eeks TropicalYear WeekHeader WeekHeader2 lastmonday nextsunday time'
+zz=:zz,'stamp todate today todayno tolower weekcount weekday weeknumber wee'
+zz=:zz,'ksbetween weeksinyear''),(<<;._1 '' ipynb IFACEWORDSipynb JWORDMARK L'
+zz=:zz,'F MDSECTION NBHEADER NBJCELLBEGen NBJCELLBEGst NBJCELLEND NBTRAILER'
+zz=:zz,' PYESCAPECHRS REVPYESCAPECHRS ROOTWORDSipynb VMDipynb beforelaststr'
+zz=:zz,' changestr dblquote ipynbfrjod tlf toJ write''),(<<;._1 '' ipynbhacks'
+zz=:zz,' CELLSTARTipynb CODEipynb IFACEWORDSipynbhacks LF LFipynb METAipynb'
+zz=:zz,' PYESCAPECHRS ROOTWORDSipynbhacks SCRipynb afterstr alltrim assert '
+zz=:zz,'beforelaststr beforestr changestr ctl jfripynb read timestamp tlf w'
+zz=:zz,'rite''),(<<;._1 '' purgestg LF ctl justfile stgfrdng timestamp toCRLF'
+zz=:zz,' toHOST toJ tolower tslash tstamp write''),<<;._1 '' todo CR IFACEWOR'
+zz=:zz,'DStodo LF ROOTWORDStodo TAB afterstr assert b36fd b36guids beforest'
+zz=:zz,'r ctl guids guidsx read rebrow rntodo tagtodo tlf todo write''      '
+zz=:5019{.zz
 showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
@@ -4526,12 +4537,12 @@ A8bt#D.RU,?Y4"gARB=`D.RcqFtd9?A0>i3C1VX3E-,Z9+E2@9BlJ?8@N]W1C3OVPFCf\E.4cl0
 2(gmD0JGLF2)I$11,(FA0JY@?/ibX?0KD$K1bg+.0JYC;2_['@2)R6L2`!BN1GU(.0JPL?1,1X=
 3AE3A3Ar`O0d&5*0fLdA0f:RD0eb:A2Dm<G+>PW*2_[!A2(gmD0JGLF2)I$11,(I>0JP:;/i>RG
 0JtaB1b^m31,(FA0KCpC/iGCD2*!EJ3&NT:1,(FA0JY@?/ibX?0KD$K1bg+.0JPL?1,1X=3AE3A
-3Ar`O0d&5*1,CU=0f(F=3&3?O3B&WP1*A>+0fLdA0f:RD0eb:A2Dm<G+>PW*2_[!A2(gmD0JGLF
+3Ar`O0d&5*1,CU=0f(F>3B/]M0ek[F0d&5*0fLdA0f:RD0eb:A2Dm<G+>PW*2_[!A2(gmD0JGLF
 2)I$11,(FA0JY@?/ibX?0KD$K1bg+.0JPL?1,1X=3AE3A3Ar`O0d&5*0fLdA0f:RD0eb:A2Dm<G
 +>PW*2_[!A2(gmD0JGLF2)I$11,(FA0JY@?/ibX?0KD$K1bg+.0JPL?1,1X=3AE3A3Ar`O0d&5*
 0fLdA0f:RD0eb:A2Dm<G+>PW*2_[!A2(gmD0JGLF2)I$11,(FA0JY@?/ibX?0KD$K1bg+.0JYC;
 2_m6C1bq$N3&ruV1c$700JPL?1,1X=3AE3A3Ar`O0d&5*0fLdA0f:RD0eb:A2Dm<G+>PW+1GCO;
-3A*-H1GppD1,:dI+>PW+1GCO;2(gdC2E!KL2D?sI+>PW+1GCO<1G1LD1,V'P2)@0N+>PW+1,([B
+3A*-H1GppD1,:dI+>PW+1GCO;2(gdC2E!KL2D?sI+>PW+1GCO<1G1OF3&!3E0f1mI+>PW+1,([B
 2_HsA1H7'E1G^mC+>PW+1GCO<1G1LA3&!0J0fM$L+>PW+0JGL@2(g^?1H@<P1H.9J+>PW*2_[!A
 2(gmD0JGLF2)I$11,(FA0JY@?/ibX?0KD$K1bg+.0JPL?1,1X=3AE3A3Ar`O0d&5*0fLdA0f:RD
 0eb:A2Dm<G+>PW*2_[!A2(gmD0JGLF2)I$11,(FA0JY@?/ibX?0KD$K1bg+.0JPL?1,1X=3AE3A
@@ -4546,51 +4557,51 @@ A8bt#D.RU,?Y4"gARB=`D.RcqFtd9?A0>i3C1VX3E-,Z9+E2@9BlJ?8@N]W1C3OVPFCf\E.4cl0
 3&3EM+>PW*2_[!A2(gmD0JGLF2)I$11,(FA0JY@?/ibX?0KD$K1bg+.0JPL?1,1X=3AE3A3Ar`O
 0d&5*0fLdA0f:RD0eb:A2Dm<G+>PW*2_[!A2(gmD0JGLF2)I$11,(I=0K:dG/i>==3&!-H3ANQ:
 1,(I=0K:dG/i57B1Ggj@2_mB91,(I=0K1aC/i5:A1c7-J1GLg21,(FA0JY@?/ibX?0KD$K1bg+.
-0JPL?1,1X=3AE3A3Ar`O0d&5*1,CU=0f(F=2E*HJ2_m'I+>PW*2_[!A2(gmD0JGLF2)I$11,(I;
-0KCmB/i>=;1bgpJ3&rl>1,(FA0JY@?/ibX?0KD$K1bg+.0JPL?1,1X=3AE3A3Ar`O0d&5*0fLdA
-0f:RD0eb:A2Dm<G+>PW*2_[!A2(gmD0JGLF2)I$11,(FA0JY@?/ibX?0KD$K1bg+.0JPL?1,1X=
-3AE3A3Ar`O0d&5*0fLdA0f:RD0eb:A2Dm<G+>PW*2_[!A2(gmD0JGLF2)I$11,(FA0JY@?/ibX?
-0KD$K1bg+.0JPL?1,1X=3AE3A3Ar`O0d&5*0fLdA0f:RD0eb:A2Dm<G+>PW+0JG7;2_Hp@1H.!A
-0f:XB+>PW*2_[6I3A*6N0JPCB0f:mE+>PW+0JP=:1G1OC2)-jB3&ioV+>PW+0ek@;2(ggB2)7*G
-0K(XC+>PW*2_[!A2(gmD0JGLF2DI3J+>PW*2_[!A2(gmD0JGLF2DI3J+>PW*2_[!A2(gmD0JGLF
-2DI3J+>PW*2_[!A2(gmD0JGLF2DI3J+>PW+1GCO<1G1L@2)R0L2DHm@+>PW*3&!6E3A*6I2_m-K
-0ek@=+>PW*3&!-E0J5==0f_0Q1c.$L+>PW*2_[!A2(gmD0JGLF2DI3J+>PW*2_[!A2(gmD0JGLF
-2DI3J+>PW*2_[!A2(gmD0JGLF2DI3J+>PW+0JG=<3%d-E2).*J3&`WN+>PW+1,(U@1G1LD1-%-F
-3&ro?1,(FA0JY@?/ibX?0KD$L0f_$41,(FA0JY@?/ibX?0KD$L0f_$41,(FA0JY@?/ibX?0KD$L
-0f_$41,(FA0JY@?/ibX?0KD$L0f_$=/1<V9+>GVs1,(FA0JY@?/iYjO0JkaH2`Mp80JYF<0ebU?
-1bh!F2`3<H0K(%/0JYF<0ebI;1b^pE2_d0M2DQC10JYF<0ekI:1c7'F0f^sG1cHO40JYC;0ekI:
-1bpd@3AiKF1G^./0JYC;0ekI:1c7!E2)[ER2)l^60JYC;2_m3B2)?pF2_m3F3?U(21,:OB1,LU@
-1c@-D2`N]U1E\G,1,:OA0f(F=2`*EN1c@?S1E\G,1,(CB0K1UA0JtgF2`WTL3?U(20fUjB1,ggE
-2`WiU2)I'J3$9t10fLdA0f:RC3B8cM3&NWS+>PW*2_[!A2(gmD0JGLF3&<QL+>PW+1GCO;3A*-G
-0f:aI1c70N+>PW+1GCO;2(g^?3A<BP2`!3D+>PW+1GCO<1G1LB0fLpD1H@H<1,(I=0JP:</i>UC
-3AE?J2)ud70JYC;0ekI:2)6pD2D@'K2_uR30JYC;3&*?E1c.3Q0KCsG1H-F30JYC;3&*?E2)$gE
-2`3KN3&;[40JYC;2DI!?1cI?M1bg[B2'=Y.1,(F;0JY7;2)@'L3&riV2'=Y.0fUjC1GCF@0JkOE
-1,q6J1E\G,0fLdA1,U[A0JYLG0JG172CU1*4>J$61aFh10fLdA0f:RC3B8cM3&``L2'=Y.1,CU=
-0K:[B3B/oW0fV$E3?U(20fLdA0f:RC3B8cM3&`fP3?U(21,CU=0JkC>1c%*H1,(C:2]sk00fLdH
-1GCF=3&rcO1,(F=+>PW*2_[!A2(gjK3A<9L3&30B+>PW*2_[!A2(gjK3A<9L3&NKN+>PW+1GCO<
-1+kRE1,:UD3&`QP+>PW+0JGLA1+kCD3AWZO1GU[C+>PW*2_[!A2(gjK3A<9L3AE<G+>PW+1,(XB
-1G1L>1,1L=0ekXF+>PW+1,(X@1bL[A3A<-I2Dm6M+>PW*3&!6E3A*6I0JP=@1H.9Q+>PW*3&!*C
-2_I$J0fLjC1H$sE+>PW*2_[!A2(gmD0JGLF3B/]N+>PW+1GCO;3A*-F0JGCC0f:pM+>PW*2_[!A
-2(gmD0JGLF3B8fR+>PW+1GCO;2(gaG2`N]L3&`fT+>PW*3&!0C1G1UH3&rcR2E3QR+>PW*2_[!A
-2(gmD0JGLG0JPC>+>PW*2_[!A2(gmD0JGLG0JYLA+>PW+1GCO<1G1LA3AiWL2`*NR+>PW+1,(XA
-3A*0D2E!<F3AiWP+>PW*3&!0C1G1UG1H7?M2DmEL+>PW+1,(XB1bLXC2`*?G2`*KQ+>PW+1,(XB
-0eP=D2`E`Q1,q6N+>PW*3&!6E3A*6I0JkXB0K1dF+>PW+0JG=<3%d-E2)I9H2_mBR.4cl00I/>$
-/1<V9+>P_u1,(I>0JP7=/i>RF0K(XG3AEK91,(I>0JP7>/i>=:2)@$C3AWH61,(FA0JY@?/iYjO
-0JkaI3&3941,(FA0JY@?/iYjO0JkaI3&3941,(I;0JY@:/i,II2DR0H2)HF20JY=91,1I81H%-L
-2)?sC2E;m80JYF<0ebU?1bq$L2)R*H0Jjn-0JYF<0ebF:2)dKQ2DI3M2_cF10JPO@1b^^<2`WiX
-1H.9N2_lL20JYF<0ekI:1bppK1GC[D2)ud70JPL?1,1X=3&ruQ1cRBQ1,C%.0JPL?1,1X=3&ruQ
-1cRBQ1,C%.0JYC;2_m3B2)6mD2E3BI2'=Y.1,:OB1,1C=3&W`V2)$^<1*A>+0fUjC0Jb=<2D[*H
-0ebRF2'=Y.1,(C;0eb493AN<J2)dHO+>PW+0JGLB0J54:0eb=@3&W`R+>PW*2_[!A2(gjK3A<9L
-2E3HJ+>PW+1,(XB1G1RG1c%!F1bq!K+>PW+1GCO<1G1LC3&*-E3A<?M+>PW+1GCO;2(gaF0f_3R
-2E*HI+>PW+1,(XB1G1RG0K:jB1,h3J+>PW*2_[!A2(gjK3A<9L2E3HJ+>PW+1GCO;2(gaF2)$pC
-3B8fR+>PW+1GCO;2D-j@0JtXB0f_$G+>PW*2_[!A2(gmD0JGLF3AN<31,(FA0JY@?/ibX?0KD$O
-1,0n,0JY=91,1I81H@?L2`<EN2)cX50JY=91,1I81H.!C3&WKG0K:110JYF<0ebU?1c@-I1,C[@
-2`Dj70JYF<0ebI;2D[6L2_m6N1H-F30JY=91bgsB2_m9J0K1[A2DQC10JYF<0ekI:1cR6J3B8rQ
-2`Mp80JYC;2_m6C1bq$N3&riU0fU:20JY=91bgsB2_m-G0f:^B1-$I40JYC;3&*?E2)$gG0JbL@
-2)-4/0JYC;2_m*?2)mKR3AiKE0JXb+0JYC;2DI!?1cR6N1GL[E2)QL30JY=91,1I81H@3F2`3NQ
-2'=Y.1,:OB0f^jC2)d9N3A<?G0d&5*0fLdA0f:RD0eb:A2E<NI+>PW+1GCO;2(gaF1H@3I0fCmE
-+>PW+1GCO<1G1LC3&*-E3A<?M+>PW+1GCO;2(gaF2)[<M1,Ua?+>PW+1,(XB1G1RG0K:jB1,h3J
-+>PW*2_[!A2(gmD0JGLF3AN<</1<V7.4cl00I\P$4>838-p014/3GT                    ~>
+0JPL?1,1X=3AE3A3Ar`O0d&5*1,CU=0f(F>3B&rP2)m?H0d&5*0fLdA0f:RD0eb:A2Dm<G+>PW+
+0JGLB0J54:0f1UD2`NfU+>PW*2_[!A2(gmD0JGLF2)I$11,(FA0JY@?/ibX?0KD$K1bg+.0JPL?
+1,1X=3AE3A3Ar`O0d&5*0fLdA0f:RD0eb:A2Dm<G+>PW*2_[!A2(gmD0JGLF2)I$11,(FA0JY@?
+/ibX?0KD$K1bg+.0JPL?1,1X=3AE3A3Ar`O0d&5*0fLdA0f:RD0eb:A2Dm<G+>PW*2_[!A2(gmD
+0JGLF2)I$11,(FA0JY@?/ibX?0KD$K1bg+.0JPL?1,1X=3AE3A3Ar`O0d&5*1,(C;1,ggB0JbXA
+0JPF=2'=Y.0fLdH1-$sG3A<0E2DI'J0d&5*1,(F<0Jb==2Dm3E1H7?S2BXb/1,1L;1,U[C0f:^F
+1,(U@2'=Y.0fLdA0f:RD0eb:A2E!9M1E\G,0fLdA0f:RD0eb:A2E!9M1E\G,0fLdA0f:RD0eb:A
+2E!9M1E\G,0fLdA0f:RD0eb:A2E!9M1E\G,1,CU=0f(F>3AiTJ3AWHL3$9t10fUjF0KCaE1cI0F
+3AE6B1a"P-0fUjC1GCF@0JPRH3A`QL3?U(20fLdA0f:RD0eb:A2E!9M1E\G,0fLdA0f:RD0eb:A
+2E!9M1E\G,0fLdA0f:RD0eb:A2E!9M1E\G,1,(C=0fUdE0f:[G1cREM2'=Y.1,:OA0f(F=3&3KM
+0fV0P+>PW*2_[!A2(gmD0JGLF2DI3J+>PW*2_[!A2(gmD0JGLF2DI3J+>PW*2_[!A2(gmD0JGLF
+2DI3J+>PW*2_[!A2(gmD0JGLF2DI3J.4cl01*A;,,Vh&.2_[!A2(gjK3A<9L2)dK;1,(I>0JP7A
+/i5:C0fLsE1b^g11,(I>0JP7=/i57B0fLgE3ArW81,(I>0JP:</i5FA1GLmE2)I671,(I=0JP:<
+/i5=<1-%3G0f(U.1,(I=0JP:</i5F?1c70N3&NZ<1,(I=0K1aD/i>F=2`EKK1-$I40JYC;2_m3B
+2)I3I0K1sL3AVd50JYC;2DI!?1cI6L2Dd<P3AVd50JY=93A<BE2)$mI1,h3J1cZ[60JPO@1,:d@
+2`E`V2Dm<H3&i$90JPL?1,1X=3&ruQ1cR?O3$9t10fLdA0f:RD0eb:A2E3KQ0d&5*1,CU=0KCaB
+2)-sE3A`TO3$9t11,CU=0JtI>0f^pH3B&`L0d&5*1,CU=0f(F=2DI-I0f(gM+>PW+1,(F;1G1OE
+0f^sF2)RB:1,(I=0JP:</i>C>1c@$H2`EN81,(I=0K:dG/i5CF3A<HM1G^s41,(I=0K:dG/i>==
+2E*KO2)mB71,(I=0K(XA/i5LG1c-p@2DlU40JY=:0eb@81c7'G3B0#V3Ahp70JPO@1G^^;3&!0E
+3&3HQ0f'q-0JPL?1,:^>2)$dC3A<-@0K(@2-p07-0f1.20JPL?1,1X=3&ruQ1cREP0Jst.0JYF<
+0ebR>2*!WS3AEKN0KC720JPL?1,1X=3&ruQ1cRER1-$I40JYF<0ebF:2)I*K1,:O;0fL410JPL?
+3AW?A2)mTP1bpa>1E\G,0fLdA0f:RC3B8cM3&iZI0d&5*0fLdA0f:RC3B8cM3&icO2]sk01,CU=
+0et@A2)6pB2`N`N3?U(21,(CB0et@<3B8lU1G^d@2BXb/0fLdA0f:RC3B8cM3&r]L1E\G,1,:OB
+1,CO>1,:R=1,1LC2'=Y.1,:OB0JkC?1-%$B3Ar`M3?U(20fUjF0KCaE1b^X>2D[9O3$9t10fUjB
+1,ggE2_d6H1,CgC1a"P-0fLdA0f:RD0eb:A2E<`N2BXb/1,CU=0KCaB1b^UA2DI'K3$9t10fLdA
+0f:RD0eb:A2E<cP3$9t11,CU=0JtI?3&`fT0K;!N2BXb/0fUjD0Jb=?3B0#T2`<WQ3$9t10fLdA
+0f:RD0eb:A2_ZsC1*A>+0fLdA0f:RD0eb:A2_[!E1E\G,1,CU=0f(F>3&WHK0JbOF3?U(21,:OB
+0f^jD0fCpF0f_*J2]sk00fUjD0Jb=?3&<NR1H%*L1E\G,1,:OB1,LU@2)d?K0fLpK2]sk01,:OB
+1,1C=3B&lW1GUpL2'=Y.0fUjF0KCaE1b^aD1,(XC2'=Y.1,(C=0fUdE0f:dI0K1aI3@QL-4>8$7
+.4cl01*A>.,Vh&/1GCO;2(gaF2)$pC3B8fR+>PW+1GCO;2D-j@0JtXB0f_$G+>PW*2_[!A2(gjK
+3A<9L2E3HJ+>PW*2_[!A2(gjK3A<9L2E3HJ+>PW+0JG7:0J5.@3ArWN1Gq!31,(I;0JY@:/i,CD
+2Dm9F1H%691,(I>0JP7A/i5=C2`3HI2D?s11,(I>0JP7</i>RI2E!9M2E*?51,(FB0JkI>/iPdM
+3AWTR2)d951,(I>0JP:</i5=@3AW?H2)RB:1,(FA0JY@?/iYjO0JkaI3&3941,(FA0JY@?/iYjO
+0JkaI3&3941,(I=0K1aD/i>C=2)[EJ1c6C20JYC;2_m*?2)mKR3AiKE0JXb+0JPO@1GCU;1c@-F
+2DHmF2DlU40JY=91,1I81H@3F2`3NQ2'=Y.1,(CB1,(=<0JP792`N]T2'=Y.0fLdA0f:RC3B8cM
+3&W`O1E\G,1,:OB1,CO@3A`NL1GgjG2]sk01,CU=0f(F=2`NNH1c[6J2]sk01,CU=0JtI?2_d<P
+3ArfQ0d&5*1,:OB1,CO@3A<EK0JYRI0d&5*0fLdA0f:RC3B8cM3&W`O1E\G,1,CU=0JtI?2`39I
+0f_6K3$9t11,CU=0K(O@0JG@?1GLmG1E\G,0fLdA0f:RD0eb:A2E<NI+>PW*2_[!A2(gmD0JGLF
+3AN<31,(I;0JY@:/i,LG1H.3I3&NW;1,(I;0JY@:/i,F?1,q0H0ebR01,(I>0JP7A/i5IB2)6sC
+1,h-71,(I>0JP7=/iGLD2E*BK3AWT:1,(I;0JkLD/iPOD1b^jB1H%!21,(I>0JP:</i>XK0JtR>
+1bh!51,(I=0K1aE/i5=C3B0#V3&*B81,(I;0JkLD/iPO@2)-sD1GUs51,(I=0K:dG/i>==3&!-E
+1Gpm01,(I=0K1aA/i>UH3&riM0JG7)1,(I=0K(XA/i5OC3AWBG2`3H81,(I;0JY@:/i,LC0fLsK
+2`2^50JYC;2_d<F1c73I3B8cO0eje+0JPL?1,1X=3AE3A3ArlQ0d&5*1,CU=0JtI?2`!HL1bgmG
+1*A>+1,CU=0f(F=2`NNH1c[6J2]sk01,CU=0JtI?2`3KN2DR-D0d&5*1,:OB1,CO@3A<EK0JYRI
+0d&5*0fLdA0f:RD0eb:A2E<NI.4cl00I\P$4>838-p014/1<V7.4dS8                   ~>
 )
 cocurrent 'base'  NB.{*JOD*}
 puttstamps_ijod_=: (((1;'upgrade JOD')"_)`putallts__MK__JODobj)@.(3 = (4!:0)<'putallts__MK__JODobj') NB.{*JOD*}
