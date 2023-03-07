@@ -1,5 +1,5 @@
-NB. JOD dictionary dump: 28 Feb 2023 13:40:39
-NB. Generated with JOD version; 1.0.24; 9; 28 Feb 2023 10:55:31
+NB. JOD dictionary dump: 06 Mar 2023 16:41:39
+NB. Generated with JOD version; 1.0.25 - dev; 1; 04 Mar 2023 15:52:27
 NB. J version: j903/j64avx2/windows/release-a/commercial/www.jsoftware.com/2021-12-16T15:15:09/clang-13-0-0/SLEEF=1
 NB.
 NB. Names & DidNums on current path
@@ -68,7 +68,7 @@ USBDRIVEVOLUME=:'USBK01'
 
 pi=:3.14159265358979312
 
-putters_hashdateurl=:<;._1 '|bd8c246033e5cb8abbaad88f32364d16290e10f75a808f633ee216a8b725c2a8|29 Jan 2022 12:23:03|https://github.com/bakerjd99/joddumps/blob/master/utils.ijs'
+putters_hashdateurl=:<;._1 '|e4c9656f50248b556888c179adc5620fcd71d724a06e369fb7dd37475b1f15a1|06 Mar 2023 16:40:54|https://github.com/bakerjd99/joddumps/blob/master/utils.ijs'
 
 sunmoon_hashdateurl=:<;._1 '|7eec6a6a1b58bb2d0f5ce1add60f2a5d2268a59abcbad74f65dced6cad5264ad|29 Jan 2022 12:23:33|https://github.com/bakerjd99/jacks/blob/master/jodliterate/sunmoon.ijs'
 
@@ -2311,7 +2311,8 @@ file=. x,y
 'markdown file does not exist' assert fexist file
 'file is not markdown' assert (<tolower justext file) e. ;:'md markdown'
 mdname=. (justfile winpathsep file),'_md'
-md=. read file
+NB. store all markdown as UTF-8
+md=. utf8 read file
 NB. require 'general/jod' !(*)=. put MACRO_ajod__ajod_ MARKDOWN_ajod_
 MACRO_ajod_ put mdname;MARKDOWN_ajod_;md
 )
@@ -2391,7 +2392,8 @@ file=. x,y
 'text file does not exist' assert fexist file
 'file is not text' assert (<tolower justext file) e. ;:'txt'
 txtname=. (justfile winpathsep file),'_txt'
-txt=. read file
+NB. store all text as UTF-8
+txt=. utf8 read file
 NB. require 'general/jod' !(*)=. put MACRO_ajod_ TEXT_ajod_
 MACRO_ajod_ put txtname;TEXT_ajod_;txt
 )
@@ -4883,7 +4885,7 @@ DKKH1Amo1\+EqaEA12LJ3XlEk67sB4/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+%15is/g,7L
 BHSEm67sBq+CT;2@<iu-DfT]'F<G:8+@oI+9FV=X%13OO@rGk"EcP`/F<Dr?@<6!-%16T`Bl8!'
 Ec`EH-YRU=FD,T5DC87V;cI+CF`__:EcWuj:-pR0:K(5"E-68EATDi7E,Tf>+E2@>@qB_&DfRHQ
 %13OOF)>i<FDuAE+A#$g6Ua.!+=Jod3Zp+*%15is/g)Q]F`__:EcWZPBl8$(Eb8`iAKZ28Eb$S>
-.68S,0JYC;0etb(0etL?0Ja&267sB4/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/O`$;No?+D58-
+.68S,0JYF<1GC_%0fCjB2)GY867sB4/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/O`$;No?+D58-
 C3+<2+<XEG/g+b;FCSu,8l%htC3+<2+DkOsEc3(/DIal6EbTW,+CT=6C3+<2+D,>(AISuA67sBn
 ATVd"+<VdL:-pQUAn?'oBHToC6m->TEbf3(GA\O?@:O=r+CT.u+Eqj?FCcS'F!,=1+D,>(AISuA
 67sBnATVm:+<VdL:-pQUAn?'oBHToC6m,<OFD,T1+EM%5BlJ/:@;]TuGB.D>AKYE&+E2TKAnc'm
@@ -5198,21 +5200,21 @@ zz=:zz,'EF ddcheck ddcnm ddcol ddcon dddis dderr ddfch ddfet ddsel ddsql dd'
 zz=:zz,'src ddtblx''),(<<;._1 '' putters IFACEWORDSputters ROOTWORDSputters a'
 zz=:zz,'ssert boxopen fboxname fexist getjson getmd getpy getsql gettex get'
 zz=:zz,'txt getxml justext justfile nc putbat putjson putmd putpy putsql pu'
-zz=:zz,'ttex puttxt putxml read toCRLF toHOST toJ tolower winpathsep write'''
-zz=:zz,'),(<<;._1 '' remdots alltrim read remdotargs write''),(<<;._1 '' rwtab'
-zz=:zz,'d ctl fmtcd fmttd parsetd parsetdwc readcd readcdwc readtd2 readtd2'
-zz=:zz,'s readtdbom readtdwc tlf writetd2''),(<<;._1 '' socketsREF sdcheck sd'
-zz=:zz,'close sdconnect sdgethostbyname sdrecv sdsend sdsocket''),(<<;._1 '' '
-zz=:zz,'sqliteuts fsd fst''),(<<;._1 '' sunmoon IFACEWORDSsunmoon NORISESET R'
-zz=:zz,'OOTWORDSsunmoon arctan calmoons cos fromjulian moons round sin sunr'
-zz=:zz,'iseset0 sunriseset1 tabit tan today yeardates''),(<<;._1 '' trig arcc'
-zz=:zz,'os arccosh arcsin arcsinh arctan arctanh cos cosd cosh dfr pi rfd s'
-zz=:zz,'in sind sinh tan tand tanh''),(<<;._1 '' unicode ucpfrncrd ucpfrutf8 '
-zz=:zz,'utf8frncrd''),(<<;._1 '' wordformation wfl''),<<;._1 '' xmlutils afters'
-zz=:zz,'tr alltrim atags attrvalue beforestr belongstrs betweenidx betweens'
-zz=:zz,'trs eletags getele geteleattr geteleattrtext geteletext geteletexti'
-zz=:zz,'dx read splitstrs tags write''                                      '
-zz=:2039{.zz
+zz=:zz,'ttex puttxt putxml read toCRLF toHOST toJ tolower utf8 winpathsep w'
+zz=:zz,'rite''),(<<;._1 '' remdots alltrim read remdotargs write''),(<<;._1 '' '
+zz=:zz,'rwtabd ctl fmtcd fmttd parsetd parsetdwc readcd readcdwc readtd2 re'
+zz=:zz,'adtd2s readtdbom readtdwc tlf writetd2''),(<<;._1 '' socketsREF sdche'
+zz=:zz,'ck sdclose sdconnect sdgethostbyname sdrecv sdsend sdsocket''),(<<;.'
+zz=:zz,'_1 '' sqliteuts fsd fst''),(<<;._1 '' sunmoon IFACEWORDSsunmoon NORISE'
+zz=:zz,'SET ROOTWORDSsunmoon arctan calmoons cos fromjulian moons round sin'
+zz=:zz,' sunriseset0 sunriseset1 tabit tan today yeardates''),(<<;._1 '' trig'
+zz=:zz,' arccos arccosh arcsin arcsinh arctan arctanh cos cosd cosh dfr pi '
+zz=:zz,'rfd sin sind sinh tan tand tanh''),(<<;._1 '' unicode ucpfrncrd ucpfr'
+zz=:zz,'utf8 utf8frncrd''),(<<;._1 '' wordformation wfl''),<<;._1 '' xmlutils a'
+zz=:zz,'fterstr alltrim atags attrvalue beforestr belongstrs betweenidx bet'
+zz=:zz,'weenstrs eletags getele geteleattr geteleattrtext geteletext getele'
+zz=:zz,'textidx read splitstrs tags write''                                 '
+zz=:2044{.zz
 showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
@@ -5628,7 +5630,7 @@ Ch\!&F`_[IF*2A;Df9M9FE2).+E_R9@rGmh+EqaEA7fb#D..O#Df-\BD/=?:Bl%i<.4cl00I/>$
 /1<VC4"akp+=A:!<E2pN0JG1Z5qlYfG]Y'):K(5"BQS*5BQ%p/+Abj4<*sTeFED)7F!+:T;cI+F
 F`)&7Df-[o:K(5"FD,T5DBNA#AT2("BHU_rAT2d6+Cf5!@<-=0F<G+*AmoguFB*BnEbf63F!,"-
 Df[%3F_u):F`\a>Bk1dbDf0W7Ch4`'<,uDbF(T!(+E2@9A7]@]F_l.BF(96)E--/CF^cJ7BQ&*)
-Df0W7Ch4`1Bl7^*F`\aIBmO?0@<?0*F(or3E-67M.4cl01H%'41*eV/0f:XC1,LUB2Dd6F2E!QL
+Df0W7Ch4`1Bl7^*F`\aIBmO?0@<?0*F(or3E-67M.4cl01H%*51*eV/0f:XC1,LUB2Dd6F2E!QL
 3?U1%1,(C@0ekF>/i>UK3Ar`M2`<K81*A>+0f:XC1,LUB2Dd6F2E!QL3?U+#1,(FB0K(XA/iPaK
 2`EZR2DR'20d&5*0f:XC1,LUB2Dd6F2E!QL3?U%!1,(C@0ekF>/i>UK3Ar`M2`<K80d&5*0f:XC
 1,LUB2Dd6F2`*6J1E\Cp1,(C@0ekF>/i>UK3Ar`M2`<K81*A>+0f:XC1,LUB2Dd6F2`*6J1E\Cp
@@ -5721,7 +5723,7 @@ Df0W7Ch4`1Bl7^*F`\aIBmO?0@<?0*F(or3E-67M.4cl01H%'41*eV/0f:XC1,LUB2Dd6F2E!QL
 2Dm6K2DcO4+>PW*2)$pD1bL^F1c-pH0f(^D+>Fuo0JPF>0ek@71bh!G1,(ID0eje*+>PW)2_d$B
 1G1OE3B8uT1,h*J+>Fuo0JPF=2DR*A2`<KL0fUmD2DZI1+>PW*2D?sC3%d0E2)7*G3&EQN+>GPm
 1,(I<0etL@/i5=D0fUpK2_m?80d&5*0fC^B1,pmG0JtUE1,q*L1a"\!1,(I;0JP:9/iPXG0KD'L
-3&*020d&5*0fC^B1,pmG0JtUE1,q*L1a"Lq1,(I<0etL@/i57?0f(XH2`E`>0d&5*0fC^B1,pmG
+3&*020d&5*0fC^B1,pmG0JtUE1,q*L1a"Lq1,(I>0JbC@/iG^H1GCLC0JP:)0d&5*0fC^B1,pmG
 0JtUE1,q*L1a"M3+>PW+0JG791G1L?1G^a?3Arl?0d&5*1,(C;0Jb=<1G^gD0f:[F+>Fuo0JPI>
 1bq$C3&!3F2_m?L2`)X30H`,)0fUjB1,ggE2DR*F0K(^H0d&4o1,(I;0ebC;/i>@;1b^X<3B9)B
 0d&5*1,1IB0f1L@2_mBM2E!6L2BX^s1,(F@0JkOE/iYOB1,gsJ1cI662]sk00fLdA1,:IA2_[!I
@@ -5747,57 +5749,57 @@ Df0W7Ch4`1Bl7^*F`\aIBmO?0@<?0*F(or3E-67M.4cl01H%'41*eV/0f:XC1,LUB2Dd6F2E!QL
 3%d0E2)7*G3&EQN+?(Du0JPOA0JGI=2`NWL1b^gB1c?I2+>PW*2D?sC3%d0E2)7*G3&EQN+>Fuo
 0JPO@0f(L93&<?G2D[?Q1,0n++>PW*2_[6G0eP:=2`3BG2`*EQ+>Fuo0JPI>1bq$C3&!3F2_m?L
 2`)X7+>PW+0JGI?1bLU?3AiZQ2)%$L+>Fuo0JY=93&!?F2).'L2)I-L3B&'8+>PW*2D?sC3%d0E
-2)7*G3&EQN+>GPm1,(I<0etL@/i57>3&3EO1GCg30d&5*1,(C>0eb4;1cR<N1,C^F1a"Lq1,(I;
-0JtR=/i>LF0eb=:1c7*40d&5*1,(C>0eb4;1cR6H2)m?H2'=Ur1,(I;0JtR=/i>ID0K:aE1cRK<
-0d&5*1,:O<1-$sE0fC^>3&WHE2BX^s1,(I;0JtR=/i>I?2`WiW2`NZ;0d&5*0fLdE1,(=>2_d0D
-1c7'I1E\Fq1,(F@0JkOE/iYOB1,gsJ1cI662'=Y.0fUjE0f(F>1cI*J0f:^E1a"Lq1,(FC0JP@<
-/i,II2_[6H0K1m40d&5*0fC^B1,pmG0JtUE1,q*L1a"Or1,(I;0K1[A/i>=A0K2!J1b^d00d&5*
-1,1I=1GCF;2Dm?L2`ETP1E\Cp1,(F@0JkOE/iYOB1,gsJ1cI663$9t10fLdF1,LUD0JP@B0fUpK
-1*A:o1,(F@0JkOE/iYOB1,gsJ1cI663?U(21,1IB0f1L@2_d6N0Jb[C1a"Lq1,(I<0K:dE/i5@?
-3&!0I0fCg10d&5*0fC^B1,pmG0JtUE1,q*L1a"M1+>PW+0JP:91bLUD0f1aA2)I-M+>Fuo0JPI>
-1bq$C3&!3F2_m?L2`)X31E\G,1,:O<1-$sE0fCgF2`39C0d&1n1,(F@0JkOE/iYOB1,gsJ1cI66
-1a"P-1,(F<0f(F=1GCgK1c%!D3$9pu1,(F@0JkOE/iYOB1,gsJ1cI662BXb/0f^pC0JkC?2E*BM
-3&*EK3?U%!1,(F@0JkOE/iYOB1,gsJ1cI660f:(/0JY=90etO;2`3KL3&EBK0d&1n1,(I;0JP=:
-/iPXH3&3KP1b^X,0d&5*0fC^B1,pmG0JtUE1,q*L1a"Lq1,(I;0KCgG/i>UD2D?g=2)d640d&5*
-0fC^B1,pmG0JtUE1,q*L1a"b#1,(I;0K1[A/i>=B1b^[B2_d$00d&5*0fC^B1,pmG0JtUE1,q*L
-1a"Rs1,(FB0JY@?/iPXE1,CpJ0JbL-0d&5*0fUjB0f:RB2)I'F0f1mG2BX^s1,(FA0K(U@/i>FB
-2D?sB0K:d00d&5*0fC^B1,pmG0JtUE1,q*L1a"Lq1,(FB0K1aB/i5IF1GU[?1H@970d&5*0fC^B
-1,pmG0JtUE1,q*L1a"P..4cl01*AS&1,(I<0etL@/i5=B2`!BP2E<Q91,(I<0etL@/i5:?0f:dH
-3&*021,(F?0K([C/iP[F1bgsL2E!E81,(F?0K([C/iP[F1bgsL2E!E81,(F?0K([C/iP[F1bgsL
-2E!E81,(F?0K([F/i>C@2D[<H3A<631,(F?0K([C/iP[F1bgsL2E!E81,(F?0K([C/iP[F1bgsL
-2E!E81,(F?0K([C/iP[F1bgsL2E!E81,(I<0etL@/i5=B2`!BP2E<Q91,(I<0etL@/i5=;3ANKI
-1Gp:10JPL?1,:^>1c.*L2)6sI1c$700JYC;0etaA2)7$H1,q'H2)?@10JY=91bh!C1Gq-M2_m9N
-2)ud70JPI>1bq$C3&!3F2`*?M3ADX30JPI>1bq$C3&!3F2`*?M3ADX30JPI>1bq$C3&!3F2`*?M
-3ADX30JPI>1bq$C3&!3F2`*?M3ADs6-p07-1,C120JPF=2DR*A2E3ZM1G^jB1GL"-0JPF=2DR*A
-2E3ZM1G^jB1GL"-0JPF=2DR3D2)7!H1H7-L2`Dj70JPF=2DR3D2)7!H1H7-L2`Dj70JPF>1,1[>
-1bga?0JbUG3?U(20f:XC1,ggC1,LmF3&3HP2]sk00f:XC1,LUA3&iTJ1Gq0Q1a"P-0f:XC1,ggC
-1,LmF3&3HP2]sk01,(C?1,ggC2E3EK0ebF=3?U(20f:[>0f:R?2`!6L2D[0G2BXb/0f:XC1,LUA
-3&iTJ1Gq0Q1a"P-0fC^@1,U[@2`*?O2_ZsA3$9t10f:XC1,ggC1,LmF3&3HP2]sk00fLdE1,(=>
-2_d3F1H.9M0d&5*0f:XC1,ggC1,LmF3&3HP2]sk01,1I=1GCF;3&3EI2)mEK2BXb/0f:XC1,ggC
-1,LmF3&3HP2]sk01,(C:1,(=>2)I0L0fV0R3$9t10f:XC1,ggC1,LmF3&3HP2]sk00f:XC1,ggC
-1,LmF3&3HP2]sk00f:XC1,LUA3&iTJ1H.6L2'=Y.0f:XC1,ggC1,LmF3&3HP2]sk00f:XC1,ggC
-1,LmF3&3HP2]sk00fC^B1,pmG0JtUE1c@3J1*A>+0fC^B1,pmG0JtUE1c@3J1*A>+1,(F<0f1L>
-1H.6I1,:gD3?U(20fC^B1,pmG0JtUE1c@3J1*A>+0fC^B1,pmG0JtUE1c@3J1*A>+0fC^B1,pmG
-0JtUE1c@3J1*A>+0fC^B1,pmG0JtUE1c@3J1*A>+0fC^B1,pmG0JtUE1c@3J1*A>+1,(F<1GCF>
-0JG181bh!F0d&5*0fC^B1,pmG0JtUE1c@3J1*A>+0fC^B1,pmG0JtUE1c@3J1*A>+0fC^B1,pmG
-0JtUE1c@3J1*A>+0fC^B1,pmG0JtUE1c@3J1*A>+1,1L=1,LU?0JtjF0fUmI0d&5*0fC^B1,pmG
-0JtUE1c@3J1*A>+1,1I>0f(F=2_d6L2)R9M2BXb/0fC^B1,pmG0JtUE1c@3J1*A>+1,(C:1,(=>
-2)R9N2)-jD3?U(20fC^B1,pmG0JtUE1c@3J1*A>+0fC^B1,pmG0JtUE1c@3J1*A>+0fC^B1,pmG
-0JtUE1c@3J1*A>+0fC^B1,pmG0JtUE1c@3J1*A>+0fC^B1,pmG0JtUE1c@3J1+=b&4>8$7.4cl0
-1*A;3,Vh&/0JP::3%d$H1bgsI3ANH71,(F?0K([C/iP[F1bh!E2)7*51,(FB0K(XA/iPaK2`EZU
-2`3?51,(F?0K([C/iP[F1bh!E2)7*51,(F?0K([C/iP[F1bh!E2)7*51,(FB0JYC;/iYjL2D@$C
-0fD$71,(FA0etI</ibUB3&<<J3&<E71,(FA0JtUA/iP[D2_d'B0K(X.1,(FB0ek@@/i,1;0JtjI
-2)QL30JPF=2DR*A2`<KL0f^pF1,g=20JY=92_m9D1b^gF1cI9J2)6:00JPF=2DR*A2`<KL0f^pF
-1,g=20JPF=2DR*A2`<KL0f^pF1,g=20JY=:1,1U<2)[6L2DdER3A_j60JPF=2DR*A2`<KL0f^pF
-1,g=20JPF=2DR*A2`<KL0f^pF1,g=20JPO@1,(U=3ANTK0f1jK1,pC30JPO@1,:O93&rlS1GgmJ
-3&2U30JPL?3&!6C2*!TP3B/`I0Jah,0JY=:0ekX?1cI6G3&N]O2'=Y.1,(C=0fUdE1,q0O1Gq*L
-+>PW+1,(F<3A*0D2D?gE0etOE+>PW+1,(F<3A*0D2D[3L1,CdG+>PW*2D?sC3%d0E2)7*I2Dm<H
-+>PW*3&!*C0J5=F2E!6I0JPIG+>PW*3&!*A3%d-E2)@3I0KD!I+>PW*3&!?I1bLaD2E*TP2D?sJ
-+>PW+0JP=;1bLXD0f_3M3AEN:1,(F@0JkOE/iYOB1,h$J2)I'21,(I>0JP=C/i>LE3A<?N1bgp3
-1,(F@0JkOE/iYOB1,h$J2)I'21,(F@0JkOE/iYOB1,h$J2)I'21,(I;0etI?/i>OC2`<KQ3&rf<
-1,(F@0JkOE/iYOB1,h$J2)I'21,(F@0JkOE/iYOB1,h$J2)I'21,(FB0JY=A/iPRE2)mBI2DR36
-1,(FB0JYC;/iYjL2)@'F3B/c:1,(FB0JY=A/iPLD1,CpL1,:a:/1<V8.4cl00I\P$4>838-p014
-/3GT                                                                      ~>
+2)7*G3&EQN+>GPm1,(I<0etL@/i57>3&3EO1GCg30d&5*1,(C>0eb4;1cR<N1,C^F1a"Lq1,(I>
+0JbC@/iG^F0f_$F1H@H<0d&5*1,(C>0eb4;1cR6H2)m?H2'=Ur1,(I;0JtR=/i>ID0K:aE1cRK<
+0d&5*1,CU?0K(OA3AiKL3&ENK1a"Lq1,(I;0JtR=/i>I?2`WiW2`NZ;0d&5*1,CU?0K(OA3A<BI
+0JGF>1*A:o1,(FA0K([?/iP^D2)$jE1H%$30d&5*0fC^B1,pmG0JtUE1,q*L1a"Xu1,(FB0JtR@
+/i>IE0K:dE1,^s30d&5*0f^pB1GLL<3&roO3AE3H2BX^s1,(F@0JkOE/iYOB1,gsJ1cI661*A>+
+1,(C@0Jb==0K1[E3AWKG2'=Ur1,(I<0JbL=/i,CC2)R<O2)[650d&5*0fC^B1,pmG0JtUE1,q*L
+1a"b#1,(FA0K1aD/ibU?1H.$J1-%*40d&5*0fC^B1,pmG0JtUE1,q*L1a"e$1,(I<0K:dD/iGXC
+2`NKI3&*640d&5*1,1IB0f:R?1G_!E1c@'H1E\Cp1,(F@0JkOE/iYOB1,gsJ1cI660f:(/0JY=:
+0ebF:1cI-G2)$mE1cZ[5+>PW*2D?sC3%d0E2)7*G3&EQN+>GYp1,(I=0JP=C/i>@A1Gq*K0JG4(
+0d&5*0fC^B1,pmG0JtUE1,q*L1a"Ut1,(I;0etI>/i5@<3B/iO2).'50d&5*0fC^B1,pmG0JtUE
+1,q*L1a"\!1,(FC0JY==/iGUH1,h0I3ANT;0d&5*0fC^B1,pmG0JtUE1,q*L1a"M1+>PW+0JG4:
+1G1UD2D[<L1,^j00d&5*1,(C:1,(=>2)dKM3Ar]J0d&1n1,(F@0JkOE/iYOB1,gsJ1cI660d&5*
+1,(CB0K1UA3&3BG0JG@C0d&1n1,(F@0JkOE/iYOB1,gsJ1cI663$9t11,(C@0Jb==0K:mC1,V!F
+0d&1n1,(F@0JkOE/iYOB1,gsJ1cI661E\G,0fUjB0f:RB2)I'E3AiKH1E\Cp1,(FB0JY@?/iPXE
+1,L^B3ANK80d&5*0fLdE0Jb==1Gq'E1bg[D0d&1n1,(F@0JkOE/iYOB1,gsJ1cI660d&5*0fUjG
+1,:I=2E*EI0etOF1a"Lq1,(F@0JkOE/iYOB1,gsJ1cI661,14/-p07-3@$@61,1L=1,LU?1,h-J
+2`N]U1E\G,1,1L=1,LU?0f:[C1cIBK1*A>+0f:XC1,LUB2Dd6F3&ifS2'=Y.0f:XC1,LUB2Dd6F
+3&ifS2'=Y.0f:XC1,LUB2Dd6F3&ifS2'=Y.0f:XC1,ggC1,LmF3&!?H1E\G,0f:XC1,LUB2Dd6F
+3&ifS2'=Y.0f:XC1,LUB2Dd6F3&ifS2'=Y.0f:XC1,LUB2Dd6F3&ifS2'=Y.1,1L=1,LU?1,h-J
+2`N]U1E\G,1,1L=1,LU?1,(^D2DI!F+>PW*2_[!B2(g^B2E*KK1H73I+>PW+1,(F<3A*0E2)R-K
+1GgsF+>PW+0JG=<3A**F3&W]N2E3QS+>PW*2D?sC3%d0E2)7*I1cIEL+>PW*2D?sC3%d0E2)7*I
+1cIEL+>PW*2D?sC3%d0E2)7*I1cIEL+>PW*2D?sC3%d0E2)7*I1cIEL.4cl01*A>.,Vh&.2)$pD
+1bL[G3&!-E1bgd@+>PW*2)$pD1bL[G3&!-E1bgd@+>PW*2)$pD2_HsC1c@-L1,q3O+>PW*2)$pD
+2_HsC1c@-L1,q3O+>PW*2)-j@2D-g@1,1I=2E*W=1,(F?0K([F/i>C@2D[<J3&`c=1,(F?0K([C
+/iG[K0JbLB3B8o=1,(F?0K([F/i>C@2D[<J3&`c=1,(I;0K([F/i>OH0f:[>1bh!51,(F?0eb=>
+/i5LC1H79K1c%$41,(F?0K([C/iG[K0JbLB3B8o=1,(F@0JYC@/i5LD1c[KK0et^21,(F?0K([F
+/i>C@2D[<J3&`c=1,(FA0K([?/iP^D2DI!H3&E?41,(F?0K([F/i>C@2D[<J3&`c=1,(I<0JbL=
+/i,IB2_d0L1c%$41,(F?0K([F/i>C@2D[<J3&`c=1,(I;0JP=:/iPXE2)d6L3B9&A1,(F?0K([F
+/i>C@2D[<J3&`c=1,(F?0K([F/i>C@2D[<J3&`c=1,(F?0K([C/iG[K0JbLD2`*B71,(F?0K([F
+/i>C@2D[<J3&`c=1,(F?0K([F/i>C@2D[<J3&`c=1,(F@0JkOE/iYOB1,h$J2)I'21,(F@0JkOE
+/iYOB1,h$J2)I'21,(I;0etI?/i5@C2_d'C3&*E91,(F@0JkOE/iYOB1,h$J2)I'21,(F@0JkOE
+/iYOB1,h$J2)I'21,(F@0JkOE/iYOB1,h$J2)I'21,(F@0JkOE/iYOB1,h$J2)I'21,(F@0JkOE
+/iYOB1,h$J2)I'21,(I;0etO=/iGC;0JPC=3AE621,(F@0JkOE/iYOB1,h$J2)I'21,(F@0JkOE
+/iYOB1,h$J2)I'21,(F@0JkOE/iYOB1,h$J2)I'21,(F@0JkOE/iYOB1,h$J2)I'21,(I>0JbC@
+/iG^E0fV'F0K1^/1,(F@0JkOE/iYOB1,h$J2)I'21,(I<0JkL?/i5LA2`<NN2E!H91,(F@0JkOE
+/iYOB1,h$J2)I'21,(I;0JP=:/iPXF2E*KJ1,V'71,(F@0JkOE/iYOB1,h$J2)I'21,(F@0JkOE
+/iYOB1,h$J2)I'21,(F@0JkOE/iYOB1,h$J2)I'21,(F@0JkOE/iYOB1,h$J2)I'21,(F@0JkOE
+/iYOB1,h$J2)I';/1<V7,VUYu-p07-0f^L70JY=:0ekX?1cI6G3&N]O2'=Y.0f:XC1,LUB2Dd6F
+3A<<G2]sk00fUjF0f(F@3&`cT2`WfS1*A>+0f:XC1,LUB2Dd6F3A<<G2]sk00f:XC1,LUB2Dd6F
+3A<<G2]sk00fUjB1,(=?3ArcL2D?jD3?U(20fLgB0ek:@0JkaF1,_*J2'=Y.0fLdD1,COA2DR3G
+1,1I@0d&5*0fUmB0K1U?0JbC?3A`TN+>PW*2)$pD1bL^F1c-pI0JtUE+>PW+0JGF@2D-g?2Dm<M
+2)@*F+>PW*2)$pD1bL^F1c-pI0JtUE+>PW*2)$pD1bL^F1c-pI0JtUE+>PW+0JP=;1bLXD1H.3K
+3B0#U+>PW*2)$pD1bL^F1c-pI0JtUE+>PW*2)$pD1bL^F1c-pI0JtUE+>PW*3&!*A2D.!F3A<0E
+3&`TP+>PW*3&!*C0J5=F2Dm9I1H@EM+>PW*2_[3F2D-jI2`*NS0eb:;+>PW+0JP::3%d$H1bgsI
+3ANH71,(I;0JkLD/iPOF2E3KM2`;d60JYF<1GC^>2E<WK2`NQO2DH=00JYC;0etaA2).!F2)d9H
+2)ZR40JPI>1bq$C3&!3F2`*EM1bp1/0JPO@1,:O93&rlT0K(U>2E;m80JPO@1,([?2_d0G3&30J
+2)HF20JPO@3AE?C3&<HO3&ENI1cZ[60JY=:1,1U<2)[0L3&EWM3?U(20fC^B1,pmG0JtUE1c@3J
+1*A>+1,CU=1-$sE2)[HK2E3NJ2]sk00fC^B1,pmG0JtUE1c@3J1*A>+0fC^B1,pmG0JtUE1c@3J
+1*A>+1,(F<0f1L?2D[9M1c[NU1a"P-0fC^B1,pmG0JtUE1c@3J1*A>+0fC^B1,pmG0JtUE1c@3J
+1*A>+0fUjB0K:[D1H%*M1GUjD2]sk00fUjB1,(=?3Ar`N1c%-O1*A>+0fUjB0K:[D0fLjD3B&]K
+2CU1*4>A99-p014/1<V7.4cl00I\P80E                                          ~>
 )
 cocurrent 'base'  NB.{*JOD*}
 puttstamps_ijod_=: (((1;'upgrade JOD')"_)`putallts__MK__JODobj)@.(3 = (4!:0)<'putallts__MK__JODobj') NB.{*JOD*}
