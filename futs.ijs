@@ -1,6 +1,7 @@
-NB. JOD dictionary dump: 29 Mar 2023 22:30:10
-NB. Generated with JOD version; 1.0.25 - dev; 8; 28 Mar 2023 23:59:24
+NB. JOD dictionary dump: 30 Mar 2023 11:09:10
+NB. Generated with JOD version; 1.0.25 - dev; 9; 30 Mar 2023 11:07:40
 NB. J version: j9.4.1/j64avx512/windows/commercial/www.jsoftware.com/2023-02-27T15:21:53/clang-15-0-7/SLEEF=1
+NB. JOD put dictionary path: /futs/utils
 NB.
 NB. Names & DidNums on current path
 NB. +----+---------------------------------------+
@@ -98,7 +99,7 @@ NB. ratios.  Based on a  PASCAL  function from  Astronomy on  the
 NB. Personal   Computer   by   Montenbruck   and   Pfleger   ISBN
 NB. 0-387-52754-0 pg. 9.
 NB.
-NB. Result is between _180 <: atn2 <: 180 degrees
+NB. Result is between _180 <: atan2 <: 180 degrees
 NB.
 NB. monad:  fl =. atan2 flYX
 NB.
@@ -3723,8 +3724,8 @@ Bk(L\7<!<9AS5@eA0>i3C3"$0ATMF)+ED1;ATMF)<HD_l94`Bi-RgSp4>J$:3@$@61,CU?1,pmC
 0fU:20JYF<1GLd?1b^XD0KCjA2`2^50JYF<1GUX:1c%!E0KCsG1c6C20JYF<1GUpB1cI*D2)@$F
 1c?I30JYF<1GUsC1c.$K0K;!F1-$I40JYF<1GUpB1H%*I2)[?L1c-=10JYF<1GUpB1cI6G0fCgG
 2DcO30JYF<1GUsC3AWTN1c.$G1cHO40JYF<1GUd>2)6pA2`!HL1,U100JYF<1GUa=1c73O0JbLD
-3B&'90JYF<1GLmB2E*WV2)6pH3B83;0JYF<1GLmB2`!?I1,CmG0fU:20JYF<1GU^<1c@*G1bgmG
-2E)a60JYF<1GU^<1c%$E0fUmA1H$@20JYF<1GUd>2E!HN3&<<E2`Dj70JYF<1GU^<2E*?M0JPC>
+3B&'90JYF<1GLmB2E*WV2)6pH3B83;0JYF<1GLmB2`!?I1,CmG0fU:20JYF<1G^^;1c%!D0K:jE
+1H6L40JYF<1GU^<1c%$E0fUmA1H$@20JYF<1GUd>2E!HN3&<<E2`Dj70JYF<1GU^<2E*?M0JPC>
 0fU:20JYF<1GLjA2`3QQ1,(LA3?U(21,CU?0fL^A1-%$K1H@<N3?U(21,CU?1,U[D0K(pG2D?gB
 3?U(21,CU?0eb4:2E!EK3B&oP2'=Y.1,CU?0KCaD3AiZQ0K(aH2]sk01,CU?0KCaD3AEBN2)6jG
 1*A>+1,CU?1,ggG1H7*F2*!ZT2'=Y.1,CU?1,:I?2`W]O2)mHN1E\G,1,CU?1,U[D0K:d@2E*?H
