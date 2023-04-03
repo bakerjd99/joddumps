@@ -1,10 +1,12 @@
-NB. JOD dictionary dump: 08 Nov 2020 14:57:21
-NB. Generated with JOD version; 1.0.2; 7; 08 Nov 2020 09:45:21
-NB. J version: j902/j64avx2/windows/beta-l/commercial/www.jsoftware.com/2020-11-05T16:02:35/clang-9-0-0/SLEEF=1
+NB. sha256:beb4b009ea5affbca4544299227a4c4d3731c1ff4cbc3ffe46de9dc10e76085f
+NB. JOD dictionary dump: 03 Apr 2023 10:31:24
+NB. Generated with JOD version; 1.0.25 - dev; 11; 03 Apr 2023 10:21:09
+NB. J version: j903/j64avx2/windows/release-a/commercial/www.jsoftware.com/2021-12-16T15:15:09/clang-13-0-0/SLEEF=1
+NB. JOD put dictionary path: /barf/utils
 NB.
 NB. Names & DidNums on current path
 NB. +----+---------------------------------------+
-NB. |barf|166612657738996617431576278386055543006|
+NB. |barf|181683736220838273170553720203387127126|
 NB. +----+---------------------------------------+
 
 9!:41 [ 1 NB.{*JOD*}
@@ -28,7 +30,7 @@ IFACEWORDSdbi=:<;._1 ' dbicreate dbiread dbitemplate dbiwrite dbimetadata'
 
 ROOTWORDSdbi=:<;._1 ' IFACEWORDSdbi ROOTWORDSdbi dbicreate dbiread dbitemplate dbiwrite'
 
-dbi_hashdateurl=:<;._1 '|216f18701551be50ee44e4d4ea34a4134d5124f7edf18393cbabf4105629da2d|08 Nov 2020 14:54:00|https://github.com/bakerjd99/jacks/blob/master/dbi/dbi.ijs'
+dbi_hashdateurl=:<;._1 '|45bcaf458016316c5dba16fc7e4d6805f4aa380b828b68ef7ecfc7830fbcd217|11 Nov 2020 16:40:53|https://github.com/bakerjd99/jacks/blob/master/dbi/dbi.ijs'
 
 showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
@@ -805,7 +807,7 @@ if. isint y=. ,y do. *./((<./ , >./) y) e. i. 256 else. 0 end.
 
 iwrite=:1!:12 ::(_1:)
 
-spcrep=:[: , ('/' ,. [: ,. a. {~ ]) ,. '/hx' ,"1 [: hfd ,
+spcrep=:[: , ('/' ,. [: ,. a. { ~ ]) ,. '/hx' ,"1 [: hfd ,
 
 t7stmp=:[: <. ] , 1000 * 1 | {:
 
@@ -1315,7 +1317,7 @@ AKZ&5@rc."+ETP`FDYt>FE9?0Ecc@]+EVZ`7WNTl2B[,s+E]L`FZ:`t/1<VC4"akp+=A:@F_PZ&
 A7B6qA7B7^@<6-mFCfN8F"f9jA7B7_BOt[hA79Rg0JFV[@VKXeEbAs*ATMs70JFk'/1<VC4"akp
 +=A:B@VHrq@VKpqF*(u6-RgSp4>8$7.4cl04?G0&0d%hd:et"h?Y!V[+Cnqq?Y!_h@rc9mARB:b
 -RgSp4>e6:,Vh&/0JP783%d'E2`N]O1H@3I+?(Du0JY=:0ebR>2DI!I1,V!F2DH=/+>PW+0JP78
-3%d'E2`N]O1H@3I+>bks1,(I;0ek@A/iGI=3&EHL1,Lg10d&5*1,(F:0K:[B1H.9O1G_$H1a"S4
+3%d'E2`N]O1H@3I+>bks1,(I;0ekC;/iG^I0K(dJ0JG4(0d&5*1,(F:0K:[B1H.9O1G_$H1a"S4
 .4cl01*AD!1,(I;0eb:@/i>UK2)R3K2`*N;1,(I;0eb:@/i>XK3&ifV1c.$31,(I;0eb:@/i>XL
 1,M!G2Dm?71,(I;0eb:@/i>XL0K1jL1,Lm31,(I;0ek@A/iGI=2`WQI1GU(.0JY=:0JGI=2*!WU
 3&WcR1c-=10JY=:0JGI=2*!ZP1c[9K2)QL30JY=:0JGI=2*!ZN2`3TN1c?d6-p07-1*eV/1,(F:

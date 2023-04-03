@@ -1,5 +1,6 @@
-NB. JOD dictionary dump: 31 Mar 2023 11:44:42
-NB. Generated with JOD version; 1.0.25 - dev; 8; 30 Mar 2023 10:59:26
+NB. sha256:72b603258f732dce5cdf625b2343984740970d7855c217eb94cbbd8edd9e4141
+NB. JOD dictionary dump: 03 Apr 2023 10:28:38
+NB. Generated with JOD version; 1.0.25 - dev; 11; 03 Apr 2023 10:21:09
 NB. J version: j903/j64avx2/windows/release-a/commercial/www.jsoftware.com/2021-12-16T15:15:09/clang-13-0-0/SLEEF=1
 NB. JOD put dictionary path: /utils
 NB.
