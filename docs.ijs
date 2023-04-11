@@ -1,5 +1,5 @@
-NB. sha256:57756e4369f6e0604096f76f6d9554b8b872c618fc24f0c5c6be4ab8fbf98e76
-NB. JOD dictionary dump: 10 Apr 2023 14:32:49
+NB. sha256:c7f115396c20e2d9ebc71ed2fff88d547eedcd64f65fe7e3d8019c22d4e4a338
+NB. JOD dictionary dump: 11 Apr 2023 14:11:07
 NB. Generated with JOD version; 1.0.25; 14; 04 Apr 2023 09:24:10
 NB. J version: j903/j64avx2/windows/release-a/commercial/www.jsoftware.com/2021-12-16T15:15:09/clang-13-0-0/SLEEF=1
 NB. JOD put dictionary path: /docs/utils
@@ -256,7 +256,7 @@ TFWTEMPHTML=:'temp.html'
 
 TargetPageTeXPts=:332.44135 245.717579999999998
 
-TeXfrWpxml_hashdateurl=:<;._1 '|6c4fadccb208ad1f01042e40ea14afc31effa30fabe7e5418b940be9917ed19e|10 Apr 2023 14:30:00|https://github.com/bakerjd99/jacks/blob/master/texfrwpxml/TeXfrWpxml.ijs'
+TeXfrWpxml_hashdateurl=:<;._1 '|e1803d3a19e28b61c1be447216a7107cdaf855aa1fd90e262b9b0388d982ff13|11 Apr 2023 14:09:35|https://github.com/bakerjd99/jacks/blob/master/texfrwpxml/TeXfrWpxml.ijs'
 
 TropicalYear=:365.242190418999996
 
@@ -350,26 +350,26 @@ NB.*BlogHashes v-- update blog hashes.
 NB.
 NB. monad:  BlogHashes uuIgnore
 
-texpath=. 'c:/pd/blog/wp2latex/'
+texpath=. jpath '~BLOGTEX/'
 hash=. ctl ;"1 ' ' ,&.> sha256dir texpath,'*.tex'
 NB. hash=. ctl ;"1 ' ' ,&.> sha256dir texpath,'*.pdf'
 (toJ hash) write texpath,'bmpdfsha256.txt'
 
-mdpath=. 'c:/pd/blog/wp2epub/'
+mdpath=. jpath '~BLOGMD/'
 hash=. ctl ;"1 ' ' ,&.> sha256dir mdpath,'*.epub'
 NB. hash=. hash, LF, ctl ;"1 ' ' ,&.> sha256dir mdpath,'*.azw3'
 NB. hash=. hash, LF, ctl ;"1 ' ' ,&.> sha256dir mdpath,'*.mobi'
 hash=. hash, LF, ctl ;"1 ' ' ,&.> sha256dir mdpath,'*.markdown'
 (toJ hash) write mdpath,'bmepubsha256.txt'
 
-xhtmlpath=. 'c:/pd/blog/wp2epub/xhtml/'
+xhtmlpath=. jpath '~BLOGMD/xhtml/'
 hash=. ctl ;"1 ' ' ,&.> sha256dir xhtmlpath,'*.xhtml'
 hash=. hash, LF, ctl ;"1 ' ' ,&.> sha256dir xhtmlpath,'*.css'
 hash=. hash, LF, ctl ;"1 ' ' ,&.> sha256dir xhtmlpath,'*.ncx'
 hash=. hash, LF, ctl ;"1 ' ' ,&.> sha256dir xhtmlpath,'*.jpg'
 (toJ hash) write xhtmlpath,'bmexhtmlsha256.txt'
 
-onedrvpath=. 'C:/Users/baker/OneDrive/Public/pdocs/'
+onedrvpath=. jpath '~BLOG1DR/'
 hash=. ctl ;"1 ' ' ,&.> sha256dir onedrvpath,'*.pdf'
 hash=. hash, LF, ctl ;"1 ' ' ,&.> sha256dir onedrvpath,'*.epub'
 (toJ hash) write onedrvpath,'bmsha256.txt'
@@ -3847,7 +3847,7 @@ ATJtAIP4B/@WGmtGqVO$DfoShFDl2.B4W_lDIl4VBm+&>;eTT[ARnJK@WGmtBk;?;Df0,sEbT].
 $6UH6+EMX8A8bsq@;TRs+=DUk:Ms`SEbT].06CcBE%`RJ$6UH6+:SZ,%13OO@rGk"EcP`/F<Dr?
 @<6!-%16T`Bl8!'Ec`EH-W>+t6uQR)Bl%@%-OgCl$;aMs<*rU9=CuSTE-Q591,2Nj/l5>B<*rU9
 =CuSTE-Q59+B2oSAo^slG\q7>E,Tf>+E2@>@qB_&DfQs0$4R>`D/XQ=E-67F8Oc!576N[S-nlc)
-+>>5R$;No?+=L3#=CuSTE-Q59.3N>BFCfK)@:NjkGAhM4.!$gu+>PW+1GCX?0PW=!1GCL:$;No?
++>>5R$;No?+=L3#=CuSTE-Q59.3N>BFCfK)@:NjkGAhM4.!$gu+>PW+1GCX?0krF"0KCpH$;No?
 +>#/s/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+%15is/g*JsDeDULF(f-++<VdL+<VdL:-pQU
 F`:l"FCcS(Ci<r/BOPsqATJ:f:-pQU7VR*6@:WneGA\NG+<VdL+<XEG/g+SEFCf<.F<G[D+Cf>-
 G%G]9+=]!Q@:WneGA\O8Bl%@%+EVNE.P>RHEbf2rDg-(.$;No?+A?3cAU$[b=)W+iE,oN2F!)T#
@@ -4685,7 +4685,7 @@ ARB=`D.RcqG$f)s+E2@9AU&<9FCf\>E,o]-E-Z>1+E2@9GAo<ZAU#RO/1<V9+>Pc3,Vh&/0ek@;
 3ArZQ3&;[40JPL?1,1X=3AE3A3ArZQ3&;[40JPL?1,1X=3AE3A3ArZQ3&;[40JPL?1,1X=3AE3A
 3ArZQ3&;[40JPL?1,1X=3AE3A3ArZQ3&;[40JPL?1,1X=3AE3A3ArZQ3&;[40JPL?1,1X=3AE3A
 3ArZQ3&;[40JYF<0ebF:2)I!G2Dd?O3&r*:0JPL?1,1X=3AE3A3ArZQ3&;[40JPL?1,1X=3AE3A
-3ArZQ3&;[40JYF<1bg[:2*!WO1,UsM1bg+.0JYF<0ebU?1c@-I1,Ca@1,pC30JYC;2_['@2)I$H
+3ArZQ3&;[40JYF<1bg^;2)mTT2)$sH0f^@30JYF<0ebU?1c@-I1,Ca@1,pC30JYC;2_['@2)I$H
 0fCpK3B83;0JPL?1,1X=3AE3A3ArZQ3&;[40JPRA1b^d>2E*<F2).'K1cZ[60JPRA1b^d>2E*BK
 1,C^?3&Mg60JPRA1b^d>2E!QN3AE?N1,^710JYC;2_['@2)I6P1c.$J3&_s80JYF<0ebI;1c73H
 1,:jD1G^./0JYF<0ebI;2)mNR3&rfR3&Mg60JYF<0ekF93AriN0f^pA1cZ[60JPL@0JYC91c@$A
@@ -4733,7 +4733,7 @@ ARB=`D.RcqG$f)s+E2@9AU&<9FCf\>E,o]-E-Z>1+E2@9GAo<ZAU#RO/1<V9+>Pc3,Vh&/0ek@;
 2(gmD0JGLF2)I$11,(FA0JY@?/ibX?0KD$K1bg+.0JPL?1,1X=3AE3A3Ar`O0d&5*0fLdA0f:RD
 0eb:A2Dm<G+>PW*2_[!A2(gmD0JGLF2)I$11,(FA0JY@?/ibX?0KD$K1bg+.0JPL?1,1X=3AE3A
 3Ar`O0d&5*0fLdA0f:RD0eb:A2Dm<G+>PW*2_[!A2(gmD0JGLF2)I$11,(FA0JY@?/ibX?0KD$K
-1bg+.0JYF<1bg[:2D?sB2E3EO2)?@10JPL?1,1X=3AE3A3Ar`O0d&5*0fLdA0f:RD0eb:A2Dm<G
+1bg+.0JYF<1bg^;2)mTV3AWZS3B/-:0JPL?1,1X=3AE3A3Ar`O0d&5*0fLdA0f:RD0eb:A2Dm<G
 +>PW+1GCO;3A*-H1GppD1,:dI+>PW+1GCO;2(gdC2E!KL2D?sI+>PW+1GCR>1bL[C2D?m?0etUE
 +>PW+1,([B2_HsA1H7'E1G^mC+>PW+1GCO<1G1LA3&!0J0fM$L+>PW+0JGL@2(g^?1H@<P1H.9J
 +>PW*2_[!A2(gmD0JGLF2)I$11,(FA0JY@?/ibX?0KD$K1bg+.0JPL?1,1X=3AE3A3Ar`O0d&5*
@@ -4790,7 +4790,7 @@ ARB=`D.RcqG$f)s+E2@9AU&<9FCf\>E,o]-E-Z>1+E2@9GAo<ZAU#RO/1<V9+>Pc3,Vh&/0ek@;
 0JY@?/iYjO0JkaI3&3941,(I>0JP7=/i>RF0K(XG3AEK91,(I>0JP7>/i>=:2)@$C3AWH61,(FA
 0JY@?/ibX?0KD$O1,0n,0JPL?1,1X=3AE3A3ArlQ0d&5*1,(C;0eb493ArZP2DR6L2]sk01,(C;
 0eb492_[!H2DHp?3$9t11,CU=0KCaB2D[3G1GU^E2]sk01,CU=0JtI@1H%-M1,V'J2]sk01,(C=
-0fUdE1,^sC2_[$G1*A>+1,CU>1,LUA1c@$C0JP=?2BXb/1,CU@0eb4<0JkLB2`WZR1*A>+1,(C=
+0fUdE1,^sC2_[$G1*A>+1,CU>1,LUA1c@$C0JP=?2BXb/1,CU@0ek:<3&ruZ1Ggd@1a"P-1,(C=
 0fUdE1,:^A2)6sC3?U(21,:OC0fL^B0Jb[B1G^gE0d&5*1,:OB1,1C=3&W`V2)$^<1*A>+1,CU@
 0K:[A1G^a@0JkaH1a"P-1,(C;0eb493AN<J2)dHO+>PW+1,(XA3A*-G2_mBR0K(X?+>PW*2_[!A
 2(gmD0JGLF3AN<31,(I>0JP7=/i>RD3ANEG2Dm641,(I>0JP:</i5LH0ekLF0K(j41,(I>0JP:>
