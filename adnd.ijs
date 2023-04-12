@@ -1,12 +1,12 @@
-NB. sha256:61840f93493b7e80b9abc562b8cab7e28e93d649a02f61289ed095c9ad193c30
-NB. JOD dictionary dump: 08 Apr 2023 11:05:21
+NB. sha256:81ce302730ed819c85ed6713123a6256784cb8c412603cd55272caa35f1ec9fd
+NB. JOD dictionary dump: 12 Apr 2023 10:52:02
 NB. Generated with JOD version; 1.0.25; 14; 04 Apr 2023 09:24:10
-NB. J version: j903/j64avx2/windows/release-a/commercial/www.jsoftware.com/2021-12-16T15:15:09/clang-13-0-0/SLEEF=1
-NB. JOD put dictionary path: /adnd/docs/gps/play/smugpyter/smugdev/smug/image/barf/mwecc/franklin/cbh/fd/bitjd/joddev/jod/utils
+NB. J version: j9.4.2/j64avx512/windows/commercial/www.jsoftware.com/2023-04-10T01:15:50/clang-15-0-7/SLEEF=1
+NB. JOD put dictionary path: /adnd/docs/futs/gps/play/smugpyter/smugdev/smug/image/barf/mwecc/franklin/cbh/fd/bitjd/joddev/jod/utils
 NB.
 NB. Names & DidNums on current path
 NB. +----+---------------------------------------+
-NB. |adnd|200565309162903065835880134946861475204|
+NB. |adnd|307947170823469943699748317022977231927|
 NB. +----+---------------------------------------+
 
 9!:41 [ 1 NB.{*JOD*}
