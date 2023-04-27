@@ -1,13 +1,13 @@
-NB. sha256:b423e826edb39b9c3e3c0a43b09181564fd2616ce069880cf6bb95454221cad3
-NB. JOD dictionary dump: 08 Apr 2023 10:52:36
-NB. Generated with JOD version; 1.0.25; 14; 04 Apr 2023 09:24:10
-NB. J version: j903/j64avx2/windows/release-a/commercial/www.jsoftware.com/2021-12-16T15:15:09/clang-13-0-0/SLEEF=1
+NB. sha256:7f8e8239925fb1035cf57fcf9655525718465b0113e53f6f871e545b73adc8a1
+NB. JOD dictionary dump: 25 Apr 2023 16:49:00
+NB. Generated with JOD version; 1.0.26 - dev; 2; 25 Apr 2023 13:02:57
+NB. J version: j9.5.0-beta1/j64avx2/windows/commercial/www.jsoftware.com/2023-04-22T15:17:12/clang-15-0-7/SLEEF=1
 NB. JOD put dictionary path: /gps/utils
 NB.
 NB. Names & DidNums on current path
-NB. +---+--------------------------------------+
-NB. |gps|14346868297176279186780870984462430454|
-NB. +---+--------------------------------------+
+NB. +---+---------------------------------------+
+NB. |gps|183296640312608599700934070928330815474|
+NB. +---+---------------------------------------+
 
 9!:41 [ 1 NB.{*JOD*}
 cocurrent 'base' NB.{*JOD*}
@@ -134,7 +134,7 @@ NB. replace short names
 ;names (idx)} cgpx
 )
 
-cliptags=:(0"_ { [) }. (1"_ { [) }. ]
+cliptags=:(0"_ {  [) }. (1"_ {  [) }. ]
 
 csvfrwpt=:3 : 0
 
