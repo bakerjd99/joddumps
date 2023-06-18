@@ -1,5 +1,5 @@
-NB. sha256:d9a4be6682f18277684d2c44339fa0778f0ab3b2858012f1ad5f69ba0737a2e5
-NB. JOD dictionary dump: 12 Jun 2023 10:13:41
+NB. sha256:1ccaa75d27f9558e53647909c876f0ecefb59be4164a35a74e836f6a6b5229c2
+NB. JOD dictionary dump: 14 Jun 2023 13:19:14
 NB. Generated with JOD version; 1.0.26 - dev; 4; 05 Jun 2023 09:03:27
 NB. J version: j9.5.0-beta3/j64avx2/windows/commercial/www.jsoftware.com/2023-05-31T14:55:05/clang-15-0-7/SLEEF=1
 NB. JOD put dictionary path: /utils
@@ -70,7 +70,7 @@ USBDRIVEVOLUME=:'USBK01'
 
 pi=:3.14159265358979312
 
-putters_hashdateurl=:<;._1 '|9774b812ba74bd8ec6326ade236f3e35a80ea861b82335616ad3255118bde4c1|05 Jun 2023 13:14:26|https://github.com/bakerjd99/joddumps/blob/master/utils.ijs'
+putters_hashdateurl=:<;._1 '|3df566ab8a987470a8caec4587e8975b56ed8842337f24073e8e2a5e7b7aa0f9|14 Jun 2023 13:13:43|https://github.com/bakerjd99/joddumps/blob/master/utils.ijs'
 
 sunmoon_hashdateurl=:<;._1 '|33d66af4b8e928b1872431f5392778b04f486ec3ac40313c847e7cd8cd09e54d|25 Apr 2023 11:08:08|https://github.com/bakerjd99/jacks/blob/master/jodliterate/sunmoon.ijs'
 
@@ -1500,13 +1500,12 @@ NB. dyad: clPath getjson clJsonMacro
 
 '~temp/' getjson y
 :
+NB. load 'general/jod' !(*)=. jpath get MACRO_ajod_ badcl_ajod_ badrc_ajod_
 'JOD not available' assert 0=nc <'JODobj'
 'invalid macro name' assert -.badcl_ajod_ y
 'macro suffix is not json' assert '_json' -: (-#'_json'){. y
-NB. load 'general/jod' !(*)=. get
 if. badrc_ajod_ json=. MACRO_ajod_ get y do. json return. end.
 json=.  ; {: , >1{json
-NB. !(*)=. jpath
 file=. (jpath x), '.json' ,~ (-#'_json') }. y
 file [ (toHOST json) write file
 )
@@ -1520,13 +1519,12 @@ NB. dyad: clPath getmd clMdMacro
 
 '~temp/' getmd y
 :
+NB. load 'general/jod' !(*)=. jpath get MACRO_ajod_ badcl_ajod_ badrc_ajod_
 'JOD not available' assert 0=nc <'JODobj'
 'invalid macro name' assert -.badcl_ajod_ y
 'macro suffix is not md' assert '_md' -: (-#'_md'){. y
-NB. load 'general/jod' !(*)=. get
 if. badrc_ajod_ md=. MACRO_ajod_ get y do. md return. end.
 md=.  ; {: , >1{md
-NB. !(*)=. jpath
 file=. (jpath x), '.md' ,~ (-#'_md') }. y
 file [ (toHOST md) write file
 )
@@ -1540,13 +1538,12 @@ NB. dyad: clPath getnb clIpynbMacro
 
 '~temp/' getnb y
 :
+NB. load 'general/jod' !(*)=. jpath get MACRO_ajod_ badcl_ajod_ badrc_ajod_
 'JOD not available' assert 0=nc <'JODobj'
 'invalid macro name' assert -.badcl_ajod_ y
 'macro suffix is not ipynb' assert '_ipynb' -: (-#'_ipynb'){. y
-NB. load 'general/jod' !(*)=. get
 if. badrc_ajod_ ipynb=. MACRO_ajod_ get y do. ipynb return. end.
 ipynb=.  ; {: , >1{ipynb
-NB. !(*)=. jpath
 file=. (jpath x), '.ipynb' ,~ (-#'_ipynb') }. y
 file [ ipynb write file
 )
@@ -1562,12 +1559,11 @@ NB. dyad: clPath getmd clPyMacro
 
 '~temp/' getpy y
 :
+NB. load 'general/jod' !(*)=. jpath get MACRO_ajod_ badcl_ajod_ badrc_ajod_
 'JOD not available' assert 0=nc <'JODobj'
 'invalid macro name' assert -.badcl_ajod_ y
 'macro suffix is not py' assert '_py' -: (-#'_py'){. y
-NB. load 'general/jod' !(*)=. get
 if. badrc_ajod_ py=. MACRO_ajod_ get y do. py return. end.
-NB. !(*)=. jpath
 py=.  ; {: , >1{py
 file=. (jpath x), '.py' ,~ (-#'_py') }. y
 file [ (toHOST py) write file
@@ -1582,13 +1578,12 @@ NB. dyad: clPath getsql clSqlMacro
 
 '~temp/' getsql y
 :
+NB. load 'general/jod' !(*)=. jpath get MACRO_ajod_ badcl_ajod_ badrc_ajod_
 'JOD not available' assert 0=nc <'JODobj'
 'invalid macro name' assert -.badcl_ajod_ y
 'macro suffix is not sql' assert '_sql' -: (-#'_sql'){. y
-NB. load 'general/jod' !(*)=. get
 if. badrc_ajod_ sql=. MACRO_ajod_ get y do. sql return. end.
 sql=.  ; {: , >1{sql
-NB. !(*)=. jpath
 file=. (jpath x), '.sql' ,~ (-#'_sql') }. y
 file [ (toHOST sql) write file
 )
@@ -1602,13 +1597,13 @@ NB. dyad: clPath gettxt clTexMacro
 
 '~temp/' gettex y
 :
+NB. load 'general/jod' !(*)=. jpath get MACRO_ajod_ badcl_ajod_ badrc_ajod_
 'JOD not available' assert 0=nc <'JODobj'
 'invalid macro name' assert -.badcl_ajod_ y
 'macro suffix is not tex' assert '_tex' -: (-#'_tex'){. y
 NB. load 'general/jod' !(*)=. get
 if. badrc_ajod_ tex=. MACRO_ajod_ get y do. tex return. end.
 tex=.  ; {: , >1{tex
-NB. !(*)=. jpath
 file=. (jpath x), '.tex' ,~ (-#'_tex') }. y
 file [ (toHOST tex) write file
 )
@@ -1622,13 +1617,12 @@ NB. dyad: clPath gettxt clTxtMacro
 
 '~temp/' gettxt y
 :
+NB. load 'general/jod' !(*)=. jpath get MACRO_ajod_ badcl_ajod_ badrc_ajod_
 'JOD not available' assert 0=nc <'JODobj'
 'invalid macro name' assert -.badcl_ajod_ y
 'macro suffix is not txt' assert '_txt' -: (-#'_txt'){. y
-NB. load 'general/jod' !(*)=. get
 if. badrc_ajod_ txt=. MACRO_ajod_ get y do. txt return. end.
 txt=.  ; {: , >1{txt
-NB. !(*)=. jpath
 file=. (jpath x), '.txt' ,~ (-#'_txt') }. y
 file [ (toHOST txt) write file
 )
@@ -1642,13 +1636,12 @@ NB. dyad: clPath getsql clXmlMacro
 
 '~temp/' getxml y
 :
+NB. load 'general/jod' !(*)=. jpath get MACRO_ajod_ badcl_ajod_ badrc_ajod_
 'JOD not available' assert 0=nc <'JODobj'
 'invalid macro name' assert -.badcl_ajod_ y
 'macro suffix is not xml' assert '_xml' -: (-#'_xml'){. y
-NB. load 'general/jod' !(*)=. get
 if. badrc_ajod_ xml=. MACRO_ajod_ get y do. xml return. end.
 xml=.  ; {: , >1{xml
-NB. !(*)=. jpath
 file=. (jpath x), '.xml' ,~ (-#'_xml') }. y
 file [ (toHOST xml) write file
 )
@@ -2370,14 +2363,14 @@ NB. dyad: clPath putmd clFile
 
 '~temp/' putmd y
 :
-file=. (jpath x),y  NB. !(*)=. jpath
+NB. load 'general/jod' !(*)=. jpath put MACRO_ajod_ MARKDOWN_ajod_ badcl_ajod_ badrc_ajod_
+file=. (jpath x),y  
 'JOD not available' assert 0=nc <'JODobj'
 ('file does not exist -> ',file) assert fexist file
 'file is not markdown' assert (<tolower justext file) e. ;:'md markdown'
 mdname=. (justfile winpathsep file),'_md'
 NB. store all markdown as UTF-8
 md=. utf8 read file
-NB. require 'general/jod' !(*)=. put MACRO_ajod__ajod_ MARKDOWN_ajod_
 MACRO_ajod_ put mdname;MARKDOWN_ajod_;md
 )
 
@@ -2390,14 +2383,14 @@ NB. dyad: clPath putnb clFile
 
 '~temp/' putnb y
 :
-file=. (jpath x),y  NB. !(*)=. jpath
+NB. load 'general/jod' !(*)=. jpath put MACRO_ajod_ IPYNB_ajod_ badcl_ajod_ badrc_ajod_
+file=. (jpath x),y 
 'JOD not available' assert 0=nc <'JODobj'
 ('file does not exist -> ',file) assert fexist file
 'file is not notebook' assert (<tolower justext file) e. ;:'ipynb'
 nbname=. (justfile winpathsep file),'_ipynb'
 NB. store ipynb as UTF-8
 ipynb=. utf8 read file
-NB. require 'general/jod' !(*)=. put MACRO_ajod_ IPYNB_ajod_
 MACRO_ajod_ put nbname;IPYNB_ajod_;ipynb
 )
 
@@ -2410,14 +2403,14 @@ NB. dyad: clPath putpy clFile
 
 '~temp/' putpy y
 :
-file=. (jpath x),y  NB. !(*)=. jpath
+NB. load 'general/jod' !(*)=. jpath put MACRO_ajod_ PYTHON_ajod_ badcl_ajod_ badrc_ajod_
+file=. (jpath x),y
 'JOD not available' assert 0=nc <'JODobj'
 ('file does not exist -> ',file) assert fexist file
 'file is not python' assert 'py' -: tolower justext file
 pyname=. (justfile winpathsep file),'_py'
 NB. store python as UTF-8
 py=. utf8 read file
-NB. require 'general/jod' !(*)=. put MACRO_ajod_ PYTHON_ajod_
 MACRO_ajod_ put pyname;PYTHON_ajod_;py
 )
 
@@ -2430,13 +2423,13 @@ NB. dyad: clPath putsql clFile
 
 '~temp/' putsql y
 :
-file=. (jpath x),y  NB. !(*)=. jpath
+NB. load 'general/jod' !(*)=. jpath put MACRO_ajod_ SQL_ajod_ badcl_ajod_ badrc_ajod_
+file=. (jpath x),y 
 'JOD not available' assert 0=nc <'JODobj'
 ('file does not exist -> ',file) assert fexist file
 'file is not sql' assert 'sql' -: tolower justext file
 sqlname=. (justfile winpathsep file),'_sql'
 sql=. read file
-NB. require 'general/jod' !(*)=. put MACRO_ajod_ SQL_ajod_
 MACRO_ajod_ put sqlname;SQL_ajod_;sql
 )
 
@@ -2450,13 +2443,13 @@ NB. dyad: clPath puttex clFile
 
 '~temp/' puttex y
 :
-file=. (jpath x),y  NB. !(*)=. jpath
+NB. load 'general/jod' !(*)=. jpath put MACRO_ajod_ LATEX_ajod_ badcl_ajod_ badrc_ajod_
+file=. (jpath x),y 
 'JOD not available' assert 0=nc <'JODobj'
 ('file does not exist - > ',file) assert fexist file
 'file is not tex' assert (<tolower justext file) e. ;:'tex'
 texname=. (justfile winpathsep file),'_tex'
 tex=. read file
-NB. require 'general/jod' !(*)=. put MACRO_ajod__ajod_ LATEX_ajod_
 MACRO_ajod_ put texname;LATEX_ajod_;tex
 )
 
@@ -2469,7 +2462,8 @@ NB. dyad: clPath puttxt clFile
 
 '~temp/' puttxt y
 :
-file=. (jpath x),y  NB. !(*)=. jpath  
+NB. load 'general/jod' !(*)=. jpath get MACRO_ajod_ badcl_ajod_ badrc_ajod_
+file=. (jpath x),y 
 'JOD not available' assert 0=nc <'JODobj'
 ('file does not exist -> ',file) assert fexist file
 'file is not text' assert (<tolower justext file) e. ;:'txt'
@@ -2490,13 +2484,13 @@ NB. dyad: clPath putxml clFile
 
 '~temp/' putxml y
 :
-file=. (jpath x),y  NB. !(*)=. jpath
+NB. load 'general/jod' !(*)=. jpath put MACRO_ajod_ XML_ajod_ badcl_ajod_ badrc_ajod_
+file=. (jpath x),y 
 'JOD not available' assert 0=nc <'JODobj'
 ('file does not exist -> ',file) assert fexist file
 'file is not xml' assert (<tolower justext file) e. ;:'xml'
 xmlname=. (justfile winpathsep file),'_xml'
 xml=. read file
-NB. require 'general/jod' !(*)=. put MACRO_ajod__ajod_ XML_ajod_
 MACRO_ajod_ put xmlname;XML_ajod_;xml
 )
 
@@ -4989,7 +4983,7 @@ D00H0Ec*<KBl8$(Eb8`iAKZ28Eb$S>.67nF:-pQU/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
 /I`%^67sC&BP8M2:-pQUC*6r*Eaa59AoD^,@<<W+DBMJL9hZ!'.1HUn$=e!aF`MM6DKI!K@UX=h
 -OgDmDeX*1ATDl8+=CiED00H0Ec*7$:K(5"E-68EATDiI0ht%f:et"h?Z:.0FCfK6+E27?F<GOC
 De!@"F)Q(O+:SYe$?L'&F`_SFF<F.E5sn((3Zoh)+?CW!.1HVZ67sB/E-68EATDi@+DG_8ATDBk
-@q?d,DfTA:F"'-m1,(I>0K(UBC,%M!1bprr:-pQU/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
+@q?d,DfTA:F"'-m1,(I>0K(XBC,%M!1Gglp:-pQU/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+
 %15is/g+e<FCKN;AKW*j67sBmATVEq+A,Et+DkOsEc3(/DIal6EbTW,+CT=6@X3',+D,>(AISuA
 67sBnATV[.Df-[?:-pQUAn?'oBHToC6m-5cDf-\7@:O=r+CT.u+Eqj?FCcS'F!,4=Df-\0Bl%>i
 $;No?+D58-D.Fb3+<XEG/g+b;FCSu,8l%htD..I#A8c[0+DkOsEc3(/DIal6EbTW,+CT=6D.Fc$
@@ -5766,7 +5760,7 @@ EbT//F`(o'De*E%GAhM4AoD^,@<?4%DBO1@Cisi6Ci^sQ/1<V7,VUYu-p0UR/mg=U-QkcV<DkM)
 0JHEk0OJpHF<FCU;cI+;FDZ,5DfT_<:et"h?Z:.0FCfK6+Abj4<*s]hDJa<1DBMbO;cI+GBQ%p/
 +CSnoE+*j%+CSnoE-67F@r,^bEc?/C+CfP9@UWb^+Co%q@<HC.<HD_lCLqd4+Co2)F!,"9D/aH:
 F<G72A7]7hDKB`4AKY\dEa`j,An?!*E,o](AS,@nCige@@rc:&FE;PH@N]`*Dg,]0DKB`4AKZ&.
-DJO36F<GX=H=_&(FD)e<BmO?0F`\u[/1<V:2E)a6,Vh&.2)$pD1bL^F1c-pF2E<HO+>k8s0JGF?
+DJO36F<GX=H=_&(FD)e<BmO?0F`\u[/1<V:2`;d6,Vh&.2)$pD1bL^F1c-pF2E<HO+>k8s0JGF?
 0etO;2)mTV2Dm6K2DcO3+>PW*2)$pD1bL^F1c-pF2E<HO+>Y,q0JPO@2DI!?2`N`T2`EWQ1,C%-
 +>PW*2)$pD1bL^F1c-pF2E<HO+>Fuo0JGF?0etO;2)mTV2Dm6K2DcO2+>PW*2)$pD1bL^F1c-pG
 1bgpF+>Fuo0JGF?0etO;2)mTV2Dm6K2DcO3+>PW*2)$pD1bL^F1c-pG1bgpF+>Fuo0JPI>1,:a?
@@ -5875,69 +5869,72 @@ DJO36F<GX=H=_&(FD)e<BmO?0F`\u[/1<V:2E)a6,Vh&.2)$pD1bL^F1c-pF2E<HO+>k8s0JGF?
 2)7*G3&EQN+>P&p0JY=91b^a=2).'N1,CjJ1c-=0+>PW*2D?sC3%d0E2)7*G3&EQN+?(Du0JY=9
 0etF82`3BK2`NTR0KC71+>PW*2D?sC3%d0E2)7*G3&EQN+>Fuo0JY=90etF82`3HM2E3]P2)?@0
 +>PW*2D?sC3%d0E2)7*G3&EQN+>Y,q0JYF<2D@!@2)R'G2)-d=2DcO2+>PW*2D?sC3%d0E2)7*G
-3&EQN+>k8s0JYF<1G^a<1cI3K2)7$I2`Dj7+>PW+1GCX>1bLU?0fUsK3&!<O+>Fuo0JPI>1bq$C
-3&!3F2_m?L2`)X3+>PW+1GCU@0eP:A1H%*G2)[BP+>k8s0JPI>1bq$C3&!3F2_m?L2`)X3+>PW*
-3&!*C2_I$I1,Ld@2D[<I+>P&p0JY=:1,1R;1bgdG0f(O>2)?@0+>PW*2D?sC3%d0E2)7*G3&EQN
-+>Gl!1,(I<0K:aB/i5@A1H7'B2)[<70d&5*0fC^B1,pmG0JtUE1,q*L1a"Rs1,(I<0K:aB/i5@A
-2Dd9K1c$7/+>PW+0ebR@1G1LD2E!BN2`!3I+>Fuo0JPOA1,(O;1Gq'J3&30I1,pC2+>PW*2D?sC
-3%d0E2)7*G3&EQN+>P&p0JYF<1GLa>1b^pM1,^sD0K:10+>PW*2D?sC3%d0E2)7*G3&EQN+>GYp
-1,(FB0K(XF/iYO>1c[KP1,:d20d&5*0fUmA0KCaF0etOB1Gh!F+>Fuo0JPI>1bq$C3&!3F2_m?L
-2`)X9+>PW+0JP=;1bLU?3&E<F2`EKK+>Fuo0JPI>1bq$C3&!3F2_m?L2`)X30d&5*1,(F<0f1L>
-1G^jA1,1LB1E\Cp1,(F@0JkOE/iYOB1,gsJ1cI662]sk00fUmA0K:[D3&EBI0K(XB2BX^s1,(F@
-0JkOE/iYOB1,gsJ1cI660d&5*0fUjA1GCF@1G^dE1H@EM0d&1n1,(FA0KCgA/i5@C2)?sG1c@?:
-0d&5*0fC^B1,pmG0JtUE1,q*L1a"Xu1,(I;0K:aC/i5=D2)R<M0KD'70d&5*1,(CA0KCaC0fV*L
-1c.0P2]sgt1,(F@0JkOE/iYOB1,gsJ1cI660ea_*0JYF<1G^a<1cI?Q1H%'M1Gg4/+>PW+1GC^@
-2(gaD0f(OB1bppD+>Fuo0JYF<1G^a<1cI?Q1H%'M1Gg40+>PW+1GCX>1bLU?0K1aC2)?sD+>Fuo
-0JYF<1G^a<1cI?Q1H%'M1Gg40+>PW+1GC^@2(gaD0fLd?1cREQ+>Fuo0JYF<1G^a<1cI?Q1H%'M
-1Gg41+>PW*2D?sC3%d0E2)7*G3&EQN+>k8s0JPO@2)-m>2)I6G3&*9G2DcO2+>PW*3A<0D0eP7A
-3B&WP0ebOE+>Fuo0JPI>1bq$C3&!3F2_m?L2`)X4+>PW+0JGF>1G1O=2_[0N1GgdC+>Fuo0JY@:
-1G^^;1H%*J2)dHO2DZI1+>PW*2D?sC3%d0E2)7*G3&EQN+?1K!0JPL?2_m3B3A<0D2_d9I3AM^3
-+>PW*2D?sC3%d0E2)7*G3&EQN+?:Q"0JY@:3&*6B2E*?L3&!-J0f1"-+>PW+0ebRA2(g^A1H7'F
-2DI*G+>Fuo0JPI>1bq$C3&!3F2_m?L2`)X32'=Y.1,(F;0JkC=2_d-H0Jt[D3?U%!1,(F@0JkOE
-/iYOB1,gsJ1cI660f'q-0JYF<1bpp@1c@-M3A<0C2)l^5+>PW*2D?sC3%d0E2)7*G3&EQN+>b2r
-0JY=:1,1R;1c$gG3&EEK0fU:1+>PW*2D?sC3%d0E2)7*G3&EQN+>t>t0JPRA1,(O;2E!KL2`NNP
-1-$I3+>PW*2D?sC3%d0E2)7*G3&EQN+>G_r1,(I;0JP==/iPXG1H73H2DH=/+>PW+0JG4:0J5:A
-2`NQQ2Dd*B+>Fuo0JPI>1bq$C3&!3F2_m?L2`)X3+>PW+0JGL@2_HsI1,^g?0JtdD+>Fuo0JPI>
-1bq$C3&!3F2_m?L2`)X:+>PW+0JGF>1G1O=3&E<E2)d6E+>Fuo0JPI>1bq$C3&!3F2_m?L2`)X5
-+>PW*3&!*B2(ggF1bpjI2)$gB+>Fuo0JPO@1,1X=2`3EI1bggI1,^70+>PW*2_[-D1G1O@2)[-F
-0ebRA+>Fuo0JPI>1bq$C3&!3F2_m?L2`)X3+>PW*3&!9H1+kCA2`!3D1,CpI+>Fuo0JPI>1bq$C
-3&!3F2_m?L2`)X40e"Y%4>J$60I/D-1,1L=1,LU?1,h-J2`N]U1E\G,1,1L=1,LU?0f:[C1cIBK
-1*A>+0f:XC1,LUB2Dd6F3&ifS2'=Y.0f:XC1,LUB2Dd6F3&ifS2'=Y.1,CU?0K:[C0JtaB1GpjG
-2]sk00f:XC1,LUB2Dd6F3&ifS2'=Y.0f:XC1,ggC1,LmF3&!?H1E\G,0f:XC1,LUB2Dd6F3&ifS
-2'=Y.0f:XC1,LUB2Dd6F3&ifS2'=Y.0f:XC1,LUB2Dd6F3&ifS2'=Y.1,CU@1,LU?0JGLG1-%?P
-3?U(21,CU@1,LU?0JkaG3ANBJ+>PW*2_[!B2(g^B2E*KK1H73I+>PW+1,(F<3A*0E2)R-K1GgsF
-+>PW+1GCU=3%d*J0fC^B1c.!E+>PW+0JG=<3A**F3&W]N2E3QS+>PW*2D?sC3%d0E2)7*I1cIEL
-+>PW*2D?sC3%d0E2)7*I1cIEL+>PW*2D?sC3%d0E2)7*I1cIEL+>PW*2D?sC3%d0E2)7*I1cIEL
-.4cl01*A>.,Vh&.2)$pD1bL[G3&!-E1bgd@+>PW*2)$pD1bL[G3&!-E1bgd@+>PW*2)$pD2_HsC
-1c@-L1,q3O+>PW*2)$pD2_HsC1c@-L1,q3O+>PW*2)-j@2D-g@1,1I=2E*W=1,(F?0K([F/i>C@
-2D[<J3&`c=1,(F?0K([C/iG[K0JbLB3B8o=1,(F?0K([F/i>C@2D[<J3&`c=1,(I;0K([F/i>OH
-0f:[>1bh!51,(F?0eb=>/i5LC1H79K1c%$41,(F?0K([C/iG[K0JbLB3B8o=1,(F@0JYC@/i5LD
-1c[KK0et^21,(F?0K([F/i>C@2D[<J3&`c=1,(FA0K([?/iP^D2DI!H3&E?41,(F?0K([F/i>C@
-2D[<J3&`c=1,(I<0JbL=/i,IB2_d0L1c%$41,(F?0K([F/i>C@2D[<J3&`c=1,(I;0JP=:/iPXE
-2)d6L3B9&A1,(F?0K([F/i>C@2D[<J3&`c=1,(F?0K([F/i>C@2D[<J3&`c=1,(F?0K([C/iG[K
-0JbLD2`*B71,(F?0K([F/i>C@2D[<J3&`c=1,(F?0K([F/i>C@2D[<J3&`c=1,(F@0JkOE/iYOB
-1,h$J2)I'21,(F@0JkOE/iYOB1,h$J2)I'21,(I;0etI?/i5@C2_d'C3&*E91,(F@0JkOE/iYOB
-1,h$J2)I'21,(F@0JkOE/iYOB1,h$J2)I'21,(F@0JkOE/iYOB1,h$J2)I'21,(F@0JkOE/iYOB
-1,h$J2)I'21,(F@0JkOE/iYOB1,h$J2)I'21,(I;0etO=/iGC;0JPC=3AE621,(F@0JkOE/iYOB
-1,h$J2)I'21,(F@0JkOE/iYOB1,h$J2)I'21,(F@0JkOE/iYOB1,h$J2)I'21,(F@0JkOE/iYOB
-1,h$J2)I'21,(I>0JkI@/i5RG2E<WN1G_$61,(F@0JkOE/iYOB1,h$J2)I'21,(I<0JkL?/i5LA
-2`<NN2E!H91,(F@0JkOE/iYOB1,h$J2)I'21,(I;0JP=:/iPXF2E*KJ1,V'71,(F@0JkOE/iYOB
-1,h$J2)I'21,(F@0JkOE/iYOB1,h$J2)I'21,(F@0JkOE/iYOB1,h$J2)I'21,(F@0JkOE/iYOB
-1,h$J2)I'21,(F@0JkOE/iYOB1,h$J2)I';/1<V7,VUYu-p07-1,'t/0JY=:0ekX?1cI6G3&N]O
-2'=Y.0f:XC1,LUB2Dd6F3A<<G2]sk00fUjF0f(F@3&`cT2`WfS1*A>+0f:XC1,LUB2Dd6F3A<<G
-2]sk00f:XC1,LUB2Dd6F3A<<G2]sk00fUjB1,(=?3ArcL2D?jD3?U(20fLgB0ek:@0JkaF1,_*J
-2'=Y.0fLdD1,COA2DR3G1,1I@0d&5*1,CUA0f^jD0fV*O0f(OE1E\G,0fUmB0K1U?0JbC?3A`TN
-+>PW*2)$pD1bL^F1c-pI0JtUE+>PW+0JGF@2D-g?2Dm<M2)@*F+>PW*2)$pD1bL^F1c-pI0JtUE
-+>PW*2)$pD1bL^F1c-pI0JtUE+>PW+0JP=;1bLXD1H.3K3B0#U+>PW*2)$pD1bL^F1c-pI0JtUE
-+>PW*2)$pD1bL^F1c-pI0JtUE+>PW*3&!*A2D.!F3A<0E3&`TP+>PW*3&!*C0J5=F2Dm9I1H@EM
-+>PW*2_[3F2D-jI2`*NS0eb:;+>PW+0JP::3%d$H1bgsI3ANH71,(I;0JkLD/iPOF2E3KM2`;d6
-0JYF<2D@!@2)R*I0JG1@1-$I40JYF<1bpp@1c@-M3A<0C2)l^60JPI>1bq$C3&!3F2`*EM1bp1/
-0JPO@1,:O93&rlT0K(U>2E;m80JPO@1,([?2_d0G3&30J2)HF20JPO@3AE?C3&<HO3&ENI1cZ[6
-0JYF<2)6s?1c-pH1,h*M1Gp:10JY=:1,1U<2)[0L3&EWM3?U(20fC^B1,pmG0JtUE1c@3J1*A>+
-1,CU?0f1L?1GUX=0JYC+1,(F@0JkOE/iYOB1,h$J2)I'21,(F@0JkOE/iYOB1,h$J2)I'21,(I;
-0etI?/i>OC2`<KQ3&rf<1,(F@0JkOE/iYOB1,h$J2)I'21,(F@0JkOE/iYOB1,h$J2)I'21,(FB
-0JY=A/iPRE2)mBI2DR361,(FB0JYC;/iYjL2)@'F3B/c:1,(FB0JY=A/iPLD1,CpL1,:a:/1<V8
-.4cl00I\P$4>838-p014/3GT                                                  ~>
+3&EQN+>k8s0JYF<2DI$@2)R'F2)-sF0eje*+>PW+1GC^A1bLXA2DI!A1,La/0d&5*1,CUB0f1L?
+1c-pI2)dHN3?U%!1,(F@0JkOE/iYOB1,gsJ1cI660d&5*1,CUB0f1L?1cRKR1,h$F0d&1n1,(I>
+0K(XB/i>ID2)R3N0K:g10d&5*1,CUB0f1L?1b^UA1,CaI1E\Cp1,(I>0K(XB/i>FB1,q9M0K([/
+0d&5*1,CUB0f1L?1bpd>1GLjE2'=Ur1,(F@0JkOE/iYOB1,gsJ1cI660d&5*0fUjB1,ggE2DR*F
+0K(^H0d&4o1,(I;0etI>/i5:=3&*3D1,Uj10d&5*0fC^B1,pmG0JtUE1,q*L1a"M5+>PW+0ebR@
+1G1L?2)@3G0JtaG+>Fuo0JPI>1bq$C3&!3F2_m?L2`)X5+>PW+0ebR@1G1L?2)[9K2)I*30d&5*
+1,1IB0Jb=<3&WZO2`ENJ2BX^s1,(FB0etF>/i,@C2)m?F3&3H90d&5*0fC^B1,pmG0JtUE1,q*L
+1a"Or1,(I>0JbF@/i57B3ANKL0ebR00d&5*0fC^B1,pmG0JtUE1,q*L1a"M/+>PW*3&!6F3%d0E
+0f1mL2)6pG+>Fuo0JPOA0JGL>3&*0E2)@'I1*A:o1,(F@0JkOE/iYOB1,gsJ1cI662]sk01,(F<
+0f1L>1,q*E1H.6J1a"Lq1,(F@0JkOE/iYOB1,gsJ1cI660eje+0JY=:1,1U<1c$pE0JY@;2_uR2
++>PW*2D?sC3%d0E2)7*G3&EQN+?(Du0JPOA0JGI=2`NWL1b^gB1c?I2+>PW*2D?sC3%d0E2)7*G
+3&EQN+>Fuo0JPO@0f(L93&<?G2D[?Q1,0n++>PW*2_[6G0eP:=2`3BG2`*EQ+>Fuo0JPI>1bq$C
+3&!3F2_m?L2`)X7+>PW+0JGI?1bLU?3AiZQ2)%$L+>Fuo0JY=93&!?F2).'L2)I-L3B&'8+>PW*
+2D?sC3%d0E2)7*G3&EQN+>GPm1,(I>0JbL>/i5LG3&<HL3AWK70d&5*1,CUB0JtI?2)-mA2Dd0H
+1*A:o1,(I>0JbL>/i5LG3&<HL3AWK70d&5*1,CUB0f1L?1H.*G2)%$I0d&1n1,(I>0K(XB/i>IC
+1,1^H2`NZ;0d&5*1,CUB0f1L?1c[KR0JYI@2'=Ur1,(I>0K(XB/i>IE0fUsK2)7'40d&5*1,CUB
+0f1L?2)-gG1GL^F3?U%!1,(I>0K(XB/i>I>3&NEJ2`*?60d&5*1,CUB0f1L?1Gh*M1GpjF1*A:o
+1,(I>0K(XB/i>IA0fLgI1GLU,0d&5*0fC^B1,pmG0JtUE1,q*L1a"Xu1,(FB0JtR@/i>IE0K:dE
+1,^s30d&5*0f^pB1GLL<3&roO3AE3H2BX^s1,(F@0JkOE/iYOB1,gsJ1cI661*A>+1,(C@0Jb==
+0K1[E3AWKG2'=Ur1,(I<0JbL=/i,CC2)R<O2)[650d&5*0fC^B1,pmG0JtUE1,q*L1a"b#1,(FA
+0K1aD/ibU?1H.$J1-%*40d&5*0fC^B1,pmG0JtUE1,q*L1a"e$1,(I<0K:dD/iGXC2`NKI3&*64
+0d&5*1,1IB0f:R?1G_!E1c@'H1E\Cp1,(F@0JkOE/iYOB1,gsJ1cI660f:(/0JY=:0ebF:1cI-G
+2)$mE1cZ[5+>PW*2D?sC3%d0E2)7*G3&EQN+>GYp1,(I>0JkOB/i5IB3B8cJ1,V$60d&5*0fC^B
+1,pmG0JtUE1,q*L1a"Ut1,(I;0etI>/i5@<3B/iO2).'50d&5*0fC^B1,pmG0JtUE1,q*L1a"\!
+1,(FC0JY==/iGUH1,h0I3ANT;0d&5*0fC^B1,pmG0JtUE1,q*L1a"M1+>PW+0JG4:1G1UD2D[<L
+1,^j00d&5*1,(C:1,(=>2)dKM3Ar]J0d&1n1,(F@0JkOE/iYOB1,gsJ1cI660d&5*1,(CB0K1UA
+3&3BG0JG@C0d&1n1,(F@0JkOE/iYOB1,gsJ1cI663$9t11,(C@0Jb==0K:mC1,V!F0d&1n1,(F@
+0JkOE/iYOB1,gsJ1cI661E\G,0fUjB0f:RB2)I'E3AiKH1E\Cp1,(FB0JY@?/iPXE1,L^B3ANK8
+0d&5*0fLdE0Jb==1Gq'E1bg[D0d&1n1,(F@0JkOE/iYOB1,gsJ1cI660d&5*0fUjG1,:I=2E*EI
+0etOF1a"Lq1,(F@0JkOE/iYOB1,gsJ1cI661,14/-p07-0eak.0JY@;1,:[=1bq!K1H.9O3AVd5
+0JY@;1,:[=1bgjB2)I6O0esk,0JPF=2DR*A2`<KL0fV-N2DlU40JPF=2DR*A2`<KL0fV-N2DlU4
+0JYF<1GCd@2D@!H0JbR?3&_s80JPF=2DR*A2`<KL0fV-N2DlU40JPF=2DR3D2)7!H1H7'K0Jah,
+0JPF=2DR*A2`<KL0fV-N2DlU40JPF=2DR*A2`<KL0fV-N2DlU40JPF=2DR*A2`<KL0fV-N2DlU4
+0JYF<1bpm?1b^UD2_mBR2)ud70JYF<1bpm?1b^aG1c[<I2'=Y.0fLdA1,U[@1c@9M1,CmH1E\G,
+1,:O<1-$sE1,UpE3&<BK1E\G,1,CU?0K:[C2_d3E1c.$F1E\G,1,(C=0f^jB2)mKQ1,_*L3?U(2
+0fC^B1,pmG0JtUE1c.-O0d&5*0fC^B1,pmG0JtUE1c.-O0d&5*0fC^B1,pmG0JtUE1c.-O0d&5*
+0fC^B1,pmG0JtUE1c.-O0e"Y%4>J$71F+_00f:XC1,LUA3&iTJ1GggB0d&5*0f:XC1,LUA3&iTJ
+1GggB0d&5*0f:XC1,ggC1,LmF3&3HP2]sk00f:XC1,ggC1,LmF3&3HP2]sk00f:[@0fCX@0etI;
+1H%0P+>PW*2)$pD2_HsC1c@-L1,q3O+>PW*2)$pD1bL[G3&!-E2*!ZR+>PW*2)$pD2_HsC1c@-L
+1,q3O+>PW+0JGC?2_HsG3&*9F0JkLE+>PW*2)-d>2(g^E1G_!K1GgmG+>PW*2)$pD1bL[G3&!-E
+2*!ZR+>PW*2D?mA2(g^E1c.3O0JP=B+>PW*2)$pD2_HsC1c@-L1,q3O+>PW*2_[-F0J5:C0fCaB
+2`NWK+>PW*2)$pD2_HsC1c@-L1,q3O+>PW+0ebC>0J5.@1,gpF3&EEL+>PW*2)$pD2_HsC1c@-L
+1,q3O+>PW+0JG4:0J5:A1c73H3&ruY+>PW*2)$pD2_HsC1c@-L1,q3O+>PW*2)$pD2_HsC1c@-L
+1,q3O+>PW*2)$pD1bL[G3&!-E2`EQN+>PW*2)$pD2_HsC1c@-L1,q3O+>PW*2)$pD2_HsC1c@-L
+1,q3O+>PW*2D?sC3%d0E2)7*I2Dm<H+>PW*2D?sC3%d0E2)7*I2Dm<H+>PW+0JP=;1bLU@2`EHH
+1,q!K+>PW*2D?sC3%d0E2)7*I2Dm<H+>PW*2D?sC3%d0E2)7*I2Dm<H+>PW*2D?sC3%d0E2)7*I
+2Dm<H+>PW*2D?sC3%d0E2)7*I2Dm<H+>PW*2D?sC3%d0E2)7*I2Dm<H+>PW+0JP==0J57;0JG4<
+0f^sC+>PW*2D?sC3%d0E2)7*I2Dm<H+>PW*2D?sC3%d0E2)7*I2Dm<H+>PW*2D?sC3%d0E2)7*I
+2Dm<H+>PW*2D?sC3%d0E2)7*I2Dm<H+>PW+1GCX>2(g^G2)[HP1G^gI+>PW*2D?sC3%d0E2)7*I
+2Dm<H+>PW+0ebF=1G1LC0fM!J2)[?N+>PW*2D?sC3%d0E2)7*I2Dm<H+>PW+0JG4:0J5:A2)[BN
+0etUH+>PW*2D?sC3%d0E2)7*I2Dm<H+>PW*2D?sC3%d0E2)7*I2Dm<H+>PW*2D?sC3%d0E2)7*I
+2Dm<H+>PW*2D?sC3%d0E2)7*I2Dm<H+>PW*2D?sC3%d0E2)7*I2Dm<H.4cl00I/>$/1<V9+>PVr
+1,(I;0ekCB/i5LD0fV$N1,U100JPF=2DR*A2`<KL0f^pF1,g=20JPO@2DI!?2`N`T2`E`U2)6:0
+0JPF=2DR*A2`<KL0f^pF1,g=20JPF=2DR*A2`<KL0f^pF1,g=20JPO@1,:O93&rlT0K(U>2E;m8
+0JPL@1,1L93A<9L1GUjJ1Gp:10JPL?2)6s?2`<EM0etI;2DH=00JYF<2).*D2).'L3&*3D3AVd5
+0JPOA0ebO=1GCU=2*!KN2'=Y.0f:XC1,LUB2Dd6F3A<<G2]sk01,(C@1,^aA0K(dF2`3BK1*A>+
+0f:XC1,LUB2Dd6F3A<<G2]sk00f:XC1,LUB2Dd6F3A<<G2]sk01,(F<0f1L?2D[9M1c[NU1a"P-
+0f:XC1,LUB2Dd6F3A<<G2]sk00f:XC1,LUB2Dd6F3A<<G2]sk00fUjB0K(OD1-%$C1cREL3$9t1
+0fUjB1,(=?3Ar`N1c%-O1*A>+0fLdG0K(O@3B&cT3&**@1E\G,1,(F;0fUdB2`*6K2*!EL+>PW+
+0JG=<3%d-F3&W`P2)dE91,(I>0K(XB/i>L@0f_$E1cIE;1,(I>0JkOB/i5IB3B8cJ1,V$61,(F@
+0JkOE/iYOB1,h$J2)I'21,(FB0JYC;/iYjL2D@$C0fD$71,(FB0JY=A/iPLB1H7-D3AiW91,(FB
+0KCjE/iYXF2`NWP0Jkd41,(I>0JtUA/i5C>3&3EN2`!<61,(I;0etI?/i>OA3B/iU0f^@30JPI>
+1bq$C3&!3F2`*EM1bp1/0JYF<1GL^=2)@!A0eb@<+>PW*2D?sC3%d0E2)7*I2Dm<H+>PW*2D?sC
+3%d0E2)7*I2Dm<H+>PW+0JP=;1bLXD1H.3K3B0#U+>PW*2D?sC3%d0E2)7*I2Dm<H+>PW*2D?sC
+3%d0E2)7*I2Dm<H+>PW*3&!*A3%d-G2DmHM1,^mH+>PW*3&!*C0J5=F2Dm9I1H@EM+>PW*3&!*A
+3%d-E2_m0L2_m-H.4cl00e"Y%4>838-p014/1<V7.4dS8                             ~>
 )
 cocurrent 'base'  NB.{*JOD*}
 puttstamps_ijod_=: (((1;'upgrade JOD')"_)`putallts__MK__JODobj)@.(3 = (4!:0)<'putallts__MK__JODobj') NB.{*JOD*}
