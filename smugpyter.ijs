@@ -1,5 +1,5 @@
-NB. sha256:8e877e60cb6bab3c0bf558e607afbc8a302b66aef9cd9410cb01c86010d46dc0
-NB. JOD dictionary dump: 31 Aug 2023 10:55:22
+NB. sha256:ee9a5d26ddaaae9ba8971e325d4fb2b8139323585b0d89d635743661b2f909ed
+NB. JOD dictionary dump: 07 Sep 2023 12:51:00
 NB. Generated with JOD version; 1.0.26 - dev; 7; 25 Aug 2023 13:22:10
 NB. J version: j9.5.0-beta6/j64avx2/windows/commercial/www.jsoftware.com/2023-08-21T23:47:31/clang-15-0-7/SLEEF=1
 NB. JOD put dictionary path: /smugpyter/utils
@@ -203,7 +203,7 @@ UpdateLocalPresent_sql=:'update Album set LocalPresent = 1 where AlbumKey in '
 
 UploadRateCount_sql=:'select count(1) as ImageCnt, strftime("%Y", {{date}}) as Year from OnlineImage group by strftime("%Y", {{date}}) order by strftime("%Y", {{date}})'
 
-VMDbrandxmp=:'0.7.0';6;'28 Aug 2023 15:22:43'
+VMDbrandxmp=:'0.7.0';8;'07 Sep 2023 12:48:46'
 
 VMDmirrorstats=:'0.5.1';7;'27 Aug 2023 11:19:12'
 
@@ -223,7 +223,7 @@ XMPWID=:75
 
 XMPZIPFILE=:'00xmpbak.zip'
 
-brandxmp_hashdateurl=:<;._1 '|d499290c7e6b9a944f75fc168c1ccd23e6ee33b8eb110c43127380ccfab1a8fa|28 Aug 2023 15:22:43|https://github.com/bakerjd99/jackshacks/blob/main/brandxmp.ijs'
+brandxmp_hashdateurl=:<;._1 '|6c2c11c7fce796f8fd8b1d55e0307cf9cfb777b6651c224f723ae1aebbf04720|07 Sep 2023 12:48:46|https://github.com/bakerjd99/jackshacks/blob/main/brandxmp.ijs'
 
 showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
@@ -2445,7 +2445,8 @@ adir=. tslash2 y
 ferase xmpbak=. '"',adir,XMPZIPFILE,'"'
 NB. j profile !(*)=. IFWIN IFUNIX
 if. IFWIN do.
-  zcmd=. 'zip -f -j ',xmpbak,' "',adir,'*.xmp"'
+  opts=. (fexist xmpbak)#' -f '
+  zcmd=. 'zip ',opts,' -j ',xmpbak,' "',adir,'*.xmp"'
 elseif. IFUNIX do.
   NB. msgs=. shell 'rm ',xmpbak
   zcmd=. 'zip ',xmpbak,' "',adir,'"*.xmp'
@@ -6020,7 +6021,7 @@ F)Q(O+:SYe$?L'&F`_SFF<F.E5sn((3Zoh)+?CW!.1HVZ67sB/<+pDk@WP7XEcQ)=.3N>BFCfK)
 DKBB0F<GL>Ch[cu+CT(qF_u1B@<3Q5BQ\0$F!,+(Ci!['Bk;?.Bl5&4EbTB!Ed8d<@<>pe@<5uh
 $7QDk%16T`@s)g4ASuT4-XpM*AL@oo@rH(!F(KB6+<W%2BQ\0$F%p@hEc5tG%13OO:et"h?Xe%a
 DIe!/E&'.C67u)1;cI+5Ea`irG\qCBE,Tf>+E2@>@qB_&DfRHQ%13OOF)>i<FDuAE+A#$g6Ua.!
-+=Jod3Zp+*%15is/g)QOEa`irG\qCK+DG_8ATDBk@q?d,DfTA:F"'-m1,(I>0K:gIC,%S$1,Lco
++=Jod3Zp+*%15is/g)QOEa`irG\qCK+DG_8ATDBk@q?d,DfTA:F"'-m1,(I>0KCgGC,%J#3&EN#
 :-pQU/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/I`%^67sBhF_"s%@;]UdBlY==:-pQU@<H*p
 F<GgFE%c6?G9CU:@:s-oA8-'q@ruX0Bk;>p$;No?+EM7-ARf.hF!)SJ+<XEG/g+kF@:s-oEaa05
 +EqOABHUf'EcP`4E,TW)Bl7Q+F(o/r@psC#G\qCBAnc'mEt&IO67sC&Blmg)@;]UdBlY==:-pQU
@@ -8824,32 +8825,32 @@ zz=:zz,'le list mean nearchromicity ofreq pydictfrctab pydictfrunif quote r'
 zz=:zz,'eadtd2 rgbdist stability tlf unifdist webdist xkcdcolorfreq xkcddis'
 zz=:zz,'t''),(<<;._1 '' brandxmp CR IFACEWORDSbrandxmp LF RAWFILETYPES ROOTWO'
 zz=:zz,'RDSbrandxmp VMDbrandxmp XMPAUDITFILE XMPBRDEL XMPTITLEFRAG XMPWID X'
-zz=:zz,'MPZIPFILE afterlaststr afterstr allraws alltrim audbranddir befores'
-zz=:zz,'tr betweenstrs boxopen changestr ctl cutnestidx dlf extfreq fboxnam'
-zz=:zz,'e ferase fexist firstones geteletext justfileext list ofreq read sh'
-zz=:zz,'a256 shabrand sidecars tags timestamp titbranddir titbrandxmp tlf t'
-zz=:zz,'oCRLF toHOST toJ tolower toupper tslash2 winpathsep wrecho write''),'
-zz=:zz,'(<<;._1 '' debrii DEBRIIBAT DEBRIIEXT charsub ctl dblquote debrii ju'
-zz=:zz,'stext toCRLF toHOST toJ tolower write''),(<<;._1 '' mirrorstats ALTMI'
-zz=:zz,'RRORDBPATH AlbumImageCount AlbumImageCount_sql AlbumImages_sql CR F'
-zz=:zz,'reePanoramas GeotaggedAlbumImages_sql IFACEWORDSmirrorstats LF MIRR'
-zz=:zz,'ORDB MIRRORDBPATH MeeusHomeLonLat NotDivisible Panoramas_sql ROOTWO'
-zz=:zz,'RDSmirrorstats TAB VMDmirrorstats albdist albextent antimode arctan'
-zz=:zz,' assert beforestr charsub cos dbquote dev dlf dstat earthdist fmttd'
-zz=:zz,' freq fsd fst gpsextremesdiffs gpsextremesgallery histogram2 itYMDh'
-zz=:zz,'ms kurtosis mean meanalbdist meanalblonlat median midpt mirrorcn mo'
-zz=:zz,'de2 nonemptyalbums ofreq portchars pwcf q1 q3 read rebc rfd round s'
-zz=:zz,'in skewness ssdev stddev var write yearcaptionwords''),(<<;._1 '' rul'
-zz=:zz,'ethird rulethirdsq rulethirdsqimg''),(<<;._1 '' smugfixes AlbumImages'
-zz=:zz,'_sql AllImagesWithKey_sql MIRRORDB MIRRORDBPATH MonthUpCount_sql SM'
-zz=:zz,'UGAREAROUND SMUGASPECTROUND SMUGMINAREA SMUGPRINTDPI SMUGPYTERSIZES'
-zz=:zz,' UpCount_sql WEB_PyColors all3x4gals allsmugratio assert boxopen co'
-zz=:zz,'lorfrac delimgkey dpiarearatio fmttd keyfrac mirrorcn readtd2 round'
-zz=:zz,' showpass sizefrac smugalbums smugratio toCRLF toHOST toJ tslash up'
-zz=:zz,'count upmonth write''),<<;._1 '' smugpyter SMUGAREAROUND SMUGASPECTRO'
-zz=:zz,'UND SMUGPRINTDPI SMUGPRINTSIZES assert charsub dpiarearatio printsi'
-zz=:zz,'zestable round smugprintsizes sortprintsizes''                      '
-zz=:5941{.zz
+zz=:zz,'MPZIPFILE afterlaststr afterstr allraws alltrim assert audbranddir '
+zz=:zz,'beforestr betweenstrs boxopen changestr ctl cutnestidx dlf extfreq '
+zz=:zz,'fboxname ferase fexist firstones geteletext justfileext list ofreq '
+zz=:zz,'read sha256 shabrand sidecars smoutput tags timestamp titbranddir t'
+zz=:zz,'itbrandxmp tlf toCRLF toHOST toJ tolower toupper tslash2 winpathsep'
+zz=:zz,' wrecho write''),(<<;._1 '' debrii DEBRIIBAT DEBRIIEXT charsub ctl db'
+zz=:zz,'lquote debrii justext toCRLF toHOST toJ tolower write''),(<<;._1 '' m'
+zz=:zz,'irrorstats ALTMIRRORDBPATH AlbumImageCount AlbumImageCount_sql Albu'
+zz=:zz,'mImages_sql CR FreePanoramas GeotaggedAlbumImages_sql IFACEWORDSmir'
+zz=:zz,'rorstats LF MIRRORDB MIRRORDBPATH MeeusHomeLonLat NotDivisible Pano'
+zz=:zz,'ramas_sql ROOTWORDSmirrorstats TAB VMDmirrorstats albdist albextent'
+zz=:zz,' antimode arctan assert beforestr charsub cos dbquote dev dlf dstat'
+zz=:zz,' earthdist fmttd freq fsd fst gpsextremesdiffs gpsextremesgallery h'
+zz=:zz,'istogram2 itYMDhms kurtosis mean meanalbdist meanalblonlat median m'
+zz=:zz,'idpt mirrorcn mode2 nonemptyalbums ofreq portchars pwcf q1 q3 read '
+zz=:zz,'rebc rfd round sin skewness ssdev stddev var write yearcaptionwords'
+zz=:zz,'''),(<<;._1 '' rulethird rulethirdsq rulethirdsqimg''),(<<;._1 '' smugf'
+zz=:zz,'ixes AlbumImages_sql AllImagesWithKey_sql MIRRORDB MIRRORDBPATH Mon'
+zz=:zz,'thUpCount_sql SMUGAREAROUND SMUGASPECTROUND SMUGMINAREA SMUGPRINTDP'
+zz=:zz,'I SMUGPYTERSIZES UpCount_sql WEB_PyColors all3x4gals allsmugratio a'
+zz=:zz,'ssert boxopen colorfrac delimgkey dpiarearatio fmttd keyfrac mirror'
+zz=:zz,'cn readtd2 round showpass sizefrac smugalbums smugratio toCRLF toHO'
+zz=:zz,'ST toJ tslash upcount upmonth write''),<<;._1 '' smugpyter SMUGAREARO'
+zz=:zz,'UND SMUGASPECTROUND SMUGPRINTDPI SMUGPRINTSIZES assert charsub dpia'
+zz=:zz,'rearatio printsizestable round smugprintsizes sortprintsizes''      '
+zz=:5957{.zz
 showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
@@ -9442,10 +9443,10 @@ BQ\0$F&d9mE_BthF!iCf-p0=A+>P2t0JYF<1bpp@2)-dA2)R9H1,0n-2]sk01,CUD1,^aA1bpd@
 3&NWM+>Fuo0JYF<1bpp@2)-dA2)R<Q3&Da41a"P-1,CUA1,ggC0JG==0etI?3$9pu1,(I>0JkOB
 /i>@;1c7-L3B/i<3$9t11,CUB0f(F=2_m*G1cI?R3?U%!1,(I>0JkOB/i>@;1c7-K0etI+2]sk0
 1,CUD1,^aA1H7'I1GCX@3$9pu1,(I>0JkOB/i>@;1c7-K0etI+3$9t11,CUD1,ggB1c[9F1cRKR
-1a"Lq1,(I>0JkOB/i>@;1c7-L3B/i<1,g=20JYF<3&3HG2Dd*H2`3NO0f'q,+>PW+1GCdD2_HpG
-0fCsH0fUsD+>Fuo0JYF<1bpp@2)-dA2)R9H1,0n2+>PW+1GCdD2(g^G1c.'E0f([D+>Fuo0JYF<
-1bpp@2)-dA2)R<Q3&Da:+>PW+1GCdD3%d*G0JPC>1cIB:0d&5*1,CU@1,U[A0ebFA2)dNT1a"Lq
-1,(I>0K:gI/iGO?2`EWN2`EK70d&5*1,CU@1,U[A0ebFA2)dNT1a"P1+>PW+1GCdD2_HpE1H$sI
+1a"Lq1,(I>0JkOB/i>@;1c7-L3B/i<1,g=20JYF<3A<BE2)@$J2`<EF1E\Cp1,(I>0K:gH/i5LA
+2E*EH3&<930d&5*1,CU@1,U[A0ebFA2)[0E0d&Fu1,(I>0K:gF/i5RF1c7!B1Gq!30d&5*1,CU@
+1,U[A0ebFA2)dNT1a"_"1,(I>0KCgG/i>F@2E*TO0ek[20d&5*1,CU@1,U[A0ebFA2)dNT1a"Lq
+1,(I>0KCgG/i>F@3&``N2`!E90d&5*1,CU@1,U[A0ebFA2)dNT1a"P1+>PW+1GCdD2_HpE1H$sI
 0ekI,0d&5*1,CU@1,U[A0ebFA2)dNT1a"b#1,(I>0JtUE/i5I?1H@BK1bq'60d&5*1,CU@1,U[A
 0ebFA2)dNT1a"Or1,(I>0K:gH/i5LA2E*EK1H%*50d&5*1,CU@1,U[A0ebFA2)dNT1a"Y0.4cl0
 1a"P!1,(I>0JkOB/i>@;1c7-N2`!950ea_*0JYF<2)7*C1cR0E3Ai`P0JO\)+>PW+1GC[A2_HpH
@@ -9458,12 +9459,12 @@ BQ\0$F&d9mE_BthF!iCf-p0=A+>P2t0JYF<1bpp@2)-dA2)R9H1,0n-2]sk01,CUD1,^aA1bpd@
 +>PW+1GCX@2(ga@0JkXF2).$G+>PW+1GCX@2(ga@0JkXF2).$G+>PW+1GCX@2(ga@0JkXF2).$G
 +>PW+1GCX@2(ga@0JkXF2E<cX+>PW+1GCX@2(ga@0JkXF2E<cX+>PW+1GCX@2(ga@0JkXF2`EEL
 +>PW+1GCX@2(ga@0JkXF3Ai]T+>PW+1GCX@2(ga@0JkXG0f(gI+>PW+1GCX@2(ga@0JkXG1GL^E
-+>PW+1GCX@2(ga@0JkXG2)$^D+>PW+1GCdD2(g^G0f1dF3&*<61,(I>0JkOB/i>@;1c73N0KCs4
-1,(I>0K:gH/i5=D1H@HL3AiZ:1,(I>0JkOB/i>@;1c73P1b^a/1,(I>0JkOB/i>@;1c73P1b^a/
-1,(I>0JkOB/i>@;1c76I1,_'?/1<V7,VUYu-p04=+>P2t0JYF<1bpp@2)-dA2)[6I1,C%0+>PW+
-1GC[A2_HsB3ArTG1G^jC+>Fuo0JYF<1bpp@2)-dA2)[6I1,C%.2'=Y.1,CUA1,ggC0f_-H0JbLA
-1*A:o1,(I>0JtUE/i>=:1bpaE2)d950d&5*1,CU@1,U[A0ebFA2D[0F1E\Fq1,(I>0K:gI/iGO?
-2`ETQ2)-m00d&5*1,CUD1,ggB2_d3L1GLjF0d&1n1,(I>0JkOB/i>@;1c70I1bpj00eje+0JYF<
++>PW+1GCX@2(ga@0JkXG2)$^D+>PW+1GCgC2_HsC2*!TR3&rlQ+>PW+1GCX@2(ga@0JkXG2_[6K
++>PW+1GCdD2_HpB3AWZU0KD!J+>PW+1GCX@2(ga@0JkXG3A`EH+>PW+1GCX@2(ga@0JkXG3A`EH
++>PW+1GCX@2(ga@0JkXH0etXG.4cl00I/>$/1<V80d&4s1,(I>0JkOB/i>@;1c70I1bpj01a"P-
+1,CUA1,ggC0f_-H0JbLA1*A:o1,(I>0JkOB/i>@;1c70I1bpj01,U100JYF<2)7*C2).*L0ebC>
+1bp1.+>PW+1GC[A2_HsA0JkO=3&NWM+>Fuo0JYF<1bpp@2)-dA2)[6I1,C%.+>PW+1GCgC2_HsD
+1H7<O1,(L,0d&5*1,CUD1,ggB2_d3L1GLjF0d&1n1,(I>0JkOB/i>@;1c70I1bpj00eje+0JYF<
 3&3BE1H@3N3ArWH1GU(-+>PW+1GCX@2(ga@0JkXF1GgjC+>bMu-p045/1<V8.4cl00I\P$4>838
 4>?                                                                       ~>
 )
