@@ -1,5 +1,5 @@
-NB. sha256:3bb7c2b81cc8d3e877612c812849ff6b05ce456d666ecc5fb36b54560fbd4684
-NB. JOD dictionary dump: 21 Dec 2023 13:15:33
+NB. sha256:6c15000a1d059df583aa76a0962006aa736a890e220d0b640fb0db2cafa24225
+NB. JOD dictionary dump: 25 Dec 2023 12:27:38
 NB. Generated with JOD version; 1.0.26 - dev; 10; 07 Dec 2023 11:45:38
 NB. J version: j9.5.0-beta9/j64avx2/windows/commercial/www.jsoftware.com/2023-12-06T14:18:10/clang-16-0-6/SLEEF=1
 NB. JOD put dictionary path: /play/utils
@@ -62,13 +62,13 @@ ROOTWORDSslipslide=:<;._1 ' IFACEWORDSslipslide ROOTWORDSslipslide VMDslipslide 
 
 TruthManagement=:34 84 114 117 116 104 32 109 97 110 97 103 101 109 101 110 116 32 105 115 32 101 110 97 98 108 101 100 46 34 10 10 69 120 99 101 114 112 116 32 102 114 111 109 32 105 110 116 101 114 110 97 108 32 98 117 115 105 110 101 115 115 32 100 111 99 117 109 101 110 116 46 32 10{a.
 
-VMDslipslide=:'0.5.0';01;'21 Dec 2023 13:10:51'
+VMDslipslide=:'0.5.1';01;'25 Dec 2023 12:25:13'
 
 configjax=:60 115 99 114 105 112 116 32 116 121 112 101 61 34 116 101 120 116 47 120 45 109 97 116 104 106 97 120 45 99 111 110 102 105 103 34 62 10 32 32 77 97 116 104 74 97 120 46 72 117 98 46 67 111 110 102 105 103 40 123 116 101 120 50 106 97 120 58 32 123 105 110 108 105 110 101 77 97 116 104 58 32 91 91 39 36 39 44 39 36 39 93 44 32 91 39 92 92 40 39 44 39 92 92 41 39 93 93 125 125 41 59 10 60 47 115 99 114 105 112 116 62 10{a.
 
 phi=:1.6180339887498949
 
-slipslide_hashdateurl=:<;._1 '|2f8300861455f88675586dbf3e074c8b213631b54de806691d2140e4bf4c41d4|21 Dec 2023 13:10:51|https://github.com/bakerjd99/jacks/blob/master/slipslide/slipslide.ijs'
+slipslide_hashdateurl=:<;._1 '|fb1b00a688aad3681eb5563f53f7bee4e963086b63b4483ef3f35fd10de943f2|25 Dec 2023 12:25:13|https://github.com/bakerjd99/jacks/blob/master/slipslide/slipslide.ijs'
 
 sumProc=:85 139 236 51 192 139 85 12 139 77 8 65 73 116 7 3 2 131 194 4 235 246 93 195{a.
 
@@ -895,19 +895,19 @@ NB.*slipslide0  v-- estimate  slide  of  object  on  frictionless
 NB. plane.
 NB.
 NB. This verb estimates how far a slowly  moving <20 m/sec object
-NB. will slide  on a perfectly frictionless flat  plane when only
+NB. will slide  on a perfectly flat frictionless  plane when only
 NB. acted upon by air resistance.
 NB.
 NB. verbatim:
 NB.
 NB. The basic formula is: R = ½ρCAv^2  https://physics.info/drag/
 NB.
-NB. R   drag force (Newtons) (kg*m/sec^2)							
-NB. ρ   air density (kg/m^3)	
+NB. R   drag force (Newtons) (kg*m/sec^2)				
+NB. ρ   air density (kg/m^3)
 NB. C   coefficient of drag
-NB.     constant determined by experiment				
-NB. A   projected area (m^2)							
-NB. v   velocity (m/sec)	
+NB.     constant determined by experiment	
+NB. A   projected area (m^2)				
+NB. v   velocity (m/sec)
 NB.
 NB. monad:  flSva =. slipslide fl
 NB.
@@ -932,8 +932,11 @@ NB.   (0.001,1000 * 3600 * 2) slipslide0 lyinghuman 8.8
 
 'rho C A M vn'=. y [ 'dT cnt'=. x
 
-NB. initial drag force and acceleration
-an=. rn % M [ rn=. 0.5 * rho * C * A * vn^2
+NB. drag constant
+drgc=. 0.5 * rho * C * A
+
+NB. initial acceleration and drag
+an=. rn % M [ rn=. drgc * vn^2
 
 S=.  0  NB. total distance
 
@@ -941,14 +944,14 @@ for_step. i. cnt do.
   dS=. dT * vn       NB. step distance
   vn=. vn - an * dT  NB. new velocity (decreasing)
 
-  NB. new drag and acceleration
-  an=. rn % M [ rn=. 0.5 * rho * C * A * vn^2
+  NB. new acceleration and drag
+  an=. rn % M [ rn=. drgc * vn^2
 
   S=. S + dS
 end.
 
 NB. distance, end velocity, acceleration, step count
-S,vn,an,>:cnt
+S,vn,an,cnt
 )
 
 spiral1=:- ]\ >:@:i.@:*: [`]`[}  [: /: [: ,/ [: (>.&| , 12&o.@:(1j_1&*)@:j.)"0/~ i. - -:@:<:
@@ -1495,7 +1498,7 @@ Bl8!'Ec`EH-Xgb2E$nIX;cI+)ATDj+Df.p\F`);4EcWuj:-pR0:K(5"<b6;mBl@lVDfor>ATDi7
 E,Tf>+E2@>@qB_&DfQs0$4R>PDe!p1Eb0-1+=CW,F(H^.$=e!gDKBB0F<D\R<b6;mBl@lVDfor>
 ATDi>:et"h?ZU$tE-#i0A7[MN:-pR0:K(5"F)5Q0F)5Q$AKYr1F*&ODEc5H!F)u8?/g(T1%17/n
 Dfp/@F`\`t7R9C14ZX]60H`D!0I[G<:-pQU.!'3=E-#i0A7[24Bl8$(Eb8`iAKZ28Eb$S>.68S,
-0JYF=1,:S!0f(O<2),G567sB4/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/I`%^67sBsH"h//BQ\0#
+0JYF=1,:_%0etLA0f'/367sB4/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/I`%^67sBsH"h//BQ\0#
 DBL&E+<XEG/g,4OBk1ctE+*cqD.Rg#EcW@8DfQt/+D>n7@;[3(H"h//+CoD7DBNP"@qfgn+EqO;
 A.8l@67sC%BQ%g2ATDWrEaiir+<XEG/g,4OBk1ctE+*cqD.Rg#EcW@8DfQsT3GiUUB5D!tF!,O;
 Df9`/EZf4-Eaiir%15is/g,4OBlJ-0Bk1d/+<VdL+AP6U+D#V9Bl.:#AKZ&1Bk1ctDe:,1@VTIa
@@ -2537,11 +2540,11 @@ DdR6mF!iCf-p0:D+>P2t0JY=91GUg?2E*QO0JP7>2)l^7+>PW+0JP=:3A*-F3AN?F1c$gD+>Fuo
 2E<KJ0fM!50d&5*1,CX?1,1C<2_['I0K1pI3?U%!1,(I;0JbIA/iGXI1b^X=3ANH73?U(21,(F:
 1GCF=1,:dK0K(XB2'=[t1,(I;0etFC/i5CF1,:UA1GC^00d&5*1,(F:1GCF=1,:dK0K1gC1*A;/
 +>PW+1GLX?0eP:?3A<BI2)I0G+>Fuo0JY=:0JbC82)6pG3A<BK0esk+1a"P-1,CX?1,1C<3&WHI
-2E!6K2'=Ur1,(I;0ebC;/i>C>2`WQN1bga.0d&5*1,CX?1,1C=1c[<F1GLR<2'=Ur1,(I;0etFC
+2E!6K2'=Ur1,(I;0ebC;/i>C>2`WQN1bga.0d&5*1,CX?1,U[A0fLsF0f1U>1*A:o1,(I;0etFC
 /i57;2)m<H2)7*50d&5*1,(F:1GCF=1,:dK0K1gC1*AFs1,(I=0JY=A/iGOB1,1aH3ANE60d&5*
 1,(F:1GCF=1,:dK0K1gC1*A>,+>PW+1GLX?0J57A1cR3M2`!3F+>Fuo0JY=:0JbC82)6pG3A<BK
-0esk+0d&5*1,CX?1,(==1cR?M2`EWR1E\Cp1,(I>0etL=/i>I>2Dm6I2E<T:0d&5*1,CX?1,1C=
-1c[<F1GUpK3$9pu1,(I;0ebC;/i>C>2`WQN1bga.3@QL-4>J$9,Vh&/0JG:<2(gdG2`*3C2E*NR
+0esk+0d&5*1,CX?1,(==1cR?M2`EWR1E\Cp1,(I>0etLA/i>@@2E<ZU0KCp30d&5*1,CX?1,U[A
+0fLsF0f_-M1*A:o1,(I;0ebC;/i>C>2`WQN1bga.3@QL-4>J$9,Vh&/0JG:<2(gdG2`*3C2E*NR
 +>PW+1GLX?0eP:A2)mNP1H@3K+>PW+1GLX?0eP:B3B/rP2_d-F+>PW+0JG:<2(gdG2`*3C2E*NR
 +>PW+0JP7;0J54<1,h3J0Jt[A+>PW+1GLX?0eP:A2)mNP1H@3K+>PW+1GLX?0eP=;0K1dD1,^pJ
 +>PW+0JP7;0J54<1,h3J0Jt[A.4cl00ea_*,Vh&/0JG:<2(gdG2`*3D0fV*H+?:Q"0JY=:1,1I8
@@ -2554,7 +2557,7 @@ DdR6mF!iCf-p0:D+>P2t0JY=91GUg?2E*QO0JP7>2)l^7+>PW+0JP=:3A*-F3AN?F1c$gD+>Fuo
 1,(C<1,U[B2`EQI0f^sC2'=k$1,(I>0etL=/i5=>0JtUA2`*<50d&5*1,(C<1,U[B2`EQI0f^sC
 2'=Ur1,(I;0ebC;/i>C>2`WTJ0f1[/0d&5*1,(F<0KCaB1GCU=1,(F<2]sgt1,(I;0ebC;/i>C>
 2`WTJ0f1[/1a"P-1,(F<0ek::3AWQI0JkLA1a"Lq1,(I;0ebC;/i>C>2`WTJ0f1[/0d&5*1,CX?
-1,1C=1c[<F1GLR<2'=Ur1,(I;0ebC;/i>C>2`WTJ0f1[/3$9t11,CX?1,1C<1,gsD2)[3G1E\Cp
+1,U[A0fLsF0f1U>1*A:o1,(I;0ebC;/i>C>2`WTJ0f1[/3$9t11,CX?1,1C<1,gsD2)[3G1E\Cp
 1,(I;0ebC;/i>C>2`WTJ0f1[/0e"Y%4>A99-p014/1<V8.4cl00I\P80`                 ~>
 )
 cocurrent 'base'  NB.{*JOD*}
