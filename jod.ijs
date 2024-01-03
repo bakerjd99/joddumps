@@ -1,13 +1,13 @@
-NB. sha256:ec049403ed0eb3ae2ca8c3775663e8a8f40b02e9bae7ee75133badb55b7ba86a
-NB. JOD dictionary dump: 03 Apr 2023 10:28:09
-NB. Generated with JOD version; 1.0.25 - dev; 11; 03 Apr 2023 10:21:09
-NB. J version: j903/j64avx2/windows/release-a/commercial/www.jsoftware.com/2021-12-16T15:15:09/clang-13-0-0/SLEEF=1
+NB. sha256:bb1cba7671a30efa51f5e5ec7d65f7d4991c69bbc8fb8ec5c594dcd5828d18b5
+NB. JOD dictionary dump: 02 Jan 2024 16:26:03
+NB. Generated with JOD version; 1.0.26 - dev; 18; 02 Jan 2024 16:09:06
+NB. J version: j9.5.1/j64avx2/windows/commercial/www.jsoftware.com/2023-12-20T04:09:52/clang-16-0-6/SLEEF=1
 NB. JOD put dictionary path: /jod/utils
 NB.
 NB. Names & DidNums on current path
-NB. +---+---------------------------------------+
-NB. |jod|150437487969232305338530111782486348726|
-NB. +---+---------------------------------------+
+NB. +---+--------------------------------------+
+NB. |jod|26554947862523393396208507303258448342|
+NB. +---+--------------------------------------+
 
 9!:41 [ 1 NB.{*JOD*}
 cocurrent 'base' NB.{*JOD*}
