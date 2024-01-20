@@ -1,12 +1,12 @@
-NB. sha256:81ce302730ed819c85ed6713123a6256784cb8c412603cd55272caa35f1ec9fd
-NB. JOD dictionary dump: 12 Apr 2023 10:52:02
-NB. Generated with JOD version; 1.0.25; 14; 04 Apr 2023 09:24:10
-NB. J version: j9.4.2/j64avx512/windows/commercial/www.jsoftware.com/2023-04-10T01:15:50/clang-15-0-7/SLEEF=1
+NB. sha256:3aa353ab57483d3247c6e94ba3eaec24e77cfbcf3f34f78777779f2ad78a34cf
+NB. JOD dictionary dump: 16 Jan 2024 12:05:50
+NB. Generated with JOD version; 1.1.0 - dev; 6; 14 Jan 2024 14:23:20
+NB. J version: j9.5.1/j64avx2/windows/commercial/www.jsoftware.com/2023-12-20T04:09:52/clang-16-0-6/SLEEF=1
 NB. JOD put dictionary path: /adnd/docs/futs/gps/play/smugpyter/smugdev/smug/image/barf/mwecc/franklin/cbh/fd/bitjd/joddev/jod/utils
 NB.
 NB. Names & DidNums on current path
 NB. +----+---------------------------------------+
-NB. |adnd|307947170823469943699748317022977231927|
+NB. |adnd|278449684985346842419641141627400465198|
 NB. +----+---------------------------------------+
 
 9!:41 [ 1 NB.{*JOD*}
@@ -56,8 +56,9 @@ zz=:zz,',<<;._1 '' bloggedj Base58frKey65 BuildMirror CheckSmugDups LatexFrW'
 zz=:zz,'ordpress MarkdownFrLatex ParseGenesisBlock SmugDupsFrMD5 betweenstr'
 zz=:zz,'s bonebridge calmoons geotaggedfrtab geotaggedkml gpxfrmapkml histo'
 zz=:zz,'gram histogram2 ipynbfrjod loadanalystmodel loadcontributormodel po'
-zz=:zz,'lyprod repdqchars smugprintsizes smugshotexif titbrandxmp''         '
-zz=:326{.zz
+zz=:zz,'lyprod repdqchars rsvdec rsvenc smugprintsizes smugshotexif titbran'
+zz=:zz,'dxmp''                                                              '
+zz=:340{.zz
 showpass 2 grp&> ". ". 'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 ".soclear NB.{*JOD*}
 
@@ -105,9 +106,9 @@ showpass 2 9 put ". ".'zz_',SOLOCALE,'_' [ cocurrent 'base' NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:fromascii85__MK__JODobj 0 : 0
 1E\P#-p01/0I\P$4>8$7.4cl0/3G:hCi<s!ARoO'.4cl00I/>$/1<VC4"akp+=A:@Ci<s!ARoOU
-F(KAbAU/>>E,o]&Ci<s!ARoO'.4cl00I/>$/1<V7,VUYu-p07=1,CU=1,^aA3&NZT3A`NH0e6Td
-0JYF<0etR<1cR?P3&rfO0ek.l/hnJ(.4cl00I/>$/1<V90JYF<0etX>1cR?P3&rfO0ek1c1,(I>
-0JP=</i5OF3&ioT1GLU6BeD+_1+=b&4>838-p014/1<V8.4cl00I\P80`                 ~>
+F(KAbAU/>>E,o]&Ci<s!ARoO'.4cl00I/>$/1<V7,VUYu-p07=1,CU=1,^aA3&NZT3A`NH0e57E
+3A<'>0fM!K1bgmJ0JbC:1+Huj1*A;#/1<V7,VUYu-p07=1,CU=1,^aA3&NZT3A`NH0e6Td0JYF<
+0etL:1cR?P3&rfO0ek.l/hnJ(.4cl00I\P$4>838-p014/1<V7.4dS9                   ~>
 )
 cocurrent 'base'  NB.{*JOD*}
 puttstamps_ijod_=: (((1;'upgrade JOD')"_)`putallts__MK__JODobj)@.(3 = (4!:0)<'putallts__MK__JODobj') NB.{*JOD*}
