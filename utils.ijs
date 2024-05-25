@@ -1,5 +1,5 @@
-NB. sha256:d5a4d62283d08f307db067e0742be4a97b7837a8ebbd3b521f5d1a84831c0007
-NB. JOD dictionary dump: 20 May 2024 13:38:23
+NB. sha256:7aba522b85e20f7b4502b2b13ae7f2333c0dd8c4b131a9711981ccadf0461fa4
+NB. JOD dictionary dump: 25 May 2024 09:41:34
 NB. Generated with JOD version; 1.1.2 - dev; 2; 14 Feb 2024 10:28:28
 NB. J version: j9.5.2/j64avx2/windows/commercial/www.jsoftware.com/2024-02-02T18:42:49/clang-16-0-6/SLEEF=1
 NB. JOD put dictionary path: /utils
@@ -715,7 +715,7 @@ NB.*comb v-- all size (x) combinations of i.y
 NB.
 NB. dyad:  it =. iaR comb iaN
 NB.
-NB.   3 comb 5            NB. 5 chose 3 combinations
+NB.   3 comb 5            NB. 5 choose 3 combinations
 NB.   (i. >:5) comb&.> 5  NB. note empty and complete 
 
 k=. i.>:d=.y-x
@@ -6215,8 +6215,8 @@ G@PQ/F)Pl++EM77CN+E<+EM7CAT2("BHVA1H=_&<F=/Lg-p0=@3$9t%1,(F?0K([C/iP[F1bgmH
 1G^jB2).'50d&5*0fC^B1,pmG0JtUE1,q*L1a"M,+>PW*3&!*C2_I$I1,Ld@2D[<I+>P&p0JY=:
 0JbC82)-dA0JP7A3B83:+>PW+0ebRA1bL[F1-%0L2D@-L+>Fuo0JPI>1bq$C3&!3F2_m?L2`)X9
 +>PW*2_[!B1+kOF0JYXC0ek@:+>Fuo0JPL?1,:U;3&`NJ1c@6K1cHO3+>PW*2D?sC3%d0E2)7*G
-3&EQN+>k8s0JYI=1GC[=2DI$K3&<?J2`2^4+>PW*2D?sC3%d0E2)7*G3&EQN+>Get1,(I?0JtRF
-/i>FD0etLB0JbR/0d&5*0fC^B1,pmG0JtUE1,q*L1a"M-+>PW*3A<EI2(g^A0ebO?2DI$H+>Fuo
+3&EQN+>k8s0JYI=1GC[=2DI$K3&<?J2`2^4+>PW*2D?sC3%d0E2)7*G3&EQN+>Get1,(I?0JtUC
+/i57;0etL>1,1d30d&5*0fC^B1,pmG0JtUE1,q*L1a"M-+>PW*3A<EI2(g^A0ebO?2DI$H+>Fuo
 0JPI>1bq$C3&!3F2_m?L2`)X33$9t11,(CB1,(=;3B/]I1H%6L3$9pu1,(F@0JkOE/iYOB1,gsJ
 1cI661a"P-1,(F<1GCF>0K1jK2E<ZT2]sgt1,(I;0etO=/iGCC2`!EJ1,Lg10d&5*0fUmC0eb4=
 3AiNJ2`*HQ2BX^s1,(FB0etI;/iPdI1H.!G2)mN;0d&5*0fC^B1,pmG0JtUE1,q*L1a"Rs1,(I=
