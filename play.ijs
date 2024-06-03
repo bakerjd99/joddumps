@@ -1,5 +1,5 @@
-NB. sha256:6254cf1bbd1d3a552ae2eb8d52581e7bf5937c5e67f6e6b4428fa841fa1df3d3
-NB. JOD dictionary dump: 01 Jun 2024 10:44:26
+NB. sha256:450867cf1ff2f26c6f791801f1014d368732fc8bfae490b30bcc45de3fe8432e
+NB. JOD dictionary dump: 03 Jun 2024 15:50:52
 NB. Generated with JOD version; 1.1.2 - dev; 2; 14 Feb 2024 10:28:28
 NB. J version: j9.5.2/j64avx2/windows/commercial/www.jsoftware.com/2024-02-02T18:42:49/clang-16-0-6/SLEEF=1
 NB. JOD put dictionary path: /play/utils
@@ -66,11 +66,11 @@ ROOTWORDSslipslide=:<;._1 ' IFACEWORDSslipslide ROOTWORDSslipslide VMDslipslide 
 
 SlideParms=:<;._1 '|air density (kg/m^3)|drag constant|cross area (m^2)|object mass (kg)|initial velocity (m/sec)'
 
-TileDominoes_hashdateurl=:<;._1 '|8726764f0c740e010762a512272cb4330c53f252c8a27694fbf86f570e070884|01 Jun 2024 10:33:15|https://github.com/bakerjd99/jackshacks/blob/main/TileDominoes.ijs'
+TileDominoes_hashdateurl=:<;._1 '|b41d7602ee9685992d89b9c160f6661e4893a737a7025668639a077b42e280a1|03 Jun 2024 15:35:48|https://github.com/bakerjd99/jackshacks/blob/main/TileDominoes.ijs'
 
 TruthManagement=:34 84 114 117 116 104 32 109 97 110 97 103 101 109 101 110 116 32 105 115 32 101 110 97 98 108 101 100 46 34 10 10 69 120 99 101 114 112 116 32 102 114 111 109 32 105 110 116 101 114 110 97 108 32 98 117 115 105 110 101 115 115 32 100 111 99 117 109 101 110 116 46 32 10{a.
 
-VMDTileDominoes=:'0.8.1';3;'01 Jun 2024 10:33:15'
+VMDTileDominoes=:'0.8.1';5;'03 Jun 2024 15:35:48'
 
 VMDslipslide=:'0.5.2';13;'01 Jun 2024 10:35:48'
 
@@ -1932,7 +1932,7 @@ F_kK.Bl@m1/oY?5%14Nn$4R>PDe!p1Eb0-1+=CW,F(H^.$=e!gDKBB0F<D\R@;9k&-W!T;<*rU=
 Ch6"QD/!m+ATKU]:-pR0:K(5"<,$/[6uQpVDJs*-+E27?F<GOCDe!@"F)Q(O+:SYe$7I)N4")dG
 DIXeO-W<Q3=&Vgh?YO7nA7$]5HRCNq4"!rt:KLIh:L@gNDe*3&.3N\KDfp/@F`\`t7R9C1?W:`U
 AOLHRBl7j#F$2Q,-nlc)+>>5R$;No?+=L3'Ch6"QD/!m+ATK:CBl8$(Eb8`iAKZ28Eb$S>.68S,
-0JYI=2D?k#0ebC>0f9;567sB4/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+%15is/g,7M
+0JYI=2D?q%0f:aE1cPh;67sB4/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+/M/P+%15is/g,7M
 Ch7-qD/!m+ATKOJ+AP6U+E2.*@q?c<GVL=ODf'3+D]j.9Ch7Z1Df-\++>e="+D5_/A.8l@67sC&
 Bl%?kDf'3+De3uE+<XEG/g)uq1a$FOBk/?'Ble?0DJ()(Bl\9:05P'<F<G()Cht5(@;]t$F<G%(
 +EV=6ARlomGp"ke0d(XQ+CoD-Bl7j#Et&IO67sC&Bl%?kDf'3+De3uF+<XEG/g+YBF`):DA8c=!
@@ -3284,8 +3284,8 @@ A7Zm)Ch[j0Ch[Ek0OK-?B-;83BlJ-0Bk1d^BlJ?8@N]`.BlJ-0Bk1d^FCfN8?[?F!+EMX5EccGC
 2`*6E+>G\q1,(I?0JtU?/i>IA1cIEK1-%'30d&5*1,(F:1GCF=1,:dK0K1gC1*A:o1,(I>0etL=
 /i5FG0K1aE1c7$20d&5*1,(F:1GCF=1,:dK0K1gC1*A;-+>PW+1b^dB1bLXD3AWBH1H$pF+>Fuo
 0JY=:0JbC82)6pG3A<BK0esk++>PW+1GLX?3A*3K1cI*E1c[?N+>Fuo0JYF=1,:jB2E!QT2`EZL
-3$9pu1,(I?0K(U>/i5@E2`<NK0K1j30d&5*1,(F:1GCF=1,:dK0K1gC1*A:o1,(I?0K(U>/i5@E
-2`<KL1,1U.0d&5*1,L[C0JP1:1bgjD1,UpL2]sgt1,(I;0etFC/i57;2)m<H2)7*50d&5*1,(F:
+3$9pu1,(I?0K(U@/iGOH3&WNH2`EZ<0d&5*1,(F:1GCF=1,:dK0K1gC1*A:o1,(I?0K(U@/iGOH
+3&WNG0JYO/0d&5*1,L[C0JP1:1bgjD1,UpL2]sgt1,(I;0etFC/i57;2)m<H2)7*50d&5*1,(F:
 1GCF=1,:dK0K1gC1*AFs1,(I=0JY=A/iGOB1,1aH3ANE60d&5*1,(F:1GCF=1,:dK0K1gC1*A;0
 +>PW+1b^dB0eP=?1,1^C2_uR2+>PW+0JP7;0J54<1,h3I2`*6E+>Y,q0JYI=2)7$A1bh!N0JbFC
 0f:(.+>PW+1b^dB1bLXA3B8lM2E3NP+>Fuo0JY=:0JbC82)6pG3A<BK0esk,+>PW+1GLX?3A*3J
@@ -3314,7 +3314,7 @@ A7Zm)Ch[j0Ch[Ek0OK-?B-;83BlJ-0Bk1d^BlJ?8@N]`.BlJ-0Bk1d^FCfN8?[?F!+EMX5EccGC
 2)R3G3&ioW3Ar!80JYF=1,:jB2E<TK0f_$E2)ZR40JYF=1,:^>2DI0J1bq!J2DcO30JY=91GUg?
 2E*QO0JPRB0f:(/0JY=:0JbC82)6pG3AE9D1c$700JY=:1,(^@1c$gA0JY=:1,g=20JY=:0JbC8
 2)6pG3AE9D1c$700JY=:0JbC82)6pG3AE9D1c$700JY=:0JbC82)6pG3AE9D1c$700JY=:0JbC8
-2)6pG3AE9D1c$700JY=:1,1L91H@6L0JG=<2)HF20JYI=2D?j<1c%-N2Dd6G0f1".0JY=:0JbC8
+2)6pG3AE9D1c$700JY=:1,1L91H@6L0JG=<2)HF20JYI=2D?p>2DdER2DQs?1,^710JY=:0JbC8
 2)6pG3AE9D1c$700JYI=2D?j<1c-pE1GUgF3B&'90JY=:0JbC82)6pG3AE9D1c$700JY=:0JbC8
 2)6pG3AE9D1c$700JY=:0JbC82)6pG3AE9D1c$700JY=:0JbC82)6pG3AE9D1c$700JY=:0JbC8
 2)6pG3AE9D1c$700JY=:0JbC82)6pG3AE9D1c$700JY=:0JbC82)6pG3AE9D1c$700JY=:0JbC8
