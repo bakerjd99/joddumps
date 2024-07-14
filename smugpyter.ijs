@@ -1,7 +1,7 @@
-NB. sha256:6745fdc7fce602663f507da8520d5e7a5cbe4e93b3145efaf64bac18e561ceb8
-NB. JOD dictionary dump: 10 Jul 2024 10:21:40
-NB. Generated with JOD version; 1.1.2 - dev; 29; 10 Jul 2024 10:19:44
-NB. J version: j9.5.2/j64avx2/windows/commercial/www.jsoftware.com/2024-02-02T18:42:49/clang-16-0-6/SLEEF=1
+NB. sha256:ac2f01a613477799569163d9f9b6fd1ccdf20485a46fab59c6515b9417e6d0ee
+NB. JOD dictionary dump: 14 Jul 2024 10:03:28
+NB. Generated with JOD version; 1.1.2; 1; 14 Jul 2024 09:56:10
+NB. J version: j9.6.0-beta13/j64avx2/windows/commercial/www.jsoftware.com/2024-07-02T10:16:57/clang-18-1-6/SLEEF=1
 NB. JOD put dictionary path: /smugpyter/utils
 NB.
 NB. Names & DidNums on current path
