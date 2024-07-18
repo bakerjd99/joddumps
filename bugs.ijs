@@ -1,11 +1,13 @@
-NB. JOD dictionary dump: 17 Apr 2021 11:17:37
-NB. Generated with JOD version; 1.0.2; 13; 13 Nov 2020 16:34:19
-NB. J version: j901/j64avx/windows/release-f/commercial/www.jsoftware.com/2020-06-11T15:22:02
+NB. sha256:8c25311e77bb3a2ba5c878afa0b0188724788af142b0e9e0c7040fbf8f100c98
+NB. JOD dictionary dump: 17 Jul 2024 15:11:18
+NB. Generated with JOD version; 1.1.3 - dev; 4; 17 Jul 2024 10:36:06
+NB. J version: j9.6.0-beta13/j64avx2/windows/commercial/www.jsoftware.com/2024-07-02T10:16:57/clang-18-1-6/SLEEF=1
+NB. JOD put dictionary path: /
 NB.
 NB. Names & DidNums on current path
-NB. +----+--------------------------------------+
-NB. |bugs|87446277513027921201695065523063752704|
-NB. +----+--------------------------------------+
+NB. +----+---------------------------------------+
+NB. |bugs|227697518776665324698573187200340626207|
+NB. +----+---------------------------------------+
 
 9!:41 [ 1 NB.{*JOD*}
 cocurrent 'base' NB.{*JOD*}
@@ -30,12 +32,12 @@ smoutput boo=. 'local boo'
 
 v1=. {{ smoutput boo=: 'in v1 boo' 
         v2=. {{ deep=: 'in v2 we deep'    
-                 3 {{ deeper=: 'in v3 we deeper' [ smoutput (i.x) +/ i.y }}  4
+                 3 {{ deeper=: 'in v3 we deeper' [ smoutput (i.x) +/ i.y }}   4
                  smoutput i. y,-y
  }} 
         v2 5
         x * y
- }} 
+ }}
 x v1 y
 )
 
@@ -44,8 +46,8 @@ showpass soput ".'nl_',SOLOCALE,'_ i.4' [ cocurrent 'base' NB.{*JOD*}
 cocurrent SO__JODobj NB.{*JOD*}
 zz=:fromascii85__MK__JODobj 0 : 0
 1E\P#-p0%C-[%1SA7]@#.4cl00I/>$/1<V7,VUYu-p01/0I\P$4>8$7.4cl01,(I<0JkLC/i5L@
-0K(^C0e6Td0JY@:1bgj?1cI*B2D[-D.VULi+>PAs-p01/0I\P$4>8$7.4cl00I/>$/1<V7,VUYu
--p045/1<V7.4cl00I\P$4>8384>6                                              ~>
+0K(^C0eb=4?SX;j0ebF=2(g^E0JGC@1GLR<.VULi+>PAs-p01/0I\P$4>8$7.4cl00I/>$/1<V7
+,VUYu-p045/1<V7.4cl00I\P$4>8384>6                                         ~>
 )
 cocurrent 'base'  NB.{*JOD*}
 puttstamps_ijod_=: (((1;'upgrade JOD')"_)`putallts__MK__JODobj)@.(3 = (4!:0)<'putallts__MK__JODobj') NB.{*JOD*}
