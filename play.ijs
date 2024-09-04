@@ -1,7 +1,7 @@
-NB. sha256:89027e981ed06faf216266dfca828e61806bf7130567d1b139d5ed65166452a1
-NB. JOD dictionary dump: 12 Aug 2024 13:31:09
-NB. Generated with JOD version; 1.1.3 - dev; 10; 10 Aug 2024 11:19:03
-NB. J version: j9.6.0-beta16/j64avx2/windows/commercial/www.jsoftware.com/2024-08-09T21:00:58/clang-18-1-8/SLEEF=1
+NB. sha256:38bc6a8e2857210cbe0601ef01ae6e9e24f9e214ba36d5bbb6f0d1e72f126533
+NB. JOD dictionary dump: 04 Sep 2024 13:30:23
+NB. Generated with JOD version; 1.1.3 - dev; 13; 02 Sep 2024 13:02:43
+NB. J version: j9.6.0-beta17/j64avx2/windows/commercial/www.jsoftware.com/2024-08-31T21:32:22/clang-18-1-8/SLEEF=1
 NB. JOD put dictionary path: /play/utils
 NB.
 NB. Names & DidNums on current path
