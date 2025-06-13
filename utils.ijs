@@ -1,7 +1,7 @@
-NB. sha256:befc0e537fcbe1c2deb290a0eb9c4d7d4f50f50b02980a5824f1f2f735a9407c
-NB. JOD dictionary dump: 06 Apr 2025 14:15:20
-NB. Generated with JOD version; 1.1.3 - dev; 32; 06 Apr 2025 12:38:55
-NB. J version: j9.7.0-beta3/j64avx2/windows/commercial/www.jsoftware.com/2025-04-03T02:39:53/clang-18-1-8/SLEEF=1
+NB. sha256:1a77a1bbed33176cfc6ef65e96dcd31adb9a2053cb25b947a7a1963da355de9d
+NB. JOD dictionary dump: 13 Jun 2025 10:58:13
+NB. Generated with JOD version; 1.1.3 - dev; 39; 20 Apr 2025 15:46:08
+NB. J version: j9.6.3/j64avx2/windows/commercial/www.jsoftware.com/2025-04-05T16:39:54/clang-18-1-8/SLEEF=1
 NB. JOD put dictionary path: /utils
 NB.
 NB. Names & DidNums on current path
@@ -1454,7 +1454,7 @@ fsd=:4 : 0
 
 NB.*fsd v-- fetch sqlite dictionary array.
 NB.
-NB. dyad:  clSql fsd clDb
+NB. dyad:  bt =. clSql fsd clDb
 NB.
 NB.   trg=. 'c:/smugmirror/documents/xrefdb/mirror.db'
 NB.   sql=. 'select ImageKey, OriginalWidth, OriginalHeight, OnlineImageFile, Keywords from OnlineImage'
@@ -6244,8 +6244,8 @@ BQ&*)Df0W7Ch4`1Bl7^*F`\aIBmO?0@<?0*F(or3E-67M.4cl01bpj01*eV/0f:XC1,LUB2Dd6F
 1,gsJ1cI663?U(21,(C?1,ggC2E*NJ0ekOG1*A:o1,(F@0JkOE/iYOB1,gsJ1cI661*A>+1,(C@
 0Jb==0K(gJ0JkaI1*A:o1,(F@0JkOE/iYOB1,gsJ1cI660d&5*1,(F;1,1C=2)RBS3A<0E2'=Ur
 1,(F@0JkOE/iYOB1,gsJ1cI661E\G,1,(C@0Jb==0K1mE1bga>3$9pu1,(F@0JkOE/iYOB1,gsJ
-1cI661*A>+1,(C=0JkC>0fV0K1H.6L1a"Lq1,(F@0JkOE/iYOB1,gsJ1cI662]sk01,(C:1,(=>
-2)@*K3&<QK3?U%!1,(F@0JkOE/iYOB1,gsJ1cI660d&5*1,(C:1,(=>2)R6L3&r`O1E\Cp1,(F@
+1cI661*A>+1,(C=0JkC>0fV0K1H.6L1a"Lq1,(F@0JkOE/iYOB1,gsJ1cI662]sk01,UaD0f(F=
+2)R6J1,_'H1a"Lq1,(F@0JkOE/iYOB1,gsJ1cI660d&5*1,(C:1,(=>2)R6L3&r`O1E\Cp1,(F@
 0JkOE/iYOB1,gsJ1cI661E\G,1,L[>0K(O@2DR3M3B0#W+>Fuo0JPI>1bq$C3&!3F2_m?L2`)X7
 +>PW+1b^X<2D-jF1GgmE3&NBH+>Fuo0JYI=0ebL<2)[9F2_[6O1cHO3+>PW+1b^X<2D-jF1c[9E
 3&NQJ+>Fuo0JYI=0ebL<2)[<K1cI6G3B83:+>PW*2D?sC3%d0E2)7*G3&EQN+>Fuo0JYI=0ebL<
