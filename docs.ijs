@@ -1,5 +1,5 @@
-NB. sha256:5c1416fb51bf86c89287058c09c4adda6a7ee8299dca4c57c45127bbb84aaf3b
-NB. JOD dictionary dump: 02 Dec 2025 17:01:22
+NB. sha256:d55b24e80d5be0750a7727e05f315b81eb269643db0a90fd488a7c627b3a0646
+NB. JOD dictionary dump: 11 Dec 2025 12:38:30
 NB. Generated with JOD version; 1.1.3 - dev; 39; 20 Apr 2025 15:46:08
 NB. J version: j9.6.3/j64avx2/windows/commercial/www.jsoftware.com/2025-04-05T16:39:54/clang-18-1-8/SLEEF=1
 NB. JOD put dictionary path: /docs/utils
